@@ -1,0 +1,1 @@
+{"Spacecraft":2,"ProjectName":"OrbitingSEF","Group":"ORBITING","Name":"SEF","Side":0,"SortPriority":33,"checklistText":"1. Platform Mode: SEF\n2. Attitude Control Mode: PLAT\n3. OAMS or RCS enabled","Steps":[{"Program":2,"Type":3,"SetID":5,"ToPosID":2,"Text":null},{"Program":2,"Type":3,"SetID":4,"ToPosID":6,"Text":null}],"Images":[]}

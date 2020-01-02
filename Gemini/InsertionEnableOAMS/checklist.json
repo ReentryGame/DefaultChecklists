@@ -1,0 +1,1 @@
+{"Spacecraft":2,"ProjectName":"InsertionEnableOAMS","Group":"INSERTION","Name":"ENABLE OAMS","Side":0,"SortPriority":21,"checklistText":"1. OAMS Control Power, ON\n2. OAMS Prop Motor Valves, OPEN","Steps":[{"Program":2,"Type":1,"SetID":31,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":58,"ToPosID":4,"Text":null}],"Images":[]}

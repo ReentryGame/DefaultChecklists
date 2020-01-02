@@ -1,0 +1,1 @@
+{"Spacecraft":2,"ProjectName":"OrbitingBEF","Group":"ORBITING","Name":"BEF","Side":0,"SortPriority":34,"checklistText":"1. Platform Mode: BEF\n2. Attitude Control Mode: PLAT\n3. OAMS or RCS enabled","Steps":[{"Program":2,"Type":3,"SetID":5,"ToPosID":4,"Text":null},{"Program":2,"Type":3,"SetID":4,"ToPosID":6,"Text":null}],"Images":[]}

@@ -1,0 +1,1 @@
+{"Spacecraft":2,"ProjectName":"RadioSetHF","Group":"RADIO","Name":"SET HF","Side":1,"SortPriority":11,"checklistText":"1. HF Antenna Control - EXT\r\n2. Radio Antenna Select - RNTY\r\n3. Radio Mode (A or B) - HF","Steps":[{"Program":2,"Type":1,"SetID":202,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":201,"ToPosID":4,"Text":null}],"Images":[]}

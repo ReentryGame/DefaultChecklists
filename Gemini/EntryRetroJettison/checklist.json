@@ -1,0 +1,1 @@
+{"Spacecraft":2,"ProjectName":"EntryRetroJettison","Group":"ENTRY","Name":"RETRO JETTISON","Side":0,"SortPriority":43,"checklistText":"1. Retro Jettison Squib, ARM\n\nWhen JETT RETRO glows:\n2. JETT RETRO, PRESS","Steps":[{"Program":2,"Type":1,"SetID":4,"ToPosID":4,"Text":null},{"Program":2,"Type":4,"SetID":9,"ToPosID":0,"Text":null}],"Images":[]}
