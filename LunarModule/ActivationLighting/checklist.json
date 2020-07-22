@@ -1,1 +1,173 @@
-{"Spacecraft":1,"ProjectName":"ActivationLighting","Group":"ACTIVATION","Name":"LIGHTING","Side":0,"SortPriority":116,"checklistText":"<size=21>LIGHTING ACTIVATION & CHECKOUT</size>\r\n\r\n1.\r\nPANEL 3:\r\n\tLTG:\r\n\t\tSIDE PANELS sw - ON\r\n\t\tFLOOD sw - OVHD/FWD. then OFF, then ALL\r\n\t\tFLOOD cont - BRIGHT, then DIM, then adjust as desired\r\n\t\tEXTERIOR LTG sw - TRACK, then DOCK, then OFF\r\n\r\n2.\r\nPANEL 5:\r\n\tLTG:\r\n\t\tFLOOD cont - BRIGHT, then DIM, then adjust as desired\r\n\t\tANUN/NUM cont - BRIGHT, then DIM\r\n\t\tOVERRIDE ANUN sw - ON, then OFF\r\n\t\tOVERRIDE NUM sw - ON, then OFF\r\n\t\tANUN/NUM cont - adjust as desired\r\n\t\tINTEGRAL cont - BRIGHT, then DIM\r\n\t\tSIDE PANELS sw - ON\r\n\t\tOVERRIDE INTEGRAL sw - ON, then OFF\r\n\t\tINTEGRAL cont - adjust as desired\r\n\t\t* Configure side panels lights as desired\r\n\r\n\r\n<size=21>UTILITY LIGHTS ACTIVATION & CHECKOUT</size>\r\nNot yet implemented\r\n\r\n<size=21>AOT LIGHTING CHECK</size>\r\nNot yet implemented\r\n\r\n<size=21>COAS LIGHTING CHECK</size>\r\nNot yet implemented","Steps":[{"Program":1,"Type":1,"SetID":89,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":90,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":90,"ToPosID":2,"Text":null},{"Program":1,"Type":1,"SetID":90,"ToPosID":5,"Text":null},{"Program":1,"Type":3,"SetID":8,"ToPosID":10,"Text":null},{"Program":1,"Type":3,"SetID":8,"ToPosID":0,"Text":null},{"Program":1,"Type":1,"SetID":91,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":91,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":91,"ToPosID":2,"Text":null},{"Program":1,"Type":3,"SetID":12,"ToPosID":10,"Text":null},{"Program":1,"Type":3,"SetID":12,"ToPosID":0,"Text":null},{"Program":1,"Type":3,"SetID":13,"ToPosID":10,"Text":null},{"Program":1,"Type":3,"SetID":13,"ToPosID":0,"Text":null},{"Program":1,"Type":1,"SetID":135,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":135,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":134,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":134,"ToPosID":5,"Text":null},{"Program":1,"Type":3,"SetID":14,"ToPosID":10,"Text":null},{"Program":1,"Type":3,"SetID":14,"ToPosID":0,"Text":null},{"Program":1,"Type":1,"SetID":132,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":133,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":133,"ToPosID":5,"Text":null},{"Program":1,"Type":0,"SetID":0,"ToPosID":0,"Text":"Configure lighting as desired"}],"Images":[]}
+{
+    "Group": "ACTIVATION",
+    "Images": [],
+    "Name": "LIGHTING",
+    "ProjectName": "ActivationLighting",
+    "Side": 0,
+    "SortPriority": 116,
+    "Spacecraft": 1,
+    "Steps": [
+        {
+            "Program": 1,
+            "SetID": 89,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 90,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 90,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 90,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 8,
+            "Text": null,
+            "ToPosID": 10,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 8,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 91,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 91,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 91,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 12,
+            "Text": null,
+            "ToPosID": 10,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 12,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 13,
+            "Text": null,
+            "ToPosID": 10,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 13,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 135,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 135,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 134,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 134,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 10,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 132,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 133,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 133,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 0,
+            "Text": "Configure lighting as desired",
+            "ToPosID": 0,
+            "Type": 0
+        }
+    ],
+    "checklistText": "<size=21>LIGHTING ACTIVATION & CHECKOUT</size>\r\n\r\n1.\r\nPANEL 3:\r\n\tLTG:\r\n\t\tSIDE PANELS sw - ON\r\n\t\tFLOOD sw - OVHD/FWD. then OFF, then ALL\r\n\t\tFLOOD cont - BRIGHT, then DIM, then adjust as desired\r\n\t\tEXTERIOR LTG sw - TRACK, then DOCK, then OFF\r\n\r\n2.\r\nPANEL 5:\r\n\tLTG:\r\n\t\tFLOOD cont - BRIGHT, then DIM, then adjust as desired\r\n\t\tANUN/NUM cont - BRIGHT, then DIM\r\n\t\tOVERRIDE ANUN sw - ON, then OFF\r\n\t\tOVERRIDE NUM sw - ON, then OFF\r\n\t\tANUN/NUM cont - adjust as desired\r\n\t\tINTEGRAL cont - BRIGHT, then DIM\r\n\t\tSIDE PANELS sw - ON\r\n\t\tOVERRIDE INTEGRAL sw - ON, then OFF\r\n\t\tINTEGRAL cont - adjust as desired\r\n\t\t* Configure side panels lights as desired\r\n\r\n\r\n<size=21>UTILITY LIGHTS ACTIVATION & CHECKOUT</size>\r\nNot yet implemented\r\n\r\n<size=21>AOT LIGHTING CHECK</size>\r\nNot yet implemented\r\n\r\n<size=21>COAS LIGHTING CHECK</size>\r\nNot yet implemented"
+}

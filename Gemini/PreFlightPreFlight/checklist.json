@@ -1,1 +1,229 @@
-{"Spacecraft":2,"ProjectName":"PreFlightPreFlight","Group":"PRE-FLIGHT","Name":"PRE-FLIGHT","Side":0,"SortPriority":10,"checklistText":"1. Main Batteries #1 to #4, ON\n2. Squib Batteries #1 to #3, ON\n3. Fuel Cell Stack 1A to 2C, ON\n4. Fuel Cell Section 1 Power, ON\n5. Fuel Cell Section 2 Power, ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, ON\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, ON\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. Wait for Computer pre-check completion\n18. Computer: ASCENT module\n","Steps":[{"Program":2,"Type":1,"SetID":10,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":11,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":12,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":13,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":14,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":15,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":16,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":23,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":24,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":25,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":26,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":27,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":28,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":20,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":22,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":37,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":35,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":36,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":2,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":6,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":7,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":8,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":9,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":44,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":45,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":46,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":47,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":48,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":40,"ToPosID":5,"Text":null},{"Program":2,"Type":3,"SetID":6,"ToPosID":1,"Text":null},{"Program":2,"Type":0,"SetID":0,"ToPosID":0,"Text":"Perform a Radio Check"}],"Images":[]}
+{
+    "Group": "PRE-FLIGHT",
+    "Images": [],
+    "Name": "PRE-FLIGHT",
+    "ProjectName": "PreFlightPreFlight",
+    "Side": 0,
+    "SortPriority": 10,
+    "Spacecraft": 2,
+    "Steps": [
+        {
+            "Program": 2,
+            "SetID": 10,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 11,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 12,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 13,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 16,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 23,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 24,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 25,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 26,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 27,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 28,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 20,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 22,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 37,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 35,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 36,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 2,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 6,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 7,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 8,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 9,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 44,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 45,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 46,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 47,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 48,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 40,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 6,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Perform a Radio Check",
+            "ToPosID": 0,
+            "Type": 0
+        }
+    ],
+    "checklistText": "1. Main Batteries #1 to #4, ON\n2. Squib Batteries #1 to #3, ON\n3. Fuel Cell Stack 1A to 2C, ON\n4. Fuel Cell Section 1 Power, ON\n5. Fuel Cell Section 2 Power, ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, ON\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, ON\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. Wait for Computer pre-check completion\n18. Computer: ASCENT module\n"
+}

@@ -1,1 +1,33 @@
-{"Spacecraft":2,"ProjectName":"LandingLanding","Group":"LANDING","Name":"Landing","Side":1,"SortPriority":41,"checklistText":"Verify LANDING SQUIB, ARM\n\nWHEN 40k ILLUMINATES\n1. HI ALT DROGUE, PRESS\n\nWHEN 10.6k ILLUMINATES\n2. PARA, PRESS\n\nWHEN AT 500ft ALT\n3. LDG ATT, PRESS","Steps":[{"Program":2,"Type":4,"SetID":30,"ToPosID":0,"Text":null},{"Program":2,"Type":4,"SetID":31,"ToPosID":0,"Text":null},{"Program":2,"Type":4,"SetID":32,"ToPosID":0,"Text":null}],"Images":[]}
+{
+    "Group": "LANDING",
+    "Images": [],
+    "Name": "Landing",
+    "ProjectName": "LandingLanding",
+    "Side": 1,
+    "SortPriority": 41,
+    "Spacecraft": 2,
+    "Steps": [
+        {
+            "Program": 2,
+            "SetID": 30,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 4
+        },
+        {
+            "Program": 2,
+            "SetID": 31,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 4
+        },
+        {
+            "Program": 2,
+            "SetID": 32,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 4
+        }
+    ],
+    "checklistText": "Verify LANDING SQUIB, ARM\n\nWHEN 40k ILLUMINATES\n1. HI ALT DROGUE, PRESS\n\nWHEN 10.6k ILLUMINATES\n2. PARA, PRESS\n\nWHEN AT 500ft ALT\n3. LDG ATT, PRESS"
+}

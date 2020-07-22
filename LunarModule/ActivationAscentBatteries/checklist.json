@@ -1,1 +1,285 @@
-{"Spacecraft":1,"ProjectName":"ActivationAscentBatteries","Group":"ACTIVATION","Name":"ASCENT BATTERIES","Side":0,"SortPriority":121,"checklistText":"<size=21>ASCENT BATTERY ACTIVATION & CHECKOUT</size>\r\n\r\n1.\r\nPANEL 11:\r\n\tCB EPS:\r\n\t\tASC ECA CONT - close\r\n\t\tASC ECA - close\r\n\r\n2.\r\nPANEL 16:\r\n\tCB EPS:\r\n\t\tASC ECA - close\r\n\t\tASC ECA CONT - close\r\n\r\n3. Check lunar battery and place both ascent batteries on line:\r\nPANEL 14:\r\n\tEPS:\r\n\t\tPOWER/TEMP MON sel - LUNAR BAT\r\n\t\tVOLTS ind - 37.0 to 37.2 vdc\r\n\t\tAMPS ind - 0 amp\r\n\t\tLMP LUNAR BAT sw - OFF/RESET; tb - bp; then, ON; tb - LMP\r\n\t\tPOWER/TEMP MON sel - LUNAR BAT\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tLMP LUNAR BAT sw - OFF/RESET; tb - bp\r\n\t\tPOWER/TEMP MON sel - BAT 5\r\n\t\tVOLTS ind - 37.0 to 37.2 vdc\r\n\t\tAMPS ind - 0 amp\r\n\t\tBAT 5 NORMAL LMP FEED sw - ON; tb - gray\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tLMP BAT 1 HI V sw - OFF/RESET; tb - bp\r\n\t\tCDR LUNAR BAT sw - OFF/RESET; tb - bp, then ON; tb - CDR\r\n\t\tPOWER/TEMP MON sel - LUNAR BAT\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tCDR LUNAR BAT sw - OFF/RESET; tb - bp\r\n\t\tPOWER/TEMP MODE sel - BAT 6\r\n\t\tVOLTS ind - 37.0 to 37.2 vdc\r\n\t\tAMPS ind - 0 amp\r\n\t\tBAT 6 NORMAL CDR FEED sw - ON; tb - gray\r\n\t\tVOLTS int - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tCDR BAT 4 HI V sw - OFF/RESET; tb - bp\r\n\t\tPWR/TEMP MON sel - LMP bus, then CDR bus\r\n\t\tVOLTS ind - 26.5 to 32.5 vdc\r\n\r\n\t\t\t\tCAUTION\r\n\t\t\tTo avoid transients, remove descent\r\n\t\t\tbatteries, one at a time, from line at\r\n\t\t\tintervals of no less than 3 sec.\r\n\t\t\r\n4. Check backup feed path from both ascent batteries:\r\n\tEPS:\r\n\t\tBAT 5 BACK UP CDR FEED sw - ON; tb - gray\r\n\t\tBAT 6 BACK UP LMP FEED sw - ON; tb - gray\r\n\t\tBAT 5 NORMAL LMP FEED sw - OFF/RESET; tb - bp\r\n\t\tBAT 6 NORMAL CDR FEED sw - OFF/RESET; tb - bp\r\n\t\tPOWER/TEMP MON sel - CDR BUS then LMP bus\r\n\t\tVOLTS ind - 26.5 to 32.5 vdc\r\n\r\n5. Place all four descent batteries on line:\r\n\tEPS:\r\n\t\tLMP BAT 1 HI VOLT & 2 sw - ON; tb - gray\r\n\t\tCDR BAT 3 and 5 HI VOLT sw - ON; tb -gray\r\n\t\tPOWER/TEMP MON sel - BAT 1\r\n\t\tAMPS ind - TBD\r\n\t\tRepeat for BAT 2, BAT3 & BAT 4\r\n\r\n6. Remove both ascent batteries from line:\r\n\tEPS:\r\n\t\tBAT 5 BACK UP CDR FEED sw - OFF/RESET; tb - bp\r\n\t\tBAT 6 BACK UP SE FEED sw - OFF/RESET; tb - bp\r\n\r\nElectrical Power Subsystem is now in normal descent battery configuration.\r\n\r\n7.\r\nPANEL 16:\tCB EPS: ASC ECA CONT - open\r\n\r\n8.\r\nPANEL 11:\tCB EPS: ASC ECA CONT - open\r\n\r\n","Steps":[{"Program":1,"Type":2,"SetID":25,"ToPosID":2,"Text":null},{"Program":1,"Type":2,"SetID":26,"ToPosID":2,"Text":null},{"Program":1,"Type":2,"SetID":9,"ToPosID":2,"Text":null},{"Program":1,"Type":2,"SetID":8,"ToPosID":2,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":10,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":10,"ToPosID":4,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":10,"ToPosID":5,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":6,"Text":null},{"Program":1,"Type":1,"SetID":12,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":4,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":9,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":9,"ToPosID":4,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":9,"ToPosID":5,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":7,"Text":null},{"Program":1,"Type":1,"SetID":14,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":7,"ToPosID":5,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":8,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":9,"Text":null},{"Program":1,"Type":1,"SetID":14,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":12,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":13,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":15,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":12,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":14,"ToPosID":5,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":8,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":9,"Text":null},{"Program":1,"Type":1,"SetID":3,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":5,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":6,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":7,"ToPosID":4,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":1,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":2,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":3,"Text":null},{"Program":1,"Type":3,"SetID":1,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":15,"ToPosID":5,"Text":null},{"Program":1,"Type":1,"SetID":13,"ToPosID":5,"Text":null}],"Images":[]}
+{
+    "Group": "ACTIVATION",
+    "Images": [],
+    "Name": "ASCENT BATTERIES",
+    "ProjectName": "ActivationAscentBatteries",
+    "Side": 0,
+    "SortPriority": 121,
+    "Spacecraft": 1,
+    "Steps": [
+        {
+            "Program": 1,
+            "SetID": 25,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 26,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 9,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 8,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 10,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 10,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 10,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 6,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 12,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 4,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 9,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 9,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 9,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 7,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 7,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 8,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 9,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 12,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 13,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 12,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 8,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 9,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 3,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 5,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 6,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 7,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 3
+        },
+        {
+            "Program": 1,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 13,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        }
+    ],
+    "checklistText": "<size=21>ASCENT BATTERY ACTIVATION & CHECKOUT</size>\r\n\r\n1.\r\nPANEL 11:\r\n\tCB EPS:\r\n\t\tASC ECA CONT - close\r\n\t\tASC ECA - close\r\n\r\n2.\r\nPANEL 16:\r\n\tCB EPS:\r\n\t\tASC ECA - close\r\n\t\tASC ECA CONT - close\r\n\r\n3. Check lunar battery and place both ascent batteries on line:\r\nPANEL 14:\r\n\tEPS:\r\n\t\tPOWER/TEMP MON sel - LUNAR BAT\r\n\t\tVOLTS ind - 37.0 to 37.2 vdc\r\n\t\tAMPS ind - 0 amp\r\n\t\tLMP LUNAR BAT sw - OFF/RESET; tb - bp; then, ON; tb - LMP\r\n\t\tPOWER/TEMP MON sel - LUNAR BAT\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tLMP LUNAR BAT sw - OFF/RESET; tb - bp\r\n\t\tPOWER/TEMP MON sel - BAT 5\r\n\t\tVOLTS ind - 37.0 to 37.2 vdc\r\n\t\tAMPS ind - 0 amp\r\n\t\tBAT 5 NORMAL LMP FEED sw - ON; tb - gray\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tLMP BAT 1 HI V sw - OFF/RESET; tb - bp\r\n\t\tCDR LUNAR BAT sw - OFF/RESET; tb - bp, then ON; tb - CDR\r\n\t\tPOWER/TEMP MON sel - LUNAR BAT\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tCDR LUNAR BAT sw - OFF/RESET; tb - bp\r\n\t\tPOWER/TEMP MODE sel - BAT 6\r\n\t\tVOLTS ind - 37.0 to 37.2 vdc\r\n\t\tAMPS ind - 0 amp\r\n\t\tBAT 6 NORMAL CDR FEED sw - ON; tb - gray\r\n\t\tVOLTS int - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\t\tCDR BAT 4 HI V sw - OFF/RESET; tb - bp\r\n\t\tPWR/TEMP MON sel - LMP bus, then CDR bus\r\n\t\tVOLTS ind - 26.5 to 32.5 vdc\r\n\r\n\t\t\t\tCAUTION\r\n\t\t\tTo avoid transients, remove descent\r\n\t\t\tbatteries, one at a time, from line at\r\n\t\t\tintervals of no less than 3 sec.\r\n\t\t\r\n4. Check backup feed path from both ascent batteries:\r\n\tEPS:\r\n\t\tBAT 5 BACK UP CDR FEED sw - ON; tb - gray\r\n\t\tBAT 6 BACK UP LMP FEED sw - ON; tb - gray\r\n\t\tBAT 5 NORMAL LMP FEED sw - OFF/RESET; tb - bp\r\n\t\tBAT 6 NORMAL CDR FEED sw - OFF/RESET; tb - bp\r\n\t\tPOWER/TEMP MON sel - CDR BUS then LMP bus\r\n\t\tVOLTS ind - 26.5 to 32.5 vdc\r\n\r\n5. Place all four descent batteries on line:\r\n\tEPS:\r\n\t\tLMP BAT 1 HI VOLT & 2 sw - ON; tb - gray\r\n\t\tCDR BAT 3 and 5 HI VOLT sw - ON; tb -gray\r\n\t\tPOWER/TEMP MON sel - BAT 1\r\n\t\tAMPS ind - TBD\r\n\t\tRepeat for BAT 2, BAT3 & BAT 4\r\n\r\n6. Remove both ascent batteries from line:\r\n\tEPS:\r\n\t\tBAT 5 BACK UP CDR FEED sw - OFF/RESET; tb - bp\r\n\t\tBAT 6 BACK UP SE FEED sw - OFF/RESET; tb - bp\r\n\r\nElectrical Power Subsystem is now in normal descent battery configuration.\r\n\r\n7.\r\nPANEL 16:\tCB EPS: ASC ECA CONT - open\r\n\r\n8.\r\nPANEL 11:\tCB EPS: ASC ECA CONT - open\r\n\r\n"
+}

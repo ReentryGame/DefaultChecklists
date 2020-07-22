@@ -1,1 +1,10 @@
-{"Spacecraft":1,"ProjectName":"PoweredDescentP68","Group":"LUNAR DESCENT","Name":"P68 - LANDING CONFIRMATION","Side":0,"SortPriority":205,"checklistText":"LANDING CONFIRMATION PROGRAM (P68)\r\n\r\n1.\tIf not yet done, key V37E 68E\r\n\r\n2.\tFL V06 N43 - LM landing position\r\n\t\tR1 Latitude\tXXX.XX°\r\n\t\tR2 Longitude\tXXX.XX°\r\n\t\tR3 Altitude\t\tXXXX.X nm\r\n\r\n\tRecord LM landing position data.\r\n\r\n\tKey PRO\r\n\tP00 automatically started\r\n\r\nPanel 1:\r\n3.\tDES ENG CMD OVRD sw - OFF\r\n","Steps":[]}
+{
+    "Group": "LUNAR DESCENT",
+    "Name": "P68 - LANDING CONFIRMATION",
+    "ProjectName": "PoweredDescentP68",
+    "Side": 0,
+    "SortPriority": 205,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "LANDING CONFIRMATION PROGRAM (P68)\r\n\r\n1.\tIf not yet done, key V37E 68E\r\n\r\n2.\tFL V06 N43 - LM landing position\r\n\t\tR1 Latitude\tXXX.XX\u00c2\u00b0\r\n\t\tR2 Longitude\tXXX.XX\u00c2\u00b0\r\n\t\tR3 Altitude\t\tXXXX.X nm\r\n\r\n\tRecord LM landing position data.\r\n\r\n\tKey PRO\r\n\tP00 automatically started\r\n\r\nPanel 1:\r\n3.\tDES ENG CMD OVRD sw - OFF\r\n"
+}

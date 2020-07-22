@@ -1,1 +1,96 @@
-{"Spacecraft":0,"ProjectName":"AscentBoost","Group":"ASCENT","Name":"BOOST","Side":0,"SortPriority":201,"checklistText":"<size=21>BOOST</size>\n-00:09\tIgnition CMD\n-00:01\tL/V ENGINES lts (5) - out\n 00:00\tLIFTOFF lt - on\n\n\t\t\t*LIFTOFF VERIFIED:\t\t\t\t\t*\n\t\t\t*  If LIFTOFF lt off - push\t\t*\n\t\t\t*  If NO AUTO ABORT lt on - push\t*\n\n\t\tClock running (auto) - report\n\t\tMET Resets & starts counting up (auto)\n\t\tP11 auto\n\n\t\t\t*NO P11 - Key ENTR\t\t\t*\n\t\t\t*START DET & RESET MET\t*\n\t\t06 62 VI, H DOT, H PAD (fps, fps, .1nm)\n\t\t\t*If LV GUID & LV RATE lts-on\t*\n\t\t\t* LV GUID - CMC\t \t\t\t\t*\n\n+00:02\tYaw Mnvr - report\n+00:11\tRoll & Pitch Program - report\n+00:30\tRoll complete - report\n\n+00:42\tMODE IB - report\n\t\tPRPLNT DUMP - RCS CMD\n+00:50\tMonitor qα to T+02:00\n\t\t(100%, 5° Att error)\n\n\t\tCABIN PRESSURE DECREASING ~14K(2.3nm)\n\t\t\t* NO PRESSURE DECREASE ~25K(4.1nm)\t*\n\t\t\t*  CAB PRESS RELIEF vlv(RH)-DUMP\t*\n+01:21\tMAX Q\n+01:54\tMODE IC - report\n\t\tV82E, N62E\n+02:00\tEDS AUTO - OFF\n\t\t2 ENG OUT - OFF\n\t\tLV RATES - OFF\n\t\tLV RATE lt disabled as IU failure cue\n\n\t\tGO/NO GO FOR STAGING - report\n+02:16\tINBOARD CUTOFF - (lt 5 on)\n\t\tLIFTOFF lt - out\n+02:39\tCMC BOOST Polynomial ends\n+02:39\tOUTBOARD CUTOFF - report (lts on)\n+02:40\tSIC/SII STAGING (lts - out)\n+02:41\tSII Ign Command (lts on)\n\t\tSII SEP lt - on\n+02:42\tSII 65% - lts out\n\n+03:10\tSII SEP lt - out\treport\n\n+03:15\tTWR JETT (2) - on (up) (TFF>1+20)\n\t\t\t*For MAN BOOSTER CONTROL\t*\n\t\t\t*  LV GUID - CMC\t\t\t*\n\t\t\t*  Key V46E\t\t\t\t\t*\n\t\tα/Pc sw - Pc\n\t\tMAN ATT PITCH - RATE CMD\n\t\tTwr Jett & MODE II - Report\n\t\tGLY EVAP STEAM PRESS - AUTO\n\t\tGLY EVAP H2O FLOW - AUTO\n\n+03:20\tGuidance Initiate - report (OECO +41sec)\n+03:50\tGuidance Good\n+04:00\tReport Status\n+05:00\tReport Status\n+06:00\tReport Status\n+06:00\tSIVB to COI\n\t\tGMBL MOT (4) - START - ON (LMP Confirm)\n\t\tCheck GPI\n\t\t\tLV/SPS IND - GPI (Momentarily)\n\t\t\tPITCH = -0.70°\n\t\t\tYAW = +1.90°\n+06:15\tOMNI ANT\t- D (AZ < 96°)\n\t\t- C (AC > 96°)\n+06:55\tSIVB to orbit\n+07:00\tReport Status\n+07:39\tIECO (lt 5 - on)\n+07:59\tPU SHIFT\n+08:00\tReport Status\n+08:30\tGO/NO GO FRO STAGING - report\n+08:35\tLevel sense arm____\n+09:00\tMove IV - Report\n\t\tReport Status\n+09:10\tOECO (lts on)\n+09:11\tSII Staging - lts out\n+09:12\tSIVB Ign Cmd - lt on\n+09:14\tSIVB 65% - lt out\n\n+10:00\tGO/NO GO FOR ORBIT report\n\n+11:00\tReport Status\n+11:45\tSECO (lt on) - report\n\t\t(Begin TB5)\n\n\t\t\t*If LV GUID - CMC\t\t\t\t*\n\t\t\t*LV STAGE sw - SII/SIVB\t\t\t*\n\t\t\t*SECO\t\t\t\t\t\t\t*\n\t\t\t*LV ENG 1 lt - on\t\t\t\t*\n\t\t\t*Begin TB5\t\t\t\t\t\t*\n\n\t\t\t*If no SECO, (VI +100fps\t\t\t*\n\t\t\t*LV STAGE sw - SII/SIVB\t\t\t*\n\t\t\t*If still no SECO, THC\t\t\t*\n\t\t\t*  CCW & neutral in 1 sec\t\t*\n+11:55\tINSERTION - lt out (TB5 + 10 sec)\n\n\t\t\tRecord  VI_____\t\t(fps)\n\t\t\t\t\tH DOT_____\t(fps)\n\t\t\t\t\tH PAD_____\t(.1nm)\n\t\t\tKEY RLSE\n\t\t\t\tRecord\t\tHA____\t\t(.1nm)\n\t\t\t\t\t\t\tHP____\t\t(.1nm)\n\t\t\t\t\t\t\tTFF___\t\t(min-sec)\t\t\n\t\t\tPRO\n\t\tV37E 00E\n\t\tWhen CMC ACTY lt out:\n\t\tV66E\n\t\tV45E\n\t\tVerify DAP load, V48:\t\tR1 = 31102, R2 = 01111\n\t\tV46E\t\t\t\t\t\tCSM WT _____\n\t\tV83E (check o)\t\t\t\tP TRIM ______\n\t\tPRO\t\t\t\t\t\t\tY TRIM_______","Steps":[{"Program":0,"Type":1,"SetID":40,"ToPosID":5,"Text":null},{"Program":0,"Type":1,"SetID":51,"ToPosID":5,"Text":null},{"Program":0,"Type":1,"SetID":41,"ToPosID":5,"Text":null},{"Program":0,"Type":1,"SetID":42,"ToPosID":5,"Text":null},{"Program":0,"Type":1,"SetID":45,"ToPosID":5,"Text":null},{"Program":0,"Type":1,"SetID":110,"ToPosID":2,"Text":null},{"Program":0,"Type":1,"SetID":181,"ToPosID":4,"Text":null},{"Program":0,"Type":1,"SetID":177,"ToPosID":4,"Text":null},{"Program":0,"Type":1,"SetID":118,"ToPosID":4,"Text":null},{"Program":0,"Type":1,"SetID":119,"ToPosID":4,"Text":null},{"Program":0,"Type":1,"SetID":120,"ToPosID":4,"Text":null},{"Program":0,"Type":1,"SetID":121,"ToPosID":4,"Text":null}],"Images":[]}
+{
+    "Group": "ASCENT",
+    "Images": [],
+    "Name": "BOOST",
+    "ProjectName": "AscentBoost",
+    "Side": 0,
+    "SortPriority": 201,
+    "Spacecraft": 0,
+    "Steps": [
+        {
+            "Program": 0,
+            "SetID": 40,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 51,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 41,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 42,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 45,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 110,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 181,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 177,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 118,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 119,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 120,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 121,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        }
+    ],
+    "checklistText": "<size=21>BOOST</size>\n-00:09\tIgnition CMD\n-00:01\tL/V ENGINES lts (5) - out\n 00:00\tLIFTOFF lt - on\n\n\t\t\t*LIFTOFF VERIFIED:\t\t\t\t\t*\n\t\t\t*  If LIFTOFF lt off - push\t\t*\n\t\t\t*  If NO AUTO ABORT lt on - push\t*\n\n\t\tClock running (auto) - report\n\t\tMET Resets & starts counting up (auto)\n\t\tP11 auto\n\n\t\t\t*NO P11 - Key ENTR\t\t\t*\n\t\t\t*START DET & RESET MET\t*\n\t\t06 62 VI, H DOT, H PAD (fps, fps, .1nm)\n\t\t\t*If LV GUID & LV RATE lts-on\t*\n\t\t\t* LV GUID - CMC\t \t\t\t\t*\n\n+00:02\tYaw Mnvr - report\n+00:11\tRoll & Pitch Program - report\n+00:30\tRoll complete - report\n\n+00:42\tMODE IB - report\n\t\tPRPLNT DUMP - RCS CMD\n+00:50\tMonitor q\u00ce\u00b1 to T+02:00\n\t\t(100%, 5\u00c2\u00b0 Att error)\n\n\t\tCABIN PRESSURE DECREASING ~14K(2.3nm)\n\t\t\t* NO PRESSURE DECREASE ~25K(4.1nm)\t*\n\t\t\t*  CAB PRESS RELIEF vlv(RH)-DUMP\t*\n+01:21\tMAX Q\n+01:54\tMODE IC - report\n\t\tV82E, N62E\n+02:00\tEDS AUTO - OFF\n\t\t2 ENG OUT - OFF\n\t\tLV RATES - OFF\n\t\tLV RATE lt disabled as IU failure cue\n\n\t\tGO/NO GO FOR STAGING - report\n+02:16\tINBOARD CUTOFF - (lt 5 on)\n\t\tLIFTOFF lt - out\n+02:39\tCMC BOOST Polynomial ends\n+02:39\tOUTBOARD CUTOFF - report (lts on)\n+02:40\tSIC/SII STAGING (lts - out)\n+02:41\tSII Ign Command (lts on)\n\t\tSII SEP lt - on\n+02:42\tSII 65% - lts out\n\n+03:10\tSII SEP lt - out\treport\n\n+03:15\tTWR JETT (2) - on (up) (TFF>1+20)\n\t\t\t*For MAN BOOSTER CONTROL\t*\n\t\t\t*  LV GUID - CMC\t\t\t*\n\t\t\t*  Key V46E\t\t\t\t\t*\n\t\t\u00ce\u00b1/Pc sw - Pc\n\t\tMAN ATT PITCH - RATE CMD\n\t\tTwr Jett & MODE II - Report\n\t\tGLY EVAP STEAM PRESS - AUTO\n\t\tGLY EVAP H2O FLOW - AUTO\n\n+03:20\tGuidance Initiate - report (OECO +41sec)\n+03:50\tGuidance Good\n+04:00\tReport Status\n+05:00\tReport Status\n+06:00\tReport Status\n+06:00\tSIVB to COI\n\t\tGMBL MOT (4) - START - ON (LMP Confirm)\n\t\tCheck GPI\n\t\t\tLV/SPS IND - GPI (Momentarily)\n\t\t\tPITCH = -0.70\u00c2\u00b0\n\t\t\tYAW = +1.90\u00c2\u00b0\n+06:15\tOMNI ANT\t- D (AZ < 96\u00c2\u00b0)\n\t\t- C (AC > 96\u00c2\u00b0)\n+06:55\tSIVB to orbit\n+07:00\tReport Status\n+07:39\tIECO (lt 5 - on)\n+07:59\tPU SHIFT\n+08:00\tReport Status\n+08:30\tGO/NO GO FRO STAGING - report\n+08:35\tLevel sense arm____\n+09:00\tMove IV - Report\n\t\tReport Status\n+09:10\tOECO (lts on)\n+09:11\tSII Staging - lts out\n+09:12\tSIVB Ign Cmd - lt on\n+09:14\tSIVB 65% - lt out\n\n+10:00\tGO/NO GO FOR ORBIT report\n\n+11:00\tReport Status\n+11:45\tSECO (lt on) - report\n\t\t(Begin TB5)\n\n\t\t\t*If LV GUID - CMC\t\t\t\t*\n\t\t\t*LV STAGE sw - SII/SIVB\t\t\t*\n\t\t\t*SECO\t\t\t\t\t\t\t*\n\t\t\t*LV ENG 1 lt - on\t\t\t\t*\n\t\t\t*Begin TB5\t\t\t\t\t\t*\n\n\t\t\t*If no SECO, (VI +100fps\t\t\t*\n\t\t\t*LV STAGE sw - SII/SIVB\t\t\t*\n\t\t\t*If still no SECO, THC\t\t\t*\n\t\t\t*  CCW & neutral in 1 sec\t\t*\n+11:55\tINSERTION - lt out (TB5 + 10 sec)\n\n\t\t\tRecord  VI_____\t\t(fps)\n\t\t\t\t\tH DOT_____\t(fps)\n\t\t\t\t\tH PAD_____\t(.1nm)\n\t\t\tKEY RLSE\n\t\t\t\tRecord\t\tHA____\t\t(.1nm)\n\t\t\t\t\t\t\tHP____\t\t(.1nm)\n\t\t\t\t\t\t\tTFF___\t\t(min-sec)\t\t\n\t\t\tPRO\n\t\tV37E 00E\n\t\tWhen CMC ACTY lt out:\n\t\tV66E\n\t\tV45E\n\t\tVerify DAP load, V48:\t\tR1 = 31102, R2 = 01111\n\t\tV46E\t\t\t\t\t\tCSM WT _____\n\t\tV83E (check o)\t\t\t\tP TRIM ______\n\t\tPRO\t\t\t\t\t\t\tY TRIM_______"
+}

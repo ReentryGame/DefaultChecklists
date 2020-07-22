@@ -1,1 +1,26 @@
-{"Spacecraft":2,"ProjectName":"InsertionEnableOAMS","Group":"INSERTION","Name":"ENABLE OAMS","Side":0,"SortPriority":21,"checklistText":"1. OAMS Control Power, ON\n2. OAMS Prop Motor Valves, OPEN","Steps":[{"Program":2,"Type":1,"SetID":31,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":58,"ToPosID":4,"Text":null}],"Images":[]}
+{
+    "Group": "INSERTION",
+    "Images": [],
+    "Name": "ENABLE OAMS",
+    "ProjectName": "InsertionEnableOAMS",
+    "Side": 0,
+    "SortPriority": 21,
+    "Spacecraft": 2,
+    "Steps": [
+        {
+            "Program": 2,
+            "SetID": 31,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 58,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        }
+    ],
+    "checklistText": "1. OAMS Control Power, ON\n2. OAMS Prop Motor Valves, OPEN"
+}

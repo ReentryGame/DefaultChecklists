@@ -1,1 +1,152 @@
-{"Spacecraft":2,"ProjectName":"InsertionInsertion","Group":"INSERTION","Name":"INSERTION","Side":0,"SortPriority":22,"checklistText":"1. OAMS Control Power, OFF\n2. OAMS Prop Motor Valves, CLOSED\n3. VERIFY: All Fuel Cell Stacks, ON\n4. VERIFY: Both Fuel Cell Sections, ON\n5. Main Battery #1 - #4, OFF\n6. Boost-Insert Squib, SAFE\n7. Retro Rocket Squib #1 - #4, SAFE\n8. Radiator, BYPASS - Turn on at elapsed 40min.","Steps":[{"Program":2,"Type":1,"SetID":31,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":58,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":23,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":24,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":25,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":26,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":27,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":28,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":20,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":22,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":10,"ToPosID":2,"Text":null},{"Program":2,"Type":1,"SetID":11,"ToPosID":2,"Text":null},{"Program":2,"Type":1,"SetID":12,"ToPosID":2,"Text":null},{"Program":2,"Type":1,"SetID":13,"ToPosID":2,"Text":null},{"Program":2,"Type":1,"SetID":2,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":6,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":7,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":8,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":9,"ToPosID":5,"Text":null},{"Program":2,"Type":1,"SetID":48,"ToPosID":5,"Text":null}],"Images":[]}
+{
+    "Group": "INSERTION",
+    "Images": [],
+    "Name": "INSERTION",
+    "ProjectName": "InsertionInsertion",
+    "Side": 0,
+    "SortPriority": 22,
+    "Spacecraft": 2,
+    "Steps": [
+        {
+            "Program": 2,
+            "SetID": 31,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 58,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 23,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 24,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 25,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 26,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 27,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 28,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 20,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 22,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 10,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 11,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 12,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 13,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 2,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 6,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 7,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 8,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 9,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 48,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        }
+    ],
+    "checklistText": "1. OAMS Control Power, OFF\n2. OAMS Prop Motor Valves, CLOSED\n3. VERIFY: All Fuel Cell Stacks, ON\n4. VERIFY: Both Fuel Cell Sections, ON\n5. Main Battery #1 - #4, OFF\n6. Boost-Insert Squib, SAFE\n7. Retro Rocket Squib #1 - #4, SAFE\n8. Radiator, BYPASS - Turn on at elapsed 40min."
+}

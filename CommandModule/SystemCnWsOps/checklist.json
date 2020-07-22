@@ -1,1 +1,11 @@
-{"Spacecraft":0,"ProjectName":"SystemCnWsOps","Group":"SYSTEM CHECKS","Name":"CnWs OPS TEST","Side":1,"SortPriority":1002,"checklistText":"<size=21>SYSTEMS & MONITORING CHECKS\nCnWS operational check</size>\r\nC/W LAMP TEST - 1 (LH MA & LH lts)\r\nC/W LAMP TEST - 2 (RH MA & RH lts)\r\nC/W CSM - CM (CM RCS lt (2) - on)\r\nC/W CSM - CSM (CM RCS lt (2) - out)","Steps":[],"Images":[]}
+{
+    "Group": "SYSTEM CHECKS",
+    "Images": [],
+    "Name": "CnWs OPS TEST",
+    "ProjectName": "SystemCnWsOps",
+    "Side": 1,
+    "SortPriority": 1002,
+    "Spacecraft": 0,
+    "Steps": [],
+    "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nCnWS operational check</size>\r\nC/W LAMP TEST - 1 (LH MA & LH lts)\r\nC/W LAMP TEST - 2 (RH MA & RH lts)\r\nC/W CSM - CM (CM RCS lt (2) - on)\r\nC/W CSM - CSM (CM RCS lt (2) - out)"
+}

@@ -1,1 +1,10 @@
-{"Spacecraft":1,"ProjectName":"IntravehicularTransfer","Group":"ACTIVATION","Name":"Intravehicular Transfer","Side":0,"SortPriority":110,"checklistText":"<size=21>INITIAL INTRAVEHICULAR TRANSFER TO LM/CSM</size>\r\n\n1.\tCM/LM are docked\n2.\tEqualize the pressure using LM tunnel hatch\n3.\tOpen hatch using the Tools menu\n4.\tPress F4 to switch between the active spacecrafts.\n","Steps":[]}
+{
+    "Group": "ACTIVATION",
+    "Name": "Intravehicular Transfer",
+    "ProjectName": "IntravehicularTransfer",
+    "Side": 0,
+    "SortPriority": 110,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "<size=21>INITIAL INTRAVEHICULAR TRANSFER TO LM/CSM</size>\r\n\n1.\tCM/LM are docked\n2.\tEqualize the pressure using LM tunnel hatch\n3.\tOpen hatch using the Tools menu\n4.\tPress F4 to switch between the active spacecrafts.\n"
+}

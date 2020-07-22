@@ -1,1 +1,11 @@
-{"Spacecraft":2,"ProjectName":"EVAPostEVA","Group":"EVA","Name":"POST-EVA","Side":1,"SortPriority":52,"checklistText":"POST EVA\nClose the hatch using the [C] menu.\n\nOn the overhead panel:\n- Ensure CABIN VENT ring handle is in Normal position\n\nSet the ECS CRYO meter to O2\n\nIn the center pedestal panel:\n- Rotate the red REPRESS knob to OPEN\n\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\n\nIn the center pedestal panel:\n- Rotate the red REPRESS knob to CLOSED\n\nCheck your CRYO oxygen level.","Steps":[],"Images":[]}
+{
+    "Group": "EVA",
+    "Images": [],
+    "Name": "POST-EVA",
+    "ProjectName": "EVAPostEVA",
+    "Side": 1,
+    "SortPriority": 52,
+    "Spacecraft": 2,
+    "Steps": [],
+    "checklistText": "POST EVA\nClose the hatch using the [C] menu.\n\nOn the overhead panel:\n- Ensure CABIN VENT ring handle is in Normal position\n\nSet the ECS CRYO meter to O2\n\nIn the center pedestal panel:\n- Rotate the red REPRESS knob to OPEN\n\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\n\nIn the center pedestal panel:\n- Rotate the red REPRESS knob to CLOSED\n\nCheck your CRYO oxygen level."
+}

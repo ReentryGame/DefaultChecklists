@@ -1,1 +1,11 @@
-{"Spacecraft":3,"ProjectName":"AscentSECO","Group":"ASCENT","Name":"SECO","Side":0,"SortPriority":70,"checklistText":"1. Sep Cap - GREEN","Steps":[],"Images":[]}
+{
+    "Group": "ASCENT",
+    "Images": [],
+    "Name": "SECO",
+    "ProjectName": "AscentSECO",
+    "Side": 0,
+    "SortPriority": 70,
+    "Spacecraft": 3,
+    "Steps": [],
+    "checklistText": "1. Sep Cap - GREEN"
+}

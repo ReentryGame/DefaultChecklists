@@ -1,1 +1,40 @@
-{"Spacecraft":3,"ProjectName":"EntryLanding","Group":"ENTRY","Name":"LANDING","Side":1,"SortPriority":90,"checklistText":"1. Emer Drogue Fuse - ON\n2. Check for Drogue Deploy\n3. At appx. 20,000ft, Snorkel Ring - PULL\n4. Emer O2 handle - EMER\n5. Landing Bag switch - AUTO\n6. Check main chute deploy\n7. UHF/DF switch - R/T\n8. Press Reg Handle - PULL\n9. Check \"Landing Bag\" Telelight - GREEN\n10. ASCS AC Bus switch - OFF\n11. Photo Lights switch - OFF","Steps":[{"Program":3,"Type":2,"SetID":16,"ToPosID":1,"Text":null},{"Program":3,"Type":2,"SetID":24,"ToPosID":1,"Text":null},{"Program":3,"Type":1,"SetID":28,"ToPosID":1,"Text":null},{"Program":3,"Type":1,"SetID":26,"ToPosID":1,"Text":null}],"Images":[]}
+{
+    "Group": "ENTRY",
+    "Images": [],
+    "Name": "LANDING",
+    "ProjectName": "EntryLanding",
+    "Side": 1,
+    "SortPriority": 90,
+    "Spacecraft": 3,
+    "Steps": [
+        {
+            "Program": 3,
+            "SetID": 16,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 2
+        },
+        {
+            "Program": 3,
+            "SetID": 24,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 2
+        },
+        {
+            "Program": 3,
+            "SetID": 28,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 26,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 1
+        }
+    ],
+    "checklistText": "1. Emer Drogue Fuse - ON\n2. Check for Drogue Deploy\n3. At appx. 20,000ft, Snorkel Ring - PULL\n4. Emer O2 handle - EMER\n5. Landing Bag switch - AUTO\n6. Check main chute deploy\n7. UHF/DF switch - R/T\n8. Press Reg Handle - PULL\n9. Check \"Landing Bag\" Telelight - GREEN\n10. ASCS AC Bus switch - OFF\n11. Photo Lights switch - OFF"
+}

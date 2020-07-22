@@ -1,1 +1,26 @@
-{"Spacecraft":3,"ProjectName":"FlightModesManual","Group":"FLIGHT MODES","Name":"MANUAL","Side":1,"SortPriority":20,"checklistText":"1. Manual fuel handle - PULL DIRECT\n2. ASCS switch - AUX or AUTO\n3. RSCS switch - RATE COMD\n\nIf aux damping is desired\n4. RSCS switch - AUTO\n\nIf aux damping is not desired\n5. RSCS switch - RATE COMD\n\nTo return to the Auto ASCS control\n6. ASCS switch - NORM\n7. RSCS switch - AUTO\n8. Manual fuel handle - PUSH RATE COMD","Steps":[{"Program":3,"Type":5,"SetID":3,"ToPosID":2,"Text":null},{"Program":3,"Type":1,"SetID":13,"ToPosID":3,"Text":null}],"Images":[]}
+{
+    "Group": "FLIGHT MODES",
+    "Images": [],
+    "Name": "MANUAL",
+    "ProjectName": "FlightModesManual",
+    "Side": 1,
+    "SortPriority": 20,
+    "Spacecraft": 3,
+    "Steps": [
+        {
+            "Program": 3,
+            "SetID": 3,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 5
+        },
+        {
+            "Program": 3,
+            "SetID": 13,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 1
+        }
+    ],
+    "checklistText": "1. Manual fuel handle - PULL DIRECT\n2. ASCS switch - AUX or AUTO\n3. RSCS switch - RATE COMD\n\nIf aux damping is desired\n4. RSCS switch - AUTO\n\nIf aux damping is not desired\n5. RSCS switch - RATE COMD\n\nTo return to the Auto ASCS control\n6. ASCS switch - NORM\n7. RSCS switch - AUTO\n8. Manual fuel handle - PUSH RATE COMD"
+}

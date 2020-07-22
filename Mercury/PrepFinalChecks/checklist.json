@@ -1,1 +1,47 @@
-{"Spacecraft":3,"ProjectName":"PrepFinalChecks","Group":"PRE-FLIGHT","Name":"Final Checks","Side":0,"SortPriority":40,"checklistText":"1. Launch Control switch - READY\n2. Suit Temp - TO MARK\n3. Cabin Temp - TO MARK\n4. Inverter Temp - TO MARK\n5. Transmit - UHF\n6. Ensure Time Zero cover is removed\n7. Squib switch - ARM\n8. Auto retro jett switch - ARM\n","Steps":[{"Program":3,"Type":1,"SetID":3,"ToPosID":1,"Text":null},{"Program":3,"Type":1,"SetID":24,"ToPosID":3,"Text":null},{"Program":3,"Type":1,"SetID":15,"ToPosID":1,"Text":null},{"Program":3,"Type":1,"SetID":18,"ToPosID":1,"Text":null},{"Program":3,"Type":0,"SetID":0,"ToPosID":0,"Text":"Perform a Radio Check"}],"Images":[]}
+{
+    "Group": "PRE-FLIGHT",
+    "Images": [],
+    "Name": "Final Checks",
+    "ProjectName": "PrepFinalChecks",
+    "Side": 0,
+    "SortPriority": 40,
+    "Spacecraft": 3,
+    "Steps": [
+        {
+            "Program": 3,
+            "SetID": 3,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 24,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 18,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 0,
+            "Text": "Perform a Radio Check",
+            "ToPosID": 0,
+            "Type": 0
+        }
+    ],
+    "checklistText": "1. Launch Control switch - READY\n2. Suit Temp - TO MARK\n3. Cabin Temp - TO MARK\n4. Inverter Temp - TO MARK\n5. Transmit - UHF\n6. Ensure Time Zero cover is removed\n7. Squib switch - ARM\n8. Auto retro jett switch - ARM\n"
+}

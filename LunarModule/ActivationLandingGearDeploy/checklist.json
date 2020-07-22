@@ -1,1 +1,82 @@
-{"Spacecraft":1,"ProjectName":"ActivationLandingGearDeploy","Group":"ACTIVATION","Name":"LANDING GEAR DEPLOY","Side":0,"SortPriority":127,"checklistText":"<size=21>LANDING GEAR DEPLOY</size>\r\n\r\n1.\r\nPANEL 11:\tCB ED:\r\n\t\tLANDING GEAR FLAG - close\r\n\t\tLOGIC PWR A - open\r\n\r\n2.\r\nPANEL 8:\tED:\r\n\t\tMASTER ARM sw - ON\r\n\t\tLDG GEAR DEPLOY sw - FIRE; tb - gray\r\n\r\n3.\r\nPANEL 11:\tCB ED: LOGIC PWR A - close\r\n\r\n4.\r\nPANEL 8:\tED:\r\n\t\tLDG GEAR DEPLOY sw - FIRE; tb - gray\r\n\t\tMASTER ARM sw - OFF\r\n\r\n\t\t\t\tCAUTION\r\n\t\t\tCB: ED LOGIC PWR A & B must be closed\r\n\t\t\tat completion of this task.\r\n\r\n5. Observe +Z landing gear through forward windows\r\n\r\n6. After separation from CMS, request CSM to confirm all landing gears deployed & locked.\r\n\r\n7.\r\nPANEL 11:\tCB ED: LDG GEAR FLAG - open\r\nPANEL 8:\tED: LDG GEAR DEPLOY tb - bp\r\n\r\n","Steps":[{"Program":1,"Type":2,"SetID":136,"ToPosID":2,"Text":null},{"Program":1,"Type":2,"SetID":137,"ToPosID":1,"Text":null},{"Program":1,"Type":1,"SetID":41,"ToPosID":4,"Text":null},{"Program":1,"Type":1,"SetID":44,"ToPosID":4,"Text":null},{"Program":1,"Type":2,"SetID":137,"ToPosID":2,"Text":null},{"Program":1,"Type":1,"SetID":41,"ToPosID":5,"Text":null},{"Program":1,"Type":2,"SetID":137,"ToPosID":2,"Text":null},{"Program":1,"Type":2,"SetID":56,"ToPosID":2,"Text":null},{"Program":1,"Type":0,"SetID":0,"ToPosID":0,"Text":"Verify Landing Gear Deployed"},{"Program":1,"Type":2,"SetID":136,"ToPosID":1,"Text":null}],"Images":[]}
+{
+    "Group": "ACTIVATION",
+    "Images": [],
+    "Name": "LANDING GEAR DEPLOY",
+    "ProjectName": "ActivationLandingGearDeploy",
+    "Side": 0,
+    "SortPriority": 127,
+    "Spacecraft": 1,
+    "Steps": [
+        {
+            "Program": 1,
+            "SetID": 136,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 137,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 41,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 44,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 137,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 41,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 1,
+            "SetID": 137,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 56,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 1,
+            "SetID": 0,
+            "Text": "Verify Landing Gear Deployed",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 1,
+            "SetID": 136,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 2
+        }
+    ],
+    "checklistText": "<size=21>LANDING GEAR DEPLOY</size>\r\n\r\n1.\r\nPANEL 11:\tCB ED:\r\n\t\tLANDING GEAR FLAG - close\r\n\t\tLOGIC PWR A - open\r\n\r\n2.\r\nPANEL 8:\tED:\r\n\t\tMASTER ARM sw - ON\r\n\t\tLDG GEAR DEPLOY sw - FIRE; tb - gray\r\n\r\n3.\r\nPANEL 11:\tCB ED: LOGIC PWR A - close\r\n\r\n4.\r\nPANEL 8:\tED:\r\n\t\tLDG GEAR DEPLOY sw - FIRE; tb - gray\r\n\t\tMASTER ARM sw - OFF\r\n\r\n\t\t\t\tCAUTION\r\n\t\t\tCB: ED LOGIC PWR A & B must be closed\r\n\t\t\tat completion of this task.\r\n\r\n5. Observe +Z landing gear through forward windows\r\n\r\n6. After separation from CMS, request CSM to confirm all landing gears deployed & locked.\r\n\r\n7.\r\nPANEL 11:\tCB ED: LDG GEAR FLAG - open\r\nPANEL 8:\tED: LDG GEAR DEPLOY tb - bp\r\n\r\n"
+}

@@ -1,1 +1,11 @@
-{"Spacecraft":2,"ProjectName":"RnDDocking","Group":"R&D","Name":"Docking","Side":1,"SortPriority":32,"checklistText":"1. Index Bar - EXTEND\n2. Exterior Lights - DOCK\n3. (optional)Encoder CMD: 250, ACQ Lights OFF\n4. (optional)Encoder CMD: 141, Approach Lights ON\n5. (optional)Encoder CMD: 201, Agenda display BRIGHT\n6. If Agena is not rigid, Encoder CMD: 221 - Rigidize\n\nKeep docking port centered, zero IVI's until docking complete.\nWarning: Keep alignment with target, keep speed low.","Steps":[],"Images":[]}
+{
+    "Group": "R&D",
+    "Images": [],
+    "Name": "Docking",
+    "ProjectName": "RnDDocking",
+    "Side": 1,
+    "SortPriority": 32,
+    "Spacecraft": 2,
+    "Steps": [],
+    "checklistText": "1. Index Bar - EXTEND\n2. Exterior Lights - DOCK\n3. (optional)Encoder CMD: 250, ACQ Lights OFF\n4. (optional)Encoder CMD: 141, Approach Lights ON\n5. (optional)Encoder CMD: 201, Agenda display BRIGHT\n6. If Agena is not rigid, Encoder CMD: 221 - Rigidize\n\nKeep docking port centered, zero IVI's until docking complete.\nWarning: Keep alignment with target, keep speed low."
+}

@@ -1,1 +1,11 @@
-{"Spacecraft":3,"ProjectName":"SystemGyroAlign","Group":"SYSTEMS","Name":"GYRO ALIGN","Side":1,"SortPriority":40,"checklistText":"Use ONLY if errors in GYRO\n\n1. Gyro - GYRO CAGE\n\nManeuver the attitude to the 0,0,0 attitude, using window reference, eye sight or periscope.\n\n2. Gyro - NORMAL or FREE\n\nThis will set gyros to use this attitude as reference point.\n\nHORIZON CHECK\nAlign the spacecraft with the retrograde horizon. You can also use the marks on the periscope\nThe readings should read about 0,0,0\nIf not, realign the gyros","Steps":[],"Images":[]}
+{
+    "Group": "SYSTEMS",
+    "Images": [],
+    "Name": "GYRO ALIGN",
+    "ProjectName": "SystemGyroAlign",
+    "Side": 1,
+    "SortPriority": 40,
+    "Spacecraft": 3,
+    "Steps": [],
+    "checklistText": "Use ONLY if errors in GYRO\n\n1. Gyro - GYRO CAGE\n\nManeuver the attitude to the 0,0,0 attitude, using window reference, eye sight or periscope.\n\n2. Gyro - NORMAL or FREE\n\nThis will set gyros to use this attitude as reference point.\n\nHORIZON CHECK\nAlign the spacecraft with the retrograde horizon. You can also use the marks on the periscope\nThe readings should read about 0,0,0\nIf not, realign the gyros"
+}

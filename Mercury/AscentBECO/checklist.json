@@ -1,1 +1,33 @@
-{"Spacecraft":3,"ProjectName":"AscentBECO","Group":"ASCENT","Name":"BECO","Side":0,"SortPriority":60,"checklistText":"1. Jett Tower - GREEN (appx. 20 sec after BECO)\n2. Auto Retro Jett switch - OFF\n3. Retro Jett Fuse switch - OFF\n4. Emer Retro Jett Fuse switch - OFF","Steps":[{"Program":3,"Type":1,"SetID":18,"ToPosID":3,"Text":null},{"Program":3,"Type":2,"SetID":3,"ToPosID":2,"Text":null},{"Program":3,"Type":2,"SetID":24,"ToPosID":2,"Text":null}],"Images":[]}
+{
+    "Group": "ASCENT",
+    "Images": [],
+    "Name": "BECO",
+    "ProjectName": "AscentBECO",
+    "Side": 0,
+    "SortPriority": 60,
+    "Spacecraft": 3,
+    "Steps": [
+        {
+            "Program": 3,
+            "SetID": 18,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 3,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 3,
+            "SetID": 24,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        }
+    ],
+    "checklistText": "1. Jett Tower - GREEN (appx. 20 sec after BECO)\n2. Auto Retro Jett switch - OFF\n3. Retro Jett Fuse switch - OFF\n4. Emer Retro Jett Fuse switch - OFF"
+}

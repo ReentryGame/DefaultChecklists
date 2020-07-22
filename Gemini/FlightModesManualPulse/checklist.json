@@ -1,1 +1,33 @@
-{"Spacecraft":2,"ProjectName":"FlightModesManualPulse","Group":"FLIGHT MODES","Name":"MANUAL PULSE","Side":1,"SortPriority":22,"checklistText":"1. Attitude Control, PULSE\n2. Platform Mode, ORB RATE (or any other)\n3. OAMS Control Power, ON\n4. OAMS Prop Motor Valves, OPEN","Steps":[{"Program":2,"Type":3,"SetID":4,"ToPosID":3,"Text":null},{"Program":2,"Type":1,"SetID":31,"ToPosID":4,"Text":null},{"Program":2,"Type":1,"SetID":58,"ToPosID":4,"Text":null}],"Images":[]}
+{
+    "Group": "FLIGHT MODES",
+    "Images": [],
+    "Name": "MANUAL PULSE",
+    "ProjectName": "FlightModesManualPulse",
+    "Side": 1,
+    "SortPriority": 22,
+    "Spacecraft": 2,
+    "Steps": [
+        {
+            "Program": 2,
+            "SetID": 4,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 31,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 58,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        }
+    ],
+    "checklistText": "1. Attitude Control, PULSE\n2. Platform Mode, ORB RATE (or any other)\n3. OAMS Control Power, ON\n4. OAMS Prop Motor Valves, OPEN"
+}

@@ -1,1 +1,10 @@
-{"Spacecraft":1,"ProjectName":"PGNS_LGCPowerUp","Group":"PGNS","Name":"LGC Power-Up","Side":1,"SortPriority":1101,"checklistText":"<size=21>LGC POWER-UP</size>\r\n\n1.\r\n\tPANEL 11:\tCB PGNS:\tLGC/DSKY - close\n\tPANEL 1:\tPoss LGC warn lt - on (up to 20 sec)\n\n2.\tPANEL 4:\tKey RSET\n\n3.\tCHECKLIST: Fresh Start\n\n","Steps":[]}
+{
+    "Group": "PGNS",
+    "Name": "LGC Power-Up",
+    "ProjectName": "PGNS_LGCPowerUp",
+    "Side": 1,
+    "SortPriority": 1101,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "<size=21>LGC POWER-UP</size>\r\n\n1.\r\n\tPANEL 11:\tCB PGNS:\tLGC/DSKY - close\n\tPANEL 1:\tPoss LGC warn lt - on (up to 20 sec)\n\n2.\tPANEL 4:\tKey RSET\n\n3.\tCHECKLIST: Fresh Start\n\n"
+}
