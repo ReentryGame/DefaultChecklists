@@ -212,6 +212,27 @@
         },
         {
             "Program": 2,
+            "SetID": 0,
+            "Text": "Verify OBC self-checks are complete",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 25,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 4
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Platform alignment, verify complete when FDAIs are stationary.",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
             "SetID": 6,
             "Text": null,
             "ToPosID": 1,
@@ -225,5 +246,5 @@
             "Type": 0
         }
     ],
-    "checklistText": "1. Main Batteries #1 to #4, ON\n2. Squib Batteries #1 to #3, ON\n3. Fuel Cell Stack 1A to 2C, ON\n4. Fuel Cell Section 1 Power, ON\n5. Fuel Cell Section 2 Power, ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, ON\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, ON\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. Wait for Computer pre-check completion\n18. Computer: ASCENT module\n"
+    "checklistText": "1. Main Batteries #1 to #4, ON\n2. Squib Batteries #1 to #3, ON\n3. Fuel Cell Stack 1A to 2C, ON\n4. Fuel Cell Section 1 Power, ON\n5. Fuel Cell Section 2 Power, ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, ON\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, ON\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. Wait for Computer pre-check completion\n\nOBC init and alignment\n1. Press START on the OBC\n2. Wait for the FDAI to align with predefined roll target (30 seconds)\n3. Computer: ASCENT module"
 }
