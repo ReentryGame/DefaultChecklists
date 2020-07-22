@@ -1,7 +1,7 @@
 {
     "Group": "PRE-FLIGHT",
     "Images": [],
-    "Name": "Final Checks",
+    "Name": "Final Checks (T-10)",
     "ProjectName": "PrepFinalChecks",
     "Side": 0,
     "SortPriority": 40,
@@ -16,10 +16,52 @@
         },
         {
             "Program": 3,
+            "SetID": 5,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 3
+        },
+        {
+            "Program": 3,
+            "SetID": 4,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 3
+        },
+        {
+            "Program": 3,
+            "SetID": 6,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 3
+        },
+        {
+            "Program": 3,
             "SetID": 24,
             "Text": null,
             "ToPosID": 3,
             "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 0,
+            "Text": "Perform Radio Test on UHF",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 3,
+            "SetID": 0,
+            "Text": "Remove Time Zero Button cover",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 3,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 3
         },
         {
             "Program": 3,
@@ -34,14 +76,7 @@
             "Text": null,
             "ToPosID": 1,
             "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Perform a Radio Check",
-            "ToPosID": 0,
-            "Type": 0
         }
     ],
-    "checklistText": "1. Launch Control switch - READY\n2. Suit Temp - TO MARK\n3. Cabin Temp - TO MARK\n4. Inverter Temp - TO MARK\n5. Transmit - UHF\n6. Ensure Time Zero cover is removed\n7. Squib switch - ARM\n8. Auto retro jett switch - ARM\n"
+    "checklistText": "FINAL CHECKS\n(Approx. T-5 to T-10)\n\n1. Launch Control switch - READY\n2. Suit Temp - TO MARK\n3. Cabin Temp - TO MARK\n4. Inverter Temp - TO MARK\n5. Transmit - UHF\n6. Perform Radio Check on UHF\n7. Remove Time Zero Button Cover\n\tWARNING: Do not depress the time zero button\n8. DC Volts knob - 1\n9. Verify Squib switch - ARM\n10. Verify Auto retro jett switch - ARM"
 }

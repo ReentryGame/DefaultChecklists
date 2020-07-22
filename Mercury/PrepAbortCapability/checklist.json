@@ -1,0 +1,47 @@
+{
+    "Group": "PRE-FLIGHT",
+    "Images": [],
+    "Name": "ABORT CAPABILITY (T-40)",
+    "ProjectName": "PrepAbortCapability",
+    "Side": 0,
+    "SortPriority": 15,
+    "Spacecraft": 3,
+    "Steps": [
+        {
+            "Program": 3,
+            "SetID": 6,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 6,
+            "Type": 3
+        },
+        {
+            "Program": 3,
+            "SetID": 0,
+            "Text": "Request ABORT CAPABILITY TEST",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 3,
+            "SetID": 0,
+            "Text": "Monitor bus voltage, battery current and Abort light.",
+            "ToPosID": 0,
+            "Type": 0
+        }
+    ],
+    "checklistText": "ABORT CAPABILITY\n(Approx. T-40)\n\n1. Ammeter Switch - NORM\n2. Capsule Squib Switch - ARM\n3. Set DC Selector to ISOL.\n4. REQUEST ABORT CAPABILITY TEST\n5. Monitor bus voltage, battery current and Abort light."
+}

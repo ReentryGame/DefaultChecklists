@@ -1,0 +1,11 @@
+{
+    "Group": "EMERGENCY PROCEDURES",
+    "Images": [],
+    "Name": "Landing",
+    "ProjectName": "EmerLanding",
+    "Side": 0,
+    "SortPriority": 1030,
+    "Spacecraft": 3,
+    "Steps": [],
+    "checklistText": "EMERGENCY PROCEDURES\n\nLANDING\n\nDROGUE CHUTE FAILURE\r\nDrogue chute failure can be detected by the lack of opening\r\nshock and by a visual check through the window. Failure of\r\nthe Emer Drogue Deploy fuse will fail the\r\nDrogue Override button.\r\n\r\n1. Drogue button - DEPRESS\r\n2. If drogue chute does not deploy:\r\n\ta. Emer Drogue Deploy fuse switch - NO. 2\r\n\tb. Drogue button - DEPRESS\r\n\r\n\r\nMAIN CHUTE FAILURE\r\nMain chute deployment failure can be detected by the lack of\r\nopening shock, a visual check through the periscope and\r\nwindow, and no decrease in rate of descent.\r\n\r\nIf the main chute does not deploy properly or is damaged:\r\n1. Reserve deploy ring - PULL\r\n\r\n\r\nLANDING BAG FAILS TO DEPLOY\r\n1. Landing Bag switch - MAIN\r\n2. Emer Land Bag fuse switch - NO. 2\r\n\r\n\r\n"
+}

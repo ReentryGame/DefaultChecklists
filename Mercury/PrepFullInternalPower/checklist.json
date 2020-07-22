@@ -1,11 +1,33 @@
 {
     "Group": "PRE-FLIGHT",
     "Images": [],
-    "Name": "Full Internal Power",
+    "Name": "Full Internal Power (T-10)",
     "ProjectName": "PrepFullInternalPower",
     "Side": 0,
     "SortPriority": 30,
     "Spacecraft": 3,
-    "Steps": [],
-    "checklistText": "1. Isol Btry switch - NORM\n2. Stby Btry switch - OFF"
+    "Steps": [
+        {
+            "Program": 3,
+            "SetID": 0,
+            "Text": "Request Blockhouse to remove external power",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 3,
+            "SetID": 5,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 1
+        },
+        {
+            "Program": 3,
+            "SetID": 4,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 1
+        }
+    ],
+    "checklistText": "SWITCH TO FULL INTERNAL POWER\n(Approx. T-10)\n\n1. Monitor capsule battery voltage and current while the\n\tBlockhouse removes external power.\n2. Request Blockhouse to remove external power\n\tUse the Tools Menu (default mapping: [C]) below radio panel\n3. Isol Btry switch - NORM\n4. Stby Btry switch - OFF"
 }
