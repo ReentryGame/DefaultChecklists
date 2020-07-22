@@ -1,0 +1,11 @@
+{
+    "Group": "STAGING",
+    "Images": [],
+    "Name": "DPS PRPLNT VENTING",
+    "ProjectName": "StagingDPSPropTankVent",
+    "Side": 1,
+    "SortPriority": 1501,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "DPS PROPELLANT TANK VENTING\n\r\n1.\tControls - MPS Basic (Unstaged)\r\n\r\n2.\r\nPANEL 1:\r\n\tDES He REG 1 sw - CLOSE: tb - bp\r\n\tDES He REG 2 tb - bp\r\n\r\n3.\r\nPANEL 8:\r\n\tVent propellant tanks.\r\n\tDES PROPUL:\r\n\t\tOXID VENT - tb - gray\r\n\t\tFUEL VENT - tb - gray\r\n\tED:\r\n\t\tMASTER ARM sw - ON\r\n\t\tDES VENT sw - FIRE\r\n\t\tMASTER ARM sw - OFF\r\n\r\nPANEL 1:\r\n\tMPS:\r\n\t\tOXID & FUEL PRESS ind - verify fuel &\r\n\t\toxidizer pressure decreasing\r\n\t\tDES REG warn lt - on\r\n\r\n4.\r\n\tFor lunar-surface venting only -\r\n\tWhen MPS: OXID PRESS ind - 20 to 40 psia:\r\nPANEL 8:\r\n\tDES PROPUL: OXID VENT sw - CLOSE; tb-bp\r\n\tWhen MPS: FULE PRESS ind - <8 psia:\r\n\tDES PROPUL: FUEL VENT sw - CLOSE; tb-bp\r\n\r\n\r\n5.\tFor zero-g venting only -\r\n\tIf vent stops on its own or if pressure decrease\r\n\t<1 psia/10 sec:\r\nPANEL 11:\r\n\tCB S/C: ATT DIR CONT - close\r\nPANEL 5:\r\n\t+X TRANSL pb - push and hold\r\n\tWait 2 sec, then:\r\nPANEL 8:\r\n\tDES PRPUL:\r\n\t\tOXID VENT sw - OPEN; tb - gray\r\n\t\tFUEL VENT sw - OPEN; tb - gray\r\n\tTerminate translation after 10 sec:\r\nPANEL 5:\r\n\t+X TRANSL pb - release\r\nPANEL 1:\r\n\tWhen MPS: OXID PRESS ind reducing\r\nPANEL 8:\r\n\tDES PROPUL: OXID VENT sw - CLOSE; tb-bp\r\n\tWhen MPS: FULE PRESS ind - <8 psia:\r\n\tDES PROPUL: FUEL VENT sw - CLOSE; tb-bp"
+}

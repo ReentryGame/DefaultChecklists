@@ -1,0 +1,11 @@
+{
+    "Group": "STAGING",
+    "Images": [],
+    "Name": "ED PRESTAGING CHECK",
+    "ProjectName": "StagingEDPrestage",
+    "Side": 1,
+    "SortPriority": 1540,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "ED PRESTAGING CHECK\r\n\r\n1.\r\nPANEL 1:\r\n\tVerify CB ED: LOGIC PWR A - close\r\n\r\n2.\r\nPANEL 16:\r\n\tVerify CB ED: LOGIC PWR B - close\r\n\r\n3.\r\n\tEPS:\r\n\t\tPOWER/TEMP MON sel - ED/OFF\r\n\t\tED VOLTS sw - BAT A\r\n\t\tVOLTS ind - 35.0 to 37.8 vdc\r\n\t\tED VOLTS sw - BAT B\r\n\t\tVOLTS ind - 35.0 to 37.8 vdc\r\n\t\tED VOLTS sw - OFF\r\n\t\tPOWER/TEMP MON sel - CDR BUS"
+}

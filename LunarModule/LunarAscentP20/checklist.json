@@ -1,0 +1,11 @@
+{
+    "Group": "LUNAR ASCENT",
+    "Images": [],
+    "Name": "P20 Rendezvous Navigation",
+    "ProjectName": "LunarAscentP20",
+    "Side": 0,
+    "SortPriority": 310,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "LM RENDEZVOUS NAVIGATION (P20)\r\n\r\n\tLGC Power-Up (required)\r\n\tIMU Power-Up (LGC Operating)(required)\r\n\tRendezvous Radar Initiation Actiation & Checkout (required)\r\n\r\n\tCSM RR Transponder Activation (required)\r\n\r\n1.\tVerify/set controls as follows:\r\n\r\nPANEL 1:\r\n\tRATE/ERR MON sw - RNDZ RADAR\r\n\r\n\tATTITUDE MON sw - PGNS\r\n\tGUID CONT sw - PGNS\r\n\tRNG/ALT MON sw - RNG/RNG RT\r\nPANEL 3:\r\n\tRADAR TEST sw - OFF\r\n\tRNDZ RADAR sel - SLEW\r\n\r\n\tManually slew the radar to LOCK ON.\r\n\tWhen LOCK ON:\r\n\t\tSet RNDZ RADAR to AUTO TRACK or LGC.\r\n\r\n\r\n2.\tKey V37E 20E\r\n\r\n3.\tFL V06 N72\r\n\t\tR1 Trunnion Angle\t\t\tXXX.XX deg\r\n\t\tR2 Shaft Angle\t\t\t\tXXX.XX deg\r\n\r\n\tBy default, LM state vector is updated (V80E).\r\n\tAccept: Key PRO\r\n\tTo change state vector to be updated:\r\n\ta. Key V81E - Update CSM state vector\r\n\tb. Key V95E - No state vector update\r\n\r\n4.\tFL V06 N49\r\n\t\tR1 Delta R\t\t\t\tXXXX.X nmi\r\n\t\tR2 Delta V\t\t\t\tXXXX.X ft/s\r\n\t\tR3 Data Source Code\t\t\t0000X\r\n\r\n\tV32E\tReject partial mark\r\n\tV34E\tReject total mark\r\n\tPRO\tUpdate with mark\r\n\r\n5.\tAutomaneuvering towards LOCK ON target (CSM) enabled\r\n\r\n\tFL V16 N18 Desired Automaneuver to FDAI Ball\tR XXX.XX deg\r\n\t\t\t\t\t\t\tP XXX.XX deg\r\n\t\t\t\t\t\t\tY XXX.XX deg\r\n\tP20 will runn in the background.\r\n\r\n\tTo Terminate: V56E at any time"
+}

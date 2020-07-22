@@ -1,0 +1,11 @@
+{
+    "Group": "LUNAR ASCENT",
+    "Images": [],
+    "Name": "Simplified Rendezvous",
+    "ProjectName": "LunarAscentRendezvousSimplified",
+    "Side": 0,
+    "SortPriority": 320,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "Simplified Rendezvous\r\n\r\nRemarks:\r\nThis rendezvous method uses a simplified approach\r\nwhere P30 (Externdal dV) is used to plan the prethrust\r\nfor CSI and TPI burns with input from Mission Control, \r\ninstead of P32.\r\nThe burns are executed using P41 (RCS Burn).\r\n\tIn reality, P32 and P3X is used to plan the burns \r\nwith input from Mission Control, and P41 is used to \r\nexecute the burns. P3Xs is still under development but \r\nhas a similar approach. \r\nThis method will soon be added to the simulator.\r\n\r\nUse P20 to track the CSM, and the AGC P79 for the\nCSM to track the LM.\n\r\nCoelliptic Sequence Initiation (CSI)\r\n\tThe CSI burn will circulate the orbit.\r\n\r\n1.\tTo plan the burn with MCC, use the\r\n\tradio and REQUEST CSI.\r\n\r\n2.\tWhen MCC communicates the TIG and dV parameters:\r\n\tChecklist: MPS/P30 EXTERNAL dV\r\n\r\n3.\tWhen 2. is complete:\r\n\tChecklist: MPS/P41 - RCS THRUST\r\n\r\n\r\nTerminal Phase Initiation (TPI)\r\n\tThe simplified TPI burn will set you on a rendezvous\r\n\ttrajectory with the CSM, using a hohmann transfer.\r\n\r\n1.\tTo plan the burn with MCC, use the\r\n\tradio and REQUEST TPI.\r\n\r\n2.\tWhen MCC communicates the TIG and dV parameters:\r\n\tChecklist: MPS/P30 EXTERNAL dV\r\n\r\n3.\tWhen 2. is complete:\r\n\tChecklist: MPS/P41 - RCS THRUST\n\n\nDOCKING"
+}

@@ -1,0 +1,11 @@
+{
+    "Group": "STAGING",
+    "Images": [],
+    "Name": "APS PRESSURIZATION",
+    "ProjectName": "StagingAPSPressurization",
+    "Side": 1,
+    "SortPriority": 1520,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "APS PRESSURIZATION & CHECKOUT\r\n\r\n1.\tControls - MPS Basic (Staged)\r\n\r\n2.\tHELIUM MON sel - PRESS 1\r\n\tMPS: HELIUM ind 2800 psia to 3500 psia\r\n\r\n3.\tHELIUM MON sel - PRESS 2\r\n\tMPS: HELIUM ind - 2800 to 3500 psia\r\n\r\n4.\tED:\r\n\t\tASC He SEL sw - BOTH\r\n\t\tMASTER ARM sw - ON\r\n\t\tASC He PRESS sw - FIRE\r\n\t\tMASTER ARM - OFF\r\n\r\n5.\tPRPLNT TEMP/PRESS MON sw - ASC\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50\u00c2\u00b0 to 90\u00c2\u00b0 F\r\n\t\tOXID TEMP ind - 50\u00c2\u00b0 to 90\u00c2\u00b0 F\r\n\t\tFUEL PRESS ind - 172 to 203 psia\r\n\t\tOXID PRESS ind - 172 to 203 psia\r\n\r\n6.\tHELIUM MON sel - PRESS 2\r\n\tMPS: HELIUM ind - 2700 to 3450 psia\r\n\tHELIUM MON sel PRESS 1\r\n\tMPS: HELIUM ind - 2700 to 3450 psia"
+}

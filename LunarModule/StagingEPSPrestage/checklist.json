@@ -1,0 +1,11 @@
+{
+    "Group": "STAGING",
+    "Images": [],
+    "Name": "EPS PRESTAGE CHECK",
+    "ProjectName": "StagingEPSPrestage",
+    "Side": 1,
+    "SortPriority": 1530,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "EPS PRESTAGE CHECK\r\n\r\n\t\t\tCAUTION\r\n\t\tFifteen minutes before staging, ascent\r\n\t\tbatteries must be placed on line in parallel\r\n\t\twith descent batteries. Descent batteries\r\n\t\tNo. 1 & 3 must be removed from line at this\r\n\t\ttime.\r\n\r\n1.\tDeleted\r\n\r\n2. EPS:\r\nPANEL 14:\r\n\tPOWER/TEMP MON sel - BAT 5\r\n\tVOLTS ind - 31.5 to 37.2 vdc\r\n\tBAT 5 NORMAL LMP FEED sw - ON; tb - gray\r\n\tVOLTS ind - 28.0 to 32.5 vdc\r\n\tPOWER/TEMP MON sel - BAT 6\r\n\tVOLTS ind - 31.5 to 37.2 vdc\r\n\tBAT 6 NORMAL LMP FEED sw - ON; tb - gray\r\n\tVOLTS ind - 28.0 to 32.5 vdc\r\n\tLMP BAT 1 HI V sw - OFF/RESET; tb - bp\r\n\tCDR BAT 3 sw - OFF/RESET; tb - bp\r\n\r\n3.\r\nPANEL 11:\r\n\tCB/AC BUS A: DECA GMBL - open\r\n\tCB PROPUL: DES He REG/VENT - open\r\n\tCB S/C: DECA PWR - open\r\n\tCB ED: LDG GEAR FLAG - open\r\n\tCB HTR: LDG RDR - open\r\n\tCB FLT DISP: THRUST - open\r\n\tCB PGNS: LDG RDR - open\r\n\tCB EPS: INV 1 - close\r\n\r\n\t\t\tCAUTION\r\n\t\tFive minutes before staging, descent\r\n\t\tbatteries NO. 2 & 4 must be removed from\r\n\t\tline & CB EPS: CROSS TIE BAL LOADS (2)\r\n\t\tmust be opened.\r\n\r\n4.\tEPS:\r\nPANEL 14:\r\n\t\tLMP BAT 2 sw - OFF/RESET; tb - bp\r\n\t\tCDR BAT 4 HI V sw - OFF/RESET; tb - bp\r\n\r\n5.\r\nPANEL 11:\r\n\tCB EPS: CROSS TIE BAL LOADS - close\r\nPANEL 16:\r\n\tCB EPS: CROSS TIE BAL LOADS - open\r\n\r\n6.\r\nPANEL 14:\r\n\tEPS:\r\n\t\tINVERTER sw - 1\r\n\t\tPOWER/TEMP MON sel - AC BUS\r\n\t\tVOLTS ind - green band\r\n\t\tINVERTER sw - 2\r\n\t\tVOLTS ind - green band\r\n\t\tPOWER/TEMP MON sel - LMP BUS\r\n\t\tVOLTS ind - 26.5 to 32.5 vdc\r\n\t\tPOWER/TEMP MON sel - CDR BUS\r\n\t\tVOLTS ind - 26.5 to 32.5 vdc\r\n\t\r\n7.\r\n\tEPS:\r\n\t\tLMP BAT 1 HI V sw - ON; tb - gray\r\n\t\tCDR BAT 4 HI V sw - ON; tb - gray\r\n\t\tLMP BAT 2 sw - ON; tb - gray\r\n\t\tCDR BAT 3 sw - ON; tb - gray\r\n\r\n8.\r\n\tEPS: DES BATS sw - FEADFACE; tb - bp\r\n\tDES BATS & DES BAY tb: tb - bp\r\n"
+}

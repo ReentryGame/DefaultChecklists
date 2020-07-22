@@ -1,0 +1,11 @@
+{
+    "Group": "STAGING",
+    "Images": [],
+    "Name": "DPS SUPCRIT He VENT",
+    "ProjectName": "StagingDPSSupCritHeVent",
+    "Side": 1,
+    "SortPriority": 1510,
+    "Spacecraft": 1,
+    "Steps": [],
+    "checklistText": "DPS SUPERCRITICAL He VENTING (LUNAR SURFACE ONLY)\r\n\r\n\tDPS Propellant Tank Venting is\r\n\tprerequisite to this procedure \r\n\r\n1.\tVent supercritical helium:\r\n\r\nPANEL 1:\r\n\t\tHELIUM MON sel - SUPERCRIT PRESS\r\n\t\tPRPLNT TEMP/PRESS MON sw - DES 1\r\nPANEL 8:\r\n\t\tDES PROPUL:\r\n\t\t\tFUEL VENT sw - OPEN: tb - gray\r\n\t\t\tOXID VENT sw - OPEN: tb - gray\r\nPANEL 1:\r\n\t\tDES He REG 1 sw - OPEN: tb - gray\r\n\t\tDES He REG 2 se - OPEN: tb - gray\r\nPANEL 8:\r\n\t\tCB PROPUL: DES He REG/VENT - open\r\n\r\nRemarks:\r\nFUEL VENT latching valve is open when tb - gray\r\nOXID VENT latching valve is open when tb - gray\r\nREG 1 & 2 SOV's and vent velves will be left open to\r\ninsure that descent supercritical helium, fuel and\r\noxidizer tanks will be at minimum pressure when ascent\r\nengine FITH occurs.\r\n\t\t\r\n2.\tVerify supercritical helium pressure decreasing"
+}
