@@ -1,0 +1,11 @@
+{
+    "Group": "LM INTERFACE & EVA",
+    "Images": [],
+    "Name": "LM Active Docking With CSM",
+    "ProjectName": "LMInterfaceEVALMActiveDocking",
+    "Side": 0,
+    "SortPriority": 710,
+    "Spacecraft": 0,
+    "Steps": [],
+    "checklistText": "LM Active Docking With CSM\r\n\r\n1.\tThe following are req\r\n\t\tCOAS - installed\r\n\t\tDocking trgt - installed\r\n\r\n2.\tConfigure CSM for docking\r\nPANEL 1:\t\n\t\tTHC PWR - on (up)\r\n\t\tTHC PWR DIR (both) - MNA/MNB\r\n\t\tSC CONT - CMC\r\n\t\tCMC MODE - HOLD\r\n\t\tBMAG MODE (3) - RATE 2\r\nPANEL 8:\n\t\tAUTO RCS (16) - MNA or MNB\r\nPANEL 1:\n\t\tMAN ATT (3) - RATE CMD\r\n\t\tTHC - ARMED\r\n\t\tRHC (both) - ARMED\r\n\t\tATT DBD - MIN\r\n\t\tRATE - LO\r\nPANEL 2:\n\t\tEXT RUN/EVA LT - on (up)\r\n\t\tCOAS - installed\r\nPANEL 8:\n\t\tcb DOCK PROBE (2) - close\r\nPANEL 2:\n\t\tPROBE RETR (2) - OFF\r\nPANEL 8:\n\t\tcb SECS ARM (2) - close\r\n\t\tSECs LOGIC (both) - on (up)\r\n\t\tSECS PYRO ARM (2) - on (up)\r\nPANEL 2:\n\tPROBE EXTD/REL - EXTD/REL\r\n\t\tPROBE EXTD/REL tb (2) - gray\r\n\r\n3.\tMon LM closing mnvrs\r\n\tBefore capture: \r\n\t\tCMC MODE - FREE\r\n\r\n4.\tInit capture latch & retraction\r\n\t\tPROBE EXTD/REL - RETRACT\r\n\t\tPROBE EXTD/REL tb (2) - mon\r\n\r\n5.\tSafe docking system\r\n\t\tPROBE EXTD/REL - OFF\r\n\t\tPROBE RETR (2) - OFF\r\n\t\tEXT RUN/EVA LT - OFF\r\n\t\tEXT RNDZ LT - off (ctr)\r\n\t\tCOAS - off\r\nPANEL 8:\n\t\tcb DOCK PROBE (2) - open\r\n\t\tSECS PYRO ARM (2) - SAFE\r\n\t\tSECS LOGIC (both) - open\t"
+}

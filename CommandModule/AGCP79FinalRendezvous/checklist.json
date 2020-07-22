@@ -1,0 +1,11 @@
+{
+    "Group": "AGC",
+    "Images": [],
+    "Name": "P79 - FINAL RENDEZVOUS",
+    "ProjectName": "AGCP79FinalRendezvous",
+    "Side": 1,
+    "SortPriority": 1250,
+    "Spacecraft": 0,
+    "Steps": [],
+    "checklistText": "P79 - FINAL RENDEZVOUS PROGRAM\r\n\r\n\r\n1.\tKey V37E 79E\r\n\r\n\tFL V50 N18\r\n\tDesired FDAI angles for automaneuver\r\n\t\tR1\tOG(R)\tXXX.XX deg\r\n\t\tR2\tIG(P)\tXXX.XX deg\r\n\t\tR3\tMG(Y)\tXXX.XX deg\r\n\t\r\n\tKey PRO\r\n\r\n2.\tV06N18\tManeuver in Progress\r\n\tWhen maneuver is complete, go to DISPLAY\r\n\r\nDISPLAY:\r\n\tFlashing\tRange\t\tXXX.XX nmi\r\n\tV16N54\t\tRange Rate\tXXXX.X ft/s\r\n\t\t\tTHETA\t\tXXX.XX deg\r\n\r\n\tTo terminate: Key PRO"
+}
