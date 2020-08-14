@@ -20,13 +20,13 @@ Checklist project-names should use CamelCase, not spaces.
 
 ### Step
 
-| Field name | Field type | Description                                                  |
-|------------|------------|--------------------------------------------------------------|
-| Program    | Integer    | ???                                                          |
-| Type       | Integer    | ???                                                          |
-| SetID      | Integer    | Denotes the ID of the switch, fuse, ... this step applies to |
-| ToPosID    | Integer    | Denotes the position the switch etc should be set to         |
-| Text       | String     | The text that goes with the step                             |
+| Field name | Field type | Description                                                      |
+|------------|------------|------------------------------------------------------------------|
+| Program    | Integer    | ???                                                              |
+| Type       | Integer    | Indicates what sort of switch is referenced. 0 for a manual step |
+| SetID      | Integer    | Denotes the ID of the switch, fuse, ... this step applies to     |
+| ToPosID    | Integer    | Denotes the position the switch etc should be set to             |
+| Text       | String     | The text that goes with the step                                 |
 
 ## Formatting
 
