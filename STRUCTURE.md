@@ -13,20 +13,20 @@ Checklist project-names should use CamelCase, not spaces.
 | Images        | List<???>   | A list of images???                                                                              |
 | Name          | String      | The name for the checklist as it will be shown to the user                                       |
 | ProjectName   | String      | Same as the directory-name for the checklist                                                     |
-| Side          | Integer      | Which side of the checklist-menu the checklist appears on. 0 for XXX, 1 for YYY                  |
-| SortPriority  | Integer      | Used to determine which order the checklist should appear in on the menu                         |
-| Spacecraft    | Integer      | 1 for XXX, 2 for XXX, 3 for Mercury                                                              |
+| Side          | Integer     | Which side of the checklist-menu the checklist appears on. 0 for XXX, 1 for YYY                  |
+| SortPriority  | Integer     | Used to determine which order the checklist should appear in on the menu                         |
+| Spacecraft    | Integer     | 0 for Apollo CSM, 1 for Apollo LM, 2 for Gemini, 3 for Mercury                                   |
 | Steps         | List\<Step> | List of steps to tell the user to take                                                           |
 
 ### Step
 
-| Field name | Field type | Description                                                  |
-|------------|------------|--------------------------------------------------------------|
-| Program    | Integer    | ???                                                          |
-| Type       | Integer    | ???                                                          |
-| SetID      | Integer    | Denotes the ID of the switch, fuse, ... this step applies to |
-| ToPosID    | Integer    | Denotes the position the switch etc should be set to         |
-| Text       | String     | The text that goes with the step                             |
+| Field name | Field type | Description                                                      |
+|------------|------------|------------------------------------------------------------------|
+| Program    | Integer    | ???                                                              |
+| Type       | Integer    | Indicates what sort of switch is referenced. 0 for a manual step |
+| SetID      | Integer    | Denotes the ID of the switch, fuse, ... this step applies to     |
+| ToPosID    | Integer    | Denotes the position the switch etc should be set to             |
+| Text       | String     | The text that goes with the step                                 |
 
 ## Formatting
 
