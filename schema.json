@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "Reentry Checklist schema",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["Group", "Name", "ProjectName", "Side", "SortPriority", "Spacecraft", "Steps", "Images"],
+    "properties": {
+        "Group": {"type": "string"},
+        "Name": {"type": "string"},
+        "ProjectName": {"type": "string"},
+        "Side": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+        },
+        "SortPriority": {"type": "integer"},
+        "Spacecraft": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+        },
+        "Steps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["Program", "SetID", "Text", "ToPosID", "Type"],
+                "properties": {
+                    "Program": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 3
+                    },
+                    "SetID": {
+                        "type": "integer"
+                    },
+                    "Text": {
+                        "type": "string"
+                    },
+                    "ToPosID": {
+                        "type": "integer"
+                    },
+                    "Type": {
+                        "type": "integer"
+                    }
+                }
+            }
+        },
+        "Images": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "Name": {
+                        "type": "string"
+                    },
+                    "Position": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["x", "y"],
+                        "properties": {
+                            "x": {
+                                "type": "number"
+                            },
+                            "y": {
+                                "type": "number"
+                            }
+                        }
+                    },
+                    "Size": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["x", "y"],
+                        "properties": {
+                            "x": {
+                                "type": "number"
+                            },
+                            "y": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "checklistText": {
+            "type": "string"
+        }
+    }
+}
