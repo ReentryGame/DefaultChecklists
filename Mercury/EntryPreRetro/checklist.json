@@ -134,5 +134,5 @@
             "Type": 1
         }
     ],
-    "checklistText": "Approximately 30 minutes before retro time:\n1. Cabin Temp - COLD\n2. Suit Temp - COLD\n3. Inverter Temp - COLD\n\nApproximately 15 minutes before retro time:\n4. Emer Retro Seq. Fuse - ON\n5. 1, 2, 3 Retro Rckt Fuse - ON\n6. Emer Retro Jet Fuse - ON\n7. ASCS .05G Fuse - ON\n8. Emer .05G Fuse - ON\n9. Periscope Fuse - ON\n10. Cmd Rcvr A Fuse - ON\n11. TLM Hi Freq Fuse - ON\n12. Squib switch - ARM\n13. Auto Retro Jett switch - OFF\n14. TLM Lo Freq switch - ON\n15. Trasmit switch - UHF\n16. BCN switch - CONT\n17. Retro Jett Fuse - OFF\n18. Retro Man Fuse - ON\n19. Attitude Select - RETRO\n20. Maintain Retro attitude"
+    "checklistText": "Approximately 30 minutes before retro time:\n1. Cabin Temp - COLD\n2. Suit Temp - COLD\n3. Inverter Temp - COLD\n\nApproximately 15 minutes before retro time:\n4. Emer Retro Seq. Fuse - ON\n5. 1, 2, 3 Retro Rckt Fuse - ON\n6. Emer Retro Jet Fuse - ON\n7. ASCS .05G Fuse - ON\n8. Emer .05G Fuse - ON\n9. Periscope Fuse - ON\n10. Cmd Rcvr A Fuse - ON\n11. TLM Hi Freq Fuse - ON\n12. Squib switch - ARM\n13. Auto Retro Jett switch - OFF\n14. TLM Lo Freq switch - ON\n15. Transmit switch - UHF\n16. BCN switch - CONT\n17. Retro Jett Fuse - OFF\n18. Retro Man Fuse - ON\n19. Attitude Select - RETRO\n20. Maintain Retro attitude"
 }

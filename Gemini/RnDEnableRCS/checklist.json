@@ -36,5 +36,5 @@
             "Type": 1
         }
     ],
-    "checklistText": "1. RCS ACNTL PWR: ACME\n2. RCS B CNTL PWR: ACME\n3. RCS A Prop Motor Valves, OPEN\n4. RCS B Prop Motor Valves, OPEN"
+    "checklistText": "1. RCS A CNTL PWR: ACME\n2. RCS B CNTL PWR: ACME\n3. RCS A Prop Motor Valves, OPEN\n4. RCS B Prop Motor Valves, OPEN"
 }
