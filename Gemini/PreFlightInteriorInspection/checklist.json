@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "PreFlightInteriorInspection",
+  "Group": "PRE-FLIGHT",
+  "Name": "INTERIOR INSPECTION (T-90)",
+  "Side": 0,
+  "SortPriority": 0,
+  "checklistText": "INTERIOR INSPECTION (T-90)\nApprox. T-90 minutes\n\nFuel Cell Section 1 - WARMUP\r\nFuel Cell Section 2 - WARMUP",
+  "Steps": [],
+  "Images": []
+}
