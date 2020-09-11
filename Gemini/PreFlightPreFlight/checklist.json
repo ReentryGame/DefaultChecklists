@@ -5,7 +5,7 @@
   "Name": "PRE-FLIGHT",
   "Side": 0,
   "SortPriority": 10,
-  "checklistText": "1. Main Batteries #1 to #4, VERIFY/SET ON\n2. Squib Batteries #1 to #3, VERIFY/SET ON\n3. Fuel Cell Stack 1A to 2C, VERIFY/SET ON\n4. Fuel Cell Section 1 Power, VERIFY/SET ON\n5. Fuel Cell Section 2 Power, VERIFY/SET ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, ON\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, ON\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. Wait for Computer pre-check completion\n\nOBC init and alignment\n1. Press START on the OBC\n2. Wait for the FDAI to align with predefined roll target (30 seconds)\n3. Computer: ASCENT module",
+  "checklistText": "1. Main Batteries #1 to #4, VERIFY/SET ON\n2. Squib Batteries #1 to #3, VERIFY/SET ON\n3. Fuel Cell Stack 1A to 2C, VERIFY/SET ON\n4. Fuel Cell Section 1 Power, VERIFY/SET ON\n5. Fuel Cell Section 2 Power, VERIFY/SET ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, ON\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, ON\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. Wait for Computer pre-check completion\n18. Ejection seat D-Ring - Mount (TOOL: TOGGLE D-RING)\n\nOBC init and alignment\n1. Press START on the OBC\n2. Wait for the FDAI to align with predefined roll target (30 seconds)\n3. Computer: ASCENT module",
   "Steps": [
     {
       "Program": 2,
