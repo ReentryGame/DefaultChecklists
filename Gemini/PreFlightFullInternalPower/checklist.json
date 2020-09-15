@@ -6,6 +6,119 @@
   "Side": 0,
   "SortPriority": 8,
   "checklistText": "FULL INTERNAL POWER (T-15)\n1. Main Battery 1 - ON\r\n2. Main Battery 2 - ON\r\n3. Main Battery 3 - ON\r\n4. Main Battery 4 - ON\r\n5. Squib Battery 1 - ON\r\n6. Squib Battery 2 - ON\r\n7. Squib Battery 3 - ON\r\n8. Fuel Cell 1A - ON\r\n9. Fuel Cell 1B - ON\r\n10. Fuel Cell 1C - ON\r\n11. Fuel Cell 2A - ON\r\n12. Fuel Cell 2B - ON\r\n13. Fuel Cell 2C - ON\r\n14. Fuel Cell Section 1 - ON\r\n15. Fuel Cell Section 2 - ON\r\n16. Requet Switch to Internal Power",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 25,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 26,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 20,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Switch to internal power"
+    }
+  ],
   "Images": []
 }
