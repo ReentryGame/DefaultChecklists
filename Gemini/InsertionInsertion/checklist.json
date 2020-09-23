@@ -5,7 +5,7 @@
   "Name": "INSERTION",
   "Side": 0,
   "SortPriority": 22,
-  "checklistText": "1. OAMS Control Power, OFF\n2. OAMS Prop Motor Valves, CLOSED\n3. VERIFY: All Fuel Cell Stacks, ON\n4. VERIFY: Both Fuel Cell Sections, ON\n5. Main Battery #1 - #4, OFF\n6. Boost-Insert Squib, SAFE\n7. Retro Rocket Squib #1 - #4, SAFE\n8. Radiator, BYPASS - Turn on at elapsed 40min.\n9. Scanner: PRI",
+  "checklistText": "1. OAMS Control Power, OFF\n2. OAMS Prop Motor Valves, CLOSED\n3. VERIFY: All Fuel Cell Stacks, ON\n4. VERIFY: Both Fuel Cell Sections, ON\n5. Main Battery #1 - #4, OFF\n6. Boost-Insert Squib, SAFE\n7. Retro Rocket Squib #1 - #4, SAFE\n8. Radiator, BYPASS - Turn on at elapsed 40min.\n9. Scanner: PRI\n10. Sequence Light Test: Amber, Red, Green\r\n\r11. Secondary 02 to CLOSE.\r\n\r12. OAMS Heaters's circuit breaker to closed.\r\n\r13. Cryo Quantity to OFF.\r",
   "Steps": [
     {
       "Program": 2,
@@ -152,6 +152,41 @@
       "Type": 1,
       "SetID": 38,
       "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform a sequence light test."
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
       "Text": null
     }
   ],
