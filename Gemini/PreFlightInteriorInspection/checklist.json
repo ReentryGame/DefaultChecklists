@@ -1389,13 +1389,6 @@
     {
       "Program": 2,
       "Type": 1,
-      "SetID": 0,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
       "SetID": 19,
       "ToPosID": 2,
       "Text": null
