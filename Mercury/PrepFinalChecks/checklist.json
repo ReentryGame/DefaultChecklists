@@ -52,7 +52,7 @@
         {
             "Program": 3,
             "SetID": 0,
-            "Text": "Remove Time Zero Button cover",
+            "Text": "Verify Time Zero Button - COVER REMOVED",
             "ToPosID": 0,
             "Type": 0
         },
@@ -78,5 +78,5 @@
             "Type": 1
         }
     ],
-    "checklistText": "FINAL CHECKS\n(Approx. T-5 to T-10)\n\n1. Launch Control switch - READY\n2. Suit Temp - TO MARK\n3. Cabin Temp - TO MARK\n4. Inverter Temp - TO MARK\n5. Transmit - UHF\n6. Perform Radio Check on UHF\n7. Remove Time Zero Button Cover\n\tWARNING: Do not depress the time zero button\n8. DC Volts knob - 1\n9. Verify Squib switch - ARM\n10. Verify Auto retro jett switch - ARM"
+    "checklistText": "FINAL CHECKS\n(Approx. T-5 to T-10)\n\n1. Launch Control switch - READY\n2. Suit Temp - TO MARK\n3. Cabin Temp - TO MARK\n4. Inverter Temp - TO MARK\n5. Transmit - UHF\n6. Perform Radio Check on UHF\n7. Verify Time Zero Button - COVER REMOVED\n\tWARNING: Do not depress the time zero button\n8. DC Volts knob - 1\n9. Verify Squib switch - ARM\n10. Verify Auto retro jett switch - ARM"
 }
