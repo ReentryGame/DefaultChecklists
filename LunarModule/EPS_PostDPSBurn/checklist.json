@@ -6,5 +6,6 @@
     "SortPriority": 1204,
     "Spacecraft": 1,
     "Steps": [],
+    "Images": [],
     "checklistText": "<size=21>EPS CHECK, POST-DPS BURN</size>\r\n\r\nPanel 11:\r\n1.\tCB EPS: ASC ECA CONT - close\r\n\r\nPanel 16:\r\n2.\tCB EPS: ASC ECA CONT - close\r\n\r\nPanel 14:\r\n3.\tRemove ascent batteries from line:\r\n\tEPS:\r\n\t\tBAT 5 NORMAL LMP FEED sw - OFF/RESET: tb - bp\r\n\t\tBAT 6 NORMAL CDR FEED SW - OFF/RESET: tb - bp\r\n\r\n4.\tCheck voltage & current of descent batteries:\r\n\tEPS:\r\n\t\tPOWER/TEMP MOW sel - BAT 1\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\tRepeat for BAT 2, 3, & 4.\r\n\r\nPanel 11:\r\n5.\tCB EPS: ASC ECA CONT - open\r\n\r\nPanel 16:\r\n6.\tCB EPS: ASC ECA CONT - open\r\n\r\nPanel 14:\r\n7.\tCheck a-c voltage from inverter No. 1:\r\n\tEPS:\r\n\t\tPOWER/TEMP MON sel - AC BUS\r\n\t\tINVERTER sw - 1\r\n\t\tVOLTS ind - green band\r\n\t\tINVERTER SW - 2\r\n\t\tVOLTS ind - green band\r\n\t\tPOWER/TEMP MON sel - CDR BUS\r\n\r\nPanel 11:\r\n8.\tCB EPS: INV 1 - open"
 }
