@@ -2,11 +2,11 @@ name: run-json-validation
 on: [push, pull_request]
 jobs:
   build:
-    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run validator
+    - name: Setting up Python
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+    - name: Run validator
       run: python tools/validator/validator.py
