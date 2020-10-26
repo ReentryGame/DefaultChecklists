@@ -10,7 +10,7 @@ Checklist project-names should use CamelCase, not spaces.
 |---------------|-----------------------|--------------------------------------------------------------------------------------------------|
 | checklistText | String                | Text of the checklist, as it will appear on the screen when run through. Use `\n` for a new line |
 | Group         | String                | Tells you which group the checklist should appear in                                             |
-| Images        | List\<ChecklistImage> | A list of images???                                                                              |
+| Images        | List\<ChecklistImage> | A list of images                                                                                 |
 | Name          | String                | The name for the checklist as it will be shown to the user                                       |
 | ProjectName   | String                | Same as the directory-name for the checklist                                                     |
 | Side          | SideOption            | Which side of the checklist-menu the checklist appears on. 0 for XXX, 1 for YYY                  |
@@ -18,14 +18,14 @@ Checklist project-names should use CamelCase, not spaces.
 | Spacecraft    | Spacecraft            | Specifies the spacecraft this is for                                                             |
 | Steps         | List\<Step>           | List of steps to tell the user to take                                                           |
 
-#### ChecklistImage
 
+#### ChecklistImage
 
 Attribute | Description
 ----------|------------
 Name      | This is the "name" of the image
-Position  | Where to place the image (X and Y)
-Size      | This is the size of the image (height and width)
+Position  | Where to place the image (X and Y). Note: This is absolute within the checklist interface.
+Size      | This is the size (height and width) to scale the image to while preserving height/width ratio
 
 #### SideOption
 
