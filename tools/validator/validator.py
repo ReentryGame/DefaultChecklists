@@ -25,6 +25,7 @@ image_key_types = {'Name': str, 'Position': dict, 'Size': dict}
 if not all([field in main_key_types for field in main_key_fields]):
     print('Self test failed, main field-type unknown')
 
+all_valid = True
 for checklist in glob.glob('*/*/checklist.json'):
     if ' ' in checklist:
         print(checklist, 'FILENAME', 'HAS SPACE')
