@@ -1,0 +1,15 @@
+Mercury:
+  - Mercury/*
+  - Mercury/**
+Gemini:
+  - Gemini/*
+  - Gemini/**
+Apollo-CommandModule:
+  - CommandModule/*
+  - CommandModule/**
+Apollo-LunarModule:
+  - LunarModule/*
+  - LunarModule/**
+
+Documentation:
+  - *.md
