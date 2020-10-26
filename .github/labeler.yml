@@ -10,3 +10,6 @@ Apollo-CommandModule:
 Apollo-LunarModule:
   - LunarModule/*
   - LunarModule/**
+
+Documentation:
+  - *.md
