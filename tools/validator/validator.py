@@ -1,19 +1,33 @@
-import json, glob, sys
+import json
+import glob
+import sys
+import os.path
+from PIL import Image
 
 # TODO: If @petriw adds $schema to the JSON, use it to validate
 
-main_key_fields = ['Spacecraft', 'ProjectName', 'Group', 'Name', 'Side', 'SortPriority', 'checklistText', 'Steps', 'Images']
+main_key_fields = [
+    'checklistText',
+    'Group',
+    'Images',
+    'Name',
+    'ProjectName',
+    'Side',
+    'SortPriority',
+    'Spacecraft',
+    'Steps'
+]
 
 main_key_types = {
-    'Spacecraft': int,
-    'ProjectName': str,
+    'checklistText': str,
     'Group': str,
+    'Images': list,
     'Name': str,
+    'ProjectName': str,
     'Side': int,
     'SortPriority': int,
-    'checklistText': str,
-    'Steps': list,
-    'Images': list
+    'Spacecraft': int,
+    'Steps': list
 }
 
 step_key_fields = ['Program', 'Type', 'SetID', 'ToPosID', 'Text']
@@ -56,9 +70,13 @@ for checklist in glob.glob('*/*/checklist.json'):
                 print(checklist, 'STEP', step_key, 'MISSING')
                 file_ok = False
                 all_valid = False
-        for step_key in step.keys():
             if step_key not in step_key_fields:
                 print(checklist, 'STEP', step_key, 'Invalid key')
+                file_ok = False
+                all_valid = False
+        for step_key in step.keys():
+            if step_key not in step_key_fields:
+                print(checklist, 'STEP', step_key, 'Key has wrong type')
                 file_ok = False
                 all_valid = False
             # TODO: Add type-validation for step-keys. One issue is that NULL appears to be a valid value for Text
@@ -68,10 +86,24 @@ for checklist in glob.glob('*/*/checklist.json'):
                 print(checklist, 'IMAGE', image_key, 'MISSING')
                 file_ok = False
                 all_valid = False
-            if type(image[image_key]) != image_key_types[image_key]:
+            if image_key not in image_key_fields:
                 print(checklist, 'IMAGE', image_key, 'Invalid key')
                 file_ok = False
                 all_valid = False
-
+            if type(image[image_key]) != image_key_types[image_key]:
+                print(checklist, 'IMAGE', image_key, 'Key has wrong type')
+                file_ok = False
+                all_valid = False
+        image_path = os.path.normpath(
+            os.path.join(
+                checklist,
+                '..',
+                image['Name']))
+        if not os.path.isfile(image_path):
+            print(checklist, 'IMAGE', image_path, 'File not found')
+            file_ok = False
+            all_valid = False
+        with Image.open(image_path) as im:
+            pass  # ATM, just "this is a valid image" is enough
 
 sys.exit(0 if all_valid else -1)
