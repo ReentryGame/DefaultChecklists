@@ -1,187 +1,187 @@
 {
-  "Spacecraft": 2,
-  "ProjectName": "PreFlightAbortSquibTest",
-  "Group": "PRE-FLIGHT",
-  "Name": "SQUIB & ABORT CHECK (T-40)",
-  "Side": 0,
-  "SortPriority": 6,
-  "checklistText": "\rSQUIB BATTERY & ABORT CAPABILITY CHECK (T-40)\n(Approx. T-40)\r\n\r\n1. Squib Battery (3) - OFF\r\n2. Voltmeter selector to S1\r\n3. Verify voltmeter indicates 0 volts\n3. Squib Battery 1 - UMB\r\n5. Squib Battery 2 - UMB\r\n5. Squib Battery 3 - UMB\r\n6. Verify volts > 24v.\r\n9. Squib Battery 1 - OFF\n10. Squib Battery 2 - OFF\n3. Verify voltmeter indicates 0 volts\n12. Voltmeter selector to S2\n3. Verify voltmeter indicates 0 volts\n13. Squib Battery 1 - UMB\r\n15. Squib Battery 2 - UMB\r\n16. Verify volts > 24v.\r\n22. Verify all squib batteries to UMB\r\n23. Voltmeter selector to C\r\n24. Verify volts > 24v.\r\n25. Verify Abort Lights (2) - Extinguished\r\n26. Request Abort & Squib Check from Blockhouse\r\n27. After 5 seconds: Squibs are checked\r\n28. If squibs OK: Verify Abort lights Illuminated\r\n29. After 15 seconds: Test results are returned\r\n30. If success: Proceed\r\n31. If failed: Repeat ",
-  "Steps": [
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 14,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 15,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 16,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 8,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify voltmeter is displaying 0 volts."
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 14,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 15,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 16,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify S1 indicates > 24 volts."
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 14,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 15,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify voltmeter is displaying 0 volts."
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 9,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify voltmeter is displaying 0 volts."
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 14,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 15,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify S2 indicates > 24 volts."
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 14,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 15,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 16,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 10,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify C indicates > 24 volts."
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify Abort Indicator Lights - Extinguished"
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Request Squib & Abort test from Blockhouse"
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify test is a success and Abort Indicator lights are illuminated on prompt."
-    }
-  ],
-  "Images": []
+    "Group": "PRE-FLIGHT",
+    "Images": [],
+    "Name": "SQUIB & ABORT CHECK (T-40)",
+    "ProjectName": "PreFlightAbortSquibTest",
+    "Side": 0,
+    "SortPriority": 6,
+    "Spacecraft": 2,
+    "Steps": [
+        {
+            "Program": 2,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 16,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 8,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify voltmeter is displaying 0 volts.",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 16,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify S1 indicates > 24 volts.",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify voltmeter is displaying 0 volts.",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 9,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify voltmeter is displaying 0 volts.",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify S2 indicates > 24 volts.",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 14,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 16,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 10,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify C indicates > 24 volts.",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify Abort Indicator Lights - Extinguished",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Request Squib & Abort test from Blockhouse",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify test is a success and Abort Indicator lights are illuminated on prompt.",
+            "ToPosID": 0,
+            "Type": 0
+        }
+    ],
+    "checklistText": "\rSQUIB BATTERY & ABORT CAPABILITY CHECK (T-40)\n(Approx. T-40)\r\n\r\n1. Squib Battery (3) - OFF\r\n2. Voltmeter selector to S1\r\n3. Verify voltmeter indicates 0 volts\n3. Squib Battery 1 - UMB\r\n5. Squib Battery 2 - UMB\r\n5. Squib Battery 3 - UMB\r\n6. Verify volts > 24v.\r\n9. Squib Battery 1 - OFF\n10. Squib Battery 2 - OFF\n3. Verify voltmeter indicates 0 volts\n12. Voltmeter selector to S2\n3. Verify voltmeter indicates 0 volts\n13. Squib Battery 1 - UMB\r\n15. Squib Battery 2 - UMB\r\n16. Verify volts > 24v.\r\n22. Verify all squib batteries to UMB\r\n23. Voltmeter selector to C\r\n24. Verify volts > 24v.\r\n25. Verify Abort Lights (2) - Extinguished\r\n26. Request Abort & Squib Check from Blockhouse\r\n27. After 5 seconds: Squibs are checked\r\n28. If squibs OK: Verify Abort lights Illuminated\r\n29. After 15 seconds: Test results are returned\r\n30. If success: Proceed\r\n31. If failed: Repeat "
 }

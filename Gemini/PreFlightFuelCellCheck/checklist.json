@@ -1,138 +1,138 @@
 {
-  "Spacecraft": 2,
-  "ProjectName": "PreFlightFuelCellCheck",
-  "Group": "PRE-FLIGHT",
-  "Name": "FUEL CELL CHECK (T-45)",
-  "Side": 0,
-  "SortPriority": 4,
-  "checklistText": "FUEL CELL CHECK (T-45)\nApprox. T-45 minutes\n\n1. Fuel Cell 1A - ON\r\n2. Fuel Cell 1B - ON\r\n3. Fuel Cell 1C - ON\r\n4. Fuel Cell 2A - ON\r\n5. Fuel Cell 2B - ON\r\n6. Fuel Cell 2C - ON\r\n7. Voltmeter to 1A\r\n8. Verify volts > 24v.\r\n9. Voltmeter to 1B\r\n10. Verify volts > 24v.\r\n11. Voltmeter to 1C\r\n12. Verify volts > 24v.\r\n13. Voltmeter to 2A\r\n14. Verify volts > 24v.\r\n15. Voltmeter to 2B\r\n16. Verify volts > 24v.\r\n17. Voltmeter to 2C\r\n18. Verify volts > 24v.\r\n19. Fuel Cell 1A - OFF\r\n20. Fuel Cell 1B - OFF\r\n21. Fuel Cell 1C - OFF\r\n22. Fuel Cell 2A - OFF\r\n23. Fuel Cell 2B - OFF\r\n24. Fuel Cell 2C - OFF",
-  "Steps": [
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 23,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 24,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 25,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 26,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 27,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 28,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify FC 1A volts > 24"
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify FC 1B volts > 24"
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify FC 1C volts > 24"
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 3,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify FC 2A volts > 24"
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify FC 2B volts > 24"
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 1,
-      "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify FC 2C volts > 24"
-    }
-  ],
-  "Images": []
+    "Group": "PRE-FLIGHT",
+    "Images": [],
+    "Name": "FUEL CELL CHECK (T-45)",
+    "ProjectName": "PreFlightFuelCellCheck",
+    "Side": 0,
+    "SortPriority": 4,
+    "Spacecraft": 2,
+    "Steps": [
+        {
+            "Program": 2,
+            "SetID": 23,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 24,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 25,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 26,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 27,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 28,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify FC 1A volts > 24",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify FC 1B volts > 24",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify FC 1C volts > 24",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 3,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify FC 2A volts > 24",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify FC 2B volts > 24",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 2,
+            "SetID": 1,
+            "Text": null,
+            "ToPosID": 5,
+            "Type": 3
+        },
+        {
+            "Program": 2,
+            "SetID": 0,
+            "Text": "Verify FC 2C volts > 24",
+            "ToPosID": 0,
+            "Type": 0
+        }
+    ],
+    "checklistText": "FUEL CELL CHECK (T-45)\nApprox. T-45 minutes\n\n1. Fuel Cell 1A - ON\r\n2. Fuel Cell 1B - ON\r\n3. Fuel Cell 1C - ON\r\n4. Fuel Cell 2A - ON\r\n5. Fuel Cell 2B - ON\r\n6. Fuel Cell 2C - ON\r\n7. Voltmeter to 1A\r\n8. Verify volts > 24v.\r\n9. Voltmeter to 1B\r\n10. Verify volts > 24v.\r\n11. Voltmeter to 1C\r\n12. Verify volts > 24v.\r\n13. Voltmeter to 2A\r\n14. Verify volts > 24v.\r\n15. Voltmeter to 2B\r\n16. Verify volts > 24v.\r\n17. Voltmeter to 2C\r\n18. Verify volts > 24v.\r\n19. Fuel Cell 1A - OFF\r\n20. Fuel Cell 1B - OFF\r\n21. Fuel Cell 1C - OFF\r\n22. Fuel Cell 2A - OFF\r\n23. Fuel Cell 2B - OFF\r\n24. Fuel Cell 2C - OFF"
 }
