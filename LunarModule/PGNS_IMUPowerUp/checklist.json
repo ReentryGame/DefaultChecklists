@@ -1,11 +1,11 @@
 {
     "Group": "PGNS",
+    "Images": [],
     "Name": "IMU Power Up",
     "ProjectName": "PGNS_IMUPowerUp",
     "Side": 1,
     "SortPriority": 1103,
     "Spacecraft": 1,
     "Steps": [],
-    "Images": [],
     "checklistText": "<size=21>IMU POWER-UP</size>\r\n\nCHECKLIST: LGC Power-Up (required)\n\n1.\n\tPANEL 11:\tCB PGNS:\tIMU OPR - close\n\tPANEL 4:\tNO ATT Lt - on for 90 sec, then off\n\n"
 }
