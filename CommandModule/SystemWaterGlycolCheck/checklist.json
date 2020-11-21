@@ -7,5 +7,5 @@
     "SortPriority": 1007,
     "Spacecraft": 0,
     "Steps": [],
-    "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nSecondary water-glycol loop check</size>\r\nECS IND sw - SEC\r\nSEC COOL LOOP PUMP - AC1\r\n\tGLY DISCH SEC PRESS -39-51 psig\r\n\tACCUM SEC QTY IND - 30-55%\r\nSEC COOL LOOP - EVAP\r\nAfter 5 min:\r\n\tSEC EVAP TEMP OUT - 38-50.5\u00c2\u00b0 F\r\nSEC COOL LOOP EVAP - RSET 1 min, off (ctr)\r\nSEC COOL LOOP PUMP - off (ctr)\r\nECS IND sw - PRIM\r"
+    "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nSecondary water-glycol loop check</size>\r\nECS IND sw - SEC\r\nSEC COOL LOOP PUMP - AC1\r\n\tGLY DISCH SEC PRESS -39-51 psig\r\n\tACCUM SEC QTY IND - 30-55%\r\nSEC COOL LOOP - EVAP\r\nAfter 5 min:\r\n\tSEC EVAP TEMP OUT - 38-50.5\u00b0 F\r\nSEC COOL LOOP EVAP - RSET 1 min, off (ctr)\r\nSEC COOL LOOP PUMP - off (ctr)\r\nECS IND sw - PRIM\r"
 }
