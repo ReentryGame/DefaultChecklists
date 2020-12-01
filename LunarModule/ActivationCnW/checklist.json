@@ -1,11 +1,194 @@
 {
-    "Group": "ACTIVATION",
-    "Images": [],
-    "Name": "CAUTION & WARNING",
-    "ProjectName": "ActivationCnW",
-    "Side": 0,
-    "SortPriority": 117,
-    "Spacecraft": 1,
-    "Steps": [],
-    "checklistText": "<size=21>CAUTION & WARNING ARRAY CHECKOUT</size>\r\n\r\n1.\r\nPANEL 16:\tCB INST: CWEA - open\r\nPANEL 2:\tC/W PWR caut lt - on\r\n\r\n2.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - C/W 1\r\nPANEL 1:\tLeft bank warn lts - on\r\n\r\n3.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - ENG PB C/W 2\r\nPANEL 1:\tLeft bank warn lts - off\r\n\tRight bank warn lts - on\r\nPANEL 5:\tEng START pb/lt - on\r\nPANEL 5,6:\tEng STOP pb/lt - on\r\n\r\n4.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - C/W 3\r\nPANEL 1:\tRight bank warn lts - off\r\nPANEL 2:\tLeft bank warn lts - on\r\nPANEL 5:\tEng START pb/lt - off\r\nPANEL 5,6:\tEng STOP pb/lt - off\r\n\r\n5.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - C/W 4\r\nPANEL 2:\tLeft bank warn lts - off\r\nPANEL 2:\tRight bank warn lts - on\r\n\r\n6.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - COMPNT\r\nPANEL 2:\tRight bank warn lts - off, except C&W lt - on\r\nPANEL 8:\tED:\r\n\t\tSTAGE SEQ RLY SYS A comp caut lt - on\r\n\t\tSTAGE SEQ RLY SYS B comp caut lt - on\r\nPANEL 14:\tEPS:\r\n\t\tBAT FAULT lt - on\r\n\t\tDC FEEDER FAULT comp caut lt - on\r\nPANEL 2:\tSUIT FAN comp caut lt - on\r\n\tGLYCOL comp caut lt - on\r\n\tCO2 comp caut lt - on\r\n\tH2O SEP comp caut lt - on\r\nPANEL 3:\tRNDZ RADAR: NO TRACK lt - on\r\nPANEL 1,3:\tLUNAR CONTACT lt (2) - on\r\n\r\n7.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - OFF\r\n\tAll lts in step 6 - off\r\n\r\n8.\r\nPANEL 16:\tCB INST: CWEA - close\r\nPANEL 2:\tC/W PWR caut lt - off\r\n\tRCS A REG warn lt - on\r\n\tRCS B REG warn lt - on\r\n\tECS caut lt - on\r\n\tGLYCOL caut lt - on (if glycol temp > 50F)\r\n\tH2O SEP comp caut lt - on\r\n\tSUIT FAN comp caut lt - on\r\n\r\n9.\r\nPANEL 16:\tCB LTG: MASTER ALARM - close\r\nPANEL 1,2:\tMASTER ALARM - on\r\n\tMASTER ALARM pb/lt - reset"
+  "Spacecraft": 1,
+  "ProjectName": "ActivationCnW",
+  "Group": "ACTIVATION",
+  "Name": "CAUTION & WARNING",
+  "Side": 0,
+  "SortPriority": 117,
+  "checklistText": "<size=21>CAUTION & WARNING ARRAY CHECKOUT</size>\r\n\r\n1.\r\nPANEL 16:\tCB INST: CWEA - open\r\nPANEL 2:\tC/W PWR caut lt - on\r\n\r\n2.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - C/W 1\r\nPANEL 1:\tLeft bank warn lts - on\r\n\r\n3.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - ENG PB C/W 2\r\nPANEL 1:\tLeft bank warn lts - off\r\n\tRight bank warn lts - on\r\nPANEL 5:\tEng START pb/lt - on\r\nPANEL 5,6:\tEng STOP pb/lt - on\r\n\r\n4.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - C/W 3\r\nPANEL 1:\tRight bank warn lts - off\r\nPANEL 2:\tLeft bank warn lts - on\r\nPANEL 5:\tEng START pb/lt - off\r\nPANEL 5,6:\tEng STOP pb/lt - off\r\n\r\n5.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - C/W 4\r\nPANEL 2:\tLeft bank warn lts - off\r\nPANEL 2:\tRight bank warn lts - on\r\n\r\n6.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - COMPNT\r\nPANEL 2:\tRight bank warn lts - off, except C&W lt - on\r\nPANEL 8:\tED:\r\n\t\tSTAGE SEQ RLY SYS A comp caut lt - on\r\n\t\tSTAGE SEQ RLY SYS B comp caut lt - on\r\nPANEL 14:\tEPS:\r\n\t\tBAT FAULT lt - on\r\n\t\tDC FEEDER FAULT comp caut lt - on\r\nPANEL 2:\tSUIT FAN comp caut lt - on\r\n\tGLYCOL comp caut lt - on\r\n\tCO2 comp caut lt - on\r\n\tH2O SEP comp caut lt - on\r\nPANEL 3:\tRNDZ RADAR: NO TRACK lt - on\r\nPANEL 1,3:\tLUNAR CONTACT lt (2) - on\r\n\r\n7.\r\nPANEL 3:\tLTG: LAMP/TONE TEST sel - OFF\r\n\tAll lts in step 6 - off\r\n\r\n8.\r\nPANEL 16:\tCB INST: CWEA - close\r\nPANEL 2:\tC/W PWR caut lt - off\r\n\tRCS A REG warn lt - on\r\n\tRCS B REG warn lt - on\r\n\tECS caut lt - on\r\n\tGLYCOL caut lt - on (if glycol temp > 50F)\r\n\tH2O SEP comp caut lt - on\r\n\tSUIT FAN comp caut lt - on\r\n\r\n9.\r\nPANEL 16:\tCB LTG: MASTER ALARM - close\r\nPANEL 1,2:\tMASTER ALARM - on\r\n\tMASTER ALARM pb/lt - reset",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify C/W PWR caut lt - on"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P1 left bank warn lts - on"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P1 left bank warn lts - off"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P1 right bank warn lts - on"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P1 right bank warn lts - off"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P2 left bank warn lts - on"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P2 left bank warn lts - off"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P2 right bank warn lts - on"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 6,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P2 right bank warn lts - off (except C/W PWR)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P8: ED comp caut lts (2) - on"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P14: EPS comp caut lts (2) - on"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P2: ECS comp caut lts (4) - on"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P3: NO TRACK comp caut lt - on"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 7,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P2: C/W PWR lt - off"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Master Alarm sound. P1 and P2 Master Alarm lt - flashing"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Sound off."
+    }
+  ],
+  "Images": []
 }
