@@ -12,4 +12,5 @@ Apollo-LunarModule:
   - LunarModule/**
 
 Documentation:
-  - *.md
+  - ./*.md
+  - ./schema.json
