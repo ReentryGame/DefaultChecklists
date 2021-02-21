@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCGeneralGNGenCMCIMUPwrDown",
+  "Group": "G&N GENERAL",
+  "Name": "CMC/IMU Power Down",
+  "Side": 1,
+  "SortPriority": 40801020,
+  "checklistText": "CMC/IMU Power Down\r\n\t\t\t(P06) CMC Power Down\r\n\r\n\t\tPerform DAP Activation\r\n\t\t\tLoad 0 (no DAP) in left digit of R1\r\n\r\n\t1 Key V37E 06E\r\n\t\tDSKY - P06\r\n\r\n\t2 FL V50 N25\r\n\t\t00062 (CMC pwr down)\r\n\r\n\t\tPRO (push till STBY lt - on)\r\n\t\tCMC blanks DSKY dis\r\n\r\n\r\n\t\t\tIMU Power Down\r\n\r\nPanel 1:\r\n\t1 CMC MODE - FREE\r\n\r\nPanel 100:\r\n\t2 G/N IMU PWR - OFF\r\n\r\n\t3 If CMC operating\r\n\r\nPanel 2, 140:\r\n\tKey V37E XXE\r\n\r\n\t\t\t\r\n\t\t\t\t\tCAUTION\r\n\r\n\t\t\t\tOnly in case of emer shall IMU\r\n\t\t\t\tbe powered down beyond stby:\r\n\r\nPanel 5:\r\n\t\tcb IMU HTR (2)  - open\r\n\r\n\t\t\t\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

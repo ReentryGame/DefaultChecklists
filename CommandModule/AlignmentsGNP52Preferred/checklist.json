@@ -1,0 +1,194 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "AlignmentsGNP52Preferred",
+  "Group": "G&N ALIGNMENTS",
+  "Name": "P52 AID: Preferred",
+  "Side": 1,
+  "SortPriority": 41401024,
+  "checklistText": "This is a helper checklist and contains the RUN feature to align the IMU to the preferred orientation, suggested by the CSM burn tool and P30/P40.\n\nIt will align the IMU to the burn direction, so at the time of ignition, pitch and yaw will be zero. This attitude should be held and maintained throughout the burn.\n\nRefer to the P52 checklist as you use the RUN feature here.\n\nWhen running P52, you will enter code +00001 (preferred option), then accept the attitude. The gyros will be aligned with the new reference orientation.\n\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 265,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 8,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 10,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for V04 N06"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify V06 N22 flashing"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check FDAI attitude"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Go to P00 or another program."
+    }
+  ],
+  "Images": []
+}

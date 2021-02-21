@@ -1,11 +1,11 @@
 {
     "Group": "RADAR",
-    "Images": [],
     "Name": "LANDING RADAR CHECKOUT",
     "ProjectName": "Radar_LdgRdrCheckout",
     "Side": 1,
     "SortPriority": 1404,
     "Spacecraft": 1,
     "Steps": [],
+    "Images": [],
     "checklistText": "<size=21>LANDING RADAR CHECKOUT</size>\r\n\n\r\n\tLGC Power-Up (required)\r\n\r\n\tLGC Self-Test (desired)\r\n\r\n\tLanding Radar Power-Up (required)\r\n\r\n1.\tSelect landing radar display:\r\n\r\nPanel 1:\r\n\tRATE/ERR MON sw - LDG RDR/CMPTR\r\n\tMODE SEL sw - LDG RADAR\r\n\tRNG/ALT MON sw - ALT/ALT RT\r\n\tX POINTER SCALE sw - HI MULT\r\n\r\n2.\tSelect self-test mode:\r\n\r\nPanel 3:\r\n\tRADAR TEST sw - LDG\r\n\r\n3.\tVerify self-test  signal values:\r\n\r\nPanel 1:\r\n\tALT ind - 7700 to 8100 ft\r\n\r\nPanel 3:\r\n\tALT RATE ind - 478 to - 482 fps\r\n\r\nPanel 1:\r\n\tX pointer ind - off scale, to right and up\r\n\r\n4.\tPerform LR/RR Self-Test (R04):\r\n\tKey V63E\r\n\t\tPoss OPR ERR lt - on\r\n\t\tExit R04, key RSET\r\n\r\n5.\tFL V04 N12\r\n\t\tR1 00004 - Option code for assumed test\r\n\t\tR2 00001 - LGC assumed option (RR)\r\n\t\tR3 -----\r\n\t\tKey Reject: V22E, 2E (load LR option), PRO\r\n\r\n6.\tFL V16 N66\r\n\t\tR1\tRange\t\tXXXXX ft\r\n\t\tR2\tLR position\t0000X\r\n\t\tR3\t\t\t-----\r\n\t\tR2\t0000X - 1 - LR position 1\r\n\t\t\t0000X - 2 - LR position 2\r\n\r\n\t\tVerify R1 is 08276 to 08296 ft += 2 counts on LGC\r\n\t\t(approximately 11 ft)\r\n\t\tIf antenna position change check is not desired:\r\n\t\tKey PRO, go to step 12.\r\n\r\nPanel 3:\r\n7.\tRADAR: LDG ANT sw - AUTO\r\n\t\tR2 - 00001\r\n\r\n8.\tRADAR: LDG ANT sw - DES\r\n\t\tR2 - 00001\r\n\r\n9.\tRADAR: LDG ANT sw - HOVER\r\n\t\tR2 - 00002\r\n\tPROG lt - on\r\n\tKey V05 N09E - Call alarm\r\n\t\t00522 - LR position change\r\n\t\tKey KEY REL & RSET\r\n\r\n10.\tRADAR: LDG ANT sw - DES\r\n\t\tR2 - 00001\r\n\r\n11.\tRADAR: LDG ANT sw - AUTO\r\n\t\tR2 - 00001\r\n\tKey PRO\r\n\r\n12.\tFL V16 N67 - Simulated velocities\r\n\t\tR1 X XXXXX fpa\r\n\t\tR2 Y XXXXX fpa\r\n\t\tR3 Z XXXXX fpa\r\n\tVerify R1 is -00493 to -00497\r\n\tVerify R2 is +01860 to +01864\r\n\tVerify R3 is +01329 to +01333\r\n\r\nPanel 3:\r\n13.\tRADAR TEST sw - OFF\r\n\tALT lt - on\r\n\tVEL lt - on\r\n\tRSET pb - push\r\n\tALT lt - off\r\n\tVEL lt - off\r\n\r\n14.\tTo terminate R04:\r\n\tKey V34E\r\n\r\n\r\n"
 }

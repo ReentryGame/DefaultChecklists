@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCGeneralGNGenSaturnRateChange",
+  "Group": "G&N GENERAL",
+  "Name": "Saturn Rate Change\r",
+  "Side": 1,
+  "SortPriority": 40801150,
+  "checklistText": "\t\tSaturn Rate Change\r\n\r\n\tCMC - on (req)\r\n\r\nPanel 2, 140:\r\n\t1 Key V24 N01E\r\n\t\t3322E\r\n\t\tXXXE\r\n\t\tYYYYYE\r\n\r\n\r\n\r\n\t\t\t\tSAT RATE +1\t\t\tSAT RATE +2\r\n\t\t\t\t(3322)\t\t\t\t(3323)\r\n\t\t\t\r\n\tSIVB RATE\t\tXXX\t\t\t\tYYYYY\r\n\r\n\t0.05°/sec RPY\t\t161\t\t\t\t77616\r\n\t0.1°/sec RPY\t\t210\t\t\t\t77567\r\n\t0.2°/sec RPY\t\t266\t\t\t\t77511\r\n\t*0.3°/sec RPY\t\t344\t\t\t\t77433\r\n\t0.5°/sec R,\t\t476\t\t\t\t77301\r\n\t   0.3°/sec P&Y\r\n\r\n\t*Use for TLI\r\n                                                                                                                                                                                                                                                                                                                                                                       \r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCRefModesEMSdvNullBiasTest",
+  "Group": "ENTRY MONITOR SYSTEM",
+  "Name": "ΔV Test & Null Bias Check\r",
+  "Side": 1,
+  "SortPriority": 40706010,
+  "checklistText": "ΔV Test & Null Bias Check\r\n\r\n\t1 Init EMS prep\r\n\r\nPanel 1:\r\n\tEMS FUNC - OFF (verify)\r\n\r\nPanel 8:\r\n\tcb EMS (2) - close\r\n\r\nPanel 1:\r\n\tEMS MODE - STBY\r\n\r\n\t\r\n\r\n\t2 EMS FUNC  - \tΔV SET\r\n\t\tAdj alphanumeric brightness (option)\r\n\t\tEMS MODE - NORM\r\n\t\tSet ΔV ind to +1586.8 fps\r\n\r\n\t3 EMS FUNC - ΔV TEST\r\n\t\tSPS THRUST lt - on\r\n\t\tΔV ind decr (10 sec)\r\n\t\tSPS THRUST lt - out ≈ -0.1 fps on ΔV ind\r\n\t\tΔV ind stops at -20.8±20.7 fps\r\n\r\n\t4 EMS MODE - STBY\r\n\r\n\t5 EMS FUNC - ΔV SET\r\n\t\tSlew ΔV ind to -100.0 fps\r\n\r\n\t6 EMS FUNC - ΔV (wait 5 sec)\r\n\r\n\t7 EMS MODE - NORM\r\n\r\nPanel 1:\r\n\t8 EMS MODE - STBY\r\n\t\tRcd ΔV ind\r\n\t\t\tIf ΔV drift ≤1 fps, do not bias\r\n\t\t\t\tcounter\r\n\t\t\tIf ΔV drift >1 fps but <10 fps bias\r\n\t\t\t\tif desired\r\n\t\t\tIf ΔV drift >10 fps, EMS is no-go for\r\n\t\t\t\tall functions\r\n\r\n\r\n\r\n\t\t\t\tCAUTION\r\n\r\n\t\t\tDo not turn EMS FUNC - OFF prior\r\n\t\t\tto ΔV, or null bias will be\r\n\t\t\tinvalid.\r\n\r\n\t\t\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

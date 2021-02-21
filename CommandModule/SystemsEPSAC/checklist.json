@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsEPSAC",
+  "Group": "SYSTEMS: EPS",
+  "Name": "A-C CHECK",
+  "Side": 1,
+  "SortPriority": 40503040,
+  "checklistText": "\t\tA-C Voltage Check\r\n\r\n\tAC IND sel - BUS 1, 2, øA, B, C\r\n\t\tAC VOLTS ind - 113-117 vac\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

@@ -1,11 +1,11 @@
 {
-    "Group": "SYSTEM CHECKS",
-    "Images": [],
-    "Name": "DOCKING PROBE CHECK",
-    "ProjectName": "SystemDockingProbe",
-    "Side": 1,
-    "SortPriority": 1009,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nDocking probe test</size>\r\ncb DOCK PROBE (2) - close (verify)\r\nDOCK PROBE EXTD/REL - EXTD/REL until full probe extension\r\n\tDOCK PROBE tb - gray at full extension\r\n\t\tFULL EXT: EXT tb is gray, RET tb is gray\r\n\t\tFULL RET: EXT tb is bp, RET tb is bp\r\n\t\tPART EXT: EXT tb is bp, RET tb is bp\r\nDOCK PROBE EXTD/REL - RETRACT (tb-gray)"
+  "Spacecraft": 0,
+  "ProjectName": "SystemDockingProbe",
+  "Group": "SYSTEMS: DOCKING PROBE",
+  "Name": "DOCKING PROBE CHECK",
+  "Side": 1,
+  "SortPriority": 1009,
+  "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nDocking probe test</size>\r\ncb DOCK PROBE (2) - close (verify)\r\nDOCK PROBE EXTD/REL - EXTD/REL until full probe extension\r\n\tDOCK PROBE tb - gray at full extension\r\n\t\tFULL EXT: EXT tb is gray, RET tb is gray\r\n\t\tFULL RET: EXT tb is bp, RET tb is bp\r\n\t\tPART EXT: EXT tb is bp, RET tb is bp\r\nDOCK PROBE EXTD/REL - RETRACT (tb-gray)",
+  "Steps": [],
+  "Images": []
 }

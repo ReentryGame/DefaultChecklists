@@ -1,11 +1,11 @@
 {
     "Group": "RADAR",
-    "Images": [],
     "Name": "LANDING RADAR POWER-UP",
     "ProjectName": "Radar_LdgRdrPowerUp",
     "Side": 1,
     "SortPriority": 1403,
     "Spacecraft": 1,
     "Steps": [],
+    "Images": [],
     "checklistText": "<size=21>LANDING RADAR POWER-UP</size>\r\n\n1.\tSelect displays mode & verify landing radar temperature:\r\n\r\nPanel 3:\r\n\tHTR CONT: TEMP MON sel - LDG RADAR\r\n\tMonitor HTR CONT: TEMP ind\r\n\r\nPanel 11:\r\n2.\tCB PGNS: LDG RDR - close\r\n3.\tMonitor velocity transmitter power:\r\n\r\nPanel 3:\r\n\tRADAR:\r\n\t\tTEST MON sel - VEL XMTR\r\n\t\tSIGNAL STRENGTH ind - >2.1 vdc\r\n\r\n4.\tMonitor altimeter transmitter power:\r\n\tRADAR:\r\n\r\n\t\tTEST MON sel - ALT XMTR\r\n\t\tSIGNAL STRENGTH ind - > 2.1 vdc\r\n\r\n"
 }

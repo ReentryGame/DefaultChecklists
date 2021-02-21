@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsEPSDC",
+  "Group": "SYSTEMS: EPS",
+  "Name": "D-C Check",
+  "Side": 1,
+  "SortPriority": 40503030,
+  "checklistText": "\t\tD-C Voltage-Amperage Check\r\n\r\nPanel 5:\r\n\tMN BUS TIE (2) - OFF (verify)\r\n\r\nPanel 3:\r\n\tFC 1 & 2 MNA tb (2) - gray\r\n\tFC 3 MNA tb - bp\r\n\r\n\tFC 1 & 2 MNB tb - bp\r\n\tFC 3 MNB tb (2) - gray\r\n\tDC IND sel - FC 1, 2, 3\r\n\t\tDC AMPS ind - record amps\r\n\tDC IND sel - MNA, B\r\n\t\tDC VOLTS ind - 26.5-31 vdc (record)\r\n\tDC IND sel - BAT BUS A, B, & BAT C\r\n\t\tDC VOLTS ind - 31.5-38.0 vdc\r\n\t\tDC AMPS ind - <3.0 amps\r\n\r\nPanel 101:\r\n\tSYS TEST (2) - 5B\r\n\t\tSYS TEST ind - 3.4-4.1 vdc\r\n\r\nPanel 2:\r\n\tIf LM PWR - CSM\r\n\t\tSYS TEST (2) - 7D\r\n\t\t\tSYS TEST ind - 0.5-3.2 vdc\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tDo not leave DC IND sel at PYRO\r\n\t\tBAT A (B) position any longer\r\n\t\tthan req to read DC VOLTS ind,\r\n\t\tor pyro bat chg will be depleted.\r\n\r\nPanel 3:\r\n\tDC IND sel - PYRO BAT A, B\r\n\t\tDC VOLTS ind - 36.5-37.5 vdc\r\n\tDC IND sel - MNA\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

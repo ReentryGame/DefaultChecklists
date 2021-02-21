@@ -1,0 +1,47 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Backup9ORDEAL",
+  "Group": "BACKUP CREW PRELAUNCH",
+  "Name": "ORDEAL SWITCH POSITION",
+  "Side": 0,
+  "SortPriority": 49,
+  "checklistText": "ORDEAL SWITCH POSITION CHECK\r\n\r\n\t\t\tCAUTION\r\nBefore ORDEAL is stowed, or when\r\nnot being used (weather EARTH/\r\nLUNAR sw is in PWR OFF or not),\r\nFDAI 1 & 2 sw must be at INRTL.\r\nOtherwise, pitch inertial att\r\ncannot be displayed by FDAI ball.\r\n\r\nPanel 13:\r\n\tFDAI sw (both) – INRTL\r\n\tEARTH/LUNAR – PWR OFF\r\n\tALT SEL cont – as desired\r\n\tLTG – OFF\r\n\tMODE – HOLD/FAST\r\n\tSLEW – ctr\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 261,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 265,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 263,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 262,
+      "ToPosID": 5,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

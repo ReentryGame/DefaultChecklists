@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsPropulsionSMRCSMon",
+  "Group": "SYSTEMS: PROPULSION",
+  "Name": "SM RCS Monitoring Check",
+  "Side": 1,
+  "SortPriority": 40502020,
+  "checklistText": "\t\tSM RCS Monitoring Check\r\n\r\nPanel 2:\r\n\tSM RCS He tb (8) - gray\r\n\r\n\tSM RCS PRIM PRPLNT tb (4) - gray\r\n\tSM RCS SEC PRPLNT tb (4) - gray\r\n\tRCS IND sel - SM A, B, C, D\r\n\r\nPanel 2:\r\n\tCheck Quads A, B, C, D\r\n\t\tSM RCS PKG TEMP ind - 115°-175°F\r\n\r\n\t\tSM RCS He PRESS ind - record\r\n\t\tSM RCS IND sw - He TK TEMP\r\n\t\tSM RCS He TK TEMP ind - record\r\n\t\tSM RCS IND sw - PRPLNT QTY\r\n\t\tSM RCS PRPLNT QTY ind - record\r\n\t\tSM RCS SEC FUEL PRESS ind - 178-192 psia\r\n\t\t\t(192-207 psia until jets fired after\r\n\t\t\torb insertion)\r\n\r\n\t\tWhen SM RCS SEC FUEL PRESS ind - <150 psia\r\n\t\tSM RCS A (B,C,D) SEC FUEL PRESS - OPEN\r\n\r\n\t\t\t\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

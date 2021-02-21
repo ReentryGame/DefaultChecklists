@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TLIPostTLIActivities",
+  "Group": "TRANS-LUNAR INJECTION",
+  "Name": "Post-TLI Activities",
+  "Side": 0,
+  "SortPriority": 430,
+  "checklistText": "Post-TLI Activities\r\n\r\n\t1\tEMS MODE - STBY\r\n\r\n\t2\tRecord ΔV\r\n\r\n\t3\tEMS FUNC - OFF\r\n\r\nPanel 3:\r\n\t4\tTAPE RCDR FWD - off (ctr)\r\n\t\tPCM BIT RATE - LO\r\n\r\n\t5\tCheck orb param (R30)\r\n\r\nPanel 2:\r\n\t\tKey V82E\r\n\t\tFL V16 N44\r\n\t\t\tHa\t\tXXXX.X NM\r\n\t\t\tHp\t\tXXXX.X NM\r\n\t\t\tTFF\t\tXXBXX  MIN-SEC\r\n\r\n\t\tPRO (exit R30)\r\n\r\n\t6 FL V16 N83\r\n\t\tΔVX, Y, Z (cont)\tXXXX.X FPS\r\n\t\t\r\n\t\tPRO\r\n\t\tFL V37\r\n\t\t\tKey XXE\r\n\r\n\t7 Perform Postorb Insertion Status\r\n\t\tChecklist\r\n\r\n\t8 Pan & Map Camr Stby Mode off\r\n\r\nPanel 230:\r\n\t\tPAN CAMR PWR - off (ctr)\r\n\t\tMAP CAMR ON - OFF\r\n\r\nPanel 181:\r\n\t\tSM/AC PWR - OFF\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

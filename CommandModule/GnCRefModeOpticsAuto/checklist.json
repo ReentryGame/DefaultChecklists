@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCRefModeOpticsAuto",
+  "Group": "OPTICS",
+  "Name": "Auto Optics Positioning",
+  "Side": 1,
+  "SortPriority": 40705010,
+  "checklistText": "\t\tAuto Optics Positioning\r\n\r\n\t1 The following are req\r\n\t\tISS - on, & orient known\r\n\t\tCMC - on\r\n\t\tOpt - on\r\n\r\n\t2 Establish CMC cont\r\n\r\nPanel 122:\r\n\t\tOPT ZERO - OFF\r\n\t\tOPT TELTRUN - SLAVE TO SXT\r\n\t\tOPT MODE - CMC\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

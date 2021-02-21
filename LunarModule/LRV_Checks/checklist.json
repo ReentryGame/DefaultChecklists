@@ -2,10 +2,10 @@
     "Group": "Lunar Roving Vehicle",
     "Images": [],
     "Name": "Display Reading Seq.",
-    "ProjectName": "lrvchecks",
+    "ProjectName": "LRV_Checks",
     "Side": 1,
     "SortPriority": 0,
     "Spacecraft": 1,
     "Steps": [],
-    "checklistText": "2.8 DISPLAY READING SEQUENCE AND TIME INTERVALS \r\n\r\na. \tReport the following displays in the order shown at the time\n\tintervals specified below:\r\n\r\n\tDISPLAY\t\t\t\t\t\tTIME INTERVAL \r\n\r\n\tBEARING\t\t\t\t\tAt start of sortie and each 15\r\n\tand RANGE\t\t\t\t\tminutes or as requested by MCC. \r\n \r\n\tAMP-HR\t\t\t\t\t\tAt start of sortie and as requested\r\n\tand DISTANCE\t\t\t\tby MCC.\r\n\r\n\tBATTERY\u00b0F \t\t\t\t\tAt start of sortie and as requested\r\n\tby MCC.\r\n\r\n\tAMPS\t\t\t\t\t\tSteady state at start of sortie,\r\n\t\t\t\t\t\t\t\teach 15 minutes when at constant\r\n\t\t\t\t\t\t\t\tspeed, when climbing steep obstacles\r\n\t\t\t\t\t\t\t\tand when climbing different slopes.\r\n\r\n\tVOLTS x 1/2\t\t\t\t\tAt start of sortie and as requested\r\n\tby MCC. \r\n\r\n\tMOTOR \u00b0F \t\t\t\t\tWhen requested by MCC.\r\n\r\n\tSPEED\t\t\t\t\t\tWhen requested by MCC.\r\n\r\n\tPITCH and\t\t\t\t\tDuring Navigation System initialization\r\n\tROLL \t\t\t\t\t\tand update.\r\n\r\n\tHEADING \t\t\t\t\tDuring Navigation System update "
+    "checklistText": "2.8 DISPLAY READING SEQUENCE AND TIME INTERVALS \r\n\r\na. \tReport the following displays in the order shown at the time\n\tintervals specified below:\r\n\r\n\tDISPLAY\t\t\t\t\t\tTIME INTERVAL \r\n\r\n\tBEARING\t\t\t\t\tAt start of sortie and each 15\r\n\tand RANGE\t\t\t\t\tminutes or as requested by MCC. \r\n \r\n\tAMP-HR\t\t\t\t\t\tAt start of sortie and as requested\r\n\tand DISTANCE\t\t\t\tby MCC.\r\n\r\n\tBATTERY\u00c2\u00b0F \t\t\t\t\tAt start of sortie and as requested\r\n\tby MCC.\r\n\r\n\tAMPS\t\t\t\t\t\tSteady state at start of sortie,\r\n\t\t\t\t\t\t\t\teach 15 minutes when at constant\r\n\t\t\t\t\t\t\t\tspeed, when climbing steep obstacles\r\n\t\t\t\t\t\t\t\tand when climbing different slopes.\r\n\r\n\tVOLTS x 1/2\t\t\t\t\tAt start of sortie and as requested\r\n\tby MCC. \r\n\r\n\tMOTOR \u00c2\u00b0F \t\t\t\t\tWhen requested by MCC.\r\n\r\n\tSPEED\t\t\t\t\t\tWhen requested by MCC.\r\n\r\n\tPITCH and\t\t\t\t\tDuring Navigation System initialization\r\n\tROLL \t\t\t\t\t\tand update.\r\n\r\n\tHEADING \t\t\t\t\tDuring Navigation System update "
 }

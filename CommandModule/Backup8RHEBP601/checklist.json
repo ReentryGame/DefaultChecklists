@@ -1,0 +1,670 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Backup8RHEBP601",
+  "Group": "BACKUP CREW PRELAUNCH",
+  "Name": "RHEB & PANEL 601\r",
+  "Side": 0,
+  "SortPriority": 48,
+  "checklistText": "RHEB & PANEL 601\r\nPanel 225:\r\n\tcb pnl 225 – all closed except\r\n\t\tcb HI GAIN ANT (2) – open\r\n\nPanel 226:\r\n\tcb pnl 226 – all closed except\r\n\t\tcb FC RAD (all) – open\r\n\t\tcb FC REACS (all) – open\r\n\t\tcb COAS/TUNL LTG MNB – open\r\n\nPanel 229:\r\n\tcb pnl 229 – all closed except\r\n\t\tcb MN REL (2) – open\r\n\t\tcb O2 VAC ION PUMPS (2) – open\r\n\nPanel 230 (skip):\r\n\tMAP CAMR ON tb – gray\r\n\tMAP CAMR TRACK tb – gray\r\n\tMAP CAMR ON – STBY\r\n\tMAP CAMR TRACK – off (ctr)\r\n\tMAP CAMR IMAGE MTN – OFF\r\n\tGAMMA RAY BOOM DPLY tb – gray\r\n\tGAMMA RAY BOOM JETT tb – gray\r\n\tGAMMA RAY BOOM DPLY – off (ctr)\r\n\tGAMMA RAY BOOM JETT – off (down)\r\n\tGAMMA RAY EXP – OFF\r\n\tGAMMA RAY GAIN – SHLD OFF\r\n\tMASS SPECT BOOM DPLY tb – gray\r\n\tMASS SPECT BOOM JETT tb – gray\r\n\tMASS SPECT BOOM DPLY – off (ctr)\r\n\tMASS SPECT BOOM JETT – off (down)\r\n\tMASS SPECT EXP – off (ctr)\r\n\tMASS SPECT ION SOURCE – OFF\r\n\tMASS SPECT MULT – LO\r\n\tMASS SPECT DSCRM – LO\r\n\tDATA SYS CAL – off (down)\r\n\tDATA SYS ON – OFF\r\n\tSUB SAT tb – gray\r\n\tSUB SAT – off (ctr)\r\n\tPAN CAMR OPR tb – gray\r\n\tPAN CAMR SELF TEST – off (ctr)\r\n\tPAN CAMR MODE – STBY\r\n\tPAN CAMR PWR – BOOST\r\n\tX RAY DR DPLY – off (ctr)\r\n\tX RAY EXP – off (ctr)\r\n\tALPHA RAY – OFF\r\n\tLASER ALTM – OFF\r\n\r\nPanel 250:\r\n\tcb pnl 250 – all closed except\r\n\r\n\t\t\t\tCAUTION\r\n\t\r\n\t\tcbs BAT BUS A&B TO PYRO BUS (2)\r\n\t\tshould never be closed when cb\r\n\t\tPYRO A&B/SEQ A&B (2) are closed.\r\n\t\tLoss of pyro bat pwr could result.\r\n\r\n\tcb BAT BUS A&B TO PYRO BUS (2) – open\r\n\tcb BAT C TO BAT BUS A&B (2) – OPEN\r\nPanel 251:\r\n\tOVBD DRAIN vlv – OFF\r\nPanel 252:\r\n\tBAT VENT vlv – CLOSE\r\n\tWASTE STOW vlv – VENT\r\nPanel 601:\r\n\tREPRESS 02 – CLOSE\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 185,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 184,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 177,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 176,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 181,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 180,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 179,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 178,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 182,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 183,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 186,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 187,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 188,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 189,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 194,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 195,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 196,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 197,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 193,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 192,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 191,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 190,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 2,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 204,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 198,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 199,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 26,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 12,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 13,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 200,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 201,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 202,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 14,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 16,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 17,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 18,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 19,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 203,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 210,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 209,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 208,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 207,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 206,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 205,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 211,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 212,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 225,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 226,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 20,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 21,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 218,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 220,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 215,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 216,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 217,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 219,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 213,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 214,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 222,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 224,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 221,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 223,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 227,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 228,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 229,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 230,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 232,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 231,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Skip P230"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 149,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 151,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 156,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 157,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 150,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 153,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 154,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 155,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 158,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 68,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 69,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 70,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Skip P601"
+    }
+  ],
+  "Images": []
+}

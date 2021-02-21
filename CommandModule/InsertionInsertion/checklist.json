@@ -1,264 +1,362 @@
 {
-    "Group": "INSERTION",
-    "Images": [],
-    "Name": "INSERTION",
-    "ProjectName": "InsertionInsertion",
-    "Side": 0,
-    "SortPriority": 301,
-    "Spacecraft": 0,
-    "Steps": [
-        {
-            "Program": 0,
-            "SetID": 118,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 119,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 120,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 121,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 51,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 82,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 124,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 125,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 256,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 257,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 162,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 163,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 160,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 161,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 72,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 0,
-            "SetID": 73,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 0,
-            "SetID": 64,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 0,
-            "SetID": 65,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 0,
-            "SetID": 168,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 0,
-            "SetID": 15,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 3
-        },
-        {
-            "Program": 0,
-            "SetID": 80,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 78,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 79,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 113,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 114,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 115,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 156,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 50,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 95,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 0,
-            "SetID": 102,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 103,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 104,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 105,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 149,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 22,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 0,
-            "SetID": 37,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        }
-    ],
-    "checklistText": "<size=21>INSERTION</size>\r\n[MDC-1] GMBL MTRS (4) - OFF\r\n[MDC-7] EDS PWR - OFF \r\n[MDC-7] TVC SERVO PWR (2) - OFF\r\n[MDC-5] MAIN BUS TIE (2) - OFF \r\n[MDC-8] SECS PYRO ARM (2) - SAFE \r\n[MDC-8] SECS LOGIC (2) - OFF \r\n[MDC-8] cb SECS ARM (2) - open\r\n[MDC-8] cb DIRECT ULLAGE (2) - open\r\n[MDC-8] cb FLT/PL VENT - open\n[MDC-1] EMS FUNC - OFF\n[MDC-1] TRANS CONT PWR - OFF \r\n[MDC-1] ROT CONTR PWR DIRECT (2) - OFF \r\n[MDC-1] BMAG MODE (3) - RATE 2 \r\n[MDC-1] CM RCS LOGIC - OFF\r\n[MDC-2] LV STAGE sw - OFF (verify)\r\n[MDC-325] CAB PRESS REL vlv (2) - NORMAL/LATCH\r\n[MDC-325] REPRESS PKG vlv -OFF\r\n[MDC-7] DIRECT O2 vlv - CLOSE\r\n[MDC-5] cb ECS XDUCR PRESS GRP 2 MNA - close\r\n[MDC-1] INSTALL COAS ([C]: tools/comm menu, check COAS left window, press COAS)\r\n\r\n[MDC-2] SM RCS HTRS (4) - PRIM\r\n[MDC-2] C/W NORM - NORM\n\n[MDC-5] cb WASTE H2O/URINE DUMP HTRS (2) - close\r\n[MDC-3] FC REACS VLVS - NORM \r\n[MDC-3] H2 PURGE LINE HTR - ON"
+  "Spacecraft": 0,
+  "ProjectName": "InsertionInsertion",
+  "Group": "INSERTION",
+  "Name": "STATUS CHECK",
+  "Side": 0,
+  "SortPriority": 301,
+  "checklistText": "\t\tStatus Checklist\r\n\r\nPanel 1:\r\n\tGMBL MOT (4) - OFF\r\n\r\nPanel 5:\r\n\tMN BUS TIE (2) - OFF\r\n\r\nPanel 1:\r\n\tΔV THRUST (2) - OFF (verify)\r\n\tRHC PWR DIR (both) - OFF\r\n\tELS AUTO - MAN\r\n\tCM RCS LOGIC - OFF\r\n\r\nPanel 8:\r\n\tcb ELS (2) - open\r\n\tSECS PYRO ARM (2) - SAFE\r\n\tSECS LOGIC (both) - OFF\r\n\tcb SECS ARM (2) - open\r\n\tAUTO RCS (16) - OFF\r\n\r\nPanel 7:\r\n\tEDS PWR - OFF\r\n\tTVC SERVO PWR (both) - OFF\r\n\r\nPanel 3:\r\n\tPCM BIT RATE - LO\r\n\tFC REAC VLVS - NORM\r\n\r\nPanel 2:\r\n\tUP TLM IU - as req\r\n\tSM RCS HTRS (4) - PRIM\r\n\tC/W NORM - NORM\r\n\r\n\r\n\r\n\t\t\t\tWARNING\r\n\r\n\t\tIf BPC JETT knob cannot be\r\n\t\tpositioned 180° away from the\r\n\t\tBPC JETT position before opening\r\n\t\tside hatch, a pin in the plunger\r\n\t\tmay be sheared possibly allowing\r\n\t\tpress seal to be broken. Cabin\r\n\t\trepressurization may not be\r\n\t\tpossible due to overboard venting\r\n\t\taround the BPC plunger.\r\n\r\nSKIP: Side hatch:\r\n\tBPC JETT knob - turn arrow\r\n\t\ton knob 180° away from\r\n\t\tBPC JETT decal\r\n\tActr handle sel - N (neut)\r\n\tVent piston chamber\r\n\t\tGN2 handle - pull (inbd)\r\n\t\tGN2 press ind - min\r\n\r\nPanel 9, 10, 6:\r\n\tMODE (3) - as desired\r\n\t\r\n\tStow seats\r\n\r\nPanel 1:\r\n\tMon LV TK PRESS ind (4) from orb\r\n\t\tinsertion to CSM/SIVB sep for the\r\n\t\tfollowing limits\r\n\t\t\tΔP <36 psid (oxid > fuel)\r\n\t\t\tΔP <26 psid (fuel > oxid)\r\n\t\t\tLV TK PRESS <50 psia\r\n\r\n\r\nPerform SCS Attitude Reference Comparison\r\n\t\tCheck\r\n\r\nPerform SCT/SXT Dust Cover Jett Procedure\r\n\r\n\t\t\t\r\n\t\t\tWARNING\r\n\r\n\t\tUntil optics are to be used, the\r\n\t\tOPT ZERO (pnl 122), should be\r\n\t\tkept at ZERO to prevent inad-\r\n\t\tvertent jett of optics covers.\r\n\r\nPanel 100:\r\n\tOPT PWR - on (up)\r\n\r\nPanel 122:\r\n\t\tOPT ZERO - OFF\r\n\t\tOPT MODE - MAN\r\n\t\tOPT COUPLING - DIR\r\n\t\tOPT SPEED - HI\r\n\r\n\tOHC - max right\r\n\t\tObserve ejection thru optics\r\n\r\n\t\t\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 131,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 132,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 159,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 57,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 102,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 103,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 104,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 105,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 149,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform SCS Attitude REference Comparison Check"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform SCT/SXT Dust Cover Jett Procedure"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 273,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 273,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 275,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 274,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Optics Covers jettison through optics"
+    }
+  ],
+  "Images": []
 }
