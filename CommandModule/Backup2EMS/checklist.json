@@ -1,0 +1,215 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Backup2EMS",
+  "Group": "BACKUP CREW PRELAUNCH",
+  "Name": "EMS PRELAUNCH TESTS\r",
+  "Side": 0,
+  "SortPriority": 42,
+  "checklistText": "EMS PRELAUNCH TESTS\r\n\r\n1 Initial EMS Prep\r\nPanel 1:\r\n\tEMS FUNC – OFF\r\n\r\n\t\t\tCAUTION\r\n\tIf SPS THRUST lt on, a grd exists\r\n\ton one or both ΔV THRUST sws.\r\n\r\nPanel 8:\r\n\tcb EMS (2) – close\r\nPanel 1:\r\n\tOpen EMS GTA cover\r\n\r\n\tGTA sw – on (up)\r\n\r\nEMS MODE – STBY\r\n\r\n2 EMS FUNC – ΔV\r\n\tAdj alphanumeric brightness (option)\r\n\tWait 5 sec\r\n\r\n3 GTA Null Adj\r\n\tEMS MODE – NORM\r\n\tAdj GTA null adj until ΔV/RNG least\r\n\tsignificant digit changes <1 per 10 sec\r\n\r\n4 EMS FUNC – ΔV SET\r\n  \tSlew ΔV ind to +1586.8\r\n\r\n5 EMS FUNC – ΔV TEST\r\n \tSPS THRUST lt – on\r\n \tΔV ind – decr (10 sec)\r\n \tSPS THRUST lt – out (at ΔV – 0.1 fps)\r\n \tΔV ind – stops at -20.8±20.7 fps\r\n \tEMS MODE – STBY\r\n\r\n6 EMS FUNC – EMS TEST 1 (CCW) (wait 5 sec)\r\n\tEMS MODE – NORM (wait 10 sec)\r\n\r\n\r\n\t.05 G lt – out\r\n\tSPS THRUST lt – out\r\n\tLift vctr dn lt – out\r\n\tLift vctr up lt – out\r\n\tRNG ind – 0.0 NM\r\n\tSlew scroll until disp index\r\n\t\tsuperimposed upon notch at start\r\n\t\tof next self-test pattern\r\n\r\n7 EMSFUNC – EMS TEST 2\r\n\tWait 10 sec\r\n\t.05 G lt – on (all others out)\r\n\r\n8 EMS FUNC – EMS TEST 3\r\n\t.05 G lt – on\r\n\tLift vctr dn lt – on (10 sec after .05 G lt)\r\n\tSet RNG ind to 58.0±0.0 NM\r\n\r\n9 EMS FUNC – EMS TEST 4\r\n\t.05 G lt – on (all others out)\r\n\tG-V trace (during 10-sec period) within test pattern\r\n\tAfter 10 sec, G-V trace stops at lower\r\n\t\tright corner of test pattern\r\n\tRNG ind (during 10-sec period)\r\n\t\tcounts toward zero\r\n\tAfter 10 sec, stops at 0.0±0.2\r\n\n10 EMS FUNC – EMS TEST 5\r\n\t.05 G lt – on\r\n\tLift vctr up lt – on (10 sec after .05 G lt)\r\n\tRNG ind – resets tp 0.0 NM\r\n\tScribe traces vert line ≈9 G to\r\n\t0.28±0.1 G & stops (trace within test pattern)\r\n\t11 Slew scroll until stylus is at 0.28 G\r\n\t\ttol step of grd test pattern 1 &\r\n\t\tverify ΔV instructions are visible\r\n\r\n12 EMS FUNC – RNG SET\r\n\tEMS MODE – STBY\r\n\t\tScribe traces vert line from\r\n\t\t\t0.28 G to 0.0±0.1 G & stops\r\n\t\tAll lt – out\r\n\r\n13 EMS FUNC – OFF\r\n\t\t\r\nWARNING\r\n\r\n\tGTA sw is for grd tests only &\r\n\tmust be set off (down) & door\r\n\tclosed for proper flt oper of EMS.\r\n\t\r\n\tGTA sw – off (down)\r\n\tClose GTA cover\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 146,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Slew dV ind to +1586.8"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify dV TEST results (see cl)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 11,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Test 1 results."
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Slew scroll to next test pattern."
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 10,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify test 2 results."
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 9,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify test 3 results."
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set RND ind to 58 NM."
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 8,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify test 4 results."
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 7,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify test 5 results."
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 6,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 146,
+      "ToPosID": 5,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

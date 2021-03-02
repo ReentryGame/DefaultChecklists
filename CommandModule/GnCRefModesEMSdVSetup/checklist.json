@@ -1,0 +1,75 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCRefModesEMSdVSetup",
+  "Group": "ENTRY MONITOR SYSTEM",
+  "Name": "ΔV Setup",
+  "Side": 1,
+  "SortPriority": 40706020,
+  "checklistText": "ΔV Setup\r\n\r\n\tΔV TEST & NULL BIAS CHECK (desired)\r\n\r\nPanel 8:\r\n\tcb EMS (2) - close\r\n\r\nPanel 1:\r\n\t1 EMS MODE - STBY\r\n\t  EMS FUNC - ΔV SET\r\n\r\n\t2 Set ΔV ind - req ΔV\r\n\r\n\t3 EMS FUNC - ΔV\r\n\r\n\t4 Before maneuver, set EMS MODE - NORMAL\n\r\n\t\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(optional) Complete the EMS null bias check"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set ΔV ind to required ΔV"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

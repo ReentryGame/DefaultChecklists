@@ -1,0 +1,208 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Backup6LHEBECSValve",
+  "Group": "BACKUP CREW PRELAUNCH",
+  "Name": "LHEB ECS VALVES",
+  "Side": 0,
+  "SortPriority": 47,
+  "checklistText": "LHEB ECS VALVE STATUS\r\n\r\nPanel 377:\r\n\tGLY TO RAD SEC vlv – BYP (verify)\r\nPanel 379:\r\n\tPRIM ACCUM FILL vlv – OFF\r\nPanel 378:\r\n\tPRIM GLY ACCUM vlv – open (CCW)\r\n\tY-Y strut – retract\r\n\r\nOpen cool cont atten pnl\r\nPanel 382:\r\n\tSUIT HT EXCH PRIM GLY – FLOW (CCW)\r\n\t\tWARNING\r\n\tSUIT FLOW RELF vlv must remain OFF\r\n\tthroughout msn or swelling of CO2-\r\n\todor absorber filters may result.\r\n\r\nSUIT FLOW RELF vlv – OFF\r\nGLY EVAP IN TEMP vlv – MIN (CCW)\r\nSUIT HT EXCH SEC GLY – FLOW\r\nEVAP H2O CONT (2) – AUTO\r\nH2O ACCUM (both) – RMTE\r\nClose cool cont atten pnl\r\nY-Y strut – extd & lock in place\r\nOpen CO2 cstr atten pnl\r\nPanel 350:\r\n\tCO2 CSTR DIVERT vlv – ctr\r\n\tClose CO2 cstr atten pnl\r\nPanel 351:\r\n\tMN REG (2) – open\r\n\tH2O/GLY TK sel (2) – BOTH\r\n\tEMER CAB PRESS sel – OFF\r\n\tCAB REPRESS vlv – OFF (CCW)\r\nPanel 352:\r\n\tWASTE TK SERV vlv – CLOSE\r\n\tPRESS RELF sel – 2\r\n\tPOT TK IN vlv – CLOSE\r\n\tWASTE TK IN vlv – AUTO\r\nFwd Hatch:\r\n\tPRESS EQUAL vlv – CLOSE\r\nPanel 201:\r\n\tAC UTIL PWR – OFF\r\nPanel 12:\r\n\tTUNL VENT vlv – LM/CM ΔP\r\n\t\tLM/CM ΔP ind – 0.0 psid\r\nPanel 300, 301, 302:\r\n\tSUIT FLOW vlv (3) – FULL FLOW\r\nPanel 303:\r\n\tPRIM CAB TEMP vlv – COLD (CW)\r\n\tSEC CAB TEMP vlv – MAX COOL (CW)\r\nPanel 304:\r\n\tDRINK H2O SUP vlv – OFF\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 32,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 31,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 33,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 34,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 40,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Skip P350 (in dev)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 42,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 44,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 46,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 47,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 50,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 48,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 49,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 280,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 281,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 282,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 52,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 53,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

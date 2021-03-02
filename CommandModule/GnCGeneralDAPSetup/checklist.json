@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCGeneralDAP",
+  "Group": "DIGITAL AUTOPILOT",
+  "Name": "(V48) DAP Data Load",
+  "Side": 1,
+  "SortPriority": 40802010,
+  "checklistText": "<size=21>(V48) CSM - DAP Data Load Procedure (R03)</size>\r\n\n1.\r\n\tKey V48E \r\n\r\n2.\r\n\tFL V04 N46\r\n\t\tR1: A B C D E\r\n\t\tR2: A B C D E\r\n\r\nRegister 1\nA: What is the configuration:\r\n\tA = 0 - No DAP\n\tA = 1 - CSM\n\tA = 2 - CSM & LM\n\tA = 3 - CSM & SIVB\n\tA = 6 - CSM & LM Ascent Stage Only \r\n\r\nB: QUAD A/C FOR X\n\tB = 0 - Fail A/C \r\n\tB = 1 - Use A/C \r\n\nC: QUAD B/D FOR X\n\tC = 0 - Fail B/D \r\n\tC = 1 - Use B/D \r\n\r\nD: ERR DEADBAND\n\tD = 0 - Attitude deadband 0.5 degrees \r\n\tD = 1 - Attitude deadband 5.0 degrees\r\n\r\nE: RATE SELECT\r\n\tE = 0 - 0.05 deg/sec \r\n\tE = 1 - 0.2 deg/sec\r\n\tE = 2 - 0.5 deg/sec\r\n\tE = 3 - 2.0 deg/sec \r\n\r\nRegister 2\nA = ROLL QUAD SELECT\n\tA = 0 - USE B/C\n\tA = 1 - USE A/C\n\nB: QUAD A\n\tB = 0 - Fail \r\n\tB = 1 - Use\n \r\nC: QUAD B\n\tC = 0 - Fail \r\n\tC = 1 - Use \r\n\r \r\nD: QUAD C\n\tD = 0 - Fail \r\n\tD = 1 - Use \n \r\nE: QUAD D\n\tE = 0 - Fail \r\n\tE = 1 - Use \n\nAccept: Key PRO \r\nReject: Key V21, V22, or V24 - Load desired DAP data code and/or channel 30 back-up code \r\n\r\n3.\r\nFL V06 N47 \r\n\tR1: CSM weight \t\t\tXXXXX lb \r\n\tR2: LM weight \t\t\tXXXXX lb \r\n\n\r\nAccept:\tKey PRO - If DPS has been staged, exit RO3\r\nReject: \tKey V21E, V22E, or V24E\n\t\tLoad Correct Data\n\n4.\nFL V06 N48\n\tR1: P Trim\t\t\t\tXXX.XX deg\n\tR2: Y Trim\t\t\t\tXXX.XX deg\n\nAccept:\tPRO - Return to prog\nReject: \tKey V21E, V22E, or V24E\n\t\tLoad Correct Data\n\n5.\tTo activate DAP\nPanel 1:\n\tCMC MODE - FREE\n\tKey V49E\n\n\n",
+  "Steps": [],
+  "Images": []
+}

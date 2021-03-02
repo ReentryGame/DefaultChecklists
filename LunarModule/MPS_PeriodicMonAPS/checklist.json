@@ -1,11 +1,11 @@
 {
     "Group": "MPS",
-    "Images": [],
     "Name": "APS PERIODIC MONITORING",
     "ProjectName": "MPS_PeriodicMonAPS",
     "Side": 1,
     "SortPriority": 1305,
     "Spacecraft": 1,
     "Steps": [],
-    "checklistText": "<size=21>APS PERIODIC MONITORING</size>\r\n\r\nPanel 1:\r\n1.\tHELIUM MON sel - PRESS 1\r\n\tMPS: HELIUM ind - \t2800 to 3500 psia (pre pressurization),\r\n\t\t\t\t2700 to 3450 psia (post pressurization),\r\n\t\t\t\t& 600 to 800 psia (post lunar ascent)\r\n\r\n2.\tHELIUM MON sel - PRESS 2\r\n\tMPS: HELIUM ind -\t2800 to 3500 psia (pre pressurization),\r\n\t\t\t\t2700 to 3450 psia (post pressurization),\r\n\t\t\t\t& 600 to 800 psia (post lunar ascent)\r\n\r\n3.\tMPS: PRESS ind pwr fail lt - off\r\n\r\n4.\tPRPLNT TEMP/PRESS MON SW - ASC\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50\u00b0 to 90\u00b0 F\r\n\t\tOXID TEMP ind - 50\u00b0 to 90\u00b0 F\r\n\t\tFUEL PRESS ind - 172 to 203 psia\r\n\t\tOXID PRESS ind - 172 to 203 psia\r\n\r\n5.\tIf unstaged:\r\n\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\tHELIUM MON sel - SUPCRIT PRESS\r\n\r\n"
+    "Images": [],
+    "checklistText": "<size=21>APS PERIODIC MONITORING</size>\r\n\r\nPanel 1:\r\n1.\tHELIUM MON sel - PRESS 1\r\n\tMPS: HELIUM ind - \t2800 to 3500 psia (pre pressurization),\r\n\t\t\t\t2700 to 3450 psia (post pressurization),\r\n\t\t\t\t& 600 to 800 psia (post lunar ascent)\r\n\r\n2.\tHELIUM MON sel - PRESS 2\r\n\tMPS: HELIUM ind -\t2800 to 3500 psia (pre pressurization),\r\n\t\t\t\t2700 to 3450 psia (post pressurization),\r\n\t\t\t\t& 600 to 800 psia (post lunar ascent)\r\n\r\n3.\tMPS: PRESS ind pwr fail lt - off\r\n\r\n4.\tPRPLNT TEMP/PRESS MON SW - ASC\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50\u00c2\u00b0 to 90\u00c2\u00b0 F\r\n\t\tOXID TEMP ind - 50\u00c2\u00b0 to 90\u00c2\u00b0 F\r\n\t\tFUEL PRESS ind - 172 to 203 psia\r\n\t\tOXID PRESS ind - 172 to 203 psia\r\n\r\n5.\tIf unstaged:\r\n\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\tHELIUM MON sel - SUPCRIT PRESS\r\n\r\n"
 }

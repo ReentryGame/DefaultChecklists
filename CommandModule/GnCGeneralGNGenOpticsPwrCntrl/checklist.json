@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCGeneralGNGenOpticsPwrCntrl",
+  "Group": "G&N GENERAL",
+  "Name": "Optics Power Control",
+  "Side": 1,
+  "SortPriority": 40801040,
+  "checklistText": "Optics Power Control\r\n\r\n\t1 Opt pwr up\r\n\r\nPanel 5:\r\n\tG/N PWR - AC1 or AC2\r\n\r\nPanel 100:\r\n\tG/N OPT PWR - on (up)\r\n\r\nPanel 122:\r\n\tOPT ZERO - OFF\r\n\tOPT ZERO - ZERO (≈15 sec to zero)\r\n\tCOND LAMPS - ON\r\n\tRETCL BRT tw - adj\r\n\r\n\t2 Opt pwr down\r\n\r\nPanel 122:\r\n\t\tOPT ZERO - ZERO\r\n\r\nPanel 100:\r\n\t\tG/N OPT PWR - OFF\r\n\r\nPanel 5:\r\n\t\tG/N PWR - OFF\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

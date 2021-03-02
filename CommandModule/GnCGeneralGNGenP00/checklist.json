@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCGeneralGNGenP00",
+  "Group": "G&N GENERAL",
+  "Name": "(P00) Idling Program",
+  "Side": 1,
+  "SortPriority": 40801010,
+  "checklistText": "\t\t\t(POO) CMC Idling Program\r\n\r\nPanel 2, 140:\r\n\tKey V37E 00E\r\n\t\tDSKY - P00\r\n\t\r\n\t\t\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsPropulsionSPSMon",
+  "Group": "SYSTEMS: PROPULSION",
+  "Name": "SPS Monitoring Check",
+  "Side": 1,
+  "SortPriority": 40502010,
+  "checklistText": "\t\tSPS Monitoring Check\r\n\r\nPanel 3:\r\n\tSPS PRPLNT TEMP ind - +45° to +75°\r\n\t\tIf <45°F, SPS LINE HTRS - A\r\n\t\tIf >75°F, SPS LINE HTRS - off (ctr)\r\n\tSPS PRESS IND sw - He, N2A, & N2B\r\n\t\tSPS He/N2 PRESS ind\r\n\t\t\tSPS He PRESS - 3900 psia max\r\n\t\t\tSPS N2 A PRESS - 2900 psia max\r\n\t\t\tSPA N2 B PRESS - 2900 psia max\r\n\tSPS PRESS IND sw - He\r\n\tSPS FUEL PRESS ind - 170-195 psia\r\n\tSPS OXID PRESS ind - 170-195 psia\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tIf ∆P between fuel & oxid is\r\n\t\t>20 psi prior to critical SPS\r\n\t\tburn, repressurize prplnt tks\r\n\t\tmanually by placing SPS He VLV\r\n\t\t(both) - ON. ∆P between tks\r\n\t\t>20 psi during a burn may result\r\n\t\tin degraded performance, rough\r\n\t\tcombustion, &/or eng failure.\r\n\t\tRefer to SPS malfunction symptom.\r\n\r\nPanel 3:\r\n\tSPS INJ VLV ind (4) - CLOSE\r\n\r\n\tSPS OXID QTY ind - record\r\n\tSPS FUEL QTY ind - record\r\n\tSPS OXID UNBAL ind - record\r\n\tOXID FLOW VLV PRIM - PRIM\r\n\r\n\t\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tDo not sw to sec oxid flow vlv\r\n\t\twith prim vlv functioning properly.\r\n\t\tFailure of sec vlv could result in\r\n\t\tloss of prplnt management capabil-\r\n\t\tity. If OXID FLOW VLV PRIM sw\r\n\t\tinadvertently set to SEC when no\r\n\t\tfailure exists, return to PRIM\r\n\t\tbefore repositioning OXID FLOW VLV\r\n\t\tINCR sw.\r\n\r\n\tSPS He VLV (both) - AUTO\r\n\tSPS He VLV tb (both) - bp\r\n\r\n\n\n\n",
+  "Steps": [],
+  "Images": []
+}

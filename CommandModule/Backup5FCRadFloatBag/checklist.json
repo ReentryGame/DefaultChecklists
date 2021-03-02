@@ -1,0 +1,145 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Backup5FCRadFloatBag",
+  "Group": "BACKUP CREW PRELAUNCH",
+  "Name": "FC RADIATOR & FLOAT BAG",
+  "Side": 0,
+  "SortPriority": 45,
+  "checklistText": "FC RADIATOR & FLOAT BAG CHECKS\r\n\r\n\tFC Rad Check\r\nPanel 226:\r\n\tcb FC RAD (all) – close\r\nPanel 3:\r\n\tFC RAD tb (all) – gray\r\n\r\nPanel 226:\r\n\tcb FC RAD (all) – open\r\n\r\n\t\r\nFloat Bag Check\r\nPanel 8:\r\n\tFLOAT BAG (all) – OFF\r\n\tcb FLOAT BAG (all) – close\r\n\tFLOAT BAG (all) – VENT\r\n\tcb FLOAT BAG (all) – open\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC RAD rb (all) - gray"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 164,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 165,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 166,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 76,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 164,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 165,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 166,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 76,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

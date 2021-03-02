@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsEPSFCLoadDisconnect",
+  "Group": "SYSTEMS: EPS",
+  "Name": "FC Load Disconnect",
+  "Side": 1,
+  "SortPriority": 40503080,
+  "checklistText": "\t\tFC Load Disconnect\r\n\t\t(Example using FC 2)\r\n\r\n\ta. Prior to Disconnect\r\n\t\tEnsure that at least one FC\r\n\t\t\tis powering each mn bus\r\n\t\tFC disconnect\r\n\t\t(1) Prime configuration\r\n\r\nPanel 3:\r\n\t\t\tFC 2 MNA - OFF\r\n\t\t\tFC 2 MNB - OFF (verify)\r\n\r\n\t\t\tFC 2 MNA & B tb (2) - bp\r\n\t\t\r\n\t\t\tFC 1 MNA tb - gray\r\n\r\n\t\t\tFC 1 MNB tb  - bp\r\n\r\n\t\t\tFC 3 MNA tb - bp\r\n\r\n\t\t\tFC 3 MNB tb - gray\r\n\t\t\r\n\r\n\t\t(2) Sec configuration\r\n\r\n\t\t\tFC 1 MNB - on (up)\r\n\t\t\tFC 3 MNA - on (up)\r\n\r\n\t\t\tFC 2 MNA - OFF\r\n\t\t\tFC 2 MNB - OFF (verify)\r\n\r\nPanel 1, 3, 122:\r\n\t\t\tMASTER ALARM pb/lt (3) -\r\n\t\t\t\ton\r\n\r\nPanel 2:\r\n\t\t\tFC BUS DISC lt - on (mom)\r\n\r\nPane 1, 3, 122:\r\n\t\t\tMASTER ALARM pb/lt - push,\r\n\t\t\t\tout\r\n\r\nPanel 2:\r\n\t\t\tC/W lts (all) - out\r\n\r\nPanel 3:\r\n\t\t\tFC 1 MNA & B tb (2) - gray\r\n\r\n\t\t\tFC 3 MNA & B tb (2) - gray\r\n\r\n\t\t\tFC 2 MNA & B tb (2) - bp\r\n\r\n\t\t\r\n\t\tb. Conn Desired FC to Desired Mn Bus\r\n\t\t\tFC to bus conn\r\n\r\n\t\t\tFC 2 MNA - on (up)\r\n\r\n\r\n\r\n\t\t\tFC 1 MNB - OFF\r\n\t\t\tFC 3 MNA - OFF\r\n\r\nPanel 1, 3, 122:\r\n\t\tMASTER ALARM PB/LT (3) - on\r\n\r\nPanel 2:\r\n\t\tFC BUS DISC lt - on (mom)\r\n\r\nPanel 1, 3, 122:\r\n\t\tMASTER ALARM PB/LT - push,\r\n\t\t\tout\r\n\r\nPanel 2:\r\n\t\tC/W lts (all) - out\r\n\r\nPanel 3:\r\n\t\tFC 2 MNA tb - gray\r\n\t\tFC 2 MNB tb - bp\r\n\r\n\r\n\t\tFC 1 MNA tb - gray\r\n\r\n\t\tFC 1 MNB tb - bp\r\n\r\n\t\tFC 3 MNA tb - bp\r\n\r\n\t\tFC 3 MNB tb - gray\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

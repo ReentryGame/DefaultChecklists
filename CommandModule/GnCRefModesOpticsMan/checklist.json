@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCRefModesOpticsMan",
+  "Group": "OPTICS",
+  "Name": "Manual Optics Control",
+  "Side": 1,
+  "SortPriority": 40705020,
+  "checklistText": "\t\tManual Optics Control\r\n\r\n\t1 Opt - on\r\n\r\n\t2 Establish man cont & sighting options\r\n\t\tOPT ZERO - OFF\r\n\t\tOPT COUPLING - DIR or RSLV\r\n\t\tOPT MODE - MAN\r\n\r\n\r\n\t\tOPT TELTRUN - SLAVE TO SXT\r\n\r\n\tor 0°\r\n\r\n\tor 25°\r\n\r\n\r\n\t\tOPT SPEED - HI, MED or LO\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

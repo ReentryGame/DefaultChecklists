@@ -2,7 +2,7 @@
     "Group": "Lunar Roving Vehicle",
     "Images": [],
     "Name": "Payload Loading",
-    "ProjectName": "LRVpayloadLoading",
+    "ProjectName": "LRV_PayloadLoading",
     "Side": 1,
     "SortPriority": 0,
     "Spacecraft": 1,

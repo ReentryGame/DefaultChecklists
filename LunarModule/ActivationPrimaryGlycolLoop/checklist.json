@@ -90,8 +90,7 @@
             "Text": null,
             "ToPosID": 2,
             "Type": 2
-        },
-        null
+        }
     ],
     "checklistText": "<size=21>PRIMARY GLYCOL LOOP ACTIVATION</size>\r\n\r\n1.\r\nPANEL 2:\r\n\tECS:\r\n\t\tPRESS ind pwr fail lt - on\r\n\t\tGLYCOL ind pwr fail lt - on\r\n\t\tQUANTITY ind pwr fail lt - on\r\n\t\tGLYCOL comp caut lt - on\r\n\r\n2.\r\nPANEL 11:\r\n\tVerify:\r\n\tCB ECS:\r\n\t\tGLYCOL PUMP 1 - open\r\n\t\tGLYCOL PUMP 2 - open\r\n\t\tGLYCOL PUMP AUTO TRNFR - open\r\n\r\n3.\r\nPANEL 16:\r\n\tCB ECS:\tDISP - close\r\n\t\t* Following indicator power failure \r\n\t\t* lights - off when CB ECS: DISP is closed:\r\n\t\t* ECS:\r\n\t\t*\tPRESS\r\n\t\t* \tGLYCOL\r\n\t\t* \tQUANTITY\r\n\r\n4.\r\nPANEL 2:\r\n\tGLYCOL sel - PUMP 1\r\n\tECS:\tGLYCOL press ind - record: _______\r\n\tGLYCOL sel - INST (SEC)\r\n\tECS:\tGLYCOL press ind - record: _______\r\n5.\r\nPANEL 2:\r\n\tGLYCOL sel - PUMP 2\r\n\r\n6.\r\nPANEL 11:\r\n\tCB ECS:\r\n\t\tGLYCOL PUMP AUTO TRNFR - close\r\n\t\tGLYCOL PUMP 1 - close\r\n\t\tGLYCOL PUMP AUTO TRNFR - open\r\n\r\n7.\r\nPANEL 2:\r\n\tGLYCOL sel - PUMP 1\r\n\r\n8.\r\nPANEL 11:\r\n\tCB ECS:\tGLYCOL PUMP 2 - close\r\n\r\n9.\r\nPANEL 2:\r\n\tGLYCOL press ind - 21 to 27 psia\r\n\tGLYCOL comp caut lt - off\r\n\r\n"
 }

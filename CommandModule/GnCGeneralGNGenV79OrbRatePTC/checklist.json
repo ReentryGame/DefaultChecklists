@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCGeneralGNGenV79OrbRatePTC",
+  "Group": "G&N GENERAL",
+  "Name": "(V79) Orbate/PTC",
+  "Side": 1,
+  "SortPriority": 40801130,
+  "checklistText": "(V79) Orbate/PTC (BBQ Mode - R64)\r\n\r\n\t\tCMC - on (req)\r\n\t\tISS - on & orient known (req)\r\n\t\t\t(For orbate, Ysm aligned to V x R)\r\n\t\tSCS - on (desired)\r\n\t\tRCS DAP - Load & activate (req)\r\n\r\nPanel 7:\r\n\tLOGIC 2/3 PWR - on (up)\r\n\r\n\t1 Perform (V49E) R62\r\n\t\tLoad gmbl angles for init of mnvr\r\n\t\t\t(orbate or PTC)\r\n\r\n\t\r\n\t2 Disable two adjacent RCS quads\r\n\r\n\tFor PTC, att hold for 20 min\r\n\r\nPanel 1:\r\n\tMAN ATT P&Y (2) - ACCEL CMD\r\n\tEnable all jets\r\n\r\n\r\nPanel 2, 140:\r\n\t3 Key V79E\r\n\r\n\t\t\tPoss OPR ERR\r\n\r\n\t\tIf in P00, go to 5\r\n\t\r\n\r\n\t4 FL V06 N16\r\n\t\tTime of event\t\t\t00XXX. HRS\r\n\t\t\t\t\t\t000XX. MIN\r\n\t\t\t\t\t\t0XX.XX SEC\r\n\r\n\t\tAccept \tPRO\r\n\t\tReject V25E\r\n\t\t\tLoad desired data\r\n\r\n\t5 FL V06 N79\r\n\t\tRate\t\t\t\tX.XXXX DEG/SEC\r\n\t\tDBD\t\t\t\tXXX.XX DEG\r\n\r\n\t\tAxix option (X or Y)\t\t0000X.\r\n\t\t\t(0 = X axis, non-zero = Y axis)\r\n\r\nPanel 1:\r\n\tAccept\tSC CONT - CMC\r\n\t\tCMC MODE - AUTO\r\n\r\nPanel 2, 140:\r\n\t\tPRO\r\n\tReject\tKey V25E\r\n\t\tLoad desired data\r\n\r\nPanel 1:\r\n\tFor PTC, MAN ATT ROLL - ACCEL CMD\r\n\t\tMAN ATT P&Y (2) - RATE CMD\r\n\r\nPanel 8:\r\n\t6 If desired for PTC, AUTO RCS (16) - OFF\r\n\r\nPanel 1:\r\n\tRHC PWR DIR (both) - OFF\r\n\r\n\t7 To term mnvr\r\n\r\nPanel 2, 140:\r\n\tOrbate\r\n\t\tKey V46E\r\n\r\n\tPTC\r\n\r\nPanel 1:\r\n\t\tMAN ATT (3) - ACCEL CMD\r\n\r\nPanel 8:\r\n\t\tAUTO RCS (16) - MNA or MNB\r\n\t\tV46E or cycle SC CONT sw\r\n\r\nPanel 1:\r\n\t\tMAN ATT (3) - RATE CMD\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

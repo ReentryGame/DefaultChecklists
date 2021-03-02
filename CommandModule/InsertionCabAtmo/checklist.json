@@ -1,0 +1,96 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "InsertionCabAtmo",
+  "Group": "INSERTION",
+  "Name": "CABIN ATMOSPHERE",
+  "Side": 0,
+  "SortPriority": 304,
+  "checklistText": "\t\tCabin Atmosphere Verification\r\n\r\nPanel 2:\r\n\t1 CAB PRESS ind - 5.6-6.2 psia & decr\r\n\r\nPanel 7:\r\n\t2 DIRECT O2 vlv - close (cw)\r\n\r\nPanel 2:\r\n\t3 O2 FLOW ind - 0.2 lb/hr\r\n\r\nPanel 351:\r\n\t4 EMER CAB PRESS sel - BOTH\r\n\r\nPanel 380:\r\n\t5 SUIT RETURN vlv - open (pull)\r\n\r\n\t6 Gloves & helmet removed\r\n\r\nPanel 2:\r\n\t7 When CAB PRESS ind <5.3 psia\r\n\t\tO2 FLOW ind - 1.0 lb/hr\r\n\t\tO2 FLOW HI lt - on\r\n\r\nPanel 1, 3, 122:\r\n\tMASTER ALARM pb/lt - on, push\r\n\r\n\t\t\t\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tOpening cb ECS PRESS XDUCER 2 MNB\r\n\t\tto extinguish O2 FLOW HI lt is a\r\n\t\tcrew option. If exercised, the\r\n\t\tfollowing redundant functions\r\n\t\twill be lost.\r\n\r\n\t\t\tCO2 PP ind & C/W circuit\r\n\t\t\tCAB PRESS ind\r\n\t\t\tO2 reg out press (PCM only)\r\n\t\t\tGLY EVAP STM PRESS ind\r\n\t\t\tO2 FLOW ind\r\n\r\nPanel 5:\r\n\t8 cb ECS PRESS XDUCER 2 MNB - open\r\n\r\n\t9 60/40 cab purge complete at 8 hrs after\r\n\t\tLM isolation following transposition &\r\n\t\tdocking. For 24 hrs after LM isolation\r\n\t\tfollowing T & D, LM press will be\r\n\t\tmonitored at ≈8-hr intervals using tunl\r\n\t\tvent vlv in the LM/CM ΔP position. At\r\n\t\t24 hrs after LM isolation, it will be\r\n\t\tdetermined if a Δ cabin purge is req\r\n\t\t& the length of this purge.\r\n\r\nPanel 252:\r\n\tWASTE STOW vlv - CLOSE\r\n\r\nPanel 5:\r\n\tcb ECS PRESS XDUCER 2 MNB - close\r\n\r\nPanel 2:\r\n\tO2 FLOW HI lt - out\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[MDC-2] CAB PRESS ind - 5.6 - 6.2 psia & decr"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW ind - 0.2 lb/hr"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When CAB PRESS ind <5.3 psia, proceed."
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW ind - 1.0 lb/hr"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW HI lt - on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MASTER ALARM pb/lt - on, push"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 96,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 70,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 96,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW HI lt - out"
+    }
+  ],
+  "Images": []
+}

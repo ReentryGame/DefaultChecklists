@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsEPSGeneral",
+  "Group": "SYSTEMS: EPS",
+  "Name": "GENERAL",
+  "Side": 1,
+  "SortPriority": 40503001,
+  "checklistText": "EPS\n\n",
+  "Steps": [],
+  "Images": []
+}
