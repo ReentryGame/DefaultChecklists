@@ -7,5 +7,5 @@
     "SortPriority": 604,
     "Spacecraft": 0,
     "Steps": [],
-    "checklistText": "<size=21>CSM TRANSPOSITION checklist</size>\r\n\tV62E\n\tMAN ATT (PITCH) - ACCEL CMD\n00:15\tPitch up at .5\u00c2\u00b0/sec\n\tWhen pitch error needle positive\n\tMAN ATT (PITCH) - RATE CMD\n\tThrust +X (4 sec)(\u00ce\u201dV .7 fps)\n\tHI GAIN ANT TRACK - MAN\n\tHI GAIN ANT PWR - POWER\n\tSlev ANT to verify operation\n\tHGA angles: P=___ Y=___\n\tS BD ANT OMNI - HI GAIN\n\tHI GAIN ANT TRACK - REACQ\n\tStart DAC"
+    "checklistText": "<size=21>CSM TRANSPOSITION checklist</size>\r\n\tV62E\n\tMAN ATT (PITCH) - ACCEL CMD\n00:15\tPitch up at .5°/sec\n\tWhen pitch error needle positive\n\tMAN ATT (PITCH) - RATE CMD\n\tThrust +X (4 sec)(\u00ce\u201dV .7 fps)\n\tHI GAIN ANT TRACK - MAN\n\tHI GAIN ANT PWR - POWER\n\tSlev ANT to verify operation\n\tHGA angles: P=___ Y=___\n\tS BD ANT OMNI - HI GAIN\n\tHI GAIN ANT TRACK - REACQ\n\tStart DAC"
 }

@@ -6,8 +6,7 @@
     "Side": 0,
     "SortPriority": 10,
     "Spacecraft": 3,
-    "Steps": [
-        {
+    "Steps": [{
             "Program": 3,
             "SetID": 40,
             "Text": null,
@@ -486,14 +485,14 @@
         {
             "Program": 3,
             "SetID": 0,
-            "Text": "Rate indicators: 0\u00c2\u00b0/sec",
+            "Text": "Rate indicators: 0°/sec",
             "ToPosID": 0,
             "Type": 0
         },
         {
             "Program": 3,
             "SetID": 0,
-            "Text": "Attitude indicators: pitch 90\u00c2\u00b0, yaw 180\u00c2\u00b0, roll 0\u00c2\u00b0 for Redstone, varying for Atlas",
+            "Text": "Attitude indicators: pitch 90°, yaw 180°, roll 0° for Redstone, varying for Atlas",
             "ToPosID": 0,
             "Type": 0
         },

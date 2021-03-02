@@ -7,5 +7,5 @@
     "Spacecraft": 1,
     "Steps": [],
     "Images": [],
-    "checklistText": "<size=21>RENDEZVOUS RADAR POWER-UP</size>\r\n\nPanel 11:\r\n\tCB HTR: RNDZ RDR OPR - close (required)\r\n\tCB HTR: RNDZ RDR STBY - open (required)\r\n\r\n1.\tSelect display mode:\r\n\r\nPanel 3:\r\n\tHTR CONT: TEMP MON sel - RNDZ RADAR\r\n\r\n2.\tVerify rendezvous radar temperature:\r\n\tHTR CONT: TEMP ind - >= +10\u00c2\u00b0 F\r\n\r\nPanel 11:\r\n3.\tCB/AC BUS A: RNDZ RDR - close\r\n\tWait 30 sec.\r\n\tCB PGNS: RNDZ RDR - close\r\n\r\n\tRNDZ RADAR: NO TRACK lt - on"
+    "checklistText": "<size=21>RENDEZVOUS RADAR POWER-UP</size>\r\n\nPanel 11:\r\n\tCB HTR: RNDZ RDR OPR - close (required)\r\n\tCB HTR: RNDZ RDR STBY - open (required)\r\n\r\n1.\tSelect display mode:\r\n\r\nPanel 3:\r\n\tHTR CONT: TEMP MON sel - RNDZ RADAR\r\n\r\n2.\tVerify rendezvous radar temperature:\r\n\tHTR CONT: TEMP ind - >= +10° F\r\n\r\nPanel 11:\r\n3.\tCB/AC BUS A: RNDZ RDR - close\r\n\tWait 30 sec.\r\n\tCB PGNS: RNDZ RDR - close\r\n\r\n\tRNDZ RADAR: NO TRACK lt - on"
 }
