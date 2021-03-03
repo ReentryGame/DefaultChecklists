@@ -191,7 +191,7 @@
         {
             "Program": 0,
             "SetID": 0,
-            "Text": "Set \u00ce\u201dVC to -100.0",
+            "Text": "Set ΔVC to -100.0",
             "ToPosID": 0,
             "Type": 0
         },
@@ -371,5 +371,5 @@
             "Type": 1
         }
     ],
-    "checklistText": "<size=21>CSM SEPARATION PREP checklist</size>\r\nDOCK PROBE EXTD/REL - RETRACT (verify)\nSM RCS PRPLNT tb (8) - gray (verify)\nAUTO RCS SELECT (16) - MNA/MNB\nPerform EMS NULL BIAS CHECK\nSet \u00ce\u201dVC to -100.0\nEMS FUNC - \u00ce\u201dV\nFDAI SCALE - 5/1\nMAN ATT (3) - RATE CMD\nLIMIT CYCLE - OFF (verify)\nATT DB - MIN\nRATE - LOW\nTRANS CONT PWR - on (up) (verify)\nROT CONT PWR NORMAL (2) - AC/DC (verify)\nROT CONT PWR DIRECT (2) - MNA/MNB (verify)\nATT SET tw - R=0°, P=180°, Y=0°\nCM MODE - FREE (verify)\nSC CONT - CMC\nBMAG MODE (3) - RATE 2 (verify)\ncb RCS LOGIC (2) - open\nTVC SERVO PWR #1 - AC1/MNA\nSet DET - 59:30\nFC REAC vlv - LATCH"
+    "checklistText": "<size=21>CSM SEPARATION PREP checklist</size>\r\nDOCK PROBE EXTD/REL - RETRACT (verify)\nSM RCS PRPLNT tb (8) - gray (verify)\nAUTO RCS SELECT (16) - MNA/MNB\nPerform EMS NULL BIAS CHECK\nSet ΔVC to -100.0\nEMS FUNC - ΔV\nFDAI SCALE - 5/1\nMAN ATT (3) - RATE CMD\nLIMIT CYCLE - OFF (verify)\nATT DB - MIN\nRATE - LOW\nTRANS CONT PWR - on (up) (verify)\nROT CONT PWR NORMAL (2) - AC/DC (verify)\nROT CONT PWR DIRECT (2) - MNA/MNB (verify)\nATT SET tw - R=0°, P=180°, Y=0°\nCM MODE - FREE (verify)\nSC CONT - CMC\nBMAG MODE (3) - RATE 2 (verify)\ncb RCS LOGIC (2) - open\nTVC SERVO PWR #1 - AC1/MNA\nSet DET - 59:30\nFC REAC vlv - LATCH"
 }
