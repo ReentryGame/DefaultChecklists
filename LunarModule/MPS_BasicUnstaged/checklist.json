@@ -1,11 +1,11 @@
 {
-    "Group": "MPS",
-    "Name": "MPS BASIC (Unstaged)",
-    "ProjectName": "MPS_BasicUnstaged",
-    "Side": 1,
-    "SortPriority": 1301,
-    "Spacecraft": 1,
-    "Steps": [],
-    "Images": [],
-    "checklistText": "<size=21>MPS BASIC (Unstaged)</size>\r\n\r\nPanel 11: \r\n1.\tCB/AC BUS B: He/PQGS PROPUL DISP - close\r\n\tCB PROPUL: DES He REG/VENT - close\r\n\r\nPanel 16:\r\n2.\tCB PROPUL:\r\n\t\tDISP/ENG OVRD LOGIC - close\r\n\t\tPQGS - close\r\n\t\tASC He REG - close\r\n\r\nPanel 1:\r\n3.\tPRPLNT QTY MON sw - OFF\r\n\tHELIUM MON sel - SUPCRIT PRESS\r\n\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\tDES He REG 1 tb - gray\r\n\tDES He REG 2 tb - bp\r\n\tASC He REG 1 tb - gray\r\n\tASC He REG 2 tb - gray\r\n\r\nPanel 8:\r\n4.\tDES PROPUL:\r\n\t\tFUEL VENT tb - gray\r\n\t\tOXID VENT tb - gray\r\n\r\n"
+  "Spacecraft": 1,
+  "ProjectName": "MPS_BasicUnstaged",
+  "Group": "MPS",
+  "Name": "MPS BASIC (Unstaged)",
+  "Side": 1,
+  "SortPriority": 1301,
+  "checklistText": "<size=21>MPS BASIC (Unstaged)</size>\r\n\r\nPanel 11: \r\n1.\tCB/AC BUS B: He/PQGS PROPUL DISP - close\r\n\tCB PROPUL: DES He REG/VENT - close\r\n\r\nPanel 16:\r\n2.\tCB PROPUL:\r\n\t\tDISP/ENG OVRD LOGIC - close\r\n\t\tPQGS - close\r\n\t\tASC He REG - close\r\n\r\nPanel 1:\r\n3.\tPRPLNT QTY MON sw - OFF\r\n\tHELIUM MON sel - SUPCRIT PRESS\r\n\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\tDES He REG 1 tb - gray\r\n\tDES He REG 2 tb - bp\r\n\tASC He REG 1 tb - gray\r\n\tASC He REG 2 tb - gray\r\n\r\nPanel 8:\r\n4.\tDES PROPUL:\r\n\t\tFUEL VENT tb - bp\r\n\t\tOXID VENT tb - bp\n\r\n",
+  "Steps": [],
+  "Images": []
 }
