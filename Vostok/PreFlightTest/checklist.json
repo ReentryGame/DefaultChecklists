@@ -1,0 +1,26 @@
+{
+    "Spacecraft": 5,
+    "ProjectName": "PreFlightTest",
+    "Group": "CUSTOM",
+    "Name": "PreFlightTest",
+    "Side": 0,
+    "SortPriority": 10,
+    "checklistText": "А\tБ\tВ\tГ\tҐ\tД\tЂ\r\nЃ\tЕ\tЀ\tЁ\tЄ\tЖ\tЗ\r\nЗ́\tЅ\tИ\tЍ\tІ\tЇ\tЙ\r\nЈ\tК\tЛ\tЉ\tМ\tН\tЊ\r\nО\tП\tР\tС\tС́\tТ\tЋ\r\nЌ\tУ\tЎ\tФ\tХ\tЦ\tЧ\r\nЏ\tШ\tЩ\tЪ\tЫ\tЬ\tЭ\r\nЮ\tЯ\n\n",
+    "Steps": [
+        {
+            "Program": 5,
+            "Type": 1,
+            "SetID": 2000,
+            "ToPosID": 4,
+            "Text": null
+        },
+        {
+            "Program": 5,
+            "Type": 4,
+            "SetID": 1000,
+            "ToPosID": 0,
+            "Text": null
+        }
+    ],
+    "Images": []
+}

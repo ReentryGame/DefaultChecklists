@@ -1,0 +1,20 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "DummyDockingProbeExt",
+  "Group": "CUSTOM",
+  "Name": "DummyDockingProbeExt",
+  "Side": 0,
+  "SortPriority": 0,
+  "checklistText": "",
+  "Steps": [
+    null,
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 237,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,11 @@
+{
+    "Group": "PRE-LAUNCH",
+    "Images": [],
+    "Name": "PRE-FLIGHT",
+    "ProjectName": "PreLaunchPreFlight",
+    "Side": 0,
+    "SortPriority": 101,
+    "Spacecraft": 0,
+    "Steps": [],
+    "checklistText": "1. Check all panels\n\n"
+}

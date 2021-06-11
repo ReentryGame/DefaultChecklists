@@ -1,0 +1,11 @@
+{
+    "Group": "SYSTEM CHECKS",
+    "Images": [],
+    "Name": "FUEL CELL PURGE CHECK",
+    "ProjectName": "SystemFuelCellPurgeCheck",
+    "Side": 1,
+    "SortPriority": 1004,
+    "Spacecraft": 0,
+    "Steps": [],
+    "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nFuel cell purge check</size>\r\nH2/O2 PURGE (6) - ON (monitor)\r\nObserve Flow rate inc\r\nReset MA (as req'd)\r\nH2 PURGE LINE HTR - OFF"
+}

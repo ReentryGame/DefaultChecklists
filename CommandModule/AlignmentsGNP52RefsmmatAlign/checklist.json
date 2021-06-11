@@ -201,7 +201,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify V40 N25 with checklist code 15."
+      "Text": "Verify V50 N25 with checklist code 15."
     },
     {
       "Program": 0,
@@ -215,7 +215,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Click on SCT scipe to enter SCT viewing, observe visual and EXIT the SCT view."
+      "Text": "Click on SCT scope to enter SCT viewing, observe visual and EXIT the SCT view."
     },
     {
       "Program": 0,
