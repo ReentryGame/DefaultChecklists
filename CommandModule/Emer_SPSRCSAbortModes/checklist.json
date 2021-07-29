@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Emer_SPSRCSAbortModes",
+  "Group": "ABORT",
+  "Name": "SPS/RCS Abort Modes",
+  "Side": 0,
+  "SortPriority": 9000005,
+  "checklistText": "\r\n\r\n\r\n\t\tRCS/SPS ABORT MODES II, III, IV\r\n\t\t\r\nMode  II, III, and IV aborts are manually initiated and utilize the SM RCS to provide a safe\r separation distance from the SIVB. After separation and CSM stabilization, the abort possibilities\r separate into three categories.\r\n\r\n\t\t • CM/SM separation and coast-to-landing site (MODE II).\r\t\r\n\t\t • Shaped trajectory abort utilizing an SPS variable\n\t\t    maneuver to correct the trajectory for\r the desired landing\n\t\t\tsite in the Atlantic Recovery Area (MODE III).\r\n\t\t • Abort-to-earth-orbit utilizing the SPS to attain earth \n\t\t\torbital altitude and speed (MODE IV).\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}
