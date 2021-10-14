@@ -43,5 +43,5 @@
             "Type": 2
         }
     ],
-    "checklistText": "1. Emer Retro Seq Fuse - OFF\n2. Emer Drogue Deploy Fuse - OFF\n3. Landing Bag switch - AUTO OFF\n4. Retro Delay switch - NORM\n5. Retro Manual fuse - OFF\n6. Retro Tower/Sep Cap telelights - OUT\n(5 min after Sep Cap)\n7. DC Volts knob - MAIN\n8. All instruments - CHECK\n\n9. If out-of-range from radio station, set UHF PWR - HI for longer reach\n NOTE TO SERP: DO NOT PRESS THE JETTISON BUTTON!"
+    "checklistText": "1. Emer Retro Seq Fuse - OFF\n2. Emer Drogue Deploy Fuse - OFF\n3. Landing Bag switch - AUTO OFF\n4. Retro Delay switch - NORM\n5. Retro Manual fuse - OFF\n6. Retro Tower/Sep Cap telelights - OUT\n(5 min after Sep Cap)\n7. DC Volts knob - MAIN\n8. All instruments - CHECK\n\n9. If out-of-range from radio station, set UHF PWR - HI for longer reach\n NOTE: Do Not Press The Retro Jett Button!"
 }
