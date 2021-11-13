@@ -1,11 +1,208 @@
 {
   "Spacecraft": 0,
-  "ProjectName": "SPSBurnAndLOI",
+  "ProjectName": "SPS",
   "Group": "CUSTOM",
   "Name": "SPS Burn/LOI",
   "Side": 1,
   "SortPriority": 0,
-  "checklistText": "NOTE: For burns after insert skip item 1.\n\n1.\n\tIn the CSM Burn Planner create a manuver with a dV of ~3150 and a Phase of 0 in the Retrograde direction.\n\n2.\n\tV37E 30E\n\t\tF V06 N33\n\tPRO\n\t\tF V06 N81\n\tPRO\n\t\tF V06 N42\n\tPRO\n\t\tF V16 N45\n\t\tR2 is T- to burn. wait until T- ~10m.\n\tPRO\n\t\tVerify that Panel 13: FDAI 1 & 2 are set to INRTL.\n\tCAUTION: If either is set to ORB RATE P40 will not work properly \n\n3.\n\tRun P52 Opt 1. (or run the P52 Aid: preferred checklist) then come \t       back and do item 4.\n\n4.\n\tV37E 40E\n\tPRO\n\t\tF V06 N18\n\t\tUse V21E, V22E and V23E to set R1, 2 and 3 to +00000.\n\tPRO\n\t\tF V50 N18\n\tPRO\n\t\tF V50 N25\n\n5.\n\tSet CMC MODE to AUTO\n\tand if needed use manual translation to aid speeding up the att change.\n\tEnsure ATT is 0,0,0\n\n\tArm the SPS THRUST Switches.\n\n6.\n\tPRO\n\t\tF V06 N40\n\t\t\tR1 reads T- to burn in seconds\n\t\tT- 5s \n\t\t\tF V99\n\t\tPRO\n\tWait until the burn is compleate, and be ready to press PRO if something goes wrong.\n\n\tOnce the burn is compleate press PRO until the DKSY reads P00.\n\n7. \n\tDisarm SPS THRUST.\n\t\n\n\n\n\n\n\n\t\t",
-  "Steps": [],
+  "checklistText": "NOTE: For burns after insert skip item 1.\n\n1.\n\tIn the CSM Burn Planner create a manuver with a dV of ~3150 and a Phase of 0 in the Retrograde direction.\n\n\tPanel 8\n\t\tRCS LOGIC MNA & MNB Closed.\n\n\tPanel 2\n\t\tSM RCS Helium and PRPLNT Open.\n\n2.\n\tV37E 30E\n\t\tF V06 N33\n\tPRO\n\t\tF V06 N81\n\tPRO\n\t\tF V06 N42\n\tPRO\n\t\tF V16 N45\n\t\tSet event timer to 10m00s and ensure its set to countdown.\n\t\tR2 is T- to burn. wait until T- ~15m.\n\tStart Event Timer.\n\tPRO\n\t\tVerify that Panel 13: FDAI 1 & 2 are set to INRTL.\n\tCAUTION: If either is set to ORB RATE P40 will not work properly\n \n\n3.\n\tRun P52 Opt 1. (or run the P52 Aid: preferred checklist) then come \t       back and do item 4.\n\n4.\n\tV37E 40E\n\tPRO\n\t\tF V06 N18\n\t\tUse V21E, V22E and V23E to set R1, 2 and 3 to +00000.\n\tPRO\n\t\tF V50 N18\n\tPRO\n\t\tF V50 N25\n\n5.\n\tSet CMC MODE to AUTO\n\tand if needed use manual translation to aid speeding up the att change.\n\tEnsure ATT is 0,0,0\n\n\tArm the SPS THRUST Switches.\n\n6.\n\tPRO\n\t\tF V06 N40\n\t\t\tR1 reads T- to burn in seconds\n\t\tT- 5s \n\t\t\tF V99\n\t\tPRO\n\tWait until the burn is compleate, and be ready to press PRO if something goes wrong.\n\n\tOnce the burn is compleate press PRO until the DKSY reads P00.\n\n7. \n\tDisarm SPS THRUST.\n\t\n\n\n\n\n\n\n\t\t",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 83,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 84,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 85,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 86,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 87,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 88,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 89,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 90,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 91,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 93,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 94,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 261,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Continue Until Step 5"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When ATT is 0, 0, 0 Continue."
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 132,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 131,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
   "Images": []
 }
