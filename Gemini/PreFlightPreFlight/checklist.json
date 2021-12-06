@@ -1,250 +1,327 @@
 {
-    "Group": "PRE-FLIGHT",
-    "Images": [],
-    "Name": "PRE-FLIGHT (T-5)",
-    "ProjectName": "PreFlightPreFlight",
-    "Side": 0,
-    "SortPriority": 10,
-    "Spacecraft": 2,
-    "Steps": [
-        {
-            "Program": 2,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 14,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 15,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 16,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 23,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 24,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 25,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 26,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 27,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 28,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 20,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 22,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 37,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 35,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 36,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 2,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 7,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 8,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 9,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 44,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 45,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 46,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 47,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 48,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 40,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Verify OBC self-checks are complete",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 25,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 4
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Platform alignment, verify complete when FDAIs are stationary.",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 3
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Perform a Radio Check",
-            "ToPosID": 0,
-            "Type": 0
-        }
-    ],
-    "checklistText": "1. Main Batteries #1 to #4, VERIFY/SET ON\n2. Squib Batteries #1 to #3, VERIFY/SET ON\n3. Fuel Cell Stack 1A to 2C, VERIFY/SET ON\n4. Fuel Cell Section 1 Power, VERIFY/SET ON\n5. Fuel Cell Section 2 Power, VERIFY/SET ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, ON\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, ON\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. Wait for Computer pre-check completion\n18. Ejection seat D-Ring - Mount (TOOL: TOGGLE D-RING)\n\nOBC init and alignment\n1. Press START on the OBC\n2. Wait for the FDAI to align with predefined roll target (30 seconds)\n3. Computer: ASCENT module"
+  "Spacecraft": 2,
+  "ProjectName": "PreFlightPreFlight",
+  "Group": "PRE-FLIGHT",
+  "Name": "PRE-FLIGHT (T-5)",
+  "Side": 0,
+  "SortPriority": 10,
+  "checklistText": "1. Main Batteries #1 to #4, VERIFY/SET ON\n2. Squib Batteries #1 to #3, VERIFY/SET ON\n3. Fuel Cell Stack 1A to 2C, VERIFY/SET ON\n4. Fuel Cell Section 1 Power, VERIFY/SET ON\n5. Fuel Cell Section 2 Power, VERIFY/SET ON\n6. Computer Power, ON\n7. MDIU Power, ON\n8. AUX Tape Power, ON\n9. Boost-Insert Squib, ARM\n10. Retro Squibs #1 to #4, ARM\n11. Primary Coolant Pump A, ON\n12. Primary Coolant Pump B, OFF\n13. Secondary Coolant Pump A, ON\n14. Secondary Coolant Pump B, OFF\n15. Radiator, BYPASS\n16. Suit Fans, No.1 and No.2\n17. PLATFORM - FREE\n18. SCANNER - PRI\n19. Wait for Computer pre-check completion\n20. Ejection seat D-Ring - Mount (TOOL: TOGGLE D-RING)\n\nOBC init and alignment\n1. Press START on the OBC\n2. Wait for the FDAI to align with predefined roll target (30 seconds)\n3. Computer: ASCENT module\n4. ATTITUDE CONTROL - RATE CMD\n5. OAMS PROP MOTOR VALVE - OPEN\n6. RCS A & B PROP MOTOR VALVES - OPEN\n7. OAMS CNTL PWR -  OFF\n8. RCS A & B CNTL PWR - OFF\n9. MDU - 72: _ _ _ _ _\n10. RADIO CHECK",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 25,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 26,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 20,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 8,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 9,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 44,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 45,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 46,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 47,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 48,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 40,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 6,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify OBC self-checks are complete"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Ejection seat D-Ring - Mount (TOOL: TOGGLE D-RING)"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 25,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Platform alignment, verify complete when FDAIs are stationary."
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 32,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MDU: 72"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform a Radio Check"
+    }
+  ],
+  "Images": []
 }

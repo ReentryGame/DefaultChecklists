@@ -1,0 +1,264 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "EntryTr256Sec",
+  "Group": "ENTRY",
+  "Name": "256 SEC TO RETRO",
+  "Side": 0,
+  "SortPriority": 42,
+  "checklistText": "1. SEQUENCE LIGHTS - AMBER\n2. EVENT TIMER READS 4:16 MIN\n3. COMPUTER - RENTY\n4. SQUIB BATTERIES (3) - ON\n5. MAIN BATTERIES (4) - ON\n6. RCS PROP MOTOR VALVES A & B - OPEN\n7. PROP GAUGE - RCS A\n8. RECORD - CONT\n9. CYRO QTY - OFF\n10. ANT SELECT - RNTY\n11. ATTITUDE CONTROL - PULSE\n12. PLATFORM - ORB RATE\n13. CP FDR - PLAT\n14. CP FDM - RATE\n15. CP FDI SCALE RANGE - HI\n16. ATTITUDE CONTROL - RATE CMD\n17. RATE GYROS (3) - PRI\n18. OAMS CNTL POWER - OFF\n19. OAMS PROP MOTOR VALVES - CLOSED\n20. RCS A & B CNTL POWER - ACME\n21. CONTROL S/C ATTITUDE TO & HOLD RETROATTITUDE (20 DEG PITCH DOWN)\n22. RETRO PWR - ARM\n23. IND RETRO ATT - PUSH\n24. PILOT FDR - PLAT\n25. PILOT FDM - ATT\n26. PILOT FDI SCALE RANGE - HI\n27. HF T/R - OFF\n28. RCS - PUSH\n\nStart 1 MIN TO RETRO CHECKLIST",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 20,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 193,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 201,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 8,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 187,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 186,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 188,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 32,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CONTROL S/C ATTITUDE TO & HOLD RETROATTITUDE (20 DEG PITCH DOWN)"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 190,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start 1 MIN TO RETRO CHECKLIST"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

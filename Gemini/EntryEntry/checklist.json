@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "EntryEntry",
+  "Group": "ENTRY",
+  "Name": "Entry",
+  "Side": 0,
+  "SortPriority": 45,
+  "checklistText": "AT TR +14:30\nCONTROL S/C ATTITUDES TO:\n\t180 DEG YAW\n\t170 DEG ROLL\n\tHORIZON AT TOP OF WINDOW\n\nAT TR + 19:00 (400K FEET)\nAFTER ROLL NEEDLE DEFLECTION:\n\tCONTROL S/C ATT TO BACKUP BANK ANGLE & DAMP PITCH AND YAW RATES\n\tATTITUDE CONTROL - RATE CMD (RE-ENT)",
+  "Steps": [],
+  "Images": []
+}
