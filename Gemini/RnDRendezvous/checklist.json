@@ -1,11 +1,208 @@
 {
-    "Group": "R&D",
-    "Images": [],
-    "Name": "Rendezvous",
-    "ProjectName": "RnDRendezvous",
-    "Side": 1,
-    "SortPriority": 31,
-    "Spacecraft": 2,
-    "Steps": [],
-    "checklistText": "1. Radar - STBY\n2. Computer: Catch-up\n3. Circulize Orbit\n4. Use computer to calculate transfer orbit burn time\n   a. Set CORE 56 (Pe) to CORE 80 (Target Pe)\n   b. Set CORE 57 (Ap) to CORE 81 (Target Ap)\n5. Burn when CORE 83 reaches 0  and zero IVI's.\n5. Burn at Apogee (CORE 73) and zero IVI's\n6. Radar ON\n7. (optional)Encoder - ON\n8. (optional)Encoder CMD: 251, ACQ Lights ON\n9. Computer - RNDZ\n10. Start Computer when module loads\n11. FDAI Data: COMP\n12. FDAI Display: ATT\n13. Align with target using FDAI\n14. Translate towards target so IVI's L/R and UP/DN shows ZERO\n15. Move closer by reduzing FWD/AFT IVI's towards ZERO.\n\nIf target vehicle is Agena or Augmented Target Docking Adapter (ATDA)\n1. AGENA CONTROL: PWR - ON\r\n2. AGENA CONTROL: SQUIB (2) - ON\r\n3. AGENA CONTROL: CNTL - ON\n\n"
+  "Spacecraft": 2,
+  "ProjectName": "RnDRendezvous",
+  "Group": "R&D",
+  "Name": "Rendezvous",
+  "Side": 1,
+  "SortPriority": 31,
+  "checklistText": "PRE-RENDEZVOUS CHECKLIST\n\t1. RADAR - STBY\n\t2. Computer - CTCH UP\n\t3. Circulize Orbit CHECKLIST - COMPLETED\n\t4. REQUEST TARGET BURN\n\t5. Use computer to calculate transfer orbit burn time\n   \t\ta. Set CORE 56 (Pe) to CORE 80 (Target Pe)\n   \t\tb. Set CORE 57 (Ap) to CORE 81 (Target Ap)\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\tCORE 83 COUNTDOWN TO BURN\n\nAT CORE 83 00060 SECS:\n\t1. PLATFORM - SEF\n\t2. ATTITUDE CONTROL - PLAT\n\t3. OAMS CNTL PWR - ON\n\t4. OAMS PROP MOTOR VALVES - OPEN\n\nAT BURN (83 00000):\n\t1. IVI's - ZERO\n\t2. OAMS PROP MOTOR VALVES - CLOSED\n\t3. OAMS CNTL PWR - OFF\n\tCORE 73 COUNTDOWN TO APOGEE\n\nAT CORE 73 00600 SECS:\n\t1. START EVENT TIMER COUNTING DOWN\n\t2. SET CORE 25 EQUAL TO CORE 97?\n\t3. COMPUTER - RNDV\n\nAT T -1:00 MIN:\n\t1. PLATFORM - SEF\n\t2. ATTITUDE CONTROL - PLAT\n\t3. OAMS CNTL PWR - ON\n\t4. OAMS PROP MOTOR VALVES - OPEN\n\nAT EVENT TIMER 00:00:\n\tIVI's - ZERO\n\nAFTER RNDZ BURN CHECKLIST:\n\t1. Radar - ON\n\t2. Computer - START\n\t3. Encoder - ON\n\t4. Encoder CMD - 251, ACQ Lights ON\n\t5. FDR - COMP\n\t6. FDM - ATT\n\nAlign with target using FDAI\nTranslate towards target so IVI's L/R and UP/DN shows ZERO\nMove closer by reduzing FWD/AFT IVI's towards ZERO.\n\nIf target vehicle is Agena or Augmented Target Docking Adapter (ATDA)\n\t1. AGENA CONTROL: PWR - ON\r\n\t2. AGENA CONTROL: SQUIB (2) - ON\r\n\t3. AGENA CONTROL: CNTL - ON\n\n",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 184,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Circulize Orbit CHECKLIST"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET TARGET CORES DATA"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET EVENT TIMER TO 10:00"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CORE 83 COUNTDOWN TO BURN"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 6,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "IVI's - ZERO"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CORE 73 COUNTDOWN TO APOGEE"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "IVI's - ZERO"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 184,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 175,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Encoder CMD - 251"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 25,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 8,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 164,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 165,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
 }

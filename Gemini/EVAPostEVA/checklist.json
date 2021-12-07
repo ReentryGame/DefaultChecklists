@@ -1,61 +1,61 @@
 {
-    "Group": "EVA",
-    "Images": [],
-    "Name": "POST-EVA",
-    "ProjectName": "EVAPostEVA",
-    "Side": 1,
-    "SortPriority": 52,
-    "Spacecraft": 2,
-    "Steps": [
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Close the hatch using the COMM/TOOLs menu.",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 15,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 3
-        },
-        {
-            "Program": 2,
-            "SetID": 3,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 3
-        },
-        {
-            "Program": 2,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 3
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Pay attention to the O2 level, and wait for cabin pressure > 5 PSIG.",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 3
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Make a note of your CRYO Oxygen levels.",
-            "ToPosID": 0,
-            "Type": 0
-        }
-    ],
-    "checklistText": "POST EVA\nClose the hatch using the [C] menu.\n\nOn the overhead panel:\n- Ensure CABIN VENT ring handle is in Normal position\n\nSet the ECS CRYO meter to O2\n\nIn the center pedestal panel:\n- Rotate the red REPRESS knob to OPEN\n\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\n\nIn the center pedestal panel:\n- Rotate the red REPRESS knob to CLOSED\n\nCheck your CRYO oxygen level."
+  "Spacecraft": 2,
+  "ProjectName": "EVAPostEVA",
+  "Group": "EVA",
+  "Name": "POST-EVA",
+  "Side": 1,
+  "SortPriority": 53,
+  "checklistText": "Close the hatch using the [C] menu.\nCABIN VENT - UP (CLOSED)\nLT/RT SEC O2 BOTTLES - CLOSED\nRAD - BYPASS\nREPRESS knob - OPEN\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\nREPRESS knob - CLOSED\nRAD - FLOW\nRT SEC O2 BOTTLE - OPEN\nCABIN AIR RECIRC - UP (OPEN)\n\nPOWER DOWN S/C\n\tRADAR - OFF\n\tPLATFORM - OFF\n\tRATE GYROS (3) - OFF\n\tEVENT TIMER - STOP\n\tAC POWER - OFF\n\tACME BIAS PWR - OFF\n\tCOOLANT PUMPS - AS DESIRED\n\tT/M - CMD\n\tMANEUVER THRUSTER C/B'S - CLOSED",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Close the hatch using the COMM/TOOLs menu."
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 12,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Pay attention to the O2 level, and wait for cabin pressure > 5 PSIG."
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Make a note of your CRYO Oxygen levels."
+    }
+  ],
+  "Images": []
 }
