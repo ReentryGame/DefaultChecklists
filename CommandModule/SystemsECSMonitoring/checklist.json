@@ -1,0 +1,222 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsECSMonitoring",
+  "Group": "SYSTEMS: ECS",
+  "Name": "ECS MONITORING",
+  "Side": 1,
+  "SortPriority": 405040010,
+  "checklistText": "ECS Monitoring Check\r\n\r\nPanel 2:\r\n\tSUIT CAB ΔP ind - -1.0 to -3.5 in. H2O\r\n\tO2 FLOW ind - 0.2-0.45 lb/hr\r\n\r\n\tO2 PRESS IND sw - SURGE TK\r\n\t\tCRYO O2 PRESS 1 ind - 865-935 psia\r\n\tO2 PRESS IND sw - TK 1\r\n\r\nPanel 602:\r\n\tREPRESS O2 PRESS ind - 865 psia\r\n\r\nPanel 2:\r\n\tECS RAD tb - gray\r\n\r\nRemarks:\r\n\tGray indicates No. 1 flow proportioning valve\r\n\tcontrolling flow.\r\n\r\n\tXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\r\n\tX\t\t\t\t\t\t\t\t\t\t\t\tX\r\n\t  If ECS RAD tb - 2\r\n\t    RAD FLOW CONT AUTO - 1 until tb\r\n\t       gray, then AUTO\r\n\r\n\t  If tb cannot be reset\r\n\t    RAD FLOW CONT AUTO - 1\r\n\t      RAD PRIM OUT TEMP ind - within\r\n\t        correct rng\t\r\n\r\n\t    RAD FLOW CONT AUTO - AUTO\r\n\t      RAD PRIM OUT TEMP ind - outside\r\n\t        correct rng\r\n\t\t  Refer to ECS malfunction\r\n\t\t    Proced, PRIM ECS RAD OUT\r\n\t\t    TEMP HIGH, Symptom 15\r\n\tX\t\t\t\t\t\t\t\t\t\t\t\tX\r\n\tXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\r\n\r\n\tECS IND sel - PRIM\r\n\t\tRAD PRIM IN TEMP ind - 67°-70°F\r\n\t\tRAD PRIM OUT TEMP ind - -20°-63°F\r\n\t\t  (-20° to 97°F for lunar orb)\r\n\t\tPRIM GLY EVAP OUT TEMP ind - 38°-50.5°F\r\n\t\tPRIM GLY EVAP STM PRESS ind\r\n\t\t\tWhen boiling - 0.09-0.14 psia\r\n\t\t\tNot boiling - >0.14 psia\r\n\t\tPRIM GLY DISCH PRESS ind - 40-52 psig\r\n\tSUIT TEMP ind\r\n\t\tWithout evap - 45°-70°F\r\n\t\tWith evap - 45°-55°F\r\n\tCAB TEMP ind - 70°-80°F\r\n\tSUIT PRESS ind - ≈CAB PRESS ind\r\n\tCAB PRESS ind - 4.7-5.3 psia\r\n\tCO2 PP ind - <7.6 mm Hg\r\n\tSUIT COMPR ΔP ind - 0.3-0.4 psia\r\n\tPRIM ACCUM QTY ind - 30-65%\r\n\tIf qty <30%\r\n\t\tPanel 379, 2:\r\n\t\t\tPRIM ACCUM FILL vlv - ON until\r\n\t\t\t\t40-55% is reached\r\n\tH2O QTY IND sw - POT\r\n\t\tPOT H2O QTY ind - 10-100%\r\n\tH2O QTY IND sw - WASTE\r\n\t\tWASTE H2O QTY ind - 25%-85%\r\n\t\t\tIf >85% - dump pr Waste Water Dump cl.\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT CAB ΔP ind - 1.0 to -3.5 in. H2O"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW ind - 0.2-0.45 lb/hr"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRYO O2 PRESS 1 ind - 865-935 psia"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P602: REPRESS O2 PRESS ind - 865 psia"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS RAD tb - gray"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RAD PRIM IN TEMP ind - 67°-70°F"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RAD PRIM OUT TEMP ind - -20°- +63°F (-20° to 97°F for lunar orb)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY EVAP OUT TEMP ind - 38°-50.5°F"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY EVAP STM PRESS ind\r:"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "       When boiling - 0.09-0.14 psia"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "       Not boiling - >0.14 psia\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY DISCH PRESS ind - 40-52 psig\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT TEMP ind:"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "       Without evap - 45°-70°F\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "       With evap - 45°-55°F\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CAB TEMP ind - 70°-80°F\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT PRESS ind - ≈CAB PRESS ind\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CAB PRESS ind - 4.7-5.3 psia\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CO2 PP ind - <7.6 mm Hg\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT COMPR ΔP ind - 0.3-0.4 psia\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM ACCUM QTY ind - 30-65%\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "       If qty <30%\r: PRIM ACCUM FILL vlv - ON until\r 40-55%"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 178,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "POT H2O QTY ind - 10-100%\r"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 178,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WASTE H2O QTY ind - 25%-85%\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "       If >85% - dump pr Waste Water Dump cl.\r"
+    }
+  ],
+  "Images": []
+}

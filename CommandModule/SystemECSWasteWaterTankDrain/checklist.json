@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemECSWasteWaterTankDrain",
+  "Group": "SYSTEMS: ECS",
+  "Name": "WASTE WATER TANK DRAIN",
+  "Side": 1,
+  "SortPriority": 405040160,
+  "checklistText": "\t\t\tWaste Water Tank Drain\r\n\r\n\r\nPanel 2:\r\n\t\tH2O QTY IND sw - WASTE\r\n\r\nPanel 352:\r\n\t\tPRESS RELF sel - DUMP A\r\n\r\nPanel 2:\r\n\t\tMon WASTE H2O QTY ind - decr\r\n\t\t\tWASTE H2O QTY ind - ≈25%\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tDepletion of all waste water may\r\n\t\tdamage suit heat exchanger water\r\n\t\tseperator.\r\n\r\nPanel 352:\r\n\t\tPRESS RELF sel - 2\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

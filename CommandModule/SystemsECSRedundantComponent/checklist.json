@@ -1,0 +1,509 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsECSRedundantComponent",
+  "Group": "SYSTEMS: ECS",
+  "Name": "ECS REDUNDANT COMP-CHECK",
+  "Side": 1,
+  "SortPriority": 405040020,
+  "checklistText": "\t\t\t\tECS Redundant Component Check\r\n\r\n\t1\tSuit compr\r\n\nPanel 4:\r\n\t\tSUIT COMPR (both) - redundant\r\n\t\t\tcompr\r on, active off.\nPanel 2:\r\n\t\tSUIT COMPR ΔP ind - 0.3-0.4 psid\r\n\r\n\n\t2\tSuit demand regs\r\n\nPanel 380:\r\n\t\tDEMAND REG sel - 1\r\n\t\tClose demand reg cab bleed port with\r\n\t\t\tfinger\r\n\t\t\t\tNOTE: \tclick on the hole\n\t\t\t\t\t\tleft of the RETURN VALVE.\n\t\t\t\t\t\tIt will remain held for 2 seconds.\nPanel 2:\r\n\t\tO2 FLOW ind - mom incr\r\nPanel 380:\r\n\t\tDEMAND REG sel - 2\r\n\t\tClose demand reg cab bleed port with\r\n\t\t\tfinger\r\nPanel 2:\r\n\t\tO2 FLOW ind - mom incr\r\nPanel 380:\r\n\t\tDEMAND REG sel - BOTH\r\n\r\n\n\t3\tMain O2 regs\r\n\nPanel 351:\r\n\t\tMN REG B - close\r\n\t\tEMER CAB PRESS sel - 1\r\n\t\tEMER CAB PRESS TEST pb - push\r\n\r\nPanel 2:\r\n\t\tO2 FLOW ind - pegged hi\r\n\r\nPanel 351:\r\n\t\tMN REG B - open\n\t\tMN REG A - close\r\n\t\tEMER CAB PRESS sel - 2\r\n\t\tEMER CAB PRESS TEST pb - push\r\n\r\nPanel 2:\r\n\t\tO2 FLOW ind - pegged hi\r\n\r\nPanel 351:\r\n\t\tMN REG A - OPEN\r\n\t\tEMER CAB PRESS sel - BOTH (OFF if all\r\n\t\t\tcrewmen suited)\r\n\r\n\t4\tH2O accum\r\n\r\nPanel 2:\r\n\t\tSUIT H2O ACCUM AUTO - redundant accum\r\n\t\t\tO2 FLOW ind - mon for momentary\r\n\t\t\t\t(10 sec) incr\r\n\n\rRemarks: \t\tAllow up to 10 minutes for\n\t\t\t\taccumulator stroking.\n\n\t5\tUrine dump nozzle htrs\r\n\r\nPanel 101:\r\n\t\tWASTE H2O DUMP - redundant htr\r\n\t\tURINE DUMP - redundant htr\r\n\t\t\tMSFN reports no significant change\r\n\t\t\t\tin urine & water dump nozzle\r\n\t\t\t\ttemps\r\n\r\n\t6\tOpen cool cont atten pnl\r\n\r\n\r\n\t\r\n\t\t\tWARNING\r\n\r\nPanel 382:\r\n\t\tSUIT FLOW RELF vlv must remain\r\n\t\tOFF throughout msn or swelling\r\n\t\tof CO2 odor absorber filters\r\n\t\tmay result.\r\n\r\n\t7\tSec gly loop\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tSimultaneous oper of cryo O2 htrs\r\n\t\t& sec loop rad htrs will result\r\n\t\tin low mn bus voltage (<26.5 vdc).\r\n\t\tThis will be precluded if the\r\n\t\tfollowing precautions are observed.\r\n\r\nPanel 2:\r\n\t\tIf RAD PRIM OUT TEMP ind - ≤48°F\r\n\t\tpreceding sec loop activation, or\r\n\t\tif RAD SEC OUT TEMP ind - ≤45°F\r\n\t\tfollowing sec loop activation:\r\n\r\n\t\t•\tInhibit cryo O2 htrs whenever\r\n\t\t\tcryo tk press <900 psia [O2\r\n\t\t\tHTRS (both) - off (ctr)]. Enbl\r\n\t\t\tcryo htrs when RAD SEC OUT TEMP\r\n\t\t\tind - >48°F\r\n\r\n\t\t•\tEnbl sec loop rad htrs when mn\r\n\t\t\tbus A & B ≥28.25 vdc with 3 FC\r\n\t\t\toper or ≥28.5 vdc with 2 FC oper.\r\n\r\n\r\n\r\nPanel 382:\r\n\t\tSEC EVAP H2O CONT - AUTO\r\nPanel 2:\r\n\t\tECS IND sel - SEC\r\n\t\tGLY EVAP STM AUTO - MAN\r\n\t\tGLY EVAP STM INCR - INCR for 58 sec min\r\nRemarks:\n\t\tSteam pressure valve requires 58 seconds from full open\n\t\tto full closed. INCR position is momentary.\n\nPanel 377:\r\n\t\tGLY TO RAD SEC vlv - NORM\r\nPanel 2:\r\n\t\tRAD PRIM HTR - off (ctr)\r\nPanel 4:\r\n\t\tGLY PUMPS - OFF\r\nPanel 2:\r\n\t\tSEC COOL PUMP - AC1\r\n\t\t\tSEC GLY DISCH PRESS ind - 39-51 psig\r\n\t\t\tSEC ACCUM QTY ind - 30-55%\r\n\t\tRAD SEC HTR - on (up)\r\n\t\tSEC COOL EVAP - EVAP\r\n\t\tSEC GLY EVAP STM PRESS ind\r\n\t\t\tWhen boiling - 0.09-0.14 psia\r\n\t\t\tNot boiling - >0.14 psia\r\n\t\tAfter 20-30 min\r\n\t\t\tRemarks:\n\t\t\t\tAllow 20 to 30 minutes of glycol circulation before\n\t\t\t\treading temperature indicators.\n\t\t\tRAD SEC IN TEMP ind - 60°-97°F\r\n\t\t\tRAD SEC OUT TEMP ind - 40°-70°F (pegged)\r\n\t\t\tSEC GLY EVAP OUT TEMP ind - 40°-50.5°F\r\n\t\tSEC COOL PUMP - AC2\r\n\t\t\tSEC GLY DISCH PRESS ind - 39-51 psig\r\n\t\tSEC COOL EVAP - RSET for 58 sec min,\r\n\t\t\tthen off (ctr)\r\n\t\tRemarks:\n\t\t\tRSET closes steam pressure control valve. Steam\n\t\t\tpressure valve require 58 seconds from full open to\n\t\t\tfull close.\n\t\tRAD SEC HTR - OFF\r\nPanel 377:\r\n\t\tGLY TO RAD SEC vlv - BYP\r\nPanel 2:\r\n\t\tECS IND sel - PRIM\r\n\t\tSEC COOL PUMP - off (ctr)\r\nPanel 382:\r\n\t\tSEC EVAP H2O CONT - OFF\r\n\r\n\t8\tClose cool cont atten pnl\r\n\r\n\t9\tPrim gly pumps\r\n\r\nPanel 4:\r\n\t\tGLY PUMPS - redundant pump\r\n\t\tRemarks:\n\t\t\tSwitch to pump opposide that on at beginning of\n\t\t\ttest. This verifies primary loop pump operation.\nPanel 2:\r\n\t\t\tPRIM GLY DISCH PRESS ind - 40-52 psig\r\n\t\t\tPRIM ACCUM QTY ind - 30-65%\r\n\t\tGLY EVAP STM AUTO - AUTO\r\n\r\n\t10\tRad htrs\r\n\t\t\tRAD PRIM HTR - redundant htr\n\t\tRemarks:\n\t\t\tSwitch to heater opposite that on at beginning of\n\t\t\ttest. \"On\" time of heater is function of radiator\n\t\t\toutlet temperature and is cyclic in nature.\n\n\n\n\n\n\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1 - SUIT COMPRESSOR CHECK"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Take note of what SUIT COMPRESSOR is active (only one should be)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 252,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 253,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Deactivate the SUIT COMPRESSOR previously used"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT COMPR ΔP ind - 0.3-0.4 psid\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2\t- SUIT DEMAND REGS"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 58,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 39,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 58,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 39,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW ind - mom incr\r"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3 - MAIN O2 REGS"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 42,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 38,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW ind - pegged hi\r"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "4 - H2O ACCUM"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Take note if SUIT CIRCUIT H2O ACCUM is set to AUTO 1 or AUTO 2 (MDC-2)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 174,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set it to the redundant AUTO pos (opposite to above)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW ind - mon for momentary (10 sec) increase."
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "5 - URINE DUMP NOZZLE HTR"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Take note of the WASTE H2O DUMP and URINE DUMP htr (A/B) switches (P101)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 269,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 270,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set them to their redundant position (A/B)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "6 - Open the Coolant Control panel cover"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "7 - SEC GLY LOOP"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 181,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "In the next step, hold the sw up (hold mouse button down) for 58 seconds."
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 182,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 191,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 16,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC GLY DISCH PRESS ind - 39-51 psig\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC ACCUM QTY ind - 30-55%\r"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 192,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC GLY EVAP STM PRESS ind:"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    When boiling - 0.09-0.14 psia\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Not boiling - >0.14 psia\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 20-30 min\r:"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RAD SEC IN TEMP ind - 60°-97°F\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RAD SEC OUT TEMP ind - 40°-70°F (pegged)\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SEC GLY EVAP OUT TEMP ind - 40°-50.5°F\r"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC GLY DISCH PRESS ind - 39-51 psig\r"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Keep it in RESET for 58 seconds"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 192,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "8 - Close the Coolant Control panel cover"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "9 - PRIM GLY PUMPS"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set GLY PUMPS (Pnl 4) to the redundant pump"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY DISCH PRESS ind - 40-52 psig"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM ACCUM QTY ind - 30-65%\r"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 181,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "10 - RAD HTRS"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 191,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RAD PRIM HTR - redundant htr"
+    }
+  ],
+  "Images": []
+}

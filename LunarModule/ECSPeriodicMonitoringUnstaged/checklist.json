@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "ECSPeriodicMonitoringUnstaged",
+  "Group": "ECS",
+  "Name": "Periodic Mon (unstaged)",
+  "Side": 1,
+  "SortPriority": 1630,
+  "checklistText": "ECS Periodic Monitoring (Unstaged)\r\n\r\nPanel 2:\r\n1.\tECS:\r\n\t\tCABIN TEMP ind - 42° to 90°F\r\n\t\tPRESS ind pwr fail lt - off\r\n\t\tSUIT PRESS ind - 4.6 to 5.0 psia\r\n\t\tCABIN PRESS ind - 4.6 to 5.0 psia \r\n\t\tPART PRESS C02 ind - <7.6 mm Hg\r\n\t\tGLYCOL ind pwr fail lt - off \r\n\t\tGLYCOL temp ind - 33° to 49°F \r\n\t\tGLYCOL press ind - 21 to 37 psia \r\n\t\tGLYCOL comp caut lt - off \r\n\t\tSUIT FAN comp caut lt - off \r\n\t\tC02 comp caut lt - off \r\n\t\tH20 SEP comp caut lt - off\r\n\r\n2.\t02/H20 QTY MON sel - DES 2\r\n\tECS:\r\n\t\tQUANTITY ind pwr fail lt - off\r\n\t\tO2 QUANTITY ind - TBD\r\n\t\tH2O QUANTITY ind - TBD\r\n\r\n3.\t02/H20 QTY MON sel - DES 1\r\n\tECS:\r\n\t\tQUANTITY ind pwr fail lt - off\r\n\t\tO2 QUANTITY ind - TBD\r\n\t\tH2O QUANTITY ind - TBD\r\n\r\n4.\t02/H20 QTY MON sel - ASC 1\r\n\tECS:\r\n\t\tO2 QUANTITY ind - approx 100%\r\n\t\tH2O QUANTITY ind - approx 76%\r\n\r\n5.\t02/H20 QTY MON sel - ASC 2\r\n\tECS:\r\n\t\tO2 QUANTITY ind - approx 100%\r\n\t\tH2O QUANTITY ind - approx 76%\r\n\r\n6.\t02/H20 QTY MON sel - DES 2\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

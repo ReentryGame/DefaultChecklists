@@ -1,0 +1,166 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LunarStayEgress",
+  "Group": "LUNAR STAY",
+  "Name": "Egress",
+  "Side": 0,
+  "SortPriority": 530,
+  "checklistText": "Final Subsystems Configuration for Egress\r\n\r\nPurpose of Final Subsystem Configuration for Egress \r\nprocedure is to verify status of LM controls before \r\ncabin depressurization. Crew have donned PLSS and are \r\nreceiving PLSS oxygen (automatic in Reentry)\r\n\r\nFor ECS controls not listed, refer to ECS Basic \r\n(Unstaged) procedure.\r\n\r\nPrerequisite:\n\tUse the C-menu to open the CREW MEMBERS window,\n\tthen MANAGE CREW. Activate the EVA SUIT/PLSS for\n\tthe CDR and the LMP before proceeding.\n\n\r\nECS:\r\n1.\tSUIT GAS DIVERTER vlv - PULL EGRESS\r\n\tPRESS REG A vlv - EGRESS \r\n\tPRESS REG B vlv - EGRESS \r\n\tDES O2 vlv - OPEN\r\n\tSUIT ISOL vlv (LMP) - SUIT DISC \r\n\tSUIT ISOL vlv (CDR) - SUIT DISC \r\n\tCABIN GAS RETUIN vlv - EGRESS \r\n\tCO2 CANISTER SEL vlv - PRIM \r\n\tSUIT CIRCUIT RELIEF vlv - AUTO\r\n\r\nPanel 16:\r\n2.\tCB ECS:\r\n\t\tSUIT FAN ΔP - open \r\n\t\tSUIT FAN 2 - open \r \r\n\t\tLCG PUMP - open \r\n\t\tCABIN REPRESS - open \r\n\t\tCABIN FAN CONT - close \r\n\r\nPanel 11:\r\n3.\tCB ECS:\r\n\t\tCABIN FAN - open \r\n\t\tGLYCOL PUMP 2 - close\r\n\t\tGLYCOL PUMP 1 - close\r\n\t\tGLYCOL PUMP AUTO TRNFR - close\r\n\r\nPanel 2:\r\n4.\tGLYOOL sel - PUMP 1 \r\n\tSUIT FAN sel - 2 \r\n\tO2/H2O QTY MON sel - DES 2 \r\n\tECS:\r\n\t\tPRESS ind pwr fail lt - off \r\n\t\tGLYCOL ind pwr fail lt - off \r\n\t\tQUANTITY ind pwr fail lt - off \r\n\t\tGLYCOL comp caut lt - off \r\n\t\tSUIT FAN comp caut lt - off \r\n\t\tCO2 comp caut lt - off \r\n\t\tH2O SEP comp caut lt - off\r\n\r\n5.\tVerify EPS Basic (Unstaged)\r\n\r\nPanel 14:\r\n6.\tCritical displays are as follows:\r\n\tEPS:\r\n\t\tLMP BAT 1 tb - gray\r\n\t\tLMP BAT 2 tb - TBD \r\n\t\tCDR BAT 3 tb - TBD \r\n\t\tCDR BAT 4 tb - gray\r\n\t\tLUNAR BAT tb - TBD \r\n\t\tDES BATS tb - gray\r\n\t\tBAT 5 NORMAL LMP FEED tb - bp \r\n\t\tBAT 5 BACK UP CDR FEED tb - bp \r\n\t\tBAT 6 NORMAL CDR FEED tb - bp \r\n\t\tBAT 6 BACKUP LMP FEED tb - bp\r\n\r\nPanel 3:\r\n7.\tLTG: EXTERIOR LTG sel - OFF\r\n\r\nPanel 16:\r\n8.\tCB LTG: TRACK - open\r\n\r\nPanel 11:\r\n9.\tCB S/C: ATT DIR CONT - open\r\n\r\nPanel 8:\r\n10.\tED:\r\n\t\tMASTER ARM sw - OFF\r\n\t\tSTAGE sw - SAFE\r\n\r\nPanel 1:\r\n11.\tENG THR CONT: ENG ARM sw - OFF\r\n\r\nPanel 3:\r\n12.\tS/C: PGNS & AGS sw - OFF\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 155,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 154,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 153,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify EPS Basic (UNSTAGED)"
+    }
+  ],
+  "Images": []
+}
