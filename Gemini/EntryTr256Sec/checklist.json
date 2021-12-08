@@ -5,7 +5,7 @@
   "Name": "256 SEC TO RETRO",
   "Side": 0,
   "SortPriority": 42,
-  "checklistText": "1. SEQUENCE LIGHTS - AMBER\n2. EVENT TIMER READS 4:16 MIN\n3. COMPUTER - RENTY\n4. SQUIB BATTERIES (3) - ON\n5. MAIN BATTERIES (4) - ON\n6. RCS PROP MOTOR VALVES A & B - OPEN\n7. PROP GAUGE - RCS A\n8. RECORD - CONT\n9. CYRO QTY - OFF\n10. ANT SELECT - RNTY\n13. CP FDR - PLAT\n14. CP FDM - ATT\n15. CP FDI SCALE RANGE - HI\n16. ATTITUDE CONTROL - RATE CMD (RE-ENT)\n17. RATE GYROS (3) - PRI\n18. OAMS CNTL POWER - OFF\n19. OAMS PROP MOTOR VALVES - CLOSED\n20. RCS A & B CNTL POWER - ACME\n21. RCS - PUSH\n22. RETRO PWR - ARM\n23. IND RETRO ATT - PUSH\n24. CONTROL S/C ATTITUDE TO & HOLD RETROATTITUDE (20 DEG PITCH DOWN)\n25. PILOT FDR - PLAT\n26. PILOT FDM - ATT\n27. PILOT FDI SCALE RANGE - HI\n28. HF T/R - OFF\n29. PRIMARY PUMPS - OFF\n30. SECONDARY PUMPS - OFF\n31. RAD - BYPASS \n\nStart 1 MIN TO RETRO CHECKLIST",
+  "checklistText": "1. SEQUENCE LIGHTS - AMBER\n2. EVENT TIMER READS 4:16 MIN\n3. COMPUTER - RENTY\n4. SQUIB BATTERIES (3) - ON\n5. MAIN BATTERIES (4) - ON\n6. RCS PROP MOTOR VALVES A & B - OPEN\n7. PROP GAUGE - RCS A\n8. RECORD - CONT\n9. CYRO QTY - OFF\n10. ANT SELECT - RNTY\n13. CP FDR - PLAT\n14. CP FDM - ATT\n15. CP FDI SCALE RANGE - HI\n16. ATTITUDE CONTROL - RATE CMD (RE-ENT)\n17. RATE GYROS (3) - PRI\n18. OAMS CNTL POWER - OFF\n19. OAMS PROP MOTOR VALVES - CLOSED\n20. RCS A & B CNTL POWER - ACME\n21. IND RETRO ATT - PUSH\n22. RCS - PUSH\n23. RETRO PWR - ARM\n24. CONTROL S/C ATTITUDE TO & HOLD RETROATTITUDE (20 DEG PITCH DOWN)\n25. PILOT FDR - PLAT\n26. PILOT FDM - ATT\n27. PILOT FDI SCALE RANGE - HI\n28. HF T/R - OFF\n29. PRIMARY PUMPS - OFF\n30. SECONDARY PUMPS - OFF\n31. RAD - BYPASS \n\nStart 1 MIN TO RETRO CHECKLIST",
   "Steps": [
     {
       "Program": 2,
@@ -185,6 +185,13 @@
     {
       "Program": 2,
       "Type": 4,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
       "SetID": 4,
       "ToPosID": 0,
       "Text": null
@@ -194,13 +201,6 @@
       "Type": 1,
       "SetID": 3,
       "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 4,
-      "SetID": 3,
-      "ToPosID": 0,
       "Text": null
     },
     {
@@ -265,6 +265,13 @@
       "SetID": 48,
       "ToPosID": 5,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "START 1 MIN TO RETRO CHECKLIST"
     }
   ],
   "Images": []
