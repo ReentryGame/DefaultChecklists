@@ -7,5 +7,5 @@
     "SortPriority": 606,
     "Spacecraft": 0,
     "Steps": [],
-    "checklistText": "<size=21>POST DOCKING checklist</size>\r\nRATE - HIGH\nATT DB - MAX\nCOAS - OFF\ncb RCS LOGIC (2) - open (verify)\nTVC SERVI PWR #1 - OFF\nEMS MODE - STBY\nEMS FUNC - OFF\nBMAG MODE (3) - RATE 2 (verify)\nLM PWR - OFF (verify)\nTUNNE LIGHTS - ON\n\n"
+    "checklistText": "<size=21>POST DOCKING checklist</size>\r\nRATE - HIGH\nATT DB - MAX\nCOAS - OFF\ncb RCS LOGIC (2) - open (verify)\nTVC SERVI PWR #1 - OFF\nEMS MODE - STBY\nEMS FUNC - OFF\nBMAG MODE (3) - RATE 2 (verify)\nLM PWR - OFF (verify)\nTUNNEL LIGHTS - ON\n\n"
 }
