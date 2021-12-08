@@ -5,7 +5,7 @@
   "Name": "POST RETRO JETTISON",
   "Side": 0,
   "SortPriority": 44,
-  "checklistText": "1. RETRO PWR - SAFE\n2. RETRO JETT - SAFE\n3. RETRO ROCKET SQUIBS (4) - SAFE\n4. CP FDR - COMP\n5. CP FDM - RATE\n6. CP FDI SCALE RANGE - LO\n7. RCS CNTL PWR B - OFF\n8. ATTITUDE CONTROL - PULSE\n9. BOOST INSERT CNTL 1 & 2 C/B - OPEN\n10. RETRO SEQ CNTL 1 & 2 C/B - OPEN\n11. SCANNER - OFF\n12. CRYO O2 & H2 HTR C/B - OPEN\n13. OAMS CNTL PROP C/B - OPEN\n14. FUEL CELL CNTL 1 & 2 C/B - OPEN\n15. TAPE RCDR CNTL C/B - OPEN\n16. SECT NO 1 & 2 PWR - OFF\n17. 1A, 1B, 1C, 2A, 2B, 2C - OFF\n18. PILOT FDR - COMP\n19. PILOT FDM - RATE",
+  "checklistText": "1. RETRO PWR - SAFE\n2. RETRO JETT - SAFE\n3. RETRO ROCKET SQUIBS (4) - SAFE\n4. CP FDR - COMP\n5. CP FDM - ATT\n6. CP FDI SCALE RANGE - LO\n7. RCS CNTL PWR B - OFF\n8. BOOST INSERT CNTL 1 & 2 C/B - OPEN\n9. RETRO SEQ CNTL 1 & 2 C/B - OPEN\n10. SCANNER - OFF\n11. CRYO O2 & H2 HTR C/B - OPEN\n12. OAMS CNTL PROP C/B - OPEN\n13. FUEL CELL CNTL 1 & 2 C/B - OPEN\n14. TAPE RCDR CNTL C/B - OPEN\n15. SECT NO 1 & 2 PWR - OFF\n16. 1A, 1B, 1C, 2A, 2B, 2C - OFF\n17. PILOT FDR - COMP\n18. PILOT FDM - ATT",
   "Steps": [
     {
       "Program": 2,
@@ -60,7 +60,7 @@
       "Program": 2,
       "Type": 3,
       "SetID": 8,
-      "ToPosID": 0,
+      "ToPosID": 2,
       "Text": null
     },
     {
@@ -75,13 +75,6 @@
       "Type": 1,
       "SetID": 33,
       "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 4,
-      "ToPosID": 3,
       "Text": null
     },
     {
@@ -221,7 +214,7 @@
       "Program": 2,
       "Type": 3,
       "SetID": 10,
-      "ToPosID": 0,
+      "ToPosID": 2,
       "Text": null
     }
   ],

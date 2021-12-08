@@ -5,7 +5,7 @@
   "Name": "1 MIN TO RETRO",
   "Side": 0,
   "SortPriority": 42,
-  "checklistText": "AT TR -1 (MIN):\n1. HOLD RETROATTITUDE (20 DEG PITCH DOWN)\n2. SEP OAMS LINE - PUSH\n3. SEP ELECT - PUSH\n4. SEP ADAPT - PUSH\n\nAT TR -30 SEC:\n1. RETRO ROCKET SQUIBS - ARM\n\nAT TR -5 SEC:\n1.. ARM AUTO RETRO - PRESS\r\n\nWAIT FOR RETROS TO FIRE\n\nAT TR +1 SEC:\n1. START COMP - PUSH\n2. MAN FIRE RETRO - PUSH\n\nAT TR +30 SEC:\n1. PLATFORM - FREE\n\nAT TR +45 SEC (RETRO JETT LIGHT - AMBER):\n1. RETRO JETT - ARM\n2. JETT RETRO - PUSH\n\nSTART POST RETRO CHECKLIST\n",
+  "checklistText": "AT TR -1 (MIN):\n1. HOLD RETROATTITUDE (20 DEG PITCH DOWN)\n2. SEP OAMS LINE - PUSH\n3. SEP ELECT - PUSH\n4. SEP ADAPT - PUSH\n\nAT TR -30 SEC:\n1. RETRO ROCKET SQUIBS - ARM\n\nAT TR -5 SEC:\n1.. ARM AUTO RETRO - PRESS\r\n\nWAIT FOR RETROS TO FIRE\n1. EVENT TIMER SWITCH TO COUNTING UP\n\nAT TR +1 SEC:\n2. MAN FIRE RETRO - PUSH\n\nAT TR +30 SEC:\n1. PLATFORM - FREE\n\nAT TR +45 SEC (RETRO JETT LIGHT - AMBER):\n1. RETRO JETT - ARM\n2. JETT RETRO - PUSH\n\nSTART POST RETRO CHECKLIST\n",
   "Steps": [
     {
       "Program": 2,
@@ -72,9 +72,9 @@
     },
     {
       "Program": 2,
-      "Type": 4,
-      "SetID": 25,
-      "ToPosID": 0,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 4,
       "Text": null
     },
     {
@@ -104,13 +104,6 @@
       "SetID": 9,
       "ToPosID": 0,
       "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "START POST RETRO CHECKLIST"
     }
   ],
   "Images": []

@@ -5,7 +5,7 @@
   "Name": "INSERTION",
   "Side": 0,
   "SortPriority": 22,
-  "checklistText": "1. BOOSTER-INSERT - SAFE\n2. RETROROCKET SQUIBS (4) - SAFE\n3. SEQ LIGHTS TEST - RED & GREEN/AMBER\n4. LEFT SEC O2 BOTTLE SHUTOFF - CLOSED\n5. OAMS HTRS C/B - CLOSED\n6. H2O HTRS C/B'S - CLOSED\n7. ANT SEL - ADPT\n8. CRY QTY - OFF\n9. RECORD - OFF\n10. MAIN BATTERIES (4) - OFF\n12. SQUIB BATTERIES (4) - OFF\n11. VOLTMETER - C\n12. OAMS CNTL PWR - OFF\n13. OAMS PROP MOTOR VALVES - CLOSED\n14. RCS PROP MOTOR VALVES - CLOSED\n15. RADIATOR - BYPASS\n16. COMPUTER - CTCH UP\n\nONCE PROGRAM LOADED:\n1. COMPUTER - START\n\nAT +40 MINS:\nRADIATOR - FLOW",
+  "checklistText": "1. BOOSTER-INSERT - SAFE\n2. RETROROCKET SQUIBS (4) - SAFE\n3. SEQ LIGHTS TEST - RED & GREEN/AMBER\n4. LEFT SEC O2 BOTTLE SHUTOFF - CLOSED\n5. ATT IND LIGHTS C/B - CLOSED\n6. CTR LIGHTS - AS REQUIRED\n7. OAMS HTRS C/B - CLOSED\n8. H2O HTRS C/B'S - CLOSED\n9. ACME BIAS PWR - PRI\n10. ROLL JETS - YAW\n11. ATTITUDE DRIVERS - PRI\n12. SUIT FAN - NO. 1 & 2\n13. PRIMARY PUMP A - ON\n14. SECONDARY PUMP A - ON\n15. ANT SEL - ADPT\n16. CRY QTY - OFF\n17. RECORD - OFF\n18. MAIN BATTERIES (4) - OFF\n19. SQUIB BATTERIES (4) - OFF\n20. AC POWER - ACME\n21. RIGHT SEC O2 BOTTLE SHUTOFF - CLOSED\n22. VOLTMETER - C\n23. OAMS CNTL PWR - OFF\n24. OAMS PROP MOTOR VALVES - CLOSED\n25. RCS PROP MOTOR VALVES - CLOSED\n26. RADIATOR - BYPASS\n27. COMPUTER - CTCH UP\n\nONCE PROGRAM LOADED:\n1. COMPUTER - START\n\nAT +40 MINS:\nRADIATOR - FLOW",
   "Steps": [
     {
       "Program": 2,
@@ -59,15 +59,71 @@
     {
       "Program": 2,
       "Type": 1,
-      "SetID": 114,
+      "SetID": 63,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CTR LIGHTS - AS REQUIRED"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 137,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 40,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 44,
       "ToPosID": 4,
       "Text": null
     },
     {
       "Program": 2,
       "Type": 1,
-      "SetID": 112,
+      "SetID": 45,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 46,
       "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 47,
+      "ToPosID": 5,
       "Text": null
     },
     {
@@ -138,6 +194,20 @@
       "Type": 1,
       "SetID": 16,
       "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 25,
+      "ToPosID": 1,
       "Text": null
     },
     {
