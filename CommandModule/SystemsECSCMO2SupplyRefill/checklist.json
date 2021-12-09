@@ -1,0 +1,61 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsECSCMO2SupplyRefill",
+  "Group": "SYSTEMS: ECS",
+  "Name": "CM O2 SUPPLY FILL",
+  "Side": 1,
+  "SortPriority": 405040100,
+  "checklistText": "\t\t\tCM O2 Supply Refill\r\n\r\nPanel 2:\r\n\t\tO2 PRESS IND sw - SURGE TK\r\n\t\t\tCRYO 02 PRESS 1 ind - 400 psia\r\nPanel 351:\r\n\t\tCAB REPRESS vlv - OFF (CCW)\r\nPanel 601:\r\n\t\tREPRESS O2 - CLOSE\r\nPanel 326:\r\n\t\tREPRESS PKG vlv - FILL\r\nPanel 2:\r\n\t\t\tCRYO O2 PRESS 1 ind - 865-935 psia\r\n\t\tO2 PRESS IND sw - TK 1\r\nPanel 326:\r\n\t\tREPRESS PKG vlv - OFF\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 46,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 315,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait until CRYO O2 PRESS 1 ind - 865-935 psia\r"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

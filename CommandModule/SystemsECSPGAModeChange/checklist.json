@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsECSPGAModeChange",
+  "Group": "SYSTEMS: ECS",
+  "Name": "PGA MODE CHANGES",
+  "Side": 1,
+  "SortPriority": 405040060,
+  "checklistText": "Not yet developed",
+  "Steps": [],
+  "Images": []
+}

@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsECSH2SuitPurge",
+  "Group": "SYSTEMS: ECS",
+  "Name": "SUIT CIRCUIT PURGE OF H2",
+  "Side": 1,
+  "SortPriority": 405040120,
+  "checklistText": "\t\tSuit Circuit Purge of H2\r\n\r\nPanel 7:\r\n\tDIRECT O2 vlv - OPEN (CCW) for 1 min\r\n\r\nPanel 2:\r\n\tO2 FLOW ind - 1.0 lb/hr (pegged)\r\n\tO2 FLOW HI lt - on\r\n\r\nPanel 1, 3, 122:\r\n\tMASTER ALARM pb/lt (3) - on, push\r\n\r\nPanel 7:\r\n\tDIRECT O2 vlv - close (CW)\r\n\r\nPanel 2:\r\n\tO2 FLOW HI lt - out\r\n\tO2 FLOW ind - 0.2 lb/hr (pegged)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

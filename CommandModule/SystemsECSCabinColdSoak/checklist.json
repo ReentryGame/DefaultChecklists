@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsECSCabinColdSoak",
+  "Group": "SYSTEMS: ECS",
+  "Name": "CABIN COLD-SOAK",
+  "Side": 1,
+  "SortPriority": 405040130,
+  "checklistText": "\t\tCabin Cold-Soak Operation\r\n\r\n\ta.\tActivate Cold Soak\r\n\t\t\tOpen cool cont atten pnl\r\n\r\n\t\t\t\tWARNING\r\nPanel 382:\r\n\t\tSUIT FLOW RELF vlv must remain\r\n\t\tOFF throughout mission or swell-\r\n\t\ting of CO2 odor absorber filters\r\n\t\tmay result.\r\n\r\n\t\tSUIT HT EXCH SEC GLY - FLOW\r\n\t\tSEC EVAP H2O CONT vlv - AUTO\r\n\t\tClose cool cont atten pnl\r\nPanel 2:\r\n\t\tCAB TEMP - MAN\r\nPanel 303:\r\n\t\tPRIM CAB TEMP vlv - COLD (CW)\r\n\t\tSEC CAB TEMP vlv - OFF (CCW)\r\nPanel 2:\r\n\t\tSUIT HT EXCH - BYP for 20 sec,\r\n\t\t\tthen off (ctr)\r\n\t\tECS IND sel - SEC\r\n\t\tSEC COOL PUMP - AC1\r\n\t\t\tSEC GLY DISCH PRESS ind - 39-51 psig\r\n\t\t\tSEC ACCUM QTY ind - 30-55%\r\n\t\tSEC COOL EVAP - EVAP\r\n\t\t\tSEC GLY EVAP OUT TEMP ind -\r\n\t\t\t\t38°-50.5°F\r\n\t\t\tSEC GLY EVAP STM PRESS ind\r\n\t\t\t\tWhen boiling - 0.09-0.14 psia\r\n\t\t\t\tNot boiling - >0.14 psia\r\nPanel 2:\r\n\t\tECS IND sel - PRIM\r\n\t\t\tRD PRIM OUT TEMP ind - >-20°F\r\n\t\t\t\tif <-20°F\r\n\r\n\t\t\tSEC COOL EVAP - RSET for\r\n\t\t\t\t58 sec min, then off\r\n\t\t\t\t\t(ctr)\r\n\t\t\tSEC COOL PUMP - off (ctr)\r\n\t\t\tSUIT HT EXCH - ON for\r\n\t\t\t\t20 sec, then off\r\n\t\t\t\t(ctr)\r\n\r\n\tb.\tDeactivate Cold Soak\r\n\r\nPanel 303:\r\n\t\tSEC CAB TEMP vlv - MAX COOL (CW)\r\nPanel 2:\r\n\t\tCAB TEMP - AUTO\r\n\t\tSUIT HT EXch - ON for 20 sec,\r\n\t\t\tthen off (ctr)\r\n\t\tSEC COOL EVAP - RSET for 58 sec\r\n\t\t\tmin, then off (ctr)\r\n\t\tSEC COOL PUMP - off (ctr)\r\n\t\tOpen cool cont atten pnl\r\n\r\n\r\n\t\t\tWARNING\r\n\r\nPanel 382:\r\n\t\tSUIT FLOW RELF vlv must remain\r\n\t\tOFF throughout msn or swelling\r\n\t\tof CO2 odor absorber filters\r\n\t\tmay result.\r\n\r\n\t\tSEC EVAP H2O CONT vlv - OFF\r\n\t\tClose cool cont atten pnl\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

@@ -1,0 +1,131 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "ECSCabinDepress",
+  "Group": "ECS",
+  "Name": "Cabin Depress",
+  "Side": 1,
+  "SortPriority": 1670,
+  "checklistText": "Cabin Depressurization\r\n\r\n1.\tVerify ECS Basic (Unstaged)\r\n\r\nECS Panel:\r\n2.\tPRESS REG A & B vlv - EGRESS\r\n\r\n3.\tCABIN REPRESS vlv - AUTO\r\n\r\n4.\tSUIT GAS DIVERTER vlv - PULL EFRESS\r\n\r\n5.\tCABIN GAS RETURN vlv - EGRESS\r\n\r\n6.\tCabin relief & dump vlv (ovhd) - OPEN\r\n\t(applicable for docked vehicles only)\r\n\r\nRemarks:\r\n\tDepressurizes docking tunnel during cabin depressurization.\r\n\r\nPanel 11:\r\n7.\tCB ECS:\t\tCABIN FAN - open\r\nRemarks:\r\n\tPrevents activation of cabin fan in depressurized cabin.\r\n\r\nPanel 16:\r\n8.\tCB ECS:\t\tCABIN REPRESS - open\r\n\r\nECS Panel:\r\n9.\tCabin relief & dump vlv (fwd or ovhd) - Cycle from AUTO\r\n\tto OPEN until cabin pressure is reduced to approx 3.2 psia\r\nRemarks:\r\n\tForward or overhead cabin relief and dump valve \r\n\tmay be used to depressurize cabin, if undocked (forward \r\n\tonly if docked).\r\n\r\n10.\tCabin relief & dump vlv (fwd or ovhd) - AUTO\r\n\r\nPanel 2:\r\n11.\tECS:\tSUIT PRESS ind - 3.6 to 4.3 psia\r\nRemarks:\r\n\tDuring cabin depressurization, SUIT CIRCUIT RELIEF vlv \r\n\tcloses when ARS pressure drops to 4.3 psia. To verify \r\n\tproper operation (closure) of valve, cabin pressure must\r\n\tbe below 4.3 psia.\r\n\r\nECS Panel:\r\n12.\tCabin relief & dump vlv (fwd or ovhd) - OPEN & reduce \r\n\tcabin pressure to zero psia\r\n\r\nPanel 16:\r\n13.\tCB ECS:\tSUIT FLOW CONT - open (one man EVA only)\r\n\r\nECS Panel:\r\n14.\tCabin relief & dump vlv (fwd) - AUTO \r\n\r\n15.\tCabin relief & dump vlv (ovhd) - AUTO \r\n\r\n16.\tCABIN REPRESS vlv - CLOSE\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Docked? Cabin relief & dump vlv (OVHD) - OPEN"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 155,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Leave in OPEN until cabin psia is reduced to approx 3.2 psia"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS: SUIT PRESS ind - 3.6 to 4.3 psia"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Leave in OPEN until cabin psia is reduced to 0.0 psia"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "set OVHD hatch cabin relief & vent valve to AUTO"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,243 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LunarStayEVAPrep",
+  "Group": "LUNAR STAY",
+  "Name": "EVA Preparations",
+  "Side": 0,
+  "SortPriority": 520,
+  "checklistText": "Subsystem Configuration for EVA Preparation\r\n\r\nPurpose of Subsystem Configuration for EVA Preparation \r\nprocedure is to verify status of LM controls at start of \r\nEVA period of operations. It is to be used as baseline \r\nfor ensuing EVA operations.\r\n\r\n1.\tVerify ECS Basic (Unstaged)\r\n\tCritical control/display status is as follows:\r\nECS:\r\n\tCABIN REPRESS vlv - AUTO \r\n\tDES O2 vlv - OPEN \r\n\tWATER TANK SELECT vlv - DES \r\n\tCO2 CANISTER SEL vlv - PRIM \r\nPanel 11:\r\n\tCB ECS:\r\n\t\tGLYCOL PUMP 2 - close \r\n\t\tGLYCOL PUMP 1 - close \r\n\t\tGLYCOL PUMP AUTO TRNFR - close\r\nPanel 2:\r\n\tGLYCOL sel - PUMP 1 \r\n\tSUIT FAN sel - 1 \r\n\tO2/H2O QTY MON sel - DES 2 \r\n\tECS:\r\n\t\tPRESS ind pwr fail lt - off \r\n\t\tGLYCOL ind pwr fail lt - off \r\n\t\tQUANTITY ind pwr fail lt - off \r\n\t\tGLYCOL comp caut lt - off \r\n\t\tSUIT FAN comp caut lt - off \r\n\t\tCO2 comp caut lt - off \r\n\t\tH2O SEP comp caut lt - off \r\nPanel 16:\r\n\tCB ECS:\r\n\t\tGLYCOL PUMP SEC - open\r\n\t\tSUIT FAN 2 - close\r\n\t\tSUIT FAN ΔP - close\r\n\t\tCO2 SENSOR - close\r\n\r\nPanel 14:\r\n2.\tVerify EPS Basic (Unstaged)\r\n\tCritical diaplays as follows:\r\n\tEPS:\r\n\t\tLMP BAT 1 tb - gray\r\n\t\tLMP BAT 2 tb - TBD \r\n\t\tCDR BAT 3 tb - TBD \r\n\t\tCDR BAT 4 tb - gray\r\n\t\tLUNAR BAT tb - TBD \r\n\t\tDES BATS tb - gray\r\n\t\tBAT 5 NORMAL LMP FEED tb - bp \r\n\t\tBAT 5 BACK UP CDR FEED tb - bp \r\n\t\tBAT 6 NORMAL CDR FEED tb - bp \r\n\t\tBAT 6 BACKUP LMP FEED tb - bp\r\n\r\nPanel 11:\r\n3.\tCB S/C: ATT DIR CONT - open\r\n\r\nPanel 8:\r\n4.\tED:\r\n\t\tMASTER ARM sw - OFF \r\n\t\tSTAGE sw - SAFE \r\n\r\nPanel 1:\r\n5.\tENG THR CONT: ENG ARM sw - OFF\r\nPanel 8:\r\n\tED: LDG GEAR DEPLOY tb - gray\r\nPanel 1:\r\n\tGUID CONT sw - PGNS \r\n\tABORT pb - reset \r\n\tABORT STAGE pb - reset \r\n\r\nPanel 3:\r\n6.\tDES ENG CMD OVRD sw - OFF \r\n\tS/C:\r\n\t\tROLL, PITCH, YAW sw - MODE CONT \r\n\t\tPGNS sw - OFF\r\n\r\n7.\tPerform LGC Power-Down Program (P06)\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify ECS & EPS Basic (UNSTAGED): CLEAR ALL, run ECS + EPS BASIC"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 37,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 154,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 153,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 48,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(optional) Power down the LGC: LGC Power-Down Program (P06)"
+    }
+  ],
+  "Images": []
+}

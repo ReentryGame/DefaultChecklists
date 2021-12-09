@@ -1,0 +1,173 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LunarStayEPSCheckPostLanding",
+  "Group": "LUNAR STAY",
+  "Name": "EPS Check, Post Landing",
+  "Side": 0,
+  "SortPriority": 500,
+  "checklistText": "EPS Check, Post-Lunar-Landing\r\n\r\nPanel 11:\r\n1.\tCB EPS: ASC ECA CONT - close\r\n\r\nPanel 16:\r\n2.\tCB EPS: ASC ECA CONT - close\r\n\r\nPanel 13:\r\n3.\tRemove ascent batteries from line:\r\n\tEPS:\r\n\t\tBAT 5 NORMAL LMP FEED sw - OFF/RESET; tb-bp\r\n\t\tBAT 6 NORMAL CDR FEED sw - OFF/RESET; tb-bp\r\n\r\n4.\tCheck voltage & current of descent batteries:\r\n\tEPS:\r\n\t\tPOWER/TEMP MON sel - BAT 1\r\n\t\tVOLTS ind - 28.0 to 32.5 vdc\r\n\t\tAMPS ind - TBD\r\n\tRepeat for BAT 2, 3, & 4.\r\n\r\n\tREMARKS:\r\n\tVerify load-sharing of descent batteries. \r\n\tTo obtain proper current measurement for descent\r\n\tbatteries, divide indicated reading by 2.\r\n\r\nPanel 11:\r\n5.\tCB EPS:\r\n\t\tCROSS TIE BAL LOADS - close\r\n\t\tASC ECA CONT - open\r\n\r\nPanel 16:\r\n6.\tCB EPS:\r\n\t\tASC ECA CONT - open\r\n\t\tCROSS TIE BAL LOADS - close\r\n\r\nPanel 14:\r\n7.\tCheck a-c voltage from inverter No.1:\r\n\tEPS:\r\n\t\tPOWER/TEMP MON sel - AC BUS\r\n\t\tINVERTER sw - 1\r\n\t\tVOLTS ind - 112 - 118 volts ac\r\n\t\tINVERTER sw - 2\r\n\t\tVOLTS ind - 112 - 118 volts ac\r\n\t\tPOWER/TEMP MON sel - CDR BUS\r\n\r\nPanel 11:\r\n8.\tCB EPS: INV 1 - open\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VOLTS ind - 28.0 to 32.5 vdc"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VOLTS ind - 28.0 to 32.5 vdc"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VOLTS ind - 28.0 to 32.5 vdc"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VOLTS ind - 28.0 to 32.5 vdc"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 20,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 10,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VOLTS ind - 112 to 118 volts ac"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VOLTS ind - 112 to 118 volts ac"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SystemsECSCO2AbsorberFilter",
+  "Group": "SYSTEMS: ECS",
+  "Name": "CO2 ABSORBER FILTER REPLACEMENT",
+  "Side": 1,
+  "SortPriority": 405040030,
+  "checklistText": "\t\tCO2 Absorber Filter Replacement\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tConn grd wire when removing or\r\n\t\treplacing filters from cstr or\r\n\t\tstowage.\r\n\r\n\t\t\r\n\t\tObtain unused filter\r\n\n\t\tOpen CO2 cstr atten pnl\r\n\r\nPanel 350:\r\n\t\tCO2 CSTR DIVERT vlv - up (or dn)\r\n\nRemarks:\n\tAir flows through if handles points towards the middle\n\tof the two assemblies.\n\nReplace A:\n\tMove handle to right\n\tPress C and press \"REPLACE CANNISTER\"\n\tMove handle to left\n\nReplace B:\n\tMove handle to left\n\tPress C and press \"REPLACE CANNISTER\"\n\tMove handle to right\n\r\nOriginal procedures (bypass these for now)\n\t\t\tCAUTION\r\n\r\n\t\tApply press to latching handle\r\n\t\tto allow press interlock pin to\r\n\t\twithdraw, otherwise latching\r\n\t\thandle may not disengage.\r\n\r\n\t\tCstr man bleed vlv - press\r\n\t\tCover latching handle - unlock\r\n\t\tReplace used filter\r\n\t\tCover latching handle - lock\r\n\t\tCO2 CSTR DIVERT vlv - ctr\r\n\t\tClose CO2 cstr atten pnl\r\n\t\tStow used filter\r\n\t\tStow excess shims in volume B5 or B6\r\n\r\n\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}

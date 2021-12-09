@@ -1,0 +1,110 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "ECSSecCoolLoopActivation",
+  "Group": "ECS",
+  "Name": "Activate Sec Cool Loop",
+  "Side": 1,
+  "SortPriority": 1660,
+  "checklistText": "Secondary Coolant Loop (HTS) Activation\r\n\r\n\tActivation of heat transport section secondary coolant \r\n\tloop assumes either failure of both primary glycol pumps, \r\n\tloss of primary glycol, or inability to maintain primary \r\n\tglycol loop temperature below +50°F.\r\n\r\n\tGLYCOL comp caut lt remains on after secondary coolant \r\n\tloop is activated.\r\n\r\nECS Panel:\r\n1.\tWATER TANK SELECT vlv - SEC\r\n\r\nPanel 16:\r\n2.\tCB ECS:\tGLYCOL PUMP SEC - close\r\n\r\nPanel 2:\r\n3.\tGLYCOL sel - INST (SEC)\r\n\tECS caut lt - off\r\n\r\nECS Panel:\r\n4.\tSEC EVAP FLOW vlv - open\r\n\r\nPanel 11:\r\n5.\tCB ECS:\r\n\t\tGLYCOL PUMP 2 - open\r\n\t\tGLYCOL PUMP 1 - open\r\n\t\tGLYCOL PUMP AUTO TRNFR - open\r\n\r\nECS Panel:\r\n6.\tPRI EVAP FLOW #1 vlv - CLOSE\r\n\tPRI EVAP FLOW #2 vlv - CLOSE\r\n\tASC H2O vlv - OPEN\r\n\tDES H2O vlv - CLOSE\r\n\r\nPanel 16:\r\n7.\tCB ECS:\r\n\t\tLCG PUMP - open\r\nPanel 11:\r\n\t\tCABIN FAN - open\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 37,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS caut lt - off"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 154,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 153,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 31,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 33,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 155,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

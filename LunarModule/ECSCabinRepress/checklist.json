@@ -1,0 +1,68 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "ECSCabinRepress",
+  "Group": "ECS",
+  "Name": "Cabin Repress",
+  "Side": 1,
+  "SortPriority": 1680,
+  "checklistText": "Cabin Repressurization\r\n\r\n\r\nAssumption: LM is unstaged.\r\n\r\nECS Panel:\r\n1.\tCabin relief & dump vlv (fwd) - AUTO \r\n\r\n2.\tCabin relief & dump vlv (ovhd) - AUTO \r\n\r\n3.\tCABIN REPRESS vlv - AUTO\r\n\r\nPanel 16:\r\n\tCB ECS: CABIN REPRESS - close\r\nPanel 1,2:\r\n\tMASTER ALARM - on\r\nPanel 1:\r\n\tCABIN warn lt - on\r\nECS Panel:\r\n\tCABIN REPRESS vlv opens\r\n\r\n4.\tPRESS REG A vlv - CABIN\r\n\r\nPanel 1:\r\n5.\tMASTER ALARM pb/lt - reset\r\n\r\nECS Panel:\r\n6.\tPRESS REG B vlv - CABIN\r\nRemarks:\r\n\tCABIN REPRESS vlv closes and CABIN warn lt goes off \r\n\twhen pressure reaches 4.4 to 5.0 psia.\r\n\r\nPanel 1:\r\n7.\tCABIN warn lt - off\r\n\r\n8.\tVerify cabin pressure stabilizes at 4.8+/-0.2 psia\r\n\r\n9.\tReturn to ECS Basic (unstaged), except:\r\n\tCABIN GAS RETURN vlv - AUTO before SUIT GAS DIVERTER\r\n\tvlv - PUSH CABIN\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "set OVHD hatch Cabin Relief & Vent Vlv to AUTO"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CABIN REPRESS vlv closes and cabin warn lt goes off when psia reaches 4.4 to 5.0"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify cabin pressure stabilizes at approx 5.0"
+    }
+  ],
+  "Images": []
+}
