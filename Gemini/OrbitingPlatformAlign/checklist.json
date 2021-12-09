@@ -1,11 +1,11 @@
 {
-    "Group": "ORBITING",
-    "Images": [],
-    "Name": "PLATFORM ALIGN",
-    "ProjectName": "OrbitingPlatformAlign",
-    "Side": 0,
-    "SortPriority": 31,
-    "Spacecraft": 2,
-    "Steps": [],
-    "checklistText": "1. Navigate to the attitude using window reference\n2. Set Platform to CAGE\n3. Set Attitude Control to PLAT\n4. Gyros will align to body reference after 5 seconds\n5. New 0,0,0 attitude will be current orientation"
+  "Spacecraft": 2,
+  "ProjectName": "OrbitingPlatformAlign",
+  "Group": "ORBITING",
+  "Name": "PLATFORM ALIGN",
+  "Side": 1,
+  "SortPriority": 15,
+  "checklistText": "1. Navigate to the attitude using window reference\n2. Platform \t\t\t\t- CAGE\n3. Attitude Control \t\t\t- PLAT\n4. Gyros will align to body reference after 5 seconds\n5. New 0,0,0 attitude will be current orientation",
+  "Steps": [],
+  "Images": []
 }

@@ -5,7 +5,7 @@
   "Name": "DEPRESS-EGRESS",
   "Side": 1,
   "SortPriority": 52,
-  "checklistText": "S/C DEPRESSURIZATION AND EGRESS\n\t\nRECORD - CONT\nCABIN AIR RECIRC - DWN (CLOSED)\n\nDisable OAMS:\n\tOAMS Controller Power: OFF\n\tOAMS Prop Motor Valves: CLOSED\n\nIn the ECS overhead panel:\n\tPull the CABIN VENT ring handle\n\nWait until the CABIN PRESSURE is zero\n\nIn the ECS overhead panel:\n\tPush the CABIN VENT ring handle back to Normal.\n\nOpen the HATCH using the [C] menu\n\nATTITUDE CONTROL - PULSE\nPLATFORM - ORB RATE\n\nWhen ready to exit the vehicle, press the EVA button in the [C] menu. To enter, press the ENTER button in the open hatch on the outside.\n\n",
+  "checklistText": "S/C DEPRESSURIZATION AND EGRESS\n\t\nRECORD \t\t\t\t\t- CONT\nCABIN AIR RECIRC \t\t\t- DOWN (CLOSED)\nOAMS Controller Power\t\t- OFF\nOAMS Prop Motor Valves \t- CLOSED\nCABIN VENT \t\t\t\t- DOWN (OPEN)\n\nWait until the CABIN PRESSURE is zero:\nCABIN VENT \t\t\t\t- UP (CLOSED)\n\nOpen the HATCH using the [C] menu\n\nATTITUDE CONTROL \t\t\t- PULSE\nPLATFORM \t\t\t\t\t- ORB RATE\n\nWhen ready to exit the vehicle, press the EVA button in the [C] menu. To enter, press the ENTER button in the open hatch on the outside.\n\n",
   "Steps": [
     {
       "Program": 2,

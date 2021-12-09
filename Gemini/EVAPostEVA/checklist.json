@@ -5,7 +5,7 @@
   "Name": "POST-EVA",
   "Side": 1,
   "SortPriority": 53,
-  "checklistText": "Close the hatch using the [C] menu.\nCABIN VENT - UP (CLOSED)\nLT/RT SEC O2 BOTTLES - CLOSED\nRAD - BYPASS\nREPRESS knob - OPEN\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\nREPRESS knob - CLOSED\nRAD - FLOW\nRT SEC O2 BOTTLE - OPEN\nCABIN AIR RECIRC - UP (OPEN)\n\nPOWER DOWN S/C\n\tRADAR - OFF\n\tPLATFORM - OFF\n\tRATE GYROS (3) - OFF\n\tEVENT TIMER - STOP\n\tAC POWER - OFF\n\tACME BIAS PWR - OFF\n\tCOOLANT PUMPS - AS DESIRED\n\tT/M - CMD\n\tMANEUVER THRUSTER C/B'S - CLOSED",
+  "checklistText": "Close the hatch using the [C] menu.\nCABIN VENT \t\t\t- UP (CLOSED)\nLT/RT SEC O2 BOTTLES \t- CLOSED\nRAD \t\t\t\t\t- BYPASS\nREPRESS knob \t\t\t- OPEN\n\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\nREPRESS knob \t\t\t- CLOSED\nRAD \t\t\t\t\t- FLOW\nRT SEC O2 BOTTLE \t\t- OPEN\nCABIN AIR RECIRC \t\t- UP (OPEN)\n\nPOWER DOWN S/C, IF NESSESARY\n\t",
   "Steps": [
     {
       "Program": 2,

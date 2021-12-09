@@ -1,11 +1,11 @@
 {
-    "Group": "R&D",
-    "Images": [],
-    "Name": "Undocking",
-    "ProjectName": "RnDUndocking",
-    "Side": 1,
-    "SortPriority": 34,
-    "Spacecraft": 2,
-    "Steps": [],
-    "checklistText": "1. OAMS PWR - ON\n2. OAMS Valve - OPEN\n3. Encoder CMD: 220 - UNDOCK\n4. Within 30 seconds, back away from target vehicle.\n\nEMERGENCY RELEASE\n1. Open the EMER REL cover\n2. Press\n(Destroys the hooks on Gemini Spacecraft. Unable to dock after this.)"
+  "Spacecraft": 2,
+  "ProjectName": "RnDUndocking",
+  "Group": "R&D",
+  "Name": "Undocking",
+  "Side": 1,
+  "SortPriority": 34,
+  "checklistText": "1. OAMS PWR \t\t\t- ON\n2. OAMS Valve \t\t\t- OPEN\n3. Encoder CMD: 220 \t\t- UNDOCK\n4. Within 30 seconds, back away from target vehicle.\n\nEMERGENCY RELEASE\n1. EMER REL \t\t\t- PUSH\n\n(Destroys the hooks on Gemini Spacecraft. Unable to dock after this.)",
+  "Steps": [],
+  "Images": []
 }

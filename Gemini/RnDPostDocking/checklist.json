@@ -1,11 +1,11 @@
 {
-    "Group": "R&D",
-    "Images": [],
-    "Name": "POST-DOCKING",
-    "ProjectName": "RnDPostDocking",
-    "Side": 1,
-    "SortPriority": 33,
-    "Spacecraft": 2,
-    "Steps": [],
-    "checklistText": "1. (optional)Encoder CMD: 140, Approach Lights OFF\n2. Exterior Lights - OFF"
+  "Spacecraft": 2,
+  "ProjectName": "RnDPostDocking",
+  "Group": "R&D",
+  "Name": "POST-DOCKING",
+  "Side": 1,
+  "SortPriority": 33,
+  "checklistText": "1. (optional)Encoder CMD: \t- 140, Approach Lights OFF\n2. Exterior Lights \t\t\t- OFF",
+  "Steps": [],
+  "Images": []
 }
