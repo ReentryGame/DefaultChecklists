@@ -1,0 +1,19 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "OrbitingPowerDown",
+  "Group": "ORBITING",
+  "Name": "POWER DOWN",
+  "Side": 1,
+  "SortPriority": 12,
+  "checklistText": "RADAR \t\t\t\t\t\t- OFF\nPLATFORM \t\t\t\t\t- OFF\nRATE GYROS (3) \t\t\t\t- OFF\nEVENT TIMER \t\t\t\t- STOP\nAC POWER \t\t\t\t\t- OFF\nACME BIAS PWR \t\t\t\t- OFF\nCOOLANT PUMPS \t\t\t\t- AS DESIRED\nT/M \t\t\t\t\t\t- CMD\nMANEUVER THRUSTER C/B'S \t- CLOSED",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 202,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
+}
