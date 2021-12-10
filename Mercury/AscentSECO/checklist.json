@@ -1,11 +1,11 @@
 {
-    "Group": "ASCENT",
-    "Images": [],
-    "Name": "SECO",
-    "ProjectName": "AscentSECO",
-    "Side": 0,
-    "SortPriority": 70,
-    "Spacecraft": 3,
-    "Steps": [],
-    "checklistText": "1. Sep Cap - GREEN"
+  "Spacecraft": 3,
+  "ProjectName": "AscentSECO",
+  "Group": "ASCENT",
+  "Name": "SECO",
+  "Side": 0,
+  "SortPriority": 70,
+  "checklistText": "1. Sep Cap \t- GREEN",
+  "Steps": [],
+  "Images": []
 }

@@ -1,11 +1,47 @@
 {
-    "Group": "ENTRY",
-    "Images": [],
-    "Name": "RETRO",
-    "ProjectName": "EntryRetro",
-    "Side": 1,
-    "SortPriority": 70,
-    "Spacecraft": 3,
-    "Steps": [],
-    "checklistText": "These will happen in order:\n1. \"Retro Warn\" light - ILLUMINATED\n2. \"Retro Seq\" telelight - GREEN\n3. \"Retro Att\" telelight - GREEN\n4. Crosscheck attitude indicator, periscope and window\n5. \"Retro Fire\" telelight - GREEN"
+  "Spacecraft": 3,
+  "ProjectName": "EntryRetro",
+  "Group": "ENTRY",
+  "Name": "RETRO",
+  "Side": 1,
+  "SortPriority": 70,
+  "checklistText": "1. \"Retro Warn\" light \t\t- ILLUMINATED\n2. \"Retro Seq\" telelight \t- GREEN\n3. \"Retro Att\" telelight \t- GREEN\n4. Crosscheck attitude indicator, periscope and window\n5. \"Retro Fire\" telelight \t- GREEN\n\nStart RE-ENTRY Checklist",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Warn\" light - ILLUMINATED"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Seq\" telelight - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Att\" telelight - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Fire\" telelight - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start RE-ENTRY Checklist"
+    }
+  ],
+  "Images": []
 }
