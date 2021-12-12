@@ -4,8 +4,23 @@
   "Group": "ASCENT",
   "Name": "SECO",
   "Side": 0,
-  "SortPriority": 70,
-  "checklistText": "1. Sep Cap \t- GREEN",
-  "Steps": [],
+  "SortPriority": 53,
+  "checklistText": "1. Sep Cap \t- GREEN\n\nStart ORBIT Checklist",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Sep Cap \t- GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start ORBIT Checklist"
+    }
+  ],
   "Images": []
 }

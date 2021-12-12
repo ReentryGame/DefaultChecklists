@@ -506,10 +506,10 @@
     },
     {
       "Program": 3,
-      "Type": 6,
-      "SetID": 6,
+      "Type": 0,
+      "SetID": 0,
       "ToPosID": 0,
-      "Text": null
+      "Text": "Verify Time Zero Button - COVER REMOVED"
     },
     {
       "Program": 3,

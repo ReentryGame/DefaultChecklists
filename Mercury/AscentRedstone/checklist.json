@@ -1,0 +1,54 @@
+{
+  "Spacecraft": 3,
+  "ProjectName": "AscentRedstone",
+  "Group": "ASCENT",
+  "Name": "REDSTONE",
+  "Side": 0,
+  "SortPriority": 51,
+  "checklistText": "1. Jett Tower \t\t\t\t\t- GREEN (appx. T+2:10 and 20 sec after \n\t\t\t\t\t\t\t\t\tMECO)\n2. Sep Capsule\t\t\t\t\t- GREEN (appx. 15 sec after Tower Jett)\n3. Auto Retro Jett switch \t\t- OFF\n4. Retro Jett Fuse switch \t\t- OFF\n5. Emer Retro Jett Fuse switch \t- OFF\n\nStart Orbit Checklist",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Jett Tower - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Sep Capsule - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start Orbit Checklist"
+    }
+  ],
+  "Images": []
+}

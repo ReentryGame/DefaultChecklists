@@ -2,10 +2,10 @@
   "Spacecraft": 3,
   "ProjectName": "PrepFinalChecks",
   "Group": "PRE-FLIGHT",
-  "Name": "Final Checks (T-10)",
+  "Name": "Final Checks (T-5)",
   "Side": 0,
   "SortPriority": 40,
-  "checklistText": "FINAL CHECKS\n(Approx. T-5 to T-10)\n\n1. Launch Control switch \t\t- READY\n2. Suit Temp \t\t\t\t\t- TO MARK\n3. Cabin Temp \t\t\t\t\t- TO MARK\n4. Inverter Temp \t\t\t\t- TO MARK\n5. Transmit \t\t\t\t\t\t- UHF\n6. Perform Radio Check on UHF\n7. Verify Time Zero Button \t\t- COVER REMOVED\n\tWARNING: Do not depress the time zero button\n8. DC Volts knob \t\t\t\t- 1\n9. Squib switch\t\t\t\t\t- ARM\n10. Auto Retro Jett switch\t\t- ARM",
+  "checklistText": "FINAL CHECKS\n(Approx. T-5 to T-0)\n\n1. Launch Control switch \t\t- READY\n2. Suit Temp \t\t\t\t\t- TO MARK\n3. Cabin Temp \t\t\t\t\t- TO MARK\n4. Inverter Temp \t\t\t\t- TO MARK\n5. Transmit \t\t\t\t\t\t- UHF\n6. Perform Radio Check on UHF\n7. Verify Time Zero Button \t\t- COVER REMOVED\n\tWARNING: Do not depress the time zero button\n8. DC Volts knob \t\t\t\t- 1\n9. Squib switch\t\t\t\t\t- ARM\n10. Auto Retro Jett switch\t\t- ARM",
   "Steps": [
     {
       "Program": 3,

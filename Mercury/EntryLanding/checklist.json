@@ -5,7 +5,7 @@
   "Name": "LANDING",
   "Side": 1,
   "SortPriority": 90,
-  "checklistText": "1. Emer Drogue Fuse \t\t\t\t- ON (BEFORE 30,000 FT)\n2. At 21,000 ft. check drogue chute deployment\n3. At appx. 20,000ft, Snorkel Ring \t- PULL\n4. Emer O2 handle \t\t\t\t\t- EMER\n5. Landing Bag switch \t\t\t\t- AUTO\n6. Main light illuminates green at 10,000 ft\n7. UHF/DF switch \t\t\t\t\t- R/T\n8. Press Reg Handle \t\t\t\t- PULL\n9. Check \"Landing Bag\" Telelight \t- GREEN\n10. \"Fuel Quan\" warning light\t\t- ILLUMINATED\nAfter Impact:\n1. ASCS AC Bus switch \t\t\t\t- OFF\n2. Photo Lights switch \t\t\t\t- OFF",
+  "checklistText": "1. Emer Drogue Fuse \t\t\t\t- ON (BEFORE 30,000 FT)\n2. At 21,000 ft. check drogue chute deployment\n3. At appx. 20,000ft, Snorkel Ring \t- PULL\n4. Emer O2 handle \t\t\t\t\t- EMER\n5. Landing Bag switch \t\t\t\t- AUTO\n6. At 10,000 ft, \"Main\" light \t\t- GREEN \n7. UHF/DF switch \t\t\t\t\t- R/T\n8. Press Reg Handle \t\t\t\t- PULL\n9. \"Landing Bag\" Telelight \t\t\t- GREEN\n10. \"Fuel Quan\" warning light\t\t- ILLUMINATED????\nAfter Impact:\n1. ASCS AC Bus switch \t\t\t\t- OFF\n2. Photo Lights switch \t\t\t\t- OFF",
   "Steps": [
     {
       "Program": 3,
@@ -16,9 +16,23 @@
     },
     {
       "Program": 3,
-      "Type": 2,
-      "SetID": 24,
-      "ToPosID": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "21,000 ft. check drogue chute deployment"
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 9,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 12,
+      "ToPosID": 2,
       "Text": null
     },
     {
@@ -30,9 +44,51 @@
     },
     {
       "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At 10,000 ft, \"Main\" light - GREEN "
+    },
+    {
+      "Program": 3,
       "Type": 1,
       "SetID": 26,
       "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 14,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Landing Bag\" Telelight - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 3,
       "Text": null
     }
   ],

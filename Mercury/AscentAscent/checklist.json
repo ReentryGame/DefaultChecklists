@@ -5,22 +5,7 @@
   "Name": "ASCENT",
   "Side": 0,
   "SortPriority": 50,
-  "checklistText": "1. Monitor Abort Light\n2. Monitor Isolated Battery Voltage\n3. Monitor Cabin Pressure\n    a. Will go from 15 to 5.5\n4. Auto Retro Jett switch\t\t- OFF after TOWER JETT\n5. Retro Jett fuse\t\t\t\t- OFF after TOWER JETT\n6. Monitor DC Voltage\n8. Monitor DC Ammeter\n7. Monitor AC Voltage",
-  "Steps": [
-    {
-      "Program": 3,
-      "Type": 1,
-      "SetID": 18,
-      "ToPosID": 3,
-      "Text": null
-    },
-    {
-      "Program": 3,
-      "Type": 2,
-      "SetID": 3,
-      "ToPosID": 2,
-      "Text": null
-    }
-  ],
+  "checklistText": "1. Monitor Abort Light\n2. Monitor Isolated Battery Voltage\n3. Monitor Cabin Pressure\n    a. Will go from 15 to 5.5\n4. Monitor DC Voltage\n5. Monitor DC Ammeter\n6. Monitor AC Voltage\n\nIf Redstone Rocket Launch:\n\tStart REDSTONE Ascent Checklist\nIf Atlas Rocket Launch:\n\tStart BECO Checklist",
+  "Steps": [],
   "Images": []
 }
