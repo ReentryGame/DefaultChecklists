@@ -4,8 +4,30 @@
   "Group": "ORBITING",
   "Name": "PLATFORM ALIGN",
   "Side": 1,
-  "SortPriority": 15,
+  "SortPriority": 14,
   "checklistText": "1. Navigate to the attitude using window reference\n2. Platform \t\t\t\t- CAGE\n3. Attitude Control \t\t\t- PLAT\n4. Gyros will align to body reference after 5 seconds\n5. New 0,0,0 attitude will be current orientation",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Navigate to the attitude using window reference"
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 6,
+      "Text": null
+    }
+  ],
   "Images": []
 }
