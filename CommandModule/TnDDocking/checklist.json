@@ -1,11 +1,11 @@
 {
-    "Group": "T&D",
-    "Images": [],
-    "Name": "DOCKING",
-    "ProjectName": "TnDDocking",
-    "Side": 0,
-    "SortPriority": 605,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>DOCKING checklist</size>\r\nStabilize & align CSM\nBMAG MODE (3) - ATT 1/RATE 2\nAt capture:\n\tPROBE EXTD/RETR tb-bp (A)\n\tCMC MODE - FREE\n\tAllow probe to damp S/C motions (approx 10 sec)\n\tDOCK PROBE RETRACT PRIM-1\n\nAfter dock latches has engaged:\n\tPROBE EXTD/RETR tb - gray\n\tSECS PYRO ARM (2) - SAFE\n\tSECS LOGIC (2) - OFF\n\tEDS PWR - OFF\n\tcb EDS (3) - open\n\tDOCK PROBE EXTD/REL - OFF\n\tDOCK PROBE RETRACT (2) - OFF\n\tcb DOCK PROBE (2) - open\n\tPCM BIT RATE - LOW"
+  "Spacecraft": 0,
+  "ProjectName": "TnDDocking",
+  "Group": "T&D",
+  "Name": "DOCKING",
+  "Side": 0,
+  "SortPriority": 605,
+  "checklistText": "<size=21>DOCKING checklist</size>\r\n\nStabilize & align CSM\n\nPanel 1\n\tBMAG MODE (3) - ATT 1/RATE 2\nAt capture:\nPanel 2\n\tPROBE EXTD/RETR tb-bp\nPanel 1\n\tCMC MODE - FREE\n\tAllow probe to damp S/C motions (approx 10 sec)\n\t\nHARD DOCKING\n\r\t\nPanel 2\n\tDOCK PROBE - RET\r\n\tDOCK PROBE RETRACT PRIM - 1\n\tPROBE EXTD/RETR tb (2) - gray\nPanel 8\n\tSECS PYRO ARM (2) - SAFE\n\tSECS LOGIC (2) - OFF\nPanel 7\n\tEDS PWR - OFF\nPanel 8\n\tcb EDS (3) - open\nPanel 8\n\tcb SECS ARM BAT (2) - open\r\nPanel 2\n\tDOCK PROBE - OFF (guarded)\r\n\tDOCK PROBE RETRACT PRIM - OFF\r\nPanel 8\n\tcb DOCK PROBE (2) - open\nPanel 3\n\tTAPE RCDR RCD - OFF (center)\r\n\tTAPE RCDR FWD - OFF (center)\r\n\tPCM BIT RATE - LOW",
+  "Steps": [],
+  "Images": []
 }

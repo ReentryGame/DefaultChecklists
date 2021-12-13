@@ -1,11 +1,11 @@
 {
-    "Group": "T&D",
-    "Images": [],
-    "Name": "CSM TRANSPOSITION",
-    "ProjectName": "TnDCSMTransposition",
-    "Side": 0,
-    "SortPriority": 604,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>CSM TRANSPOSITION checklist</size>\r\n\tV62E\n\tMAN ATT (PITCH) - ACCEL CMD\n00:15\tPitch up at .5°/sec\n\tWhen pitch error needle positive\n\tMAN ATT (PITCH) - RATE CMD\n\tThrust +X (4 sec)(ΔV .7 fps)\n\tHI GAIN ANT TRACK - MAN\n\tHI GAIN ANT PWR - POWER\n\tSlev ANT to verify operation\n\tHGA angles: P=___ Y=___\n\tS BD ANT OMNI - HI GAIN\n\tHI GAIN ANT TRACK - REACQ\n\tStart DAC"
+  "Spacecraft": 0,
+  "ProjectName": "TnDCSMTransposition",
+  "Group": "T&D",
+  "Name": "CSM TRANSPOSITION",
+  "Side": 0,
+  "SortPriority": 604,
+  "checklistText": "<size=21>CSM TRANSPOSITION checklist</size>\r\n\t\nAfter 15 seconds, thrust -X to -100.5 fps on EMS counter\r\nPanel 1\n\tBMAG MODE ROLL - ATT 1/RATE 2\r\n\tBMAG MODE PITCH - ATT 1/RATE 2\r\n\tBMAG MODE YAW - ATT 1/RATE 2\r\n\tSC CONT - SCS\r\n\tMAN ATT PITCH - ACCEL CMD\r\nDSKY\n\tV62E\r\nPanel 1\n\t(Pitch up 180° at 2.0°/sec)\r\n\tMAN ATT PITCH - RATE CMD (after 180° pitch)\r\n\tThrust +X to -101.0 fps on EMS counter\r\n\tSC CONT - CMC\r\n\tBMAG MODE ROLL - RATE 2\r\n\tBMAG MODE PITCH - RATE 2\r\n\tBMAG MODE YAW - RATE 2\r\n\rPanel 3 \n\tS BD ANT OMNI - C\r\nDSKY\n\tV49E\r\n\tPRO\r\n  \t\tF 50 18 Request MNVR to FDAI RPY Angles\r\nPanel 1\n\tCMC MODE - AUTO\r\nDSKY\n\tPRO\r\n  \t\tF 50 18 Completion of MNVR\r\n\tENTER\r\nPanel 2\n\tHI GAIN ANT TRACK - MAN\r\n\tHI GAIN ANT PWR - PWR\r\n\tHGA PITCH - -20\r\n\tHGA YAW - 290\r\nPanel 3\n\tS BD ANT OMNI - HI GAIN\r\nPanel 2\n\tHI GAIN ANT TRACK - REACQ\r\n\n\tStart DAC",
+  "Steps": [],
+  "Images": []
 }
