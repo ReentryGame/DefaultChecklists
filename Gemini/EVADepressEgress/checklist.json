@@ -1,0 +1,89 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "EVADepressEgress",
+  "Group": "EVA",
+  "Name": "DEPRESS-EGRESS",
+  "Side": 1,
+  "SortPriority": 52,
+  "checklistText": "S/C DEPRESSURIZATION AND EGRESS\n\t\nRECORD \t\t\t\t\t- CONT\nCABIN AIR RECIRC \t\t\t- DOWN (CLOSED)\nOAMS Controller Power\t\t- OFF\nOAMS Prop Motor Valves \t- CLOSED\nCABIN VENT \t\t\t\t- DOWN (OPEN)\n\nWait until the CABIN PRESSURE is zero:\nCABIN VENT \t\t\t\t- UP (CLOSED)\n\nOpen the HATCH using the [C] menu\n\nATTITUDE CONTROL \t\t\t- PULSE\nPLATFORM \t\t\t\t\t- ORB RATE\n\nWhen ready to exit the vehicle, press the EVA button in the [C] menu. To enter, press the ENTER button in the open hatch on the outside.\n\n",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 193,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 13,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait until the CABIN PRESSURE is zero"
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Open the HATCH using the [C] menu"
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "To exit the vehicle, press the EVA button in the [C] menu"
+    }
+  ],
+  "Images": []
+}

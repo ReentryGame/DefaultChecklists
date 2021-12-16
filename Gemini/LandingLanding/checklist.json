@@ -1,33 +1,250 @@
 {
-    "Group": "LANDING",
-    "Images": [],
-    "Name": "Landing",
-    "ProjectName": "LandingLanding",
-    "Side": 1,
-    "SortPriority": 41,
-    "Spacecraft": 2,
-    "Steps": [
-        {
-            "Program": 2,
-            "SetID": 30,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 4
-        },
-        {
-            "Program": 2,
-            "SetID": 31,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 4
-        },
-        {
-            "Program": 2,
-            "SetID": 32,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 4
-        }
-    ],
-    "checklistText": "Verify LANDING SQUIB, ARM\n\nWHEN 40k ILLUMINATES\n1. HI ALT DROGUE, PRESS\n\nWHEN 10.6k ILLUMINATES\n2. PARA, PRESS\n\nWHEN AT 500ft ALT\n3. LDG ATT, PRESS"
+  "Spacecraft": 2,
+  "ProjectName": "LandingLanding",
+  "Group": "LANDING",
+  "Name": "Landing",
+  "Side": 0,
+  "SortPriority": 50,
+  "checklistText": "WHEN 40k ILLUMINATES\n1. RCS A & B CNTL PWR \t\t\t\t- ACME\n2. HI ALT DROGUE\t\t\t\t\t- PUSH\n3. \"D\" RING \t\t\t\t\t\t\t- UNCOVER\n4. RCS A & B PROP MOTOR VALVES \t- CLOSED\n5. O2 HIGH RATE \t\t\t\t\t- ON (27K)\n\nWHEN 10.6k ILLUMINATES\n1. PARA\t\t\t\t\t\t\t\t- PUSH\n2. LDG ATT\t\t\t\t\t\t\t- PUSH\n\nAFTER MAIN DEPLOYS\n1. ATT IND CNTL C/B'S \t\t\t\t- OPEN\n2. RESC BEACON \t\t\t\t\t\t- W/O LT\n3. ACME BIAS PWR \t\t\t\t\t- OFF\n4. RCS HTRS \t\t\t\t\t\t- OFF\n5. SCAN HTR C/B \t\t\t\t\t- OPEN\n6. COMPUTER \t\t\t\t\t\t- PRE LN\n7. COMPUTER PWR \t\t\t\t\t- OFF\n8. PLATFORM \t\t\t\t\t\t- OFF\n9. RATE GYROS (3) \t\t\t\t\t- OFF\n10. AC POWER \t\t\t\t\t\t- OFF\n11. RCS C/B'S \t\t\t\t\t\t- OPEN\n12. RCS CNTL PWR \t\t\t\t\t- OFF\n13. ACME CNTL NO. 1 C/B \t\t\t- OPEN\n14. ACME CNTL NO. 2 C/B \t\t\t- OPEN\n\n2K CHECKLIST\n1. \"D\" RING \t\t\t\t\t\t\t- COVER & SAFE",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 32,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TOGGLE D-RING UNCOVER & ARM"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 43,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 31,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 32,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 87,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 88,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 194,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 168,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 169,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 39,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 187,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 186,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 188,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 149,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 150,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 151,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 153,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 154,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 32,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 122,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TOGGLE D-RING - SAFE"
+    }
+  ],
+  "Images": []
 }

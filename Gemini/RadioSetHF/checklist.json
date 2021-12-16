@@ -1,26 +1,26 @@
 {
-    "Group": "RADIO",
-    "Images": [],
-    "Name": "SET HF",
-    "ProjectName": "RadioSetHF",
-    "Side": 1,
-    "SortPriority": 11,
-    "Spacecraft": 2,
-    "Steps": [
-        {
-            "Program": 2,
-            "SetID": 202,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 201,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        }
-    ],
-    "checklistText": "1. HF Antenna Control - EXT\r\n2. Radio Antenna Select - RNTY\r\n3. Radio Mode (A or B) - HF"
+  "Spacecraft": 2,
+  "ProjectName": "RadioSetHF",
+  "Group": "ORBITING",
+  "Name": "SET HF RADIO",
+  "Side": 1,
+  "SortPriority": 11,
+  "checklistText": "1. HF Antenna Control \t\t- EXT\r\n2. Radio Antenna Select \t\t- RNTY\r\n3. Radio Mode (A or B) \t\t- HF",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 202,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 201,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
 }

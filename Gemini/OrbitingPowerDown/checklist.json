@@ -1,0 +1,124 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "OrbitingPowerDown",
+  "Group": "ORBITING",
+  "Name": "POWER DOWN",
+  "Side": 1,
+  "SortPriority": 17,
+  "checklistText": "1. RADAR \t\t\t\t\t\t- OFF\n2. PLATFORM \t\t\t\t\t- OFF\n3. RATE GYROS (3) \t\t\t\t- OFF\n4. AC POWER \t\t\t\t\t- OFF\n5. ACME BIAS PWR \t\t\t\t- OFF\n6. COOLANT PUMPS \t\t\t\t- AS DESIRED\n7. T/M \t\t\t\t\t\t\t- CMD\n8. MANEUVER THRUSTER C/B'S \t- CLOSED",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 184,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 188,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "COOLANT PUMPS \t- AS DESIRED"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 199,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 129,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 130,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 131,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 132,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 133,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 134,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 136,
+      "ToPosID": 5,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

@@ -1,11 +1,11 @@
 {
-    "Group": "EMERGENCY",
-    "Images": [],
-    "Name": "Abort Mode I",
-    "ProjectName": "EmergencyAbortModeI",
-    "Side": 0,
-    "SortPriority": 10001,
-    "Spacecraft": 2,
-    "Steps": [],
-    "checklistText": "ABORT MODE I\r\n(PRE-LAUNCH & LAUNCH TO 75,000 FEET)\r\n\n\nBOOST INDICATORS MONITORED\r\nABORT LIGHT MONITORED\r\nABORT INDICATOR: RED\r\n1.0 SECONDS: PULL D-RING ON EJECTION SEAT\r\n1.5 SECONDS: HATCH OPEN\r\n2.0 SECOND DELAY: SEATS EJECTED\r\nSEAT SUSTAINER FIRED FOR 2.25 SECONDS\r\n3.0 SECONDS: SEAT-MAN SEPARATION\r\n5.0 SECONDS: MAIN CHUTE OPENS"
+  "Spacecraft": 2,
+  "ProjectName": "EmergencyAbortModeI",
+  "Group": "EMERGENCY",
+  "Name": "Abort Mode I",
+  "Side": 0,
+  "SortPriority": 11,
+  "checklistText": "ABORT MODE I\r\n(PRE-LAUNCH & LAUNCH TO 75,000 FEET)\r\n\nBOOST INDICATORS MONITORED\r\nABORT LIGHT MONITORED\r\nABORT INDICATOR: RED\r\n1.0 SECONDS: PULL D-RING ON EJECTION SEAT\r\n1.5 SECONDS: HATCH OPEN\r\n2.0 SECOND DELAY: SEATS EJECTED\r\nSEAT SUSTAINER FIRED FOR 2.25 SECONDS\r\n3.0 SECONDS: SEAT-MAN SEPARATION\r\n5.0 SECONDS: MAIN CHUTE OPENS",
+  "Steps": [],
+  "Images": []
 }
