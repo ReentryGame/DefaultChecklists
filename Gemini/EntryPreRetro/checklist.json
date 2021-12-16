@@ -247,6 +247,13 @@
     },
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT TR -20 MINS (CORE 19 01200):"
+    },
+    {
+      "Program": 2,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 4,
@@ -255,7 +262,7 @@
     {
       "Program": 2,
       "Type": 3,
-      "SetID": 6,
+      "SetID": 4,
       "ToPosID": 5,
       "Text": null
     },
