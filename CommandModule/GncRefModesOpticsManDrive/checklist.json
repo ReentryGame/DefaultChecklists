@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GncRefModesOpticsManDrive",
-  "Group": "OPTICS",
+  "Group": "G&C REFERENCE",
   "Name": "Manual Optics Drive",
   "Side": 1,
   "SortPriority": 40705030,

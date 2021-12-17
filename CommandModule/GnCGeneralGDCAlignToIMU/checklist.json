@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnCGeneralGDCAlignToIMU",
+  "Group": "G&N GENERAL",
+  "Name": "GDC ALIGN TO IMU",
+  "Side": 1,
+  "SortPriority": 40801150,
+  "checklistText": "GDC ALIGNMENT TO IMU GIMBAL ANGLES\r\n\r\n1.\tThe following are req\r\n\t\tCMC - (on for step 3b)\r\n\t\tISS - on & orient known\r\n\t\tSCS - on\r\n\t\tFDAI 1 sw - INRTL\r\n\r\n2.\tDamp veh rates\n\r\n3.\tPerform Att Err Disp\n\ta.\tFDAI SOURCE - ATT SET\r\n\t\tATT SET - IMU\r\n\t\tFDAI SEL - 1\r\n\t\tATT SET tw - null FDAI 1 errors\r\n\r\n\tor b.\tV16 N20E\r\n\t\t\tATT SET tw - adj to IMU\r\n\t\t\tgmbl angles on DSKY\r\n\r\n\tor c.\tATT SET tw - adj to IMU gmbl\r\n\t\t\tangles as ind on FDAI\r\n\r\n4.\tAlign GDC (cl GDC ALIGN)\r\n\t\tATT SET - GDC\r\n\t\tGDC ALIGN pb - push\r\n\t\tFDAI SEL - 1/2\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [],
+  "Images": []
+}
