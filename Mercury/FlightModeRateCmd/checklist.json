@@ -1,26 +1,40 @@
 {
-    "Group": "FLIGHT MODES",
-    "Images": [],
-    "Name": "RATE COMMAND MODE",
-    "ProjectName": "FlightModeRateCmd",
-    "Side": 1,
-    "SortPriority": 30,
-    "Spacecraft": 3,
-    "Steps": [
-        {
-            "Program": 3,
-            "SetID": 3,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        }
-    ],
-    "checklistText": "1. Manual fuel handle - PUSH RATE COMD\n2. RSCS switch - RATE COMD\n3. Use handcontroller to maintain desired rates and attitude\n\nTo return to the normal control\n4. RSCS switch - AUTO"
+  "Spacecraft": 3,
+  "ProjectName": "FlightModeRateCmd",
+  "Group": "FLIGHT MODES",
+  "Name": "RATE COMMAND MODE",
+  "Side": 1,
+  "SortPriority": 30,
+  "checklistText": "1. Manual fuel handle \t\t- PUSH RATE COMD\n2. RSCS switch \t\t\t\t- RATE COMD\n3. Use handcontroller to maintain desired rates and attitude\n\nTo return to the normal control\n4. RSCS switch \t\t\t\t- AUTO",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Normal control"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
+  "Images": []
 }

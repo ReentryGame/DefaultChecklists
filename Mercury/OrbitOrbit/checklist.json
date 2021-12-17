@@ -1,47 +1,47 @@
 {
-    "Group": "ORBIT",
-    "Images": [],
-    "Name": "ORBIT",
-    "ProjectName": "OrbitOrbit",
-    "Side": 0,
-    "SortPriority": 80,
-    "Spacecraft": 3,
-    "Steps": [
-        {
-            "Program": 3,
-            "SetID": 23,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 16,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 28,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 16,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 4,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        }
-    ],
-    "checklistText": "1. Emer Retro Seq Fuse - OFF\n2. Emer Drogue Deploy Fuse - OFF\n3. Landing Bag switch - AUTO OFF\n4. Retro Delay switch - NORM\n5. Retro Manual fuse - OFF\n6. Retro Tower/Sep Cap telelights - OUT\n(5 min after Sep Cap)\n7. DC Volts knob - MAIN\n8. All instruments - CHECK\n\n9. If out-of-range from radio station, set UHF PWR - HI for longer reach"
+  "Spacecraft": 3,
+  "ProjectName": "OrbitOrbit",
+  "Group": "ORBIT",
+  "Name": "ORBIT",
+  "Side": 0,
+  "SortPriority": 80,
+  "checklistText": "1. DC Volts knob \t\t\t- MAIN\n2. Landing Bag switch \t\t- OFF\n3. Retro Delay switch \t\t- NORM\n4. Emer Retro Seq Fuse \t\t- OFF\n5. Emer Drogue Deploy Fuse - OFF\n6. All instruments \t\t\t- CHECK\n\nIf out-of-range from radio station, set UHF PWR - HI for longer reach",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 16,
+      "ToPosID": 2,
+      "Text": null
+    }
+  ],
+  "Images": []
 }

@@ -1,11 +1,82 @@
 {
-    "Group": "ENTRY",
-    "Images": [],
-    "Name": "RETRO",
-    "ProjectName": "EntryRetro",
-    "Side": 1,
-    "SortPriority": 70,
-    "Spacecraft": 3,
-    "Steps": [],
-    "checklistText": "These will happen in order:\n1. \"Retro Warn\" light - ILLUMINATED\n2. \"Retro Seq\" telelight - GREEN\n3. \"Retro Att\" telelight - GREEN\n4. Crosscheck attitude indicator, periscope and window\n5. \"Retro Fire\" telelight - GREEN"
+  "Spacecraft": 3,
+  "ProjectName": "EntryRetro",
+  "Group": "ENTRY",
+  "Name": "RETRO",
+  "Side": 1,
+  "SortPriority": 70,
+  "checklistText": "At Tr -5 Mins:\n\"5 Min To Retrograde\" light \t- ILLUMINATED\n\nAt Tr +0 Secs\n1. \"Retro Seq\" telelight \t\t- GREEN\n2. \"Retro Att\" telelight \t\t- GREEN\n\nAt Tr +20 Secs\n1. \"Retro Warn\" telelight \t\t- AMBER & Audible Tone\n4. Crosscheck attitude indicator, periscope and window\n5. \"Fire Retro\" telelight \t\t- AMBER while firing\n6. \"Fire Retro\" telelight \t\t- GREEN once completed\n\nStart RE-ENTRY Checklist",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At Tr +5 Mins"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"5 Min To Retrograde\" light \t- ILLUMINATED"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At Tr +0 Secs"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Seq\" telelight - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Att\" telelight - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At Tr +20 Secs"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Warn\" telelight - AMBER & Audible Tone"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Fire Retro\" telelight - AMBER while firing"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\"Retro Fire\" telelight - GREEN once completed"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start RE-ENTRY Checklist"
+    }
+  ],
+  "Images": []
 }

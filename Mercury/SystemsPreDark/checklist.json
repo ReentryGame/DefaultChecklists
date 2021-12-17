@@ -1,11 +1,82 @@
 {
-    "Group": "SYSTEMS",
-    "Images": [],
-    "Name": "PRE-DARK",
-    "ProjectName": "SystemsPreDark",
-    "Side": 1,
-    "SortPriority": 50,
-    "Spacecraft": 3,
-    "Steps": [],
-    "checklistText": "1. Check that the flashlight works [F]\n2. Cabin Light switch - BOTH\n3. Photo Lights - OFF\n4. Red filters on cabin light [Click on the lights]\n5. Red scope filter - ON\n6. Warning lights - DIM\n7. Thruster warmup procedure\n (a) Go to MP mode (manual thrusters)\n      Pitch UP followed by pitch DOWN\n      Roll RIGHT followed by roll LEFT\n      Yaw RIGHT followed by yaw LEFT\n\n (b) Go to FBW (Hi and Lo thrusters)\n      Short-burst pitch UP and DOWN - full stick travel\n      Short-burst roll RIGHT and LEFT - full stick travel\n      Short-burst yaw RIGHT and LEFT - full stick travel\n\n (c) Go to ASCS mode and check for proper attitude\n      Orientation and holding within limits\n\n8. After entry into dark side, filters - as desired"
+  "Spacecraft": 3,
+  "ProjectName": "SystemsPreDark",
+  "Group": "SYSTEMS",
+  "Name": "PRE-DARK",
+  "Side": 1,
+  "SortPriority": 50,
+  "checklistText": "1. Cabin Light switch \t\t\t- BOTH\n2. Photo Lights \t\t\t\t- OFF\n3. Red filters on cabin light \t- [Click on the lights]\n4. Red scope filter \t\t\t\t- ON\n5. Warning lights \t\t\t\t- DIM\n6. Thruster warmup procedure:\n (a) Enable MANUAL flight mode:\n      Pitch UP followed by pitch DOWN\n      Roll RIGHT followed by roll LEFT\n      Yaw RIGHT followed by yaw LEFT\n\n (b) Enable FLY-BY-WIRE flight mode:\n      Short-burst pitch UP and DOWN - full stick travel\n      Short-burst roll RIGHT and LEFT - full stick travel\n      Short-burst yaw RIGHT and LEFT - full stick travel\n\n (c) ASCS mode and check for proper attitude orientation and holding \n\twithin limits\n\n7. After entry into dark side, filters - as desired\n",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cabin Light switches to RED"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Red scope filter - ON"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 21,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Run MANUAL Flight Mode Checklist"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Test Controls"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Run FLY-BY-WIRE Flight Mode Checklist"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Test Controls"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Enable ASCS Flight Mode"
+    }
+  ],
+  "Images": []
 }
