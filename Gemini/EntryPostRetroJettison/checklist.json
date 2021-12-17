@@ -1,103 +1,229 @@
 {
-    "Group": "ENTRY",
-    "Images": [],
-    "Name": "POST RETRO JETTISON",
-    "ProjectName": "EntryPostRetroJettison",
-    "Side": 0,
-    "SortPriority": 44,
-    "Spacecraft": 2,
-    "Steps": [
-        {
-            "Program": 2,
-            "SetID": 3,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 4,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 7,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 8,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 9,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 5,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 59,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 60,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 32,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 33,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 5,
-            "Text": null,
-            "ToPosID": 4,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 25,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 4
-        }
-    ],
-    "checklistText": "1. Retro Power, SAFE\n2. Retro Jettison, SAFE\n3. Retro Rocket Squibs #1 - #4, SAFE\n4. Landing Squib, ARM\n5. Set PROP MOTOR VALVES, RCS A and B to OPEN\r\n6. Set CNTL PWR RCS A and B to ACME\n\nWhen AUX Tape is GREEN\n7. Computer: START\n8. Perform Reentry HF Radio Checklist"
+  "Spacecraft": 2,
+  "ProjectName": "EntryPostRetroJettison",
+  "Group": "ENTRY",
+  "Name": "POST RETRO JETTISON",
+  "Side": 0,
+  "SortPriority": 44,
+  "checklistText": "1. RETRO PWR \t\t\t\t\t\t- SAFE\n2. RETRO JETT \t\t\t\t\t\t- SAFE\n3. RETRO ROCKET SQUIBS (4) \t\t\t- SAFE\n4. CP FDR \t\t\t\t\t\t\t- COMP\n5. CP FDM \t\t\t\t\t\t\t- ATT\n6. CP FDI SCALE RANGE \t\t\t\t- LO\n7. RCS CNTL PWR B \t\t\t\t\t- OFF\n8. BOOST INSERT CNTL 1 & 2 C/B \t- OPEN\n9. RETRO SEQ CNTL 1 & 2 C/B \t\t- OPEN\n10. CRYO O2 & H2 HTR C/B \t\t\t- OPEN\n11. OAMS CNTL PROP C/B \t\t\t- OPEN\n12. FUEL CELL CNTL 1 & 2 C/B \t\t- OPEN\n13. TAPE RCDR CNTL C/B \t\t\t- OPEN\n14. SECT NO 1 & 2 PWR \t\t\t\t- OFF\n15. 1A, 1B, 1C, 2A, 2B, 2C \t\t\t- OFF\n16. PILOT FDR \t\t\t\t\t\t- COMP\n17. PILOT FDM \t\t\t\t\t\t- ATT\n18. LANDING SQUIB \t\t\t\t\t- ARM\n\nSTART ENTRY CHECKLIST",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 4,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 8,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 9,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 8,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 89,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 90,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 91,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 123,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 172,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 173,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 171,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 20,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 25,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 26,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 5,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "START ENTRY CHECKLIST"
+    }
+  ],
+  "Images": []
 }
