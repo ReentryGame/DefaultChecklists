@@ -40,6 +40,20 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
+      "Text": ".05G Telelight - GREEN"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rate indicator shows 10*/SEC roll rate"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
       "Text": "Start LANDING CHECKLIST after re-entry"
     }
   ],

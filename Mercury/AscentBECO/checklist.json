@@ -5,8 +5,22 @@
   "Name": "BECO",
   "Side": 0,
   "SortPriority": 52,
-  "checklistText": "1. Jett Tower \t\t\t\t\t- GREEN (appx. 20 sec after BECO)\n2. Auto Retro Jett switch \t\t- OFF\n3. Retro Jett Fuse switch \t\t- OFF\n4. Emer Retro Jett Fuse switch \t- OFF\n\nStart SECO Checklist",
+  "checklistText": "1. Jett Tower\t\t\t\t\t- AMBER\n2. Jett Tower \t\t\t\t\t- GREEN (appx. 20 sec after BECO)\n3. Auto Retro Jett switch \t\t- OFF\n4. Retro Jett Fuse switch \t\t- OFF\n5. Emer Retro Jett Fuse switch \t- OFF\n\nStart SECO Checklist",
   "Steps": [
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Jett Tower - AMBER"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Jett Tower - GREEN (appx 20s after BECO)"
+    },
     {
       "Program": 3,
       "Type": 1,
@@ -34,7 +48,7 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Start SECO Checklist"
-    }
+    }    
   ],
   "Images": []
 }
