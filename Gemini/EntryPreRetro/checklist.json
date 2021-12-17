@@ -262,9 +262,16 @@
     {
       "Program": 2,
       "Type": 3,
-      "SetID": 4,
+      "SetID": 6,
       "ToPosID": 5,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WAIT FOR OBC TO LOAD MODULE"
     },
     {
       "Program": 2,

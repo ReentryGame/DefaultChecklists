@@ -9,6 +9,13 @@
   "Steps": [
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WHEN EVENT TIMER is T -4min 16sec: PRO"
+    },
+    {
+      "Program": 2,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 5,

@@ -12,6 +12,13 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
+      "Text": "AT TR -1 MIN:"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
       "Text": "HOLD RETROATTITUDE (20 DEG PITCH DOWN)"
     },
     {
@@ -34,6 +41,13 @@
       "SetID": 7,
       "ToPosID": 0,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT TR -30 SEC:"
     },
     {
       "Program": 2,
@@ -65,10 +79,24 @@
     },
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT TR -5 SEC:"
+    },
+    {
+      "Program": 2,
       "Type": 4,
       "SetID": 8,
       "ToPosID": 0,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WAIT FOR RETROS TO FIRE"
     },
     {
       "Program": 2,
@@ -79,6 +107,13 @@
     },
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT TR +1 SEC:"
+    },
+    {
+      "Program": 2,
       "Type": 4,
       "SetID": 10,
       "ToPosID": 0,
@@ -86,10 +121,24 @@
     },
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT TR +30 SEC:"
+    },
+    {
+      "Program": 2,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 6,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT TR +45 SEC & RETRO JET lt - AMBER:"
     },
     {
       "Program": 2,

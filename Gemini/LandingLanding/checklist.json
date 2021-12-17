@@ -9,6 +9,13 @@
   "Steps": [
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WHEN 40k ILLUMINATES"
+    },
+    {
+      "Program": 2,
       "Type": 1,
       "SetID": 32,
       "ToPosID": 4,
@@ -58,6 +65,13 @@
     },
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WHEN 10.6k ILLUMINATES"
+    },
+    {
+      "Program": 2,
       "Type": 4,
       "SetID": 31,
       "ToPosID": 0,
@@ -69,6 +83,13 @@
       "SetID": 32,
       "ToPosID": 0,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AFTER MAIN DEPLOY:"
     },
     {
       "Program": 2,
@@ -243,7 +264,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "TOGGLE D-RING - SAFE"
+      "Text": "AT 2K ALT: TOGGLE D-RING - SAFE"
     }
   ],
   "Images": []
