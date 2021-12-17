@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCRefModesEMSdvNullBiasTest",
-  "Group": "ENTRY MONITOR SYSTEM",
+  "Group": "G&C REFERENCE",
   "Name": "ΔV Test & Null Bias Check\r",
   "Side": 1,
   "SortPriority": 40706010,

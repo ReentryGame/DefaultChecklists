@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCRefModeOpticsAuto",
-  "Group": "OPTICS",
+  "Group": "G&C REFERENCE",
   "Name": "Auto Optics Positioning",
   "Side": 1,
   "SortPriority": 40705010,
