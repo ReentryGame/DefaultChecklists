@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCRefModesEMSdVSetup",
-  "Group": "ENTRY MONITOR SYSTEM",
+  "Group": "G&C REFERENCE",
   "Name": "ΔV Setup",
   "Side": 1,
   "SortPriority": 40706020,
