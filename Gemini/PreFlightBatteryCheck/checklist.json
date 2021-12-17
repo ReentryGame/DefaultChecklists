@@ -1,131 +1,138 @@
 {
-    "Group": "PRE-FLIGHT",
-    "Images": [],
-    "Name": "BATTERY CHECK (T-50)",
-    "ProjectName": "PreFlightBatteryCheck",
-    "Side": 0,
-    "SortPriority": 2,
-    "Spacecraft": 2,
-    "Steps": [
-        {
-            "Program": 2,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 1,
-            "Text": null,
-            "ToPosID": 6,
-            "Type": 3
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Verify Battery No. 1 volts > 24",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Verify Battery No. 2 volts > 24",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Verify Battery No. 3 volts > 24",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 2,
-            "SetID": 0,
-            "Text": "Verify Battery No. 4 volts > 24",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 2,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        }
-    ],
-    "checklistText": "BATTERY CHECK\nApprox. T-50 minutes\n\n1. Battery 1 - 4 to OFF\r\n2. Battery 1 to TEST\r\n3. Voltmeter selector to Battery 1\r\n4. Verify volts > 24v.\r\n5. Battery 1 to OFF\r\n6. Battery 2 to TEST\r\n7. Voltmeter selector to Battery 2\r\n8. Verify volts > 24v.\r\n9. Battery 2 to OFF\r\n10. Battery 3 to TEST\r\n11. Voltmeter selector to Battery 3\r\n12. Verify volts > 24v.\r\n13. Battery 3 to OFF\r\n14. Battery 4 to TEST\r\n15. Voltmeter selector to Battery 4\r\n16. Verify volts > 24v.\r\n17. Battery 4 to OFF"
+  "Spacecraft": 2,
+  "ProjectName": "PreFlightBatteryCheck",
+  "Group": "PRE-FLIGHT",
+  "Name": "BATTERY CHECK (T-50)",
+  "Side": 0,
+  "SortPriority": 1,
+  "checklistText": "BATTERY CHECK\nApprox. T-50 minutes\n\n1. Battery 1, 2, 3, 4\t\t- OFF\r\n2. Battery 1\t\t\t\t- TEST\r\n3. Voltmeter\t\t\t\t- BT\r\n4. Verify volts > 24v.\r\n5. Battery 1 \t\t\t- OFF\r\n6. Battery 2 \t\t\t- TEST\r\n7. Verify volts > 24v.\r\n8. Battery 2 \t\t\t- OFF\r\n9. Battery 3 \t\t\t- TEST\r\n10. Verify volts > 24v.\r\n11. Battery 3 \t\t\t- OFF\r\n12. Battery 4 \t\t\t- TEST\r\n13. Verify volts > 24v.\r\n14. Battery 4 \t\t\t- OFF\n15. Voltmeter\t\t\t- C\n",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 6,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Battery No. 1 volts > 24"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Battery No. 2 volts > 24"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Battery No. 3 volts > 24"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Battery No. 4 volts > 24"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 10,
+      "Text": null
+    }
+  ],
+  "Images": []
 }
