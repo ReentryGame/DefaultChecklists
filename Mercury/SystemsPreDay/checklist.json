@@ -1,0 +1,82 @@
+{
+  "Spacecraft": 3,
+  "ProjectName": "SystemsPreDay",
+  "Group": "SYSTEMS",
+  "Name": "PRE-DAY",
+  "Side": 1,
+  "SortPriority": 51,
+  "checklistText": "1. Cabin Light switch \t\t\t- BOTH\n2. Photo Lights \t\t\t\t- ON\n3. White filters on cabin light \t- [Click on the lights]\n4. Red scope filter \t\t\t\t- OFF\n5. Warning lights \t\t\t\t- BRIGHT\n6. Thruster warmup procedure:\n (a) Enable MANUAL flight mode:\n      Pitch UP followed by pitch DOWN\n      Roll RIGHT followed by roll LEFT\n      Yaw RIGHT followed by yaw LEFT\n\n (b) Enable FLY-BY-WIRE flight mode:\n      Short-burst pitch UP and DOWN - full stick travel\n      Short-burst roll RIGHT and LEFT - full stick travel\n      Short-burst yaw RIGHT and LEFT - full stick travel\n\n (c) ASCS mode and check for proper attitude orientation and holding \n\twithin limits\n\n7. After entry into dark side, filters - as desired\n",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cabin Light switches to White"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Red scope filter - OFF"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Run MANUAL Flight Mode Checklist"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Test Controls"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Run FLY-BY-WIRE Flight Mode Checklist"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Test Controls"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Enable ASCS Flight Mode"
+    }    
+  ],
+  "Images": []
+}

@@ -1,47 +1,47 @@
 {
-    "Group": "PRE-FLIGHT",
-    "Images": [],
-    "Name": "ABORT CAPABILITY (T-40)",
-    "ProjectName": "PrepAbortCapability",
-    "Side": 0,
-    "SortPriority": 15,
-    "Spacecraft": 3,
-    "Steps": [
-        {
-            "Program": 3,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 15,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 1,
-            "Text": null,
-            "ToPosID": 6,
-            "Type": 3
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Request ABORT CAPABILITY TEST",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Monitor bus voltage, battery current and Abort light.",
-            "ToPosID": 0,
-            "Type": 0
-        }
-    ],
-    "checklistText": "ABORT CAPABILITY\n(Approx. T-40)\n\n1. Ammeter Switch - NORM\n2. Capsule Squib Switch - ARM\n3. Set DC Selector to ISOL.\n4. REQUEST ABORT CAPABILITY TEST\n5. Monitor bus voltage, battery current and Abort light."
+  "Spacecraft": 3,
+  "ProjectName": "PrepAbortCapability",
+  "Group": "PRE-FLIGHT",
+  "Name": "ABORT CAPABILITY (T-40)",
+  "Side": 0,
+  "SortPriority": 15,
+  "checklistText": "ABORT CAPABILITY\n(Approx. T-40)\n\n1. Ammeter Switch \t\t\t- NORM\n2. Capsule Squib Switch \t- ARM\n3. DC Selector \t\t\t\t- ISOL.\n4. REQUEST ABORT CAPABILITY TEST\n5. Monitor bus voltage, battery current and Abort light.",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 6,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Request ABORT CAPABILITY TEST"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor bus voltage, battery current and Abort light."
+    }
+  ],
+  "Images": []
 }

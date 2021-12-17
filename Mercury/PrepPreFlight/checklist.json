@@ -1,760 +1,747 @@
 {
-    "Group": "PRE-FLIGHT",
-    "Images": [],
-    "Name": "Interior Inspection (T-90)",
-    "ProjectName": "PrepPreFlight",
-    "Side": 0,
-    "SortPriority": 10,
-    "Spacecraft": 3,
-    "Steps": [{
-            "Program": 3,
-            "SetID": 40,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 41,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 42,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 43,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 44,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 45,
-            "Text": null,
-            "ToPosID": 5,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 25,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 26,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 27,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 28,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 29,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 30,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 31,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 19,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 20,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 21,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 22,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 23,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 24,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 14,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 15,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 16,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 17,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 18,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 7,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 8,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 9,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 1,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 2,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 3,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 4,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 5,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 3,
-            "SetID": 15,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 18,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 14,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 3,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 4,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 5,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 16,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 2,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 1,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 27,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 29,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 3,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 7,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 8,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 17,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Fire Retro switch - GUARD",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Jett Retro switch - GUARD",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 9,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Control Fuel: Check Auto Fuel - 100%",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Control Fuel: Check Man Fuel - 100%",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Instrument: Rate of Descent - 0 FT/SEC",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Instrument: Check Altimeter - 0 ft",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Satellite clock: Verify Time of day",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Satellite clock: Time from launch - ZERO",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Satellite clock: Verify Time to retrograde set as mission requirements",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Rate indicators: 0°/sec",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Attitude indicators: pitch 90°, yaw 180°, roll 0° for Redstone, varying for Atlas",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Time Zero Cover - REMOVE",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Cabin pressure - CHECK",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Cabin Air temp - CHECK",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Suit Env. Indicator - CHECK",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Oxygen Quantity, Primary - 100%",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Oxygen Quantity, Secondary - 100%",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 9,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 1,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 3
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "DC Volts Indicator should agree with blockhouse (request Battery check)",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "DC Amps Indicator - 0",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 4,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 5,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 38,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 7,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "AC Voltmeter - 115 VOLTS (nominal)",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 22,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 26,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 25,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 24,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 23,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 30,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 31,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 36,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 35,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 32,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 33,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 37,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 21,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        },
-        {
-            "Program": 3,
-            "SetID": 0,
-            "Text": "Verify all switch fuses - NO. 1 POSITION",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 3,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 5
-        },
-        {
-            "Program": 3,
-            "SetID": 5,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 3
-        },
-        {
-            "Program": 3,
-            "SetID": 4,
-            "Text": null,
-            "ToPosID": 0,
-            "Type": 3
-        },
-        {
-            "Program": 3,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 3
-        },
-        {
-            "Program": 3,
-            "SetID": 39,
-            "Text": null,
-            "ToPosID": 3,
-            "Type": 1
-        }
-    ],
-    "checklistText": "COMPLETE INTERIOR INSPECTION\n(Approx. T-90)\n\nELECTRICAL POWER SYSTEM\nNote: These switches are located on both\nsides of the crew seat.\n1. Main Battery No. 1 - IN (ON)\n2. Main Battery No. 2 - ON\n3. Main Battery No. 3 - IN (ON)\n4. Stby Battery No. 1 - IN (ON)\n5. Stby Battery No. 2 - IN (ON)\n6. Isol Battery - IN (ON)\n\nCOMPLETE INTERIOR INSPECTION\n1. All switch fuses - NO. 1 POSITION\n2. Squib switch - OFF\n3. Auto retro jett switch - ARM\n4. ASCS switch - NORM\n5. RSCS switch - AUTO\n6. Gyro switch - GYRO NORM\n7. Manual fuel handle - PUSH IN\n8. Roll fuel handle - PUSH IN\n9. Yaw fuel handle - PUSH IN\n10. Pitch fuel handle - PUSH IN\n11. Retro delay switch - INST\n12. Photo lights switch - ON\n13. Cabin lights switch - BOTH\n14. TLM-LO freq switch - ON\n15. Rescue switch - AUTO\n16. Launch Contl switch - OFF\n17. Jett Tower Ring - IN\n18. Sep Capsule Ring - IN\n19. Retro Att switch - AUTO\n20. Fire Retro switch - GUARD\n21. Jett Retro switch - GUARD\n22. Snorkel Ring - IN\n23. Main Ring - IN\n24. Reserve Ring - IN\n25. Landing Bag switch - AUTO\n26. Control Fuel - CHECK\n      a. Auto Fuel - 100%\n      b. Manual Fuel - 100%\n27. Rate of Descent - 0 FT/SEC\n28. Altimeter - CHECK\n29. Satellite clock\n      a. Time of Day\n      b. Time from launch - ZERO\n      c. Time to Retrograde\n30. Attitude/Rate ind. - CHECK\n      a. Rate indicators - CENTER\n      b. Attitude indicators - CHECK\n31. Time Zero Cover - REMOVE\n32. Cabin pressure - CHECK\n33. Cabin Air temp - CHECK\n34. Suit Env. Indicator - CHECK\n35. Oxygen Quantity - CHECK\n      a. Primary - 100%\n      b. Secondary - 100%\n36. Suit Fan switch - NORM\n37. Cabin Fan switch - NORM\n38. DC Volts knob - MAIN\n39. ASCS AC Bus - NORM\n40. Stby Btry switch - ON\n41. Isol Btry switch - STBY\n42. Inlet Valve Pwr switch - NORM\n43. Audio Bus switch - NORM\n44. AC voltmeter: 150 VOLTS\n45. VOX Pwe switch - OFF\n46. UHF DF switch - NORM\n47. UHF select switch - HI PWR\n48. Transmit switch - OFF\n49. Beacon switch - GRND\n50. All Audio Tone switches - ON\n51. Warning Lights switch - BRIGHT\n52. All switch fuses - NO. 1 POSITION\n53. Emer O2 switch - NORM\n54. Suit Temp selector - TO MARK\n55. Cabin Temp selector - TO MARK\n56. Inverter Temp selector - TO MARK\n57. Maneuver - ON\n\tThis spins up the gyros. Please allow 5 minutes spin-up time.\n"
+  "Spacecraft": 3,
+  "ProjectName": "PrepPreFlight",
+  "Group": "PRE-FLIGHT",
+  "Name": "Interior Inspection (T-90)",
+  "Side": 0,
+  "SortPriority": 10,
+  "checklistText": "COMPLETE INTERIOR INSPECTION\n(Approx. T-90)\n\nELECTRICAL POWER SYSTEM\nNote: These switches are located on both sides of the crew seat.\n1. Main Battery No. 1 - IN (ON)\n2. Main Battery No. 2 - ON\n3. Main Battery No. 3 - IN (ON)\n4. Stby Battery No. 1 - IN (ON)\n5. Stby Battery No. 2 - IN (ON)\n6. Isol Battery - IN (ON)\n\nCOMPLETE INTERIOR INSPECTION\n1. All switch fuses \t\t\t- NO. 1 POSITION\n2. Squib switch \t\t\t\t- OFF\n3. Auto retro jett switch \t- ARM\n4. ASCS mode select switches - \n\ta. ASCS switch \t\t\t- NORM\n\tb. RSCS switch \t\t\t- AUTO\n\tc. Gyro switch \t\t\t- GYRO NORM\n5. Control fuel handles \t- IN\n\ta. Manual fuel handle \t- PUSH RATE COMD\n\tb. Roll fuel handle \t- PUSH ON\n\tc. Yaw fuel handle \t\t- PUSH ON\n\td. Pitch fuel handle \t- PUSH ON\n6. Retro delay switch \t\t- INST\n7. Photo lights switch \t\t- ON\n8. Cabin lights switch \t\t- BOTH\n9. TLM-LO freq switch \t\t- ON\n10. Rescue switch \t\t\t- AUTO\n11. Launch Contl switch \t- OFF\n12. Jett Tower Ring \t\t\t- IN\n13. Sep Capsule Ring \t\t- IN\n14. Retro Att switch \t\t- AUTO\n15. Fire Retro switch \t\t- GUARD INSTALLED\n16. Jett Retro switch \t\t- GUARD INSTALLED\n17. Retract Scope switch\t\t- AUTO\n18. Snorkel Ring \t\t\t- IN\n19. Main Ring \t\t\t\t- IN\n20. Reserve Ring \t\t\t- IN\n21. Landing Bag switch \t\t- AUTO\n22. Control Fuel Qty gauges\t- CHECK\n      a. Auto Fuel \t\t\t- 100%\n      b. Manual Fuel \t\t- 100%\n23. Rate of Descent \t\t\t- 0 FT/SEC\n24. Altimeter \t\t\t\t- CHECK\n25. Satellite clock\n      a. Time of Day\n      b. Time from launch \t- ZERO\n      c. Time to Retrograde\n26. Attitude/Rate ind. \t\t- CHECK\n      a. Rate indicators \t- CENTER\n      b. Attitude indicators - CHECK\n27. Time Zero Cover \t\t\t- REMOVE\n28. Cabin pressure \t\t\t- CHECK\n29. Cabin Air temp \t\t\t- CHECK\n30. Suit Env. Indicator \t\t- CHECK\n31. Oxygen Quantity \t\t- CHECK\n      a. Primary \t\t\t- 100%\n      b. Secondary \t\t\t- 100%\n32. Suit Fan switch \t\t- NORM\n33. Cabin Fan switch \t\t- NORM\n34. DC Volts knob \t\t\t- MAIN\n35. Ammeter switch\t\t\t- PWR OFF\n36. ASCS AC Bus \t\t\t- NORM\n37. Stby Btry switch \t\t- ON\n38. Isol Btry switch \t\t- STBY\n39. Inlet Valve Pwr switch \t- NORM\n40. Audio Bus switch \t\t- NORM\n41. AC voltmeter\t\t\t\t- 115 VOLTS (109v-121v)\n42. VOX Pwr switch \t\t\t- OFF\n43. UHF DF switch \t\t\t- NORM\n44. UHF select switch \t\t- HI PWR\n45. Transmit switch \t\t\t- OFF\n46. Beacon switch \t\t\t- GRND COMD\n47. All Audio Tone switches - ON\n48. Warning Lights switch \t- BRIGHT\n49. Emer O2 switch \t\t\t- NORM\n50. Suit Temp selector \t\t- TO MARK\n51. Cabin Temp selector \t\t- TO MARK\n52. Inverter Temp selector \t- TO MARK\n53. Maneuver - ON\n\tThis spins up the gyros. Please allow 5 minutes spin-up time.\n",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 40,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 42,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 43,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 44,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 45,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 26,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 29,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 30,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 31,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 20,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 21,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 14,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 16,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 17,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 10,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 11,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 12,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 13,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 7,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 2,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 5,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 2,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 5,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 7,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Fire Retro switch - GUARD INSTALLED"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Jett Retro switch - GUARD INSTALLED"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 10,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 11,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Control Fuel Qty Check Auto Fuel - 100%"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Control Fuel Qty Check Manual Fuel - 100%"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rate of Descent - 0 FT/SEC"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Altimeter - CHECK"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Satellite clock Check Time of Day"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Satellite clock Check Time from launch - ZERO"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Satellite clock Check Time to Retrograde"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rate indicators - CENTERED"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Attitude indicators - CHECK"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Time Zero Button - COVER REMOVED"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cabin pressure - CHECK"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cabin Air temp - CHECK"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Suit Env. Indicator - CHECK"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Oxygen Quantity Primary - 100%"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Oxygen Quantity Secondary - 100%"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 9,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 5,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AC voltmeter - 115 VOLTS (109v-121v)"
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 26,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 25,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 32,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 12,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 39,
+      "ToPosID": 3,
+      "Text": null
+    }
+  ],
+  "Images": []
 }
