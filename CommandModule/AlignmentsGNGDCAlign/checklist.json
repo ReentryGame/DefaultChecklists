@@ -1,0 +1,103 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "AlignmentsGNGDCAlign",
+  "Group": "G&N ALIGNMENTS",
+  "Name": "GDC Align",
+  "Side": 1,
+  "SortPriority": 41401025,
+  "checklistText": "Note: \r\n    ATT SET SW should be in the GDC position when not undergoing this alignment\r\n    Do NOT confuse ATT SET SW and CMC ATT SW. CMC ATT SW should be left in IMU unless an IMU failure occurs.\r\n\r\nGDC ALIGNMENT TO IMU GIMBAL ANGLES\r\n    IMU - on\r\n        C&W Light ISS - Extinguished\r\n        DSKY NO ATT - Extinguished\r\n    SCS - operating\r\n        P7 - BMAG PWR 1&2 (2) - on\r\n        P2 - BMAG 1&2 Temp (2) - Extinguished\r\n    Ordeal - Inertial\r\n        P13 - FDAI 1&2 (2) - INRTL\r\n    \r\n    Damp vehicle rates\r\n\r\n    Panel 1:\r\n        ATT SET dials - set to angles on FDAI 1\r\n            All written numbers on the FDAI are in the format (X)X0 deg. \r\n\r\n            V16 N20 E may be used to extract the correct IMU Angles in the format:\r\n                R1: Roll \t(XXX.xx)\r\n                R2: Pitch \t(XXX.xx)\r\n                R3: Yaw \t(XXX.xx)\r\n\r\n        FDAI Select - 1\r\n        FDAI Source - ATT SET\r\n        ATT SET - IMU\r\n        ATT SET dials - null FDAI 1 err needles\r\n            Align to current IMU Att, 5/1 FDAI Scale may be too accurate. Don't try to chase it with RCS.\r\n\r\n        ATT SET - GDC\r\n        GDC ALIGN PB - push untill needles nulled (aligned with indicated ATT)\r\n\r\n        FDAI SEL - 1/2",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "IMU - check on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SCS - check operating"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Zero ATT Drift Rates"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set ATT SET dials to current ATT"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Align Needles with current ATT on FDAI 1"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
+}
