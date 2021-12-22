@@ -1,10 +1,10 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GncRefModesOpticsManDrive",
-  "Group": "G&C REFERENCE",
+  "Group": "OPTICS",
   "Name": "Manual Optics Drive",
   "Side": 1,
-  "SortPriority": 40705030,
+  "SortPriority": 72,
   "checklistText": "\t\tManual Optics Drive\r\n\r\n\t1 The following are req\r\n\r\nPanel 5:\r\n\tG/N PWR - AC1 or AC2\r\n\r\nPanel 100:\r\n\tG/N OPT PWR - OFF\r\n\r\n\r\n\t2 Obtain opt tool from tool kit\r\n\r\n\t3 Perform man opt drive\r\n\r\nPanel 122:\r\n\tRETCL BRT tw - as req\r\n\r\nPanel 121:\r\n\tSHAFT - as desired\r\n\tTRUN - as desired\r\n\r\n\r\n\t\t\r\n",
   "Steps": [],
   "Images": []

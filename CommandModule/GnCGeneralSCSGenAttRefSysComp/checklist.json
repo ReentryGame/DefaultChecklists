@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCGeneralSCSGenAttRefSysComp",
-  "Group": "G&N GENERAL",
+  "Group": "SCS GENERAL",
   "Name": "Att. Ref. Sys. Comp.",
   "Side": 1,
   "SortPriority": 40804070,

@@ -5,7 +5,7 @@
   "Name": "FC Purge",
   "Side": 1,
   "SortPriority": 40503060,
-  "checklistText": "\t\t\tFC Power Plant Purging\r\n\r\n\t1 O2 purging\r\n\r\nPanel 3:\r\n\tFC IND sel - 1, 2, or 3\r\n\tFC 1, 2, or 3 PURG - O2 (2 min)\r\n\r\n\tFC O2 FLOW ind - flow incr\r\n\t\t0.6 lb/hr\r\n\r\n\r\n\tFC 1, 2, or 3 PURG - OFF\r\n\r\n\t2 H2 purging\r\n\t\tH2 PURG LINE  HTR - on (up), 20 min\r\n\t\t\tprior to purge\r\n\r\n\tFC IND sel - 1, 2, or 3\r\n\tFC 1, 2, or 3 PURG - H2\r\n\t\t(1 min, 20 sec)\r\n\tFC H2 FLOW ind - flow incr\r\n\t\t0.67 lb/hr\r\n\r\nPanel 1, 3, 122:\r\n\tMASTER ALARM pb/lt (3) - on\r\n\tMASTER ALARN pb/lt - push\r\n\tMASTER ALARM PB/LT (3) - out\r\n\r\nPanel 2:\r\n\tFC 1, 2, or 3 lt - on (until norm\r\n\t\tflow restored)\r\n\r\nPanel 3:\r\n\tFC 1, 2, or 3 PURG - OFF\r\n\tAfter ≈10 min\r\n\t\tH2 PURG LINE HTR - OFF\r\n\r\n\t\r\n\r\n\r\n\r\n",
+  "checklistText": "<size=21>FC Power Plant Check\r\r\r</size>FC Power Plant Purging\r\n\r\n\t1 O2 purging\r\n\r\nPanel 3:\r\n\tFC IND sel - 1, 2, or 3\r\n\tFC 1, 2, or 3 PURG - O2 (2 min)\r\n\r\n\tFC O2 FLOW ind - flow incr\r\n\t\t0.6 lb/hr\r\n\r\n\r\n\tFC 1, 2, or 3 PURG - OFF\r\n\r\n\t2 H2 purging\r\n\t\tH2 PURG LINE  HTR - on (up), 20 min\r\n\t\t\tprior to purge\r\n\r\n\tFC IND sel - 1, 2, or 3\r\n\tFC 1, 2, or 3 PURG - H2\r\n\t\t(1 min, 20 sec)\r\n\tFC H2 FLOW ind - flow incr\r\n\t\t0.67 lb/hr\r\n\r\nPanel 1, 3, 122:\r\n\tMASTER ALARM pb/lt (3) - on\r\n\tMASTER ALARN pb/lt - push\r\n\tMASTER ALARM PB/LT (3) - out\r\n\r\nPanel 2:\r\n\tFC 1, 2, or 3 lt - on (until norm\r\n\t\tflow restored)\r\n\r\nPanel 3:\r\n\tFC 1, 2, or 3 PURG - OFF\r\n\tAfter ≈10 min\r\n\t\tH2 PURG LINE HTR - OFF\r\n\r\n\t\r\n\r\n\r\n\r\n",
   "Steps": [],
   "Images": []
 }

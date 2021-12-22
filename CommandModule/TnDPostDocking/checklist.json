@@ -1,11 +1,11 @@
 {
-  "Spacecraft": 0,
-  "ProjectName": "TnDPostDocking",
-  "Group": "T&D",
-  "Name": "POST DOCKING",
-  "Side": 0,
-  "SortPriority": 606,
-  "checklistText": "<size=21>POST DOCKING checklist</size>\r\n\nPanel 1\n\tRATE - HIGH\r\n\tATT DBD - MAX\r\nPanel 15\n\tCOAS PWR - OFF\r\nPanel 8\n\tcb RCS LOGIC MNA - open\r\n\tcb RCS LOGIC MNB - open\r\nPanel 7\n\tTVC SERVO PWR 1 - OFF\r\nPanel 1\n\tEMS MODE - STBY\r\n\tEMS FUNC - OFF\r\n\tBMAG MODE ROLL - RATE 2\r\n\tBMAG MODE PITCH - RATE 2\r\n\tBMAG MODE YAW - RATE 2\r\nPanel 2\n\tLM PWR - OFF\r\n\tTUNNEL LTS - ON\r\nPanel 12\n\tLM TUNL VENT vlv - OFF\r\nPanel 252\n\tWASTE STOW vlv - VENT\r\nPanel 1\n\tTransfer LM to CSM PWR\r\nPanel 101\n\tSYS TEST 1 - 4\r\n\tSYS TEST 2 - D\r\n  \t\tSYS TEST ind - 0.5-3.2 volts\r\nPanel \n\tACTR HNDL sel - stow\r\n\tHATCH PRESS EQUAL vlv - CLOSE\r\nPanel 12\n\tLM TUNL VENT vlv - LM/CM dP\r\nPanel 2\n\tLM TUNNEL LTS - OFF\r\n\n",
-  "Steps": [],
-  "Images": []
+    "Group": "T&D",
+    "Images": [],
+    "Name": "POST DOCKING",
+    "ProjectName": "TnDPostDocking",
+    "Side": 0,
+    "SortPriority": 606,
+    "Spacecraft": 0,
+    "Steps": [],
+    "checklistText": "<size=21>POST DOCKING checklist</size>\r\nRATE - HIGH\nATT DB - MAX\nCOAS - OFF\ncb RCS LOGIC (2) - open (verify)\nTVC SERVI PWR #1 - OFF\nEMS MODE - STBY\nEMS FUNC - OFF\nBMAG MODE (3) - RATE 2 (verify)\nLM PWR - OFF (verify)\nTUNNEL LIGHTS - ON\n\n"
 }

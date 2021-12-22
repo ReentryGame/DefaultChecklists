@@ -4,8 +4,8 @@
   "Group": "SYSTEMS: C&WS",
   "Name": "C&WS Operational",
   "Side": 1,
-  "SortPriority": 40505010,
-  "checklistText": "C&WS Operational Check\r\n\r\nPanel 2:\r\n\tC/W LAMP TEST - 1 (hold)\r\n\r\nPanel 1:\r\n\tMASTER ALARM pb/lt - on\r\n\r\nPanel 2:\r\n\tlh C/W lts (15) - on\r\n\tC/W LAMP TEST - 2 (hold)\r\n\r\nPanel 1:\r\n\tMASTER ALARM pb/lt - out\r\n\r\nPanel 2:\r\n\tlh C/W lts (15) - out\r\n\r\nPanel 3:\r\n\tMASTER ALARM pb/lt - on\r\n\r\nPanel 2:\r\n\trh C/W lts (20) - on\r\n\tC/W LAMP TEST - rel\r\n\r\nPanel 3:\r\n\tMASTER ALARM pb/lt - out\r\n\r\nPanel 2:\r\n\trh C/W lts (20) - out\r\n\tC/W CSM - CM\r\n\tCM RCS lt (both) - on\r\n\r\nPanel 1, 3, 122:\r\n\tMASTER ALARM pb/lt (3) & tone -\r\n\t\ton\r\n\tMASTER ALARM pb/lt - push\r\n\tMASTER ALARM pb/lt (3) & tone - out\r\n\r\nPanel 2:\r\n\tC/W CSM - CSM\r\n\tCM RCS lt (both) - out\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "SortPriority": 40,
+  "checklistText": "\r<size=21>C&WS Operational Check\r\r</size>\n\r\nPanel 2:\r\n\tC/W LAMP TEST \t\t\t- 1 (hold)\r\n\tMASTER ALARM pb/lt \t- on\r\n\tlh C/W lts (15) \t\t\t- on\r\n\tC/W LAMP TEST \t\t\t- 2 (hold)\r\n\tMASTER ALARM pb/lt \t- out\r\n\tlh C/W lts (15) \t\t\t- out\r\n\trh C/W lts (20) \t\t\t- on\r\n\tC/W LAMP TEST \t\t\t- rel\r\n\tMASTER ALARM pb/lt \t- out\r\r\n\trh C/W lts (20) \t\t\t- out\r\n\tC/W CSM \t\t\t\t- CM\r\n\tCM RCS lt (both) \t\t- on\r\nPanel 1, 3, 122:\r\n\tMASTER ALARM pb/lt (3) & tone \t-\r on\r\n\tMASTER ALARM pb/lt \t- push\r\n\tMASTER ALARM pb/lt (3) & tone - out\r\nPanel 2:\r\n\tC/W CSM \t\t\t\t- CSM\r\n\tCM RCS lt (both) \t\t- out\r\n",
   "Steps": [],
   "Images": []
 }

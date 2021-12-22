@@ -2,10 +2,10 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsPropulsionCMRCSMon",
   "Group": "SYSTEMS: PROPULSION",
-  "Name": "CM RCS CHECK",
+  "Name": "CM RCS MONITORING CHECK",
   "Side": 1,
-  "SortPriority": 40502030,
-  "checklistText": "CM RCS Monitoring Check\r\n\r\n\t\tCM RCS PRPLNT tb (both) - gray\r\n\t\tRCS IND sel - CM 1, 2\r\n\t\t\tCM RCS He TEMP ind - 60°-90°\r\n\t\t\tPrior to CM RCS activation\r\n\t\t\t\tCM RCS He PRESS ind - 4100-4200 psia\r\n\t\t\t\tCM RCS MANF PRESS ind - 80-105 psia\r\n\r\n\r\n\r\n\t\tAfter CM RCS activation\r\n\t\t\tCM RCS He PRESS ind - stab at 3300-\r\n\t\t\t\t3500 psia ≈15 min after activation\r\n\t\t\tCM RCS MANF PRESS ind - 287-302 psia\r\n\r\n\r\n\r\n",
+  "SortPriority": 23,
+  "checklistText": "\r<size=21>CM RCS Monitoring Check\r</size>\n\r\nPanel 2:\n\tCM RCS PRPLNT tb (both) \t\t\t- gray\r\n\tRCS IND sel \t\t\t\t\t\t- CM 1, 2\r\n\t\tCM RCS He TEMP ind \t\t\t- 60°-90°\r\n\t\tPrior to CM RCS activation\r\n\t\t\tCM RCS He PRESS ind \t\t- 4100-4200 psia\r\n\t\t\tCM RCS MANF PRESS ind \t- 80-105 psia\r\n\r\n\t\tAfter CM RCS activation\r\n\t\t\tCM RCS He PRESS ind \t\t- stab at 3300-\r3500 psia ≈15 min \n\t\t\t\tafter activation\r\n\t\t\tCM RCS MANF PRESS ind \t- 287-302 psia\r\n",
   "Steps": [],
   "Images": []
 }

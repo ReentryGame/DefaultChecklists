@@ -1,40 +1,40 @@
 {
-  "Spacecraft": 0,
-  "ProjectName": "TnDPreCSMSep",
-  "Group": "T&D",
-  "Name": "PRE CSM SEPARATION",
-  "Side": 0,
-  "SortPriority": 601,
-  "checklistText": "<size=21>PRE CSM SEPARATION checklist</size>\r\n\nPanel 7\n\tcb DOCK PROBE (2) - close (verify)\nPanel 15\t\n\tCOAS - on\nPanel 1\n\tALIGN GDC",
-  "Steps": [
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 134,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 135,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Install COAS"
-    },
-    {
-      "Program": 0,
-      "Type": 4,
-      "SetID": 29,
-      "ToPosID": 0,
-      "Text": null
-    }
-  ],
-  "Images": []
+    "Group": "T&D",
+    "Images": [],
+    "Name": "PRE CSM SEPARATION",
+    "ProjectName": "TnDPreCSMSep",
+    "Side": 0,
+    "SortPriority": 601,
+    "Spacecraft": 0,
+    "Steps": [
+        {
+            "Program": 0,
+            "SetID": 134,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 0,
+            "SetID": 135,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 0,
+            "SetID": 0,
+            "Text": "Install COAS",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 0,
+            "SetID": 29,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 4
+        }
+    ],
+    "checklistText": "<size=21>PRE CSM SEPARATION checklist</size>\r\ncb DOCK PROBE (2) - close (verify)\nCOAS - on\nALIGN GDC"
 }

@@ -4,7 +4,7 @@
   "Group": "G&C REFERENCE",
   "Name": "GDC ALIGN",
   "Side": 1,
-  "SortPriority": 40703000,
+  "SortPriority": 60,
   "checklistText": "GDC ALIGN\r\n\r\n\tELEC PWR - GDC/ECA\r\n\tATT SET - GDC\r\n\tVerify tw settings\r\n\tGDC ALIGN pb - push\n\n\n\n",
   "Steps": [],
   "Images": []

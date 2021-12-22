@@ -4,8 +4,8 @@
   "Group": "BACKUP CREW PRELAUNCH",
   "Name": "INTRODUCTION",
   "Side": 0,
-  "SortPriority": 40,
-  "checklistText": "Prelaunch procedures consist of operational and configuration checks performed by backup flight crew prior to ingress of prime crew. Procedures have been sequences so they can be more easily compared with other prelaunch documents. In order to keep them closely aligned, redundant switch settings may appear in more than one area and GDC align procedures have been repeated whenever necessary. It is assumed that a complete prelaunch checkout, including loose gear stowage, has been performed by ground support personnel, prior to backup crew ingress into command module, and that all systems are in an active configuration as required at time of ingress. Spacecraft suit circuit shall have been purged and oxygen content verified to be 95% minimum. Backup crew will utilize facility headsets until service structure is clear of vehicle, as there will be no VHF AM or S BAND transmission until that time.",
+  "SortPriority": 2,
+  "checklistText": "Prelaunch procedures consist of operational and configuration checks performed by backup flight crew prior to ingress of prime crew. Procedures have been sequenced so they can be more easily compared with other prelaunch documents. \nIn order to keep them closely aligned, redundant switch settings may appear in more than one area and GDC align procedures have been repeated whenever necessary. \nIt is assumed that a complete prelaunch checkout, including loose gear stowage, has been performed by ground support personnel, prior to backup crew ingress into command module, and that all systems are in an active configuration as required at time of ingress. Spacecraft suit circuit shall have been purged and oxygen content verified to be 95% minimum. \nBackup crew will utilize facility headsets until service structure is clear of vehicle, as there will be no VHF AM or S BAND transmission until that time.",
   "Steps": [],
   "Images": []
 }

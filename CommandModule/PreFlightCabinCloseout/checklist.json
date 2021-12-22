@@ -1,0 +1,96 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "PreFlightCabinCloseout",
+  "Group": "PRE-LAUNCH",
+  "Name": "CABIN CLOSEOUT (-01:40:00)",
+  "Side": 0,
+  "SortPriority": 21,
+  "checklistText": "<size=25>CABIN CLOSEOUT (-01:40:00)</size>\n\r\n\"Toggle Hatch\" button to close the hatch.\n\r\n1 - Configure hatch for rapid egress\r\n\tGear box sel – UNLATCH\r\n\tActr handle sel – U (unlatch)\r\n\tBPC JETT knob – arrow on knob\r\n\t\tpointing to BPC JETT decal\r\n\r\nT-01:35:00 \r\n2 - Change Launch Azimuth (if necessary)\r\nPanel 2:\r\nKey V78E\r\n\tFL V06 N29\r\n\t\tX SM launch azimuth  XXX.XX DEG\r\n\t\tKey V21E, load new azimuth\r\n\t\tPRO\r\n\tCAB FAN (both) \t\t\t\t– OFF\r\n\r\n\rT-01:21:00 \n3 - EDS Test Complete\r\nSet cont after test\r\nPanel 9:\r\n\tINTERCOM \t\t\t\t\t– T/R\r\n\tVHF AM \t\t\t\t\t– T/R\r\n\tS BD \t\t\t\t\t\t– T/R\r\nPanel 6:\r\n\tPAD COMM \t\t\t\t\t– T/R\r\nPanel 7:\r\n\tEDS PWR \t\t\t\t\t– OFF\r\nPanel 2:\r\n\tEDS AUTO \t\t\t\t\t– OFF (verify)\r\n\t2 ENG OUT sw \t\t\t\t– AUTO (verify)\r\n\tLV RATES sw \t\t\t\t– AUTO (verify)\r\nPanel 1:\r\n\tα/Pc ind \t\t\t\t\t- ____%\r\n\nT-01:13:00 \r\nPanel 2:\r\n\tUP TLM IU \t\t\t\t\t– BLOCK\r\nPanel 8:\n\t\rSCS ELECTRONICS PWR \t\t- ECA\n\r\nStart FINAL VERIFICATION Checklist\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Close side hatch"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 197,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 198,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 195,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 194,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 42,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 244,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start FINAL VERIFICATION Checklist"
+    }
+  ],
+  "Images": []
+}

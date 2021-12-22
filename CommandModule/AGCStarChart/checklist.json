@@ -4,7 +4,7 @@
   "Group": "AGC",
   "Name": "STAR LIST",
   "Side": 1,
-  "SortPriority": 40604001,
+  "SortPriority": 50,
   "checklistText": "\t\r\t\tSTAR LIST\n\tSTAR NAME\t\tSTAR NAME\n\t(Numerical)\t   (Alphabetical)\nNO\t\t\t\t\t\t\t\t NO\n00  Planet\t\t\tAcamar\t\t 6\r\n 1  Alpheratz\t\tAchernar\t 4\r\n 2  Diphda\t\t\tAcrux\t\t25\r\n 3  Navi\t\t\tAldebaran\t11\r\n 4  Achernar\t\tAlkaid\t\t27\r\n 5  Polaris\t\t\tAlphard\t\t21\r\n 6  Acamar\t\t\tAlphecca\t32\r\n 7  Menkar\t\t\tAlpheratz\t 1\r\n10  Mirfak\t\t\tAltair\t\t40\r\n11  Aldebaran\t\tAntares\t\t33\r\n12  Rigel\t\t\tArcturus\t31\r\n13  Capella\t\t\tAtria\t\t34\r\n14  Canopus\t\t\tCanopus\t\t14\r\n15  Sirius\t\t\tCapella\t\t13\r\n16  Procyon\t\t\tDabih\t\t41\r\n17  Regor\t\t\tDeneb\t\t43\r\n20  Dnoces\t\t\tDenebola\t23\r\n21  Alphard\t\t\tDiphda\t\t 2\r\n22  Regulus\t\t\tDnoces\t\t20\r\n23  Denebola\t\tEarth\t\t47\r\n24  Gienah\t\t\tEnif\t\t44\r\n25  Acrux\t\t\tFomalhaut\t45\r\n26  Spica\t\t\tGienah\t\t24\r\n27  Alkaid\t\t\tMenkar\t\t 7\r\n30  Menkent\t\t\tMenkent\t\t30\r\n31  Arcturus\t\tMirfak\t\t10\r\n32  Alphecca\t\tMoon\t\t50\r\n33  Antares\t\t\tNavi\t\t 3\r\n34  Atria\t\t\tNunki\t\t37\r\n35  Rasalhague\t\tPeacock\t\t42\r\n36  Vega\t\t\tPlanet\t\t00\r\n37  Nunki\t\t\tPolaris\t\t 5\r\n40  Altair\t\t\tProcyon\t\t16\r\n41  Dabih\t\t\tRasalhague\t35\r\n42  Peacock\t\t\tRegor\t\t17\r\n43  Deneb\t\t\tRegulus\t\t22\r\n44  Enif\t\t\tRigel\t\t12\r\n45  Fomalhaut\t\tSirius\t\t15\r\n46  Sun\t\t\t\tSpica\t\t26\r\n47  Earth\t\t\tSun\t\t\t46\r\n50  Moon\t\t\tVega\t\t36\n\n\n",
   "Steps": [],
   "Images": []

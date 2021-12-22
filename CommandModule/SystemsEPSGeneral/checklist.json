@@ -4,7 +4,7 @@
   "Group": "SYSTEMS: EPS",
   "Name": "GENERAL",
   "Side": 1,
-  "SortPriority": 40503001,
+  "SortPriority": 30,
   "checklistText": "EPS\n\n",
   "Steps": [],
   "Images": []

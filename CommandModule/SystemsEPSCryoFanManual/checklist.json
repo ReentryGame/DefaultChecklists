@@ -4,8 +4,8 @@
   "Group": "SYSTEMS: EPS",
   "Name": "Manual Cryo Fan Opr",
   "Side": 1,
-  "SortPriority": 40503100,
-  "checklistText": "\t\tCryo O2 & H2 Manual Fan Operation\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tIn the following step, if CRYO\r\n\t\tPRESS lt illuminates,  do not set\r\n\t\tH2 & O2 FANS - off (ctr) or\r\n\t\tproceed to next step until lt\r\n\t\textinguishes.\r\n\r\n\tProcedures to be determined.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "SortPriority": 39,
+  "checklistText": "<size=21>Cryo O2 & H2 Manual Fan Operation\r</size>\n\r\n\t\t\tCAUTION\r\n\r\n\t\tIn the following step, if CRYO\r\n\t\tPRESS lt illuminates,  do not set\r\n\t\tH2 & O2 FANS - off (ctr) or\r\n\t\tproceed to next step until lt\r\n\t\textinguishes.\r\n\r\n\tProcedures to be determined.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
   "Steps": [],
   "Images": []
 }

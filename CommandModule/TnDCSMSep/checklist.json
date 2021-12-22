@@ -1,236 +1,235 @@
 {
-  "Spacecraft": 0,
-  "ProjectName": "TnDCSMSep",
-  "Group": "T&D",
-  "Name": "CSM SEPARATION",
-  "Side": 0,
-  "SortPriority": 603,
-  "checklistText": "<size=21>CSM SEPARATION checklist</size>\r\n\n\tV49E\tF 06 22 (EXTRACT ATT)\nPanel 8\n\tcb SECS LOGIC BAT (2) - closed (verify)\n\tcb SECS ARM BAT (f2) - closed (verify)\n\tSECS LOGIC (2) - on (up)(verify)\nPanel 2\n\tRCS CMD - ON\nPanel 8\n\tSECS PYRO ARM (2) - ARM\nPanel 1\n\tGDC ALIGN\n\tEMS FUNC - ΔV (verify)\n\tEMS MODE - NORMAL\n59:30\tStart DET\n59:50\tCMC MODE - AUTO\n59:58\tThrust +X and hold\n00:00\tCSM/LV SEP pb - push, hold, and release\n\tLV TANK PRESS - full scale low\n00:03\tTHC - release (ΔV .5 fps)\nPanel 2\n\tSM RCS PRPLNT tb (8) - gray(verify)\n\tSM RCS He tb (8) - gray (verify)\n\tSM RCS SEC PRPLNT FUEL PRESS (4) - CLOSE\nPanel 3\n\tFC REAC vlv - NORM",
-  "Steps": [
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "V49E   F 06 22"
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 72,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 73,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 160,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 161,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 75,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 162,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 163,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 4,
-      "SetID": 29,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 15,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 145,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "59:30: Start DET"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "59:50: Set CMC MODE - AUTO"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "00:00: CSM/LV SEP pb - push"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "THC - release(ΔV .5 fps)"
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 91,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 92,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 93,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 94,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 95,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 96,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 97,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 98,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 83,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 84,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 85,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 86,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 87,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 88,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 89,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 90,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 22,
-      "ToPosID": 4,
-      "Text": null
-    }
-  ],
-  "Images": []
+    "Group": "T&D",
+    "Images": [],
+    "Name": "CSM SEPARATION",
+    "ProjectName": "TnDCSMSep",
+    "Side": 0,
+    "SortPriority": 603,
+    "Spacecraft": 0,
+    "Steps": [{
+            "Program": 0,
+            "SetID": 0,
+            "Text": "V49E   F 06 22",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 0,
+            "SetID": 72,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 0,
+            "SetID": 73,
+            "Text": null,
+            "ToPosID": 2,
+            "Type": 2
+        },
+        {
+            "Program": 0,
+            "SetID": 160,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 161,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 75,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 162,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 163,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 29,
+            "Text": null,
+            "ToPosID": 0,
+            "Type": 4
+        },
+        {
+            "Program": 0,
+            "SetID": 15,
+            "Text": null,
+            "ToPosID": 1,
+            "Type": 3
+        },
+        {
+            "Program": 0,
+            "SetID": 145,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 0,
+            "Text": "59:30: Start DET",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 0,
+            "SetID": 0,
+            "Text": "59:50: Set CMC MODE - AUTO",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 0,
+            "SetID": 0,
+            "Text": "00:00: CSM/LV SEP pb - push",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 0,
+            "SetID": 0,
+            "Text": "THC - release(ΔV .5 fps)",
+            "ToPosID": 0,
+            "Type": 0
+        },
+        {
+            "Program": 0,
+            "SetID": 91,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 92,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 93,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 94,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 95,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 96,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 97,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 98,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 83,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 84,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 85,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 86,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 87,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 88,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 89,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 90,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        },
+        {
+            "Program": 0,
+            "SetID": 22,
+            "Text": null,
+            "ToPosID": 4,
+            "Type": 1
+        }
+    ],
+    "checklistText": "<size=21>CSM SEPARATION checklist</size>\r\nV49E\tF 06 22 (EXTRACT ATT)\ncb SECS LOGIC (2) - closed (verify)\ncb SECS ARM (2) - closed (verify)\nSECS LOGIC (2) - on (up)(verify)\nRCS CMD - ON\nSECS PYRO ARM (2) - ARM\nGDC ALIGN\nEMS FUNC - ΔV (verify)\nEMS MODE - NORMAL\n59:30\tStart DET\n59:50\tCMC MODE - AUTO\n59:58\tThrust +X and hold\n00:00\tCSM/LV SEP pb - push, hold, and release\n\tLV TANK PRESS - full scale low\n00:03\tTHC - release (ΔV .5 fps)\n\tSM RCS PRPLNT tb (8) - gray(verify)\n\tSM RCS He tb (8) - gray (verify)\n\tSM RCS SEC PRPLNT FUEL PRESS (4) - CLOSE\n\tFC REAC vlv - NORM"
 }
