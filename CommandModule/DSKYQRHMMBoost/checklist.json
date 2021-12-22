@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "DSKYQRHMMBoost",
+  "Group": "DSKY QRH",
+  "Name": "P10-19",
+  "Side": 0,
+  "SortPriority": 9900003,
+  "checklistText": "Boost Programs\n\n    11 - Earth orbit insertion monitor\r\n        Sequence of Events:\r\n            V75 Enter is not keyed unless the liftoff discrete fails and P11 does not start automatically.\r\n            \r\n            P11 displayed - Average G on.\r\n            V06 N62\r\n                Inertial Velocity Magnitude XXXXX. ft/s\r\n                Altitude Rate XXXXX. ft/s\r\n                Altitude XXXX.X nmi\r\n            Pitch/roll polynomial start at liftoff +11.85 seconds.\r\n            Terminate polynomial at liftoff +161.35 seconds.\r\n            V82E Orbital parameter display.\r\n            Flashing V16 N44 \r\n                Apogee Altitude XXXX.X nmi\r\n                Perigee Altitude XXXX.X nmi\r\n                TFF XXbXX min/s\r\n            PRO\r\n            V37E 00E - Average G off.\r\n            \r\n            V46E While in P11 will terminate polynomial computations and enable the RHC to steer the\r Saturn vehicle through the AGC interface",
+  "Steps": [],
+  "Images": []
+}

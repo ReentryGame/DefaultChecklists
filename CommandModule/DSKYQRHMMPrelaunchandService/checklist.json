@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "DSKYQRHMMPrelaunchandService",
+  "Group": "DSKY QRH",
+  "Name": "P00-09",
+  "Side": 0,
+  "SortPriority": 9900002,
+  "checklistText": "Prelaunch and Service Programs\n\n00 - AGC Idle\r\n    Sequence of Events:\r\n        V37E 00E\r\n        V06N 38E (Optional)\r\n\r\n01 - Prelaunch or Service Initialization\r\n    Sequence of Events:\r\n        V37E 01E\r\n        No Att Light - ON, then OFF. Initializes the system and coarse aligns the platform to\r the desired orientation. AGC advances to P02.\r\n\r\n02 - Prelaunch or Service Gyro-Compassing\r\n    Sequence of Events:\r\n        P02 entered automatically from P01.\r\n        Vertical erect for 640 seconds (90 in the Reentry Simulator), then gyrocompass.\r\n                \r\n        V78E Optional entry if launch azimuth change is desired.\r\n            Flashing V06 N29 \n\t\t\t\t\tXSM Launch Azimuth XXX.XX deg\r\n                    V21E Enter new launch azimuth.\r\n                    Vertical erect for 320 seconds, then gyrocompass.\r\n                \r\n        V75E Optional at Liftoff if automatic Liftoff discrete is not received.\r\n                \r\n        AGC advances automatically to P11 at liftoff.\r\n06 - AGC Power Down\r\n    Sequence of Events:\r\n        V37E 06E\r\n            Flashing V50 N25\r\n                Checklist Code 00062\r - Power down AGC.\r\n        If IMU power off desired \n            cb IMU Operate - OPEN (HIGHLY NOT RECCOMENDED)\r\n                    \r\n        PRO Until Standby light on.\r\n                    \r\n        TURN-ON\r\n            Standby light on.\r\n            PRO Until Standby light off.\r\n            V37E00E\n                    \r\n        If IMU power up desired\n            cb IMU Operate – CLOSE\r\n            No Att light for 90 seconds",
+  "Steps": [],
+  "Images": []
+}
