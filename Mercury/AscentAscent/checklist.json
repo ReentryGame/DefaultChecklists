@@ -5,7 +5,22 @@
   "Name": "ASCENT",
   "Side": 0,
   "SortPriority": 50,
-  "checklistText": "\t1. Monitor Abort Light\n2. Monitor Isolated Battery Voltage\n3. Monitor Cabin Pressure\n    a. Will go from 15 to 5.5\n4. Monitor DC Voltage\n5. Monitor DC Ammeter\n6. Monitor AC Voltage\n\nWhen Booster Engine Cutoff (BECO):\n\tIf Redstone Rocket Launch:\n\t\tStart REDSTONE Ascent Checklist\n\tIf Atlas Rocket Launch:\n\t\tStart BECO Checklist",
-  "Steps": [],
+  "checklistText": "1. Monitor Abort Light\n2. Monitor Isolated Battery Voltage\n3. Monitor Cabin Pressure\n    a. Will go from 15 to 5.5\n4. Monitor DC Voltage\n5. Monitor DC Ammeter\n6. Monitor AC Voltage\n\nAt Engine Cutoff:\n\tIf Redstone Rocket Launch:\n\t\tStart REDSTONE Ascent Checklist\n\tIf Atlas Rocket Launch:\n\t\tStart BECO Checklist",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor Systems"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At Engine Cutoff"
+    }
+  ],
   "Images": []
 }

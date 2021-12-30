@@ -30,6 +30,13 @@
     },
     {
       "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After Retro Jett"
+    },
+    {
+      "Program": 3,
       "Type": 1,
       "SetID": 20,
       "ToPosID": 3,
@@ -55,7 +62,7 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Start LANDING CHECKLIST after re-entry"
-    }
+    }    
   ],
   "Images": []
 }

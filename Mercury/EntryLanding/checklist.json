@@ -79,6 +79,13 @@
     },
     {
       "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After Impact:"
+    },
+    {
+      "Program": 3,
       "Type": 1,
       "SetID": 11,
       "ToPosID": 2,
