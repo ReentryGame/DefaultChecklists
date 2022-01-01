@@ -5,7 +5,7 @@
   "Name": "BATTERY CHECK (T-50)",
   "Side": 0,
   "SortPriority": 1,
-  "checklistText": "BATTERY CHECK\nApprox. T-50 minutes\n\n1. Battery 1, 2, 3, 4\t\t- OFF\r\n2. Battery 1\t\t\t\t- TEST\r\n3. Voltmeter\t\t\t\t- BT\r\n4. Verify volts > 24v.\r\n5. Battery 1 \t\t\t- OFF\r\n6. Battery 2 \t\t\t- TEST\r\n7. Verify volts > 24v.\r\n8. Battery 2 \t\t\t- OFF\r\n9. Battery 3 \t\t\t- TEST\r\n10. Verify volts > 24v.\r\n11. Battery 3 \t\t\t- OFF\r\n12. Battery 4 \t\t\t- TEST\r\n13. Verify volts > 24v.\r\n14. Battery 4 \t\t\t- OFF\n15. Voltmeter\t\t\t- C\n",
+  "checklistText": "<size=22>BATTERY CHECK (T-50)</size>\n\n1. Battery 1, 2, 3, 4\t\t- OFF\r\n2. Battery 1\t\t\t\t- TEST\r\n3. Voltmeter\t\t\t\t- BT\r\n4. Verify volts > 24v.\r\n5. Battery 1 \t\t\t- OFF\r\n6. Battery 2 \t\t\t- TEST\r\n7. Verify volts > 24v.\r\n8. Battery 2 \t\t\t- OFF\r\n9. Battery 3 \t\t\t- TEST\r\n10. Verify volts > 24v.\r\n11. Battery 3 \t\t\t- OFF\r\n12. Battery 4 \t\t\t- TEST\r\n13. Verify volts > 24v.\r\n14. Battery 4 \t\t\t- OFF\n15. Voltmeter\t\t\t- C\n",
   "Steps": [
     {
       "Program": 2,

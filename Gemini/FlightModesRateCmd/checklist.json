@@ -5,7 +5,7 @@
   "Name": "RATE COMMAND MODE",
   "Side": 1,
   "SortPriority": 21,
-  "checklistText": "1. Attitude\t\t\t\t\t- RATE CMD\n2. Platform \t\t\t\t- ORB RATE\n3. OAMS Control Power\t\t- ON\n4. OAMS Prop Motor Valves\t- OPEN",
+  "checklistText": "<size=22>RATE COMMAND MODE</size>\n\n1. Attitude\t\t\t\t\t- RATE CMD\n2. Platform \t\t\t\t- ORB RATE\n3. OAMS Control Power\t\t- ON\n4. OAMS Prop Motor Valves\t- OPEN",
   "Steps": [
     {
       "Program": 2,

@@ -5,7 +5,7 @@
   "Name": "MANUAL PULSE",
   "Side": 1,
   "SortPriority": 22,
-  "checklistText": "1. Attitude \t\t\t\t\t- PULSE\n2. Platform\t\t\t\t\t- ORB RATE (or any other)\n3. OAMS Control Power\t\t- ON\n4. OAMS Prop Motor Valves\t- OPEN",
+  "checklistText": "<size=22>MANUAL PULSE MODE</size>\n\n1. Attitude \t\t\t\t\t- PULSE\n2. Platform\t\t\t\t\t- ORB RATE (or any other)\n3. OAMS Control Power\t\t- ON\n4. OAMS Prop Motor Valves\t- OPEN",
   "Steps": [
     {
       "Program": 2,

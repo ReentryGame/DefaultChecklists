@@ -5,7 +5,7 @@
   "Name": "POWER DOWN",
   "Side": 1,
   "SortPriority": 17,
-  "checklistText": "1. RADAR \t\t\t\t\t\t- OFF\n2. PLATFORM \t\t\t\t\t- OFF\n3. RATE GYROS (3) \t\t\t\t- OFF\n4. AC POWER \t\t\t\t\t- OFF\n5. ACME BIAS PWR \t\t\t\t- OFF\n6. COOLANT PUMPS \t\t\t\t- AS DESIRED\n7. T/M \t\t\t\t\t\t\t- CMD\n8. MANEUVER THRUSTER C/B'S \t- CLOSED",
+  "checklistText": "<size=22>POWER DOWN</size>\n\n1. RADAR \t\t\t\t\t\t- OFF\n2. PLATFORM \t\t\t\t\t- OFF\n3. RATE GYROS (3) \t\t\t\t- OFF\n4. AC POWER \t\t\t\t\t- OFF\n5. ACME BIAS PWR \t\t\t\t- OFF\n6. COOLANT PUMPS \t\t\t\t- AS DESIRED\n7. T/M \t\t\t\t\t\t\t- CMD\n8. MANEUVER THRUSTER C/B'S \t- CLOSED",
   "Steps": [
     {
       "Program": 2,

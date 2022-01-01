@@ -5,7 +5,7 @@
   "Name": "Enable RCS",
   "Side": 1,
   "SortPriority": 23,
-  "checklistText": "WARNING - ONCE RCS IS ENABLED, OAMS IS NOT OPERATIONAL\n\n1. RCS \t\t\t\t\t\t- PUSH\n2. RCS A CNTL PWR\t\t\t- ACME\n3. RCS B CNTL PWR\t\t\t- ACME\n4. RCS A Prop Motor Valves\t- OPEN\n5. RCS B Prop Motor Valves\t- OPEN",
+  "checklistText": "<size=22>ENABLE RCS</size>\n\nWARNING - ONCE RCS IS ENABLED, OAMS IS NOT OPERATIONAL\n\n1. RCS \t\t\t\t\t\t- PUSH\n2. RCS A CNTL PWR\t\t\t- ACME\n3. RCS B CNTL PWR\t\t\t- ACME\n4. RCS A Prop Motor Valves\t- OPEN\n5. RCS B Prop Motor Valves\t- OPEN",
   "Steps": [
     {
       "Program": 2,

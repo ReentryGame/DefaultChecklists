@@ -5,7 +5,7 @@
   "Name": "POST-EVA",
   "Side": 1,
   "SortPriority": 53,
-  "checklistText": "Close the hatch using the [C] menu.\nCABIN VENT \t\t\t- UP (CLOSED)\nLT/RT SEC O2 BOTTLES \t- CLOSED\nRAD \t\t\t\t\t- BYPASS\nREPRESS knob \t\t\t- OPEN\n\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\nREPRESS knob \t\t\t- CLOSED\nRAD \t\t\t\t\t- FLOW\nRT SEC O2 BOTTLE \t\t- OPEN\nCABIN AIR RECIRC \t\t- UP (OPEN)\n\nPOWER DOWN S/C, IF NESSESARY\n\t",
+  "checklistText": "<size=22>POST-EVA</size>\n\nClose the hatch using the [C] menu.\nCABIN VENT \t\t\t- UP (CLOSED)\nLT/RT SEC O2 BOTTLES \t- CLOSED\nRAD \t\t\t\t\t- BYPASS\nREPRESS knob \t\t\t- OPEN\n\nWait until the CABIN PRESSURE gauge reaches normal cabin conditions.\nREPRESS knob \t\t\t- CLOSED\nRAD \t\t\t\t\t- FLOW\nRT SEC O2 BOTTLE \t\t- OPEN\nCABIN AIR RECIRC \t\t- UP (OPEN)\n\nPOWER DOWN S/C, IF NESSESARY\n\t",
   "Steps": [
     {
       "Program": 2,

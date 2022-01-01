@@ -5,7 +5,7 @@
   "Name": "PLATFORM ALIGN",
   "Side": 1,
   "SortPriority": 14,
-  "checklistText": "1. Navigate to the attitude using window reference\n2. Platform \t\t\t\t- CAGE\n3. Attitude Control \t\t\t- PLAT\n4. Gyros will align to body reference after 5 seconds\n5. New 0,0,0 attitude will be current orientation",
+  "checklistText": "<size=22>PLATFORM ALIGN</size>\n\n1. Navigate to the attitude using window reference\n2. Platform \t\t\t\t- CAGE\n3. Attitude Control \t\t\t- PLAT\n4. Gyros will align to body reference after 5 seconds\n5. New 0,0,0 attitude will be current orientation",
   "Steps": [
     {
       "Program": 2,

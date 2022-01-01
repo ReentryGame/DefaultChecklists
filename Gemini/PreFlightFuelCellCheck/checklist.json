@@ -5,7 +5,7 @@
   "Name": "FUEL CELL CHECK (T-45)",
   "Side": 0,
   "SortPriority": 2,
-  "checklistText": "FUEL CELL CHECK (T-45)\nApprox. T-45 minutes\n\n1. Fuel Cell 1A \t\t\t- ON\r\n2. Fuel Cell 1B \t\t\t- ON\r\n3. Fuel Cell 1C \t\t\t- ON\r\n4. Fuel Cell 2A \t\t\t- ON\r\n5. Fuel Cell 2B \t\t\t- ON\r\n6. Fuel Cell 2C \t\t\t- ON\r\n7. Voltmeter\t\t\t\t- 1A\r\n8. Verify volts > 24v.\r\n9. Voltmeter \t\t\t- 1B\r\n10. Verify volts > 24v.\r\n11. Voltmeter \t\t\t- 1C\r\n12. Verify volts > 24v.\r\n13. Voltmeter \t\t\t- 2A\r\n14. Verify volts > 24v.\r\n15. Voltmeter \t\t\t- 2B\r\n16. Verify volts > 24v.\r\n17. Voltmeter \t\t\t- 2C\r\n18. Verify volts > 24v.\r\n19. Fuel Cell 1A \t\t- OFF\r\n20. Fuel Cell 1B \t\t- OFF\r\n21. Fuel Cell 1C \t\t- OFF\r\n22. Fuel Cell 2A \t\t- OFF\r\n23. Fuel Cell 2B \t\t- OFF\r\n24. Fuel Cell 2C \t\t- OFF\n25. Voltmeter \t\t\t- C\n",
+  "checklistText": "<size=22>FUEL CELL CHECK (T-45)</size>\n\n1. Fuel Cell 1A \t\t\t- ON\r\n2. Fuel Cell 1B \t\t\t- ON\r\n3. Fuel Cell 1C \t\t\t- ON\r\n4. Fuel Cell 2A \t\t\t- ON\r\n5. Fuel Cell 2B \t\t\t- ON\r\n6. Fuel Cell 2C \t\t\t- ON\r\n7. Voltmeter\t\t\t\t- 1A\r\n8. Verify volts > 24v.\r\n9. Voltmeter \t\t\t- 1B\r\n10. Verify volts > 24v.\r\n11. Voltmeter \t\t\t- 1C\r\n12. Verify volts > 24v.\r\n13. Voltmeter \t\t\t- 2A\r\n14. Verify volts > 24v.\r\n15. Voltmeter \t\t\t- 2B\r\n16. Verify volts > 24v.\r\n17. Voltmeter \t\t\t- 2C\r\n18. Verify volts > 24v.\r\n19. Fuel Cell 1A \t\t- OFF\r\n20. Fuel Cell 1B \t\t- OFF\r\n21. Fuel Cell 1C \t\t- OFF\r\n22. Fuel Cell 2A \t\t- OFF\r\n23. Fuel Cell 2B \t\t- OFF\r\n24. Fuel Cell 2C \t\t- OFF\n25. Voltmeter \t\t\t- C\n",
   "Steps": [
     {
       "Program": 2,
