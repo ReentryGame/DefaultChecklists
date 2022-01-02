@@ -261,6 +261,13 @@
     },
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ONCE PROGRAM LOADED"
+    },
+    {
+      "Program": 2,
       "Type": 4,
       "SetID": 25,
       "ToPosID": 0,
