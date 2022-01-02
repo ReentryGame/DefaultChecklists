@@ -5,7 +5,7 @@
   "Name": "Interior Inspection (T-90)",
   "Side": 0,
   "SortPriority": 10,
-  "checklistText": "COMPLETE INTERIOR INSPECTION\n(Approx. T-90)\n\nELECTRICAL POWER SYSTEM\nNote: These switches are located on both sides of the crew seat.\n1. Main Battery No. 1 - IN (ON)\n2. Main Battery No. 2 - ON\n3. Main Battery No. 3 - IN (ON)\n4. Stby Battery No. 1 - IN (ON)\n5. Stby Battery No. 2 - IN (ON)\n6. Isol Battery - IN (ON)\n\nCOMPLETE INTERIOR INSPECTION\n1. All switch fuses \t\t\t- NO. 1 POSITION\n2. Squib switch \t\t\t\t- OFF\n3. Auto retro jett switch \t- ARM\n4. ASCS mode select switches - \n\ta. ASCS switch \t\t\t- NORM\n\tb. RSCS switch \t\t\t- AUTO\n\tc. Gyro switch \t\t\t- GYRO NORM\n5. Control fuel handles \t- IN\n\ta. Manual fuel handle \t- PUSH RATE COMD\n\tb. Roll fuel handle \t- PUSH ON\n\tc. Yaw fuel handle \t\t- PUSH ON\n\td. Pitch fuel handle \t- PUSH ON\n6. Retro delay switch \t\t- INST\n7. Photo lights switch \t\t- ON\n8. Cabin lights switch \t\t- BOTH\n9. TLM-LO freq switch \t\t- ON\n10. Rescue switch \t\t\t- AUTO\n11. Launch Contl switch \t- OFF\n12. Jett Tower Ring \t\t\t- IN\n13. Sep Capsule Ring \t\t- IN\n14. Retro Att switch \t\t- AUTO\n15. Fire Retro switch \t\t- GUARD INSTALLED\n16. Jett Retro switch \t\t- GUARD INSTALLED\n17. Retract Scope switch\t\t- AUTO\n18. Snorkel Ring \t\t\t- IN\n19. Main Ring \t\t\t\t- IN\n20. Reserve Ring \t\t\t- IN\n21. Landing Bag switch \t\t- AUTO\n22. Control Fuel Qty gauges\t- CHECK\n      a. Auto Fuel \t\t\t- 100%\n      b. Manual Fuel \t\t- 100%\n23. Rate of Descent \t\t\t- 0 FT/SEC\n24. Altimeter \t\t\t\t- CHECK\n25. Satellite clock\n      a. Time of Day\n      b. Time from launch \t- ZERO\n      c. Time to Retrograde\n26. Attitude/Rate ind. \t\t- CHECK\n      a. Rate indicators \t- CENTER\n      b. Attitude indicators - CHECK\n27. Time Zero Cover \t\t\t- REMOVE\n28. Cabin pressure \t\t\t- CHECK\n29. Cabin Air temp \t\t\t- CHECK\n30. Suit Env. Indicator \t\t- CHECK\n31. Oxygen Quantity \t\t- CHECK\n      a. Primary \t\t\t- 100%\n      b. Secondary \t\t\t- 100%\n32. Suit Fan switch \t\t- NORM\n33. Cabin Fan switch \t\t- NORM\n34. DC Volts knob \t\t\t- MAIN\n35. Ammeter switch\t\t\t- PWR OFF\n36. ASCS AC Bus \t\t\t- NORM\n37. Stby Btry switch \t\t- ON\n38. Isol Btry switch \t\t- STBY\n39. Inlet Valve Pwr switch \t- NORM\n40. Audio Bus switch \t\t- NORM\n41. AC voltmeter\t\t\t\t- 115 VOLTS (109v-121v)\n42. VOX Pwr switch \t\t\t- OFF\n43. UHF DF switch \t\t\t- NORM\n44. UHF select switch \t\t- HI PWR\n45. Transmit switch \t\t\t- OFF\n46. Beacon switch \t\t\t- GRND COMD\n47. All Audio Tone switches - ON\n48. Warning Lights switch \t- BRIGHT\n49. Emer O2 switch \t\t\t- NORM\n50. Suit Temp selector \t\t- TO MARK\n51. Cabin Temp selector \t\t- TO MARK\n52. Inverter Temp selector \t- TO MARK\n53. Maneuver - ON\n\tThis spins up the gyros. Please allow 5 minutes spin-up time.\n",
+  "checklistText": "<size=22>COMPLETE INTERIOR INSPECTION (T-90)</size>\n\n<size=20>ELECTRICAL POWER SYSTEM</size>\nNote: These switches are located on both sides of the crew seat.\n1. Main Battery No. 1 - IN (ON)\n2. Main Battery No. 2 - ON\n3. Main Battery No. 3 - IN (ON)\n4. Stby Battery No. 1 - IN (ON)\n5. Stby Battery No. 2 - IN (ON)\n6. Isol Battery - IN (ON)\n\n<size=20>COMPLETE INTERIOR INSPECTION</size>\n1. All switch fuses \t\t\t- NO. 1 POSITION\n2. Squib switch \t\t\t\t- OFF\n3. Auto retro jett switch \t- ARM\n4. ASCS mode select switches - \n\ta. ASCS switch \t\t\t- NORM\n\tb. RSCS switch \t\t\t- AUTO\n\tc. Gyro switch \t\t\t- GYRO NORM\n5. Control fuel handles \t- IN\n\ta. Manual fuel handle \t- PUSH RATE COMD\n\tb. Roll fuel handle \t- PUSH ON\n\tc. Yaw fuel handle \t\t- PUSH ON\n\td. Pitch fuel handle \t- PUSH ON\n6. Retro delay switch \t\t- INST\n7. Photo lights switch \t\t- ON\n8. Cabin lights switch \t\t- BOTH\n9. TLM-LO freq switch \t\t- ON\n10. Rescue switch \t\t\t- AUTO\n11. Launch Contl switch \t- OFF\n12. Jett Tower Ring \t\t\t- IN\n13. Sep Capsule Ring \t\t- IN\n14. Retro Att switch \t\t- AUTO\n15. Fire Retro Push Button \t- GUARD INSTALLED\n16. Jett Retro Push Button\t- GUARD INSTALLED\n17. Retract Scope switch\t\t- AUTO\n18. Snorkel Ring \t\t\t- IN\n19. Main Ring \t\t\t\t- IN\n20. Reserve Ring \t\t\t- IN\n21. Landing Bag switch \t\t- AUTO\n22. Control Fuel Qty gauges\t- CHECK\n      a. Auto Fuel \t\t\t- 100%\n      b. Manual Fuel \t\t- 100%\n23. Rate of Descent \t\t\t- 0 FT/SEC\n24. Altimeter \t\t\t\t- CHECK\n25. Satellite clock\n      a. Time of Day\n      b. Time from launch \t- ZERO\n      c. Time to Retrograde\n26. Attitude/Rate ind. \t\t- CHECK\n      a. Rate indicators \t- CENTER\n      b. Attitude indicators - CHECK\n27. Time Zero Cover \t\t\t- REMOVE\n28. Cabin pressure \t\t\t- CHECK\n29. Cabin Air temp \t\t\t- CHECK\n30. Suit Env. Indicator \t\t- CHECK\n31. Oxygen Quantity \t\t- CHECK\n      a. Primary \t\t\t- 100%\n      b. Secondary \t\t\t- 100%\n32. Suit Fan switch \t\t- NORM\n33. Cabin Fan switch \t\t- NORM\n34. DC Volts knob \t\t\t- MAIN\n35. Ammeter switch\t\t\t- PWR OFF\n36. ASCS AC Bus \t\t\t- NORM\n37. Stby Btry switch \t\t- ON\n38. Isol Btry switch \t\t- STBY\n39. Inlet Valve Pwr switch \t- NORM\n40. Audio Bus switch \t\t- NORM\n41. AC voltmeter\t\t\t\t- 115 VOLTS (109v-121v)\n42. VOX Pwr switch \t\t\t- OFF\n43. UHF DF switch \t\t\t- NORM\n44. UHF select switch \t\t- HI PWR\n45. Transmit switch \t\t\t- OFF\n46. Beacon switch \t\t\t- GRND COMD\n47. All Audio Tone switches - ON\n48. Warning Lights switch \t- BRIGHT\n49. Emer O2 switch \t\t\t- NORM\n50. Suit Temp selector \t\t- TO MARK\n51. Cabin Temp selector \t\t- TO MARK\n52. Inverter Temp selector \t- TO MARK\n53. Maneuver - ON\n\tThis spins up the gyros. Please allow 5 minutes spin-up time.\n\n<size=20>At T-40:</size>\n\tStart ABORT CAPABILITY Checklist",
   "Steps": [
     {
       "Program": 3,
@@ -397,14 +397,14 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Fire Retro switch - GUARD INSTALLED"
+      "Text": "Fire Retro Push Button - GUARD INSTALLED"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Jett Retro switch - GUARD INSTALLED"
+      "Text": "Jett Retro Push Button - GUARD INSTALLED"
     },
     {
       "Program": 3,
@@ -741,6 +741,13 @@
       "SetID": 39,
       "ToPosID": 3,
       "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At T-40: Start ABORT CAPABILITY Checklist"
     }
   ],
   "Images": []

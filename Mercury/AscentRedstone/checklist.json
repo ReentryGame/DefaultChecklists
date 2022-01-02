@@ -5,7 +5,7 @@
   "Name": "REDSTONE",
   "Side": 0,
   "SortPriority": 51,
-  "checklistText": "1. Jett Tower \t\t\t\t\t- GREEN (appx. T+2:10 and 20 sec after \n\t\t\t\t\t\t\t\t\tMECO)\n2. Sep Capsule\t\t\t\t\t- GREEN (appx. 15 sec after Tower Jett)\n3. Auto Retro Jett switch \t\t- OFF\n4. Retro Jett Fuse switch \t\t- OFF\n5. Emer Retro Jett Fuse switch \t- OFF\n\nStart Orbit Checklist",
+  "checklistText": "<size=22>ASCENT/REDSTONE</size>\n\n1. Jett Tower \t\t\t\t\t- GREEN (appx. T+2:10 and 20 sec after \n\t\t\t\t\t\t\t\t\tMECO)\n2. Sep Capsule\t\t\t\t\t- GREEN (appx. 15 sec after Tower Jett)\n3. Auto Retro Jett switch \t\t- OFF\n4. Retro Jett Fuse switch \t\t- OFF\n5. Emer Retro Jett Fuse switch \t- OFF\n\nStart ORBIT Checklist",
   "Steps": [
     {
       "Program": 3,

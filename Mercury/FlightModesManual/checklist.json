@@ -5,7 +5,7 @@
   "Name": "MANUAL",
   "Side": 1,
   "SortPriority": 11,
-  "checklistText": "1. Manual fuel handle \t\t- PULL DIRECT\n2. ASCS switch \t\t\t\t- AUX ON\n3a. If aux damping is desired, \n\tRSCS switch \t\t\t- AUTO\n3b. If aux damping is not desired,\n\tRSCS switch \t\t\t- RATE COMD\n",
+  "checklistText": "<size=24>MANUAL MODE</size>\n\n1. Manual fuel handle \t\t- PULL DIRECT\n2. ASCS switch \t\t\t\t- AUX ON\n3a. If aux damping is desired, \n\tRSCS switch \t\t\t- AUTO\n3b. If aux damping is not desired,\n\tRSCS switch \t\t\t- RATE COMD\n",
   "Steps": [
     {
       "Program": 3,

@@ -5,7 +5,7 @@
   "Name": "RATE COMMAND MODE",
   "Side": 1,
   "SortPriority": 12,
-  "checklistText": "1. Manual fuel handle \t\t- PUSH RATE COMD\n2. RSCS switch \t\t\t\t- RATE COMD\n3. Use handcontroller to maintain desired rates and attitude",
+  "checklistText": "<size=24>RATE COMMAND MODE</size>\n\n1. Manual fuel handle \t\t- PUSH RATE COMD\n2. RSCS switch \t\t\t\t- RATE COMD\n3. Use handcontroller to maintain desired rates and attitude",
   "Steps": [
     {
       "Program": 3,

@@ -5,7 +5,7 @@
   "Name": "PRE-RETRO (TR-30)",
   "Side": 1,
   "SortPriority": 60,
-  "checklistText": "Approximately 30 minutes before retro time (Tr-30mins):\n1. Cabin Temp \t\t\t- COLD\n2. Suit Temp \t\t\t- COLD\n3. Inverter Temp \t\t- COLD\n\nApproximately 15 minutes before retro time (Tr-15mins):\n4. Emer Retro Seq. Fuse \t\t- ON\n5. 1, 2, 3 Retro Rckt Fuse \t- ON\n6. Emer Retro Jet Fuse \t\t- ON\n7. ASCS .05G Fuse \t\t\t- ON\n8. Emer .05G Fuse \t\t\t- ON\n9. Periscope Fuse \t\t\t- ON\n10. Cmd Rcvr A Fuse \t\t- ON\n11. TLM Hi Freq Fuse \t\t- ON\n12. Squib switch \t\t\t- ARM\n13. Auto Retro Jett switch \t- OFF\n14. TLM Lo Freq switch \t\t- ON\n15. Transmit switch \t\t\t- UHF\n16. BCN switch \t\t\t\t- CONT\n17. Retro Jett Fuse \t\t\t- OFF\n18. Retro Man Fuse \t\t\t- ON\n19. Attitude Select \t\t\t- RETRO\n20. Maintain Retro attitude\n\nStart RETRO Checklist",
+  "checklistText": "<size=24>PRE RETRO (Tr-30)</size>\n\nApproximately 30 minutes before retro time (Tr-30mins):\n1. Cabin Temp \t\t\t- COLD\n2. Suit Temp \t\t\t- COLD\n3. Inverter Temp \t\t- COLD\n\nApproximately 15 minutes before retro time (Tr-15mins):\n4. Emer Retro Seq. Fuse \t\t- ON\n5. 1, 2, 3 Retro Rckt Fuse \t- ON\n6. Emer Retro Jet Fuse \t\t- ON\n7. ASCS .05G Fuse \t\t\t- ON\n8. Emer .05G Fuse \t\t\t- ON\n9. Periscope Fuse \t\t\t- ON\n10. Cmd Rcvr A Fuse \t\t- ON\n11. TLM Hi Freq Fuse \t\t- ON\n12. Squib switch \t\t\t- ARM\n13. Auto Retro Jett switch \t- OFF\n14. TLM Lo Freq switch \t\t- ON\n15. Transmit switch \t\t\t- UHF\n16. BCN switch \t\t\t\t- CONT\n17. Retro Jett Fuse \t\t\t- OFF\n18. Retro Man Fuse \t\t\t- ON\n19. Attitude Select \t\t\t- RETRO\n20. Maintain Retro attitude\n\nStart RETRO Checklist",
   "Steps": [
     {
       "Program": 3,
@@ -181,7 +181,7 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Start RETRO Checklist"
-    }    
+    }
   ],
   "Images": []
 }

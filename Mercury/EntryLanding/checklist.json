@@ -5,7 +5,7 @@
   "Name": "LANDING",
   "Side": 1,
   "SortPriority": 90,
-  "checklistText": "1. Emer Drogue Fuse \t\t\t\t- ON (BEFORE 30,000 FT)\n2. At 21,000 ft. check drogue chute deployment\n3. At appx. 20,000ft, Snorkel Ring \t- PULL\n4. Emer O2 handle \t\t\t\t\t- EMER\n5. Landing Bag switch \t\t\t\t- AUTO\n6. At 10,000 ft, \"Main\" light \t\t- GREEN \n7. UHF/DF switch \t\t\t\t\t- R/T\n8. Press Reg Handle \t\t\t\t- PULL\n9. \"Landing Bag\" Telelight \t\t\t- GREEN\nAfter Impact:\n1. ASCS AC Bus switch \t\t\t\t- OFF\n2. Photo Lights switch \t\t\t\t- OFF",
+  "checklistText": "<size=24>LANDING</size>\n\n1. Emer Drogue Fuse \t\t\t\t- ON (BEFORE 30,000 FT)\n2. At 21,000 ft. check drogue chute deployment\n3. At appx. 20,000ft, Snorkel Ring \t- PULL\n4. Emer O2 handle \t\t\t\t\t- EMER\n5. Landing Bag switch \t\t\t\t- AUTO\n6. At 10,000 ft, \"Main\" light \t\t- GREEN \n7. UHF/DF switch \t\t\t\t\t- R/T\n8. Press Reg Handle \t\t\t\t- PULL\n9. \"Landing Bag\" Telelight \t\t\t- GREEN\n\n<size=22>After Impact:</size>\n1. ASCS AC Bus switch \t\t\t\t- OFF\n2. Photo Lights switch \t\t\t\t- OFF",
   "Steps": [
     {
       "Program": 3,

@@ -5,7 +5,7 @@
   "Name": "NORMAL",
   "Side": 1,
   "SortPriority": 13,
-  "checklistText": "1. ASCS switch \t\t\t- NORM\n2. RSCS switch \t\t\t- AUTO\n3. Manual Fuel Handle \t- PUSH RATE COMD\n",
+  "checklistText": "<size=24>NORMAL MODE</size>\n\n1. ASCS switch \t\t\t- NORM\n2. RSCS switch \t\t\t- AUTO\n3. Manual Fuel Handle \t- PUSH RATE COMD\n",
   "Steps": [
     {
       "Program": 3,
