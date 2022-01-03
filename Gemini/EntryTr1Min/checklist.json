@@ -5,7 +5,7 @@
   "Name": "1 MIN TO RETRO",
   "Side": 0,
   "SortPriority": 43,
-  "checklistText": "<size=22>AT TR -1 (MIN):</size>\n\n1. HOLD RETROATTITUDE (20 DEG PITCH DOWN)\n2. SEP OAMS LINE \t\t\t- PUSH\n3. SEP ELECT \t\t\t\t- PUSH\n4. SEP ADAPT \t\t\t\t- PUSH\n\nAT TR -30 SEC:\n1. RETRO ROCKET SQUIBS \t- ARM\n\nAT TR -5 SEC:\n1.. ARM AUTO RETRO \t\t\t- PRESS\r\n\nWAIT FOR RETROS TO FIRE\n1. EVENT TIMER SWITCH TO COUNTING UP\n\nAT TR +1 SEC:\n2. MAN FIRE RETRO \t\t\t- PUSH\n\nAT TR +30 SEC:\n1. PLATFORM \t\t\t\t- FREE\n\nAT TR +45 SEC (RETRO JETT LIGHT - AMBER):\n1. RETRO JETT \t\t\t\t- ARM\n2. JETT RETRO \t\t\t\t- PUSH\n\nSTART POST RETRO CHECKLIST\n",
+  "checklistText": "<size=22>TR-1 (MIN):</size>\n\n<size=22>AT TR -1 (MIN):</size>\n1. HOLD RETROATTITUDE (20 DEG PITCH DOWN)\n2. SEP OAMS LINE \t\t\t- PUSH\n3. SEP ELECT \t\t\t\t- PUSH\n4. SEP ADAPT \t\t\t\t- PUSH\n\n<size=22>AT TR -30 SEC:</size>\n1. RETRO ROCKET SQUIBS \t- ARM\n\n<size=22>AT TR -5 SEC:</size>\n1.. ARM AUTO RETRO \t\t\t- PRESS\r\n\n<size=22>WAIT FOR RETROS TO FIRE</size>\n1. EVENT TIMER SWITCH TO COUNTING UP\n\n<size=22>AT TR +1 SEC:</size>\n2. MAN FIRE RETRO \t\t\t- PUSH\n\n<size=22>AT TR +30 SEC:</size>\n1. PLATFORM \t\t\t\t- FREE\n\n<size=22>AT TR +45 SEC (RETRO JETT LIGHT - AMBER):</size>\n1. RETRO JETT \t\t\t\t- ARM\n2. JETT RETRO \t\t\t\t- PUSH\n\nSTART POST RETRO CHECKLIST\n",
   "Steps": [
     {
       "Program": 2,

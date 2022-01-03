@@ -5,7 +5,7 @@
   "Name": "CIRCULARIZE ORBIT",
   "Side": 1,
   "SortPriority": 15,
-  "checklistText": "<size=22>CIRCULARIZE ORBIT</size>\n\nComputer:\n- Set Ap (core 57) and Pe (core 56) to your destination target.\n- Read time to Ap (core 73) and Pe (core 74)\n\nThe Hohmann Transfer:\nAt Apogee:\n- Burn so IVI's read zero\n\nAp Perigee:\n- Burn so IVI's read zero",
+  "checklistText": "<size=24>CIRCULARIZE ORBIT</size>\n\n<size=22>Computer:</size>\n- Set Ap (core 57) and Pe (core 56) to your destination target.\n- Read time to Ap (core 73) and Pe (core 74)\n\n<size=22>The Hohmann Transfer:</size>\nAt Apogee:\n- Burn so IVI's read zero\n\nAp Perigee:\n- Burn so IVI's read zero",
   "Steps": [],
   "Images": []
 }

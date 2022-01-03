@@ -5,7 +5,7 @@
   "Name": "Docking",
   "Side": 1,
   "SortPriority": 32,
-  "checklistText": "<size=22>DOCKING</size>\n\n1. Index Bar \t\t\t- EXTEND\n2. Exterior Lights \t\t- DOCK\n3. (optional)Encoder CMD\t- 250, ACQ Lights OFF\n4. (optional)Encoder CMD\t- 141, Approach Lights ON\n5. (optional)Encoder CMD\t- 201, Agenda display BRIGHT\n6. If Agena is not rigid, Encoder CMD: 221 - Rigidize\n\nKeep docking port centered, zero IVI's until docking complete.\nWarning: Keep alignment with target, keep speed low.",
+  "checklistText": "<size=24>DOCKING</size>\n\n1. Index Bar \t\t\t- EXTEND\n2. Exterior Lights \t\t- DOCK\n3. (optional)Encoder CMD\t- 250, ACQ Lights OFF\n4. (optional)Encoder CMD\t- 141, Approach Lights ON\n5. (optional)Encoder CMD\t- 201, Agenda display BRIGHT\n6. If Agena is not rigid, Encoder CMD: 221 - Rigidize\n\nKeep docking port centered, zero IVI's until docking complete.\nWarning: Keep alignment with target, keep speed low.",
   "Steps": [],
   "Images": []
 }

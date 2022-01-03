@@ -5,7 +5,7 @@
   "Name": "Undocking",
   "Side": 1,
   "SortPriority": 34,
-  "checklistText": "<size=22>UNDOCKING</size>\n\n1. OAMS PWR \t\t\t- ON\n2. OAMS Valve \t\t\t- OPEN\n3. Encoder CMD: 220 \t\t- UNDOCK\n4. Within 30 seconds, back away from target vehicle.\n\nEMERGENCY RELEASE\n1. EMER REL \t\t\t- PUSH\nNote: Destroys the hooks on Gemini Spacecraft. Unable to dock after this.",
+  "checklistText": "<size=24>UNDOCKING</size>\n\n1. OAMS PWR \t\t\t- ON\n2. OAMS Valve \t\t\t- OPEN\n3. Encoder CMD: 220 \t\t- UNDOCK\n4. Within 30 seconds, back away from target vehicle.\n\n<size=20>EMERGENCY RELEASE</size>\n1. EMER REL \t\t\t- PUSH\nNote: Destroys the hooks on Gemini Spacecraft. Unable to dock after this.",
   "Steps": [],
   "Images": []
 }

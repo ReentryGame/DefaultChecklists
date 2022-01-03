@@ -5,7 +5,7 @@
   "Name": "SET HF RADIO",
   "Side": 1,
   "SortPriority": 11,
-  "checklistText": "<size=22>SET HF RADIO</size>\n\n1. HF Antenna Control \t\t- EXT\r\n2. Radio Antenna Select \t\t- RNTY\r\n3. Radio Mode (A or B) \t\t- HF",
+  "checklistText": "<size=24>SET HF RADIO</size>\n\n1. HF Antenna Control \t\t- EXT\r\n2. Radio Antenna Select \t\t- RNTY\r\n3. Radio Mode (A or B) \t\t- HF",
   "Steps": [
     {
       "Program": 2,
