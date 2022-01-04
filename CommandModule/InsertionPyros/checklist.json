@@ -5,7 +5,7 @@
   "Name": "SECS & PYRO ARM",
   "Side": 0,
   "SortPriority": 310,
-  "checklistText": "<size=21>Sequencer Pyro Arm checklist</size>\r\ncb SECS ARM (2) - close\r\nSECS LOGIC (2) - on(up)\n",
+  "checklistText": "<size=21>Sequencer Pyro Arm checklist</size>\r\nPanel 8\t\tcb SECS ARM (2) \t\t\t\t\t- close\r\n\t\t\tSECS LOGIC (2) \t\t\t\t\t- on(up)\n",
   "Steps": [],
   "Images": []
 }

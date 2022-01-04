@@ -1,347 +1,348 @@
 {
-    "Spacecraft": 0,
-    "ProjectName": "AscentBoost",
-    "Group": "ASCENT",
-    "Name": "BOOST",
-    "Side": 0,
-    "SortPriority": 201,
-    "checklistText": "<size=21>BOOST</size>\n-00:09\tIgnition CMD\n-00:01\tL/V ENGINES lts (5) - out\n 00:00\tLIFTOFF lt - on\n\n\t\t\t*LIFTOFF VERIFIED:\t\t\t\t\t*\n\t\t\t*  If LIFTOFF lt off - push\t\t*\n\t\t\t*  If NO AUTO ABORT lt on - push\t*\n\n\t\tClock running (auto) - report\n\t\tMET Resets & starts counting up (auto)\n\t\tP11 auto\n\n\t\t\t*NO P11 - Key ENTR\t\t\t*\n\t\t\t*START DET & RESET MET\t*\n\t\t06 62 VI, H DOT, H PAD (fps, fps, .1nm)\n\t\t\t*If LV GUID & LV RATE lts-on\t*\n\t\t\t* LV GUID - CMC\t \t\t\t\t*\n\n+00:02\tYaw Mnvr - report\n+00:11\tRoll & Pitch Program - report\n+00:30\tRoll complete - report\n\n+00:42\tMODE IB - report\n\t\tPRPLNT DUMP - RCS CMD\n+00:50\tMonitor qα to T+02:00\n\t\t(100%, 5Â° Att error)\n\n\t\tCABIN PRESSURE DECREASING ~14K(2.3nm)\n\t\t\t* NO PRESSURE DECREASE ~25K(4.1nm)\t*\n\t\t\t*  CAB PRESS RELIEF vlv(RH)-DUMP\t*\n+01:21\tMAX Q\n+01:54\tMODE IC - report\n\t\tV82E, N62E\n+02:00\tEDS AUTO - OFF\n\t\t2 ENG OUT - OFF\n\t\tLV RATES - OFF\n\t\tLV RATE lt disabled as IU failure cue\n\n\t\tGO/NO GO FOR STAGING - report\n+02:16\tINBOARD CUTOFF - (lt 5 on)\n\t\tLIFTOFF lt - out\n+02:39\tCMC BOOST Polynomial ends\n+02:39\tOUTBOARD CUTOFF - report (lts on)\n+02:40\tSIC/SII STAGING (lts - out)\n+02:41\tSII Ign Command (lts on)\n\t\tSII SEP lt - on\n+02:42\tSII 65% - lts out\n\n+03:10\tSII SEP lt - out\treport\n\n+03:15\tTWR JETT (2) - on (up) (TFF>1+20)\n\t\t\t*For MAN BOOSTER CONTROL\t*\n\t\t\t*  LV GUID - CMC\t\t\t*\n\t\t\t*  Key V46E\t\t\t\t\t*\n\t\tα/Pc sw - Pc\n\t\tMAN ATT PITCH - RATE CMD\n\t\tTwr Jett & MODE II - Report\n\t\tGLY EVAP STEAM PRESS - AUTO\n\t\tGLY EVAP H2O FLOW - AUTO\n\n+03:20\tGuidance Initiate - report (OECO +41sec)\n+03:50\tGuidance Good\n+04:00\tReport Status\n+05:00\tReport Status\n+06:00\tReport Status\n+06:00\tSIVB to COI\n\t\tGMBL MOT (4) - START - ON (LMP Confirm)\n\t\tCheck GPI\n\t\t\tLV/SPS IND - GPI (Momentarily)\n\t\t\tPITCH = -0.70Â°\n\t\t\tYAW = +1.90Â°\n+06:15\tOMNI ANT\t- D (AZ < 96Â°)\n\t\t- C (AC > 96Â°)\n+06:55\tSIVB to orbit\n+07:00\tReport Status\n+07:39\tIECO (lt 5 - on)\n+07:59\tPU SHIFT\n+08:00\tReport Status\n+08:30\tGO/NO GO FOR STAGING - report\n+08:35\tLevel sense arm____\n+09:00\tMove IV - Report\n\t\tReport Status\n+09:10\tOECO (lts on)\n+09:11\tSII Staging - lts out\n+09:12\tSIVB Ign Cmd - lt on\n+09:14\tSIVB 65% - lt out\n\n+10:00\tGO/NO GO FOR ORBIT report\n\n+11:00\tReport Status\n+11:45\tSECO (lt on) - report\n\t\t(Begin TB5)\n\n\t\t\t*If LV GUID - CMC\t\t\t\t*\n\t\t\t*LV STAGE sw - SII/SIVB\t\t\t*\n\t\t\t*SECO\t\t\t\t\t\t\t*\n\t\t\t*LV ENG 1 lt - on\t\t\t\t*\n\t\t\t*Begin TB5\t\t\t\t\t\t*\n\n\t\t\t*If no SECO, (VI +100fps\t\t\t*\n\t\t\t*LV STAGE sw - SII/SIVB\t\t\t*\n\t\t\t*If still no SECO, THC\t\t\t*\n\t\t\t*  CCW & neutral in 1 sec\t\t*\n+11:55\tINSERTION - lt out (TB5 + 10 sec)\n\n\t\t\tRecord  VI_____\t\t(fps)\n\t\t\t\t\tH DOT_____\t(fps)\n\t\t\t\t\tH PAD_____\t(.1nm)\n\t\t\tKEY RLSE\n\t\t\t\tRecord\t\tHA____\t\t(.1nm)\n\t\t\t\t\t\t\tHP____\t\t(.1nm)\n\t\t\t\t\t\t\tTFF___\t\t(min-sec)\t\t\n\t\t\tPRO\n\t\tV37E 00E\n\t\tWhen CMC ACTY lt out:\n\t\tV66E\n\t\tV45E\n\t\tVerify DAP load, V48:\t\tR1 = 31102, R2 = 01111\n\t\tV46E\t\t\t\t\t\tCSM WT _____\n\t\tV83E (check o)\t\t\t\tP TRIM ______\n\t\tPRO\t\t\t\t\t\t\tY TRIM_______",
-    "Steps": [{
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "T -00:00 Liftoff lt - on"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Verify Clock is running from zero."
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Verify P11"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "+00:42 Mode 1B"
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 40,
-            "ToPosID": 5,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Verify Cabin Pressure decrease at > 2.3 nmi"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "+01:54 Mode 1C"
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 51,
-            "ToPosID": 5,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 41,
-            "ToPosID": 5,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 42,
-            "ToPosID": 5,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "+02:16 Inboard Cutoff (lt 5 out)"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Verify Liftoff lt - out"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "+02:39 Outboard Cutoff - eng lts on"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Staging S-IC/S-II"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "+03:15 Tower Jett"
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 43,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 44,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 45,
-            "ToPosID": 5,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 110,
-            "ToPosID": 2,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 181,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 177,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "+06:00 report and proceed"
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 118,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 119,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 120,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 121,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 46,
-            "ToPosID": 5,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 1,
-            "SetID": 46,
-            "ToPosID": 4,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Wait for S-II IECO, then PRO"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Wait for S-IVB Cutoff and insertion, then PRO"
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 17,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 1,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 8,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 12,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 18,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 5,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 5,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 18,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 1,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 11,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 11,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 18,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 1,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 9,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 10,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 4,
-            "SetID": 18,
-            "ToPosID": 0,
-            "Text": null
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Verify DAP load, V48 R1=31102"
-        },
-        {
-            "Program": 0,
-            "Type": 0,
-            "SetID": 0,
-            "ToPosID": 0,
-            "Text": "Run P00"
-        }
-    ],
-    "Images": []
+  "Spacecraft": 0,
+  "ProjectName": "AscentBoost",
+  "Group": "ASCENT",
+  "Name": "BOOST",
+  "Side": 0,
+  "SortPriority": 31,
+  "checklistText": "<size=23>4.3 BOOST AND INSERTION</size>\n\n<size=21>4.3.1 BOOST</size>\nPanel 1\n-00:09\t\tIgnition CMD\n-00:01\t\tL/V ENGINES lts (5) \t\t\t\t- out\n+00:00\t\tLIFTOFF lt \t\t\t\t\t\t\t- on &\n\t\t\t\tNO AUTO ABORT lt\t\t\t\t- out\n\n\t\t\t\t\tWARNING\n\t\tDo not press LIFT OFF/NO ABORT pb if LV RATE or any LV ENG \n\t\tlts on.\n\t\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\t\tx\tLIFTOFF VERIFIED:\t\t\t\tx\t\t\t\t\n\t\t\t\t\t  If LIFTOFF lt off \t - push\t\t\t\n\t\t\t\tx   If NO AUTO ABORT lt on - push\tx\n\t\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\t\t\n\n\t\t\tVerify EVNT TMR ind resets to zero & starts counting up\n\t\t\t\n\t\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\t\tx EVENT TIMER START - START x\n\t\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\t\n\t\t\tVerify MSN TMR ind resets to zero & startings counting up\n\n\t\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\t\tx   MSN TMR - RESET/START   x\n\t\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\t\n\t\t\tVerify P11 (auto)\n\n\t\t\t\txxxxxxxxxxxxxxxxxxxxx\n\t\t\t\tx  No P11 - Key ENTR\tx\n\t\t\t\txxxxxxxxxxxxxxxxxxxxx\n\n\t\t\tV06 N62\n\t\t\t\tVI \t\tXXXXX. \tFPS = Inertial velocity\n\t\t\t\tH dot\tXXXXX.\tFPS = Altitude rate\n\t\t\t\tH pad\tXXXX.X\tNM  = Altitude above pad radius\n\t\t\t\n\t\t\tIf LV GUID & LV RATE lts\t\t\t- on,\n\t\t\t\tfrom T +0 to T +2 min\t\t\t\nPanel 2\t\tLV GUID \t\t\t\t\t\t\t- CMC\n\t\t\tIf man cont req \n\t\t\t\tKey 46E\n+00:12\t\tRoll & Pitch Program \t\t\t\t- report\n+00:30\t\tRoll complete \t\t\t\t\t\t- report\n\n+00:42\t\tPRPLNT DUMP \t\t\t\t\t\t- RCS CMD\n\t\t\tMODE IB \t\t\t\t\t\t\t- report\n\n+00:50\t\tMonitor α/Pc ind to T+02:00\n\t\t\t(100% AOA, 5° ROLL error)\n\nPanel 2\n13K'-15K'\tCAB PRESS ind\t\t\t\t\t\t- starts desc\t\t\n\t\t\t\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\tx If no decr by 25K' \t\t\t\t\t\t   x\n\t\t\t\trh CAB PRESS RELF vlv \t- DUMP\n\t\t\t\tuntil CAB PRESS  ind - 8 psia, then NORM \n\n\t\t\t  If still no decr \n\t\t\t\tCAB PRESS RELF vlv \t\t- open\n\t\t\tx\tuntil CAB PRESS  ind - 8 psia, then NORM x\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\n+01:21\t\tMAX Q\n+01:56\t\tMODE IC \t\t\t\t\t\t\t- report\n\t\t\t\t(R3 = 16.5 NM)\t\n+02:00\t\tEDS AUTO \t\t\t\t\t\t\t- OFF\n\t\t\t2 ENG OUT sw\t\t\t\t\t\t- OFF\n\t\t\tLV RATES sw\t\t\t\t\t\t- OFF\nPanel 1\t\tα/Pc IND sw\t\t\t\t\t\t\t- Pc\n\t\t\tLV RATE lt disabled as IU failure cue\n+02:10\t\tGO/NO GO FOR STAGING \t\t\t\t- report\n+02:15\t\tCECO (LV ENG 5 lt) \t\t\t\t\t- on\n\t\t\tLIFTOFF lt \t\t\t\t\t\t\t- out (CECO +0.6 sec)\n+02:42\t\tOECO (LV ENG 1, 2, 3, & 4 lts) \t\t- on\n+02:43\t\tAll eng lts \t\t\t\t\t\t- out\n\t\t\tSII/SIVB staging cabibility armed (OECO +1.4 sec)\n\t\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\tx\tIf early SII/SIVB staging req, x\nPanel 2\t\tx\tLV STAGE - on (up)\t\t\t   x\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\nPanel 1\n+02:44 \t\tLV ENG 1, 2, 3, 4, & 5 lts\t\t\t- on\n\t\t\tSII SEP lt \t\t\t\t\t\t\t- on\n+02:45\t\tAll eng lts \t\t\t\t\t\t- out\nPanel 2\t\tGLY EVAP STEAM PRESS - AUTO\n\t\t\tGLY EVAP H2O FLOW - AUTO\nPanel 1\n+03:13\t\tSII SEP lt \t\t\t\t\t\t\t- out\n\nPanel 2\n+03:18\t\tTWR JETT (both) \t\t\t\t\t- on (up) (TFF>1+20)\n\t\t\tTWR JETT & MODE II \t\t\t\t- Report\n\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\t\t\n\t\t\tx\tNo tower jett\t\t\t\t   x\n\t\t\tx\tGo to EMER PROCEDURES, 5.3.2.6 x\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\n\n\t\t\t*For MAN BOOSTER CONTROL\t*\n\t\t\t*  LV GUID - CMC\t\t\t*\n\t\t\t*  Key V46E\t\t\t\t\t*\n\t\t\nPanel 1\t\tMAN ATT PITCH\t\t\t\t\t\t - RATE CMD\n\t\t\n+03:23\t\tLV guidance init \t\t\t\t\t- report (OECO +41sec)\n+03:53\t\tGuidance Good\n+04:00\t\tReport Status\n+05:00\t\tReport Status\n+05:40\t\tUpstage capability to COI\n+05:50\t\tSIVB to orb capability\n+06:00\t\tReport Status\n+06:00\t\tReport Status\n\t\t\tLV IND/GPI sw \t\t\t\t\t\t- GPI\t\t\t\n\t\t\tMon main bus voltages during gmbl mot start\n\t\t\tGMBL MOT (4) \t\t\t\t\t\t- START\n\t\t\tLV IND/GPI sw \t\t\t\t\t\t- SII/SIVB\n+06:15\t\tIf AZ <96°\nPanel 3\t\t\tS BD ANT OMNI\t\t\t\t\t- D\n\t\t\tIf AZ >96°\n\t\t\t\tS BD ANT OMNI\t\t\t\t\t- C\n+07:00\t\tReport Status\n+07:42\t\tCECO (LV ENG 5 lt) \t\t\t\t\t- on\n+08:00\t\tReport Status\n+08:30\t\tGO/NO GO FOR STAGING \t\t\t\t- report\n+09:00\t\tMODE IV \t\t\t\t\t\t\t- report\n+09:11\t\tOECO (LV ENG 1, 2, 3, & 4 lts) \t\t- on\n+09:12\t\tAll eng lts \t\t\t\t\t\t- out\n\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxx\n\t\t\tx\tIf no SII/SIVB staging \tx\n\t\t\tx\t\tLV STAGE - on (up)  x\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxx\nPanel 1\n+09:13\t\tLV ENG 1 lt \t\t\t\t\t\t- on\n+09:16\t\tLV ENG 1 lt \t\t\t\t\t\t- out\n\n+10:00\t\tGO/NO GO FOR ORBIT report\n\t\t\tReport/confirm COI\n\t\t\t\tMODE IV\n+11:00\t\tReport Status\n\t\t\tIf CMC takeover excersised during thrusting go to backup \n\t\t\t\tfor SECO\n+11:29\t\tSECO \nPanel 1\t\tLV ENG 1 lt \t\t\t\t\t\t- on\n\t\t\tBegin Time Base 5 (TB5)\n\t\t\t\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxxx\t\t\t\n\t\t\tx\tIf late SECO \t\t\t   x\nPanel 2\t\tor  LV GUID sw - CMC\n\t\t\t\t\tLV STAGE sw - on (up)\n\t\t\t\t\t\tSECO\nPanel 1\t\t\t\t\tLV ENG 1 lt - on\n\t\t\t\t\t\tBegin TB5\n\t\t\t\tIf still no SECO\n\t\t\t\t\tTHC - CCW, return \n\t\t\t\t\t\twithin 1 sec\n\t\t\t\t\t\tSECO\n\t\t\t\t\t\tLV ENG 1 lt - on\n\t\t\tx\t\t\tBegin TB5\t\t  x\n\t\t\txxxxxxxxxxxxxxxxxxxxxxxxxx\n\n+11:40\t\tINSERTION \n\t\t\tLV ENG 1 lt \t\t\t\t\t- out (SECO + 10 sec)\n\t\t\tRcd from DSKY\n\t\t\t\tVI\t\t_____\tXXXXX. \tFPS = Inertial velocity\n\t\t\t\tH dot\t_____\tXXXXX. \tFPS = Altitude rate\n\t\t\t\tH pad\t_____\tXXXX.X\tNM\t= Altitude above pad radius \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t(R30, Orbital Parameters)\n\t\t\tKey V82E\n\t\t\t\tFL V16 N44\n\t\t\t\t\tHa\t\t\tXXXX.X\tNM \t\t= Apogee altitude\n\t\t\t\t\tHp\t\t\tXXXX.X\tNM \t\t= Perigee altitude\n\t\t\t\t\tTFF\t\t\tXXBXX\tMIN-SEC\t= Time of free fall to \n\t\t\t\t\t\t\t\t\t\t\t\t\tto 49.4 NM (300K')\n\t\t\tKey N50E\n\t\t\t\tSplash Error\tXXXX.X\tNM \t\t= Neg for undershoot\n\t\t\t\t\t\t\t\t\t\t\t\t  pos for overshoot\n\t\t\t\tHp\t\t\t\tXXXX.X\tNM \t\n\t\t\t\tTFF\t\t\t\tXXBXX\tMIN-SEC\t\n\t\t\t\n\t\t\t\tKEY REL\n\t\t\t\n\t\t\tFL V16 N44\n\t\t\t\tHa\t\t\t\tXXXX.X NM\n\t\t\t\tHp\t\t\t\tXXXX.X NM\n\t\t\t\tTFF\t\t\t\tXXBXX MIN-SEC\t= If TFF = -59B59, TF Hp \n\t\t\t\t\t\t\t\t\t\t\t\t\tavl by keying N32E\n\t\t\t\tPRO\n\t\t\tV06 N62\n\t\t\t\tVI\t\t\t\tXXXXX. \tFPS\n\t\t\t\tH dot\t\t\tXXXXX. \tFPS\n\t\t\t\tH pad\t\t\tXXXX.X\tNM\t\t\t\t\n\t\t\n\t\t\tSAFE ORBIT\n\t\t\t\tKey V37E 00E\n\t\t\t\t\tWhen CMC ACTY lt out:\n\t\t\t\t\t\tV66E\n\t\t\t\t\t\tV45E\n\t\t\t\tVerify DAP load, V48:\t\tR1 = 31102, R2 = 01111\n\t\t\t\tV46E\t\t\t\t\t\tCSM WT _____\n\t\t\t\tV83E (check o)\t\t\t\tP TRIM ______\n\t\t\t\tPRO\t\t\t\t\t\t\tY TRIM_______om",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -00:00 Liftoff lt - on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Clock is running from zero."
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify P11"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+00:42 Mode 1B"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 40,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Cabin Pressure decrease at > 2.3 nmi"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+01:54 Mode 1C"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 42,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+02:16 Inboard Cutoff (lt 5 out)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Liftoff lt - out"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+02:39 Outboard Cutoff - eng lts on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Staging S-IC/S-II"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+03:15 Tower Jett"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 43,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 44,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 45,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 181,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 177,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+06:00 report and proceed"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 46,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 46,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for S-II IECO, then PRO"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for S-IVB Cutoff and insertion, then PRO"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 17,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 8,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 9,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 10,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify DAP load, V48 R1=31102"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Run P00"
+    }
+  ],
+  "Images": []
 }

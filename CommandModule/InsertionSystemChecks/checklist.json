@@ -4,8 +4,8 @@
   "Group": "INSERTION",
   "Name": "SYSTEMS CHECK",
   "Side": 0,
-  "SortPriority": 303,
-  "checklistText": "\t\tSystems Verification and Monitoring\r\n\r\nPanel 13:\r\n\t1 Mount ORDEAL BOX \r\n\t\tThis is automatically mounted as a panel in Reentry.\r\n\r\n\t2 Perform Propulsion System: C&WS Oper Check\r\n\r\n\t3 Perform Propulsion System: SM RCS Mon Check\r\n\r\n\t4 Perform Propulsion System: CM RCS Mon Check\r\n\r\n\t5 Perform EPS Checks\r:\n\t\tCryo PSI-Qty check\r\n\t\tFC Power Plant check\r\n\t\tD-C Voltage-Amperage check\r\n\t\tA-C Voltage check\n\r\n\t6 Perform ECS Mon Check\r\n\r\n\t7 Perform SPS Mon Check\r\n\r\nPanel 226:\r\n\t8 cb FC REACS (3) - open (verify)\r\n\t\tcb COAS/TUNL LTG MNB - close\r\n\r\n\r\n\r\n\r\n\r\n",
+  "SortPriority": 43,
+  "checklistText": "<size=21>4.2.3.5 Systems Verification and Monitoring\r</size>\n\r\nPanel 13:\r\n\t1 \t\tMount ORDEAL BOX - This is automatically mounted as a \t\n\t\t\tpanel in Reentry.\r\n\t\t\t\tPerform ORDEAL Initialization, 4.8.4.8\n\r\n\t2 \t\tPerform Propulsion System: C&WS Oper Check\r, 4.5.5.1\n\r\n\t3 \t\tPerform Propulsion System: SM RCS Mon Check\r, 4.5.2.2\n\r\n\t4 \t\tPerform Propulsion System: CM RCS Mon Check\r, 4.5.2.3\n\r\n\t5 \t\tPerform EPS Checks\r:\n\t\t\t\tCryo PSI-Qty check\r, 4.5.3.1\n\t\t\t\tFC Power Plant check\r, 4.5.3.2\n\t\t\t\tD-C Voltage-Amperage check\r, 4.5.3.3\n\t\t\t\tA-C Voltage check, 4.5.3.4\n\r\n\t6 \t\tPerform ECS Mon Check\r, 4.5.4.1\n\r\n\t7 \t\tPerform SPS Mon Check\r, 4.5.2.1\n\r\nPanel 226:\r\n\t8 \t\tcb FC REACS (3) \t\t\t\t\t- open (verify)\r\n\t\t\tcb COAS/TUNL LTG MNB \t\t\t- close\r\n\r",
   "Steps": [
     {
       "Program": 0,
