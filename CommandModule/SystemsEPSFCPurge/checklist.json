@@ -2,10 +2,10 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSFCPurge",
   "Group": "SYSTEMS: EPS",
-  "Name": "FC Purge",
+  "Name": "FC Purge 4.5.3.6",
   "Side": 1,
   "SortPriority": 40503060,
-  "checklistText": "\t\t\tFC Power Plant Purging\r\n\r\n\t1 O2 purging\r\n\r\nPanel 3:\r\n\tFC IND sel - 1, 2, or 3\r\n\tFC 1, 2, or 3 PURG - O2 (2 min)\r\n\r\n\tFC O2 FLOW ind - flow incr\r\n\t\t0.6 lb/hr\r\n\r\n\r\n\tFC 1, 2, or 3 PURG - OFF\r\n\r\n\t2 H2 purging\r\n\t\tH2 PURG LINE  HTR - on (up), 20 min\r\n\t\t\tprior to purge\r\n\r\n\tFC IND sel - 1, 2, or 3\r\n\tFC 1, 2, or 3 PURG - H2\r\n\t\t(1 min, 20 sec)\r\n\tFC H2 FLOW ind - flow incr\r\n\t\t0.67 lb/hr\r\n\r\nPanel 1, 3, 122:\r\n\tMASTER ALARM pb/lt (3) - on\r\n\tMASTER ALARN pb/lt - push\r\n\tMASTER ALARM PB/LT (3) - out\r\n\r\nPanel 2:\r\n\tFC 1, 2, or 3 lt - on (until norm\r\n\t\tflow restored)\r\n\r\nPanel 3:\r\n\tFC 1, 2, or 3 PURG - OFF\r\n\tAfter ≈10 min\r\n\t\tH2 PURG LINE HTR - OFF\r\n\r\n\t\r\n\r\n\r\n\r\n",
+  "checklistText": "<size=21>4.5.3.6 FC Power Plant Purging\r</size>\n\r\n\t1 \tO2 purging\r\nPanel 3\t\tFC IND sel \t\t\t\t\t\t- 1, 2, or 3\r\n\t\t\tFC 1, 2, or 3 PURG \t\t\t\t- O2 (2 min)\r\n\t\t\tFC O2 FLOW ind \t\t\t\t- flow incr\r 0.6 lb/hr\r\n\t\t\tFC 1, 2, or 3 PURG \t\t\t\t- OFF\r\n\r\n\t2 \tH2 purging\r\n\t\t\tH2 PURG LINE  HTR \t\t\t\t- on (up), 20 min\r\tprior to \n\t\t\t\t\t\t\t\t\t\t\tpurge\r\n\t\t\tFC IND sel \t\t\t\t\t\t- 1, 2, or 3\r\n\t\t\tFC 1, 2, or 3 PURG \t\t\t\t- H2\r\n\t\t\t\t(1 min, 20 sec)\r\n\t\t\tFC H2 FLOW ind \t\t\t\t- flow incr\r 0.67 lb/hr\r\nPanel 1, 3, 122:\r\n\t\t\tMASTER ALARM pb/lt (3) \t\t- on\r\n\t\t\tMASTER ALARN pb/lt \t\t\t- push\r\n\t\t\tMASTER ALARM PB/LT (3) \t\t- out\r\n\r\nPanel 2\t\tFC 1, 2, or 3 lt \t\t\t\t- on (until norm\r flow \n\t\t\t\t\t\t\t\t\t\t\trestored)\r\nPanel 3\t\tFC 1, 2, or 3 PURG \t\t\t\t- OFF\r\n\t\t\tAfter ≈10 min\r\n\t\t\t\tH2 PURG LINE HTR \t\t\t- OFF\r\n\r",
   "Steps": [],
   "Images": []
 }

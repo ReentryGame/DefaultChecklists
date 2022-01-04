@@ -5,7 +5,7 @@
   "Name": "CM RCS CHECK",
   "Side": 1,
   "SortPriority": 40502030,
-  "checklistText": "CM RCS Monitoring Check\r\n\r\n\t\tCM RCS PRPLNT tb (both) - gray\r\n\t\tRCS IND sel - CM 1, 2\r\n\t\t\tCM RCS He TEMP ind - 60°-90°\r\n\t\t\tPrior to CM RCS activation\r\n\t\t\t\tCM RCS He PRESS ind - 4100-4200 psia\r\n\t\t\t\tCM RCS MANF PRESS ind - 80-105 psia\r\n\r\n\r\n\r\n\t\tAfter CM RCS activation\r\n\t\t\tCM RCS He PRESS ind - stab at 3300-\r\n\t\t\t\t3500 psia ≈15 min after activation\r\n\t\t\tCM RCS MANF PRESS ind - 287-302 psia\r\n\r\n\r\n\r\n",
+  "checklistText": "<size=21>4.5.2.3 CM RCS Monitoring Check\r</size>\n\r\nPanel 2\t\tCM RCS PRPLNT tb (both) \t\t\t- gray\r\n\t\t\tRCS IND sel \t\t\t\t\t\t- CM 1, 2\r\n\t\t\t\tCM RCS He TEMP ind \t\t\t- 60°-90°\r\n\t\t\t\tPrior to CM RCS activation\r\n\t\t\t\t\tCM RCS He PRESS ind \t\t- 4100-4200 psia\r\n\t\t\t\t\tCM RCS MANF PRESS ind \t- 80-105 psia\r\n\t\t\tAfter CM RCS activation\r\n\t\t\t\tCM RCS He PRESS ind - stab at 3300-\r\t3500 psia ≈15 min after \n\t\t\t\t\tactivation\r\n\t\t\t\tCM RCS MANF PRESS ind \t\t- 287-302 psia\r\n\r",
   "Steps": [],
   "Images": []
 }

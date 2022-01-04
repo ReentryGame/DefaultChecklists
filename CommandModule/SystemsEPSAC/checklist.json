@@ -2,10 +2,10 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSAC",
   "Group": "SYSTEMS: EPS",
-  "Name": "A-C CHECK",
+  "Name": "A-C CHECK 4.5.3.4",
   "Side": 1,
   "SortPriority": 40503040,
-  "checklistText": "\t\tA-C Voltage Check\r\n\r\n\tAC IND sel - BUS 1, 2, øA, B, C\r\n\t\tAC VOLTS ind - 113-117 vac\r\n\r\n\r\n",
+  "checklistText": "<size=21>4.5.3.4 A-C Voltage Check\r</size>\n\r\nPanel 3\t\tAC IND sel \t\t\t\t\t- BUS 1, 2, øA, B, C\r\n\t\t\t\tAC VOLTS ind \t\t\t- 113-117 vac\r\n\r",
   "Steps": [],
   "Images": []
 }

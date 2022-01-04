@@ -2,10 +2,10 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSCryoCheck",
   "Group": "SYSTEMS: EPS",
-  "Name": "CRYO CHECK",
+  "Name": "CRYO CHECK 4.5.3.1",
   "Side": 1,
   "SortPriority": 40503010,
-  "checklistText": "\t\tCryogenic Pressure-Quantity Check\r\n\r\n\r\nPanel 2:\t\t\r\n\t\tCRYO H2 PRESS ind (both) - 225-260 psia\r\n\t\tO2 PRESS IND sw - SURGE TK\r\n\t\t\tCRYO 02 PRESS 1 ind - 865-935 psia\r\n\t\tO2 PRESS IND sw - TK 1\r\n\t\t\tCRYO O2 PRESS ind (both) - 865-935 psia\r\n\r\n\t\tCRYO H2 QTY ind (both) - record\r\n\r\n\t\tCRYO O2 QTY ind (both) - record\r\n\r\nPanel 101:\r\n\t\tSYS TEST (2) - 4B\r\n\t\t\tSYS TEST ind - 4.1-4.4 vdc\r\n\t\tSYS TEST (2) - 4D\r\n\t\t\tSYS TEST ind - 3.2-3.8 vdc\r\n\t\tSYS TEST (2) - 4A\r\n\t\t\tSYS TEST ind - record\r\n\t\tSYS TEST (2) - 4C\r\n\t\t\tSYS TEST IND - record\r\n\r\n\t\t\r\n",
+  "checklistText": "<size=21>4.5.3.1 Cryogenic Pressure-Quantity Check\r</size>\n\r\nPanel 2\t\tCRYO H2 PRESS ind (both) \t\t\t- 225-260 psia\r\n\t\t\tO2 PRESS IND sw \t\t\t\t\t- SURGE TK\r\n\t\t\t\tCRYO 02 PRESS 1 ind \t\t\t- 865-935 psia\r\n\t\t\tO2 PRESS IND sw \t\t\t\t\t- TK 1\r\n\t\t\t\tCRYO O2 PRESS ind (both) \t\t- 865-935 psia\r\n\t\t\tCRYO H2 QTY ind (both) \t\t\t\t- record\r\n\t\t\tCRYO O2 QTY ind (both) \t\t\t\t- record\r\nPanel 101\tSYS TEST (2) \t\t\t\t\t\t- 4B\r\n\t\t\t\tSYS TEST ind \t\t\t\t\t- 4.1-4.4 vdc\r\n\t\t\tSYS TEST (2) \t\t\t\t\t\t- 4D\r\n\t\t\t\tSYS TEST ind \t\t\t\t\t- 3.2-3.8 vdc\r\n\t\t\tSYS TEST (2) \t\t\t\t\t\t- 4A\r\n\t\t\t\tSYS TEST ind \t\t\t\t\t- record\r\n\t\t\tSYS TEST (2) \t\t\t\t\t\t- 4C\r\n\t\t\t\tSYS TEST IND \t\t\t\t\t- record\r\n\r",
   "Steps": [],
   "Images": []
 }

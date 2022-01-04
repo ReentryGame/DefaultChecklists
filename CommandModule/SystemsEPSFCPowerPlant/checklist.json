@@ -2,10 +2,10 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSFCPowerPlant",
   "Group": "SYSTEMS: EPS",
-  "Name": "FC Power Plant",
+  "Name": "FC Power Plant 4.5.3.2",
   "Side": 1,
   "SortPriority": 40503020,
-  "checklistText": "\t\tFC Power Plant Check\r\n\r\nPanel 3:\r\n\t\tFC HTRS (all) - on (up)\r\n\r\n\t\tFC REACS tb (all) - gray\r\n\t\tFC IND sel - 1, 2, 3\r\n\t\t\tFC H2 FLOW ind - 0.03-0.15 lb/hr\r\n\t\t\tFC O2 FLOW ind - 0.25-1.2 lb/hr\r\n\t\t\tFC SKIN TEMP ind - 390°-450°F\r\n\r\n\t\t\tFC COND EXH TEMP ind - 150°-175°F\r\n\t\t\tFC pH HI tb - gray\r\n\r\n\t\tFC RAD TEMP LO tb - gray\r\n\r\n\t\t\r\n",
+  "checklistText": "<size=21>4.5.3.2 FC Power Plant Check\r</size>\n\r\nPanel 3\t\tFC HTRS (all) \t\t\t\t\t- on (up)\r\n\r\n\t\t\tFC REACS tb (all) \t\t\t\t- gray\r\n\t\t\tFC IND sel \t\t\t\t\t\t- 1, 2, 3\r\n\t\t\t\tFC H2 FLOW ind \t\t\t- 0.03-0.15 lb/hr\r\n\t\t\t\tFC O2 FLOW ind \t\t\t- 0.25-1.2 lb/hr\r\n\t\t\t\tFC SKIN TEMP ind \t\t\t- 390°-450°F\r\n\t\t\t\tFC COND EXH TEMP ind \t\t- 150°-175°F\r\n\t\t\t\tFC pH HI tb \t\t\t\t- gray\r\n\r\n\t\t\tFC RAD TEMP LO tb \t\t\t\t- gray\r\n",
   "Steps": [],
   "Images": []
 }

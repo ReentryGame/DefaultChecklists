@@ -2,10 +2,10 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSGeneral",
   "Group": "SYSTEMS: EPS",
-  "Name": "GENERAL",
+  "Name": "EPS GENERAL 4.5.3",
   "Side": 1,
   "SortPriority": 40503001,
-  "checklistText": "EPS\n\n",
+  "checklistText": "<size=23>4.5.3 ELECTRICAL POWER SYSTEM</size>\n\n",
   "Steps": [],
   "Images": []
 }

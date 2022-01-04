@@ -2,10 +2,10 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSH2O2Corr",
   "Group": "SYSTEMS: EPS",
-  "Name": "H2/O2 Balance",
+  "Name": "H2/O2 Balance 4.5.3.7",
   "Side": 1,
   "SortPriority": 40503070,
-  "checklistText": "\t\tH2 or O2 Quantity Balance Correction\r\n\r\n\tOn low  qty tk\r\n\r\nPanel 2:\r\n\t\tH2 or O2 HTRS 1 (2) - off (ctr)\r\n\tWhen tk  qty balanced\r\n\t\tH2 or O2 HTRS 1 (2) - AUTO\r\n\r\n\r\n\r\n\r\n\t\t",
+  "checklistText": "\r<size=21>4.5.3.7 H2 or O2 Quantity Balance Correction\r\r</size>\n\r\n\t\t\tOn low  qty tk\r\nPanel 2\t\t\tH2 or O2 HTRS 1 (2) \t\t\t- off (ctr)\r\n\t\t\tWhen tk  qty balanced\r\n\t\t\t\tH2 or O2 HTRS 1 (2) \t\t\t- AUTO\r\n\r",
   "Steps": [],
   "Images": []
 }
