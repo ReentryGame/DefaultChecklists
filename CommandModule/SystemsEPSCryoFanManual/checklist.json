@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSCryoFanManual",
   "Group": "SYSTEMS: EPS",
-  "Name": "Manual Cryo Fan Opr 4.5.3.10",
+  "Name": "Man Cryo Fan Opr 4.5.3.10",
   "Side": 1,
   "SortPriority": 40503100,
   "checklistText": "\r\r<size=21>4.5.3.10 Cryo O2 & H2 Manual Fan Operation\r\r\r</size>\n\n\t\t\t\tCAUTION\r\n\t\tIn the following step, if CRYO\r PRESS lt illuminates,  do not set\r \n\t\tH2 & O2 FANS - off (ctr) or\r proceed to next step until lt\r \n\t\textinguishes.\r\n\r\n\tProcedures to be determined.\r\n\r",

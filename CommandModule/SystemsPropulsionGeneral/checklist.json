@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsPropulsionGeneral",
   "Group": "SYSTEMS: PROPULSION",
-  "Name": "GENERAL",
+  "Name": "GENERAL 4.5.2",
   "Side": 1,
   "SortPriority": 40502001,
   "checklistText": "<size=23>4.5.2 PROPULSION SYSTEMS\r</size>\n\r\nSpecific functions of the SPS and RCS must be monitored to assure operational readiness and\r capability. SPS and SM RCS monitoring checks are performed during post-orbital insertion check and\r at 4-hour intervals and after each SPS burn. \n\nIn addition, the SM RCS monitoring check is performed\r prior to each SPS burn. The CM RCS monitoring check is performed during post-orbital insertion\r check and at 12-hour intervals and prior to entry.\n",

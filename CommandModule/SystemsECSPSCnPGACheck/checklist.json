@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsECSPSCnPGACheck",
   "Group": "SYSTEMS: ECS",
-  "Name": "PSC & PGA Check",
+  "Name": "PSC & PGA Ck 4.5.4.9",
   "Side": 1,
   "SortPriority": 405040090,
   "checklistText": "\r<size=21>4.5.4.9 Pressure Suit Circuit & PGA \r\r\rCheck at 5.0 psia</size>\n\nNot yet developed.",

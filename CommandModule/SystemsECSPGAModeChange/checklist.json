@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsECSPGAModeChange",
   "Group": "SYSTEMS: ECS",
-  "Name": "PGA MODE CHANGES",
+  "Name": "PGA MODE CNGS 4.5.4.6",
   "Side": 1,
   "SortPriority": 405040060,
   "checklistText": "\r<size=21>4.5.4.6 PGA Mode Changes</size>\n\nNot yet developed",

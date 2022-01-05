@@ -1,11 +1,11 @@
 {
-    "Group": "SYSTEM CHECKS",
-    "Images": [],
-    "Name": "WATER GLYCOL LOOP",
-    "ProjectName": "SystemWaterGlycolCheck",
-    "Side": 1,
-    "SortPriority": 1007,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nSecondary water-glycol loop check</size>\r\nECS IND sw - SEC\r\nSEC COOL LOOP PUMP - AC1\r\n\tGLY DISCH SEC PRESS -39-51 psig\r\n\tACCUM SEC QTY IND - 30-55%\r\nSEC COOL LOOP - EVAP\r\nAfter 5 min:\r\n\tSEC EVAP TEMP OUT - 38-50.5\u00c2\u00b0 F\r\nSEC COOL LOOP EVAP - RSET 1 min, off (ctr)\r\nSEC COOL LOOP PUMP - off (ctr)\r\nECS IND sw - PRIM\r"
+  "Spacecraft": 0,
+  "ProjectName": "SystemWaterGlycolCheck",
+  "Group": "SYSTEM CHECKS",
+  "Name": "WATER GLYCOL LOOP",
+  "Side": 1,
+  "SortPriority": 1007,
+  "checklistText": "<size=23>SYSTEMS & MONITORING CHECKS</size>\r\n\n<size=21>Secondary water-glycol loop check</size>\r\nPanel 2\t\tECS IND sw \t\t\t\t\t\t- SEC\r\n\t\t\tSEC COOL LOOP PUMP \t\t\t- AC1\r\n\t\t\t\tGLY DISCH SEC PRESS \t\t- 39-51 psig\r\n\t\t\t\tACCUM SEC QTY IND \t\t\t- 30-55%\r\n\t\t\tSEC COOL LOOP \t\t\t\t\t- EVAP\r\nAfter 5 min:\r\n\t\t\t\tSEC EVAP TEMP OUT \t\t\t- 38-50.5° F\r\n\t\t\tSEC COOL LOOP EVAP \t\t\t- RSET 1 min, off (ctr)\r\n\t\t\tSEC COOL LOOP PUMP \t\t\t- off (ctr)\r\n\t\t\tECS IND sw \t\t\t\t\t\t- PRIM\r",
+  "Steps": [],
+  "Images": []
 }

@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemECSPrimaryGlycolEvap",
   "Group": "SYSTEMS: ECS",
-  "Name": "PRIM GLY-EVAP OPR",
+  "Name": "PRIM GLY-EVAP OP 4.5.4.18R",
   "Side": 1,
   "SortPriority": 405040180,
   "checklistText": "\r<size=21>4.5.4.18 Primary Glycol Evaporator Operation\r\r</size>\n\r\n\t1\tActivate prim evap\r\n\rPanel 2\t\tGLY EVAP H2O FLOW \t\t\t- AUTO\r\n\t\t\tGLY EVAP STM AUTO \t\t\t- AUTO\r\n\r\n\t2\tDeactivate prim evap \r\n\t\t\tGLY EVAP H2O FLOW \t\t\t- off (ctr)\r\n\t\t\tGLY EVAP STM AUTO \t\t\t- MAN\r\n\t\t\tGLY EVAP STM INCR \t\t\t\t- INCR for\r 58 sec min\r\n",

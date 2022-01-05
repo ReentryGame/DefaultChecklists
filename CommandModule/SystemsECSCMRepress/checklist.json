@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsECSCMRepress",
   "Group": "SYSTEMS: ECS",
-  "Name": "CM REPRESSURIZATION",
+  "Name": "CM REPRESS 4.5.4.8",
   "Side": 1,
   "SortPriority": 405040080,
   "checklistText": "\r<size=21>4.5.4.8 CM Repressurization\r\r\r</size>\n\t\t\r\n\ta.\tNorm Mode (time ≈21 min)\r\nPanel 325\tCAB PRESS RELF vlv (2) \t\t\t- NORM\r\n\t\t\t\t(safety latch on)\r\nSide hatch\tCAB PRESS DUMP vlv \t\t\t\t- close (CW)\r (verify)\r\nPanel 2\t\tO2 PRESS IND sw \t\t\t\t\t- SURGE TK\r\nPanel 326\tREPRESS PKG vlv \t\t\t\t\t- FILL\r\nPanel 601\tREPRESS O2 \t\t\t\t\t\t- OPEN\r\nPanel 2\t\tCRYO O2 PRESS 1 ind \t\t\t\t- 150 psia min\r\nPanel 326\tREPRESS PKG vlv \t\t\t\t\t- OFF\r\nPanel 2\t\tCAB PRESS ind \t\t\t\t\t\t- 3.0 psia\r (in 1 min)\r\nPanel 602\tREPRESS O2 PRESS ind \t\t\t\t- 0.0 psig\r\nPanel 601\tREPRESS O2 \t\t\t\t\t\t- CLOSE\r\nPanel 351\tCAB REPRESS vlv \t\t\t\t\t- open (CW)\r\nPanel 2\t\tCAB PRESS ind \t\t\t\t\t\t- 4.7-5.3 psia\r\n\t\t\tO2 PRESS IND  sw \t\t\t\t\t- TK 1\r\nPanel 351\tCAB REPRESS vlv \t\t\t\t\t- OFF (CCW)\r\n\r\n\tb.\tAlternate Mode (time ≈48min)\r\nPanel 325\tCAB PRESS RELF vlv (2) \t\t\t- NORM\r\n\t\t\t\t(safety latch on)\r\nSide hatch\tCAB PRESS DUMP vlv \t\t\t\t- close (CW)\r\nPanel 351\tEMER CAB PRESS sel \t\t\t\t- BOTH\r\n\t\t\tCAB REPRESS vlv \t\t\t\t\t- open (CW)\r\nPanel 2\t\tO2 PRESS IND sw \t\t\t\t\t- SURGE TK\r\n\t\t\tCRYO O2 PRESS 1 ind \t\t\t\t- 150\r psia min\r\nPanel 351\tEMER CAB PRESS sel \t\t\t\t- OFF\r\n\t\t\tCAB REPRESS vlv \t\t\t\t\t- adj to\r 150 psia min\r\nPanel 2\t\tCAB PRESS ind \t\t\t\t\t\t- 4.7-5.3 psia\r\n\t\t\tO2 PRESS IND sw \t\t\t\t\t- TK 1\r\nPanel 351\tCAB REPRESS vlv \t\t\t\t\t- OFF (CCW)\r\n",

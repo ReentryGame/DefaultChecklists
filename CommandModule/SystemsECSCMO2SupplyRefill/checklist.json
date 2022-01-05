@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsECSCMO2SupplyRefill",
   "Group": "SYSTEMS: ECS",
-  "Name": "CM O2 SUPPLY FILL",
+  "Name": "CM O2 SUP FILL 4.5.4.10",
   "Side": 1,
   "SortPriority": 405040100,
   "checklistText": "<size=21>4.5.4.10 CM O2 Supply Refill\r</size>\n\r\nPanel 2 \tO2 PRESS IND sw \t\t\t\t- SURGE TK\r\n\t\t\t\tCRYO 02 PRESS 1 ind \t\t- 400 psia\r\nPanel 351\tCAB REPRESS vlv \t\t\t\t- OFF (CCW)\r\nPanel 601\tREPRESS O2 \t\t\t\t\t- CLOSE\r\nPanel 326\tREPRESS PKG vlv \t\t\t\t- FILL\r\nPanel 2\t\t\tCRYO O2 PRESS 1 ind \t\t- 865-935 psia\r\n\t\t\tO2 PRESS IND sw \t\t\t\t- TK 1\r\nPanel 326\tREPRESS PKG vlv \t\t\t\t- OFF\r\n\r",

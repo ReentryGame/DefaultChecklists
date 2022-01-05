@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsPropulsionSMRCSMon",
   "Group": "SYSTEMS: PROPULSION",
-  "Name": "SM RCS Monitoring Check",
+  "Name": "SM RCS MON CK 4.5.2.2",
   "Side": 1,
   "SortPriority": 40502020,
   "checklistText": "<size=21>4.5.2.2 SM RCS Monitoring Check\r</size>\n\r\nPanel 2\t\tSM RCS He tb (8) \t\t\t\t\t- gray\r\n\t\t\tSM RCS PRIM PRPLNT tb (4) \t\t\t- gray\r\n\t\t\tSM RCS SEC PRPLNT tb (4) \t\t\t- gray\r\n\t\t\tRCS IND sel \t\t\t\t\t\t- SM A, B, C, D\r\n\t\t\tCheck Quads A, B, C, D\r\n\t\t\t\tSM RCS PKG TEMP ind \t\t\t- 115°-175°F\r\n\t\t\t\tSM RCS He PRESS ind \t\t\t- record\r\n\t\t\t\tSM RCS IND sw \t\t\t\t\t- He TK TEMP\r\n\t\t\t\tSM RCS He TK TEMP ind \t\t\t- record\r\n\t\t\t\tSM RCS IND sw \t\t\t\t\t- PRPLNT QTY\r\n\t\t\t\tSM RCS PRPLNT QTY ind \t\t\t- record\r\n\t\t\t\tSM RCS SEC FUEL PRESS ind \t- 178-192 psia\r\n\t\t\t\t\t(192-207 psia until jets fired after\r orb insertion)\r\n\r\n\t\t\tWhen SM RCS SEC FUEL PRESS ind \t- <150 psia\r\n\t\t\t\tSM RCS A (B,C,D) SEC FUEL PRESS - OPEN\r\n\r",
