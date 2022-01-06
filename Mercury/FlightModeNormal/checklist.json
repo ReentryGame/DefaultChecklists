@@ -1,0 +1,33 @@
+{
+  "Spacecraft": 3,
+  "ProjectName": "FlightModeNormal",
+  "Group": "FLIGHT MODES",
+  "Name": "NORMAL",
+  "Side": 1,
+  "SortPriority": 13,
+  "checklistText": "<size=24>NORMAL MODE</size>\n\n1. ASCS switch \t\t\t- NORM\n2. RSCS switch \t\t\t- AUTO\n3. Manual Fuel Handle \t- PUSH RATE COMD\n",
+  "Steps": [
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 5,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
+  "Images": []
+}

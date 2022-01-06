@@ -5,7 +5,7 @@
   "Name": "POST-DOCKING",
   "Side": 1,
   "SortPriority": 33,
-  "checklistText": "1. (optional)Encoder CMD: \t- 140, Approach Lights OFF\n2. Exterior Lights \t\t\t- OFF",
+  "checklistText": "<size=24>POST-DOCKING</size>\n\n1. (optional)Encoder CMD: \t- 140, Approach Lights OFF\n2. Exterior Lights \t\t\t- OFF",
   "Steps": [],
   "Images": []
 }
