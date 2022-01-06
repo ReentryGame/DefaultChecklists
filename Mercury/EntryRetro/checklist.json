@@ -5,14 +5,14 @@
   "Name": "RETRO",
   "Side": 1,
   "SortPriority": 70,
-  "checklistText": "At Tr -5 Mins:\n\"5 Min To Retrograde\" light \t- ILLUMINATED\n\nAt Tr +0 Secs\n1. \"Retro Seq\" telelight \t\t- GREEN\n2. \"Retro Att\" telelight \t\t- GREEN\n\nAt Tr +20 Secs\n1. \"Retro Warn\" telelight \t\t- AMBER & Audible Tone\n4. Crosscheck attitude indicator, periscope and window\n5. \"Fire Retro\" telelight \t\t- AMBER while firing\n6. \"Fire Retro\" telelight \t\t- GREEN once completed\n\nStart RE-ENTRY Checklist",
+  "checklistText": "<size=24>RETRO</size>\n\n<size=22>At Tr -5 Mins:</size>\n\"5 Min To Retrograde\" light \t- ILLUMINATED\n\n<size=22>At Tr +0 Secs:</size>\n1. \"Retro Seq\" telelight \t\t- GREEN\n2. \"Retro Att\" telelight \t\t- GREEN\n\n<size=22>At Tr +20 Secs:</size>\n1. \"Retro Warn\" telelight \t\t- AMBER & Audible Tone\n4. Crosscheck attitude indicator, periscope and window\n5. \"Fire Retro\" telelight \t\t- AMBER while firing\n6. \"Fire Retro\" telelight \t\t- GREEN once completed\n\nStart RE-ENTRY Checklist",
   "Steps": [
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At Tr +5 Mins"
+      "Text": "At Tr -5 Mins"
     },
     {
       "Program": 3,
