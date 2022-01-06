@@ -5,7 +5,7 @@
   "Name": "POWER UP",
   "Side": 1,
   "SortPriority": 18,
-  "checklistText": "1. MANEUVER THRUSTER C/B'S \t- OPEN\n2. T/M \t\t\t\t\t\t\t- R/T & ACQ\n3. COOLANT PUMPS \t\t\t\t- AS DESIRED\n4. ACME BIAS PWR \t\t\t\t- PRI\n5. AC POWER \t\t\t\t\t- ACME\n6. RATE GYROS (3) \t\t\t\t- ON\n7. RADAR \t\t\t\t\t\t- AS REQUIRED\n\nSTART PLATFORM ALIGN CHECKLIST",
+  "checklistText": "<size=24>POWER UP</size>\n\n1. MANEUVER THRUSTER C/B'S \t- OPEN\n2. T/M \t\t\t\t\t\t\t- R/T & ACQ\n3. COOLANT PUMPS \t\t\t\t- AS DESIRED\n4. ACME BIAS PWR \t\t\t\t- PRI\n5. AC POWER \t\t\t\t\t- ACME\n6. RATE GYROS (3) \t\t\t\t- ON\n7. RADAR \t\t\t\t\t\t- AS REQUIRED\n\nStart PLATFORM ALIGN Checklist, if GYRO Drift Enabled",
   "Steps": [
     {
       "Program": 2,
@@ -124,7 +124,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "START PLATFORM ALIGN CHECKLIST"
+      "Text": "Start PLATFORM ALIGN Checklist, if GYRO Drift Enabled"
     }
   ],
   "Images": []
