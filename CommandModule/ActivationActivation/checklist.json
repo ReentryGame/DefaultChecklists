@@ -4,8 +4,8 @@
   "Group": "ACTIVATION",
   "Name": "Activation",
   "Side": 0,
-  "SortPriority": 1,
-  "checklistText": "<size=23>ACTIVATION\r</size>\n\r\nPanel 5\t\tcb C/W MNA \t\t\t\t\t- close\n\t\t\tcb C/W MNB \t\t\t\t\t- close\nPanel 2 \tC/W POWER \t\t\t\t\t\t- 1 (up)\r\n\t\t\t\tMASTER ALARM pb/lt (3) \t- on, push\r\nPanel 5\t\tcb G/N COMPUTER MNA \t\t\t- close\r\n\t\t\tcb G/N COMPUTER MNB \t\t\t- close\r\n\r\nDSKY\t\tKey V37E 00E\r\n\t\t\t\tP00\r\n\t\r\n\t\t\tKey V35E\r\n\t\t\t\tF 88 88\r\n\r\n\t\t\tKey V37E 00E\r\n\t\t\t\tP00\r\n\r\n\t\t\tKey V16 N65E\r\n\t\t\t\t16 65\r\n\r\n\t\t\tKey V37E 00E\r\n\r\nPanel 5\t\tcb G/N IMU HTR MNA \t\t\t- close\r\n\t\t\tcb G/N IMU HTR MNB \t\t\t- close\r\n\t\t\tcb G/N IMU MNA \t\t\t\t- close\r\n\t\t\tcb G/N IMU MNB \t\t\t\t- close\r\nPanel 100\tG/N POWER: IMU \t\t\t\t- up\nPanel 2\t\tNO ATT lt \t\t\t\t\t\t- on(90 sec)\r\n\t\t\tNO ATT lt \t\t\t\t\t\t- off\r\nPanel 275\tINVERTER POWER 1, MAIN A cb \t- close\n\t\t\tINVERTER POWER 2, MAIN B cb \t- close\n\t\t\tINVERTER POWER 3, MAIN A cb \t- close\n\t\t\tINVERTER POWER 3, MAIN B cb \t- close\n\rPanel 5\t\tINVERTER CONTROL 1 cb \t\t- close\n\t\t\tINVERTER CONTROL 2 cb \t\t- close\n\t\t\tINVERTER CONTROL 3 cb \t\t- close\nPanel 3\t\tAC INVERTER 3 sw \t\t\t\t- MN A\n\t\t\tAC BUS 1 INV 3 sw \t\t\t\t- ON (up)\n\t\t\tAC BUS 2 INV 3 sw \t\t\t\t- ON (up)\n\t\t\tAC BUS 1 RESET sw \t\t\t\t- RESET, ON (up, then ctr)\n\t\t\tAC BUS 2 RESET sw \t\t\t\t- RESET, ON (up, then ctr)\nPanel 226\tLIGHTING FLOOD MNA cb \t\t- close\nPanel 5, 8\tINTERIOR LIGHTS FLOOD sel \t\t- adj as needed\nPanel 378\tPRIM GLYCOL ACCUM \t\t\t- OPEN\nPanel 326\tGLYCOL RESERVOIR INLET \t\t- OPEN\n\t\t\tGLYCOL RESERVOIR BYPASS \t\t- OPEN\n\t\t\tGLYCOL RESERVOIR OUTLET \t\t- OPEN\nPanel 325\tCABIN PRESSURE RELIEF A/B \t- NORMAL\nPanel 326\tSM SUPPLY \t\t\t\t\t\t- ON\n\t\t\tSURGE TANK \t\t\t\t\t- ON\n\t\t\tREPRESS PKG \t\t\t\t\t- OFF\nPanel 351\tMAIN REGULATOR A/B \t\t\t- OPEN\nPanel 5\t\tcb RADIATOR CONTROLLER AC1 \t- CLOSE\n\t\t\tcb RADIATOR CONTROLLER AC2 \t- CLOSE\n\t\t\tcb CONT/HTRS MNA \t\t\t\t- CLOSE\n\t\t\tcb CONT/HTRS MNB \t\t\t\t- CLOSE\nPanel 7\t\tO2 FLOW \t\t\t\t\t\t- FULLY CLOSED\n",
+  "SortPriority": 20,
+  "checklistText": "ACTIVATION\r\n\r\nPanel 5:\n\tcb C/W MNA - close\n\tcb C/W MNB - close\nPanel 2:\r\n\tC/W POWER - 1 (up)\r\n\t\tMASTER ALARM pb/lt (3) - on, push\r\n\t\r\nPanel 5:\r\n\tcb G/N COMPUTER MNA - close\r\n\tcb G/N COMPUTER MNB - close\r\n\r\nPanel 2:\r\n\tV37E 00E\r\n\t\tP00\r\n\t\r\n\tV35E\r\n\t\tF 88 88\r\n\r\n\tV37E 00E\r\n\t\tP00\r\n\r\n\tV16 N65E\r\n\t\t16 65\r\n\r\n\tV37E 00E\r\n\r\nPanel 5:\r\n\tcb G/N IMU HTR MNA - close\r\n\tcb G/N IMU HTR MNB - close\r\n\tcb G/N IMU MNA - close\r\n\tcb G/N IMU MNB - close\r\n\r\nPanel 100:\n\tG/N POWER: IMU - up\n\nPanel 2:\r\n\tNO ATT lt - on(90 sec)\r\n\tNO ATT lt - off\r\n\nPanel 7: \n\tFDAI / GPI Power - 1 or Both\n\nPanel 2:\n\tV37E 01E\n\tNO ATT lt - on\n\tNO ATT lt - off\n\tVerify: DSKY auto advance P02\n\nPanel 7:\n\tFDAI / GPI Power - Off\n\r\nPanel 275:\n\tINVERTER POWER 1, MAIN A cb - close\n\tINVERTER POWER 2, MAIN B cb - close\n\tINVERTER POWER 3, MAIN A cb - close\n\tINVERTER POWER 3, MAIN B cb - close\n\n\rPanel 5\n\tINVERTER CONTROL 1 cb - close\n\tINVERTER CONTROL 2 cb - close\n\tINVERTER CONTROL 3 cb - close\n\nPanel 3\n\tAC INVERTER 3 sw - MN A\n\tAC BUS 1 INV 3 sw - ON (up)\n\tAC BUS 2 INV 3 sw - ON (up)\n\tAC BUS 1 RESET sw - RESET, ON (up, then ctr)\n\tAC BUS 2 RESET sw - RESET, ON (up, then ctr)\n\nPanel 226:\n\tLIGHTING FLOOD MNA cb - close\n\nPanel 5, 8:\n\tINTERIOR LIGHTS FLOOD sel - adj as needed\n\nPanel 378:\n\tPRIM GLYCOL ACCUM - OPEN\n\nPanel 326:\n\tGLYCOL RESERVOIR INLET - OPEN\n\tGLYCOL RESERVOIR BYPASS - OPEN\n\tGLYCOL RESERVOIR OUTLET - OPEN\n\nPanel 325:\n\tCABIN PRESSURE RELIEF A/B - NORMAL\n\nPanel 326:\n\tSM SUPPLY - ON\n\tSURGE TANK - ON\n\tREPRESS PKG - OFF\n\nPanel 351:\n\tMAIN REGULATOR A/B - OPEN\n\nPanel 5:\n\tECS RADIATORS \n\t\tRADIATOR CONTROLLER AC1 - CLOSE\n\t\tRADIATOR CONTROLLER AC2 - CLOSE\n\t\tCONT/HTRS MNA - CLOSE\n\t\tCONT/HTRS MNB - CLOSE\n\nPanel 7:\n\tO2 FLOW - FULLY CLOSED",
   "Steps": [
     {
       "Program": 0,
@@ -328,6 +328,76 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "AGC Warning light: NO ATT on for 90 seconds, then out."
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P7: Verify: FDAI/GPI Power - 1 or Both"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 8,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for NO ATT lt - out, check if DSKY has advanced to P02"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null
     },
     {
       "Program": 0,
