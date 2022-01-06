@@ -5,7 +5,7 @@
   "Name": "ENABLE OAMS",
   "Side": 1,
   "SortPriority": 22,
-  "checklistText": "1. OAMS Control Power\t\t- ON\n2. OAMS Prop Motor Valves\t- OPEN",
+  "checklistText": "<size=24>ENABLE OAMS</size>\n\n1. OAMS Control Power\t\t- ON\n2. OAMS Prop Motor Valves\t- OPEN\n\nDisable OAMS when not needed:\n1. OAMS Control Power\t\t- OFF\n2. OAMS Prop Motor Valves\t- CLOSED",
   "Steps": [
     {
       "Program": 2,

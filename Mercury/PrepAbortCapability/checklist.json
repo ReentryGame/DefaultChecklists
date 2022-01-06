@@ -5,7 +5,7 @@
   "Name": "ABORT CAPABILITY (T-40)",
   "Side": 0,
   "SortPriority": 15,
-  "checklistText": "ABORT CAPABILITY\n(Approx. T-40)\n\n1. Ammeter Switch \t\t\t- NORM\n2. Capsule Squib Switch \t- ARM\n3. DC Selector \t\t\t\t- ISOL.\n4. REQUEST ABORT CAPABILITY TEST\n5. Monitor bus voltage, battery current and Abort light.",
+  "checklistText": "<size=22>ABORT CAPABILITY (T-40)</size>\n\n1. Ammeter Switch \t\t\t- NORM\n2. Capsule Squib Switch \t- ARM\n3. DC Selector \t\t\t\t- ISOL.\n4. REQUEST ABORT CAPABILITY TEST\n5. Monitor bus voltage, battery current and Abort light.\n\n<size=20>At T-20:</size>\n\tStart ABBR. INTERIOR CHECK",
   "Steps": [
     {
       "Program": 3,
@@ -41,6 +41,13 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Monitor bus voltage, battery current and Abort light."
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At T-20: Start ABBR. INTERIOR CHECK"
     }
   ],
   "Images": []

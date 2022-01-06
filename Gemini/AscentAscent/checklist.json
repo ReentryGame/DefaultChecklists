@@ -5,14 +5,91 @@
   "Name": "Ascent",
   "Side": 0,
   "SortPriority": 21,
-  "checklistText": "ASCENT CHECKLIST\r\n\r\n1. Verify platform alignment: FDAI should indicate roll offset for trajectory azimuth\r\n2. T -10 seconds: Verify Computer is in ASC and not running\r\n3. Ignition\r\n4. Monitor ENGINE I (2) lt: \r\n\tRED on pressure buildup\r\n\tOFF on nominal thrust\r\n5. Monitor ENGINE II lt:\r\n\tAMBER: ready\r\n6. Liftoff: Monitor computer start\r & clocks are running\n7. Monitor FUEL 1 OXID\r\n8. Monitor ALTITIDE\r\n\tAbort Mode I: < 15,000 FEET\r\n\tAbort Mode I-II: 15,000 TO 75,000 FEET\r\n\tAbort Mode II: 75,000 TO 522,000 FEET\r\n\tAbort Mode III: ABOVE 522,000 FEET\r\n\tStowe D-Ring: 75,000 FEET\r\n9. When FUEL 1 OXID depleted, staging.\r\n10. Monitor ENGINE II lt:\r\n\tRED on pressure buildup\r\n\tOFF on nominal thrust\r\n11. Monitor FUEL 2 OXID\r\n12. Wait for SSECO and Insertion\n13. On insertion:\n\tSPCT SEP - PUSH\n\tJETT FAIRING - PUSH\n\nComplete checklist: Enable OAMS and \"zero\" IVIs.\nNote: It might not be possible to fully zero the IVIs. Do as best as you can, but don't force it.",
+  "checklistText": "<size=24>ASCENT CHECKLIST\r</size>\n\r\nVerify platform alignment: FDAI should indicate roll offset for trajectory azimuth\r\n\n<size=22>T -10 seconds:</size> \n\tComputer Mode\t\t\t\t\t- ASC and not running\r\n\n<size=22>Ignition\r:</size>\nMonitor ENGINE I (2) lt: \r\n\tRED on pressure buildup\r\n\tOFF on nominal thrust\r\nMonitor ENGINE II lt:\r\n\tAMBER: ready\r\n\n<size=22>Liftoff:</size>\nMonitor computer start\r & clocks are running\nMonitor FUEL 1 OXID\r\nMonitor ALTITIDE\r\n\tAbort Mode I: < 15,000 FEET\r\n\tAbort Mode I-II: 15,000 TO 75,000 FEET\r\n\tAbort Mode II: 75,000 TO 522,000 FEET\r\n\tAbort Mode III: ABOVE 522,000 FEET\r\nAt 75,000 FEET:\t\n\tD-Ring\t\t\t\t\t\t- STOW (Use C)\n\n<size=22>When FUEL 1 OXID depleted, staging.:</size>\nMonitor ENGINE II lt:\r\n\tRED on pressure buildup\r\n\tOFF on nominal thrust\r\nMonitor FUEL 2 OXID\n\n<size=22>SSECO and Insertion:</size>\n\tSPCT SEP Lt\t\t\t\t\t- LUMINATED\n\tSPCT SEP \t\t\t\t\t- PUSH\n\tJETT FAIRING \t\t\t\t- PUSH\n\tOAMS\t\t\t\t\t\t- ENABLE \n\tIVIs\t\t\t\t\t\t\t- \"Zero\" \n\t\tMay need to Zero IVI at Pe.\n\nNote: It might not be possible to fully zero the IVIs. Do as best as you can, but don't force it.",
   "Steps": [
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ON INSERTION"
+      "Text": "Verify platform alignment"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At T-10: Computer Mode - ASC and not running\r"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At Ignition\r"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor ENGINE I (2) & II lts"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At Liftoff"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor computer start\r & clocks are running"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor FUEL & ALTITUDE"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At 75,000 FEET - D Ring Stow"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When FUEL 1 OXID depleted, staging"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor ENGINE II lt & FUEL 2 OXID"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "On SSECO and Insertion"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPCT SEP Lt - LUMINATED"
     },
     {
       "Program": 2,
@@ -33,7 +110,14 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Complete checklist: Enable OAMS and \"zero\" IVIs."
+      "Text": "OAMS - Enable "
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "IVIs - \"Zero\""
     }
   ],
   "Images": []

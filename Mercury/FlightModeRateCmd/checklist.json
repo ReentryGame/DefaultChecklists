@@ -4,8 +4,8 @@
   "Group": "FLIGHT MODES",
   "Name": "RATE COMMAND MODE",
   "Side": 1,
-  "SortPriority": 30,
-  "checklistText": "1. Manual fuel handle \t\t- PUSH RATE COMD\n2. RSCS switch \t\t\t\t- RATE COMD\n3. Use handcontroller to maintain desired rates and attitude\n\nTo return to the normal control\n4. RSCS switch \t\t\t\t- AUTO",
+  "SortPriority": 12,
+  "checklistText": "<size=24>RATE COMMAND MODE</size>\n\n1. Manual fuel handle \t\t- PUSH RATE COMD\n2. RSCS switch \t\t\t\t- RATE COMD\n3. Use handcontroller to maintain desired rates and attitude",
   "Steps": [
     {
       "Program": 3,
@@ -26,14 +26,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "To return to normal control system:"
-    },
-    {
-      "Program": 3,
-      "Type": 1,
-      "SetID": 13,
-      "ToPosID": 1,
-      "Text": null
+      "Text": "Use handcontroller to desired attitude"
     }
   ],
   "Images": []

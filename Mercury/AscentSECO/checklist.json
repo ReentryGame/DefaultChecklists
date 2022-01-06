@@ -5,7 +5,7 @@
   "Name": "SECO",
   "Side": 0,
   "SortPriority": 53,
-  "checklistText": "1. Sep Cap \t- GREEN\n\nStart ORBIT Checklist",
+  "checklistText": "<size=22>ASCENT/SECO</size>\n\nAt SECO:\n1. Sep Cap \t- AMBER, then GREEN\n\nStart ORBIT Checklist",
   "Steps": [
     {
       "Program": 3,

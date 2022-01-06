@@ -5,7 +5,7 @@
   "Name": "PRE-DARK",
   "Side": 1,
   "SortPriority": 50,
-  "checklistText": "1. Cabin Light switch \t\t\t- BOTH\n2. Photo Lights \t\t\t\t- OFF\n3. Red filters on cabin light \t- [Click on the lights]\n4. Red scope filter \t\t\t\t- ON\n5. Warning lights \t\t\t\t- DIM\n6. Thruster warmup procedure:\n (a) Enable MANUAL flight mode:\n      Pitch UP followed by pitch DOWN\n      Roll RIGHT followed by roll LEFT\n      Yaw RIGHT followed by yaw LEFT\n\n (b) Enable FLY-BY-WIRE flight mode:\n      Short-burst pitch UP and DOWN - full stick travel\n      Short-burst roll RIGHT and LEFT - full stick travel\n      Short-burst yaw RIGHT and LEFT - full stick travel\n\n (c) ASCS mode and check for proper attitude orientation and holding \n\twithin limits\n\n7. After entry into dark side, filters - as desired\n",
+  "checklistText": "<size=24>PRE-DARK</size>\n\n1. Cabin Light switch \t\t\t- BOTH\n2. Photo Lights \t\t\t\t- OFF\n3. Red filters on cabin light \t- [Click on the lights]\n4. Red scope filter \t\t\t\t- ON\n5. Warning lights \t\t\t\t- DIM\n6. Thruster warmup procedure:\n (a) Enable MANUAL flight mode:\n      Pitch UP followed by pitch DOWN\n      Roll RIGHT followed by roll LEFT\n      Yaw RIGHT followed by yaw LEFT\n\n (b) Enable FLY-BY-WIRE flight mode:\n      Short-burst pitch UP and DOWN - full stick travel\n      Short-burst roll RIGHT and LEFT - full stick travel\n      Short-burst yaw RIGHT and LEFT - full stick travel\n\n (c) ASCS mode and check for proper attitude orientation and holding \n\twithin limits\n\n7. After entry into dark side, filters - as desired\n",
   "Steps": [
     {
       "Program": 3,

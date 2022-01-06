@@ -5,7 +5,7 @@
   "Name": "FULL INTERNAL POWER (T-15)",
   "Side": 0,
   "SortPriority": 4,
-  "checklistText": "FULL INTERNAL POWER (T-15)\n1. Main Battery 1 \t\t\t- ON\r\n2. Main Battery 2 \t\t\t- ON\r\n3. Main Battery 3 \t\t\t- ON\r\n4. Main Battery 4 \t\t\t- ON\r\n5. Squib Battery 1 \t\t\t- ON\r\n6. Squib Battery 2 \t\t\t- ON\r\n7. Squib Battery 3 \t\t\t- ON\r\n8. Fuel Cell 1A \t\t\t\t- ON\r\n9. Fuel Cell 1B \t\t\t\t- ON\r\n10. Fuel Cell 1C \t\t\t- ON\r\n11. Fuel Cell 2A \t\t\t- ON\r\n12. Fuel Cell 2B \t\t\t- ON\r\n13. Fuel Cell 2C \t\t\t- ON\r\n14. Fuel Cell Section 1 \t\t- ON\r\n15. Fuel Cell Section 2 \t\t- ON\r\n16. Request Switch to Internal Power",
+  "checklistText": "<size=24>FULL INTERNAL POWER (T-15)</size>\n\n1. Main Battery 1 \t\t\t- ON\r\n2. Main Battery 2 \t\t\t- ON\r\n3. Main Battery 3 \t\t\t- ON\r\n4. Main Battery 4 \t\t\t- ON\r\n5. Squib Battery 1 \t\t\t- ON\r\n6. Squib Battery 2 \t\t\t- ON\r\n7. Squib Battery 3 \t\t\t- ON\r\n8. Fuel Cell 1A \t\t\t\t- ON\r\n9. Fuel Cell 1B \t\t\t\t- ON\r\n10. Fuel Cell 1C \t\t\t- ON\r\n11. Fuel Cell 2A \t\t\t- ON\r\n12. Fuel Cell 2B \t\t\t- ON\r\n13. Fuel Cell 2C \t\t\t- ON\r\n14. Fuel Cell Section 1 \t\t- ON\r\n15. Fuel Cell Section 2 \t\t- ON\r\n16. Request Switch to Internal Power\n\nStart PRE-FLIGHT (T-5) Checklist",
   "Steps": [
     {
       "Program": 2,
@@ -118,6 +118,13 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Switch to internal power"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start PRE-FLIGHT (T-5) Checklist"
     }
   ],
   "Images": []
