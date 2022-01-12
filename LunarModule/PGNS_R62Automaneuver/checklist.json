@@ -1,0 +1,11 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "PGNS_R62Automaneuver",
+  "Group": "G&C GENERAL",
+  "Name": "Crew-Defined Maneuver Routine",
+  "Side": 1,
+  "SortPriority": 1105,
+  "checklistText": "\tDAP Data Load Routine (R03) (required)\r\n\r\n1.\t\tEnable PGNCS attitude control:\r\n[P1]\t\tGUID CONT sw - PGNS \r\n[P3]\t\tS/C:\r\n\t\t\tPGNS sw - ATT HOLD \r\n\t\t\tROLL, PITCH, YAW sw - MODE CONT\r\n[P4]\t\t\tACA/4 JET sw (2) - ENABLE\r\n[P1,2]\t\tACA PROP sw (2) - ENABLE\r\n\r\n2.\t\tEatabliah PGMCS total attitude & attitude rate/error\r\n\t\tdisplay:\r\n\t\tATTITUDE MON sw - PGNS\r\n\t\tRATE/ERR MON sw (2) - LDG RDR/CMPTR\r\n\r\n3.\t\tKey V49E\r\n\r\n4.\t\tFL V06 N22\r\n\t\t\tR1 OGA XXX.XX°\r\n\t\t\tR2 IGA XXX.XX°\r\n\t\t\tR4 MGA XXX.XX°\r\n\t\t\tAccept: PRO\r\n\t\t\tReject: Key V25E - Load new gimbal angles for R60\r\n\r\n5.\t\tAttitude Maneuver Routine (R60)\r\n\r\n\t\tFL V50 N18 - Perform desired automatic maneuver to final\r\n\t\tFDAI angles\r\n\t\t\tR1 Roll\t\tXXX.XX°\r\n\t\t\tR2 Pitch\tXXX.XX°\r\n\t\t\tR3 Yaw\t\tXXX.XX°\r\n\t\tTo reject attitude maneuver:\r\n\t\tWhen within DAP deadband limits, & further adjustment\r\n\t\tabout desired vector is not desired,\r\n\t\tKey ENTR, exit R60/R62\r\n\r\n\t\tTo perform attitude maneuver automatically:\r\n[P1]\t\tGUID CONT sw - PGNS \r\n[P3]\t\tS/C: PGNS sw - AUTO \r\n\t\tKey PRO\n\n\n\n\n\n",
+  "Steps": [],
+  "Images": []
+}

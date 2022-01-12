@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCGeneralGNGenGNPTCProc",
-  "Group": "G&N GENERAL",
+  "Group": "G&C GENERAL",
   "Name": "G&N PTC Procedure",
   "Side": 1,
   "SortPriority": 40801140,

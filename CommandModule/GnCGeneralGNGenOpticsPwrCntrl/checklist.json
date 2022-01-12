@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCGeneralGNGenOpticsPwrCntrl",
-  "Group": "G&N GENERAL",
+  "Group": "G&C GENERAL",
   "Name": "Optics Power Control",
   "Side": 1,
   "SortPriority": 40801040,
