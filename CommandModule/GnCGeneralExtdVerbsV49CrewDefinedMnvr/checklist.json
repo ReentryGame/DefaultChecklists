@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "GnCGeneralExtdVerbsV49CrewDefinedMnvr",
   "Group": "G&C GENERAL",
-  "Name": "(V49) CSM Crew Defined Maneuver",
+  "Name": "(V49) CREW DEF MNVR",
   "Side": 1,
   "SortPriority": 40803030,
   "checklistText": "(V49) CSM Crew Defined Maneuver (R62)\r\n\r\n\t\tCMC - on (req)\r\n\t\tISS - on & orient known (req)\r\n\t\tSCS - on (req)\r\n\r\nPanel 2, 140:\r\n\t1 Key V37E 00E\r\n\r\n\t2 Sel Tot Att (ISS) Disp\r\n\r\n\t3 Key V49E\r\n\r\n\r\n\t\tPoss OPR ERR\r\n\r\n\t4 FL V06 N22 (fnl gmbl angles)\r\n\t\tR, P, Y\t\tXXX.XX°\r\n\r\n\tAccept PRO\r\n\tReject V25E load desired gmbl angles\r\n\r\n\t(R60 - Attitude Maneuver Routine)\r\n\r\n\t5 FL V50 N18 (auto mnvr request)\r\n\t\tR, P, Y\t\tXXX.XX DEG\r\n\r\nPanel 1:\r\n\tAccept BMAG MODE (3) - RATE 2\r\n\t\tSel CMC Att Cont Auto\r\n\r\nPanel 2, 140:\r\n\t\tPRO\r\n\r\n\t\tV06 N18\r\n\t\t\tR, P, Y\t\tXXX.XX DEG\r\n\t\tMon auto mnvr on FDAI\r\n\tReject\tKey V62E\r\n\r\n\t\tRHC - Null FDAI needles\r\n\r\n\tWhen att satisfactory\r\n\t\tENTR\r\n\r\n\r\n\t\t                                                                                                             \r\n\r\n\r\n\r\n\r\n",
