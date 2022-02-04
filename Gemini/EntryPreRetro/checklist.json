@@ -38,6 +38,20 @@
     {
       "Program": 2,
       "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
       "SetID": 95,
       "ToPosID": 4,
       "Text": null
