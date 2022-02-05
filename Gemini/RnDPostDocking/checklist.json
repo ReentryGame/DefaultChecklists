@@ -5,7 +5,43 @@
   "Name": "POST-DOCKING",
   "Side": 1,
   "SortPriority": 33,
-  "checklistText": "<size=24>POST-DOCKING</size>\n\n1. (optional)Encoder CMD: \t- 140, Approach Lights OFF\n2. Exterior Lights \t\t\t- OFF",
-  "Steps": [],
+  "checklistText": "<size=24>POST-DOCKING</size>\n\n1. Encoder CMD: \t\t\t\t- 140, Approach Lights OFF\n2. Exterior Lights \t\t\t- OFF",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 176,
+      "ToPosID": 2,
+      "Text": null
+    }
+  ],
   "Images": []
 }
