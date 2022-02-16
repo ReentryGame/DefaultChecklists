@@ -3321,7 +3321,7 @@
     },
     {
       "Program": 0,
-      "Type": 0,
+      "Type": 7,
       "SetID": 0,
       "ToPosID": 0,
       "Text": "\\nPNL 100"
