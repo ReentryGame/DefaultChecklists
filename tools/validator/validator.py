@@ -15,7 +15,8 @@ main_key_fields = [
     'Side',
     'SortPriority',
     'Spacecraft',
-    'Steps'
+    'Steps',
+    'AutoGenerate'
 ]
 
 main_key_types = {
@@ -27,7 +28,8 @@ main_key_types = {
     'Side': int,
     'SortPriority': int,
     'Spacecraft': int,
-    'Steps': list
+    'Steps': list,
+    'AutoGenerate': bool
 }
 
 step_key_fields = ['Program', 'Type', 'SetID', 'ToPosID', 'Text']
@@ -53,7 +55,7 @@ for checklist in glob.glob('*/*/checklist.json'):
             file_ok = False
             all_valid = False
     for main_key in j.keys():
-        if main_key not in main_key_fields:
+        if main_key not in main_key_fields.keys():
             print(checklist, 'MAIN', main_key, 'Invalid key')
             file_ok = False
             all_valid = False
