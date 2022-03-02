@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCGeneralGNGenCMCIMUPwrDown",
-  "Group": "G&N GENERAL",
+  "Group": "G&C GENERAL",
   "Name": "CMC/IMU Power Down",
   "Side": 1,
   "SortPriority": 40801020,

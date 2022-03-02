@@ -5,7 +5,7 @@
   "Name": "ORBIT",
   "Side": 0,
   "SortPriority": 80,
-  "checklistText": "1. DC Volts knob \t\t\t- MAIN\n2. Landing Bag switch \t\t- OFF\n3. Retro Delay switch \t\t- NORM\n4. Emer Retro Seq Fuse \t\t- OFF\n5. Emer Drogue Deploy Fuse - OFF\n6. All instruments \t\t\t- CHECK\n\nIf out-of-range from radio station, set UHF PWR - HI for longer reach",
+  "checklistText": "<size=22>ORBIT</size>\n\n1. DC Volts knob \t\t\t- MAIN\n2. Landing Bag switch \t\t- OFF\n3. Retro Delay switch \t\t- NORM\n4. Emer Retro Seq Fuse \t\t- OFF\n5. Emer Drogue Deploy Fuse - OFF\n6. All instruments \t\t\t- CHECK\n\nIf out-of-range from radio station, set UHF PWR - HI for longer reach",
   "Steps": [
     {
       "Program": 3,

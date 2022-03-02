@@ -5,7 +5,7 @@
   "Name": "RE-ENTRY",
   "Side": 1,
   "SortPriority": 80,
-  "checklistText": "1. Fire Retro Green:\n    a. Auto Retro switch \t\t- ARM\n    b. Retro Jett Fuse \t\t\t- ON\n    c. Emer Retro Jett Fuse \t- ON\n2. Jett Retro Telelight goes green 60 seconds after Retro Fire signal.\n3. Attitude Select \t\t\t\t- RE-ENT\n4. Check correct attitude\n5. Monitor attitude indicator until .05G\n6. .05G Telelight \t\t\t\t- GREEN\n7. Rate indicator shows 10*/SEC roll rate\n\nStart LANDING CHECKLIST after re-entry",
+  "checklistText": "<size=24>RE-ENTRY</size>\n\n1. Fire Retro Green:\n    a. Auto Retro switch \t\t- ARM\n    b. Retro Jett Fuse \t\t\t- ON\n    c. Emer Retro Jett Fuse \t- ON\n2. Jett Retro Telelight goes green 60 seconds after Retro Fire signal.\n3. Attitude Select \t\t\t\t- RE-ENT\n4. Check correct attitude\n5. Monitor attitude indicator until .05G\n6. .05G Telelight \t\t\t\t- GREEN\n7. Rate indicator shows 10*/SEC roll rate\n\n<size=22>After Re-entry:</size>\n\tStart LANDING CHECKLIST",
   "Steps": [
     {
       "Program": 3,
@@ -27,6 +27,13 @@
       "SetID": 24,
       "ToPosID": 1,
       "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After Retro Jett"
     },
     {
       "Program": 3,

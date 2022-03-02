@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCGeneralGNGenSaturnRateChange",
-  "Group": "G&N GENERAL",
+  "Group": "G&C GENERAL",
   "Name": "Saturn Rate Change\r",
   "Side": 1,
   "SortPriority": 40801150,

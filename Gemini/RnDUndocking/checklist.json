@@ -5,7 +5,50 @@
   "Name": "Undocking",
   "Side": 1,
   "SortPriority": 34,
-  "checklistText": "1. OAMS PWR \t\t\t- ON\n2. OAMS Valve \t\t\t- OPEN\n3. Encoder CMD: 220 \t\t- UNDOCK\n4. Within 30 seconds, back away from target vehicle.\n\nEMERGENCY RELEASE\n1. EMER REL \t\t\t- PUSH\n\n(Destroys the hooks on Gemini Spacecraft. Unable to dock after this.)",
-  "Steps": [],
+  "checklistText": "<size=24>UNDOCKING</size>\n\n1. OAMS PWR \t\t\t- ON\n2. OAMS Valve \t\t\t- OPEN\n3. Encoder CMD: 220 \t\t- UNDOCK\n4. Within 30 seconds, back away from target vehicle.\n\n<size=20>EMERGENCY RELEASE</size>\n1. EMER REL \t\t\t- PUSH\nNote: Destroys the hooks on Gemini Spacecraft. Unable to dock after this.",
+  "Steps": [
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null
+    }
+  ],
   "Images": []
 }

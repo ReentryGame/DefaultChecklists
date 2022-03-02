@@ -2,10 +2,10 @@
   "Spacecraft": 2,
   "ProjectName": "EntryEntry",
   "Group": "ENTRY",
-  "Name": "Entry",
+  "Name": "ENTRY",
   "Side": 0,
   "SortPriority": 45,
-  "checklistText": "NOTE: TR will vary depending on your entry angle.\n\nAT TR +14:30\nCONTROL S/C ATTITUDES TO:\n\t0 DEG YAW\n\t170 DEG ROLL\n\tHORIZON AT TOP OF WINDOW\n\nAT TR + 19:00 (400K FEET)\nAFTER ROLL NEEDLE DEFLECTION:\n\tCONTROL S/C ATT TO BACKUP BANK ANGLE & DAMP PITCH AND YAW RATES\n\tATTITUDE CONTROL - RATE CMD (RE-ENT)",
+  "checklistText": "<size=24>ENTRY</size>\n\nNOTE: TR will vary depending on your entry angle.\n\n<size=22>AT TR +14:30</size>\nCONTROL S/C ATTITUDES TO:\n\t0 DEG YAW\n\t170 DEG ROLL\n\tHORIZON AT TOP OF WINDOW\n\n<size=22>AT TR + 19:00 (400K FEET)</size>\nAFTER ROLL NEEDLE DEFLECTION:\n\tCONTROL S/C ATT TO BACKUP BANK ANGLE & DAMP PITCH AND YAW RATES\n\tATTITUDE CONTROL - RATE CMD (RE-ENT)",
   "Steps": [],
   "Images": []
 }
