@@ -5,7 +5,7 @@
   "Name": "Abbr. Interior Check (T-20)",
   "Side": 0,
   "SortPriority": 20,
-  "checklistText": "ABBREVIATED INTERIOR CHECK\n(Approx. T-20)\n\n1. All left panel fuses \t\t- NO. 1 POSITION\r\n2. Squib switch \t\t\t\t- ARM\r\n3. Auto retro jett switch \t- ARM\r\n4. ASCS Mode Select switch\t- NORM\r\n5. RSCS Mode Select switch \t- AUTO\r\n6. Retro delay switch \t\t- NORM\r\n7. Rescue switch \t\t\t- AUTO\r\n8. Press Reg Handle \t\t- IN\r\n9. Retro Att switch \t\t\t- AUTO\r\n10. Retract Scope switch \t- AUTO\r\n11. Landing Bag switch \t\t- AUTO\r\n12. Control Fuel\r\n      a. Auto Fuel: ___\r\n      b. Manual Fuel: ___\r\n13. Cabin Pressure Indicator: ___\r\n14. Cabin Temp Indicator: ___\r\n15. Suit Temp Indicator: ___\r\n16. Suit Press Indicator: ___\r\n17. Primary Oxygen: ___\r\n18. Secondary Oxygen: ___\r\n19. Suit Fan switch \t\t- NORM\r\n20. Cabin Fan switch \t\t- NORM\r\n21. DC Volts knob \t\t\t- MAIN\r\n22. Ammeter switch \t\t\t- NORM\r\n23. ASCS AC Bus Switch \t\t- NORM\r\n24. Stby Btry switch \t\t- ON\r\n25. Isol Btry switch \t\t- STBY\r\n26. Inlet Valve Pwr switch \t- NORM\r\n27. Audio Bus switch \t\t- NORM\r\n28. Fans AC Bus switch \t\t- NORM\r\n29. VOX Pwr switch \t\t\t- OFF\r\n30. UHF DF switch \t\t\t- NORM\r\n31. UHF Select switch \t\t- HI PWR\r\n32. Transmit switch \t\t\t- OFF\r\n33. Beacon switch \t\t\t- CONT\r\n34. Emer O2 handle \t\t\t- NORM",
+  "checklistText": "<size=22>ABBREVIATED INTERIOR CHECK (T-20)</size>\n\n1. All left panel fuses \t\t- NO. 1 POSITION\r\n2. Squib switch \t\t\t\t- ARM\r\n3. Auto retro jett switch \t- ARM\r\n4. ASCS Mode Select switch\t- NORM\r\n5. RSCS Mode Select switch \t- AUTO\r\n6. Retro delay switch \t\t- NORM\r\n7. Rescue switch \t\t\t- AUTO\r\n8. Press Reg Handle \t\t- IN\r\n9. Retro Att switch \t\t\t- AUTO\r\n10. Retract Scope switch \t- AUTO\r\n11. Landing Bag switch \t\t- AUTO\r\n12. Control Fuel\r\n      a. Auto Fuel: ___\r\n      b. Manual Fuel: ___\r\n13. Cabin Pressure Indicator: ___\r\n14. Cabin Temp Indicator: ___\r\n15. Suit Temp Indicator: ___\r\n16. Suit Press Indicator: ___\r\n17. Primary Oxygen: ___\r\n18. Secondary Oxygen: ___\r\n19. Suit Fan switch \t\t- NORM\r\n20. Cabin Fan switch \t\t- NORM\r\n21. DC Volts knob \t\t\t- MAIN\r\n22. Ammeter switch \t\t\t- NORM\r\n23. ASCS AC Bus Switch \t\t- NORM\r\n24. Stby Btry switch \t\t- ON\r\n25. Isol Btry switch \t\t- STBY\r\n26. Inlet Valve Pwr switch \t- NORM\r\n27. Audio Bus switch \t\t- NORM\r\n28. Fans AC Bus switch \t\t- NORM\r\n29. VOX Pwr switch \t\t\t- OFF\r\n30. UHF DF switch \t\t\t- NORM\r\n31. UHF Select switch \t\t- HI PWR\r\n32. Transmit switch \t\t\t- OFF\r\n33. Beacon switch \t\t\t- CONT\r\n34. Emer O2 handle \t\t\t- NORM\n\n<size=20>At T-10:</size>\n\tStart FULL INTERNAL POWER Checklist",
   "Steps": [
     {
       "Program": 3,
@@ -461,6 +461,13 @@
       "SetID": 12,
       "ToPosID": 1,
       "Text": null
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At T-10: Start FULL INTERNAL POWER Checklist"
     }
   ],
   "Images": []

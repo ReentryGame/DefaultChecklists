@@ -5,7 +5,7 @@
   "Name": "FLY-BY-WIRE",
   "Side": 1,
   "SortPriority": 10,
-  "checklistText": "1. ASCS switch \t\t\t- FLY-BY-WIRE\n2. RSCS switch \t\t\t- AUTO\n3. Manual Fuel Handle \t- PUSH RATE COMD\n4. Use handcontroller to desired attitude\n\nTo return to the normal control\n5. ASCS switch \t\t\t- NORM",
+  "checklistText": "<size=24>FLY-BY-WIRE MODE</size>\n\n1. ASCS switch \t\t\t- FLY-BY-WIRE\n2. RSCS switch \t\t\t- AUTO\n3. Manual Fuel Handle \t- PUSH RATE COMD\n4. Use handcontroller to desired attitude\n",
   "Steps": [
     {
       "Program": 3,
@@ -33,14 +33,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "To return to normal control system:"
-    },
-    {
-      "Program": 3,
-      "Type": 1,
-      "SetID": 12,
-      "ToPosID": 1,
-      "Text": null
+      "Text": "Use handcontroller to desired attitude"
     }
   ],
   "Images": []

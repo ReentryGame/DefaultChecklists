@@ -5,7 +5,7 @@
   "Name": "BEF",
   "Side": 1,
   "SortPriority": 13,
-  "checklistText": "1. Platform\t\t\t- BEF\n2. Attitude \t\t\t- PLAT\n3. OAMS or RCS \t\t- Enabled",
+  "checklistText": "<size=24>BEF</size>\n\n1. Platform\t\t\t- BEF\n2. Attitude \t\t\t- PLAT\n3. OAMS or RCS \t\t- Enabled",
   "Steps": [
     {
       "Program": 2,

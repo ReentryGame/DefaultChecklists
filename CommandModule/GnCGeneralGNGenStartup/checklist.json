@@ -1,8 +1,8 @@
 {
   "Spacecraft": 0,
   "ProjectName": "GnCGeneralGNGenStartup",
-  "Group": "G&N GENERAL",
-  "Name": "Startup",
+  "Group": "G&C GENERAL",
+  "Name": "CMC Startup",
   "Side": 1,
   "SortPriority": 40801030,
   "checklistText": "Startup\r\n\r\n\t\tCMC Startup\r\n\r\nPanel 2, 140:\r\n\tPRO - (push until STBY lt out)\r\n\t\tPoss CMC warning lt (20 sec max)\r\n\t\tPoss RESTART lt - on\r\n\t\tPoss PROG alarm\r\n\t\tRSET\r\n\t\tDSKY - P06\r\n\t\tFL V37\r\n\t\t\tKey 00E\r\n\t\t\r\n\t\tIf state vctr update\r\n\r\nPanel 2, 140:\r\n\tKey V96E\r\n\tPerform CSM - (P27) CMC Update\r\n\r\n\tKey V37E 00E\r\n\t\r\n\tKey V37E xxE\r\n\r\n\r\n\t\tISS Startup\r\n\r\n\tIf CMC on\r\n\r\nPanel 100:\r\n\t\tG/N IMU PWR - on (up)\r\n\r\nPanel 2, 140:\r\n\r\n\t\tNO ATT lt - on (90 sec)\r\n\t\tNO ATT lt - out (wait 15 sec)\r\n\t\t\tKey V37E XXE\r\n\r\n\t\tIf CMC not on\r\n\r\nPanel 100:\r\n\t\tG/N IMU PWR - on (up)\r\n\t\tWait 90 sec\r\n\r\nPanel 1:\r\n\t\tIMU CAGE - on (up) ≈5 sec\r\n\t\t\tthen off (down)\r\n\r\n\t\t\r\n\r\n\r\n\r\n",

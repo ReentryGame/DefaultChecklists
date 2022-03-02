@@ -5,7 +5,7 @@
   "Name": "SQUIB & ABORT CHECK (T-40)",
   "Side": 0,
   "SortPriority": 3,
-  "checklistText": "\rSQUIB BATTERY & ABORT CAPABILITY CHECK (T-40)\n\r\n1. Squib Battery (3) \t\t\t- OFF\r\n2. Voltmeter selector \t\t\t- S1\r\n3. Verify voltmeter indicates 0 volts\n3. Squib Battery 1 \t\t\t\t- UMB\r\n5. Squib Battery 2 \t\t\t\t- UMB\r\n5. Squib Battery 3 \t\t\t\t- UMB\r\n6. Verify volts > 24v.\r\n9. Squib Battery 1 \t\t\t\t- OFF\n10. Squib Battery 2 \t\t\t- OFF\n3. Verify voltmeter indicates 0 volts\n12. Voltmeter selector \t\t\t- S2\n3. Verify voltmeter indicates 0 volts\n13. Squib Battery 1 \t\t\t- UMB\r\n15. Squib Battery 2 \t\t\t- UMB\r\n16. Verify volts > 24v.\r\n22. Verify all squib batteries \t- UMB\r\n23. Voltmeter selector \t\t\t- C\r\n24. Verify volts > 24v.\r\n25. Verify Abort Lights (2) \t\t- Extinguished\r\n26. Request Abort & Squib Check from Blockhouse\r\n27. After 5 seconds: Squibs are checked\r\n28. If squibs OK: Verify Abort lights Illuminated\r\n29. After 15 seconds: Test results are returned\r\n30. If success: Proceed\r\n31. If failed: Repeat ",
+  "checklistText": "\r<size=24>SQUIB BATTERY & ABORT CAPABILITY CHECK (T-40)</size>\n\r\n1. Squib Battery (3) \t\t\t- OFF\r\n2. Voltmeter selector \t\t\t- S1\r\n3. Verify voltmeter indicates 0 volts\n3. Squib Battery 1 \t\t\t\t- UMB\r\n5. Squib Battery 2 \t\t\t\t- UMB\r\n5. Squib Battery 3 \t\t\t\t- UMB\r\n6. Verify volts > 24v.\r\n9. Squib Battery 1 \t\t\t\t- OFF\n10. Squib Battery 2 \t\t\t- OFF\n3. Verify voltmeter indicates 0 volts\n12. Voltmeter selector \t\t\t- S2\n3. Verify voltmeter indicates 0 volts\n13. Squib Battery 1 \t\t\t- UMB\r\n15. Squib Battery 2 \t\t\t- UMB\r\n16. Verify volts > 24v.\r\n22. Verify all squib batteries \t- UMB\r\n23. Voltmeter selector \t\t\t- C\r\n24. Verify volts > 24v.\r\n25. Verify Abort Lights (2) \t\t- Extinguished\r\n26. Request Abort & Squib Check from Blockhouse\r\n27. After 5 seconds: Squibs are checked\r\n28. If squibs OK: Verify Abort lights Illuminated\r\n29. After 15 seconds: Test results are returned\r\n30. If success: Proceed\r\n31. If failed: Repeat \n\nStart FULL INTERNAL POWER (T-15) Checklist",
   "Steps": [
     {
       "Program": 2,
@@ -181,6 +181,13 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Verify test is a success and Abort Indicator lights are illuminated on prompt."
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start FULL INTERNAL POWER (T-15) Checklist"
     }
   ],
   "Images": []

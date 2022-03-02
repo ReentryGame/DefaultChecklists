@@ -5,7 +5,8 @@
   "Name": "Activation",
   "Side": 0,
   "SortPriority": 20,
-  "checklistText": "ACTIVATION\r\n\r\nPanel 5:\n\tcb C/W MNA - close\n\tcb C/W MNB - close\nPanel 2:\r\n\tC/W POWER - 1 (up)\r\n\t\tMASTER ALARM pb/lt (3) - on, push\r\n\t\r\nPanel 5:\r\n\tcb G/N COMPUTER MNA - close\r\n\tcb G/N COMPUTER MNB - close\r\n\r\nPanel 2:\r\n\tV37E 00E\r\n\t\tP00\r\n\t\r\n\tV35E\r\n\t\tF 88 88\r\n\r\n\tV37E 00E\r\n\t\tP00\r\n\r\n\tV16 N65E\r\n\t\t16 65\r\n\r\n\tV37E 00E\r\n\r\nPanel 5:\r\n\tcb G/N IMU HTR MNA - close\r\n\tcb G/N IMU HTR MNB - close\r\n\tcb G/N IMU MNA - close\r\n\tcb G/N IMU MNB - close\r\n\r\nPanel 100:\n\tG/N POWER: IMU - up\n\nPanel 2:\r\n\tNO ATT lt - on(90 sec)\r\n\tNO ATT lt - off\r\n\nPanel 7: \n\tFDAI / GPI Power - 1 or Both\n\nPanel 2:\n\tV37E 01E\n\tNO ATT lt - on\n\tNO ATT lt - off\n\tVerify: DSKY auto advance P02\n\nPanel 7:\n\tFDAI / GPI Power - Off\n\r\nPanel 275:\n\tINVERTER POWER 1, MAIN A cb - close\n\tINVERTER POWER 2, MAIN B cb - close\n\tINVERTER POWER 3, MAIN A cb - close\n\tINVERTER POWER 3, MAIN B cb - close\n\n\rPanel 5\n\tINVERTER CONTROL 1 cb - close\n\tINVERTER CONTROL 2 cb - close\n\tINVERTER CONTROL 3 cb - close\n\nPanel 3\n\tAC INVERTER 3 sw - MN A\n\tAC BUS 1 INV 3 sw - ON (up)\n\tAC BUS 2 INV 3 sw - ON (up)\n\tAC BUS 1 RESET sw - RESET, ON (up, then ctr)\n\tAC BUS 2 RESET sw - RESET, ON (up, then ctr)\n\nPanel 226:\n\tLIGHTING FLOOD MNA cb - close\n\nPanel 5, 8:\n\tINTERIOR LIGHTS FLOOD sel - adj as needed\n\nPanel 378:\n\tPRIM GLYCOL ACCUM - OPEN\n\nPanel 326:\n\tGLYCOL RESERVOIR INLET - OPEN\n\tGLYCOL RESERVOIR BYPASS - OPEN\n\tGLYCOL RESERVOIR OUTLET - OPEN\n\nPanel 325:\n\tCABIN PRESSURE RELIEF A/B - NORMAL\n\nPanel 326:\n\tSM SUPPLY - ON\n\tSURGE TANK - ON\n\tREPRESS PKG - OFF\n\nPanel 351:\n\tMAIN REGULATOR A/B - OPEN\n\nPanel 5:\n\tECS RADIATORS \n\t\tRADIATOR CONTROLLER AC1 - CLOSE\n\t\tRADIATOR CONTROLLER AC2 - CLOSE\n\t\tCONT/HTRS MNA - CLOSE\n\t\tCONT/HTRS MNB - CLOSE\n\nPanel 7:\n\tO2 FLOW - FULLY CLOSED",
+  "AutoGenerate": false,
+  "checklistText": "ACTIVATION\r\n\r\nPanel 5:\n\tcb C/W MNA - close (verify)\n\tcb C/W MNB - close (verify)\nPanel 2:\r\n\tC/W POWER - 1 (up)\r  (verify)\n\t\tIf MASTER ALARM pb/lt (3) - on: push\r\n\t\r\nPanel 5:\r\n\tcb G/N COMPUTER MNA - close\r\n\tcb G/N COMPUTER MNB - close\r\n\r\nPanel 2:\r\n\tV37E 00E\r\n\t\tP00\r\n\t\r\n\tV35E\r\n\t\tF 88 88\r\n\r\n\tV37E 00E\r\n\t\tP00\r\n\r\n\tV16 N65E\r\n\t\t16 65\r\n\r\n\tV37E 00E\r\n\r\nPanel 5:\r\n\tcb G/N IMU HTR MNA - close\r (verify)\n\tcb G/N IMU HTR MNB - close\r (verify)\n\tcb G/N IMU MNA - close\r (verify)\n\tcb G/N IMU MNB - close\r (verify)\n\r\nPanel 100:\n\tG/N POWER: IMU - up (verify)\n\nPanel 2:\r\n\tIf NO ATT lt - on(90 sec)\r\n\tWait: NO ATT lt - off\r\n\nPanel 7: \n\tFDAI / GPI Power - 1 or Both\n\nPanel 2:\n\tV37E 01E\n\tNO ATT lt - on\n\tNO ATT lt - off\n\tVerify: DSKY auto advance P02\n\nPanel 7:\n\tFDAI / GPI Power - Off\n\n\n\n",
   "Steps": [
     {
       "Program": 0,
@@ -327,14 +328,14 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "AGC Warning light: NO ATT on for 90 seconds, then out."
+      "Text": "If AGC Warning light: NO ATT on for 90 seconds, then out."
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "P7: Verify: FDAI/GPI Power - 1 or Both"
+      "Text": "P7: Set FDAI/GPI Power - 1 or Both"
     },
     {
       "Program": 0,
@@ -396,223 +397,6 @@
       "Program": 0,
       "Type": 3,
       "SetID": 4,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 145,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 146,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 147,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 148,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 7,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 8,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 9,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 9,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 12,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 15,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 271,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 272,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 3,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Cycle through the AC 1 and 2 phases, veriy AC Volts > 113 vdc"
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 210,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 31,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 62,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 63,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 64,
-      "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 60,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 61,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 66,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 67,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 65,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 41,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 42,
-      "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 120,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 121,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 122,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 2,
-      "SetID": 123,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 30,
       "ToPosID": 0,
       "Text": null
     }
