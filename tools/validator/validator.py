@@ -55,7 +55,7 @@ for checklist in glob.glob('*/*/checklist.json'):
             file_ok = False
             all_valid = False
     for main_key in j.keys():
-        if main_key not in main_key_fields.keys():
+        if main_key not in main_key_fields:
             print(checklist, 'MAIN', main_key, 'Invalid key')
             file_ok = False
             all_valid = False
