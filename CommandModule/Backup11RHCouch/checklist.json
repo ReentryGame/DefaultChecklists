@@ -2070,7 +2070,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Keep it on INCR fro 58 seconds, then DECR for 8.5+/-0.5 sec"
+      "Text": "Keep it on INCR for 58 seconds, then DECR for 8.5+/-0.5 sec"
     },
     {
       "Program": 0,
