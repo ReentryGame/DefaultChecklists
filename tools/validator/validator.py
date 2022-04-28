@@ -15,7 +15,8 @@ main_key_fields = [
     'Side',
     'SortPriority',
     'Spacecraft',
-    'Steps'
+    'Steps',
+    'AutoGenerate'
 ]
 
 main_key_types = {
@@ -27,7 +28,8 @@ main_key_types = {
     'Side': int,
     'SortPriority': int,
     'Spacecraft': int,
-    'Steps': list
+    'Steps': list,
+    'AutoGenerate': bool
 }
 
 step_key_fields = ['Program', 'Type', 'SetID', 'ToPosID', 'Text']
