@@ -1,23 +1,31 @@
 {
-    "Group": "LUNAR DESCENT",
-    "Images": [
-        {
-            "Name": "cuecard.png",
-            "Position": {
-                "x": 0.0,
-                "y": 1150.0
-            },
-            "Size": {
-                "x": 700.0,
-                "y": 700.0
-            }
-        }
-    ],
-    "Name": "P64 - APPROACH PHASE",
-    "ProjectName": "PoweredDescentP64",
-    "Side": 0,
-    "SortPriority": 203,
-    "Spacecraft": 1,
-    "Steps": [],
-    "checklistText": "APPROACH PHASE PROGRAM (P64)\r\n\r\n\t\t\tWARNING\r\n\r\n\t\tDES QTY warn lt will not be accompanies\r\n\t\tby MASTER ALARM; therefore, crewman must\r\n\t\tmonitor MPS: FUEL & OXID QUANTITY ind.\r\n\r\n\t\r\n1.\tPROG ind - 64\r\n\r\n2.\tFL V06 N64\r\n\t\tR1 TR/LPD\tXXBXX sec-deg\r\n\t\tR2 H rate\tXXXX.X fps\r\n\t\tR3 H\tXXXXX ft\r\n\t\r\n\tTR is estimated time remaining until end of redesignation \r\n\tcapability (change landing zone)\r\n\r\n\tLPD is the angle below LM body +Z axis (forward) and the \r\n\tlanding point.\r\n\r\n\tIf not in AUTO, set LDG ANT tw - HOVER\r\n\r\n\r\n3.\tMonitor FDAI & observe LGC-controlled pitchover through\r\n\tforward window.\r\n\r\n\tLGC commands YAW rotation to bring designated landing site\r\n\tin line with landing point designator scale on CDR's for-\r\n\tward window. Approximate look angle is in R1.\r\n\r\n4.\tP64 will switch to P66 automatically, or if you set PGNS to ATT HOLD,\r\n\tand DES RATE sw - +1 or -1\r\n\r\n\r\n\r\n\r\nCUE CARD FOR P64:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+  "Spacecraft": 1,
+  "ProjectName": "PoweredDescentP64",
+  "Group": "LUNAR DESCENT",
+  "Name": "P64 - APPROACH PHASE",
+  "Side": 0,
+  "SortPriority": 203,
+  "checklistText": "APPROACH PHASE PROGRAM (P64)\r\n\r\n\t\t\tWARNING\r\n\r\n\t\tDES QTY warn lt will not be accompanies\r\n\t\tby MASTER ALARM; therefore, crewman must\r\n\t\tmonitor MPS: FUEL & OXID QUANTITY ind.\r\n\r\n\t\r\n1.\tPROG ind - 64\r\n\r\n2.\tFL V06 N64\r\n\t\tR1 TR/LPD\tXXBXX sec-deg\r\n\t\tR2 H rate\tXXXX.X fps\r\n\t\tR3 H\tXXXXX ft\r\n\t\r\n\tTR is estimated time remaining until end of redesignation \r\n\tcapability (change landing zone)\r\n\r\n\tLPD is the angle below LM body +Z axis (forward) and the \r\n\tlanding point.\r\n\r\n\tIf not in AUTO, set LDG ANT tw - HOVER\r\n\r\n\r\n3.\tMonitor FDAI & observe LGC-controlled pitchover through\r\n\tforward window.\r\n\r\n\tLGC commands YAW rotation to bring designated landing site\r\n\tin line with landing point designator scale on CDR's for-\r\n\tward window. Approximate look angle is in R1.\r\n\r\n4.\tP64 will switch to P66 automatically, or if you set PGNS to ATT HOLD,\r\n\tand DES RATE sw - +1 or -1\r\n\r\n\r\n\r\n\r\nCUE CARD FOR P64:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 5,
+      "Text": null
+    }
+  ],
+  "Images": [
+    {
+      "Name": "cuecard.png",
+      "Position": {
+        "x": 0.0,
+        "y": 1150.0
+      },
+      "Size": {
+        "x": 700.0,
+        "y": 700.0
+      }
+    }
+  ]
 }
