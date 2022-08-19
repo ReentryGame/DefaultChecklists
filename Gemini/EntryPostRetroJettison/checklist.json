@@ -5,7 +5,8 @@
   "Name": "POST RETRO JETTISON",
   "Side": 0,
   "SortPriority": 44,
-  "checklistText": "<size=22>POST RETRO JETTISON</size>\n\n1. RETRO PWR \t\t\t\t\t\t- SAFE\n2. RETRO JETT \t\t\t\t\t\t- SAFE\n3. RETRO ROCKET SQUIBS (4) \t\t\t- SAFE\n4. CP FDR \t\t\t\t\t\t\t- COMP\n5. CP FDM \t\t\t\t\t\t\t- ATT\n6. CP FDI SCALE RANGE \t\t\t\t- LO\n7. RCS CNTL PWR B \t\t\t\t\t- OFF\n8. BOOST INSERT CNTL 1 & 2 C/B \t- OPEN\n9. RETRO SEQ CNTL 1 & 2 C/B \t\t- OPEN\n10. CRYO O2 & H2 HTR C/B \t\t\t- OPEN\n11. OAMS CNTL PROP C/B \t\t\t- OPEN\n12. FUEL CELL CNTL 1 & 2 C/B \t\t- OPEN\n13. TAPE RCDR CNTL C/B \t\t\t- OPEN\n14. SECT NO 1 & 2 PWR \t\t\t\t- OFF\n15. 1A, 1B, 1C, 2A, 2B, 2C \t\t\t- OFF\n16. PILOT FDR \t\t\t\t\t\t- COMP\n17. PILOT FDM \t\t\t\t\t\t- ATT\n18. LANDING SQUIB \t\t\t\t\t- ARM\n\nSTART ENTRY CHECKLIST",
+  "AutoGenerate": false,
+  "checklistText": "<size=22>POST RETRO JETTISON</size>\n\n1. RETRO PWR \t\t\t\t\t\t- SAFE\n2. RETRO JETT \t\t\t\t\t\t- SAFE\n3. RETRO ROCKET SQUIBS (4) \t\t\t- SAFE\n4. CP FDR \t\t\t\t\t\t\t- COMP\n5. CP FDM \t\t\t\t\t\t\t- ATT\n6. CP FDI SCALE RANGE \t\t\t\t- LO\n7. RCS CNTL PWR B \t\t\t\t\t- OFF\n8. BOOST INSERT CNTL 1 & 2 C/B \t- OPEN\n9. RETRO SEQ CNTL 1 & 2 C/B \t\t- OPEN\n10. CRYO O2 & H2 HTR C/B \t\t\t- OPEN\n11. OAMS CNTL PROP C/B \t\t\t- OPEN\n12. FUEL CELL CNTL 1 & 2 C/B \t\t- OPEN\n13. TAPE RCDR CNTL C/B \t\t\t- OPEN\n14. SECT NO 1 & 2 PWR \t\t\t\t- OFF\n15. 1A, 1B, 1C, 2A, 2B, 2C \t\t\t- OFF\n16. PILOT FDR \t\t\t\t\t\t- COMP\n17. PILOT FDM \t\t\t\t\t\t- ATT\n18. LANDING SQUIB \t\t\t\t\t- ARM\n\nRecord Retrofire dV vector from IVI's\n\nSTART ENTRY CHECKLIST",
   "Steps": [
     {
       "Program": 2,
@@ -216,6 +217,13 @@
       "SetID": 5,
       "ToPosID": 4,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Take note of retrofire the dV vector on IVI's"
     },
     {
       "Program": 2,

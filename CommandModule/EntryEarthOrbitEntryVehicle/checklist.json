@@ -5,7 +5,1171 @@
   "Name": "EARTH ORBIT ENTRY VEHICLE",
   "Side": 0,
   "SortPriority": 801,
-  "checklistText": "<size=21>EARTH ORBIT ENTRY VEHICLE PREPARATION</size>\r\n\r\n19) EMS ENTRY CHECK\r\n\tEMS FUNC - OFF\n\t[P08]cb EMS (2) - close\n\tEMS MODE - STBY\n\tEMS FUNC - EMS TEST 1 (wait 5 sec)\n\tEMS MODE - NORMAL (wait 10 sec)\n\t\tCheck in lts - off\n\t\tRANGE ind - 0.0\n\t\tSlew hariline over notch\n\t\t\tin self-test pattern\n\tEMS FUNC - EMS TEST 2 (wait 10 sec)\n\t\t.05G lt - on (all others out)\n\tEMS FUNC - EMS TEST 3\n\t\t.05G lt - on\n\t\tRSI lower lt - on (10 sec later)\n\t\tSet RANGE counter to 58 NM\n\tEMS FUNC - EMS TEST 4\n\t\t.05G lt - on (all others out)\n\t\tG-V trace within pattern ot lwr rt conter @9G\n\t\tRANGE ind counts down to 0+/-0.2\n\tEMS FUNC - TEST 5\n\t\t.05G lt - on\n\t\tRSI upper lt - on (10 sec later)\n\t\tRANGE ind - 0.0\n\t\tScribe traces vertical line 9g to 0.28+/-0.1\n\t\tALIGN SCROLL TO ENTRY PATTERN (on\n\t\t\t37K ft/sec line)\n\t\tEMS FUNC - RNG SET\n\t\t\tG-V scroll assy traces vert. line\n\t\t\t\t0.28g to 0+/-0.1\n\t\tEMS MODE - STBY\n\n\r\n20) Perform EMS ΔV TEST & NULL BIAS CHECK\r\n\r\n21) PRIMARY WATER EVAP ACTIVATION\r\n\tGLY EVAP H2O FLOW - AUTO\r\n\tGLY EVAP STM PRESS - AUTO\r\n\tPRI ECS GLY PUMP - AC1 - (verify)\r\n\r\n22) SEC WATER EVAP ACTIVATION\r\n\tECS IND sel - SEC\r\n\tSEC COOL LOOP PUMP - AC2\r\n\tGLY DISCH SEC PRESS - 39-51 psig\r\n\tSEC COOL LOOP EVAP - EVAP\r\n\tSEC GLY EVAP OUT TEMP - 38-50.5°F\r\n\tSUIT CKT HT EXCH - BYPASS 20 sec, OFF\r\n\tECS IND sel - PRIM\r\n\r\n24) CM RCS PREHEAT (-01:00h)\r\n\tcb RCS LOGIC (2) - close\r\n\tCM RCS LOGIC - on (up)\r\n\tcb CM RCS HTRS (2) - close\r\n\t[P101] CM RCS HTRS - ON\r\n\t(20 min or til lowest rdg is 3.9 vdc) (Monitor Mand press for press drop)\r\n\r\n25) FINAL STOWAGE\r\n\r\n26) TERM. CM RCS PREHEAT (-00:40m)\r\n\t[P101] CM RCS HTRS - OFF\r\n\tCM RCS LOGIC - OFF\r\n\tcb CM RCS HTR (2) - open\r\n\r\n27) SYSTEMS TEST PANEL CONFIGURATION\r\n\tSYS TEST METER - 5B (BAT RLY BUS 3.4-4.1 vdc)\r\n\t[P101] CM RCS HTRS - OFF (verify)\r\n\tWASTE H2O DUMP HTR - OFF\r\n\tURINE DUMP HTR - OFF\r\n\t[P100] LEB FLOOD & INTGL LIGHTING - OFF\r\n\r\n28) PYRO BATT CK\r\n\t[P250]cb PYRO A SEQ A - close (verify)\r\n\tcb PYRO B SEQ A - close (verify)\r\n\tDC IND - PYRO BAT A(B)\r\n\t\t*If PYRO BAT A(B) < 35 vdc\t\t\t\t\t\t\t*\r\n\t\t*cb PYRO A(B) SEQ A(B) - open\t\t\t\t\t\t*\r\n\t\t*cb PYRO A(B) BAT BUS A(B) TO PYRO BUS TIE - close\t*\r\n\t[P275] cb MNA BAT C - close\r\n\tcb MNB BAT C - close\r\n\tDC IND - MNB\r\n\r\n29) CONFIGURE PNL 8\r\n\tAll cb's closed except:\r\n\tCM RCS HTRS (2) - open (verify)\r\n\tDOCKING PROBE (2) - open (verify)\r\n\tFLOAT BAG (3) - open (verify)\r\n\tSECS ARM (2) - open (verify)\r\n\tEDS BAT (3) - open (verify)\r\n\tELS/CM-SM SEP (2) - open (verify)\r\n\tPL VENT - open (verify)\r\n\r\n30) FINAL GDC DRIFT CK (if req'd)If drift > 10°/hr, suspect GDC,\r\n\tDo not use RSI & FDAI #2\r\n\r\n31) CM RCS ACTIVATION\r\n\tcb ELS/CM-SM SEP (2) - close\r\n\tcb SECS ARM (2) - close\r\n\tSECS LOGIC (2) - on(up)\r\n\tSECS PYRO ARM (2) - ARM\r\n\tCM RCS PRPLNT 1&2 tb(2d)-gray (verify)\r\n\tCM RCS PRESS - on (up)\r\n\tRCS IND sw - CM1, then 2\r\n\t\tHe PRESS stabilizes at 3300-3500 psia after 15 minutes\r\n\tMANF PRESS 287-302 psia\r\n\tSECS PYRO ARM (2) - SAFE\r\n\r\n32) DOCKING RING JETTISON (of req'd, hybrid only)\r\n\tSECS PYRO ARM (2) - ARM\r\n\tYAW 45° out of plane\r\n\tCSM/LM FNL SEP (2) - on (up)\r\n\tSECS PYRO ARM (2) - SAFE\r\n",
-  "Steps": [],
+  "AutoGenerate": false,
+  "checklistText": "<size=21>EARTH ORBIT ENTRY VEHICLE PREPARATION</size>\r\n\nThroughout the checklist, time to CM/SM separation is used as a timing guideline.\n\nRequesting Entry PAD:\npress CREW MEMBERS -> GROUND/REQUEST PADS -> REQUEST ENTRY PAD\n\nEVENT TIMER (-01:00h count down)\n- Set event timer to 1 hour, count down.\n- Plan a deorbit burn with entry angle of 2°\n- Make note of the Time to EI\n- CM/SM separation should happen 12 minutes before EI\n- Start event timer then time to CM/SM sep is -01:00h.\n\n\n19) EMS ENTRY CHECK\r\n\tEMS FUNC - OFF\n\t[P08]cb EMS (2) - close\n\tEMS MODE - STBY\n\tEMS FUNC - EMS TEST 1 (wait 5 sec)\n\tEMS MODE - NORMAL (wait 10 sec)\n\t\tCheck in lts - off\n\t\tRANGE ind - 0.0\n\t\tSlew hariline over notch\n\t\t\tin self-test pattern\n\tEMS FUNC - EMS TEST 2 (wait 10 sec)\n\t\t.05G lt - on (all others out)\n\tEMS FUNC - EMS TEST 3\n\t\t.05G lt - on\n\t\tRSI lower lt - on (10 sec later)\n\t\tSet RANGE counter to 58 NM\n\tEMS FUNC - EMS TEST 4\n\t\t.05G lt - on (all others out)\n\t\tG-V trace within pattern ot lwr rt conter @9G\n\t\tRANGE ind counts down to 0+/-0.2\n\tEMS FUNC - TEST 5\n\t\t.05G lt - on\n\t\tRSI upper lt - on (10 sec later)\n\t\tRANGE ind - 0.0\n\t\tScribe traces vertical line 9g to 0.28+/-0.1\n\t\tALIGN SCROLL TO ENTRY PATTERN (on\n\t\t\t37K ft/sec line)\n\t\tEMS FUNC - RNG SET\n\t\t\tG-V scroll assy traces vert. line\n\t\t\t\t0.28g to 0+/-0.1\n\t\tEMS MODE - STBY\n\n\r\n20) Perform EMS ΔV TEST & NULL BIAS CHECK\r\n\r\n21) PRIMARY WATER EVAP ACTIVATION\r\n\tGLY EVAP H2O FLOW - AUTO\r\n\tGLY EVAP STM PRESS - AUTO\r\n\tPRI ECS GLY PUMP - AC1 - (verify)\r\n\r\n22) SEC WATER EVAP ACTIVATION\r\n\tECS IND sel - SEC\r\n\tSEC COOL LOOP PUMP - AC2\r\n\tGLY DISCH SEC PRESS - 39-51 psig\r\n\tSEC COOL LOOP EVAP - EVAP\r\n\tSEC GLY EVAP OUT TEMP - 38-50.5°F\r\n\tSUIT CKT HT EXCH - BYPASS 20 sec, OFF\r\n\tECS IND sel - PRIM\r\n\n24) CM RCS PREHEAT (-01:00h)\r\n\tcb RCS LOGIC (2) - close\r\n\tCM RCS LOGIC - on (up)\r\n\tcb CM RCS HTRS (2) - close\r\n\t[P101] CM RCS HTRS - ON\r\n\t(20 min or til lowest rdg is 3.9 vdc) (Monitor Mand press for press drop)\r\n\r\n25) FINAL STOWAGE\r\n\r\n26) TERM. CM RCS PREHEAT (-00:40m)\r\n\t[P101] CM RCS HTRS - OFF\r\n\tCM RCS LOGIC - OFF\r\n\tcb CM RCS HTR (2) - open\r\n\r\n27) SYSTEMS TEST PANEL CONFIGURATION\r\n\tSYS TEST METER - 4B (BAT RLY BUS 3.4-4.1 vdc)\r\n\t[P101] CM RCS HTRS - OFF (verify)\r\n\tWASTE H2O DUMP HTR - OFF\r\n\tURINE DUMP HTR - OFF\r\n\t[P100] LEB FLOOD & INTGL LIGHTING - OFF\r\n\r\n28) PYRO BATT CK\r\n\t[P250]cb PYRO A SEQ A - close (verify)\r\n\tcb PYRO B SEQ B - close (verify)\r\n\tDC IND - PYRO BAT A(B)\r\n\t\t*If PYRO BAT A(B) < 35 vdc\t\t\t\t\t\t\t*\r\n\t\t*cb PYRO A(B) SEQ A(B) - open\t\t\t\t\t\t*\r\n\t\t*cb PYRO A(B) BAT BUS A(B) TO PYRO BUS TIE - close\t*\r\n\t[P275] cb MNA BAT C - close\r\n\tcb MNB BAT C - close\r\n\tDC IND - MNB\r\n\r\n29) CONFIGURE PNL 8\r\n\tAll cb's closed except:\r\n\tCM RCS HTRS (2) - open (verify)\r\n\tDOCKING PROBE (2) - open (verify)\r\n\tFLOAT BAG (3) - open (verify)\r\n\tSECS ARM (2) - open (verify)\r\n\tEDS BAT (3) - open (verify)\r\n\tELS/CM-SM SEP (2) - open (verify)\r\n\tPL VENT - open (verify)\r\n\r\n30) FINAL GDC DRIFT CK (if req'd)If drift > 10°/hr, suspect GDC,\r\n\tDo not use RSI & FDAI #2\r\n\r\n31) CM RCS ACTIVATION\r\n\tcb ELS/CM-SM SEP (2) - close\r\n\tcb SECS ARM (2) - close\r\n\tSECS LOGIC (2) - on(up)\r\n\tSECS PYRO ARM (2) - ARM\r\n\tCM RCS PRPLNT 1&2 tb(2) - gray (verify)\r\n\tCM RCS PRESS - on (up)\r\n\tRCS IND sw - CM1, then 2\r\n\t\tHe PRESS stabilizes at 3300-3500 psia after 15 minutes\r\n\tMANF PRESS 287-302 psia\r\n\tSECS PYRO ARM (2) - SAFE\r\n\r\n32) DOCKING RING JETTISON (if req'd, hybrid only)\r\n\tSECS PYRO ARM (2) - ARM\r\n\tYAW 45° out of plane\r\n\tCSM/LM FNL SEP (2) - on (up)\r\n\tSECS PYRO ARM (2) - SAFE\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Request ENTRY PAD"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set EVENT TIMER to 59:59 with counting direction set to down (stopped)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When time to CM/SM Sep is 1 hour, start the event timer."
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "EMS ENTRY CHECK"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 11,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 5 seconds in EMS TEST 1"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 1"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    lights - off"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RANGE ind - 0.0"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 10,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 2"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on (all others out)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 9,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 3"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RSI lower lt - on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Use the EMS SET to set RANGE to 58 NM"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 8,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 4"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on (all others out)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    G-V trace within pattern"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RANGE ind counts down to 0 +/-0.2"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 7,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 5"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RSI upper lt - on"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RANGE ind - 0.0"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Scribe traces vertical line 9g to 0.28 +/-0.1"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ALIGN SCROLL TO ENTRY PATTERN (on 37K ft/sec line, start of pattern)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 6,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "G-V scroll traces vertical line 0.28g to 0"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "This completes the EMS Entry check"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 177,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 181,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 16,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    GLY DISCH SEC PRESS - 39-51 psig"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SEC GLY EVAP OUT TEMP - 38-50.5°F"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS PREHEAT (-01:00h to Deorbit Burn)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 157,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TERMINATE CM RCS PREHEAT (-00:40m)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 157,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 69,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 269,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 270,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PYRO BATT CHK"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 150,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 9,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    > 34 vdc"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    *If low voltage, cb PYRO BUS A(B) SEQ A(B) - open and cb PYRO A(B) BAT BUS A(B) TO PYRO BUS TIE - close"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Same check for PYRO BAT B"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 137,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 138,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 66,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 36,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 37,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 38,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 39,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 40,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 41,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 42,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 47,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 48,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 49,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 172,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 173,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 54,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 128,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 130,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 129,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 131,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 126,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 127,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 69,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 56,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 57,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 59,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 52,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 53,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 134,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 135,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 249,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 250,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 251,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 252,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 253,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 254,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 255,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 256,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 62,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 63,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 169,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 171,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 170,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 168,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 76,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS ACTIVATION"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 99,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 100,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 155,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    He PRESS stab at 3300-3500 psia"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    He PRESS stab at 3300-3500 psia"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "He MANF PRESS 287-302 psia"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DOCKING RING JETTISON (if req'd) else [CLEAR ALL]"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "YAW 45° out of plane"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 266,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 267,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null
+    }
+  ],
   "Images": []
 }

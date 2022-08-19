@@ -5,8 +5,16 @@
   "Name": "Rendezvous",
   "Side": 1,
   "SortPriority": 31,
-  "checklistText": "<size=24>PRE-RENDEZVOUS CHECKLIST</size>\n\n\t1. RADAR \t\t\t\t\t\t- STBY\n\t2. Computer \t\t\t\t\t\t- CTCH UP\n\t3. Circulize Orbit CHECKLIST \t- COMPLETED\n\t4. REQUEST TARGET BURN\n\t5. Use computer to calculate transfer orbit burn time\n   \t\ta. Set CORE 56 (Pe) to CORE 80 (Target Pe)\n   \t\tb. Set CORE 57 (Ap) to CORE 81 (Target Ap)\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\tCORE 83 COUNTDOWN TO BURN\n\n<size=22>AT CORE (83 00060) SECS:</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT BURN (83 00000):</size>\n\t1. IVI's \t\t\t\t\t\t- ZERO\n\t2. OAMS PROP MOTOR VALVES \t- CLOSED\n\t3. OAMS CNTL PWR \t\t\t\t- OFF\n\tCORE 73 COUNTDOWN TO APOGEE\n\n<size=22>AT CORE (73 00600) SECS:</size>\n\t1. START EVENT TIMER COUNTING DOWN\n\n<size=22>AT T -1:00 MIN (CORE 73 00060):</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT EVENT TIMER 00:00:</size>\n\tIVI's \t\t\t\t\t\t\t- ZERO\n\n<size=22>AFTER RNDZ BURN CHECKLIST:</size>\n\t1. COMPUTER\t\t\t\t\t\t- RNDV\n\t2. Radar \t\t\t\t\t\t- ON\n\t3. Encoder \t\t\t\t\t\t- ON\n\t4. Encoder CMD \t\t\t\t\t- 251, ACQ Lights ON\n\t5. FDR \t\t\t\t\t\t\t- COMP\n\t6. FDM \t\t\t\t\t\t\t- ATT\n\n<size=22>ONCE COMPUTER READY:</size>\n\tComputer \t\t\t\t\t\t- START\n\nAlign with target using FDAI\nTranslate towards target so IVI's L/R and UP/DN shows ZERO\nMove closer by reduzing FWD/AFT IVI's towards ZERO.\n\nIf target vehicle is Agena or Augmented Target Docking Adapter (ATDA)\n\t1. AGENA CONTROL: PWR \t\t\t- ON\r\n\t2. AGENA CONTROL: SQUIB (2) \t\t- ON\r\n\t3. AGENA CONTROL: CNTL \t\t- ON\n",
+  "AutoGenerate": false,
+  "checklistText": "<size=24>PRE-RENDEZVOUS CHECKLIST</size>\n\n\t1. RADAR \t\t\t\t\t\t- STBY\n\t2. Computer \t\t\t\t\t\t- CTCH UP\n\t3. Circulize Orbit CHECKLIST \t- COMPLETED\n\t4. REQUEST TARGET BURN\n\t5. OBC: Set up burn PAD \n   \t\ta. Set CORE 01 (TIG) to HHHMM\n   \t\tb. Set CORE 02 (TIG) to 0SSss\n   \t\tc. Set CORE 25 (ΔX) to XXXXX ft/s\n   \t\td. Set CORE 26 (ΔY) to XXXXX ft/s\n   \t\te. Set CORE 27 (ΔZ) to XXXXX ft/s\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\t7. Computer\t\t\t\t\t\t- START\n\tCORE 83 COUNTDOWN TO BURN\n\n<size=22>AT CORE (83 01000) MIN/SEC</size>\n\t1. START EVENT TIMER (COUNT DOWN)\n\n<size=22>AT CORE (83 00060) MIN/SEC</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT BURN (83 00000):</size>\n\t1. IVI's \t\t\t\t\t\t- ZERO\n\t2. OAMS PROP MOTOR VALVES \t- CLOSED\n\t3. OAMS CNTL PWR \t\t\t\t- OFF\n\t4. Computer\t\t\t\t\t\t- RESET\n\tCORE 73 COUNTDOWN TO APOGEE\n\n<size=22>RENDEZVOUS BURN II:</size>\n\t4. REQUEST CIRCULATE AT AP (or PE if lower)\n\t5. OBC: Set up burn PAD \n   \t\ta. Set CORE 01 (TIG) to HHHMM\n   \t\tb. Set CORE 02 (TIG) to 0SSss\n   \t\tc. Set CORE 25 (ΔX) to XXXXX ft/s\n   \t\td. Set CORE 26 (ΔY) to XXXXX ft/s\n   \t\te. Set CORE 27 (ΔZ) to XXXXX ft/s\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\t7. Computer\t\t\t\t\t\t- START\n\tCORE 83 COUNTDOWN TO BURN\n\n<size=22>AT CORE (83 01000) MIN/SEC</size>\n\t1. START EVENT TIMER (COUNT DOWN)\n\n<size=22>AT T -1:00 MIN (CORE 86 00060):</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT EVENT TIMER 00:00:</size>\n\t1. IVI's \t\t\t\t\t\t- ZERO\n\t2. OAMS PROP MOTOR VALVES \t- CLOSED\n\t3. OAMS CNTL PWR \t\t\t\t- OFF\n\t4. Computer\t\t\t\t\t\t- RESET\n\n<size=22>AFTER RNDZ BURN CHECKLIST:</size>\n\t1. COMPUTER\t\t\t\t\t\t- RNDV\n\t2. Radar \t\t\t\t\t\t- ON\n\t3. Encoder \t\t\t\t\t\t- ON\n\t4. Encoder CMD \t\t\t\t\t- 251, ACQ Lights ON\n\t5. FDR \t\t\t\t\t\t\t- RDR\n\t6. FDM \t\t\t\t\t\t\t- ATT\n\t7. Aquire a visual of docking target\n\n<size=22>ONCE COMPUTER READY:</size>\n\t1. Computer \t\t\t\t\t\t- START\n\t2. FDR \t\t\t\t\t\t\t- COMP\n\nAlign with target using FDAI\nTranslate towards target so IVI's L/R and UP/DN shows ZERO\nMove closer by reduzing FWD/AFT IVI's towards ZERO.\n\nIf target vehicle is Agena or Augmented Target Docking Adapter (ATDA)\n\t1. AGENA CONTROL: PWR \t\t\t- ON\r\n\t2. AGENA CONTROL: SQUIB (2) \t\t- ON\r\n\t3. AGENA CONTROL: CNTL \t\t- ON\n\n\n\n",
   "Steps": [
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rendezvous Burn Checklist"
+    },
     {
       "Program": 2,
       "Type": 1,
@@ -26,21 +34,266 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Circulize Orbit CHECKLIST"
+      "Text": "Verify that you are in a circular orbit, if not: Complete CIRCULARIZE ORBIT cl"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SET TARGET CORES DATA"
+      "Text": "Request Rendezvous burn"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SET EVENT TIMER TO 10:00"
+      "Text": "OBC Setup:"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 20,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Core 1 GETI/TIG (HHHMM)"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 20,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Core 2 GETI/TIG (0SSss)"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Core 25 ΔX (XXXX.X ft/s)"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Core 26 ΔY (XXXX.X ft/s)"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 17,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Core 27 ΔZ (XXXX.X ft/s)"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set EVENT TIMER to 10:00 & STBY"
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 25,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 13,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 4,
+      "SetID": 21,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Use CORE 83 to check TTG (time to go)"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT CORE 83 01000 MIN/SEC (TTG=10:00 min):"
+    },
+    {
+      "Program": 2,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT CORE 83 00100 MIN/SEC (TTG=1:00 min):"
     },
     {
       "Program": 2,
@@ -58,6 +311,13 @@
     },
     {
       "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    (Optional ATTITUDE CONTROL selection)"
+    },
+    {
+      "Program": 2,
       "Type": 1,
       "SetID": 31,
       "ToPosID": 4,
@@ -75,7 +335,21 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "IVI's ZERO"
+      "Text": "AT EVENT TIMER/CORE 83 00000 MIN/SEC (TTG=00:00 min):"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Igntion: Zero out the IVI's"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When IVI's ZERO:"
     },
     {
       "Program": 2,
@@ -93,16 +367,9 @@
     },
     {
       "Program": 2,
-      "Type": 0,
-      "SetID": 0,
+      "Type": 4,
+      "SetID": 24,
       "ToPosID": 0,
-      "Text": "AT CORE 73 00600"
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 51,
-      "ToPosID": 4,
       "Text": null
     },
     {
@@ -110,42 +377,35 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "AT CORE 73 00060 T -1 MIN"
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 5,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 4,
-      "ToPosID": 6,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 31,
-      "ToPosID": 4,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 1,
-      "SetID": 58,
-      "ToPosID": 4,
-      "Text": null
+      "Text": "CORE 73: COUNTDOWN TO APOGEE"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "IVI's ZERO"
+      "Text": "RENDEZVOUS BURN II:"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Request CIRCULARIZE AT AP burn"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Complete the burn following the CIRCULARIZE ORBIT cl"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After RENDEZVOUS II burn:"
     },
     {
       "Program": 2,
@@ -173,13 +433,13 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Encoder CMD - 251"
+      "Text": "ENCODER CMD: 251, ACQ Lights ON"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 7,
-      "ToPosID": 2,
+      "ToPosID": 0,
       "Text": null
     },
     {
@@ -191,24 +451,17 @@
     },
     {
       "Program": 2,
-      "Type": 3,
-      "SetID": 9,
-      "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 3,
-      "SetID": 10,
-      "ToPosID": 2,
-      "Text": null
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Aquire a visual of docking target using OAMS"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ONCE COMPUTER READY"
+      "Text": "When AUX TAPE lt - ext, computer is ready:"
     },
     {
       "Program": 2,
@@ -216,6 +469,20 @@
       "SetID": 25,
       "ToPosID": 0,
       "Text": null
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Align with target using FDAI in RDR and COMP modes"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When visual and valid radar data, complete DOCKING cl."
     }
   ],
   "Images": []

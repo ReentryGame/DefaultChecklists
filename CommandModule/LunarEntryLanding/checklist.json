@@ -5,7 +5,380 @@
   "Name": "EARTH LANDING PHASE",
   "Side": 0,
   "SortPriority": 860,
+  "AutoGenerate": false,
   "checklistText": "\t\tEARTH LANDING PHASE (<50K')\r\n\r\n\r\nPanel 325:\r\n\t50K' CAB PRESS RELF vlv (2) - BOOST/ENTR\r\n\t\t(safety latch on)\r\n\tReport CM stable\r\n\r\n\r\n\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\tx\t\t\t\t  \t      x\r\n\t  CM unstable\r\n\t40K'\tRCS CMD - OFF\r\n\t\tAPEX COVER JETT pv - push\r\n\t\tDROG DPLY pb - push\r\n\t\t\t(2 sec after apex cover jett)\r\n\tx\t\t\t\t   \t      x\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\r\n\tELS LOGIC - on (up)\r\n\tELS AUTO - AUTO\r\n\r\nPanel 2:\r\n\tSEC COOL EVAP - off (ctr)\r\n\tGLY EVAP H2O FLOW - off (ctr)\r\n\tSCS RCS disable (auto)\r\n\r\n\txxxxxxxxxxxxxxxxx\r\n\tx\t\tx\r\n\t  RCS CMD - OFF\r\n\tx\t\tx\r\n\txxxxxxxxxxxxxxxxx\r\n\r\n\tApex cover jett (auto)\r\n\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\tx\t\t\t    x\r\nPanel 1:\r\n\t  APEX COVER JETT pb - push\r\n\tx\t\t\t    x\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\tDrogue chutes deployed (auto)\r\n\r\n\r\n\txxxxxxxxxxxxxxxxxxxxxxxxx\r\n\tx\t\t\tx\r\n\t  DROG DPLY pb - push\r\n\tx\t\t\tx\r\n\txxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\tx\t\t\t     x\r\n\t  If no drogue deployment\r\n\t\tELS AUTO - MAN\r\n\t\tStab CM with dir RCS\r\n\t  5K'\tMN DPLY pb - push\r\n\t\tELS AUTO - AUTO\r\n\tx\t\t\t     x\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\nPanel 2:\r\n\t23.5K'\tMon CAB PRESS ind - starts incr\r\n\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\tx\t\t\t              x\r\n\t If no incr by 17K'\r\nPanel 325:\r\n\t\trh CAB PRESS RELF vlv - DUMP\r\n\t\t(safety latch off)\r\n\r\n\t If still no incr\r\n\t\tCAB PRESS DUMP vlv - \r\n\t\t\topen (CCW)\r\n\tx\t\t\t\t      x\r\n\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\r\n\t10K'\tMn chutes & VHF recovery ant\r\n\t\t\tdeploy (auto)\r\n\r\nPanel 1:\r\n\t\tMN DPLY pb - push (within 1 sec)\r\n\r\n\r\nPanel 326:\r\n\t\tSRG TK O2 vlv - OFF\r\n\t\tREPRESS PKG vlv - OFF\r\n\r\nPanel 7:\r\n\t\tDIRECT O2 vlv - OPEN (CCW)\r\n\r\n\t\tSet up entry comm\r\n\r\nPanel 3:\r\n\t\t\tVHF ANT - RECY\r\n\t\t\tVHF AM A - SIMPLEX\r\n\t\t\tVHF BCN - ON\r\n\r\n\t\t\tTransmit voice (VHF AM) reporting\r\n\t\t\t\tPosition\r\n\t\t\t\tMn chutes disreefed\r\n\t\t\t\tSplash err\r\n\t\t\t\tCrew stat\r\n\t\tCrew couch struts (4) - unlock\r\n\r\nPanel 1:\r\n\t\tCM RCS LOGIC - on (up)\r\n\r\n\r\n\r\n\t\t\t\tCAUTION\r\n\r\n\t\t\tCM PRPLNT DUMP should be init\r\n\t\t\timmediately after mn chute dis-\r\n\t\t\treefing. If mn or pyro bus lost,\r\n\t\t\tuse RHCs for burn, not CM PRPLNT\r\n\t\t\tDUMP sw.\r\n\r\nPanel 325:\r\n\t\tCAB PRESS RELF vlv (2) - CLOSE\r\n\t\t\t(safety latch off)\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t  x\r\n\t\t  If CAB PRESS DUMP vlv used\r\n\t\t\tto equalize ΔP, CAB PRESS\r\n\t\t\tDUMP vlv - close (CW)\r\n\t\tx\t\t\t\t  x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\nPanel 1:\r\n\t\tCM PRPLNT DUMP - on (up)\r\n\t\t\t(dump burn is audible)\r\n\r\nPanel 2:\r\n\t\tRCS IND sel - CM 1 & 2\r\n\t\tRCS He PRESS ind - decr\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t        x\r\n\t\t  No burn or no press decr\r\n\t\t\tRHC (both) - fire all RCS jets\r\n\t\t\t\t(except + pitch) until\r\n\t\t\t\tprplnts are depleted\r\n\t\tx                                       x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\t\tWhen prplnt dump burn completed\r\n\r\nPanel 1:\r\n\t\t\tCM PRPLNT PURG - on (up)\r\n\t\t\t\t(purge is audible)\r\n\r\n\t\t\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\t            x\r\nPanel 1:\r\n\t\t  CM RCS He DUMP pb - push\r\n\t\r\n\t\t\tIf RHC (both) used for prplnt\r\n\t\t\t\tdump burn\r\n\t\t\t\t\tRHC (both) - fire all jets\r\n\t\t\t\t\t\t(except + pitch)\r\n\t\tx\t\t\t\t\t\t   x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\nPanel 325:\r\n\t\tCAB PRESS RELF vlv (2) - BOOST/ENTR\r\n\t\t\t(safety latch off)\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\tx\r\n\t\t  If CAB PRESS DUMP vlv\r\n\t\t\tused to equalize ΔP, CAB\r\n\t\t\tPRESS DUMP vlv - open\r\n\t\t\t(CCW)\r\n\t\tx\t\t\t\t\tx\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\t\r\n\t\tIf night ldg\r\nPanel 8:\r\n\t\t\tcb FLOAT BAG (all) - close\r\n\r\nPanel 15:\r\n\t\t\tPL BCN LT - LO\r\n\r\nPanel 275:\r\n\t\t\tcb FLT/PL BAT BUS A, B & BAT C\r\n\t\t\t\t(3) - close\r\n\t\t\tcb FLT/PL MNA & B (2) - open\r\n\r\nPanel 8:\r\n\t\t\tcb SPS PITCH (2) - open\r\n\t\t\tcb SPS YAW (2) - open\r\n\r\nPanel 2:\r\n\t\tCM RCS PRPLNT (both) - OFF\r\n\r\n\r\n\t\tCM RCS PRPLNT tb (both) - bp\r\n\r\nPanel 325:\r\n\t\trh CAB PRESS RELF vlv - DUMP\r\n\t\t\t(safety latch off)\r\n\r\nPanel 8:\r\n\t\tFLOOD FIXED - POST LDG\r\n\r\n\r\n\r\n\t\tFLOOD DIM - 1 or 2\r\n\r\n\r\nPanel 325:\r\n\t\tCAB PRESS RELF vlv (2) - CLOSE\r\n\t\t\t(safety latch off)\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t       x\r\n\t\t  If CAB PRESS DUMP vlv used\r\n\t\t\tto equalize ΔP, CAB PRESS\r\n\t\t\tDUMP vlv - close (CW)\r\n\t\tx\t\t\t\t       x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\nPanel 1:\r\n\t\tELS AUTO - AUTO (verify)\r\n\t\tELS LOGIC - on (up) (verify)\r\n\r\nPanel 5:\r\n\t\tMN BUS TIE (2) - OFF\r\n\r\n\r\n\t\t\t\tCAUTION\r\n\r\n\t\t\tMN BUS TIE sws must be left in OFF\r\n\t\t\tposition to ensure that bats A,\r\n\t\t\tB, and C are used to pwr the PL\r\n\t\t\tbus only, & to prevent bat shorting\r\n\t\t\tcaused by water entering the CM\r\n\t\t\tfeed-thru connectors.\r\n\t\tcb BAT RLY BUS (2) - open\r\n\t\r\n\t\tPostlanding Check\r\n\r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "EARTH LANDING PHASE (<50K')"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 158,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 159,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 177,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Apex cover jett (auto) at 24K' alt"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 25,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Drogue chutes deployed (auto)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 26,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "23.5K' Mon CAB PRESS ind - starts incr"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "10K' Main chutes deploy (auto)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 67,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[7] DIRECT O2 vlv - OPEN (CCW)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 226,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 229,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 167,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When prplnt dump complete"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 168,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 76,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 298,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 140,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 141,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 142,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 144,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 253,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 254,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 255,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 256,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 99,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 100,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 3,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 310,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 159,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 158,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Postlanding Check"
+    }
+  ],
   "Images": []
 }
