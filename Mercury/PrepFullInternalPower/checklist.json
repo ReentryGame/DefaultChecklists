@@ -5,7 +5,8 @@
   "Name": "Full Internal Power (T-10)",
   "Side": 0,
   "SortPriority": 30,
-  "checklistText": "<size=22>SWITCH TO FULL INTERNAL POWER (T-10)</size>\n\n1. Monitor capsule battery voltage and current while the Blockhouse \n\tswitches to external power.\n2. Request Blockhouse to remove external power\n\tUse the Tools Menu (default mapping: [C]) below radio panel\n3. Isol Btry switch \t\t\t- NORM\n4. Stby Btry switch \t\t- OFF\n\nStart FINAL CHECKS",
+  "AutoGenerate": false,
+  "checklistText": "<size=22>SWITCH TO FULL INTERNAL POWER (T-10)</size>\n\n1. Monitor capsule battery voltage and current while the Blockhouse \n\tswitches to external power.\n2. Request Blockhouse to remove external power\n\tUse the Tools Menu (default mapping: [C]) below radio panel\n3. Isol Btry switch \t\t\t- NORM\n4. Stby Btry switch \t\t- OFF\n\n<size=20>At T-5:</size>\n\tStart FINAL CHECKS",
   "Steps": [
     {
       "Program": 3,
@@ -33,7 +34,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Start FINAL CHECKS"
+      "Text": "At T-5: Start FINAL CHECKS"
     }
   ],
   "Images": []
