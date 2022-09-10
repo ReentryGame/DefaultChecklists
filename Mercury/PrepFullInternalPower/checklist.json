@@ -13,7 +13,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Request Blockhouse to switch to external power"
+      "Text": "Request blockhouse switch to internal power"
     },
     {
       "Program": 3,
