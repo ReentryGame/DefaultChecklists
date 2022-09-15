@@ -5,6 +5,7 @@
   "Name": "ECS Basic (Unstaged)",
   "Side": 1,
   "SortPriority": 1610,
+  "AutoGenerate": false,
   "checklistText": "ECS Basic (Unstaged)\r\n\r\nECS panel:\r\n1.\tSUIT GAS DIVERTER vlv\t\t\tPUSH CABIN\r\n\tCABIN REPRESS vlv\t\t\t\tAUTO\r\n\r\n\tLO PLSS FILL vlv\t\t\t\tCLOSE\r\n\tPRESS REG A vlv\t\t\t\tCABIN\r\n\tPRESS REG B vlv\t\t\t\tCABIN\r\n\tDES O2 vlv\t\t\t\t\t\tOPEN\r\n\t#1 ASC O2 vlv\t\t\t\t\tCLOSE\r\n\t#2 ASC O2 vlv\t\t\t\t\tCLOSE\r\n\tSUIT ISOL vlv (LMP)\t\t\t\tSUIT FLOW\r\n\tSUIT ISOL vlv (CDR)\t\t\t\tSUIT FLOW\r\n\tSEC EVAP FLOW vlv\t\t\t\tCLOSE\r\n\tPRI EVAP FLOW #2 vlv\t\t\tCLOSE\r\n\tWATER TANK SELECT vlv\t\t\tDES\r\n\tSUIT TEMP vlv\t\t\t\t\tadjust\r\n\tASC H2O vlv\t\t\t\t\tCLOSE\r\n\tDES H2O vlv\t\t\t\t\tOPEN\r\n\tPRI EVAP FLOW #1 vlv\t\t\tOPEN\r\n\tCABIN GAS RETURN vlv\t\t\tAUTO\r\n\tCO2 CANISTER SEL vlv\t\t\tPRIM\r\n\tSUIT CIRCUIT RELIEF vlv\t\tAUTO\r\n\tPRIM CO2 CANISTER cover\t\tCLOSE\r\n\tSEC CO2 CANISTER cover\t\t\tCLOSE\r\n\tWATER SEP SEL vlv\t\t\t\tPUSH SEP I\r\n\tLIQUID GARMENT COOLING vlv\tCOLD\r\n\tHI PLSS O2 FILL vlv\t\t\tCLOSE\r\n\r\n\r\nHatches:\r\n2.\tCabin relief & dump vlv (ovhd)\tAUTO\r\n\tCabin relief & dump vlv fwd)\tAUTO\r\n\r\nPanel 11\r\n3.\tCB ECS:\r\n\t\tSUIT FAN 1\t\t\t\t\tclose\r\n\t\tCABIN FAN\t\t\t\t\topen\r\n\t\tGLYCOL PUMP 2\t\t\t\tclose\r\n\t\tGLYCOL PUMP 1\t\t\t\tclose\r\n\t\tGLYCOL PUMP AUTO TRNFR\topen\r\nRemarks: GLYCOL PUMP AUTO TRNFR closed during lunar surface \r\noperation.\r\n\r\nPanel 2:\r\n4.\tGLYCOL sel\t\t\t\t\t\tPUMP 1\r\n\tSUIT FAN sel\t\t\t\t\t1\r\n\tO2/H2O QTY MON sel\t\t\t\tDES 2\r\n\tECS:\r\n\t\tPRESS ind pwr fail lt\t\toff\r\n\t\tGLYCOL ind pwr fail lt\t\toff\r\n\t\tQUANTITY ind pwr fail lt\toff\r\n\t\tGLYCOL comp caut lt\t\toff\r\n\t\tSUIT FAN comp caut lt\t\toff\r\n\t\tCO2 comp caut lt\t\t\toff\r\n\t\tH2O SEP comp caut lt\t\toff\r\n\r\nPanel 16:\r\n5.\tCB ECS:\r\n\t\tDISP\t\t\t\t\t\tclose\r\n\t\tGLYCOL PUMP SEC\t\t\topen\r\n\t\tLCG PUMP\t\t\t\t\tcrew option\r\n\r\n\t\tCABIN FAN CONT\t\t\t\tclose\r\n\t\tCABIN REPRESS\t\t\t\tclose\r\n\t\tSUIT FAN 2\t\t\t\t\tclose\r\n\t\tSUIT FAN ΔP\t\t\t\tclose\r\n\t\tDIVERTER VLV\t\t\t\tclose\r\n\t\tCO2 SENSOR\t\t\t\t\tclose\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
   "Steps": [
     {
@@ -157,16 +158,16 @@
     {
       "Program": 1,
       "Type": 3,
-      "SetID": 39,
+      "SetID": 40,
       "ToPosID": 1,
       "Text": null
     },
     {
       "Program": 1,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "set OVHD hatch cabin relief vent valve to AUTO"
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 1,
+      "Text": null
     },
     {
       "Program": 1,
