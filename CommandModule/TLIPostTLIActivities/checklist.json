@@ -5,7 +5,86 @@
   "Name": "Post-TLI Activities",
   "Side": 0,
   "SortPriority": 430,
+  "AutoGenerate": false,
   "checklistText": "Post-TLI Activities\r\n\r\n\t1\tEMS MODE - STBY\r\n\r\n\t2\tRecord ΔV\r\n\r\n\t3\tEMS FUNC - OFF\r\n\r\nPanel 3:\r\n\t4\tTAPE RCDR FWD - off (ctr)\r\n\t\tPCM BIT RATE - LO\r\n\r\n\t5\tCheck orb param (R30)\r\n\r\nPanel 2:\r\n\t\tKey V82E\r\n\t\tFL V16 N44\r\n\t\t\tHa\t\tXXXX.X NM\r\n\t\t\tHp\t\tXXXX.X NM\r\n\t\t\tTFF\t\tXXBXX  MIN-SEC\r\n\r\n\t\tPRO (exit R30)\r\n\r\n\t6 FL V16 N83\r\n\t\tΔVX, Y, Z (cont)\tXXXX.X FPS\r\n\t\t\r\n\t\tPRO\r\n\t\tFL V37\r\n\t\t\tKey XXE\r\n\r\n\t7 Perform Postorb Insertion Status\r\n\t\tChecklist\r\n\r\n\t8 Pan & Map Camr Stby Mode off\r\n\r\nPanel 230:\r\n\t\tPAN CAMR PWR - off (ctr)\r\n\t\tMAP CAMR ON - OFF\r\n\r\nPanel 181:\r\n\t\tSM/AC PWR - OFF\r\n\r\n\r\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record ΔV\r"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 233,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V82E\r"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL V16 N44 (Ha, Hp, TFF)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key PRO"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL V16 N83\r (ΔVX, Y, Z)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key PRO"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Run Insertion: Status Check"
+    }
+  ],
   "Images": []
 }
