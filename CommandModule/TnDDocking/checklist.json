@@ -1,11 +1,167 @@
 {
-    "Group": "T&D",
-    "Images": [],
-    "Name": "DOCKING",
-    "ProjectName": "TnDDocking",
-    "Side": 0,
-    "SortPriority": 605,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>DOCKING checklist</size>\r\nStabilize & align CSM\nBMAG MODE (3) - ATT 1/RATE 2\nAt capture:\n\tPROBE EXTD/RETR tb-bp (A)\n\tCMC MODE - FREE\n\tAllow probe to damp S/C motions (approx 10 sec)\n\tDOCK PROBE RETRACT PRIM-1\n\nAfter dock latches has engaged:\n\tPROBE EXTD/RETR tb - gray\n\tSECS PYRO ARM (2) - SAFE\n\tSECS LOGIC (2) - OFF\n\tEDS PWR - OFF\n\tcb EDS (3) - open\n\tDOCK PROBE EXTD/REL - OFF\n\tDOCK PROBE RETRACT (2) - OFF\n\tcb DOCK PROBE (2) - open\n\tPCM BIT RATE - LOW"
+  "Spacecraft": 0,
+  "ProjectName": "TnDDocking",
+  "Group": "T&D",
+  "Name": "DOCKING",
+  "Side": 0,
+  "SortPriority": 605,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>DOCKING checklist</size>\r\nStabilize & align CSM\nBMAG MODE (3) - ATT 1/RATE 2\nAt capture:\n\tPROBE EXTD/RETR tb-bp (A)\n\tCMC MODE - FREE\n\tAllow probe to damp S/C motions (approx 10 sec)\n\tDOCK PROBE RETRACT PRIM-1\n\nAfter dock latches has engaged:\n\tPROBE EXTD/RETR tb - gray\n\tSECS PYRO ARM (2) - SAFE\n\tSECS LOGIC (2) - OFF\n\tEDS PWR - OFF\n\tcb EDS (3) - open\n\tDOCK PROBE EXTD/REL - OFF\n\tDOCK PROBE RETRACT (2) - OFF\n\tcb DOCK PROBE (2) - open\n\tPCM BIT RATE - LOW",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Stabilize & align CSM"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At capture:"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 238,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After dock latches has engaged:"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 169,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 171,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 170,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 237,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 238,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 239,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 134,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 135,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null
+    }
+  ],
+  "Images": []
 }

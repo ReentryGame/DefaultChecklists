@@ -1,11 +1,76 @@
 {
-    "Group": "T&D",
-    "Images": [],
-    "Name": "CSM TRANSPOSITION",
-    "ProjectName": "TnDCSMTransposition",
-    "Side": 0,
-    "SortPriority": 604,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>CSM TRANSPOSITION checklist</size>\r\n\tV62E\n\tMAN ATT (PITCH) - ACCEL CMD\n00:15\tPitch up at .5°/sec\n\tWhen pitch error needle positive\n\tMAN ATT (PITCH) - RATE CMD\n\tThrust +X (4 sec)(ΔV .7 fps)\n\tHI GAIN ANT TRACK - MAN\n\tHI GAIN ANT PWR - POWER\n\tSlev ANT to verify operation\n\tHGA angles: P=___ Y=___\n\tS BD ANT OMNI - HI GAIN\n\tHI GAIN ANT TRACK - REACQ\n\tStart DAC"
+  "Spacecraft": 0,
+  "ProjectName": "TnDCSMTransposition",
+  "Group": "T&D",
+  "Name": "CSM TRANSPOSITION",
+  "Side": 0,
+  "SortPriority": 604,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>CSM TRANSPOSITION checklist</size>\r\n\tV62E\n\tMAN ATT (PITCH) - ACCEL CMD\n00:15\tPitch up at .5°/sec\n\tWhen pitch error needle positive\n\tMAN ATT (PITCH) - RATE CMD\n\tThrust +X (4 sec)(ΔV .7 fps)\n\tHI GAIN ANT TRACK - MAN\n\tHI GAIN ANT PWR - POWER\n\tSlev ANT to verify operation\n\tHGA angles: P=___ Y=___\n\tS BD ANT OMNI - HI GAIN\n\tHI GAIN ANT TRACK - REACQ\n\tStart DAC",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V62E"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:15\tPitch up at .5°/sec"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When pitch error needle positive"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 210,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 212,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 225,
+      "ToPosID": 5,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 210,
+      "ToPosID": 5,
+      "Text": null
+    }
+  ],
+  "Images": []
 }

@@ -5,7 +5,37 @@
   "Name": "SECS & PYRO ARM",
   "Side": 0,
   "SortPriority": 310,
+  "AutoGenerate": false,
   "checklistText": "<size=21>Sequencer Pyro Arm checklist</size>\r\ncb SECS ARM (2) - close\r\nSECS LOGIC (2) - on(up)\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
   "Images": []
 }

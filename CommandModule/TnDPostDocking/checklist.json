@@ -1,11 +1,111 @@
 {
-    "Group": "T&D",
-    "Images": [],
-    "Name": "POST DOCKING",
-    "ProjectName": "TnDPostDocking",
-    "Side": 0,
-    "SortPriority": 606,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>POST DOCKING checklist</size>\r\nRATE - HIGH\nATT DB - MAX\nCOAS - OFF\ncb RCS LOGIC (2) - open (verify)\nTVC SERVI PWR #1 - OFF\nEMS MODE - STBY\nEMS FUNC - OFF\nBMAG MODE (3) - RATE 2 (verify)\nLM PWR - OFF (verify)\nTUNNEL LIGHTS - ON\n\n"
+  "Spacecraft": 0,
+  "ProjectName": "TnDPostDocking",
+  "Group": "T&D",
+  "Name": "POST DOCKING",
+  "Side": 0,
+  "SortPriority": 606,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>POST DOCKING checklist</size>\r\nRATE - HIGH\nATT DB - MAX\nCOAS - OFF\ncb RCS LOGIC (2) - open (verify)\nTVC SERVI PWR #1 - OFF\nEMS MODE - STBY\nEMS FUNC - OFF\nBMAG MODE (3) - RATE 2 (verify)\nLM PWR - OFF (verify)\nTUNNEL LIGHTS - ON\n\nLM Extraction",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "COAS - OFF"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 243,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 242,
+      "ToPosID": 4,
+      "Text": null
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 144,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
 }
