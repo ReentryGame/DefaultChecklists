@@ -1,11 +1,188 @@
 {
-    "Group": "EPS",
-    "Name": "EPS Basic (Unstaged)",
-    "ProjectName": "EPS_BasicUnstaged",
-    "Side": 1,
-    "SortPriority": 1201,
-    "Spacecraft": 1,
-    "Steps": [],
-    "Images": [],
-    "checklistText": "<size=21>EPS BASIC (Unstaged)</size>\r\n\r\n1.\tAll EPS cb's - close, except:\r\n\r\nPanel 11:\r\n\tCB EPS:\r\n\t\tINV 1 - open\r\n\t\tASC ECA CONT - open\r\n\r\n2.\tAll EPS cb's - close, except:\r\n\r\nPanel 16:\r\n\tCB EPS:\r\n\t\tASC ECA CONT - open\r\n\t\tCROSS TIE BUS - open\r\n\t\tCROSS TIE BAL LOADS - open\r\n\r\nPanel 14:\r\n3.\tEPS:\r\n\t\tPOWER/TEMP MON sel - CDR BUS\r\n\t\tINVERTER sw - 2\r\n\t\tLMP BAT 1 & 2 tb - gray\r\n\t\tCDR BAT 3 & 4 tb - gray\r\n\t\tDES BATS tb - gray\r\n\t\tLUNAR BAT tb - bp\r\n\t\tBAT 5 NORMAL LMP FEED tb - bp\r\n\t\tBAT 5 BACK UP CDR FEED tb - bp\r\n\t\tBAT 6 NORMAL CDR FEED tb - bp\r\n\t\tBAT 6 BACK UP LMP FEED tb - bp"
+  "Spacecraft": 1,
+  "ProjectName": "EPS_BasicUnstaged",
+  "Group": "EPS",
+  "Name": "EPS Basic (Unstaged)",
+  "Side": 1,
+  "SortPriority": 1201,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>EPS BASIC (Unstaged)</size>\r\n\r\n1.\tAll EPS cb's - close, except:\r\n\r\nPanel 11:\r\n\tCB EPS:\r\n\t\tINV 1 - open\r\n\t\tASC ECA CONT - open\r\n\r\n2.\tAll EPS cb's - close, except:\r\n\r\nPanel 16:\r\n\tCB EPS:\r\n\t\tASC ECA CONT - open\r\n\t\tCROSS TIE BUS - open\r\n\t\tCROSS TIE BAL LOADS - open\r\n\r\nPanel 14:\r\n3.\tEPS:\r\n\t\tPOWER/TEMP MON sel - CDR BUS\r\n\t\tINVERTER sw - 2\r\n\t\tLMP BAT 1 & 2 tb - gray\r\n\t\tCDR BAT 3 & 4 tb - gray\r\n\t\tDES BATS tb - gray\r\n\t\tLUNAR BAT tb - bp\r\n\t\tBAT 5 NORMAL LMP FEED tb - bp\r\n\t\tBAT 5 BACK UP CDR FEED tb - bp\r\n\t\tBAT 6 NORMAL CDR FEED tb - bp\r\n\t\tBAT 6 BACK UP LMP FEED tb - bp",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 18,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 19,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 20,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 26,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 12,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 9,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 7,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null
+    }
+  ],
+  "Images": []
 }
