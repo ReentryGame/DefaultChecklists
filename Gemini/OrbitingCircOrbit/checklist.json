@@ -6,7 +6,7 @@
   "Side": 1,
   "SortPriority": 15,
   "AutoGenerate": false,
-  "checklistText": "<size=24>CIRCULARIZE ORBIT</size>\n\n<size=22>Computer:</size>\n- Set OBC to CTCH UP and wait for it to load\n- Radio: Request Circularize at AP/PE burn PAD from GROUND\n- OBC: \n\tRESET - push\n\n<size=22>Burn PAD:</size>\n- Core 01+02:\tTime of Ignition (GET) in HHH:MM:SS.ss\n- Core 25+26+27:\tDesired ΔV (LV at TIG)\n- Verify Core 01:\t\t\tHHHMM (TIG#1)\n\t\tHours (HHH) and Minutes (MM) to burn\n- Verify Core 02:\t\t\t0SSss  (TIG#2)\n\t\tSeconds (SS) and Milliseconds (ss) to burn\n- Verify Core 25=ΔX, 26=ΔY, 27=ΔZ\n- OBC: \n\tSTART - push\n\tCOMP lt - on\n\t***************************************************************\n\t* IF MALF lt - on:\t\t\t\t\t\t\t\t*\n\t*\tRESET - push\t\t\t\t\t\t\t\t*\n\t*\tVerify PAD data and TIG is in the future\t*\n\t***************************************************************\nCountdown to ignition:\n- Core 83: \t\t\t\t\tMMMSS (TTG)\n\tTime to go in Minutes (MMM) and Seconds (SS)\n\nSet EVENT TIMER to 10:00, count down and standby.\nWhen Core 83 (TTG) is 10:00 (minutes), start Event Timer.\n\n\n<size=22>The Hohmann Transfer:</size>\nIVI's will show burn vector in Local Body axis (closed loop)\nAt Apogee/TTG (#83) is zero:\n- Burn so IVI's read zero\n\nAp Perigee/TTG (#83) is zero:\n- Burn so IVI's read zero\n\n- OBC: \n\tRESET - push\n\n",
+  "checklistText": "<size=24>CIRCULARIZE ORBIT</size>\n\n<size=22>Computer:</size>\n- Set OBC to CTCH UP and wait for it to load\n- Radio: Request Circularize at AP/PE burn PAD from GROUND\n- OBC: \n\tRESET - push\n\n<size=22>Burn PAD:</size>\n- Core 01+02:\tTime of Ignition (GET) in HHH:MM:SS.ss\n- Core 25+26+27:\tDesired ΔV (LV at TIG)\n- Verify Core 01:\t\t\tHHHMM (TIG#1)\n\t\tHours (HHH) and Minutes (MM) to burn\n- Verify Core 02:\t\t\t0SSss  (TIG#2)\n\t\tSeconds (SS) and Milliseconds (ss) to burn\n- Verify Core 25=ΔX, 26=ΔY, 27=ΔZ\n- OBC: \n\tSTART - push\n\tCOMP lt - on\n\t***************************************************************\n\t* IF MALF lt - on:\t\t\t\t\t\t\t\t*\n\t*\tRESET - push\t\t\t\t\t\t\t\t*\n\t*\tVerify PAD data and TIG is in the future\t*\n\t***************************************************************\nCountdown to ignition:\n- Core 84: \t\t\t\t\tMMMSS (TTG)\n\tTime to go in Minutes (MMM) and Seconds (SS)\n\nSet EVENT TIMER to 10:00, count down and standby.\nWhen Core 83 (TTG) is 10:00 (minutes), start Event Timer.\n\nIVI's will show burn vector in Local Body axis (closed loop)\n\nAt T -02:00: COMP lt - extinguished\nAt T -00:00: COMP lt - illuminated\n- Ignition: Burn so IVI's read zero\n\nBurn completion:\n- OBC: \n\tRESET - push\n\n",
   "Steps": [
     {
       "Program": 2,
@@ -242,7 +242,7 @@
     {
       "Program": 2,
       "Type": 4,
-      "SetID": 13,
+      "SetID": 14,
       "ToPosID": 0,
       "Text": null
     },
@@ -258,7 +258,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify $83=TTG (MMMSS)"
+      "Text": "Verify $84=TTG (MMMSS)"
     },
     {
       "Program": 2,
@@ -272,7 +272,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When $83 is 01000 (10 minutes TTG), start event timer"
+      "Text": "10 minutes TTG, start event timer"
     },
     {
       "Program": 2,
