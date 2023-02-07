@@ -78,7 +78,7 @@ for checklist in glob.glob('*/*/checklist.json'):
                 all_valid = False
         for step_key in step.keys():
             if step_key not in step_key_fields:
-                print(checklist, 'STEP', step_key, 'Key has wrong type')
+                print(checklist, 'STEP', step_key, 'Invalid key')
                 file_ok = False
                 all_valid = False
             # TODO: Add type-validation for step-keys. One issue is that NULL appears to be a valid value for Text
