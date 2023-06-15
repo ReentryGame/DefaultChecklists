@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "SCS POWER DOWN",
-  "Group": "Flight Emergency Procedures",
+  "Group": "G&C General",
   "Name": "SCS POWER DOWN",
   "Side": 1,
   "SortPriority": 0,
