@@ -1,0 +1,12 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "CMC/IMU POWER DOWN",
+  "Group": "Flight Emergency Procedures",
+  "Name": "CMC/IMU POWER DOWN",
+  "Side": 1,
+  "SortPriority": 0,
+  "AutoGenerate": false,
+  "checklistText": "CMC/IMU POWER DOWN\n\tIMU (6AMPS)\n\t\tCOMPLETE ALIGNMENT TRANSFER \n\t\tCMC MODE - FREE \n\t\tcb G&N IMU MNA & MNB (2) - OPEN (Pnl 5) \n\tCMC (3AMPS)\n\t\tV37E06E \n\t\t\tF V50 N25, 00062, CMC PWR DN \n\t\t\tPRO, HOLD (~5 SEC) UNTIL STBY LT - ON",
+  "Steps": [],
+  "Images": []
+}
