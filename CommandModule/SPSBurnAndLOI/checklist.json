@@ -233,11 +233,11 @@
     },
     {
       "Program": 0,
-      "Type": 7,
+      "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
       "Text": "R2 is T- to Burn. Wait Till T- ~20m then Start the Event Timer",
-      "Description": "Text only"
+      "Description": "Manual step"
     },
     {
       "Program": 0,
@@ -457,11 +457,11 @@
     },
     {
       "Program": 0,
-      "Type": 7,
+      "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
       "Text": "R1, 2, and 3 Should be +00000 if not use V25 to Change Them",
-      "Description": "Text only"
+      "Description": "Manual step"
     },
     {
       "Program": 0,
@@ -505,11 +505,11 @@
     },
     {
       "Program": 0,
-      "Type": 7,
+      "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Ensure ATT is 0,0,0. You can use Manual Translation to Aid Speeding Up the ATT Changes",
-      "Description": "Text only"
+      "Description": "Manual step"
     },
     {
       "Program": 0,
@@ -521,11 +521,11 @@
     },
     {
       "Program": 0,
-      "Type": 7,
+      "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
       "Text": "R1 Reads Burn Time in Seconds. At T-5s V99 Should Show Hit PRO on the DSKY",
-      "Description": "Text only"
+      "Description": "Manual step"
     },
     {
       "Program": 0,
