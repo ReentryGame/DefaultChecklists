@@ -1,7 +1,7 @@
 {
   "Spacecraft": 0,
   "ProjectName": "ECS POWER DOWN",
-  "Group": "Flight Emergency Procedures",
+  "Group": "Systems: ECS",
   "Name": "ECS POWER DOWN",
   "Side": 1,
   "SortPriority": 0,
