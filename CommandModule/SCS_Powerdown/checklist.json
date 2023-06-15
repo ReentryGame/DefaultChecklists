@@ -1,0 +1,12 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "SCS POWER DOWN",
+  "Group": "Flight Emergency Procedures",
+  "Name": "SCS POWER DOWN",
+  "Side": 1,
+  "SortPriority": 0,
+  "AutoGenerate": false,
+  "checklistText": "SCS POWER DOWN\nACCEPTABLE S/C ATTITUDE (6AMPS)\n\tBMAG PWR (2) - OFF\n\tFDAI/GPI PWR - OFF\n\tSCS ELECTRONICS PWR - ECA \n\tORDEAL PWR & LIGHTING - OFF\n(2AMPS)\n\tcb SCS LOGIC BUSS (4) - OPEN (Pnl 8)\n\tSCS ELECTRNICS PWR - OFF \n\tRHC PWR NORM (2) - OFF",
+  "Steps": [],
+  "Images": []
+}
