@@ -1,8 +1,8 @@
 {
   "Spacecraft": 0,
-  "ProjectName": "EMR Loss of Two Fuel Cells",
+  "ProjectName": "Lossof2FCs",
   "Group": "Systems: EPS",
-  "Name": "Loss of Two Fuel Cells",
+  "Name": "Loss of Two FCs",
   "Side": 1,
   "SortPriority": 0,
   "AutoGenerate": false,
