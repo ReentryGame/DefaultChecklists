@@ -15,6 +15,142 @@
       "ToPosID": 0,
       "Text": "V49E   F 06 22"
     },
+	    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC1 (4/6)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC6 (4/11)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCNoun (4/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC2 (4/7)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Compute Docking Attitude (R -60, P +180, Y +/-)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 9,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC4 (4/9)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 14,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC9 (4/14)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC2 (4/7)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 10,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC5 (4/10)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Input Docking Attitude",
+      "Description": "Manual step"
+    },
     {
       "Program": 0,
       "Type": 2,
