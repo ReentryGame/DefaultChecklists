@@ -5,6 +5,7 @@
   "Name": "PRE-FLIGHT (T-5)",
   "Side": 0,
   "SortPriority": 5,
+  "AutoGenerate": false,
   "checklistText": "<size=24>PRE-FLIGHT (T-5)</size>\n\n1. Main Batteries 1, 2, 3, 4\t\t- VERIFY/SET ON\n2. Squib Batteries 1, 2, 3      \t- VERIFY/SET ON\n3. Fuel Cell Stack 1A to 2C\t\t- VERIFY/SET ON\n4. Fuel Cell Section 1 Power\t\t- VERIFY/SET ON\n5. Fuel Cell Section 2 Power\t\t- VERIFY/SET ON\n6. Computer Power\t\t\t\t- ON\n7. MDIU Power\t\t\t\t\t- ON\n8. AUX Tape Power\t\t\t\t- ON\n9. Boost-Insert Squib\t\t\t- ARM\n10. Retro Squibs 1, 2, 3, 4\t\t- ARM\n11. Primary Coolant Pump A\t\t- ON\n12. Primary Coolant Pump B\t\t- OFF\n13. Secondary Coolant Pump A\t- ON\n14. Secondary Coolant Pump B\t- OFF\n15. Radiator\t\t\t\t\t\t- BYPASS\n16. Suit Fans\t\t\t\t\t- NO. 1 and NO. 2\n17. PLATFORM \t\t\t\t\t- FREE\n18. SCANNER \t\t\t\t\t- PRI\n19. Wait for Computer pre-check completion\n20. Ejection seat D-Ring \t\t- Mount (TOOL: TOGGLE D-RING)\n\n<size=22>OBC init and alignment</size>\n1. COMPUTER\t\t\t\t\t\t- PUSH START\n2. Wait for the FDAI to align with predefined roll target (30 seconds)\n3. Computer\t\t\t\t\t\t- ASC\n4. ATTITUDE CONTROL \t\t\t- RATE CMD\n5. OAMS PROP MOTOR VALVE \t\t- OPEN\n6. RCS A & B PROP MOTOR VALVES - OPEN\n7. OAMS CNTL PWR \t\t\t\t- OFF\n8. RCS A & B CNTL PWR \t\t\t- OFF\n9. MDU \t\t\t\t\t\t\t- 72: _ _ _ _ _\n10. RADIO CHECK\n\n<size=22>At T -30 secs:</size>\nStart ASCENT Checklist",
   "Steps": [
     {
@@ -12,329 +13,376 @@
       "Type": 1,
       "SetID": 10,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery1 to Up (1/10)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 11,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery2 to Up (1/11)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 12,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery3 to Up (1/12)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 13,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery4 to Up (1/13)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 14,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBattery1 to Up (1/14)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 15,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBattery2 to Up (1/15)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 16,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBattery3 to Up (1/16)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 23,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1A to Up (1/23)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 24,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1B to Up (1/24)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 25,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1C to Up (1/25)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 26,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2A to Up (1/26)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 27,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2B to Up (1/27)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 28,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2C to Up (1/28)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 20,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1PWR to Up (1/20)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 22,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2PWR to Up (1/22)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 37,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerPower to Up (1/37)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 35,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set MDIUPower to Up (1/35)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 36,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AuxTapePWR to Up (1/36)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 2,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBoostInsert to Up (1/2)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 6,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro1 to Up (1/6)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 7,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro2 to Up (1/7)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 8,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro3 to Up (1/8)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 9,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro4 to Up (1/9)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 44,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolPriPumpA to Up (1/44)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 45,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolPriPumpB to Down (1/45)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 46,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolSecPumpA to Up (1/46)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 47,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolSecPumpB to Down (1/47)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 48,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorFlow to Down (1/48)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 40,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SuitFan to Down (1/40)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set IGSPlatform to position 6 (3/5)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 38,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set HorizonScannerSelect to Up (1/38)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify OBC self-checks are complete"
+      "Text": "Verify OBC self-checks are complete",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Ejection seat D-Ring - Mount (TOOL: TOGGLE D-RING)"
+      "Text": "Ejection seat D-Ring - Mount (TOOL: TOGGLE D-RING)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 25,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerStart (4/25)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Platform alignment, verify complete when FDAIs are stationary."
+      "Text": "Platform alignment, verify complete when FDAIs are stationary.",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerMode to position 1 (3/6)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ACMEMode to position 1 (3/4)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotoOAMS to Up (1/58)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 59,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotRCSA to Up (1/59)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotRCSB to Up (1/60)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 31,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWROAMS to Down (1/31)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 32,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWRRCSA to Middle (1/32)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 33,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWRRCSB to Middle (1/33)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "MDU: 72"
+      "Text": "MDU: 72 (displays total velocity on MDU when pressing READ OUT during ascent)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform a Radio Check"
+      "Text": "Perform a Radio Check",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At T -30 secs"
+      "Text": "At T -30 secs",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Start ASCENT Checklist"
+      "Text": "Start ASCENT Checklist",
+      "Description": "Manual step"
     }
   ],
   "Images": []

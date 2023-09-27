@@ -5,1575 +5,1784 @@
   "Name": "INTERIOR INSPECTION (T-90)",
   "Side": 0,
   "SortPriority": 0,
-  "checklistText": "<size=24>INTERIOR INSPECTION (T-90)</size>\n\nOVH:\r\n\tCABIN LIGHTS \t\t\t\t\t- ON\r\n\r\nOVH/BETWEEN UPPER SEATS:\r\n\tCABIN LIGHT DIMMER \t\t\t- As desired\r\n\r\n<size=22>LEFT PANEL:</size>\n\tSECONDARY O2 BOTTLE SHUTOFF \t- OPEN\n\tABORT HANDLE \t\t\t\t\t- NORMAL\r\n\tALL C/B'S \t\t\t\t\t\t- CLOSED EXPECT\n\t\tTR-256 C/B \t\t\t\t\t- OPEN\n\tSEQ LIGHTS: TEST \t\t\t\t- OFF\r\n\tSEQ LIGHTS: DIM \t\t\t\t- BRIGHT\r\n\tATT IND \t\t\t\t\t\t- WITH FDI\n\tBOOST-INSERT \t\t\t\t\t- SAFE\r\n\tRETRO: PWR \t\t\t\t\t\t- SAFE\r\n\tRETRO: JETT \t\t\t\t\t- SAFE\r\n\tRETRO ROCKET SQUIBS (4) \t\t- SAFE\r\n\n<size=22>CP PANEL:\r</size>\n\tFDR \t\t\t\t\t\t\t- COMP\n\tFDM \t\t\t\t\t\t\t- RATE\n\tFDI SCALE RANGE \t\t\t\t- LO\n\tEVENT TIMER \t\t\t\t\t- STBY (will start on liftoff)\r\n\tEVENT TIMER \t\t\t\t\t- ZEROED\n\tEVENT TIMER MODE \t\t\t\t- A\n\n<size=22>OVERHEAD PANEL:\r</size>\n\tALL C/B'S \t\t\t\t\t\t- CLOSED EXPECT:\n\t\tOAMS HTRS C/B \t\t\t\t- OPEN\n\t\tH20 HTRS C/B'S \t\t\t- OPEN \n\tT/M AC\t\t\t\t\t\t\t- ON\r\n\tDC-DC CONV \t\t\t\t\t\t- PRI\r\n\tCTR LIGHTS \t\t\t\t\t\t- AS NEEDED\n\tACME BIAS PWR \t\t\t\t\t- PRI\r\n\tROLL JETS \t\t\t\t\t\t- YAW\n\tOAMS RESV \t\t\t\t\t\t- SAFE\n\tATTITUDE DRIVERS \t\t\t\t- PRI\r\n\tACME LOGIC SWITCHES (3) \t\t- PRI\r\n\r\n<size=22>CENTER PANEL:\r</size>\n\tCABIN AIR RECIRC HANDLE \t\t- UP (OPEN)\n\tINLET SNORKLE HANDLE \t\t- UP (CLOSED)\n\tCABIN VENT HANDLE \t\t\t- UP (CLOSED)\n\tWATER SEAL HANDLE \t\t\t- UP (OPEN)\n\tO2 HIGH RATE RECOCK HANDLE \t- UP\n\tSUIT FAN \t\t\t\t\t\t- OFF\r\n\tPRIMARY PUMP A \t\t\t\t- OFF\r\n\tPRIMARY PUMP B \t\t\t\t- OFF\r\n\tRAD \t\t\t\t\t\t\t- BYPASS\r\n\tEVAP HEAT \t\t\t\t\t\t- OFF\r\n\tEVAP FLOW \t\t\t\t\t\t- MAX FLOW\n\tSECONDARY PUMP A \t\t\t\t- OFF\r\n\tSECONDARY PUMP B \t\t\t\t- OFF\r\n\tMISSION TIMER: START\r\n\t\tNote:\tThis will automatically make\r the timer count up on \n\t\t\t\tliftoff\r\n\tH2 VAC TANK \t\t\t\t\t- CLOSED\r\n\tTDA RIGID CONTROL \t\t\t\t- OFF\r\n\tTDA UNDOCK CONTROL \t\t\t- OFF\n\tCRYO HEATERS (O2 & H2) \t\t- OFF\r\n\tCRYO INSTRUMENT\t\t\t\t- OFF\r\n\tPROP INSTRUMENT\t\t\t\t- OFF\r\n\tUHF T/R \t\t\t\t\t\t- NO 1\r\n\tHF T/R \t\t\t\t\t\t\t- OFF\r\n\tSILENCE \t\t\t\t\t\t- OFF\n\tKEYING \t\t\t\t\t\t\t- CONT INT/PTT\n\tRECORD \t\t\t\t\t\t- CONT\n\tBEACON CONTROL: RESC \t\t\t- OFF\n\tBEACON CONTROL: S-BAND \t\t- CMD\r\n\tBEACON CONTROL: C-BAND \t\t- CONT\n\tTM CONTROL: CALIB \t\t\t\t- NO 1\r\n\tTM CONTROL: SBY TM \t\t\t- R/T\r\n\tTM CONTROL: T/M \t\t\t\t- R/T & ACQ\n\tTAPE PLYBK \t\t\t\t\t- CMD\r\n\tANT SEL \t\t\t\t\t\t- RNTY\n\tHF ANT POSITION CONTROL \t\t- OFF\r\n\tNO. 1 AUDIO SWITCH \t\t\t\t- UHF \n\n<size=22>PEDESTAL:\r</size>\n\tRADAR \t\t\t\t\t\t\t- OFF\r\n\tPLATFORM \t\t\t\t\t\t- FREE\r\n\tSCANNER\t\t\t\t\t\t- OFF\r\n\tRATE GYROS (3) \t\t\t\t\t- PRI\r\n\tCOMPUTER \t\t\t\t\t\t- OFF\r\n\tCOMPUTER MODE \t\t\t\t\t- PRE-LN\r\n\tATTITUDE CONTROL \t\t\t\t- PLAT\r\t\n\tOAMS PROP MOTOR VALVES \t\t- CLOSED\r\n\tPROP MOTOR VALVES: RCS A & B \t- CLOSED\r\n\tOAMS CNTL PWR \t\t\t\t\t- CLOSED\r\n\tCNTL PWR: RCS A & B \t\t\t- CLOSED\r\n\tREPRESS KNOB \t\t\t\t\t- CLOSED\n\n<size=22>PILOT PANEL:\r</size>\n\tAUX TAPE \t\t\t\t\t\t- ON/RESET\r\n\tMODE\t\t\t\t\t\t\t- AUTO\r\n\tX OVER \t\t\t\t\t\t- OFF\r\n\tFC SECTION 1:\r\n\t\tFC PURGE \t\t\t\t\t- OFF (center)\r\n\t\tPOWER \t\t\t\t\t\t- OFF\r\n\tFC SECTION 2:\r\n\t\tPOWER \t\t\t\t\t\t- OFF\r\n\t\tFC PURGE \t\t\t\t\t- OFF (center)\r\n\tFUEL CELL 1A, 1B, 1C, 2A, 2B, 2C - OFF\r\n\tMDIU \t\t\t\t\t\t\t- OFF\r\n\tdP SELECT\t\t\t\t\t\t- OFF\r\n\tVOLTMETER \t\t\t\t\t\t- C\n\tFDI SCALE RANGE \t\t\t\t- LOW\n\tFDR \t\t\t\t\t\t\t- COMP\n\tFDM \t\t\t\t\t\t\t- ATT\n\t\n<size=22>RIGHT PANEL:</size>\n\tALL C/B'S \t\t\t\t\t\t- CLOSED\n\tATT IND\t\t\t\t\t\t\t- WITH FDI\r\n\tAC POWER\t\t\t\t\t\t- IGS\n\tBIO MED RCDR\t\t\t\t\t- 1 & 2 - CONT\r\n\tRCS HTR\t\t\t\t\t\t\t- OFF\r\n\tBUS TIE: 1 & 2 \t\t\t\t\t- OFF\r\n\tMAIN BATTERIES (4) \t\t\t\t- OFF\r\n\tSQUIB BATTERIES (3) \t\t\t- UMB\r\n\tAGENA CONTROL: BUS ARM \t\t- SAFE\r\n\r\tSECONDARY OXYGEN SHUTOFF\t\t- OPEN\r\n\n<size=22>FC SECTION 1/2:\r</size>\n\tPOWER \t\t\t\t\t\t\t- WARMUP\r\n\nStart BATTERY CHECK (T-50) Checklist",
+  "AutoGenerate": false,
+  "checklistText": "<size=24>INTERIOR INSPECTION (T-90)</size>\n\nOVH:\r\n\tCABIN LIGHTS \t\t\t\t\t- ON\r\n\r\nOVH/BETWEEN UPPER SEATS:\r\n\tCABIN LIGHT DIMMER \t\t\t- As desired\r\n\r\n<size=22>LEFT PANEL:</size>\n\tSECONDARY O2 BOTTLE SHUTOFF \t- OPEN\n\tABORT HANDLE \t\t\t\t\t- NORMAL\r\n\tALL C/B'S \t\t\t\t\t\t- CLOSED EXPECT\n\t\tTR-256 C/B \t\t\t\t\t- OPEN\n\tSEQ LIGHTS: TEST \t\t\t\t- OFF\r\n\tSEQ LIGHTS: DIM \t\t\t\t- BRIGHT\r\n\tATT IND \t\t\t\t\t\t- WITH FDI\n\tBOOST-INSERT \t\t\t\t\t- SAFE\r\n\tRETRO: PWR \t\t\t\t\t\t- SAFE\r\n\tRETRO: JETT \t\t\t\t\t- SAFE\r\n\tRETRO ROCKET SQUIBS (4) \t\t- SAFE\r\n\n<size=22>CP PANEL:\r</size>\n\tFDR \t\t\t\t\t\t\t- PLAT\n\tFDM \t\t\t\t\t\t\t- RATE\n\tFDI SCALE RANGE \t\t\t\t- HI\n\tEVENT TIMER \t\t\t\t\t- STBY (will start on liftoff)\r\n\tEVENT TIMER \t\t\t\t\t- ZEROED\n\tEVENT TIMER MODE \t\t\t\t- A\n\n<size=22>OVERHEAD PANEL:\r</size>\n\tALL C/B'S \t\t\t\t\t\t- CLOSED EXPECT:\n\t\tOAMS HTRS C/B \t\t\t\t- OPEN\n\t\tH20 HTRS C/B'S \t\t\t- OPEN \n\tT/M AC\t\t\t\t\t\t\t- ON\r\n\tDC-DC CONV \t\t\t\t\t\t- PRI\r\n\tCTR LIGHTS \t\t\t\t\t\t- AS NEEDED\n\tACME BIAS PWR \t\t\t\t\t- PRI\r\n\tROLL JETS \t\t\t\t\t\t- YAW\n\tOAMS RESV \t\t\t\t\t\t- SAFE\n\tATTITUDE DRIVERS \t\t\t\t- PRI\r\n\tACME LOGIC SWITCHES (3) \t\t- PRI\r\n\r\n<size=22>CENTER PANEL:\r</size>\n\tCABIN AIR RECIRC HANDLE \t\t- UP (OPEN)\n\tINLET SNORKLE HANDLE \t\t- UP (CLOSED)\n\tCABIN VENT HANDLE \t\t\t- UP (CLOSED)\n\tWATER SEAL HANDLE \t\t\t- UP (OPEN)\n\tO2 HIGH RATE RECOCK HANDLE \t- UP\n\tSUIT FAN \t\t\t\t\t\t- OFF\r\n\tPRIMARY PUMP A \t\t\t\t- OFF\r\n\tPRIMARY PUMP B \t\t\t\t- OFF\r\n\tRAD \t\t\t\t\t\t\t- BYPASS\r\n\tEVAP HEAT \t\t\t\t\t\t- OFF\r\n\tEVAP FLOW \t\t\t\t\t\t- MAX FLOW\n\tSECONDARY PUMP A \t\t\t\t- OFF\r\n\tSECONDARY PUMP B \t\t\t\t- OFF\r\n\tMISSION TIMER: START\r\n\t\tNote:\tThis will automatically make\r the timer count up on \n\t\t\t\tliftoff\r\n\tH2 VAC TANK \t\t\t\t\t- CLOSED\r\n\tTDA RIGID CONTROL \t\t\t\t- OFF\r\n\tTDA UNDOCK CONTROL \t\t\t- OFF\n\tCRYO HEATERS (O2 & H2) \t\t- OFF\r\n\tCRYO INSTRUMENT\t\t\t\t- OFF\r\n\tPROP INSTRUMENT\t\t\t\t- OFF\r\n\tUHF T/R \t\t\t\t\t\t- NO 1\r\n\tHF T/R \t\t\t\t\t\t\t- OFF\r\n\tSILENCE \t\t\t\t\t\t- OFF\n\tKEYING \t\t\t\t\t\t\t- CONT INT/PTT\n\tRECORD \t\t\t\t\t\t- CONT\n\tBEACON CONTROL: RESC \t\t\t- OFF\n\tBEACON CONTROL: S-BAND \t\t- CMD\r\n\tBEACON CONTROL: C-BAND \t\t- CONT\n\tTM CONTROL: CALIB \t\t\t\t- NO 1\r\n\tTM CONTROL: SBY TM \t\t\t- R/T\r\n\tTM CONTROL: T/M \t\t\t\t- R/T & ACQ\n\tTAPE PLYBK \t\t\t\t\t- CMD\r\n\tANT SEL \t\t\t\t\t\t- RNTY\n\tHF ANT POSITION CONTROL \t\t- OFF\r\n\tNO. 1 AUDIO SWITCH \t\t\t\t- UHF \n\n<size=22>PEDESTAL:\r</size>\n\tRADAR \t\t\t\t\t\t\t- OFF\r\n\tPLATFORM \t\t\t\t\t\t- FREE\r\n\tSCANNER\t\t\t\t\t\t- OFF\r\n\tRATE GYROS (3) \t\t\t\t\t- PRI\r\n\tCOMPUTER \t\t\t\t\t\t- OFF\r\n\tCOMPUTER MODE \t\t\t\t\t- PRE-LN\r\n\tATTITUDE CONTROL \t\t\t\t- PLAT\r\t\n\tOAMS PROP MOTOR VALVES \t\t- CLOSED\r\n\tPROP MOTOR VALVES: RCS A & B \t- CLOSED\r\n\tOAMS CNTL PWR \t\t\t\t\t- CLOSED\r\n\tCNTL PWR: RCS A & B \t\t\t- CLOSED\r\n\tREPRESS KNOB \t\t\t\t\t- CLOSED\n\n<size=22>PILOT PANEL:\r</size>\n\tAUX TAPE \t\t\t\t\t\t- ON/RESET\r\n\tMODE\t\t\t\t\t\t\t- AUTO\r\n\tX OVER \t\t\t\t\t\t- OFF\r\n\tFC SECTION 1:\r\n\t\tFC PURGE \t\t\t\t\t- OFF (center)\r\n\t\tPOWER \t\t\t\t\t\t- OFF\r\n\tFC SECTION 2:\r\n\t\tPOWER \t\t\t\t\t\t- OFF\r\n\t\tFC PURGE \t\t\t\t\t- OFF (center)\r\n\tFUEL CELL 1A, 1B, 1C, 2A, 2B, 2C - OFF\r\n\tMDIU \t\t\t\t\t\t\t- OFF\r\n\tdP SELECT\t\t\t\t\t\t- OFF\r\n\tVOLTMETER \t\t\t\t\t\t- C\n\tFDI SCALE RANGE \t\t\t\t- HI\n\tFDR \t\t\t\t\t\t\t- PLAT\n\tFDM \t\t\t\t\t\t\t- RATE\n\t\n<size=22>RIGHT PANEL:</size>\n\tALL C/B'S \t\t\t\t\t\t- CLOSED\n\tATT IND\t\t\t\t\t\t\t- WITH FDI\r\n\tAC POWER\t\t\t\t\t\t- IGS\n\tBIO MED RCDR\t\t\t\t\t- 1 & 2 - CONT\r\n\tRCS HTR\t\t\t\t\t\t\t- OFF\r\n\tBUS TIE: 1 & 2 \t\t\t\t\t- OFF\r\n\tMAIN BATTERIES (4) \t\t\t\t- OFF\r\n\tSQUIB BATTERIES (3) \t\t\t- UMB\r\n\tAGENA CONTROL: BUS ARM \t\t- SAFE\r\n\r\tSECONDARY OXYGEN SHUTOFF\t\t- OPEN\r\n\n<size=22>FC SECTION 1/2:\r</size>\n\tPOWER \t\t\t\t\t\t\t- WARMUP\r\n\nStart BATTERY CHECK (T-50) Checklist",
   "Steps": [
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Turn on the flashlight."
-    },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 62,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LightsCabin to Up (1/62)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 31,
       "ToPosID": 2,
-      "Text": null
-    },
-    {
-      "Program": 2,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Turn off the flashlight, or set as desired."
+      "Text": null,
+      "Description": "set DimLightControl to position 2 (3/31)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set SecondaryO2ShutoffL to position 0 (3/24)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 204,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ABORTHandle to Down (1/204)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 1,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECoaxCntl to Up (1/1)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAudioAndUHFTR1 to Up (1/65)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAudioAndUHFTR2 to Up (1/66)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 67,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEUHFRelay to Up (1/67)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEToneVox to Up (1/68)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 69,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSETV to Up (1/69)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 70,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEHFTR to Up (1/70)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 71,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAntCntl to Up (1/71)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 72,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEWhipAntHF to Up (1/72)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 73,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEWhipAntUHF to Up (1/73)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 74,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEWhipAntDiplex to Up (1/74)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 75,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEElectTimer to Up (1/75)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 76,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEEventTimer to Up (1/76)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 77,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBoostCutoff1 to Up (1/77)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 78,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBoostCutoff2 to Up (1/78)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 79,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERetroAuto to Up (1/79)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 80,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERetroMan to Up (1/80)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 81,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSETr256 to Down (1/81)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 82,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEECSIndLts to Up (1/82)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 83,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEIndLtTest to Up (1/83)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 84,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSESeqLightsPWR to Up (1/84)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 85,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSESeqLightsCntl to Up (1/85)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 86,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEParaCntl to Up (1/86)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 87,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttIncCntlRetro to Up (1/87)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 88,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttIndCntlLdg to Up (1/88)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 89,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBoostInsertCntl1 to Up (1/89)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 90,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBoostInsertCntl2 to Up (1/90)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 91,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERetroSeqCntl1 to Up (1/91)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 92,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERetroSeqCntl2 to Up (1/92)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 93,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSELandingSecCntl1 to Up (1/93)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 94,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSELandingSecCntl2 to Up (1/94)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 18,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set LightsTest to Middle (1/18)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 17,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LightsBrightness to Up (1/17)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 95,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FDI1Controller to Up (1/95)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 2,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBoostInsert to Down (1/2)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 3,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetroPWR to Down (1/3)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 4,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetroJett to Down (1/4)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 5,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibLanding to Down (1/5)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 6,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro1 to Down (1/6)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 7,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro2 to Down (1/7)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 8,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro3 to Down (1/8)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 9,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetro4 to Down (1/9)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 7,
-      "ToPosID": 2,
-      "Text": null
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FDI1Mode to position 1 (3/7)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 8,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set FDI1Data to position 0 (3/8)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 21,
-      "ToPosID": 0,
-      "Text": null
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FDI1SetKnob to position 1 (3/21)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EventTimerStart to Up (1/51)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "EVENT TIMER ZEROED"
+      "Text": "EVENT TIMER ZEROED",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 52,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EventTimerDirection to Middle (1/52)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 105,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECoolPumpPriA to Up (1/105)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 104,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECoolPumpPriB to Up (1/104)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 103,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECoolPumpSecA to Up (1/103)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 102,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECoolPumpSecB to Up (1/102)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 101,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECryQty to Up (1/101)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 100,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAUXRecp to Up (1/100)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 99,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBeaconsAcq to Up (1/99)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 98,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBeaconsResc to Up (1/98)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 97,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBeaconsC to Up (1/97)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 61,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEDCDCConv to Up (1/61)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 41,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSESuitFan1 to Up (1/41)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 42,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSESuitFan2 to Up (1/42)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 113,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEClkLt to Up (1/113)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 112,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEH2OHtrs to Down (1/112)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 111,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEPriO2Htrs to Up (1/111)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 110,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEXmtrsStbyCntl to Up (1/110)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 109,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEXmtrsStbyPWR to Up (1/109)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 108,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEXmtrsRT to Up (1/108)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 107,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEXmtrsDT to Up (1/107)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 118,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEO2RateCntl to Up (1/118)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 117,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECoolVlvsPri to Up (1/117)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 116,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECoolVlvsSec to Up (1/116)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 115,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEEvapThr to Up (1/115)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 114,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEOAMSHtrs to Down (1/114)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 62,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LightsCabin to Up (1/62)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 63,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LightsFDI to Up (1/63)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 121,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEACMECntl1 to Up (1/121)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 122,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEACMECntl2 to Up (1/122)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 123,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEOAMSCntlProp to Up (1/123)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 124,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEOAMSCntlReg1 to Up (1/124)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 125,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEOAMSCntlReg2 to Up (1/125)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 126,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSSquibs1 to Up (1/126)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 127,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSSquibs2 to Up (1/127)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 129,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru9 to Up (1/129)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 130,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru10 to Up (1/130)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 131,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru11 to Up (1/131)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 132,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru12 to Up (1/132)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 133,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru13 to Up (1/133)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 134,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru14 to Up (1/134)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 135,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru15 to Up (1/135)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 136,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEManThru16 to Up (1/136)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 138,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust1 to Up (1/138)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 139,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust2 to Up (1/139)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 140,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust3 to Up (1/140)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 141,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust4 to Up (1/141)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 142,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust5 to Up (1/142)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 143,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust6 to Up (1/143)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 144,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust7 to Up (1/144)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAttThrust8 to Up (1/145)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 149,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSAPitch to Up (1/149)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 150,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSAYawL to Up (1/150)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 151,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSAYawR to Up (1/151)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 152,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSBPitch to Up (1/152)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 153,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSBYawL to Up (1/153)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 154,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSBYawR to Up (1/154)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 106,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSETMAC to Up (1/106)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 23,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set DCDCConvATM to position 0 (3/23)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 119,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ACMEBiasPWR to Down (1/119)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 120,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RollJetsSelector to Down (1/120)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 128,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set OAMSResvSwitch to Up (1/128)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 137,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AttitiudeDriversSwitch to Down (1/137)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 146,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ACMELogicYawSelector to Down (1/146)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 13,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set CabinRecirc to position 0 (3/13)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 14,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set Snorkel to position 0 (3/14)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set CabinVent to position 0 (3/15)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set WaterSeal to position 0 (3/16)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 17,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set O2HighRateRecock to position 0 (3/17)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 40,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SuitFan to Middle (1/40)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 44,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolPriPumpA to Down (1/44)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 45,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolPriPumpB to Down (1/45)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 48,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorFlow to Down (1/48)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 49,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EvaporatorHeat to Down (1/49)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 50,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EvaporatprMaxFlow to Up (1/50)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 46,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolSecPumpA to Down (1/46)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 47,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CoolSecPumpB to Down (1/47)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 53,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set ElapsedTimeStarter to Up (1/53)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 54,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set H2VacTank to Down (1/54)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 203,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TDARigid to Middle (1/203)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 185,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TDAUndock to Down (1/185)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 3,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set CryoSelector to position 0 (3/3)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 20,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PropGaugeSelector to position 1 (3/20)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 189,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set UHFRadioSelect to Left (1/189)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 190,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set HFAntennaSelect to Middle (1/190)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 191,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioSilence to Middle (1/191)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 192,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioKeying to Right (1/192)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 193,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioRecord to Left (1/193)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 194,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set BeaconResc to Down (1/194)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 195,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set BeaconSBand to Down (1/195)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 196,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BeaconCBand to Up (1/196)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 197,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set TMCalib to Up (1/197)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 198,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set TMSby to Up (1/198)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 199,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set TMTM to Up (1/199)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 200,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioTapePlayback to Middle (1/200)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 201,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioAntSel to Up (1/201)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 202,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set HfAntControl to Middle (1/202)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 29,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioModeA to position 0 (3/29)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 184,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RadarLockOn to Down (1/184)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set IGSPlatform to position 6 (3/5)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 38,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set HorizonScannerSelect to Middle (1/38)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 187,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RateGyroYaw to Up (1/187)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 186,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RateGyroPitch to Up (1/186)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 188,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RateGyroRoll to Up (1/188)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 37,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerPower to Down (1/37)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerMode to position 0 (3/6)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set ACMEMode to position 6 (3/4)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotoOAMS to Down (1/58)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 59,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotRCSA to Down (1/59)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotRCSB to Down (1/60)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 31,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWROAMS to Down (1/31)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 32,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWRRCSA to Middle (1/32)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 33,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWRRCSB to Middle (1/33)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set Repressurize to position 0 (3/12)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 36,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AuxTapePWR to Up (1/36)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 11,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set TapeControl to position 1 (3/11)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 205,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set XOver to Down (1/205)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 19,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1PurgeO2 to Middle (1/19)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 20,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1PWR to Down (1/20)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 22,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2PWR to Down (1/22)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 21,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2PurgeO2 to Middle (1/21)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 23,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1A to Down (1/23)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 24,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1B to Down (1/24)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 25,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1C to Down (1/25)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 26,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2A to Down (1/26)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 28,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2C to Down (1/28)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 35,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set MDIUPower to Down (1/35)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 2,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set dPMeterSelector to position 2 (3/2)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 1,
       "ToPosID": 10,
-      "Text": null
+      "Text": null,
+      "Description": "set VoltMeterSelector to position 10 (3/1)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 22,
-      "ToPosID": 0,
-      "Text": null
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FDI2SetKnob to position 1 (3/22)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 9,
-      "ToPosID": 2,
-      "Text": null
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FDI2Mode to position 1 (3/9)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 10,
-      "ToPosID": 2,
-      "Text": null
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FDI2Data to position 0 (3/10)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 155,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEAUXTape to Up (1/155)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 156,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSESEOInst to Up (1/156)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 157,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECalib to Up (1/157)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 158,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBioMedInst to Up (1/158)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 159,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEDCSPWR to Up (1/159)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 160,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEFCO2H2Reg to Up (1/160)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 161,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEFCO2H2HTR to Up (1/161)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 39,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set HorizonScannerHeater to Up (1/39)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 166,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERadarPWR to Up (1/166)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 167,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEACMEInv to Up (1/167)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 168,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSHTRSA to Up (1/168)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 169,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSHTRSB to Up (1/169)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 170,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSETapeRecorderPWR to Up (1/170)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 171,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSETapeRecorderCNTL to Up (1/171)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 172,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEFuelCellCntl1 to Up (1/172)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 173,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEFuelCellCntl2 to Up (1/173)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 174,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEFCdP to Up (1/174)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 162,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENAPWR to Up (1/162)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 163,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENASquib1 to Up (1/163)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 164,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENASquib2 to Up (1/164)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 165,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENACntl to Up (1/165)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 177,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FDI2Switch to Up (1/177)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 34,
-      "ToPosID": 4,
-      "Text": null
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ACPowerSource to Down (1/34)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 178,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBioMedRcdr1 to Up (1/178)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 179,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEBioMedRcdr2 to Up (1/179)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 180,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERCSHtr to Down (1/180)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 29,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set BusTie1 to Down (1/29)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 30,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set BusTie2 to Down (1/30)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 10,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery1 to Middle (1/10)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 11,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery2 to Middle (1/11)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 12,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery3 to Middle (1/12)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 13,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery4 to Middle (1/13)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 14,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBattery1 to Down (1/14)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 15,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBattery2 to Down (1/15)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 16,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibBattery3 to Down (1/16)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 183,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENABusArm to Middle (1/183)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 25,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set SecondaryO2ShutoffR to position 0 (3/25)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 20,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell1PWR to Middle (1/20)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 22,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCell2PWR to Middle (1/22)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Start BATTERY CHECK (T-50) Checklist"
+      "Text": "Start BATTERY CHECK (T-50) Checklist",
+      "Description": "Manual step"
     }
   ],
   "Images": []

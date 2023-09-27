@@ -6,287 +6,327 @@
   "Side": 1,
   "SortPriority": 15,
   "AutoGenerate": false,
-  "checklistText": "<size=24>CIRCULARIZE ORBIT</size>\n\n<size=22>Computer:</size>\n- Set OBC to CTCH UP and wait for it to load\n- Radio: Request Circularize at AP/PE burn PAD from GROUND\n- OBC: \n\tRESET - push\n\n<size=22>Burn PAD:</size>\n- Core 01+02:\tTime of Ignition (GET) in HHH:MM:SS.ss\n- Core 25+26+27:\tDesired ΔV (LV at TIG)\n- Verify Core 01:\t\t\tHHHMM (TIG#1)\n\t\tHours (HHH) and Minutes (MM) to burn\n- Verify Core 02:\t\t\t0SSss  (TIG#2)\n\t\tSeconds (SS) and Milliseconds (ss) to burn\n- Verify Core 25=ΔX, 26=ΔY, 27=ΔZ\n- OBC: \n\tSTART - push\n\tCOMP lt - on\n\t***************************************************************\n\t* IF MALF lt - on:\t\t\t\t\t\t\t\t*\n\t*\tRESET - push\t\t\t\t\t\t\t\t*\n\t*\tVerify PAD data and TIG is in the future\t*\n\t***************************************************************\nCountdown to ignition:\n- Core 84: \t\t\t\t\tMMMSS (TTG)\n\tTime to go in Minutes (MMM) and Seconds (SS)\n\nSet EVENT TIMER to 10:00, count down and standby.\nWhen Core 83 (TTG) is 10:00 (minutes), start Event Timer.\n\nIVI's will show burn vector in Local Body axis (closed loop)\n\nAt T -02:00: COMP lt - extinguished\nAt T -00:00: COMP lt - illuminated\n- Ignition: Burn so IVI's read zero\n\nBurn completion:\n- OBC: \n\tRESET - push\n\n",
+  "checklistText": "<size=24>CIRCULARIZE ORBIT</size>\n\n<size=22>Computer:</size>\n- Set OBC to CTCH UP and wait for it to load\n- Radio: Request Circularize at AP/PE burn PAD from GROUND\n- OBC: \n\tRESET - push\n\n<size=22>Burn PAD:</size>\n- Core 01+02:\tTime of Ignition (GET) in HHH:MM:SS.ss\n- Core 25+26+27:\tDesired ΔV (LV at TIG)\n- Verify Core 01:\t\t\tHHHMM (TIG#1)\n\t\tHours (HHH) and Minutes (MM) to burn\n- Verify Core 02:\t\t\t0SSss  (TIG#2)\n\t\tSeconds (SS) and Milliseconds (ss) to burn\n- Verify Core 25=ΔX, 26=ΔY, 27=ΔZ\n- OBC: \n\tSTART - push\n\tCOMP lt - on\n\t***************************************************************\n\t* IF MALF lt - on:\t\t\t\t\t\t\t\t*\n\t*\tRESET - push\t\t\t\t\t\t\t\t*\n\t*\tVerify PAD data and TIG is in the future\t*\n\t***************************************************************\nCountdown to ignition:\n- Core 84: \t\t\t\t\tMMMSS (TTG)\n\tTime to go in Minutes (MMM) and Seconds (SS)\n\nSet EVENT TIMER to 10:00, count down and standby.\nWhen Core 84 (TTG) is 10:00 (minutes), start Event Timer.\n\nIVI's will show burn vector in Local Body axis (closed loop)\n\nAt T -02:00: COMP lt - extinguished\nAt T -00:00: COMP lt - illuminated\n- Ignition: Burn so IVI's read zero\n\nBurn completion:\n- OBC: \n\tRESET - push\n\n",
   "Steps": [
     {
       "Program": 2,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerMode to position 2 (3/6)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait for computer module to load"
+      "Text": "Wait for computer module to load",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Radio: Request Ap/Pe Circularization Burn from Ground"
+      "Text": "Radio: Request Ap/Pe Circularization Burn from Ground",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerReset (4/24)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify PAD data:"
+      "Text": "Verify PAD data:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 20,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardZero (4/20)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 11,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard1 (4/11)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify $01=HHHMM (TIG, 000:00)"
+      "Text": "Verify $01=HHHMM (TIG, 000:00)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 20,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardZero (4/20)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify $02=0SSss (TIG, 000.00)"
+      "Text": "Verify $02=0SSss (TIG, 000.00)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 15,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard5 (4/15)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify $25=ΔX (LV at TIG, XXXX)"
+      "Text": "Verify $25=ΔX (LV at TIG, XXXX)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard6 (4/16)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify $26=ΔY (LV at TIG, XXXX)"
+      "Text": "Verify $26=ΔY (LV at TIG, XXXX)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 17,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard7 (4/17)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify $27=ΔZ (LV at TIG, XXXX)"
+      "Text": "Verify $27=ΔZ (LV at TIG, XXXX)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 25,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerStart (4/25)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard8 (4/18)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 14,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard4 (4/14)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify $84=TTG (MMMSS)"
+      "Text": "Verify $84=TTG (MMMSS)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Set EVENT TIMER to 10:00, count down & stby"
+      "Text": "Set EVENT TIMER to 10:00, count down & stby",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "10 minutes TTG, start event timer"
+      "Text": "10 minutes TTG, start event timer",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When TTG=0, zero IVI's"
+      "Text": "When TTG=0, zero IVI's",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerReset (4/24)"
     }
   ],
   "Images": []
