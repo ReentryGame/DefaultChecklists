@@ -75,7 +75,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify P1 MASTAR ALARM pb/lt - out"
+      "Text": "Verify P1 MASTER ALARM pb/lt - out"
     },
     {
       "Program": 0,
@@ -89,7 +89,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify P1 MASTAR ALARM pb/lt - on"
+      "Text": "Verify P1 MASTER ALARM pb/lt - on"
     },
     {
       "Program": 0,
