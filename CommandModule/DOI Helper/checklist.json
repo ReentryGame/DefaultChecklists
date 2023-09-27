@@ -1,12 +1,12 @@
 {
   "Spacecraft": 0,
   "ProjectName": "DOI Helper",
-  "Group": "CUSTOM",
+  "Group": "HELPERS",
   "Name": "DOI Helper",
-  "Side": 0,
-  "SortPriority": 0,
+  "Side": 1,
+  "SortPriority": 900000001,
   "AutoGenerate": false,
-  "checklistText": "Open the SPS burn planner and warp until above the desired landing site and make note of the phase, then use the following equation to get the reqired burn phase and tweak the DV in a retrograde direction until you have a PE of less then 8 NMI.\n\nDOI Equation:\nphase over target -20, then +180 if phase is below 180 and -180 if \t  above 180.\n\nAfter LM undocking the choice for recirularizing the orbit is up to you, using either the the Automatic system in the crew menu or requesting a AP burn PAD whichever you prefer.\n",
+  "checklistText": "Open the SPS burn planner and warp until above the desired landing site and make note of the phase, then use the following equation to get the reqired burn phase and tweak the DV in a retrograde direction until you have a PE of less then 8 NMI.\n\nDOI Equation:\nphase over target -20, then +180 if phase is below 180 and -180 if above 180.\n\nAfter LM undocking the choice for recirularizing the orbit is up to you, using either the the Automatic system in the crew menu or requesting a AP burn PAD whichever you prefer.\n",
   "Steps": [],
   "Images": []
 }

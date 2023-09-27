@@ -1,10 +1,10 @@
 {
   "Spacecraft": 0,
-  "ProjectName": "Lossof2FCs",
-  "Group": "Systems: EPS",
+  "ProjectName": "Loss_of_Two Fuel_Cells",
+  "Group": "SYSTEMS: EPS",
   "Name": "Loss of Two FCs",
   "Side": 1,
-  "SortPriority": 0,
+  "SortPriority": 40503101,
   "AutoGenerate": false,
   "checklistText": "LOSS OF TWO FUEL CELLS\n\n1. Power down the following \n\t\n\tPanel 2 \n02 & H2 FANS & HTRS - OFF\nC/W NORM - ACK\nPOT H2O HTR - OFF\nCLY EVAP STM AUTO - MAN\nGLY EVAP H2O FLOW - OFF (CTR)\nCLY EVAP IN TEMP - MAN\nECS RAD HTRS (2) - OFF\nPower down IMU and CMC to STBY per checklist\n\n\tPanel 3 \nSPS LINE HTR - OFF (CTR)\nTAPE RCDR FWD - OFF (CTR)\nS BD NORM PWR AMP - OFF (CTR)\nSelect single inverter opeartion\nConfigure remaing fuel cell to both main busses \n\n\tPanel 5\ncb ECS RAD HTR OVLD (2) - OPEN\nFailed FC PUMPS (2) - OFF\n\n\tPanel 7 \nSCS LOGIC PWR 2/3 - OFF\nBMAG PWR (2) - OFF (place to WARMUP 40 min prior to an IMU/GDC align)\nFDAI/GPI - OFF\n\n\tPanel 8\nAUTO RCS SEL (16) - OFF \ncb SCS LOGIC (4) - OPEN\n\n2. IGN - 2 hrs \n\ta. Power up CMC, IMU, and OPTICS per checklist and perform IMU align\n\tb. After IMU align OPT PWR - OFF \n\tc. If main bus voltage 26.0 vdc with CMC, IMU, and OPTICS up perfrom the following:\n\t\t1) If sufficient battery energ is availabe, place battery with highest energy on both main busses\n\t\t2) If insufficient battery energy available perform:\n\t\t\tSM RCS HTR - OFF\n\t\t\tECS - GLY PUMP - OFF (Turned back on within 1 1/2 hrs) \n\t\t\tSUIT COMPR - OFF (Turned back on within 1 hr)\n\t\t\tcb INSTR ESS (2) open (to be closed when batts are on line)\n\t\t\tLight - as req'd\n\n3. IGN - 1 hr\nBMAG PWR (2) - WARMUP for 40 min before IMU/GDC align. After warmup, power up SCS per checklist\n\n\tArm logic \n\tArm pyros \n\tPress CM RCS \n\tSafe pyros \n\tSafe logic\n\n4. Batts on at normal time prior to SPS deorbit and proceed with normal entry\n",
   "Steps": [],

@@ -5,6 +5,7 @@
   "Name": "PRIM GLY-EVAP OPR",
   "Side": 1,
   "SortPriority": 405040180,
+  "AutoGenerate": false,
   "checklistText": "\t\tPrimary Glycol Evaporator Operation\r\n\r\n\r\n\t1\tActivate prim evap\r\n\r\nPanel 2:\r\n\r\t\tGLY EVAP H2O FLOW - AUTO\r\n\t\tGLY EVAP STM AUTO - AUTO\r\n\r\n\t2\tDeactivate prim evap \r\n\t\tGLY EVAP H2O FLOW - off (ctr)\r\n\t\tGLY EVAP STM AUTO - MAN\r\n\t\tGLY EVAP STM INCR - INCR for\r\n\t\t\t58 sec min\r\n\t\t\t\n\n\n\n",
   "Steps": [],
   "Images": []

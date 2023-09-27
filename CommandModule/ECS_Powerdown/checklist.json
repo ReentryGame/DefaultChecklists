@@ -1,10 +1,10 @@
 {
   "Spacecraft": 0,
-  "ProjectName": "ECS POWER DOWN",
-  "Group": "Systems: ECS",
+  "ProjectName": "ECS_Powerdown",
+  "Group": "SYSTEMS: ECS",
   "Name": "ECS POWER DOWN",
   "Side": 1,
-  "SortPriority": 0,
+  "SortPriority": 405040181,
   "AutoGenerate": false,
   "checklistText": "ECS POWER DOWN\nThis will save about 3.7 amps\n\tECS GLY PUMP sel - OFF (ISS LIMIT 2.5 HRS) \n\tECS RAD FLOW CONT PWR - off (CTR)\n\tGLY EVAP TEMP IN - MAN\n\tECS RAD HTRS (2) - OFF \n\tGLYCOL EVAP H2O FLOW - OFF \n\tGLYCOL EVAP STRAM PRESS - MAN",
   "Steps": [],

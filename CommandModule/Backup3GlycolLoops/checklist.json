@@ -13,133 +13,160 @@
       "Type": 3,
       "SetID": 29,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P377_GlyToRadSec to position 1 (3/29)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 18,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ECSIndicatorSelector to position 1 (3/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SecCoolPumpAC to Up (1/180)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify instruments"
+      "Text": "Verify instruments",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 180,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SecCoolPumpAC to Down (1/180)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify SEC GLY DISCH PRESS in - 39-51 psig"
+      "Text": "Verify SEC GLY DISCH PRESS in - 39-51 psig",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 180,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SecCoolPumpAC to Middle (1/180)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set ECSIndicatorSelector to position 0 (3/18)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 29,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P377_GlyToRadSec to position 0 (3/29)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 16,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set PrimaryRCSGlycolPumps to position 3 (3/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify instruments"
+      "Text": "Verify instruments",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 16,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PrimaryRCSGlycolPumps to position 1 (3/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify instruments"
+      "Text": "Verify instruments",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 188,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorFlowContPower to Up (1/188)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 189,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorFlowContSelector to Down (1/189)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ECS RAD tb - 2"
+      "Text": "ECS RAD tb - 2",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 189,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorFlowContSelector to Up (1/189)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ECS RAD tb - gray"
+      "Text": "ECS RAD tb - gray",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 188,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorFlowContPower to Middle (1/188)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 30,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P7_DirectO2 to position 0 (3/30)"
     }
   ],
   "Images": []

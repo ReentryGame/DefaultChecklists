@@ -1,4 +1,5 @@
-"Spacecraft": 0,
+{
+  "Spacecraft": 0,
   "ProjectName": "SPSBurnAndLOI",
   "Group": "HELPERS",
   "Name": "SPS Burn/LOI",
