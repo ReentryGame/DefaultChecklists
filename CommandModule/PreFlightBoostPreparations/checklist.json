@@ -511,6 +511,14 @@
       "ToPosID": 0,
       "Text": null,
       "Description": "push GDCAlign (4/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Push and hold the GDC ALIGN button until FDAI 2 is equal to FDAI 1.",
+      "Description": "Manual step"
     }
   ],
   "Images": []

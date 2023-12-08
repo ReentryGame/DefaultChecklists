@@ -5,6 +5,7 @@
   "Name": "PRE-RETRO (TR-30)",
   "Side": 1,
   "SortPriority": 60,
+  "AutoGenerate": false,
   "checklistText": "<size=24>PRE RETRO (Tr-30)</size>\n\nApproximately 30 minutes before retro time (Tr-30mins):\n1. Cabin Temp \t\t\t- COLD\n2. Suit Temp \t\t\t- COLD\n3. Inverter Temp \t\t- COLD\n\nApproximately 15 minutes before retro time (Tr-15mins):\n4. Emer Retro Seq. Fuse \t\t- ON\n5. 1, 2, 3 Retro Rckt Fuse \t- ON\n6. Emer Retro Jet Fuse \t\t- ON\n7. ASCS .05G Fuse \t\t\t- ON\n8. Emer .05G Fuse \t\t\t- ON\n9. Periscope Fuse \t\t\t- ON\n10. Cmd Rcvr A Fuse \t\t- ON\n11. TLM Hi Freq Fuse \t\t- ON\n12. Squib switch \t\t\t- ARM\n13. Auto Retro Jett switch \t- OFF\n14. TLM Lo Freq switch \t\t- ON\n15. Transmit switch \t\t\t- UHF\n16. BCN switch \t\t\t\t- CONT\n17. Retro Jett Fuse \t\t\t- OFF\n18. Retro Man Fuse \t\t\t- ON\n19. Attitude Select \t\t\t- RETRO\n20. Maintain Retro attitude\n\nStart RETRO Checklist",
   "Steps": [
     {
@@ -12,175 +13,200 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At (Tr-30mins):"
+      "Text": "At (Tr-30mins):",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set SuitTemp to position 6 (3/5)"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set CabinTemp to position 6 (3/4)"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set InverterTemp to position 6 (3/6)"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At (Tr-15mins)"
+      "Text": "At (Tr-15mins)",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 23,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerRetroSeq to One (2/23)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 20,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set No1RetroRckt to One (2/20)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 21,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set No2RetroRckt to One (2/21)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 22,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set No3RetroRckt to One (2/22)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 24,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerRetroJett to One (2/24)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 14,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ASCSDot05G to One (2/14)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 15,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerDot05G to One (2/15)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 13,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PeriScope to One (2/13)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 8,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ComvRcvrA to One (2/8)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 9,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set TrimHiFreq to One (2/9)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 15,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ArmSquib to Left (1/15)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 18,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRetroJett to Right (1/18)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 27,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set TLMLoFreq to Left (1/27)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 24,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set Transmit to Right (1/24)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 23,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set Beacon to Right (1/23)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 3,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RetroJett to Off (2/3)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 4,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RetroMan to One (2/4)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 20,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set AttitudeSelect to Left (1/20)"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Maintain Retro attitude - AUTO or MAN"
+      "Text": "Maintain Retro attitude - AUTO or MAN",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Start RETRO Checklist"
+      "Text": "Start RETRO Checklist",
+      "Description": "Manual step"
     }
   ],
   "Images": []

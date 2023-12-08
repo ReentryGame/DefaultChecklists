@@ -1,11 +1,93 @@
 {
-    "Group": "MPS",
-    "Name": "MPS BASIC (Staged)",
-    "ProjectName": "MPS_BasicStaged",
-    "Side": 1,
-    "SortPriority": 1302,
-    "Spacecraft": 1,
-    "Steps": [],
-    "Images": [],
-    "checklistText": "<size=21>MPS BASIC (Staged)</size>\r\n\r\nPanel 11:\r\n1.\tCB/AC BUS B: He/PQGS PROPUL DISP - close\r\n\tCB PROPUL: DES He REG/VENT - open\r\n\r\nPanel 16:\r\n2.\tCB PROPUL:\r\n\t\tDISP/ENG OVRD LOGIC - close\r\n\t\tPQGS - open\r\n\t\tASC He REG - close\r\n\r\nPanel 1:\r\n3.\tPRPLNT QTY MON sw - OFF\r\n\tHELIUM MON sel - PRESS 2\r\n\tPRPLNT TEMP/PRESS MON sw - ASC\r\n\tASC He REG 1 tb - gray\r\n\tASC He REG 2 tb - gray"
+  "Spacecraft": 1,
+  "ProjectName": "MPS_BasicStaged",
+  "Group": "MPS",
+  "Name": "MPS BASIC (Staged)",
+  "Side": 1,
+  "SortPriority": 1302,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>MPS BASIC (Staged)</size>\r\n\r\nPanel 11:\r\n1.\tCB/AC BUS B: He/PQGS PROPUL DISP - close\r\n\tCB PROPUL: DES He REG/VENT - open\r\n\r\nPanel 16:\r\n2.\tCB PROPUL:\r\n\t\tDISP/ENG OVRD LOGIC - close\r\n\t\tPQGS - open\r\n\t\tASC He REG - close\r\n\r\nPanel 1:\r\n3.\tPRPLNT QTY MON sw - OFF\r\n\tHELIUM MON sel - PRESS 2\r\n\tPRPLNT TEMP/PRESS MON sw - ASC\r\n\tASC He REG 1 tb - gray\r\n\tASC He REG 2 tb - gray",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 89,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusB_HePQGS_PropDisp to Closed (2/89)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 121,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Prop_DESHeRegVent to Open (2/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 38,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Propul_Disp to Closed (2/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 37,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Propul_PQGS to Open (2/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 36,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Propul_ASCHe_Reg to Closed (2/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 50,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Down (1/50)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 6,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 6 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Up (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg1 to Up (1/52)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg2 to Up (1/53)"
+    }
+  ],
+  "Images": []
 }

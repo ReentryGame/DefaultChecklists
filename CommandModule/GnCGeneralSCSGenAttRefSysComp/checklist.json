@@ -5,7 +5,265 @@
   "Name": "Att. Ref. Sys. Comp.",
   "Side": 1,
   "SortPriority": 40804070,
-  "checklistText": "Attitude Reference System Comparison\r\n\r\n\t1 The following are req\r\n\t\tCMC - on\r\n\t\tISS - on & orient known\r\n\t\tSCS - on\r\n\r\nPanel 2, 140:\r\n\t2 Key V37E 00E\r\n\r\n\t3 Establish Att Cont,\r\n\t\tDamp veh rates\r\n\r\n\t4 Key V06 N20E (ICDU angles)\r\n\t\tR, P, Y\t\tXXX.XX DEG\r\n\t\r\n\t5 Perform ATT SET/IMU comparison\r\n\r\nPanel 1:\r\n\tFDAI SEL - 1\r\n\tFDAI SOURCE - ATT SET\r\n\tATT SET - IMU\r\n\tATT SET tw (3) - set ≈ to DSKY values,\r\n\t\tnull FDAI 1 att err\r\n\r\nPanel 2, 140:\r\n\tENTR (when nulled)\r\n\tRcd DSKY values\r\n\t\tR___°, P___°, Y___°\r\n\r\nPanel 1:\r\n\tRcd ATT SET values\r\n\t\tR___°, P___°, Y___°\r\n\r\n\t6 Perform ATT SET/GDC comparison\r\n\t\tATT SET - GDC\r\n\t\tATT SET tw (3) - null FDAI 1 att err\r\n\r\nPanel 2, 140:\r\n\tENTR (when nulled)\r\n\tRcd DSKY values\r\n\t\tR___°, P___°, Y___°\r\n\r\nPanel 1:\r\n\tRcd ATT SET values\r\n\t\tR___°, P___°, Y___°                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \r\n\r\n\r\n\r\n\r\n\r\n",
-  "Steps": [],
+  "AutoGenerate": false,
+  "checklistText": "Attitude Reference System Comparison\r\n\r\n\t1 The following are req\r\n\t\tCMC - on\r\n\t\tISS - on & orient known\r\n\t\tSCS - on\r\n\r\nPanel 2, 140:\r\n\t2 Key V37E 00E\r\n\r\n\t3 Establish Att Cont,\r\n\t\tDamp veh rates\r\n\r\n\t4 Key V06 N20E (ICDU angles)\r\n\t\tR, P, Y\t\tXXX.XX DEG\r\n\t\r\n\t5 Perform ATT SET/IMU comparison\r\nPanel 1:\r\n\tFDAI SEL - 1\r\n\tFDAI SOURCE - ATT SET\r\n\tATT SET - IMU\r\n\tATT SET tw (3) - set ≈ to DSKY values,\r\n\t\tnull FDAI 1 att err\r\n\r\nPanel 2, 140:\r\n\tENTR (when nulled)\r\n\tRcd DSKY values\r\n\t\tR___°, P___°, Y___°\r\n\r\nPanel 1:\r\n\tRcd ATT SET values\r\n\t\tR___°, P___°, Y___°\r\n\r\n\t6 Perform ATT SET/GDC comparison\r\n\t\tATT SET - GDC\r\n\t\tATT SET tw (3) - null FDAI 1 att err\r\n\r\nPanel 2, 140:\r\n\tENTR (when nulled)\r\n\tRcd DSKY values\r\n\t\tR___°, P___°, Y___°\r\n\r\nPanel 1:\r\n\tRcd ATT SET values\r\n\t\tR___°, P___°, Y___°                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          \r\n\r\n\r\n\r\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Down (1/260)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 261,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI2 to Down (1/261)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 8,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC3 (4/8)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC7 (4/12)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Establish Att Cont, damp veh rates",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC6 (4/11)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCNoun (4/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC2 (4/7)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ICDU angles: R, P, Y : XXX.XX DEG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FDAISelect to Down (1/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FDAISource to Middle (1/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ATTSet to Up (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[ASCP] ATT SET tw (3) - set ≈ to DSKY values, null FDAI 1 att err",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When nulled:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rcd DSKY values: R__, P__, Y__",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rcd ATT SET values: R__, P__, Y__",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ATTSet to Down (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[ASCP] ATT SET tw (3) - set ≈ to DSKY values, null FDAI 1 att err",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When nulled:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rcd DSKY values: R__, P__, Y__",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rcd ATT SET values: R__, P__, Y__",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

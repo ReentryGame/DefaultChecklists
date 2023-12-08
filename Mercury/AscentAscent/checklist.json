@@ -5,6 +5,7 @@
   "Name": "ASCENT",
   "Side": 0,
   "SortPriority": 50,
+  "AutoGenerate": false,
   "checklistText": "<size=22>ASCENT</size>\n\n1. Monitor Abort Light\n2. Monitor Isolated Battery Voltage\n3. Monitor Cabin Pressure\n    a. Will go from 15 to 5.5\n4. Monitor DC Voltage\n5. Monitor DC Ammeter\n6. Monitor AC Voltage\n\n<size=20>At Engine Cutoff:</size>\n\tIf Redstone Rocket Launch:\n\t\tStart REDSTONE Ascent Checklist\n\tIf Atlas Rocket Launch:\n\t\tStart BECO Checklist",
   "Steps": [
     {
@@ -12,14 +13,64 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Monitor Systems"
+      "Text": "Verify liftoff, altitude increasing",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At Engine Cutoff"
+      "Text": "Verify elapsed time counter is counting",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If elapsed time counter is not counting: Time Zero - press",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor abort and warning lights",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify cabin pressure decrease from 15 to 5.5",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Engine Cutoff:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  If REDSTONE: Start REDSTONE Ascent Checklist",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  If ATLAS: Start ATLAS Ascent Checklist",
+      "Description": "Manual step"
     }
   ],
   "Images": []

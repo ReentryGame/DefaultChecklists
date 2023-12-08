@@ -5,7 +5,169 @@
   "Name": "GDC ALIGN TO IMU",
   "Side": 1,
   "SortPriority": 40801150,
-  "checklistText": "GDC ALIGNMENT TO IMU GIMBAL ANGLES\r\n\r\n1.\tThe following are req\r\n\t\tCMC - (on for step 3b)\r\n\t\tISS - on & orient known\r\n\t\tSCS - on\r\n\t\tFDAI 1 sw - INRTL\r\n\r\n2.\tDamp veh rates\n\r\n3.\tPerform Att Err Disp\n\ta.\tFDAI SOURCE - ATT SET\r\n\t\tATT SET - IMU\r\n\t\tFDAI SEL - 1\r\n\t\tATT SET tw - null FDAI 1 errors\r\n\r\n\tor b.\tV16 N20E\r\n\t\t\tATT SET tw - adj to IMU\r\n\t\t\tgmbl angles on DSKY\r\n\r\n\tor c.\tATT SET tw - adj to IMU gmbl\r\n\t\t\tangles as ind on FDAI\r\n\r\n4.\tAlign GDC (cl GDC ALIGN)\r\n\t\tATT SET - GDC\r\n\t\tGDC ALIGN pb - push\r\n\t\tFDAI SEL - 1/2\r\n\r\n\r\n\r\n\r\n",
-  "Steps": [],
+  "AutoGenerate": false,
+  "checklistText": "GDC ALIGNMENT TO IMU GIMBAL ANGLES\r\n\r\n1.\tThe following are req\r\n\t\tCMC - (on for step 3b)\r\n\t\tISS - on & orient known\r\n\t\tSCS - on\r\n\t\tFDAI 1 sw - INRTL\r\n\r\n2.\tDamp veh rates\n\r\n3.\tPerform Att Err Disp\n\ta.\tFDAI SOURCE - ATT SET\r\n\t\tATT SET - IMU\r\n\t\tFDAI SEL - 1\r\n\t\tATT SET tw - null FDAI 1 errors\r\n\r\n\tor b.\tV16 N20E\r\n\t\t\tATT SET tw - adj to IMU\r\n\t\t\tgmbl angles on DSKY\r\n\r\n\tor c.\tATT SET tw - adj to IMU gmbl\r\n\t\t\tangles as ind on FDAI\r\n\r\n4.\tAlign GDC (cl GDC ALIGN)\r\n\t\tATT SET - GDC\r\n\t\tGDC ALIGN pb - push\r\n\t\tFDAI SEL - 1/2\r\n\r\n\rNote: Reentry has a simplified alignment procedure:\nATT SET - IMU\nGDC ALIGN pb - push\nThis will automatically align the GDC with the IMU without the need for the ATCP.\n\n\n\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Down (1/260)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 261,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI2 to Down (1/261)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Establish Att Cont, Damp veh rates",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FDAISource to Middle (1/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ATTSet to Up (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FDAISelect to Down (1/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC1 (4/6)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC6 (4/11)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCNoun (4/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC2 (4/7)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ATT SET tw - adj to IMU gmbl angles on DSKY",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ATTSet to Down (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC ALIGN pb - push, hold",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FDAISelect to Up (1/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify both FDAIs indicate same total attitude",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If FDAI drives fails, set ATT SET to IMU then GDC ALIGN - push, hold",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify both FDAIs indicate same total attitude",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

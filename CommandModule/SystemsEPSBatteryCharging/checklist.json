@@ -5,7 +5,233 @@
   "Name": "Battery Charging",
   "Side": 1,
   "SortPriority": 40503050,
-  "checklistText": "\t\tBattery Charging\r\n\r\nPanel 5:\r\n\tMN BUS TIE (2) - OFF\r\n\r\nPanel 250:\r\n\tcb PYRO A & B BAT BUS A & B (2) - open\r\n\tcb BAT c TO BAT BUS A & B - open\r\n\r\nPanel 5:\r\n\tcb BAT RLY BUS BAT A (B) - open\r\n\r\nPanel 3:\r\n\tDC IND sel - BAT CHGR\r\n\tBAT CHG - A, B, or C\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tIf bat chg is started immediately\r\n\t\tafter discharge, chgr current may\r\n\t\tbe high &/or chgr voltage may be\r\n\t\tlow. Current & voltage should be\r\n\t\twithin specified limits 45 min\r\n\t\tafter initiation of chg, otherwise\r\n\t\ttrnfr chgr to remaining bats.\r\n\t\tAfter remaining bats are charged,\r\n\t\treturn chgr to affected bat.\r\n\r\n\r\n\tDC VOLTS ind - 37.5-39.5 vdc\r\n\tBAT CHG - OFF (at MSFN request or when DC\r\n\t\tVOLTS ind reads 39.5 vdc for bat bus A,\r\n\t\tB or bat C)\r\n\r\nPanel 5:\r\n\tcb BAT RLY BUS BAT A (B) - close\r\n\r\nPanel 3:\r\n\tDC IND sel - MNA\r\n\r\nPanel 101:\r\n\tSYS TEST (2) - 7A\r\n\t\tSYS TEST ind - <1.5 vdc\r\n\t\t(After sea level amb press ≈14 psia\r\n\t\t\thas been vented)\r\n\r\n\t\tIf >1.5 vdc\r\nPanel 252:\r\n\tBAT VENT vlv - VENT (for 5 sec)\r\n\t\tthen CLOSE\r\n\r\n\r\nPanel 101:\r\n\tSYS TEST (2) - 5B\r\n\r\n\t\t",
-  "Steps": [],
+  "AutoGenerate": false,
+  "checklistText": "\t\tBattery Charging\r BAT A(B,C)\n\n\nThe battery you want to charge needs to be decoupled from the main bus. This checklist will decouple all three batteries but configure this to your need:\n* If you want to charge battery A:\n*  MAIN BUS TIE BAT A/C needs the be OFF.\n* If you want to charge battery B:\n*  MAIN BUS TIE BAT B/C needs the be OFF. \n* If you want to charge battery C:\n*  MAIN BUS TIE BAT A/C and MAIN BUS TIE BAT B/C needs to be OFF.\r\n\nPanel 5:\r\n\tMN BUS TIE A/C (B/C) - OFF\r\n\r\nPanel 250:\r\n\tcb PYRO A & B BAT BUS A & B (2) - open\r\n\tcb BAT C TO BAT BUS A & B - open\r\n\r\nPanel 5:\r\n\tcb BAT RLY BUS BAT A (B) - open\r\n\r\nPanel 3:\r\n\tDC IND sel - BAT CHGR\r\n\tBAT CHG - A (B, C\r)\n\t\tDC VOLTS ind - 37.5-39.5 vdc\r\n\tBAT CHG - OFF (at DC\r VOLTS ind reads 39.5 vdc)\r\n\r\nPanel 5:\r\n\tcb BAT RLY BUS BAT A (B) - close\rd\n\r\nPanel 3:\r\n\tDC IND sel - MNA\r\n\r\nPanel 101:\r\n\tSYS TEST (2) - 7A\r (BAT COMPT PRESS)\n\t\tSYS TEST ind - <1.5 vdc\r\n\t\t(After sea level amb press ≈14 psia\r\n\t\t\thas been vented)\r\n\r\n\t\tIf >1.5 vdc\r\nPanel 252:\r\n\t\t\tBAT VENT vlv - VENT (for 5 sec)\r\n\t\t\t\tthen CLOSE\r\n\r\nPanel 101:\r\n\tSYS TEST (2) - 5B\r (monitors battery relay bus voltage)\n\r\n\t\t",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieAC to Down (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*If charge bat B, Main Bus Tie B/C - OFF instead",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 149,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroA_BatBusAToPyroBusTie to Open (2/149)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 151,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroB_BatBusBToPyroBusTie to Open (2/151)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 156,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BatCToBatBusA to Open (2/156)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 157,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BatCToBatBusB to Open (2/157)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 113,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BatteryRelayBus_BatA to Open (2/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*If charge bat B, BAT RLY BUS BAT B - open instead",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 7 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 17,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ChargeBatterySelector to position 1 (3/17)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*If charge bat B, BATTERY CHARGE - B instead",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DC AMPs ind - 0-3 amps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When DC VOLTS ind - 37.5-39.5 vdc:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 17,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ChargeBatterySelector to position 0 (3/17)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BatteryRelayBus_BatA to Closed (2/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*If charge bat B, BAT RLY BUS BAT B - closed instead",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 3 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 7 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 0 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If SYS TEST ind - <1.5 vdc: press CLEAR to exit checklist",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If SYS TEST ind - >1.5 vdc:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 69,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P252_BatteryVent to position 1 (3/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VENT for 5 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 69,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P252_BatteryVent to position 0 (3/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify SYS TEST 7A <1.5 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 5 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 1 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify SYS TEST ind - >3 (BAT RLY BUS vdc)",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

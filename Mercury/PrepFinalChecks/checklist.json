@@ -5,6 +5,7 @@
   "Name": "Final Checks (T-5)",
   "Side": 0,
   "SortPriority": 40,
+  "AutoGenerate": false,
   "checklistText": "<size=22>FINAL CHECKS</size>\n(Approx. T-5 to T-0)\n\n1. Launch Control switch \t\t- READY\n2. Suit Temp \t\t\t\t\t- TO MARK\n3. Cabin Temp \t\t\t\t\t- TO MARK\n4. Inverter Temp \t\t\t\t- TO MARK\n5. Transmit \t\t\t\t\t\t- UHF\n6. Perform Radio Check on UHF\n7. Verify Time Zero Button \t\t- COVER REMOVED\n\tWARNING: Do not depress the time zero button\n8. DC Volts knob \t\t\t\t- 1\n9. Squib switch\t\t\t\t\t- ARM\n10. Auto Retro Jett switch\t\t- ARM\n\n<size=20>At T-30 Seconds:</size>\n\tStart ASCENT Checklist",
   "Steps": [
     {
@@ -12,70 +13,88 @@
       "Type": 1,
       "SetID": 3,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set LaunchControl to Left (1/3)"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SuitTemp to position 2 (3/5)"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set CabinTemp to position 2 (3/4)"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set InverterTemp to position 2 (3/6)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 24,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set Transmit to Right (1/24)"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform Radio Test on UHF"
+      "Text": "Perform Radio Test on UHF",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify Time Zero Button - COVER REMOVED"
+      "Text": "Verify Time Zero Button - COVER REMOVED",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 1,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set DCSelector to position 1 (3/1)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 15,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ArmSquib to Left (1/15)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 18,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRetroJett to Left (1/18)"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At T-30 seconds: ASCENT Checklist",
+      "Description": "Manual step"
     }
   ],
   "Images": []

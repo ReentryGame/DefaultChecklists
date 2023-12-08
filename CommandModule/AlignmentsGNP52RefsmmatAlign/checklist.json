@@ -5,6 +5,7 @@
   "Name": "P52 AID: REFSMMAT",
   "Side": 1,
   "SortPriority": 41401023,
+  "AutoGenerate": false,
   "checklistText": "This is a helper checklist, and contains the RUN feature to perform the IMU realignment of the REFSMMAT using P52, option 3.\n\nYou will still use the (P52) IMU REALIGN checklist, but the RUN feature of this checklist to guide you through the correct path of the complex checklist.\n\nWhen running P52, you will enter code +00003 (REFSMMAT option).\nThen you will MARK two sightings.\n\nTo enter the SCT or the SXT, press the respective scope. You can change in scope view too using the small arrow next to the current scope title.\n\nV51 means that the AGC is waiting for a mark. Enter the scope, use CTRL+Arrow keys to move the scope. Center a target in the SXT (use SCT for searching, then SXT to perform the mark) and press MARK.\n\nYou can choose the mark yourself, even if the AGC/N70 shows another star ID. If the star you marks differ from the suggested ID, simply change N71 when it shows to the correct star with V21E+000XX where XX is the star ID.\n\nWhen two marks are complete, the difference will show. This is the angular difference between your marks and the known angular difference between the two marks. This should be less than 0.03 degrees (00003). If above, redo the procedure.\n\n\n\n\n\n",
   "Steps": [
     {
@@ -12,364 +13,440 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify CMC is on"
+      "Text": "Verify CMC is on",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify ISS is on & orientation known (NO ATT lt on CMC is out)"
+      "Text": "Verify ISS is on & orientation known (NO ATT lt on CMC is out)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 246,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LogicPower23 to Up (1/246)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 38,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Up (1/38)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify optics is on"
+      "Text": "Verify optics is on",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 1,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 8,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC3 (4/8)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC7 (4/12)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 10,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC5 (4/10)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC2 (4/7)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait for N06"
+      "Text": "Wait for N06",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 1,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC2 (4/7)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC2 (4/7)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify VERB is 22"
+      "Text": "Verify VERB is 22",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 3,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPluss (4/3)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 5,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 5,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 5,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 5,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC0 (4/5)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 8,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGC3 (4/8)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify R2 is set to +00003"
+      "Text": "Verify R2 is set to +00003",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify V50 N25 with checklist code 15."
+      "Text": "Verify V50 N25 with checklist code 15.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 273,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_OpticsMode to Down (1/273)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Click on SCT scope to enter SCT viewing, observe visual and EXIT the SCT view."
+      "Text": "Click on SCT scope to enter SCT viewing, observe visual and EXIT the SCT view.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 273,
-      "ToPosID": 2,
-      "Text": null
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P122_OpticsMode to Down (1/273)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 277,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_TelescopeTrunnion to Up (1/277)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 275,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_ControllerCoupling to Up (1/275)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Accept or modify N70 (planned star to mark)"
+      "Text": "Accept or modify N70 (planned star to mark)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "V51 flashing. Enter SCT, center the star and MARK."
+      "Text": "V51 flashing. Enter SCT, center the star and MARK.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify V50 N25 with code 16 flashing."
+      "Text": "Verify V50 N25 with code 16 flashing.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Accept or modify marked star ID (V21, +000XX)"
+      "Text": "Accept or modify marked star ID (V21, +000XX)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "N70 shows next star to mark. Accept: PRO, change: V21E PRO"
+      "Text": "N70 shows next star to mark. Accept: PRO, change: V21E PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "V15 flashing. Perform next MARK."
+      "Text": "V15 flashing. Perform next MARK.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify N50 V25 Code 16"
+      "Text": "Verify N50 V25 Code 16",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "N71, accept marked star: PRO, change: V21E+000XXE PRO"
+      "Text": "N71, accept marked star: PRO, change: V21E+000XXE PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "N05, angle diff. Accept: PRO"
+      "Text": "N05, angle diff. Accept: PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When V50 N25 R1=00014:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCEntr (4/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Complete",
+      "Description": "Manual step"
     }
   ],
   "Images": []
