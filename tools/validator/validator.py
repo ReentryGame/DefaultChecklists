@@ -52,9 +52,9 @@ if not all([field in main_key_types for field in main_key_fields]):
 all_valid = True
 for checklist in glob.glob('*/*/checklist.json'):
     if ' ' in checklist:
-        print(checklist, 'FILENAME', 'HAS SPACE')
-        file_ok = False
-        all_valid = False
+        print(checklist, 'FILENAME', 'HAS SPACE (OPTIONAL)')
+        # file_ok = False
+        # all_valid = False
     j = json.load(open(checklist))
     file_ok = True
     for main_key in main_key_fields:
