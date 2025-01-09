@@ -1,0 +1,13 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item18",
+  "Group": "INSERTION",
+  "Name": "GDC ALIGN",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 180,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n18) GDC ALIGN",
+  "Steps": [],
+  "Images": []
+}

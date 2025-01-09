@@ -1,0 +1,94 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "PDRS_RMSDeactivation",
+  "Group": "PDRS",
+  "Name": "RMS DEACTIVATION",
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 315,
+  "AutoGenerate": true,
+  "checklistText": "<b>RMS DEACTIVATION</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1. RMS POWER OFF",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11702,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set A8_RMSPower to Middle (1/11702)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11717,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterPortB to Down (1/11717)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11716,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterPortA to Down (1/11716)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11715,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterStbdB to Down (1/11715)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11714,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterStbdA to Down (1/11714)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2. ORBITER/PDRS AC PWRDN",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 20300,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set MA73C_RMSPrimary_AC1 to Open (2/20300)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 20301,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set MA73C_RMSBackup_AC2 to Open (2/20301)"
+    }
+  ],
+  "Images": []
+}

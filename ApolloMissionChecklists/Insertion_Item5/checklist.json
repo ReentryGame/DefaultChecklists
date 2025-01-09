@@ -1,0 +1,110 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item5",
+  "Group": "INSERTION",
+  "Name": "SM RCS CHECK [5]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 50,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n5) SM RCS MONITORING CHECK\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS PRPLNT tb (8) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS He 1 & 2 tb (8) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 2 (3/6)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS IND sel - SM A, B, C, D",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PKG TEMP - 115° - 117° F (C/W 75°-205°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He PRESS - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MANF PRESS - 192-207 psia (C/W 145-215 psia)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 101,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Up (1/101)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He TK TEMP - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 101,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Down (1/101)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PRPLNT QTY - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Repeat for SM B, C and D",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

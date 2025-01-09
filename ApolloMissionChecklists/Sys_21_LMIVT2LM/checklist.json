@@ -1,0 +1,190 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_21_LMIVT2LM",
+  "Group": "SYS: 2-LM INTERFACE",
+  "Name": "IVT TO LM (CHECKOUT, TLC)",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 1000,
+  "AutoGenerate": true,
+  "checklistText": "CSM SYSTEMS\n\n2 - LM INTERFACE\n\n1 - IVT TO LM (CHECKOUT, TLC)",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set LM_CM_PSI_DiffSelector to position 2 (3/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 242,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TunnelLights to Up (1/242)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Equalize CM/TUNL pressure",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify LM/CM ΔP < P < .02",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Remove hatch & stow",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP Transfer to LM [F4]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At LM request:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 243,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set LMPower to Down (1/243)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 243,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set LMPower to Middle (1/243)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 4 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 3 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST ind - 0 volts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AT LM request:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 243,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set LMPower to Up (1/243)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST - 4D",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST ind - 0.5-3.2 volts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP Transfer to CSM:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Close hatch",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set LM_CM_PSI_DiffSelector to position 2 (3/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 242,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TunnelLights to Down (1/242)"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,158 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item17",
+  "Group": "INSERTION",
+  "Name": "SPS MON CHECK [17]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 170,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n17) SPS MONITORING CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS PRPLNT TK TEMP ind -  +45 to +75° F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "* IF<45°F, SPS LINE HTRS - A",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "* IF>75°F, SPS LINE HTRS - off (ctr)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSPSIInd to Up (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS PRPLNT TK PRESS ind:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    He 3900 psia max",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSPSIInd to Middle (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    N2A 2900 psia max",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SPSPSIInd to Down (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    N2B 2900 psia max",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSPSIInd to Up (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FUEL & OXID PRESS int - 170 to 195 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS ENG INJ VLVS (4) - CLOSE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS OXID, FUEL & UNBAL QTY - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 139,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSOxidPrimAux to Up (1/139)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 133,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSHeVlv1 to Up (1/133)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 134,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSHeVlv2 to Up (1/134)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS He VLV (1&2) tb - bp",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

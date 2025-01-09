@@ -1,0 +1,38 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item8",
+  "Group": "INSERTION",
+  "Name": "POST INSERTION [8]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 80,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n8) ",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CMP to LEB for MN REG CHECK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 53,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P304_DrinkingWaterSupply to position 0 (3/53)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 204,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P226_LightningCoasTunnelRndzSpotMNB to Closed (2/204)"
+    }
+  ],
+  "Images": []
+}

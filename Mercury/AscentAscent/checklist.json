@@ -6,7 +6,7 @@
   "Side": 0,
   "SortPriority": 50,
   "AutoGenerate": false,
-  "checklistText": "<size=22>ASCENT</size>\n\n1. Monitor Abort Light\n2. Monitor Isolated Battery Voltage\n3. Monitor Cabin Pressure\n    a. Will go from 15 to 5.5\n4. Monitor DC Voltage\n5. Monitor DC Ammeter\n6. Monitor AC Voltage\n\n<size=20>At Engine Cutoff:</size>\n\tIf Redstone Rocket Launch:\n\t\tStart REDSTONE Ascent Checklist\n\tIf Atlas Rocket Launch:\n\t\tStart BECO Checklist",
+  "checklistText": "<size=22>ASCENT</size>\n\n1. Monitor Abort Light\n2. Monitor Isolated Battery Voltage\n3. Monitor Cabin Pressure\n    a. Will go from 15 to 5.5\n4. Monitor DC Voltage\n5. Monitor DC Ammeter\n6. Monitor AC Voltage\n\n<size=20>If Atlas:</size>\n\tOn Booster Sep:\n\t\tStart Ascent -> BECO checklist\n\n<size=20>If Redstone:</size>\n\tOn Engine Cutoff:\n\t\tStart Ascent -> REDSTONE checklist",
   "Steps": [
     {
       "Program": 3,
@@ -53,7 +53,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Engine Cutoff:",
+      "Text": "If Atlas:",
       "Description": "Manual step"
     },
     {
@@ -61,7 +61,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  If REDSTONE: Start REDSTONE Ascent Checklist",
+      "Text": "  On booster sep: Start BECO checklist",
       "Description": "Manual step"
     },
     {
@@ -69,7 +69,23 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  If ATLAS: Start ATLAS Ascent Checklist",
+      "Text": "If Redstone",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  On Engine Cutoff:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 3,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    If REDSTONE: Start REDSTONE Checklist",
       "Description": "Manual step"
     }
   ],

@@ -1,0 +1,70 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item31",
+  "Group": "INSERTION",
+  "Name": "POST INSERTION [31]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 310,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n31)",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmA to Closed (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmB to Closed (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MSFN confirm GO for PYRO ARM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    }
+  ],
+  "Images": []
+}

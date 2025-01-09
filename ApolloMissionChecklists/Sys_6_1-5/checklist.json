@@ -1,0 +1,470 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_6_1-5",
+  "Group": "SYS: 6-EMER",
+  "Name": "EMER PWR DN",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 2000,
+  "AutoGenerate": true,
+  "checklistText": "EMER 1 - 5\n\nEMERGENCY POWER DOWN",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 25,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Htr1 to Middle (1/25)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 26,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Htr2 to Middle (1/26)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Fan1 to Middle (1/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Fan2 to Middle (1/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Htr1 to Middle (1/23)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Htr2 to Middle (1/24)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Fan1 to Middle (1/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Fan2 to Middle (1/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Down (1/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 176,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PotH2OHtr to Middle (1/176)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 191,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RadiatorHeaterPrimary to Middle (1/191)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 192,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set RadiatorHeaterSecondary to Down (1/192)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 136,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSLineHtrs to Middle (1/136)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 249,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSGauging to Middle (1/249)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsPitch2 to Down (1/119)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsYaw2 to Down (1/121)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 253,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch1BatA to Open (2/253)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 255,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw1BatA to Open (2/255)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 122,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCGimbalDrivePitch to Up (1/122)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 123,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCGimbalDriveYaw to Up (1/123)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 252,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SuitCompressor1 to Middle (1/252)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 253,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SuitCompressor2 to Middle (1/253)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If MA - reset",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 184,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FuelCellPumpA to Middle (1/184)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 185,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FuelCellPumpB to Middle (1/185)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 186,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FuelCellPumpC to Middle (1/186)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 102,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SM_RCS_Heater_A to Middle (1/102)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 103,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SM_RCS_Heater_B to Middle (1/103)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 104,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SM_RCS_Heater_C to Middle (1/104)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 105,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SM_RCS_Heater_D to Middle (1/105)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 14,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BMAGPWR2 to position 1 (3/14)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LIGHTS - MIN REQD",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 232,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqB_PlayMode to Middle (1/232)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 16,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PrimaryRCSGlycolPumps to position 2 (3/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC COOL EVAP - RESET (58 SEC), THEN OFF",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SecCoolPumpAC to Middle (1/180)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CMC POWERDOWN",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 39,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set GnNIMUPWR to Down (1/39)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V48E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  F V04 N46 LOAD 0 (NO DAP) IN LEFT DIGIT OF R1",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PRO, PRO, PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V46E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E06E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  F V50 N26, 00062 CMC PWR DN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PRO (STBY LT ON)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set GNLightACPWR to Middle (1/52)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 234,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqB_PwrSCE to Middle (1/234)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 149,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CW_Mode to Down (1/149)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 226,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqA_VHFAmA to Middle (1/226)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 227,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqA_VHFAmB to Middle (1/227)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 212,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set HighGainServoPwr to Down (1/212)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 250,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TelecomGroup1 to Middle (1/250)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 251,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TelecomGroup2 to Middle (1/251)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 257,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P5_Inst_EssMNA to Open (2/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 258,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P5_Inst_EssMNB to Open (2/258)"
+    }
+  ],
+  "Images": []
+}

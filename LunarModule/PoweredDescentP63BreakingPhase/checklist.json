@@ -12,441 +12,624 @@
       "Type": 1,
       "SetID": 50,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Up (1/50)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 71,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 67,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 72,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_ModeSel to Down (1/72)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 75,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 74,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_RateErrMon to Down (1/74)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 124,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_CDR_ACA to Up (1/124)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 126,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_LMP_ACA to Up (1/126)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 125,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_CDR_TTCA to Up (1/125)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 127,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_LMP_TTCA to Up (1/127)"
     },
     {
       "Program": 1,
       "Type": 3,
       "SetID": 38,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 0 (3/38)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 37,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Up (1/37)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 77,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_ACAProp to Up (1/77)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ThrCont_ThrCont to Up (1/58)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 59,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ManThrot to Up (1/59)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 81,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_LandingAnt to Up (1/81)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 2,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push P05_StartEngine (4/2)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 4,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 56,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_DesEngCmdOvrd to Down (1/56)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 57,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_EngGmbl to Up (1/57)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 61,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_BalCpl to Up (1/61)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 54,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_DescentHeReg1 to Up (1/54)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 55,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_DescentHeReg2 to Up (1/55)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 62,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_DeadBand to Down (1/62)"
     },
     {
       "Program": 1,
       "Type": 2,
       "SetID": 131,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P11_StabCont_AELD to Closed (2/131)"
     },
     {
       "Program": 1,
       "Type": 2,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P16_StabCont_AELD to Closed (2/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Request PDI",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 14,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC3 (4/14)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 17,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC6 (4/17)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 14,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC3 (4/14)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL 06 61 TG -XXBXX min-sec, TFI XXBXX min-sec, Range +/-XXXX.X nm",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 72,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_ModeSel to Middle (1/72)"
     },
     {
       "Program": 1,
-      "Type": 1,
-      "SetID": 68,
-      "ToPosID": 4,
-      "Text": null
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL 50 18  perform maneuver",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL 16 18  maneuver Roll XXX.XX°, Pitch XXX.XX°, Yaw XXX.XX°",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 13,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC2 (4/13)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 13,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC2 (4/13)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 9,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCPlus (4/9)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC1 (4/12)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC1 (4/12)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 11,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC0 (4/11)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 11,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC0 (4/11)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 11,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC0 (4/11)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL 06 62 VI XXXX.X fps, TFI XXBXX min-sec, ΔVm XXXX.X fps\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 72,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_ModeSel to Middle (1/72)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ThrCont_ThrCont to Up (1/58)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Middle (1/65)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 67,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Middle (1/67)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DSKY blanks from TIG -35 seconds til TIG -30 seconds",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Down (1/60)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 41,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P08_MasterArm to Up (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TFI -00B05  FL 99 62 - confirm burn with PRO, reject ENG ARM sw - OFF, V34E, V37E00E",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor ENG THRUST ind - 10% until TIG+26 seconds, then 100%",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 56,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_DesEngCmdOvrd to Up (1/56)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At approximately H = 40.000 ft, ALT & VEL warning lights extingushes",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ModeSel to Up (1/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC5 (4/16)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor Cue Card, proceed to P64",
+      "Description": "Manual step"
     }
   ],
   "Images": [

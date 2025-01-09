@@ -1,0 +1,141 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "insertionConfigForPlbdOps",
+  "Group": "POST INSERTION",
+  "Name": "CONFIG FOR PLBD OPERATIONS",
+  "Side": 0,
+  "SortPriority": 308,
+  "AutoGenerate": true,
+  "checklistText": "<b>CONFIG FOR PLBD OPERATIONS</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11506,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_AnnunciatorBusSelect to Down (1/11506)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NOTE\\nMinimum operating time for PLB Floodlights is 10 min. \\nLight must be OFF for minimum of 10 min UNBLOCKED\\n16 min BLOCKED prior to reuse. ~3 min to full bright.",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11601,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_AftStbd to Down (1/11601)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11602,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_AftPort to Down (1/11602)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11603,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_MidStbd to Up (1/11603)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11604,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_MidPort to Up (1/11604)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11605,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_FwdStbd to Up (1/11605)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11606,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_FwdPort to Up (1/11606)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11608,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_FwdBHD to Up (1/11608)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record MET: ____/___:___:___",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*  If PLB Floodlight not ON to full bright within 5 min: *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*    (Aff) PL BAY FLOOD - OFF *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET UP P/TV:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform ACTIVATION, OPERATION (skip for now)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "COMPLETE CHECKLIST: MNVR TO PLBD OPENING ATT",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

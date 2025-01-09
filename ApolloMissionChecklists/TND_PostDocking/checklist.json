@@ -1,0 +1,118 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_PostDocking",
+  "Group": "T&D",
+  "Name": "POST DOCKING [5]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 650,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n5) POST DOCKING",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttRate to Up (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttDeadband to Up (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "COAS - off",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RCSLogicMNA to Open (2/50)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RCSLogicMNB to Open (2/51)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCServo1 to Middle (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 243,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set LMPower to Middle (1/243)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 242,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TunnelLights to Up (1/242)"
+    }
+  ],
+  "Images": []
+}

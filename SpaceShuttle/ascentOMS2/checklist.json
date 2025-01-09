@@ -1,0 +1,677 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "ascentOMS2",
+  "Group": "ASCENT",
+  "Name": "OMS 2 BURN",
+  "Side": 0,
+  "SortPriority": 250,
+  "AutoGenerate": true,
+  "checklistText": "<b>OMS 2 BURN</b>\nRequired:\n- Complete Post OMS 1 burn procedures\n\n<u>LOAD TGT DATA</u>\nBurn planner: Schedule a prograde burn to circularize (raise Pe) at Ap.\n\nSelect TIG – ITEM 10 + __ / __ : __ : __ \nLoad TGT PEG7\n\t∆Vx – ITEM 19\n\t∆Vy – ITEM 20\n\t∆Vz – ITEM 21\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Plan OMS 2 burn and insert targets to OPS 105",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1  LOAD – ITEM 22 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1  TIMER – ITEM 23 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>MPS ISOL</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NOTE: Expect multiple MAs for MPS He P as regs bleed down",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7147,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_LeftA to Middle (1/7147)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_CenterA to Middle (1/7145)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7149,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_RightA to Middle (1/7149)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7148,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_LeftB to Middle (1/7148)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7146,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_CenterB to Middle (1/7146)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7150,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_RightB to Middle (1/7150)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7151,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_Pneumatic to Middle (1/7151)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7153,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeInterconnectLeft to Middle (1/7153)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7154,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeInterconnectCtr to Middle (1/7154)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7155,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HeInterconnectRight to Middle (1/7155)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>MPS GH2 INERTING</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7314,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R4_H2PressLineVent to Up (1/7314)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 1 min (start watch):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7314,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R4_H2PressLineVent to Middle (1/7314)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>MPS PWRDN</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7106,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_EnginePower_Left_AC2 to Down (1/7106)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_EnginePower_Left_AC3 to Down (1/7107)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7108,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_EnginePower_Center_AC1 to Down (1/7108)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7109,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_EnginePower_Center_AC2 to Down (1/7109)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7110,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_EnginePower_Right_AC3 to Down (1/7110)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7111,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_EnginePower_Right_AC1 to Down (1/7111)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>ET UMBILICAL DOOR CLOSURE</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WARNING\\nET CTRLINE LATCHES must be stowed prior to L,R DR closure to prevent door drive damage.",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NOTE\\nDouble times for single motor operation",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7138,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_Mode to Down (1/7138)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7139,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_Centerline to Down (1/7139)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 6 sec, √CTRLINE LAT tb – STO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7139,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_Centerline to Up (1/7139)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7140,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_LeftDoor to Down (1/7140)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7142,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_RightDoor to Down (1/7142)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 24 sec, √L,R DR tb (two) – CL",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7141,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_LeftLatch to Down (1/7141)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7143,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_RightLatch to Down (1/7143)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 6 sec, √L,R LAT tb (two) – LAT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7140,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_LeftDoor to Middle (1/7140)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7142,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_RightDoor to Middle (1/7142)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7141,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_LeftLatch to Middle (1/7141)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7143,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_RightLatch to Middle (1/7143)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7138,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_UmbilicalDoor_Mode to Up (1/7138)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>OMS BURN PREP</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "* For single eng burn/No PROP  *\\n*  failures:                   *\\n*   XFEED failed eng PROP to   *\\n*   good eng                   *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9709,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveA to Middle (1/9709)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9711,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveA to Middle (1/9711)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9710,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveB to Down (1/9710)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9712,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveB to Down (1/9712)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9713,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveA to Middle (1/9713)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9715,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveA to Middle (1/9715)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9714,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveB to Middle (1/9714)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9716,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveB to Middle (1/9716)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9717,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedA to Middle (1/9717)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9719,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedA to Middle (1/9719)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9718,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedB to Middle (1/9718)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9720,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedB to Middle (1/9720)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>OMS 2 BURN ATTITUDE MNVR</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1500,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_AttitudeSelect to Up (1/1500)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1700,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_AttitudeSelect to Up (1/1700)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1502,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set F6_ADIRateScale to Down (1/1502)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1702,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set F8_ADIRateScale to Down (1/1702)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1:  MNVR – ITEM 27 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG -4:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1503,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_FlightControllerPower to Up (1/1503)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1703,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_FlightControllerPower to Up (1/1703)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG -2:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5200,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_LeftOMSEngControl to Middle (1/5200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5201,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_RightOMSEngControl to Middle (1/5201)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG -:15  EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG 0:00: Start watch (√Pc, ∆VTOT, ENG VLVs)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CUTOFF, go to POST OMS 2 checklist",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

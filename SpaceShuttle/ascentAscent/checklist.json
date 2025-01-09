@@ -1,0 +1,269 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "ascentAscent",
+  "Group": "ASCENT",
+  "Name": "Ascent",
+  "Side": 0,
+  "SortPriority": 200,
+  "AutoGenerate": true,
+  "checklistText": "The ascent procedures",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>ASCENT PROCEDURES</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": ".84M    √Pc → 72%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1.17M    √Pc → 104%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Pc < 50+5 s  √SRB SEP (Backup AUTO SEP 2:21)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√TMECO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MM103",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3:00  √EVAP OUT (T < 60)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MECO  √VI=25819",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MECO+20 s  √ET SEP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*  IF 'SEP INH'",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*    ET SEP – MAN",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*    If Rates > .7,.7,.7:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*      MPS PRPLT DUMP SEQ - STOP",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*      Null rates",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*      ET SEP - SEP",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*      Post ET Sep -Z xlation:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*        MPS PRPLT DUMP SEQ – GPC",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*    If Rates < .7,.7,.7:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*      Assume Feedline Fail ",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*      If VI < 25760:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*        OPS 104 – PRO (√BFS 104)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key 1: OPS 104 (if not auto)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>MM104+2 s</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If ET Sep complete and HA > 72:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  +X xlation for 11 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√TGTS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√ASC PKT for failures",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  If OMS 1 not reqd:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5200,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C3_LeftOMSEngControl to Down (1/5200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5201,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C3_RightOMSEngControl to Down (1/5201)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Go to POST OMS 1",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

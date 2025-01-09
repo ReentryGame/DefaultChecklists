@@ -6,7 +6,144 @@
   "Side": 0,
   "SortPriority": 205,
   "AutoGenerate": false,
-  "checklistText": "LANDING CONFIRMATION PROGRAM (P68)\r\n\r\n1.\tIf not yet done, key V37E 68E\r\n\r\n2.\tFL V06 N43 - LM landing position\r\n\t\tR1 Latitude\t\tXXX.XX°\r\n\t\tR2 Longitude\tXXX.XX°\r\n\t\tR3 Altitude\t\tXXXX.X nm\r\n\r\n\tRecord LM landing position data.\r\n\r\n\tKey PRO\r\n\tP00 automatically started\r\n\r\nPanel 1:\r\n3.\tDES ENG CMD OVRD sw - OFF\r\n",
-  "Steps": [],
+  "checklistText": "LANDING CONFIRMATION PROGRAM (P68)\r\n\r\n1.\tIf not yet done, key V37E 68E\r\n\r\n2.\tFL V06 N43 - LM landing position\r\n\t\tR1 Latitude\t\tXXX.XX°\r\n\t\tR2 Longitude\tXXX.XX°\r\n\t\tR3 Altitude\t\tXXXX.X nm\r\n\r\n\tRecord LM landing position data.\r\n\r\n\tKey PRO\r\n\tGo to P00\r\n\r\nPanel 1:\r\n3.\tDES ENG CMD OVRD sw - OFF\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 14,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC3 (4/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 17,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC6 (4/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 19,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC8 (4/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL 06 43 - LM landing position: lat XXX.XX°, lon XXX.XX°, alt XXXX.X nm",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 14,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC3 (4/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC0 (4/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC0 (4/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_DesEngCmdOvrd to Down (1/56)"
+    }
+  ],
   "Images": []
 }

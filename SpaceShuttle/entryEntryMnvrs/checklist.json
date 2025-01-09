@@ -1,0 +1,35 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryEntryMnvrs",
+  "Group": "ENTRY",
+  "Name": "ENTRY MANEUVERS",
+  "Side": 0,
+  "SortPriority": 680,
+  "AutoGenerate": true,
+  "checklistText": "<b>EI-5 - ENTRY MANEUVERS</b>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "Steps": [],
+  "Images": [
+    {
+      "Name": "1.png",
+      "Position": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "Size": {
+        "x": 578.0,
+        "y": 671.0
+      }
+    },
+    {
+      "Name": "2.png",
+      "Position": {
+        "x": 0.0,
+        "y": 700.0
+      },
+      "Size": {
+        "x": 584.0,
+        "y": 862.0
+      }
+    }
+  ]
+}

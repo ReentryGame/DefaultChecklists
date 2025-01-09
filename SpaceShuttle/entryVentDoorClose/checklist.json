@@ -1,0 +1,77 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryVentDoorClose",
+  "Group": "ENTRY",
+  "Name": "VENT DOOR CLOSE",
+  "Side": 0,
+  "SortPriority": 625,
+  "AutoGenerate": true,
+  "checklistText": "<b>VENT DOOR CLOSE</b>\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2: GNC 51 OVERRIDE ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VENT DOOR CNTL CLOSE – ITEM 44",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "EXEC (*), wait 1 min, then ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RESUME",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1: GNC, OPS 302 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1: GNC DEORB MNVR EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2: GNC DEORB MNVR EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3: BFS, GNC DEORB MNVR EXEC",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

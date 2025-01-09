@@ -6,6 +6,95 @@
   "Side": 1,
   "SortPriority": 1301,
   "checklistText": "<size=21>MPS BASIC (Unstaged)</size>\r\n\r\nPanel 11: \r\n1.\tCB/AC BUS B: He/PQGS PROPUL DISP - close\r\n\tCB PROPUL: DES He REG/VENT - close\r\n\r\nPanel 16:\r\n2.\tCB PROPUL:\r\n\t\tDISP/ENG OVRD LOGIC - close\r\n\t\tPQGS - close\r\n\t\tASC He REG - close\r\n\r\nPanel 1:\r\n3.\tPRPLNT QTY MON sw - OFF\r\n\tHELIUM MON sel - SUPCRIT PRESS\r\n\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\tDES He REG 1 tb - gray\r\n\tDES He REG 2 tb - bp\r\n\tASC He REG 1 tb - gray\r\n\tASC He REG 2 tb - gray\r\n\r\nPanel 8:\r\n4.\tDES PROPUL:\r\n\t\tFUEL VENT tb - bp\r\n\t\tOXID VENT tb - bp\n\r\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 89,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusB_HePQGS_PropDisp to Closed (2/89)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 121,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Prop_DESHeRegVent to Closed (2/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 38,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Propul_Disp to Closed (2/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 37,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Propul_PQGS to Closed (2/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 36,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Propul_ASCHe_Reg to Closed (2/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 50,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Down (1/50)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 2 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_DescentHeReg1 to Up (1/54)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_DescentHeReg2 to Down (1/55)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg1 to Up (1/52)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg2 to Up (1/53)"
+    }
+  ],
   "Images": []
 }

@@ -1,0 +1,245 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "ascentOMS1",
+  "Group": "ASCENT",
+  "Name": "OMS 1 BURN",
+  "Side": 0,
+  "SortPriority": 210,
+  "AutoGenerate": true,
+  "checklistText": "<b>OMS 1 BURN</b>\nOMS 1 BURN is requred if:\n- Insertion Pe < 60 nmi\n\n<u>OMS 1 TARGETING</u>\n\tIf TIG LATER THAN MECO + 6 min: \n\t\tMECO + 4 min:\n\t\t\tAPU shutdn (if time permits)\n\tIf 1 OMS ENG FAIL and VTOT > 500: \n\t\tBurn good OMS + THC +X at TIG\n\n<u>LOAD TGT DATA</u>\nBurn planner: Schedule a prograde burn to increase Ap to > 60 nmi\nSelect TIG – ITEM 10 + __ / __ : __ : __ \nLoad TGT PEG7\n\t∆Vx – ITEM 19\n\t∆Vy – ITEM 20\n\t∆Vz – ITEM 21\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DAP - AUTO/DISC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GNC OPS 104 PRO (OMS 1 MNVR EXEC)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LOAD TGTS and MNVR into OPS 104 (Use the Burn Planner)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ITEM 22 LOAD",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ITEM 23 TIMER",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9717,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedA to Up (1/9717)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9718,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedB to Up (1/9718)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9719,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedA to Up (1/9719)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9720,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedB to Up (1/9720)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1503,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_FlightControllerPower to Up (1/1503)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1703,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_FlightControllerPower to Up (1/1703)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5200,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_LeftOMSEngControl to Middle (1/5200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5201,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_RightOMSEngControl to Middle (1/5201)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -:15  EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T  :00  TIG; start watch (√Pc, ΔVTOT, ENG VLVs) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>CUTOFF</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+:02  ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5200,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C3_LeftOMSEngControl to Down (1/5200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5201,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C3_RightOMSEngControl to Down (1/5201)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Trim inplane X,Z residuals < 2 fps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9717,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedA to Down (1/9717)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9718,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedB to Down (1/9718)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9719,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedA to Down (1/9719)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9720,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedB to Down (1/9720)"
+    }
+  ],
+  "Images": []
+}

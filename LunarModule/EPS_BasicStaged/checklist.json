@@ -4,8 +4,240 @@
     "ProjectName": "EPS_BasicStaged",
     "Side": 1,
     "SortPriority": 1202,
-    "Spacecraft": 1,
-    "Steps": [],
+    "Spacecraft": 1,"Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 18,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_BatFeedTieA to Closed (2/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 19,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_BatFeedTieB to Closed (2/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 20,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_CrossTieBalLoad to Closed (2/20)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 21,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_CrossTieBus to Open (2/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_XLunarBusTie to Closed (2/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_DesECACont to Open (2/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_DesECA to Open (2/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_AscECACont to Open (2/25)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 26,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_AscECA to Closed (2/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Inv1 to Closed (2/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_DCBusVolt to Closed (2/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 12,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Disp to Closed (2/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_DCBusVolt to Closed (2/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inv2 to Closed (2/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 9,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_AscECA to Closed (2/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_AscECACont to Open (2/8)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 7,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_DesECA to Open (2/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_DesECACont to Open (2/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_XLunarBusTie to Closed (2/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_CrossTieBus to Open (2/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_CrossTieBalLoad to Open (2/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_BatFeedTieB to Closed (2/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_BatFeedTieA to Closed (2/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_Inverter to Up (1/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat5NormalLMPFeed to Up (1/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_AscentBat5BackupCDRFeed to Down (1/13)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat6NormalCDRFeed to Up (1/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_AscentBat6BackupLMPFeed to Down (1/15)"
+    }
+  ],
     "Images": [],
     "checklistText": "<size=21>EPS BASIC (Staged)</size>\r\n\r\n1.\tAll EPS cb's - close, except:\r\n\r\nPanel 11:\r\n\tCB EPS:\r\n\t\tCROSS TIE BUS - open\r\n\t\tDES ECA CONT - open\r\n\t\tDES ECA - open\r\n\t\tASC ECA CONT - open\r\n\r\n2.\tAll EPS cb's - close, except:\r\n\r\nPanel 16:\r\n\tCB EPS:\r\n\t\tDES ECA - open\r\n\t\tDES ECA CONT - open\r\n\t\tCROSS TIE BUS - open\r\n\t\tCROSS TIE BAL LOADS - open\r\n\t\tASC ECA CONT - open\r\n\r\nPanel 14:\r\n3.\tEPS:\r\n\t\tPOWER/TEMP MOW sel - CDR BUS\r\n\t\tINVERTER sw - 2\r\n\t\tLMP BAT 1 & 2 tb - bp\r\n\t\tCDR BAT 3 & 4 tb - bp\r\n\t\tDES BATS tb - bp\r\n\t\tLUNAR BAT tb - bp\r\n\t\tBAT 5 NORMAL LMP FEED tb - gray\r\n\t\tBAT 5 BACK UP CDR FEED tb - bp\r\n\t\tBAT 6 NORMAL CDR FEED tb - gray\r\n\t\tBAT 6 BACK UP LMP FEED tb - bp``"
 }

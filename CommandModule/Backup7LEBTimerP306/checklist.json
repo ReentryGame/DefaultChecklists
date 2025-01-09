@@ -3,8 +3,10 @@
   "ProjectName": "Backup7LEBTimerP306",
   "Group": "BACKUP CREW PRELAUNCH",
   "Name": "LEB & TIMER PANEL 306",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 48,
+  "AutoGenerate": false,
   "checklistText": "LEB & TIMER PANEL 306\r\n\r\nPanel 100:\r\n\tUTIL PWR – OFF\r\n\tFLOOD DIM – 1\r\n\tFLOOD FIXED – OFF\r\n\tG/N OPT PWR – OFF\r\n\tG/N IMU PWR - on (up)\r\n\tRNDZ XPNDR PWR – HTR\r\n\tNUMERICS LTS – as desired\r\n\tINTGL LTS – as desired\r\n\tFLOOD LTS – OFF (CCW)\r\nPanel 306:\r\n\tMSN TMR – RSET\r\n\t\tMSN TMR ind – zero\r\n\tMSN TMR – START\r\n\t\tMSN TMR ind – counting up (verify)\r\n\tEVNT TMR START – STOP, then ctr\r\n\tEVNT TMR RSET – RSET\r\nPanel 101:\r\n\tSYS TESt ind – 1.1-1.9 vdc\r\n\r\n\tSYS TEST (2) – 5B\r\n\tRNDZ XPNDR TEST – OPR\r\n\tCM RCS HTRS – OFF\r\n\tWASTE H2O DUMP – HTR A\r\n\tURINE DUMP – HTR A\r\n\r\n\t\t\tCAUTION\r\nPanel 122:\r\nOPT ZERO sw must not be moved\r\nduring prelaunch or inadvertent\r\njett of opt covers could occur.\r\n\tOPT ZERO – ZERO\r\n\tOPT TELTRUN – SLAVE TO SXT\r\n\tOPT MODE – MAN\r\n\tOPT COUPLING – DIR\r\n\tOPT SPEED – LO\r\n\tCOND LAMPS – ON\r\n\tUP TLM – ACPT\r\n\tRETCL BRT tw – as req\r\nPanel 163:\r\n\tSCI/UTIL PWR – OFF\r\nPanel 162:\r\n\tSCI PWR – OFF\r\n\r\nPanel 164:\r\n\tS1 – OFF\r\nPanel 181:\r\n\tCRYO AC PWR – on (up)\r\n\tH2 FAN – AUTO\r\n\tO2 FAN – AUTO\r\n\tSM/AC PWR – on (up)\r\n\tDOOR JETT – off (dow)\r\n\tLOGIC PWR – OFF\r\n\tcb pnl 181 – all closed\r\n\r\n\r\n\r\n\r\n\r\n",
   "Steps": [
     {
@@ -12,189 +14,216 @@
       "Type": 1,
       "SetID": 283,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P100_UtilityPower to Down (1/283)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 284,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P100_FloodDim to Up (1/284)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 285,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P100_FloodFixed to Down (1/285)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 38,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Down (1/38)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 39,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set GnNIMUPWR to Up (1/39)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 286,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P100_RendzTpndr to Down (1/286)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 11,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set FloodInside to position 0 (3/11)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 290,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P306_TM_Start to Down (1/290)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 290,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P306_TM_Start to Up (1/290)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 292,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P306_EventTimer_StartStop to Down (1/292)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 291,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P306_EventTimer_DirectionReset to Up (1/291)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 55,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 5 (3/55)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 56,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 1 (3/56)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 295,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_RndzXpndrTest to Down (1/295)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 157,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_RCS_Heaters to Down (1/157)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 269,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set WasteH2ODumpHtr to Up (1/269)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 270,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set UrineDumpHtr to Up (1/270)"
     },
     {
       "Program": 0,
       "Type": 1,
-      "SetID": 273,
-      "ToPosID": 5,
-      "Text": null
+      "SetID": 276,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_Tracker to Up (1/276)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 277,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_TelescopeTrunnion to Up (1/277)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 273,
-      "ToPosID": 2,
-      "Text": null
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P122_OpticsMode to Down (1/273)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 275,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_ControllerCoupling to Up (1/275)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 274,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_ControllerSpeed to Down (1/274)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 278,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_ConditionLamps to Up (1/278)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 279,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P122_OpticsUptlm to Up (1/279)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 308,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P163_SCIPower to Down (1/308)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 307,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P162_SCIPower to Down (1/307)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Skip P164 and 181. In Research,"
+      "Text": "Skip P164 and 181. In Research,",
+      "Description": "Manual step"
     }
   ],
   "Images": []

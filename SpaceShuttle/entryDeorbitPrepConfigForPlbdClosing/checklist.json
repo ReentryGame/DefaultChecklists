@@ -1,0 +1,157 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrepConfigForPlbdClosing",
+  "Group": "DEORBIT PREP",
+  "Name": "CONFIG FOR PLBD CLOSING",
+  "Side": 0,
+  "SortPriority": 518,
+  "AutoGenerate": true,
+  "checklistText": "<b>CONFIG FOR PLBD CLOSING</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CONFIG RMS/OBSS (if RMS/OBSS onboard)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "- √Elbow Camr in aligned position",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-      Pan 90° from X-axis",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-      Tilt per decal",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11702,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set A8_RMSPower to Middle (1/11702)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11716,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterPortA to Down (1/11716)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11717,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterPortB to Down (1/11717)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET UP LIGHTS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8000,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R11_IDP4Power to Up (1/8000)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 8100,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set R12_MDU_CRT4_Power to position 1 (3/8100)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11506,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_AnnunciatorBusSelect to Down (1/11506)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11601,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_AftStbd to Up (1/11601)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11602,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_AftPort to Up (1/11602)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11603,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_MidStbd to Up (1/11603)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11604,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_MidPort to Up (1/11604)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11605,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_FwdStbd to Up (1/11605)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11606,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_FwdPort to Up (1/11606)"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,341 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "insertionPostInsertion",
+  "Group": "POST INSERTION",
+  "Name": "Post Insertion",
+  "Side": 0,
+  "SortPriority": 300,
+  "AutoGenerate": true,
+  "checklistText": "<b>POST INSERTION</b>\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Config cbs:\\nL4:B,Q,R: All cbs closed",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3300,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_B_UtilityPowerAC1 to Closed (2/3300)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3301,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_B_UtilityPowerAC3 to Closed (2/3301)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3412,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Panel_L_CTR to Closed (2/3412)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3413,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Panel_L_Ovhd to Closed (2/3413)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3414,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_InstOS to Closed (2/3414)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3415,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Panel_R_Ovhd to Closed (2/3415)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3416,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Panel_R to Closed (2/3416)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3417,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_NumericOS to Closed (2/3417)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3418,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_COAS to Closed (2/3418)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3419,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Panel_MS to Closed (2/3419)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3420,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Panel_OS to Closed (2/3420)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3421,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Inst_R to Closed (2/3421)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3422,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Numeric to Closed (2/3422)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3423,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Inst_Ovhd to Closed (2/3423)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3424,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_Inst_L_Ctr to Closed (2/3424)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\\nL4:D,E: All cbs open",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3329,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Ctr_AC1A to Open (2/3329)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3330,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Ctr_AC1B to Open (2/3330)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3331,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Ctr_AC1C to Open (2/3331)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3332,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Ctr_AC2A to Open (2/3332)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3333,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Ctr_AC2B to Open (2/3333)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3334,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Ctr_AC2C to Open (2/3334)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3335,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Right_AC3A to Open (2/3335)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3336,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Right_AC3B to Open (2/3336)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3337,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Right_AC3C to Open (2/3337)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3338,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Right_AC1A to Open (2/3338)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3339,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Right_AC1B to Open (2/3339)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3340,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Right_AC1C to Open (2/3340)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3341,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Left_AC2A to Open (2/3341)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3342,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Left_AC2B to Open (2/3342)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3343,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Left_AC2C to Open (2/3343)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3344,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Left_AC3A to Open (2/3344)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3345,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Left_AC3B to Open (2/3345)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3346,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_Engine_Left_AC3C to Open (2/3346)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3377,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_SigCond_HumSep to Closed (2/3377)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "\\nL4:J:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3378,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L4_SigCond_IMUFan to Closed (2/3378)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 8313,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R14_AudioMidDeckSpeaker to Closed (2/8313)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>COMPLETE CHECKLIST: CONFIG GPCs FOR OPS 2 [1]</b>",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

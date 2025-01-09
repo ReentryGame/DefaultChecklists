@@ -1,0 +1,85 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entrySingleAPUStart",
+  "Group": "ENTRY",
+  "Name": "SINGLE APU START",
+  "Side": 0,
+  "SortPriority": 635,
+  "AutoGenerate": true,
+  "checklistText": "<b>SINGLE APU START</b>",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve1 to Up (1/7114)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7117,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUStartRun1 to Up (1/7117)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MDU, APU: ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√HYD PRESS ind – LO green",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7135,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump1 to Down (1/7135)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7136,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump2 to Down (1/7136)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7137,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump3 to Down (1/7137)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3: BFS, GNC SYS SUMM 2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√BURN ATT ± 5°",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,46 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item11",
+  "Group": "INSERTION",
+  "Name": "SEC RAD LEAK CHECK [11]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 110,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n11) SEC RAD LEAK CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor SEC ACCUM QUANTITY",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P377_GlyToRadSec to position 1 (3/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Keep in NORM for 30 sec, then",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P377_GlyToRadSec to position 0 (3/29)"
+    }
+  ],
+  "Images": []
+}

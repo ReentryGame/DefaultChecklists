@@ -1,0 +1,150 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item12",
+  "Group": "INSERTION",
+  "Name": "ECS PI CONFIG [12]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 120,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n12) ECS Post Insertion Config (+20:00)",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 63,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Bypass to position 0 (3/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 64,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Outlet to position 1 (3/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 62,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Inlet to position 1 (3/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY ACCUM QTY 25-50%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 32,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P379_PrimAccumFill to position 0 (3/32)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM ACCUM FILL vlv - ON until 50-55%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 32,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P379_PrimAccumFill to position 1 (3/32)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 188,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RadiatorFlowContPower to Up (1/188)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 167,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PrimaryGlycolToRadiators to Closed (2/167)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 191,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RadiatorHeaterPrimary to Up (1/191)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ECS RAD TEMP PRIM OUT below PRIM IN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    *If outlet temp after 5 min above INLET TEMP",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    *PRIM GLY TO RAD vlv - BYPASS (pull)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    *Recheck in 10 min",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS RAD tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 169,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GlycolEvapTempInAuto to Up (1/169)"
+    }
+  ],
+  "Images": []
+}

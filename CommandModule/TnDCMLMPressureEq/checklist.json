@@ -1,0 +1,318 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TnDCMLMPressureEq",
+  "Group": "T&D",
+  "Name": "CM/LM PRESSURE EQ",
+  "CustomName": "",
+  "Side": 0,
+  "SortPriority": 610,
+  "AutoGenerate": true,
+  "checklistText": "CM/LM PRESSURE EQUALIZATION\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O2PressInd to Down (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Verify CRYO O2 PRESS 1 ind - 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 2 (3/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 1 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P7_DirectO2 to position 0 (3/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set LM_CM_PSI_DiffSelector to position 2 (3/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  LM/CM ΔP ind - +4 psid (pegged)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set CM_LM_DoorHatch to position 1 (3/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CAB PRESS ind - 4.5 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set CM_LM_DoorHatch to position 0 (3/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  LM/CM ΔP ind - ~2.4 - 4.0 psid",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set CM_LM_DoorHatch to position 1 (3/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  CAB PRESS ind - 4.0 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 315,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P601_RepressO2Valve to Down (1/315)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CAB PRESS ind - 5.7 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Cycle REPRESS O2 as required between 4.0 and 5.7 psia limits",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "     until REPRESS O2 PRESS in ~0.0 psia.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 315,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P601_RepressO2Valve to Up (1/315)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CAB PRESS ind > 4.0 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If CAB PRESS ind < 4.0, PRESS EQUAL vlv - CLOSE *",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LM/CM ΔP ind - 0.0 psid",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRYO O2 PRESS 1 ind (SURGE TK) > 400 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 0 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FILL to 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 1 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 0 (3/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set LM_CM_PSI_DiffSelector to position 0 (3/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 70,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P252_WasteStowageVent to position 1 (3/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TUNNEL HATCH REMOVAL:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Open HATCH using the bubble function",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LM UMBILICAL CONNECTION:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 4 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 3 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 243,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set LMPower to Up (1/243)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS Test ind - 0.5-3.2 volts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Install hatch if desired",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

@@ -3,8 +3,10 @@
   "ProjectName": "PrepAbbreviatedPreFlight",
   "Group": "PRE-FLIGHT",
   "Name": "Abbr. Interior Check (T-20)",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 20,
+  "AutoGenerate": false,
   "checklistText": "<size=22>ABBREVIATED INTERIOR CHECK (T-20)</size>\n\n1. All left panel fuses \t\t- NO. 1 POSITION\r\n2. Squib switch \t\t\t\t- ARM\r\n3. Auto retro jett switch \t- ARM\r\n4. ASCS Mode Select switch\t- NORM\r\n5. RSCS Mode Select switch \t- AUTO\r\n6. Retro delay switch \t\t- NORM\r\n7. Rescue switch \t\t\t- AUTO\r\n8. Press Reg Handle \t\t- IN\r\n9. Retro Att switch \t\t\t- AUTO\r\n10. Retract Scope switch \t- AUTO\r\n11. Landing Bag switch \t\t- AUTO\r\n12. Control Fuel\r\n      a. Auto Fuel: ___\r\n      b. Manual Fuel: ___\r\n13. Cabin Pressure Indicator: ___\r\n14. Cabin Temp Indicator: ___\r\n15. Suit Temp Indicator: ___\r\n16. Suit Press Indicator: ___\r\n17. Primary Oxygen: ___\r\n18. Secondary Oxygen: ___\r\n19. Suit Fan switch \t\t- NORM\r\n20. Cabin Fan switch \t\t- NORM\r\n21. DC Volts knob \t\t\t- MAIN\r\n22. Ammeter switch \t\t\t- NORM\r\n23. ASCS AC Bus Switch \t\t- NORM\r\n24. Stby Btry switch \t\t- ON\r\n25. Isol Btry switch \t\t- STBY\r\n26. Inlet Valve Pwr switch \t- NORM\r\n27. Audio Bus switch \t\t- NORM\r\n28. Fans AC Bus switch \t\t- NORM\r\n29. VOX Pwr switch \t\t\t- OFF\r\n30. UHF DF switch \t\t\t- NORM\r\n31. UHF Select switch \t\t- HI PWR\r\n32. Transmit switch \t\t\t- OFF\r\n33. Beacon switch \t\t\t- CONT\r\n34. Emer O2 handle \t\t\t- NORM\n\n<size=20>At T-10:</size>\n\tStart FULL INTERNAL POWER Checklist",
   "Steps": [
     {
@@ -12,462 +14,520 @@
       "Type": 2,
       "SetID": 25,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PhaseShifter to One (2/25)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 26,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerCapSepCntrl to One (2/26)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 27,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerEscapeRckt to One (2/27)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 28,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set TowerSepContrl to One (2/28)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 29,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerTowerSep to One (2/29)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 30,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerTowerJett to One (2/30)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 31,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerPosgrd to One (2/31)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 19,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set AuxBcn to One (2/19)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 20,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set No1RetroRckt to One (2/20)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 21,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set No2RetroRckt to One (2/21)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 22,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set No3RetroRckt to One (2/22)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 23,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerRetroSeq to One (2/23)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 24,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerRetroJett to One (2/24)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 14,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ASCSDot05G to One (2/14)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 15,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerDot05G to One (2/15)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 16,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerDrogueDeploy to One (2/16)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 17,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerMainDeploy to One (2/17)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 18,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ReserveDeploy to One (2/18)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 10,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerReserveDeploy to One (2/10)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 11,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerLandBag to One (2/11)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 12,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerRescueAids to One (2/12)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 13,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PeriScope to One (2/13)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 7,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set AntSwitch to One (2/7)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 8,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ComvRcvrA to One (2/8)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 9,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set TrimHiFreq to One (2/9)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 15,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ArmSquib to Left (1/15)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 18,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRetroJett to Left (1/18)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 12,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ASCSMode to Left (1/12)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 13,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set ASCSAuto to Left (1/13)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 16,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RetroDelay to Left (1/16)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 29,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RescueAids to Left (1/29)"
     },
     {
       "Program": 3,
       "Type": 5,
       "SetID": 14,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PressRegHandle to position In (5/14)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 17,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RetroAtt to Left (1/17)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 19,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RetractScope to Left (1/19)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 28,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set LandingBag to Left (1/28)"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Control Fuel: Primary - 100%"
+      "Text": "Control Fuel: Primary - 100%",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Control Fuel: Secondary - 100%"
+      "Text": "Control Fuel: Secondary - 100%",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Note Cabin Pressure Indicator"
+      "Text": "Note Cabin Pressure Indicator",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Note Cabin Temp Indicator"
+      "Text": "Note Cabin Temp Indicator",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Note Suit Temp Indicator"
+      "Text": "Note Suit Temp Indicator",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Note Suit Press Indicator"
+      "Text": "Note Suit Press Indicator",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Note Primary Oxygen"
+      "Text": "Note Primary Oxygen",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Note Secondary Oxygen"
+      "Text": "Note Secondary Oxygen",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 10,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set SuitFan to Right (1/10)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 9,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set CabinFan to Right (1/9)"
     },
     {
       "Program": 3,
       "Type": 3,
       "SetID": 1,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set DCSelector to position 0 (3/1)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 6,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set Ammeter to Right (1/6)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 11,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set ASCSAC to Right (1/11)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 4,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set StbyBtry to Left (1/4)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 5,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set IsolBtry to Left (1/5)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 38,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set InletValve to Right (1/38)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 7,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set AudioBus to Right (1/7)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 8,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set FansACBus to Right (1/8)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 22,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set VOXSwitch to Middle (1/22)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 26,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set UHFDF to Right (1/26)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 25,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set UHFSelect to Right (1/25)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 24,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Transmit to Middle (1/24)"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 23,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set Beacon to Right (1/23)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 1,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set SuitFan to One (2/1)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 2,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set InvrContrl to One (2/2)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 3,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RetroJett to One (2/3)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 4,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RetroMan to One (2/4)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 6,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set BloodPress to One (2/6)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 6,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set BloodPress to One (2/6)"
     },
     {
       "Program": 3,
       "Type": 5,
       "SetID": 12,
       "ToPosID": 1,
-      "Text": null
-    },
-    {
-      "Program": 3,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "At T-10: Start FULL INTERNAL POWER Checklist"
+      "Text": null,
+      "Description": "set EmerO2 to position In (5/12)"
     }
   ],
   "Images": []

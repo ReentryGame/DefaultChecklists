@@ -3,479 +3,563 @@
   "ProjectName": "RnDRendezvous",
   "Group": "R&D",
   "Name": "Rendezvous",
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 31,
   "AutoGenerate": false,
-  "checklistText": "<size=24>PRE-RENDEZVOUS CHECKLIST</size>\n\n\t1. RADAR \t\t\t\t\t\t- STBY\n\t2. Computer \t\t\t\t\t\t- CTCH UP\n\t3. Circulize Orbit CHECKLIST \t- COMPLETED\n\t4. REQUEST TARGET BURN\n\t5. OBC: Set up burn PAD \n   \t\ta. Set CORE 01 (TIG) to HHHMM\n   \t\tb. Set CORE 02 (TIG) to 0SSss\n   \t\tc. Set CORE 25 (ΔX) to XXXXX ft/s\n   \t\td. Set CORE 26 (ΔY) to XXXXX ft/s\n   \t\te. Set CORE 27 (ΔZ) to XXXXX ft/s\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\t7. Computer\t\t\t\t\t\t- START\n\t8. Verify COMP lt\t\t\t\t- ILLUMINATED\n\tCORE 84 COUNTDOWN TO BURN\n\n<size=22>AT T -10:00 TO TIME OF IGNITION</size>\n\t1. START EVENT TIMER (COUNT DOWN)\n\n<size=22>AT CORE (84 00060) MIN/SEC</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT BURN:</size>\n\tIgnition: Zero the IVI's\n\tBurn complete:\n\t1. IVI's \t\t\t\t\t\t- ZERO\n\t2. OAMS PROP MOTOR VALVES \t- CLOSED\n\t3. OAMS CNTL PWR \t\t\t\t- OFF\n\t4. Computer\t\t\t\t\t\t- RESET\n\n<size=22>RENDEZVOUS BURN II:</size>\n\t4. REQUEST CIRCULATE AT AP (or PE if lower)\n\t5. OBC: Set up burn PAD \n   \t\ta. Set CORE 01 (TIG) to HHHMM\n   \t\tb. Set CORE 02 (TIG) to 0SSss\n   \t\tc. Set CORE 25 (ΔX) to XXXXX ft/s\n   \t\td. Set CORE 26 (ΔY) to XXXXX ft/s\n   \t\te. Set CORE 27 (ΔZ) to XXXXX ft/s\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\t7. Computer\t\t\t\t\t\t- START\n\t8. Verify COMP lt\t\t\t\t- ILLUMINATED\n\tCORE 84 COUNTDOWN TO BURN\n\n<size=22>AT T -10:00 TO TIME OF IGNITION</size>\n\t1. START EVENT TIMER (COUNT DOWN)\n\n<size=22>AT T -1:00 MIN (CORE 84 00060):</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT BURN:</size>\n\tIgnition: Zero the IVI's\n\tBurn complete:\n\t1. IVI's \t\t\t\t\t\t- ZERO\n\t2. OAMS PROP MOTOR VALVES \t- CLOSED\n\t3. OAMS CNTL PWR \t\t\t\t- OFF\n\t4. Computer\t\t\t\t\t\t- RESET\n\n<size=22>AFTER RNDZ BURN CHECKLIST:</size>\n\t1. COMPUTER\t\t\t\t\t\t- RNDZ\n\t2. Radar \t\t\t\t\t\t- ON\n\t3. Encoder \t\t\t\t\t\t- ON\n\t4. Encoder CMD \t\t\t\t\t- 251, ACQ Lights ON\n\t5. FDR \t\t\t\t\t\t\t- RDR\n\t6. FDM \t\t\t\t\t\t\t- ATT\n\t7. Aquire a visual of docking target\n\n<size=22>ONCE COMPUTER READY:</size>\n\t1. Computer \t\t\t\t\t\t- START\n\t2. FDR \t\t\t\t\t\t\t- COMP\n\nAlign with target using FDAI\nTranslate towards target so IVI's L/R and UP/DN shows ZERO\nMove closer by reduzing FWD/AFT IVI's towards ZERO.\n\nIf target vehicle is Agena or Augmented Target Docking Adapter (ATDA)\n\t1. AGENA CONTROL: PWR \t\t\t- ON\r\n\t2. AGENA CONTROL: SQUIB (2) \t\t- ON\r\n\t3. AGENA CONTROL: CNTL \t\t- ON\n\n\n\n",
+  "checklistText": "<size=24>PRE-RENDEZVOUS CHECKLIST</size>\n\n\t1. RADAR \t\t\t\t\t\t- STBY\n\t2. Computer \t\t\t\t\t\t- CTCH UP\n\t3. Circulize Orbit CHECKLIST \t- COMPLETED\n\t4. REQUEST TARGET BURN\n\t5. OBC: Set up burn PAD \n   \t\ta. Set CORE 01 (TIG) to HHHMM\n   \t\tb. Set CORE 02 (TIG) to 0SSss\n   \t\tc. Set CORE 25 (ΔX) to XXXXX ft/s\n   \t\td. Set CORE 26 (ΔY) to XXXXX ft/s\n   \t\te. Set CORE 27 (ΔZ) to XXXXX ft/s\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\t7. Computer\t\t\t\t\t\t- START\n\t8. Verify COMP lt\t\t\t\t- ILLUMINATED\n\tCORE 84 COUNTDOWN TO BURN\n\n<size=22>AT T -10:00 TO TIME OF IGNITION</size>\n\t1. START EVENT TIMER (COUNT DOWN)\n\n<size=22>AT CORE (84 00060) MIN/SEC</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT BURN:</size>\n\tIgnition: Zero the IVI's\n\tBurn complete:\n\t1. IVI's \t\t\t\t\t\t- ZERO\n\t2. OAMS PROP MOTOR VALVES \t- CLOSED\n\t3. OAMS CNTL PWR \t\t\t\t- OFF\n\t4. Computer\t\t\t\t\t\t- RESET\n\n<size=22>CORRECTION BURN:</size>\n\tOpen the Mission Pad > Map\n\tCheck the relative distance to target vehicle:\n\t\t[RNDZ: dAP = ____ nmi]\n\tUse the OAMS thrust up/down/fwd/aft to tune this down\n\t\tto ~1.0 nmi or less.\n\tOpen the MISSION TOOLS > DATA FORMS & CHARTS > RENDEZVOUS PLOT\n\t\tto monitor rendezvous trajectory.\n\n<size=22>RENDEZVOUS BURN II:</size>\n\t4. REQUEST CIRCULATE AT AP (or PE if lower)\n\t5. OBC: Set up burn PAD \n   \t\ta. Set CORE 01 (TIG) to HHHMM\n   \t\tb. Set CORE 02 (TIG) to 0SSss\n   \t\tc. Set CORE 25 (ΔX) to XXXXX ft/s\n   \t\td. Set CORE 26 (ΔY) to XXXXX ft/s\n   \t\te. Set CORE 27 (ΔZ) to XXXXX ft/s\n\t6. SET EVENT TIMER TO 10:00 & STBY\n\t7. Computer\t\t\t\t\t\t- START\n\t8. Verify COMP lt\t\t\t\t- ILLUMINATED\n\tCORE 84 COUNTDOWN TO BURN\n\n<size=22>AT T -10:00 TO TIME OF IGNITION</size>\n\t1. START EVENT TIMER (COUNT DOWN)\n\n<size=22>AT T -1:00 MIN (CORE 84 00060):</size>\n\t1. PLATFORM \t\t\t\t\t- SEF\n\t2. ATTITUDE CONTROL \t\t\t- PLAT (or RATE CMD)\n\t3. OAMS CNTL PWR \t\t\t\t- ON\n\t4. OAMS PROP MOTOR VALVES \t- OPEN\n\n<size=22>AT BURN:</size>\n\tIgnition: Zero the IVI's\n\tBurn complete:\n\t1. IVI's \t\t\t\t\t\t- ZERO\n\t2. OAMS PROP MOTOR VALVES \t- CLOSED\n\t3. OAMS CNTL PWR \t\t\t\t- OFF\n\t4. Computer\t\t\t\t\t\t- RESET\n\n<size=22>AFTER RNDZ BURN CHECKLIST:</size>\n\t1. COMPUTER\t\t\t\t\t\t- RNDZ\n\t2. Radar \t\t\t\t\t\t- ON\n\t3. Encoder \t\t\t\t\t\t- ON\n\t4. Encoder CMD \t\t\t\t\t- 251, ACQ Lights ON\n\t5. FDR \t\t\t\t\t\t\t- RDR\n\t6. FDM \t\t\t\t\t\t\t- ATT\n\t7. Aquire a visual of docking target\n\n<size=22>ONCE COMPUTER READY:</size>\n\t1. Computer \t\t\t\t\t\t- START\n\t2. FDR \t\t\t\t\t\t\t- COMP\n\nAlign with target using FDAI\nTranslate towards target so IVI's L/R and UP/DN shows ZERO\nMove closer by reduzing FWD/AFT IVI's towards ZERO.\n\nIf target vehicle is Agena or Augmented Target Docking Adapter (ATDA)\n\t1. AGENA CONTROL: PWR \t\t\t- ON\r\n\t2. AGENA CONTROL: SQUIB (2) \t\t- ON\r\n\t3. AGENA CONTROL: CNTL \t\t- ON\n\n\n\n",
   "Steps": [
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Rendezvous Burn Checklist"
+      "Text": "Rendezvous Burn Checklist",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 184,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RadarLockOn to Middle (1/184)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerMode to position 2 (3/6)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify that you are in a circular orbit, if not: Complete CIRCULARIZE ORBIT cl"
+      "Text": "Verify that you are in a circular orbit, if not: Complete CIRCULARIZE ORBIT cl",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Request Rendezvous burn"
+      "Text": "Request Rendezvous burn",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "OBC Setup:"
+      "Text": "OBC Setup:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 20,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardZero (4/20)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 11,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard1 (4/11)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify Core 1 GETI/TIG (HHHMM)"
+      "Text": "Verify Core 1 GETI/TIG (HHHMM)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 20,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardZero (4/20)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify Core 2 GETI/TIG (0SSss)"
+      "Text": "Verify Core 2 GETI/TIG (0SSss)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 15,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard5 (4/15)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify Core 25 ΔX (XXXX.X ft/s)"
+      "Text": "Verify Core 25 ΔX (XXXX.X ft/s)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 16,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard6 (4/16)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify Core 26 ΔY (XXXX.X ft/s)"
+      "Text": "Verify Core 26 ΔY (XXXX.X ft/s)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard2 (4/12)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 17,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard7 (4/17)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify Core 27 ΔZ (XXXX.X ft/s)"
+      "Text": "Verify Core 27 ΔZ (XXXX.X ft/s)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Set EVENT TIMER to 10:00 & STBY"
+      "Text": "Set EVENT TIMER to 10:00 & STBY",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 25,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerStart (4/25)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 22,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardClear (4/22)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard8 (4/18)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 14,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push Keyboard4 (4/14)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 21,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push KeyboardReadOut (4/21)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Use CORE 84 to veriy TTG (time to go)"
+      "Text": "Use CORE 84 to veriy TTG (time to go)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "AT TIME TO GO = 10:00 min:"
+      "Text": "AT TIME TO GO = 10:00 min:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 52,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EventTimerDirection to Down (1/52)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "AT TIME TO GO = 01:00 min:"
+      "Text": "AT TIME TO GO = 01:00 min:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set IGSPlatform to position 2 (3/5)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set ACMEMode to position 6 (3/4)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    (Optional ATTITUDE CONTROL selection)"
+      "Text": "    (Optional ATTITUDE CONTROL selection)",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 31,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWROAMS to Up (1/31)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotoOAMS to Up (1/58)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "AT TIME TO GO = 00:00 min:"
+      "Text": "AT TIME TO GO = 00:00 min:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Igntion: Zero out the IVI's"
+      "Text": "Igntion: Zero out the IVI's",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When IVI's ZERO:"
+      "Text": "When IVI's ZERO:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PropMotoOAMS to Down (1/58)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 31,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerPWROAMS to Down (1/31)"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerReset (4/24)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "RENDEZVOUS BURN II:"
+      "Text": "COURSE CORRECTION BURN:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Request CIRCULARIZE AT AP/PE burn"
+      "Text": "Mission Pad -> Map: Tune RNDZ: dAP to < 1.0 nmi",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Complete the burn following the CIRCULARIZE ORBIT cl"
+      "Text": "RENDEZVOUS BURN II:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "After RENDEZVOUS II burn:"
+      "Text": "Request CIRCULARIZE AT AP/PE burn",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Complete the burn following the CIRCULARIZE ORBIT cl",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 2,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After RENDEZVOUS II burn:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerMode to position 3 (3/6)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 184,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RadarLockOn to Up (1/184)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 175,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENAEncoder to Up (1/175)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ENCODER CMD: 251, ACQ Lights ON"
+      "Text": "ENCODER CMD: 251, ACQ Lights ON",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set FDI1Mode to position 0 (3/7)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 8,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FDI1Data to position 2 (3/8)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Aquire a visual of docking target using OAMS"
+      "Text": "Aquire a visual of docking target using OAMS",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When AUX TAPE lt - ext, computer is ready:"
+      "Text": "When AUX TAPE lt - ext, computer is ready:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 25,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerStart (4/25)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Align with target using FDAI in RDR and COMP modes"
+      "Text": "Align with target using FDAI in RDR and COMP modes",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When visual and valid radar data, complete DOCKING cl."
+      "Text": "When visual and valid radar data, complete DOCKING cl.",
+      "Description": "Manual step"
     }
   ],
   "Images": []

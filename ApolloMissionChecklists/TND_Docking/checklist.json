@@ -1,0 +1,246 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_Docking",
+  "Group": "T&D",
+  "Name": "DOCKING [4]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 640,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n4) DOCKING",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Satbilize and align CSM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGRoll to Middle (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPitch to Middle (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGYaw to Middle (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At capture:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PROBE EXTD/RETR tb-pb",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Allow probe to damp S/C motions (approx 10 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 238,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set DockingProbeRetractPrim to Up (1/238)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If no RETRACT in 30 sec: PRIM-2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If stil no RETRACT: SEC-1",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After dock latches have engaged:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PROBE EXTD/RETR tb - grey",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SeqLogic1 to Down (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SeqLogic2 to Down (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set EDSPower to Down (1/82)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 169,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EDSBatA to Open (2/169)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 171,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EDSBatC to Open (2/171)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 170,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EDSBatB to Open (2/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 237,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockingProbeExtend to Middle (1/237)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 238,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockingProbeRetractPrim to Middle (1/238)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 239,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockingProbeRetractSec to Middle (1/239)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 134,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DockProbeMNA to Open (2/134)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 135,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DockProbeMNB to Open (2/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 232,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqB_PlayMode to Middle (1/232)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Down (1/236)"
+    }
+  ],
+  "Images": []
+}

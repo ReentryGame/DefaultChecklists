@@ -1,0 +1,262 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item14",
+  "Group": "INSERTION",
+  "Name": "FC PURGE CHECK [14]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 140,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n14) FC PURGE CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FCTestSelector to position 0 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC1Purge to Up (1/34)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Observe Flow rate inc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FC1Purge to Middle (1/34)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FCTestSelector to position 1 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC2Purge to Up (1/35)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Observe Flow rate inc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FC2Purge to Middle (1/35)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FCTestSelector to position 2 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC3Purge to Up (1/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Observe Flow rate inc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FC3Purge to Middle (1/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FCTestSelector to position 0 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FC1Purge to Down (1/34)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Observe Flow rate inc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FC1Purge to Middle (1/34)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FCTestSelector to position 1 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FC2Purge to Down (1/35)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Observe Flow rate inc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FC2Purge to Middle (1/35)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FCTestSelector to position 2 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FC3Purge to Down (1/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Observe Flow rate inc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FC3Purge to Middle (1/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FCTestSelector to position 0 (3/1)"
+    }
+  ],
+  "Images": []
+}

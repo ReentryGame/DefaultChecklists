@@ -5,7 +5,311 @@
     "ProjectName": "MPSP41RCSBurn",
     "Side": 1,
     "SortPriority": 1330,
-    "Spacecraft": 1,
-    "Steps": [],
+    "Spacecraft": 1,"Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Execute P30 to prepare for P41/RCS maneuver",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Down (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Down (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_CDR_ACA to Up (1/124)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_CDR_TTCA to Up (1/125)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 1 (3/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Up (1/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_BalCpl to Up (1/61)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_DeadBand to Down (1/62)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ACAProp to Up (1/77)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 14,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC3 (4/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC4 (4/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 12,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGC1 (4/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50-18 (blanks)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 16-18 Yaw XXX.XX deg, Pitch XXX.XX deg, Roll XXX.XX deg",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_ModeSel to Middle (1/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06-85 XXXX.X fps +right/-left, XXXX.X fps +up/-down, XXXX.X +fore/-aft",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DSKY blanks at TFI -00:35 til -00:30",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TFI 00:00 execute burn, monitor F 06-85 XXXX.X fps +right/-left, XXXX.X fps +up/-down, XXXX.X +fore/-aft",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P00",
+      "Description": "Manual step"
+    }
+  ],
     "checklistText": "RCS Thrust Program (P41)\r\n\r\nPurpose of RCS Thrust Program (P4l)\r\nprocedure is to compute preferred IMU\r\norientation and LM attitude for RCS\r\nthrust maneuver and to maneuver LM\r\nto thrusting attitude.\r\nThis procedure provides suitable displays for\r\nmanual execution of thrust maneuver.\r\n\r\nP41 is set up with P3X.\r\n\r\n\tECS Basic (Stages or Unstaged)\r\n\tLGC Power-Up (required)\r\n\tIMU Power-Up (LGC Operating)\r\n\tDAP Data Load Routine (R03) (required)\r\n\tAppropriate prethrust program (required)\r\n\r\n\tEvent timer should be counting down\r\n\tto TIG, or you have a mark of MET ignition.\r\n\r\n\r\n1.\tEstablish attitude control:\r\n\tGUID CONT sw - PGNS\r\n\tS/C:\r\n\t\tPGNS sw - AUTO or ATT HOLD\r\n\t\tROLL, PITCH, YAW sw - MODE CONT\r\n\t\tKey V77E\r\n\r\n2.\tEstablish PGNCS total attitude &\r\n\tattitude rate/error display:\r\n\tATTITUDE MON sw (1) - PGNS\r\n\tATTITUDE MON sw (1) - AGS\r\n\tRATE/ERR MON sw (2) - LDG RDR/CMPTR\r\n\r\n3.\tEnable ACA/TTCA:\r\n\tACA/4 JET sw (2) - ENABLE\r\n\tTTCA/TRANSL sw (2) - ENABLE\r\n\tTHROTTLE/JETS cont (2) - JETS\r\n\tENG THR CONT:\r\n\t\tATT/TRANSL sw - 4 JETS\r\n\t\tBAL CPL sw - ON\r\n\tS/C: DEAD BAND sw - MIN\r\n\tACA PROP sw (2) - ENABLE\r\n\r\n4.\tKey V37E 41E\r\n\r\n5.\tAttitude Maneuver Routine (R60)\r\n\tFL V50 N18 - Perform automatic man-\r\n\teuver to final FDAI angles\r\n\t\tR1 Roll\t\tXXX.XX°\r\n\t\tR2 Pitch\tXXX.XX°\r\n\t\tR3 Yaw\t\tXXX.XX°\r\n\r\n\tAccept automatic attitude man-\r\n\teuver:\r\n\tGUID CONT sw - PGNS\r\n\tS/C: PGNS sw - AUTO\r\n\tKey PRO\r\n\r\n6.\tWait for completion of maneuver\r\n\tKey PRO\r\n\r\n7.\tV16 N85 - VG(LM)\r\n\t\tR1 X XXXX.X fps\r\n\t\tR2 Y XXXX.X fps\r\n\t\tR3 Z XXXX.X fps\r\n\r\nRemarks:\r\n\tDisplays are blanked from TFI =\r\n\t-00B35 to -00B30.\r\n\tDisplay will return at\r\n\tapproximately TIG-29.\r\n\r\n\tCMPTR ACTY lt - on\r\n\r\n\tAt TIG-30 sec:\r\n\tV16 N85 - VG(LM)\r\n\t\tR1 X XXXX.X fps\r\n\t\tR2 Y XXXX.X fps\r\n\t\tR3 Z XXXX.X fps\r\n\r\n8.\tWhen EVNT TMR ind = 00:00:\r\n\tV16 N85 - VG(LM)\r\n\t\tR1 X XXXX.X fps\r\n\t\tR2 Y XXXX.X fps\r\n\t\tR3 Z XXXX.X fps\r\n\r\n\tS/C: PGNS sw - ATT HOLD\r\n\tACA/TTCA - maneuver to null VG\r\n\tcomponents\r\n\r\nRemarks:\r\n\tThis maneuver is manual.\r\n\r\n9.\tTerminate P41."
 }

@@ -3,2082 +3,2379 @@
   "ProjectName": "LunarEntryPrep",
   "Group": "LUNAR ENTRY",
   "Name": "LUNAR RETURN VEHICLE PREP",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 850,
   "AutoGenerate": false,
-  "checklistText": "\r\tLUNAR ENTRY\r\n\nThroughout the checklist, time to CM/SM separation is used as a timing guideline.\n\nRequesting Entry PAD:\npress CREW MEMBERS -> GROUND/REQUEST PADS -> REQUEST ENTRY PAD\n\nSETTING THE EVENT TIMER (-01:00h count down)\n- Set event timer to 1 hour, count down.\n- Plan a deorbit burn with entry angle of 2°\n- Make note of the Time to EI\n- CM/SM separation should happen 12 minutes before EI\n- Start event timer then time to CM/SM sep is -01:00h.\r\n\n\tDEORBIT OR LUNAR RETURN VEHICLE\r\n\tPREPARATION\r\n\r\r\n\t(Proced in \"General System Management\" thru \"Systems Preparation\" not\r\n\t\tdesignated as \"req\" are optional)\r\n\r\n\r\r\n\t\tGeneral System Management\r\n\r\n\t\tCab Cold Soak Oper (GETI or EI minus 8 to 12 hrs)\r\n\r\n\tor\tIf no cold-soak\r\n382:\r\t\tSEC EVAP H2O CONT - AUTO (req)\r\n\r\n\t\tIf lunar return\r\n\t\t\tCMC - on\r\n\t\t\tISS - on\r\n\t\t\tSCS - on (req)\r\n\t\t\tDAP Data Load - complete\r\n\r\n\t1\tObtain update & entry data from MSFN\r\n\r\n\t2\tIf deorbit\r\n\t\t Configure TLM (req)\r\nPanel 3:\r\n\t\t\tTAPE RCDR FWD - off (ctr)\r\n\t\t\tPCM BIT RATE - HI\r\n\t\t\tUP TLM CMD - RSET, then NORM\r\n\r\n\t\tPropul Sys Checks, \"SPS Monitoring Check\" thru \"CM RCS Monitoring Check\"\r\n\r\n\t3\tIf lunar return\r\n\t\t Configure telcom (req)\r\n\t\t\tVHF AM A - SIMPLEX\r\n\t\tPropul Sys Checks\r\n\r\n\t4\tEPS DC & AC checks\r\n\t\t\tPYRO BAT A & B >35 vdc (verify)\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\t     \t\t\t\tx\r\n\t\t  If PYRO BAT A(B) <35 vdc\r\n\r\n\t\t  Panel 250:\r\n\t\t\tcb PYRO A(B)/SEQ A(B) - open\r\n\t\t\tcb BAT BUS A(B) TO PYRO BUS - close\r\n\t\tx\t\t\t\t\t     \t\t\t\tx\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\r\n\t5\tECS Mon Check\r\nPanel 352:\r\n\t6\tSKIP: Stow gas separator cartridges (req)\r\n\t\t\tRemove separator bags from stowage\r\n\t\t\tDisconnect separators from water\r\n\t\t\t\tpistol & food prep unit\r\n\t\t\tPlace separators in stowage bags\r\n\t\t\tStow separators\r\n\r\n\t7\tSKIP: Stow loose gear (req)\r\n\r\n\t8\tSKIP: Dry tunl\r\n\r\n\t9\tCMC Self-Check Proced\r\n\r\n\t10\tDSKY Condition Lt Check\r\n\r\n\t11\tC&WS Oper Check\r\n\r\n\t12\tP52 IMU Align\r\n\r\n\r\n\t\t\tRSI Test and Alignment\r\n\r\nPanel 7:\r\n\t\tELEC PWR - GDC/ECA\r\n\r\nPanel 1:\r\n\t\tATT SET - GDC\r\n\r\n\t1\tEMS ROLL - on (up)\r\n\t\tGDC ALIGN pb - push, hold\r\n\t\tATT SET YAW tw - adj thru 45° angle,\r\n\t\t\tobserve RSI tracks ≈45°, then position\r\n\t\t\tRSI\r\n\t\tGDC ALIGN pb - rel\r\n\t\tEMS ROLL - OFF\r\n\r\n\t2\tATT SET YAW tw - reset\r\n\t\tGDC ALIGN pb - push (32 sec max)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\t\tEMS Entry Test\r\n\r\n\t1\tInit EMS prep\r\n\r\n1:\r\t\t\tEMS FUNC - OFF (verify)\r\n8:\r\t\t\tcb EMS (2) - close\r\n1:\r\t\t\tEMS MODE - STBY\r\n\r\n\t2\tEMS FUNC - EMS TEST 1 (CCW)\r\n\t\t\tWait 5 sec\r\n\t\t\tEMS MODE - NORM\r\n\t\t\tWait 10 sec min\r\n\t\t\tAll ind lts - out\r\n\t\t\tRNG ind - 0.0\r\n\t\t\tSlew scroll until hairline superimposed\r\n\t\t\t\ton notch in next self-test pattern\r\n\r\n\t3\tEMS FUNC - EMS TEST 2\r\n\t\t\tWait 10 sec\r\n\t\t\t.05 G lt - on (all others out)\r\n\r\n\t4\tEMS FUNC - EMS TEST 3\r\n\t\t\t.05 G lt - on\r\n\t\t\tLIFT vector dn lt - on (10 sec after\r\n\t\t\t\t.05 G lt)\r\n\t\t\tSet RNG ind to 58.0±0.0 NM\r\n\r\n\t5\tEMS FUNC - EMS TEST 4\r\n\t\t\t.05 G lt - on (all others out)\r\n\t\t\tG-V trace (during 10 sec period) within\r\n\t\t\t\ttest pattern\r\n1:\r\t\t\tAfter 10 sec, G-V trace stops at lower\r\n\t\t\tright corner of test pattern at ≈9 G\r\n\t\t\tRNG ind (during 10 sec period) counts\r\n\t\t\ttoward zero. After 10 sec, stops\r\n\t\t\tat ≈0.0±0.2 G\r\n\r\n\t6\tEMS FUNC - EMS TEST 5\r\n\t\t\t.05 G lt - on\r\n\t\t\tLift vector up lt - on (10 sec after\r\n\t\t\t\t.05 G lt)\r\n\t\t\tRNG ind - 0.0\r\n\t\t\tScribe traces vert line ≈9 G to\r\n\t\t\t\t0.28±0.1 G & stops (trace within\r\n\t\t\t\ttest pattern)\r\n\t\t\tAlign G-V scroll to entry pattern\r\n\t\t\t\t(hairline on 37K fps line)\r\n\r\n\t7\tEMS FUNC - RNG SET\r\n\t\t\tG-V traces vert line ≈0.28 G to\r\n\t\t\t\t0.0±0.1 G & stops\r\n\t\t\tIf lunar return\r\n\t\t\t\tSlew RNG ind to pred RTOGO from .05 G\r\n\r\n\t8\tEMS FUNC - Vo SET\r\n\n\t\t\t\tCAUTION\r\n\r\n\t\t\tNever slew scroll in incr direction\r\n\t\t\tmore than 1500 fps. Ensures\r\n\t\t\trange integrator remains slaved\r\n\t\t\tto scroll velocity.\r\n\r\n\t\t\tSlew scroll until display index (arrow)\r\n\t\t\t\taligned to pred entry velocity\r\n\r\n\t\tThis is the velocity at EI.\r\n\t\tEarth: 25.000 ft/s\r\n\t\tLunar: 36.500 ft/s\r\n\r\n\r\n\t9\tΔV Test & Null Bias Check\r\n\r\n\r\n\t\t\t\tSystems Preparation\r\n\r\n\t\tIf suited\r\n\t\t\tPress Suit Circuit & PGA Check at\r\n\t\t\t\t5.0 psia\r\n\t\t\tMae Wests - donned\r\n\r\n351:\r\t\t\tEMER CAB PRESS sel - OFF\r\n\r\nEI or GETI\r\n-1:00:00\r\n\t1\tCM RCS temp check\r\nPanel 101:\r\n\t\tSYS TEST (2) - 5C, 5D, 6A, 6B, 6C, 6D\r\n\r\n\t\tIf lowest reading <3.9 vdc (28°F)\r\nPanel 8:\t\tcb CM RCS HTRS (both) - close\r\n\t\t\tcb RCS LOGIC (2) - close\r\nPanel 1:\t\tCM RCS LOGIC - on (up)\r\nPanel 101:\t\tCM RCS HTRS - on (up) for 20 min\r\n\r\n\r\n\t2\tURINE DUMP - OFF\r\n\t\r\n\t3\tWASTE H2O DUMP - OFF\r\n\r\n\t4\tAlign RSI & GDC\r\n\r\n\t5\tIf deorbit\r\n\t\t\tSet FDAI 2 on ORB RATE & restow\r\n\r\n\t6\tCM RCS heating completion (if accomplished)\r\n\r\n-40:00\r\nPanel 101:\r\n\t\tCM RCS HTRS - OFF\r\n\r\n\t7\tConfigure entry bats (req)\r\n\r\nPanel 275:\r\n\t\tcb MNA BAT C - close\r\n\t\tcb MNB BAT C - close\r\n\r\n\t8\tIf SPS deorbit\r\n\t\t\tCryo 02 & H2 Man Fan Opera\r\n\r\nPanel 8:\r\n\t9\tPanel 8 - all cb closed except (req)\r\n\t\t\tcb PL VENT FLT/PL - open\r\n\t\t\tcb FLOAT BAG (all) - open\r\n\t\t\tcb EDS (all) - open\r\n\t\t\tcb CM RCS HTR (both) - open\r\n\r\n\t\tIf lunar return\r\n\t\t\tcb SPS PITCH (both) - open\r\n\t\t\tcb SPS YAW (both) - open\r\n\r\n\t10\tSequencer & CM RCS activation (req)\r\n\t\t\tAfter MSFN AOS\r\n\t\t\t\tSECS LOGIC (both) - on (up)\r\n\t\t\t\tReport logic arm\r\n\r\nPanel 1:\r\n\t\t\t\tELS AUTO - AUTO\r\n\t\t\t\tELS LOGIC - on (up)\r\n\t\t\tAfter GO from MSFN\r\n\t\t\t\tELS AUTO - MAN\r\n\t\t\t\tELS LOGIC - OFF\r\n\r\nPanel 8:\r\n\t\t\t\tSECS PYRO ARM (2) - on (up)\r\n\r\nPanel 2:\r\n\t\t\t\tCM RCS PRPLNT (both) - on (up) (verify)\r\n\t\t\t\tCM RCS PRPLNT tb (both) - gray\r\n\r\n\r\n\t\t\t\tCM RCS PRESS - on (up)\r\n\t\t\t\tRCS IND sel - CM 1, then 2\r\n\t\t\t\t\tCM RCS He PRESS ind - 3300-3500 psia\r\n\t\t\t\t\t\t(after ≈15 min)\r\n\t\t\t\t\tCM RCS MANF PRESS ind - 287-302 psia\r\n\r\n\t11\tIf deorbit\r\n\t\t\tSM RCS SEC FUEL PRESS (4) - OPEN\r\n\r\n\t\t\tRCS IND sel - SM A\r\n\r\n\t12\tIf  docking ring still in place (req)\r\n\t\t\tCSM/LM FNL SEP (both) - on (up)\r\n\r\n\r\nPanel 8:\r\n\t13\tSECS PYRO ARM (2) - SAFE\r\n\r\n\t14\tIf lunar return, test CM RCS jets\r\n\r\nPanel 1:\r\n\t\tSC CONT - SCS\r\n\r\nPanel 2:\r\n\t\tRCS TRNFR - CM\r\n\r\nPanel 8:\r\n\t\t\tAUTO RCS CM 1 (6) - MNA\r\n\t\t\tAUTO RCS CM 2 (6) - MNB\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNA (3) - open\r\n\t\t\tTest ring 2 jets\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNA (3) - close\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNB (3) - open\r\n\t\t\tTest ring 1 jets\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNB (3) - close\r\nPanel 2:\r\n\t\tRCS TRNFR - SM\r\n\r\nPanel 1:\r\n\t\tSC CONT - CMC\r\n\r\n\r\n-30:00\r\n\t15\tIf lunar return\r\n\r\nPanel 3:\r\n\t\tTAPE RCDR FWD - REWIND\r\n\r\n\t16\tIf hatch counterbalance deactivated\r\n\t\t\tfor EVA (req)\r\n\t\t\t\tActivate counterbalance\r\n\t\t\t\t\tmechanism\r\n\r\n\t17\tStrut unlock lanyard (2) - unstow &\r\n\t\tattach handle ends to MDC (req)\r\n\r\n\t18\tIf SCS, sel POO\r\n\r\n\t19\tIf deorbit\r\n\t\t\tGo to THRUSTING\r\n\r\n\t20\tIf lunar return\r\n\t\t\tGo to CM/SM Sep\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\t\t\tCM/SM SEPARATION\r\n\r\n\t1\tIf SM RCS deorbit or lunar return\r\n\r\n\r\n\r\n\t\t\t\tCAUTION\r\n\r\n\t\t\tIf either bat bus A(B) current\r\n\t\t\tfails to incr after cycling MN\r\n\t\t\tBUS TIE switch, configure bats\r\n\t\t\tto mn buses using cb BAT C TO\r\n\r\nPanel 250:\r\n\t\t\tBAT BUS A(B)\r\n\r\n-12:00\r\nPanel 5:\tMN BUS TIE BAT A/C - on (up)\r\n\t\t\tVerify bat bus A current incr &/or\r\n\t\t\t\tbat volt decr\r\n\t\tMN BUS TIE BAT B/C - on (up)\r\n\t\t\tVerify bat bus B current incr &/or\r\n\t\t\t\tbat volt decr\r\n\r\n\t2\tConfigure RCS\r\nPanel 8:\tAUTO RCS B/D ROLL B1 & B2 - MNA\r\n\t\tAUTO RCS B/D ROLL D1 & D2 - MNB\r\n\t\tAUTO RCS PITCH A3 & C4 - MNB\r\n\t\tAUTO RCS PITCH C3 & A4 - MNA\r\n\t\tAUTO RCS YAW B3 & D4 - MNA\r\n\t\tAUTO RCS YAW D3 & B4 - MNB\r\n\r\nPanel 2:\r\n\t\tSM RCS PRPLNT (4) - OPEN (verify)\r\n\r\n\t\tSM RCS PRPLNT tb (8) - gray (verify)\r\n\r\n\t\tSM RCS SEC FUEL PRESS (4) - OPEN (verify)\r\n\r\n\t3\tMnvr to sep att\r\n\r\n\r\n\t\tIf CMC cont\r\n\r\nPanel 1:\r\n\t\t\tSC CONT - SCS\r\n\r\n\t\tor\tCMC MODE - FREE\r\n\r\n\t\r\n\t4\tIf earth orb\r\n\r\nPanel 2:\r\n\t\t\tRCS TRNFR - CM\r\n\t\t\tTest jets\r\n\r\n\t\t\tRCS TRNFR - SM\r\n\r\nPanel 1:\r\n\t5\tATT DBD - MAX\r\n\t\tRATE - HI\r\n\r\n\t6\tConfigure telcom\r\n\r\nPanel 3:\r\n\t\t\tVHF AM (2) - off (ctr)\r\n\t\t\tS BD ANT OMNI A - C\r\n\t\t\tS BD ANT OMNI - OMNI\r\n\t\t\tIf RCS deorbit\r\n\t\t\t\tTAPE RCDR FWD - FWD\r\n\r\n-08:00\r\n\t7\tPreload bats\r\n\r\nPanel 3:\r\n\t\tFC2 MNA - OFF\r\n\t\tFC2 MNA tb - bp\r\n\r\n-05:00\r\nPanel 5:\r\n\t\tFC PUMPS (all) - OFF\r\n\r\nPanel 2:\r\n\t\tHI GAIN ANT PWR - OFF\r\n\r\n\r\n\t8\tConfigure ECS\r\n\r\nPanel 325:\r\n\t\tPRIM GLY TO RAD - BYP (pull)\r\n\r\nPanel 326:\r\n\t\tREPRESS PKG vlv - FILL\r\n\t\tSURGE TK - ON (verify)\r\n\r\nPanel 2:\r\n\t\tO2 PRESS IND sw - SURGE TK\r\n\t\tCRYO O2 PRESS 1 ind - 865-935 psia\r\n\r\nPanel 326:\r\n\t\tREPRESS PKG vlv - ON\r\n\t\tSM O2 SUP vlv - OFF\r\n\r\nPanel 5:\r\n\t\tcb ECS RAD CONT/HTRS (2) - open\r\n\t\tcb WASTE H2O/URINE DUMP HTRS (2) - open\r\n\t\tcb RAD HTRS OVLD (2) - open\r\n\r\nPanel 2:\r\n\t\tPOT H2O HTR - OFF\r\n\r\n\t9\tArm SECS\r\n\r\nPanel 8:\r\n\t\t\tSECS LOGIC (both) - on (up) (verify)\r\n\t\t\tSECS PYRO ARM (2) - on (up)\r\n\r\nPanel 2:\r\n\t10\tPRPLNT DUMP - RCS CMD (verify)\r\n\r\nPanel 1:\r\n\t\tEMS MODE - STBY (verify)\r\n\r\n\t11\tSep from SM\r\n\r\nPanel 2:\r\n00:00\t\tCM/SM SEP (both) - on (up)\r\n\t\t\tSM C/W lts - on\r\n\t\t\tC/W CSM - CM\r\n\r\nPanel 1:\r\n\t\t\tMASTER ALARM PB/LT - ON, PUSH\r\n\r\nPanel 2:\r\n\t\t\tSM C/W lts - out\r\n\t\tRCS TRNFR - CM\r\n\r\nPanel 1:\r\n\t\tCM RCS LOGIC - OFF\r\n\r\n\t12\tSel Att Cont mode\r\n\t\tMnvr to entry att (or to SM RCS deorbit\r\n\t\t\tatt if hybrid deorbit)\r\n\t\t\t\tR____, P____, Y____\r\n\r\n\t13\tSet up for CM/RCS sys 1 (omit for\r\n\t\t\thybrid deorbit)\r\n\r\nPanel 8:\r\n\t\t\tAUTO RCS A/C ROLL (4) - OFF\r\n\t\t\tAUTO RCS CM 1 (6) - MNA or MNB\r\n\t\t\tAUTO RCS CM 2 (6) - OFF\r\n\r\n\t14\tGo to P61 Entry Prep\r (below)\n\r\n\r\n\tG&N ENTRY\r\n\tP61 Entry Preparation\r\n\r\n\t\tRequired\r\n\t\t\tCMC - on\r\n\t\t\tISS - on & orient known\r\n\t\t\tSCS - on\r\n\r\nPanel 2:\r\n\t1\tDSKY - P61 (sel at end of deorbit burn)\r\n\tor\tKey V37E 61E\r\n\r\n\t\t\tPoss PROG alarm\r\n\r\n\t\t(R41 - State Vector Integration)\r\n\r\n\t\tCOMP ACTY lt - on (R41)\r\n\t\tCOMP ACTY lt - flashes every 2 sec\r\n\t\t\t(ave G on)\r\n\r\n\t\t\tPoss PROG alarm\r\n\t\t\t\tV05 N09 (10 sec)\r\n\t\t\t\t\t01427 (IMU reversed)\r\n\r\n\t\t\tor\t01426 (IMU unsatisfactory\r\n\t\t\t\t\tfor entry)\r\n\r\n\t2\tFL V06 N61\r\n\t\t\tImpact Lat (+N)\t\tXXX.XX DEG\r\n\t\t\tImpact Long (+E)\tXXX.XX DEG\r\n\t\t\tHds Up/Dn (+up)\t\t+/-00001\r\n\r\n\t\t\tAccept\tPRO\r\n\t\t\tReject\tV25E, load desired values\r\n\r\n\t3\tFL V06 N60 (entry data)\r\n\t\t\tG max\t\t\tXXX.XX G\r\n\t\t\tV pred\t\t\tXXXXX. FPS\r\n\t\t\tGamma EI\t\tXXX.XX DEG\r\n\r\n\t\t\tRcd values\r\n\t\t\tPRO\r\n\r\n\t4\tFL V16 N63\r\n\r\n\t\t\tRTOGO (.05 G to splash) XXXX.X NM\r\n\t\t\tVIO (at .05 G)\t\tXXXXX. FPS\r\n\t\t\tTFE (time from .05 G)\t\tXXBXX MIN-SEC\r\n\r\n\r\n\r\n\t\tRCD & compare with MSFN\r\n\r\n\r\nPanel 1:\r\n\t\tEMS MODE - STBY\r\n\t\tEMS FUNC - RNG SET (CW)\r\n\t\tSet RNG ind - RTOGO from .05 G\r\n\t\t\t(MSFN value)\r\n\t\tAlign scroll Vo to exact entry velocity\r\n\t\t\t(if req)\r\n\r\n\r\n\r\n\t\tEMS FUNC - ENTRY\r\n\r\nPanel 2:\r\n\t\tAccept PRO (exit P61)\r\n\t\t\tP61 calls P62\r\n\t\t\tGo to G&N Entry\r\n\t\tReject\tV32E, recycle to 3\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\tP62, P63, P64, P65, P66, P67 Entry\r\n\r\n\t\tRequired\r\n\t\t\tCMC - on\r\n\t\t\tISS - on & orient known\r\n\t\t\tSCS - on\r\n\r\nPanel 2:\r\n\t1 DSKY - P62\r\n\t\tAuto sel by P61 (bypasses state vctr\r\n\t\t\textrapolation reqt)\r\n\r\n\tor\tIf FL V37\r\n\t\t\tKey 62E\r\n\r\n\tor\tKey V37E 62E (ave G reinitiated)\r\n\r\n\t\t\t\tPoss PROG alarm\r\n\r\n\t\t\t(R41 - State Vector Integration)\r\n\r\n\tCOMP ACTY lt - on (R41)\r\n\tCOMP ACTY lt - flash every 2 sec (ave G on)\r\n\r\n\t\t\tPoss PROG alarm\r\n\t\t\t\tV05 N09 (10 sec)\r\n\t\t\t\t\t01427 (IMU reversed)\r\n\r\n\r\n\t\t\tor\t01426 (IMU unsatisfactory\r\n\t\t\t\t\tfor entry)\r\n\r\nPanel 2:\r\n\t2\tFL V50 N25\r\n\t\t\t00041 (request CM/SM sep)\r\n\r\n\r\n\t3\tPRO\r\n\r\n\t4\tFL V06 N61\r\n\t\t\tImpact lat (+N)\t\tXXX.XX DEG\r\n\t\t\tImpact long (+E)\tXXX.XX DEG\r\n\t\t\tHds up/down (+Hds up)\t+/-00001\r\n\r\n\t\t\tAccept\tPRO\r\n\t\t\t\tIf α <45° - DSKY P63,\r\n\t\t\t\t\tgo to 6\r\n\t\t\tReject\tV25E, load new data\r\n\r\n\t5\tV06 N22 (mon)\r\n\t\t\tR, P, Y\t\t\tXXX.XX DEG\r\n\r\n\t\tIf α >45°\r\n\t\t\t21 sec after α <45°, DSKY P63\r\n\t\r\n\t6\tORDEAL Pitch - ____° (Hds up)\r\n\t\tORDEAL Pitch - ____° (Hds down)\r\n\r\n\t7\tDSKY - P63\r\n\r\n\t8\tAfter CM/SM sep & CM stab at entry att\r\n\r\nPanel 1:\r\n\t\t\tEMS MODE - NORM\r\n\r\n\r\n\r\n\r\n\t\tATT DBD - MAX\r\n\t\tRATE - HI\r\n\t\tFDAI SCALE - as desired\r\n\r\nPanel 1,2:\r\n\t\tMon FDAIs & RSI\r\n\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\t\tx\r\n\t\t  \tIf abnormal veh dynamics\r\n\t\t\tDamp rates with dir RCS\r\n\r\nPanel 1:\r\n\t\t\t\tRHC PWR DIR (both) - OFF\r\n\r\n\t\t  \tIf abnormal veh dynamics continue\r\n\t\t\t\tRHC PWR DIR (both) - MNA/MNB\r\n\t\t\t\tDamp rates with dir RCS\r\n\r\nPanel 8:\r\n\t\t\tAUTO RCS (affected axis) - OFF\r\n\t\t\tContinue with dir RCS (affected axis)\r\n\t\tx\t\t\t\t\t\tx\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\nPanel 2:\r\n\r\n\t9\tV06 N64 (mon)\r\n\t\t\tDrag accel\t\tXXX.XX G\r\n\t\t\tVI\t\t\tXXXXX. FPS\r\n\r\n\t\t\tRange to splash\t\tXXXX.X NM\r\n\t\t\t\t(+ overshoot)\r\n\r\nPanel 3:\r\n\t\tPCM BIT RATE - HI\r\n\t\tTAPE RCDR RCD - RCD\r\n\t\tTAPE RCDR FWD - FWD\r\n\r\nPanel 1:\r\n\t\tBMAG MODE (3) - RATE 2\r\n\r\n\r\n\r\n\t\tMAN ATT (3) - RATE CMD\r\n\t\tSC CONT - CMC\r\n\r\n\t\tCMC MODE - AUTO, HOLD, or FREE\r\n\r\nPanel 2:\r\n\t\tDSKY - P64 (at .05 G)\r\n\r\n\r\nPanel 1:\r\n\t\t.05 G sw - on (up)\r\n\t\tEMS ROLL - on (up)\r\n\r\n\t\t.05 G lt - on\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\t    x\r\n\t\t  If no .05 G indication by RET .05 G\r\n\t\t\t+3 sec\r\n\t\t\t\tEMS MODE - BU\r\n\t\tx\t\t\t\t\t    x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\t\tScroll slews to left\r\n\t\tRNG ind decr\r\n\r\nPanel 2:\r\n\t10\tV06 N74 (mon)\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\tVI\t\t\tXXXXX. FPS\r\n\t\t\tDrag accel\t\tXXX.XX G\r\n\r\n\r\nPanel 1:\r\n\t\tCompare RSI & ball for lift vctr\r\n\t\t\tG-V plot within limits\r\n\r\n\r\nPanel 2:\r\n\t11\tIf DSKY - P67\r\n\t\t\tGo to 18\r\n\r\n\r\n\t12\tDSKY - P65 (entry up-cont)\r\n\t\t\tIndicates VI ≥27K fps & constant drag\r\n\t\t\t\tcont has brought range prediction\r\n\t\t\t\tto within 25 NM of desired range\r\n\r\n\r\nPanel 1:\r\n\t\tEMS disp - approach DSKY disp DL & VL\r\n\r\nPanel 2:\r\n\r\n\t13\tFL V16 N69 (computed exit conditions)\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\tDL\t\t\tXXX.XX G\r\n\t\t\tVL\t\t\tXXXXX. FPS\r\n\r\n\t\tRcd data for later use with EMS\r\n\r\nPanel 2:\r\n\t\tPRO\r\n\r\n\t\tFDAI att err _________ deg\r\n\t\t\trates ________ deg/sec\r\n\r\n\t14\tV06 N74\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\tVI\t\t\tXXXXX. FPS\r\n\t\t\tDrag accel\t\tXXX.XX G\r\n\r\n\t15\tIf DSKY - P67\r\n\t\t\tGo to 18\r\n\r\n\t16\tDSKY - P66 (entry-ballistic)\r\n\r\n\t17\tV06 N22 (desired gmbl angles)\r\n\t\t\tR, P, Y\t\t\tXXX.XX DEG\r\n\r\n\t\tCheck FDAI tot att = DSKY values\r\n\t\t\tFDAI att err <_______ deg\r\n\t\t\t\trates <______ deg/sec\r\n\t\t\r\n\t\t(Three-axis DAP cont regained when <.05 G\r\n\t\t\tsensed, & relinquished when .05 G again\r\n\t\t\tsensed)\r\n\r\n\t18\tDSKY - P67\r\n\r\nPanel 1:\r\n\t\t\tEMS - 0.2 G (if 10 sec since .05 G)\r\n\r\n\t19\tV06 N66 (mon)\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\t\r\n\r\n\t\t\tCRSRNG ERR\t\tXXXX.X NM\r\n\r\n\r\n\t\t\tDWNRNG ERR\t\tXXXX.X NM\r\n\r\n\t\t\tKey VERB (freeze disp)\r\n\t\t\t\tCompare DWNRNG ERR to pad data\r\n\t\t\t\t\t(DWNRNG ERR within 100 NM of\r\n\t\t\t\t\tpad data)\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t    x\r\n\t\t  If DWNRNG ERR not within 100 NM\r\n\t\t\tMaintain BBA entry\r\n\t\tx\t\t\t\t    x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\r\n\t\tKEY REL (reinstates V06 N66 mon)\r\n\r\nPanel 1:\r\n\t\tFly roll cmd\r\n\t\tMon lift vctr on RSI & ball\r\n\r\nPanel 2:\r\n\t20\tFL V16 N67 (mon)\r\n\t\t\tRange to splash \t\tXXXX.X NM\r\n\t\t\t\t(+ overshoot)\r\n\t\t\tLat present position\t\tXXX.XX DEG\r\n\t\t\t\t(+N)\r\n\t\t\tLong present position\t\tXXX.XX DEG\r\n\t\t\t\t(+E)\r\n\t\t\t\t\t(V REL = 1000 fps at ≈65K')\r\n\r\n\t\t\tIf Rl = -, lift-up; +, lift-down\r\n\r\nPanel 1:\r\n\t\t\tMon altimeter\r\n\t\t\tRcd lat, long, & voice to RECY at 10K'\r\n\t\t\tRcd EMS RTOGO\r\n\t\t\tEMS MODE - STBY\r\n\t\t\tEMS FUNC - OFF\r\n\r\n\t21\tGo to Earth Ldg Phase (<50K')\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "checklistText": "\r\tLUNAR ENTRY\r\n\nThroughout the checklist, time to CM/SM separation is used as a timing guideline.\n\nRequesting Entry PAD:\npress CREW MEMBERS -> REQUEST PADS -> REQUEST ENTRY PAD\n\nSETTING THE EVENT TIMER (-01:00h count down)\n- Set event timer to 1 hour, count down.\n- Plan a deorbit burn with entry angle of 6.5°\n- Make note of the Time to EI\n- CM/SM separation should happen 12 minutes before EI\n- Start event timer then time to CM/SM sep is -01:00h.\r\n\n\tDEORBIT OR LUNAR RETURN VEHICLE\r\n\tPREPARATION\r\n\r\r\n\t(Proced in \"General System Management\" thru \"Systems Preparation\" not\r\n\t\tdesignated as \"req\" are optional)\r\n\r\n\r\r\n\t\tGeneral System Management\r\n\r\n\t\tCab Cold Soak Oper (GETI or EI minus 8 to 12 hrs)\r\n\r\n\tor\tIf no cold-soak\r\n382:\r\t\tSEC EVAP H2O CONT - AUTO (req)\r\n\r\n\t\tIf lunar return\r\n\t\t\tCMC - on\r\n\t\t\tISS - on\r\n\t\t\tSCS - on (req)\r\n\t\t\tDAP Data Load - complete\r\n\r\n\t1\tObtain update & entry data from MSFN\r\n\r\n\t2\tIf deorbit\r\n\t\t Configure TLM (req)\r\nPanel 3:\r\n\t\t\tTAPE RCDR FWD - off (ctr)\r\n\t\t\tPCM BIT RATE - HI\r\n\t\t\tUP TLM CMD - RSET, then NORM\r\n\r\n\t\tPropul Sys Checks, \"SPS Monitoring Check\" thru \"CM RCS Monitoring Check\"\r\n\r\n\t3\tIf lunar return\r\n\t\t Configure telcom (req)\r\n\t\t\tVHF AM A - SIMPLEX\r\n\t\tPropul Sys Checks\r\n\r\n\t4\tEPS DC & AC checks\r\n\t\t\tPYRO BAT A & B >35 vdc (verify)\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\t     \t\t\t\tx\r\n\t\t  If PYRO BAT A(B) <35 vdc\r\n\r\n\t\t  Panel 250:\r\n\t\t\tcb PYRO A(B)/SEQ A(B) - open\r\n\t\t\tcb BAT BUS A(B) TO PYRO BUS - close\r\n\t\tx\t\t\t\t\t     \t\t\t\tx\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\r\n\t5\tECS Mon Check\r\nPanel 352:\r\n\t6\tSKIP: Stow gas separator cartridges (req)\r\n\t\t\tRemove separator bags from stowage\r\n\t\t\tDisconnect separators from water\r\n\t\t\t\tpistol & food prep unit\r\n\t\t\tPlace separators in stowage bags\r\n\t\t\tStow separators\r\n\r\n\t7\tSKIP: Stow loose gear (req)\r\n\r\n\t8\tSKIP: Dry tunl\r\n\r\n\t9\tCMC Self-Check Proced\r\n\r\n\t10\tDSKY Condition Lt Check\r\n\r\n\t11\tC&WS Oper Check\r\n\r\n\t12\tP52 IMU Align\r\n\r\n\r\n\t\t\tRSI Test and Alignment\r\n\r\nPanel 7:\r\n\t\tELEC PWR - GDC/ECA\r\n\r\nPanel 1:\r\n\t\tATT SET - GDC\r\n\r\n\t1\tEMS ROLL - on (up)\r\n\t\tGDC ALIGN pb - push, hold\r\n\t\tATT SET YAW tw - adj thru 45° angle,\r\n\t\t\tobserve RSI tracks ≈45°, then position\r\n\t\t\tRSI\r\n\t\tGDC ALIGN pb - rel\r\n\t\tEMS ROLL - OFF\r\n\r\n\t2\tATT SET YAW tw - reset\r\n\t\tGDC ALIGN pb - push (32 sec max)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\t\tEMS Entry Test\r\n\r\n\t1\tInit EMS prep\r\n\r\n1:\r\t\t\tEMS FUNC - OFF (verify)\r\n8:\r\t\t\tcb EMS (2) - close\r\n1:\r\t\t\tEMS MODE - STBY\r\n\r\n\t2\tEMS FUNC - EMS TEST 1 (CCW)\r\n\t\t\tWait 5 sec\r\n\t\t\tEMS MODE - NORM\r\n\t\t\tWait 10 sec min\r\n\t\t\tAll ind lts - out\r\n\t\t\tRNG ind - 0.0\r\n\t\t\tSlew scroll until hairline superimposed\r\n\t\t\t\ton notch in next self-test pattern\r\n\r\n\t3\tEMS FUNC - EMS TEST 2\r\n\t\t\tWait 10 sec\r\n\t\t\t.05 G lt - on (all others out)\r\n\r\n\t4\tEMS FUNC - EMS TEST 3\r\n\t\t\t.05 G lt - on\r\n\t\t\tLIFT vector dn lt - on (10 sec after\r\n\t\t\t\t.05 G lt)\r\n\t\t\tSet RNG ind to 58.0±0.0 NM\r\n\r\n\t5\tEMS FUNC - EMS TEST 4\r\n\t\t\t.05 G lt - on (all others out)\r\n\t\t\tG-V trace (during 10 sec period) within\r\n\t\t\t\ttest pattern\r\n1:\r\t\t\tAfter 10 sec, G-V trace stops at lower\r\n\t\t\tright corner of test pattern at ≈9 G\r\n\t\t\tRNG ind (during 10 sec period) counts\r\n\t\t\ttoward zero. After 10 sec, stops\r\n\t\t\tat ≈0.0±0.2 G\r\n\r\n\t6\tEMS FUNC - EMS TEST 5\r\n\t\t\t.05 G lt - on\r\n\t\t\tLift vector up lt - on (10 sec after\r\n\t\t\t\t.05 G lt)\r\n\t\t\tRNG ind - 0.0\r\n\t\t\tScribe traces vert line ≈9 G to\r\n\t\t\t\t0.28±0.1 G & stops (trace within\r\n\t\t\t\ttest pattern)\r\n\t\t\tAlign G-V scroll to entry pattern\r\n\t\t\t\t(hairline on 37K fps line)\r\n\r\n\t7\tEMS FUNC - RNG SET\r\n\t\t\tG-V traces vert line ≈0.28 G to\r\n\t\t\t\t0.0±0.1 G & stops\r\n\t\t\tIf lunar return\r\n\t\t\t\tSlew RNG ind to pred RTOGO from .05 G\r\n\r\n\t8\tEMS FUNC - Vo SET\r\n\n\t\t\t\tCAUTION\r\n\r\n\t\t\tNever slew scroll in incr direction\r\n\t\t\tmore than 1500 fps. Ensures\r\n\t\t\trange integrator remains slaved\r\n\t\t\tto scroll velocity.\r\n\r\n\t\t\tSlew scroll until display index (arrow)\r\n\t\t\t\taligned to pred entry velocity\r\n\r\n\t\tThis is the velocity at EI.\r\n\t\tEarth: 25.000 ft/s\r\n\t\tLunar: 36.500 ft/s\r\n\r\n\r\n\t9\tΔV Test & Null Bias Check\r\n\r\n\r\n\t\t\t\tSystems Preparation\r\n\r\n\t\tIf suited\r\n\t\t\tPress Suit Circuit & PGA Check at\r\n\t\t\t\t5.0 psia\r\n\t\t\tMae Wests - donned\r\n\r\n351:\r\t\t\tEMER CAB PRESS sel - OFF\r\n\r\nEI or GETI\r\n-1:00:00\r\n\t1\tCM RCS temp check\r\nPanel 101:\r\n\t\tSYS TEST (2) - 5C, 5D, 6A, 6B, 6C, 6D\r\n\r\n\t\tIf lowest reading <3.9 vdc (28°F)\r\nPanel 8:\t\tcb CM RCS HTRS (both) - close\r\n\t\t\tcb RCS LOGIC (2) - close\r\nPanel 1:\t\tCM RCS LOGIC - on (up)\r\nPanel 101:\t\tCM RCS HTRS - on (up) for 20 min\r\n\r\n\r\n\t2\tURINE DUMP - OFF\r\n\t\r\n\t3\tWASTE H2O DUMP - OFF\r\n\r\n\t4\tAlign RSI & GDC\r\n\r\n\t5\tIf deorbit\r\n\t\t\tSet FDAI 2 on ORB RATE & restow\r\n\r\n\t6\tCM RCS heating completion (if accomplished)\r\n\r\n-40:00\r\nPanel 101:\r\n\t\tCM RCS HTRS - OFF\r\n\r\n\t7\tConfigure entry bats (req)\r\n\r\nPanel 275:\r\n\t\tcb MNA BAT C - close\r\n\t\tcb MNB BAT C - close\r\n\r\n\t8\tIf SPS deorbit\r\n\t\t\tCryo 02 & H2 Man Fan Opera\r\n\r\nPanel 8:\r\n\t9\tPanel 8 - all cb closed except (req)\r\n\t\t\tcb PL VENT FLT/PL - open\r\n\t\t\tcb FLOAT BAG (all) - open\r\n\t\t\tcb EDS (all) - open\r\n\t\t\tcb CM RCS HTR (both) - open\r\n\r\n\t\tIf lunar return\r\n\t\t\tcb SPS PITCH (both) - open\r\n\t\t\tcb SPS YAW (both) - open\r\n\r\n\t10\tSequencer & CM RCS activation (req)\r\n\t\t\tAfter MSFN AOS\r\n\t\t\t\tSECS LOGIC (both) - on (up)\r\n\t\t\t\tReport logic arm\r\n\r\nPanel 1:\r\n\t\t\t\tELS AUTO - AUTO\r\n\t\t\t\tELS LOGIC - on (up)\r\n\t\t\tAfter GO from MSFN\r\n\t\t\t\tELS AUTO - MAN\r\n\t\t\t\tELS LOGIC - OFF\r\n\r\nPanel 8:\r\n\t\t\t\tSECS PYRO ARM (2) - on (up)\r\n\r\nPanel 2:\r\n\t\t\t\tCM RCS PRPLNT (both) - on (up) (verify)\r\n\t\t\t\tCM RCS PRPLNT tb (both) - gray\r\n\r\n\r\n\t\t\t\tCM RCS PRESS - on (up)\r\n\t\t\t\tRCS IND sel - CM 1, then 2\r\n\t\t\t\t\tCM RCS He PRESS ind - 3300-3500 psia\r\n\t\t\t\t\t\t(after ≈15 min)\r\n\t\t\t\t\tCM RCS MANF PRESS ind - 287-302 psia\r\n\r\n\t11\tIf deorbit\r\n\t\t\tSM RCS SEC FUEL PRESS (4) - OPEN\r\n\r\n\t\t\tRCS IND sel - SM A\r\n\r\n\t12\tIf  docking ring still in place (req)\r\n\t\t\tCSM/LM FNL SEP (both) - on (up)\r\n\r\n\r\nPanel 8:\r\n\t13\tSECS PYRO ARM (2) - SAFE\r\n\r\n\t14\tIf lunar return, test CM RCS jets\r\n\r\nPanel 1:\r\n\t\tSC CONT - SCS\r\n\r\nPanel 2:\r\n\t\tRCS TRNFR - CM\r\n\r\nPanel 8:\r\n\t\t\tAUTO RCS CM 1 (6) - MNA\r\n\t\t\tAUTO RCS CM 2 (6) - MNB\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNA (3) - open\r\n\t\t\tTest ring 2 jets\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNA (3) - close\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNB (3) - open\r\n\t\t\tTest ring 1 jets\r\n\t\t\tcb B/D ROLL, SCS PITCH & SCS YAW\r\n\t\t\t\tMNB (3) - close\r\nPanel 2:\r\n\t\tRCS TRNFR - SM\r\n\r\nPanel 1:\r\n\t\tSC CONT - CMC\r\n\r\n\r\n-30:00\r\n\t15\tIf lunar return\r\n\r\nPanel 3:\r\n\t\tTAPE RCDR FWD - REWIND\r\n\r\n\t16\tIf hatch counterbalance deactivated\r\n\t\t\tfor EVA (req)\r\n\t\t\t\tActivate counterbalance\r\n\t\t\t\t\tmechanism\r\n\r\n\t17\tStrut unlock lanyard (2) - unstow &\r\n\t\tattach handle ends to MDC (req)\r\n\r\n\t18\tIf SCS, sel POO\r\n\r\n\t19\tIf deorbit\r\n\t\t\tGo to THRUSTING\r\n\r\n\t20\tIf lunar return\r\n\t\t\tGo to CM/SM Sep\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\t\t\tCM/SM SEPARATION\r\n\r\n\t1\tIf SM RCS deorbit or lunar return\r\n\r\n\r\n\r\n\t\t\t\tCAUTION\r\n\r\n\t\t\tIf either bat bus A(B) current\r\n\t\t\tfails to incr after cycling MN\r\n\t\t\tBUS TIE switch, configure bats\r\n\t\t\tto mn buses using cb BAT C TO\r\n\r\nPanel 250:\r\n\t\t\tBAT BUS A(B)\r\n\r\n-12:00\r\nPanel 5:\tMN BUS TIE BAT A/C - on (up)\r\n\t\t\tVerify bat bus A current incr &/or\r\n\t\t\t\tbat volt decr\r\n\t\tMN BUS TIE BAT B/C - on (up)\r\n\t\t\tVerify bat bus B current incr &/or\r\n\t\t\t\tbat volt decr\r\n\r\n\t2\tConfigure RCS\r\nPanel 8:\tAUTO RCS B/D ROLL B1 & B2 - MNA\r\n\t\tAUTO RCS B/D ROLL D1 & D2 - MNB\r\n\t\tAUTO RCS PITCH A3 & C4 - MNB\r\n\t\tAUTO RCS PITCH C3 & A4 - MNA\r\n\t\tAUTO RCS YAW B3 & D4 - MNA\r\n\t\tAUTO RCS YAW D3 & B4 - MNB\r\n\r\nPanel 2:\r\n\t\tSM RCS PRPLNT (4) - OPEN (verify)\r\n\r\n\t\tSM RCS PRPLNT tb (8) - gray (verify)\r\n\r\n\t\tSM RCS SEC FUEL PRESS (4) - OPEN (verify)\r\n\r\n\t3\tMnvr to sep att\r\n\r\n\r\n\t\tIf CMC cont\r\n\r\nPanel 1:\r\n\t\t\tSC CONT - SCS\r\n\r\n\t\tor\tCMC MODE - FREE\r\n\r\n\t\r\n\t4\tIf earth orb\r\n\r\nPanel 2:\r\n\t\t\tRCS TRNFR - CM\r\n\t\t\tTest jets\r\n\r\n\t\t\tRCS TRNFR - SM\r\n\r\nPanel 1:\r\n\t5\tATT DBD - MAX\r\n\t\tRATE - HI\r\n\r\n\t6\tConfigure telcom\r\n\r\nPanel 3:\r\n\t\t\tVHF AM (2) - off (ctr)\r\n\t\t\tS BD ANT OMNI A - C\r\n\t\t\tS BD ANT OMNI - OMNI\r\n\t\t\tIf RCS deorbit\r\n\t\t\t\tTAPE RCDR FWD - FWD\r\n\r\n-08:00\r\n\t7\tPreload bats\r\n\r\nPanel 3:\r\n\t\tFC2 MNA - OFF\r\n\t\tFC2 MNA tb - bp\r\n\r\n-05:00\r\nPanel 5:\r\n\t\tFC PUMPS (all) - OFF\r\n\r\nPanel 2:\r\n\t\tHI GAIN ANT PWR - OFF\r\n\r\n\r\n\t8\tConfigure ECS\r\n\r\nPanel 325:\r\n\t\tPRIM GLY TO RAD - BYP (pull)\r\n\r\nPanel 326:\r\n\t\tREPRESS PKG vlv - FILL\r\n\t\tSURGE TK - ON (verify)\r\n\r\nPanel 2:\r\n\t\tO2 PRESS IND sw - SURGE TK\r\n\t\tCRYO O2 PRESS 1 ind - 865-935 psia\r\n\r\nPanel 326:\r\n\t\tREPRESS PKG vlv - ON\r\n\t\tSM O2 SUP vlv - OFF\r\n\r\nPanel 5:\r\n\t\tcb ECS RAD CONT/HTRS (2) - open\r\n\t\tcb WASTE H2O/URINE DUMP HTRS (2) - open\r\n\t\tcb RAD HTRS OVLD (2) - open\r\n\r\nPanel 2:\r\n\t\tPOT H2O HTR - OFF\r\n\r\n\t9\tArm SECS\r\n\r\nPanel 8:\r\n\t\t\tSECS LOGIC (both) - on (up) (verify)\r\n\t\t\tSECS PYRO ARM (2) - on (up)\r\n\r\nPanel 2:\r\n\t10\tPRPLNT DUMP - RCS CMD (verify)\r\n\r\nPanel 1:\r\n\t\tEMS MODE - STBY (verify)\r\n\r\n\t11\tSep from SM\r\n\r\nPanel 2:\r\n00:00\t\tCM/SM SEP (both) - on (up)\r\n\t\t\tSM C/W lts - on\r\n\t\t\tC/W CSM - CM\r\n\r\nPanel 1:\r\n\t\t\tMASTER ALARM PB/LT - ON, PUSH\r\n\r\nPanel 2:\r\n\t\t\tSM C/W lts - out\r\n\t\tRCS TRNFR - CM\r\n\r\nPanel 1:\r\n\t\tCM RCS LOGIC - OFF\r\n\r\n\t12\tSel Att Cont mode\r\n\t\tMnvr to entry att (or to SM RCS deorbit\r\n\t\t\tatt if hybrid deorbit)\r\n\t\t\t\tR____, P____, Y____\r\n\r\n\t13\tSet up for CM/RCS sys 1 (omit for\r\n\t\t\thybrid deorbit)\r\n\r\nPanel 8:\r\n\t\t\tAUTO RCS A/C ROLL (4) - OFF\r\n\t\t\tAUTO RCS CM 1 (6) - MNA or MNB\r\n\t\t\tAUTO RCS CM 2 (6) - OFF\r\n\r\n\t14\tGo to P61 Entry Prep\r (below)\n\r\n\r\n\tG&N ENTRY\r\n\tP61 Entry Preparation\r\n\r\n\t\tRequired\r\n\t\t\tCMC - on\r\n\t\t\tISS - on & orient known\r\n\t\t\tSCS - on\r\n\r\nPanel 2:\r\n\t1\tDSKY - P61 (sel at end of deorbit burn)\r\n\tor\tKey V37E 61E\r\n\r\n\t\t\tPoss PROG alarm\r\n\r\n\t\t(R41 - State Vector Integration)\r\n\r\n\t\tCOMP ACTY lt - on (R41)\r\n\t\tCOMP ACTY lt - flashes every 2 sec\r\n\t\t\t(ave G on)\r\n\r\n\t\t\tPoss PROG alarm\r\n\t\t\t\tV05 N09 (10 sec)\r\n\t\t\t\t\t01427 (IMU reversed)\r\n\r\n\t\t\tor\t01426 (IMU unsatisfactory\r\n\t\t\t\t\tfor entry)\r\n\r\n\t2\tFL V06 N61\r\n\t\t\tImpact Lat (+N)\t\tXXX.XX DEG\r\n\t\t\tImpact Long (+E)\tXXX.XX DEG\r\n\t\t\tHds Up/Dn (+up)\t\t+/-00001\r\n\r\n\t\t\tAccept\tPRO\r\n\t\t\tReject\tV25E, load desired values\r\n\r\n\t3\tFL V06 N60 (entry data)\r\n\t\t\tG max\t\t\tXXX.XX G\r\n\t\t\tV pred\t\t\tXXXXX. FPS\r\n\t\t\tGamma EI\t\tXXX.XX DEG\r\n\r\n\t\t\tRcd values\r\n\t\t\tPRO\r\n\r\n\t4\tFL V16 N63\r\n\r\n\t\t\tRTOGO (.05 G to splash) XXXX.X NM\r\n\t\t\tVIO (at .05 G)\t\tXXXXX. FPS\r\n\t\t\tTFE (time from .05 G)\t\tXXBXX MIN-SEC\r\n\r\n\r\n\r\n\t\tRCD & compare with MSFN\r\n\r\n\r\nPanel 1:\r\n\t\tEMS MODE - STBY\r\n\t\tEMS FUNC - RNG SET (CW)\r\n\t\tSet RNG ind - RTOGO from .05 G\r\n\t\t\t(MSFN value)\r\n\t\tAlign scroll Vo to exact entry velocity\r\n\t\t\t(if req)\r\n\r\n\r\n\r\n\t\tEMS FUNC - ENTRY\r\n\r\nPanel 2:\r\n\t\tAccept PRO (exit P61)\r\n\t\t\tP61 calls P62\r\n\t\t\tGo to G&N Entry\r\n\t\tReject\tV32E, recycle to 3\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\tP62, P63, P64, P65, P66, P67 Entry\r\n\r\n\t\tRequired\r\n\t\t\tCMC - on\r\n\t\t\tISS - on & orient known\r\n\t\t\tSCS - on\r\n\r\nPanel 2:\r\n\t1 DSKY - P62\r\n\t\tAuto sel by P61 (bypasses state vctr\r\n\t\t\textrapolation reqt)\r\n\r\n\tor\tIf FL V37\r\n\t\t\tKey 62E\r\n\r\n\tor\tKey V37E 62E (ave G reinitiated)\r\n\r\n\t\t\t\tPoss PROG alarm\r\n\r\n\t\t\t(R41 - State Vector Integration)\r\n\r\n\tCOMP ACTY lt - on (R41)\r\n\tCOMP ACTY lt - flash every 2 sec (ave G on)\r\n\r\n\t\t\tPoss PROG alarm\r\n\t\t\t\tV05 N09 (10 sec)\r\n\t\t\t\t\t01427 (IMU reversed)\r\n\r\n\r\n\t\t\tor\t01426 (IMU unsatisfactory\r\n\t\t\t\t\tfor entry)\r\n\r\nPanel 2:\r\n\t2\tFL V50 N25\r\n\t\t\t00041 (request CM/SM sep)\r\n\r\n\r\n\t3\tPRO\r\n\r\n\t4\tFL V06 N61\r\n\t\t\tImpact lat (+N)\t\tXXX.XX DEG\r\n\t\t\tImpact long (+E)\tXXX.XX DEG\r\n\t\t\tHds up/down (+Hds up)\t+/-00001\r\n\r\n\t\t\tAccept\tPRO\r\n\t\t\t\tIf α <45° - DSKY P63,\r\n\t\t\t\t\tgo to 6\r\n\t\t\tReject\tV25E, load new data\r\n\r\n\t5\tV06 N22 (mon)\r\n\t\t\tR, P, Y\t\t\tXXX.XX DEG\r\n\r\n\t\tIf α >45°\r\n\t\t\t21 sec after α <45°, DSKY P63\r\n\t\r\n\t6\tORDEAL Pitch - ____° (Hds up)\r\n\t\tORDEAL Pitch - ____° (Hds down)\r\n\r\n\t7\tDSKY - P63\r\n\r\n\t8\tAfter CM/SM sep & CM stab at entry att\r\n\r\nPanel 1:\r\n\t\t\tEMS MODE - NORM\r\n\r\n\r\n\r\n\r\n\t\tATT DBD - MAX\r\n\t\tRATE - HI\r\n\t\tFDAI SCALE - as desired\r\n\r\nPanel 1,2:\r\n\t\tMon FDAIs & RSI\r\n\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\t\tx\r\n\t\t  \tIf abnormal veh dynamics\r\n\t\t\tDamp rates with dir RCS\r\n\r\nPanel 1:\r\n\t\t\t\tRHC PWR DIR (both) - OFF\r\n\r\n\t\t  \tIf abnormal veh dynamics continue\r\n\t\t\t\tRHC PWR DIR (both) - MNA/MNB\r\n\t\t\t\tDamp rates with dir RCS\r\n\r\nPanel 8:\r\n\t\t\tAUTO RCS (affected axis) - OFF\r\n\t\t\tContinue with dir RCS (affected axis)\r\n\t\tx\t\t\t\t\t\tx\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\nPanel 2:\r\n\r\n\t9\tV06 N64 (mon)\r\n\t\t\tDrag accel\t\tXXX.XX G\r\n\t\t\tVI\t\t\tXXXXX. FPS\r\n\r\n\t\t\tRange to splash\t\tXXXX.X NM\r\n\t\t\t\t(+ overshoot)\r\n\r\nPanel 3:\r\n\t\tPCM BIT RATE - HI\r\n\t\tTAPE RCDR RCD - RCD\r\n\t\tTAPE RCDR FWD - FWD\r\n\r\nPanel 1:\r\n\t\tBMAG MODE (3) - RATE 2\r\n\r\n\r\n\r\n\t\tMAN ATT (3) - RATE CMD\r\n\t\tSC CONT - CMC\r\n\r\n\t\tCMC MODE - AUTO, HOLD, or FREE\r\n\r\nPanel 2:\r\n\t\tDSKY - P64 (at .05 G)\r\n\r\n\r\nPanel 1:\r\n\t\t.05 G sw - on (up)\r\n\t\tEMS ROLL - on (up)\r\n\r\n\t\t.05 G lt - on\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t\t    x\r\n\t\t  If no .05 G indication by RET .05 G\r\n\t\t\t+3 sec\r\n\t\t\t\tEMS MODE - BU\r\n\t\tx\t\t\t\t\t    x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\t\tScroll slews to left\r\n\t\tRNG ind decr\r\n\r\nPanel 2:\r\n\t10\tV06 N74 (mon)\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\tVI\t\t\tXXXXX. FPS\r\n\t\t\tDrag accel\t\tXXX.XX G\r\n\r\n\r\nPanel 1:\r\n\t\tCompare RSI & ball for lift vctr\r\n\t\t\tG-V plot within limits\r\n\r\n\r\nPanel 2:\r\n\t11\tIf DSKY - P67\r\n\t\t\tGo to 18\r\n\r\n\r\n\t12\tDSKY - P65 (entry up-cont)\r\n\t\t\tIndicates VI ≥27K fps & constant drag\r\n\t\t\t\tcont has brought range prediction\r\n\t\t\t\tto within 25 NM of desired range\r\n\r\n\r\nPanel 1:\r\n\t\tEMS disp - approach DSKY disp DL & VL\r\n\r\nPanel 2:\r\n\r\n\t13\tFL V16 N69 (computed exit conditions)\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\tDL\t\t\tXXX.XX G\r\n\t\t\tVL\t\t\tXXXXX. FPS\r\n\r\n\t\tRcd data for later use with EMS\r\n\r\nPanel 2:\r\n\t\tPRO\r\n\r\n\t\tFDAI att err _________ deg\r\n\t\t\trates ________ deg/sec\r\n\r\n\t14\tV06 N74\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\tVI\t\t\tXXXXX. FPS\r\n\t\t\tDrag accel\t\tXXX.XX G\r\n\r\n\t15\tIf DSKY - P67\r\n\t\t\tGo to 18\r\n\r\n\t16\tDSKY - P66 (entry-ballistic)\r\n\r\n\t17\tV06 N22 (desired gmbl angles)\r\n\t\t\tR, P, Y\t\t\tXXX.XX DEG\r\n\r\n\t\tCheck FDAI tot att = DSKY values\r\n\t\t\tFDAI att err <_______ deg\r\n\t\t\t\trates <______ deg/sec\r\n\t\t\r\n\t\t(Three-axis DAP cont regained when <.05 G\r\n\t\t\tsensed, & relinquished when .05 G again\r\n\t\t\tsensed)\r\n\r\n\t18\tDSKY - P67\r\n\r\nPanel 1:\r\n\t\t\tEMS - 0.2 G (if 10 sec since .05 G)\r\n\r\n\t19\tV06 N66 (mon)\r\n\t\t\tBeta\t\t\tXXX.XX DEG\r\n\t\t\t\r\n\r\n\t\t\tCRSRNG ERR\t\tXXXX.X NM\r\n\r\n\r\n\t\t\tDWNRNG ERR\t\tXXXX.X NM\r\n\r\n\t\t\tKey VERB (freeze disp)\r\n\t\t\t\tCompare DWNRNG ERR to pad data\r\n\t\t\t\t\t(DWNRNG ERR within 100 NM of\r\n\t\t\t\t\tpad data)\r\n\r\n\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\t\tx\t\t\t\t    x\r\n\t\t  If DWNRNG ERR not within 100 NM\r\n\t\t\tMaintain BBA entry\r\n\t\tx\t\t\t\t    x\r\n\t\txxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\r\n\r\n\r\n\t\tKEY REL (reinstates V06 N66 mon)\r\n\r\nPanel 1:\r\n\t\tFly roll cmd\r\n\t\tMon lift vctr on RSI & ball\r\n\r\nPanel 2:\r\n\t20\tFL V16 N67 (mon)\r\n\t\t\tRange to splash \t\tXXXX.X NM\r\n\t\t\t\t(+ overshoot)\r\n\t\t\tLat present position\t\tXXX.XX DEG\r\n\t\t\t\t(+N)\r\n\t\t\tLong present position\t\tXXX.XX DEG\r\n\t\t\t\t(+E)\r\n\t\t\t\t\t(V REL = 1000 fps at ≈65K')\r\n\r\n\t\t\tIf Rl = -, lift-up; +, lift-down\r\n\r\nPanel 1:\r\n\t\t\tMon altimeter\r\n\t\t\tRcd lat, long, & voice to RECY at 10K'\r\n\t\t\tRcd EMS RTOGO\r\n\t\t\tEMS MODE - STBY\r\n\t\t\tEMS FUNC - OFF\r\n\r\n\t21\tGo to Earth Ldg Phase (<50K')\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
   "Steps": [
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Request ENTRY PAD"
+      "Text": "Request ENTRY PAD",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Set EVENT TIMER to 59:59 with counting direction set to down (stopped)"
+      "Text": "Set EVENT TIMER to 59:59 with counting direction set to down (stopped)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When time to CM/SM Sep is 1 hour, start the event timer."
+      "Text": "When time to CM/SM Sep is 1 hour, start the event timer.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 38,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P382_EvapWaterControlSecondary to position 1 (3/38)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 233,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SqB_TapeSpool to Middle (1/233)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 236,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Up (1/236)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 223,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set UpTlmCmd to Up (1/223)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 223,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set UpTlmCmd to Middle (1/223)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 226,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SqA_VHFAmA to Down (1/226)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 2,
       "ToPosID": 9,
-      "Text": null
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 9 (3/2)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    PYRO BAT A > 35 vdc"
+      "Text": "    PYRO BAT A > 35 vdc",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 2,
       "ToPosID": 10,
-      "Text": null
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 10 (3/2)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    PYRO BAT B > 35 vdc"
+      "Text": "    PYRO BAT B > 35 vdc",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "If PYRO BAT A(B) <=34 vdc, refer to checklist."
+      "Text": "If PYRO BAT A(B) <=34 vdc, refer to checklist.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "EMS ENTRY CHECK"
+      "Text": "EMS ENTRY CHECK",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 132,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSMNA to Closed (2/132)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 133,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSMNB to Closed (2/133)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 11,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 11 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait 5 seconds in EMS TEST 1"
+      "Text": "Wait 5 seconds in EMS TEST 1",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait 10 seconds in EMS TEST 1"
+      "Text": "Wait 10 seconds in EMS TEST 1",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    lights - off"
+      "Text": "    lights - off",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    RANGE ind - 0.0"
+      "Text": "    RANGE ind - 0.0",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 10,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 10 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait 10 seconds in EMS TEST 2"
+      "Text": "Wait 10 seconds in EMS TEST 2",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    .05G lt - on (all others out)"
+      "Text": "    .05G lt - on (all others out)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 9,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 9 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait 10 seconds in EMS TEST 3"
+      "Text": "Wait 10 seconds in EMS TEST 3",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    .05G lt - on"
+      "Text": "    .05G lt - on",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    RSI lower lt - on"
+      "Text": "    RSI lower lt - on",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Use the EMS SET to set RANGE to 58 NM"
+      "Text": "Use the EMS SET to set RANGE to 58 NM",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 8,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 8 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait 10 seconds in EMS TEST 4"
+      "Text": "Wait 10 seconds in EMS TEST 4",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    .05G lt - on (all others out)"
+      "Text": "    .05G lt - on (all others out)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    G-V trace within pattern"
+      "Text": "    G-V trace within pattern",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    RANGE ind counts down to 0 +/-0.2"
+      "Text": "    RANGE ind counts down to 0 +/-0.2",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 7,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 7 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait 10 seconds in EMS TEST 5"
+      "Text": "Wait 10 seconds in EMS TEST 5",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    .05G lt - on"
+      "Text": "    .05G lt - on",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    RSI upper lt - on"
+      "Text": "    RSI upper lt - on",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    RANGE ind - 0.0"
+      "Text": "    RANGE ind - 0.0",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    Scribe traces vertical line 9g to 0.28 +/-0.1"
+      "Text": "    Scribe traces vertical line 9g to 0.28 +/-0.1",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ALIGN SCROLL TO ENTRY PATTERN (on 37K ft/sec line, start of pattern)"
+      "Text": "ALIGN SCROLL TO ENTRY PATTERN (on 37K ft/sec line, start of pattern)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 6 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "G-V scroll traces vertical line 0.28g to 0"
+      "Text": "G-V scroll traces vertical line 0.28g to 0",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "This completes the EMS Entry check"
+      "Text": "This completes the EMS Entry check",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 45,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 2 (3/45)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "-1:00:00 CM RCS temp check. If lowest reading of below checks <3.9 vdc (28°F):"
+      "Text": "-1:00:00 CM RCS temp check. If lowest reading of below checks <3.9 vdc (28°F):",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS 24:"
+      "Text": "    CM RCS 24:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 55,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 5 (3/55)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 56,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 2 (3/56)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS 25:"
+      "Text": "    CM RCS 25:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 56,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 3 (3/56)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS 12:"
+      "Text": "    CM RCS 12:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 55,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 6 (3/55)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 56,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 0 (3/56)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS 14:"
+      "Text": "    CM RCS 14:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 56,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 1 (3/56)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS 16:"
+      "Text": "    CM RCS 16:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 56,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 2 (3/56)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS 21:"
+      "Text": "    CM RCS 21:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 56,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 3 (3/56)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Then turn on the HTRS:"
+      "Text": "Then turn on the HTRS:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 68,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set CMHtr1 to Closed (2/68)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 69,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set CMHtr2 to Closed (2/69)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 50,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogicMNA to Closed (2/50)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 51,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogicMNB to Closed (2/51)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 156,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogic to Up (1/156)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 157,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_RCS_Heaters to Up (1/157)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "And keep them on(up) for 20 min"
+      "Text": "And keep them on(up) for 20 min",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "If CM RCS temp is fine, continue from here"
+      "Text": "If CM RCS temp is fine, continue from here",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 270,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set UrineDumpHtr to Middle (1/270)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 269,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set WasteH2ODumpHtr to Middle (1/269)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "-40:00"
+      "Text": "-40:00",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 157,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_RCS_Heaters to Down (1/157)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 137,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainABatC to Closed (2/137)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 138,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBBatC to Closed (2/138)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 66,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCAC1 to Closed (2/66)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 36,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSAC1 to Closed (2/36)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 37,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSAC2 to Closed (2/37)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 67,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCAC2 to Closed (2/67)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 64,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DirectUllageMNA to Closed (2/64)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DirectUllageMNB to Closed (2/65)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 38,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller1DirectMNA to Closed (2/38)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 39,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller1DirectMNB to Closed (2/39)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 40,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller2DirectMNA to Closed (2/40)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 41,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller2DirectMNB to Closed (2/41)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 42,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ACRollMNA to Closed (2/42)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 43,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ACRollMNB to Closed (2/43)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 44,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set BDRollMNA to Closed (2/44)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 45,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set BDRollMNB to Closed (2/45)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 46,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PitchMNA to Closed (2/46)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 47,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PitchMNB to Closed (2/47)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 48,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set YawMNA to Closed (2/48)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 49,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set YawMNB to Closed (2/49)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 172,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ORDEALAC2 to Closed (2/172)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 173,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ORDEALMNB to Closed (2/173)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 54,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerAutoMNA to Closed (2/54)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 55,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerAutoMNB to Closed (2/55)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 128,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic12MNA to Closed (2/128)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 130,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic34MNA to Closed (2/130)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 129,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic12MNB to Closed (2/129)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 131,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic34MNB to Closed (2/131)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 126,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSSystemMNA to Closed (2/126)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 127,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSSystemMNB to Closed (2/127)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 68,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set CMHtr1 to Open (2/68)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 69,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set CMHtr2 to Open (2/69)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 56,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadAHeaters to Closed (2/56)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 58,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadCHeaters to Closed (2/58)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 57,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadBHeaters to Closed (2/57)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 59,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadDHeaters to Closed (2/59)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 52,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PrplntIsolMNA to Closed (2/52)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 53,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PrplntIsolMNB to Closed (2/53)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 50,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogicMNA to Closed (2/50)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 51,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogicMNB to Closed (2/51)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 132,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSMNA to Closed (2/132)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 133,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSMNB to Closed (2/133)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 134,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DockProbeMNA to Closed (2/134)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 135,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DockProbeMNB to Closed (2/135)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 249,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNA to Closed (2/249)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 250,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNB to Closed (2/250)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 251,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC1 to Closed (2/251)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 252,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC2 to Closed (2/252)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSHeVlvMNA to Closed (2/60)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 61,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSHeVlvMNB to Closed (2/61)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 253,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_Pitch1BatA to Open (2/253)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 254,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_Pitch2BatB to Open (2/254)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 256,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_Yaw2BatB to Open (2/256)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 62,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSPilotVlvMNA to Closed (2/62)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 63,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSPilotVlvMNB to Closed (2/63)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 169,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EDSBatA to Open (2/169)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 171,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EDSBatC to Open (2/171)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 170,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set EDSBatB to Open (2/170)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 77,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ELSBatA to Closed (2/77)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 78,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ELSBatB to Closed (2/78)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 168,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PLVentFLTPL to Open (2/168)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 74,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FloatBag1 to Open (2/74)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 75,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FloatBag2 to Open (2/75)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 76,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FloatBag3 to Open (2/76)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 70,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic1 to Closed (2/70)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 71,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic2 to Closed (2/71)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 72,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmA to Closed (2/72)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 73,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmB to Closed (2/73)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 160,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 161,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 162,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 163,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 99,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CMPrplntT1 to Up (1/99)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 100,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CMPrplntT2 to Up (1/100)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 155,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_RCS_Press to Up (1/155)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 0 (3/6)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS He PRESS in - 3300-3500 psia"
+      "Text": "    CM RCS He PRESS in - 3300-3500 psia",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS MANF PRESS ind - 287-302 psia"
+      "Text": "    CM RCS MANF PRESS ind - 287-302 psia",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 1 (3/6)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS He PRESS in - 3300-3500 psia"
+      "Text": "    CM RCS He PRESS in - 3300-3500 psia",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CM RCS MANF PRESS ind - 287-302 psia"
+      "Text": "    CM RCS MANF PRESS ind - 287-302 psia",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "If docking ring still in place:"
+      "Text": "If docking ring still in place:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 266,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CSMLMSep1 to Up (1/266)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 267,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CSMLMSep2 to Up (1/267)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 162,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 163,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CM RCS TEST"
+      "Text": "CM RCS TEST",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 81,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 154,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSTransfer to Up (1/154)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 76,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Up (1/76)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 77,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Up (1/77)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Test Ring 1/2 RCS jets"
+      "Text": "Test Ring 1/2 RCS jets",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 154,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSTransfer to Down (1/154)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 81,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "-30:00"
+      "Text": "-30:00",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 233,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SqB_TapeSpool to Down (1/233)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CM/SM SEPARATION"
+      "Text": "CM/SM SEPARATION",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "-12:00"
+      "Text": "-12:00",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 256,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBusTieAC to Up (1/256)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 257,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBusTieBC to Up (1/257)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 57,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA1 to Middle (1/57)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC1 to Middle (1/65)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA2 to Middle (1/58)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC2 to Middle (1/66)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 61,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB1 to Up (1/61)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 62,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB2 to Up (1/62)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 69,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD1 to Down (1/69)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 70,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD2 to Down (1/70)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 59,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA3 to Down (1/59)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC4 to Down (1/68)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 67,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC3 to Up (1/67)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA4 to Up (1/60)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 63,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB3 to Up (1/63)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 72,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD4 to Up (1/72)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 71,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD3 to Down (1/71)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 64,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB4 to Down (1/64)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify SM RCS He 1/2 & Prim/Sec Prplnt then MNVR TO SEP ATT"
+      "Text": "Verify SM RCS He 1/2 & Prim/Sec Prplnt then MNVR TO SEP ATT",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 112,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 107,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AttDeadband to Up (1/107)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 106,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AttRate to Up (1/106)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 226,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SqA_VHFAmA to Middle (1/226)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 227,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SqA_VHFAmB to Middle (1/227)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 224,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SBandAntennaOmniABC to Down (1/224)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 225,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SBandAntennaOmniDHiG to Up (1/225)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "-08:00"
+      "Text": "-08:00",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 2,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FC2MNA to Down (1/2)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "-05:00"
+      "Text": "-05:00",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 184,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCellPumpA to Middle (1/184)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 185,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCellPumpB to Middle (1/185)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 186,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set FuelCellPumpC to Middle (1/186)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 212,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set HighGainServoPwr to Down (1/212)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Configure ECS"
+      "Text": "Configure ECS",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 167,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PrimaryGlycolToRadiators to Open (2/167)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 65,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 0 (3/65)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 67,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenSurgeTank to position 1 (3/67)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 170,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set O2PressInd to Down (1/170)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    CRYO O2 PRESS 1 ind - 865-935 psia"
+      "Text": "    CRYO O2 PRESS 1 ind - 865-935 psia",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 2 (3/65)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 66,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenSMSupply to position 0 (3/66)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 122,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorControllerHtrMNA to Open (2/122)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 123,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorControllerHtrMNB to Open (2/123)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 87,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set WasteH2OUrineDumpMNA to Open (2/87)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 88,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set WasteH2OUrineHtrMNB to Open (2/88)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 124,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorHtrsOvldBatA to Open (2/124)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 125,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorHtrsOvldBatB to Open (2/125)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 99,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PotWaterHtrMNA to Open (2/99)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 100,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PotWaterHtrMNB to Open (2/100)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 160,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 161,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 162,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 163,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 40,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PrplntDumpAuto to Down (1/40)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "00:00 - Sep from SM:"
+      "Text": "00:00 - Sep from SM:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 147,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_SM_Sep1 to Up (1/147)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 148,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_SM_Sep2 to Up (1/148)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 150,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CW_CSM_SM to Down (1/150)"
     },
     {
       "Program": 0,
       "Type": 4,
       "SetID": 36,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 154,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSTransfer to Up (1/154)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 156,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogic to Down (1/156)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "MNVR TO ENTRY ATT"
+      "Text": "MNVR TO ENTRY ATT",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 57,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA1 to Middle (1/57)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC1 to Middle (1/65)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA2 to Middle (1/58)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC2 to Middle (1/66)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY: Key V37E 61E"
+      "Text": "DSKY: Key V37E 61E",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FL V06 N61: Impact Lat/Long/Hds Up/Dn - Accept: PRO"
+      "Text": "FL V06 N61: Impact Lat/Long/Hds Up/Dn - Accept: PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FL V06 N60, record values: G max, V pred, Gamma EI. PRO"
+      "Text": "FL V06 N60, record values: G max, V pred, Gamma EI. PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FL V16 N63, record values: RTOGO, VIO (at .05G), TFE"
+      "Text": "FL V16 N63, record values: RTOGO, VIO (at .05G), TFE",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 6 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Set RNG ind - RTOGO from .05G"
+      "Text": "Set RNG ind - RTOGO from .05G",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 5 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Align scroll V0 to exact entry velocity"
+      "Text": "Align scroll V0 to exact entry velocity",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 4 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY: PRO, exit P61"
+      "Text": "DSKY: PRO, exit P61",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    P61 calls P62"
+      "Text": "    P61 calls P62",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify DSKY: P62"
+      "Text": "Verify DSKY: P62",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FL V50 N25 - 00041 (request CM/SM sep)\r"
+      "Text": "FL V50 N25 - 00041 (request CM/SM sep)\r",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY: PRO"
+      "Text": "DSKY: PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FL V06 N61 - Impact Lat/Long/Hds Up/Dn. Accept: PRO"
+      "Text": "FL V06 N61 - Impact Lat/Long/Hds Up/Dn. Accept: PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY: P63"
+      "Text": "DSKY: P63",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "After CM/SM sep & CM stab at entry att"
+      "Text": "After CM/SM sep & CM stab at entry att",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 107,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AttDeadband to Up (1/107)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 106,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AttRate to Up (1/106)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FDAI SCALE - as desired"
+      "Text": "FDAI SCALE - as desired",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "While automatic entry and RSI is in development, set CMC mode to FREE for manual control."
+      "Text": "While automatic entry and RSI is in development, set CMC mode to FREE for manual control.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 112,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY: V06 N64 - Drag acel, VI, Range to splash"
+      "Text": "DSKY: V06 N64 - Drag acel, VI, Range to splash",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY: Key V16 to monitor Drag accel (XXX.XX G) in R1"
+      "Text": "DSKY: Key V16 to monitor Drag accel (XXX.XX G) in R1",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 236,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Up (1/236)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 232,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SqB_PlayMode to Up (1/232)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 233,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SqB_TapeSpool to Up (1/233)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 113,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 114,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 115,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 109,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 110,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 111,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 81,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CMC MODE - FREE (verify)"
+      "Text": "CMC MODE - FREE (verify)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY - P64 (at .05 G)"
+      "Text": "DSKY - P64 (at .05 G)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 247,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Dot05gAllowed to Up (1/247)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 248,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSRoll to Up (1/248)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    .05 G lt - on"
+      "Text": "    .05 G lt - on",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    EMS Scroll slews to left"
+      "Text": "    EMS Scroll slews to left",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    RNG ind decr"
+      "Text": "    RNG ind decr",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DSKY: V06 N74 (mon) Beta, VI, Drag accel"
+      "Text": "DSKY: V06 N74 (mon) Beta, VI, Drag accel",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When DSKY: P67 - entry"
+      "Text": "When DSKY: P67 - entry",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    EMS - 0.2 G"
+      "Text": "    EMS - 0.2 G",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    V06 N66 (mon) - Beta, XRNG ERR, DRNG ERR"
+      "Text": "    V06 N66 (mon) - Beta, XRNG ERR, DRNG ERR",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "MNVR S/C DURING ENTRY"
+      "Text": "MNVR S/C DURING ENTRY",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Monitor Altimeter"
+      "Text": "Monitor Altimeter",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "    When Alt < 50K'"
+      "Text": "    When Alt < 50K'",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 145,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 15,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Go to Earth Ldg Phase (<50K')"
+      "Text": "Go to Earth Ldg Phase (<50K')",
+      "Description": "Manual step"
     }
   ],
   "Images": []

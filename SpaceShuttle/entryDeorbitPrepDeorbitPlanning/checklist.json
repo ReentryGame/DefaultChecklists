@@ -1,0 +1,12 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrepDeorbitPlanning",
+  "Group": "DEORBIT PREP",
+  "Name": "DEORBIT PLANNING",
+  "Side": 0,
+  "SortPriority": 501,
+  "AutoGenerate": true,
+  "checklistText": "<b>DEORBIT PLANNING</b>\n\nThe deorbit planning starts with finding a good window for executing a Deorbit burn that will take you on a trajectory that falls within the entry trajectory constraints.\n\nOpen the Burn Planner and press \"Request Deorbit Burn\".\n\nThis will list all the deorbit windows for the next 24 hours with their MET of passing the runway, and a MET to insert into the Burn Planner.\n\nSelect the window you wish (consider the time to the burn and the trajectories closest point to the runway (measured in Nmi). The window should be at least 4 hours in the future as you need time to execute the Deorbit and Entry Perparations.\n\nInsert the Burn MET of choice into the burn tool.\n\nUse the dV X field to plan a descent trajectory that gives you a distance from EI to the Runway between 3900 and 4200, with a Pe of 22 nmi.",
+  "Steps": [],
+  "Images": []
+}

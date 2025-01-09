@@ -1,0 +1,54 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item13",
+  "Group": "INSERTION",
+  "Name": "POST INSERTION [13]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 130,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n13)\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 176,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PotH2OHtr to Up (1/176)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Down (1/236)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 223,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set UpTlmCmd to Up (1/223)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 226,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqA_VHFAmA to Down (1/226)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 227,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqA_VHFAmB to Middle (1/227)"
+    }
+  ],
+  "Images": []
+}

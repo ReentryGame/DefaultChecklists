@@ -1,0 +1,110 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_PreCSMSep",
+  "Group": "T&D",
+  "Name": "PRE CSM SEPARATION [1]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 600,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n1) PRE CSM SEPARATION",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P7_DirectO2 to position 1 (3/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DIRECT O2 vlv - OPEN until CAB PRESS = 5.7, then close",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P7_DirectO2 to position 0 (3/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 134,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockProbeMNA to Closed (2/134)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 135,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockProbeMNB to Closed (2/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "COAS PWR - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC ALIGN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load RCS DAP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  R1=11103, R2=01111",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V46E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load N22 (EXTRACTION) V06 N22E, V25, set to extract attitude.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V63E (Mon SIVB Mnvr) (TB7+15 min)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

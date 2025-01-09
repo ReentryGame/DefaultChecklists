@@ -1,0 +1,126 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item16",
+  "Group": "INSERTION",
+  "Name": "ECS MON CHECK [16]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 160,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n16) ECS MONITORING CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] SUIT COMP ΔP - .3-.4 psid",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] O2 FLOW - 0.2-0.45 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] O2 SURGE TANK PRESS - 865-935",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[600] REPRESS O2 >865 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] PRIM RAD tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] ECS RAD TEMP PRIM IN - 67-97° F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] ECS RAD TEMP PRIM OUT -   -20° to +63° F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] PRIM GLY EVAP TEMP OUT - 38-50.5° F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] PRIM GLY DISCH PRESS - 40-52 psig",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] SUIT TEMP - 45-55° F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] SUIT PRESS/CABIN PRESS - 4.7-5.3 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] PART PRESS CO2 < 7.6 mm Hg",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] POT H2O QTY - 10-100%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] WASTE H2O QTY - 25-85%",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

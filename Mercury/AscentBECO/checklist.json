@@ -5,49 +5,56 @@
   "Name": "BECO",
   "Side": 0,
   "SortPriority": 52,
-  "checklistText": "<size=22>ASCENT/BECO</size>\n\n1. Jett Tower\t\t\t\t\t- AMBER\n2. Jett Tower \t\t\t\t\t- GREEN (appx. 20 sec after BECO)\n3. Auto Retro Jett switch \t\t- OFF\n4. Retro Jett Fuse switch \t\t- OFF\n5. Emer Retro Jett Fuse switch \t- OFF\n\nStart SECO Checklist",
+  "AutoGenerate": false,
+  "checklistText": "<size=22>ASCENT/BECO</size>\n\n1. Jett Tower\t\t\t\t\t- AMBER\n2. Jett Tower \t\t\t\t\t- GREEN (appx. 20 sec after BECO)\n3. Auto Retro Jett switch \t\t- OFF\n4. Retro Jett Fuse switch \t\t- OFF\n5. Emer Retro Jett Fuse switch \t- OFF\n\nStart Ascent -> SECO Checklist",
   "Steps": [
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Jett Tower - AMBER"
+      "Text": "Jett Tower - AMBER",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Jett Tower - GREEN (appx 20s after BECO)"
+      "Text": "Jett Tower - GREEN (appx 20s after BECO)",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 1,
       "SetID": 18,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRetroJett to Right (1/18)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 3,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RetroJett to Off (2/3)"
     },
     {
       "Program": 3,
       "Type": 2,
       "SetID": 24,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EmerRetroJett to Off (2/24)"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Start SECO Checklist"
+      "Text": "Start SECO Checklist",
+      "Description": "Manual step"
     }
   ],
   "Images": []

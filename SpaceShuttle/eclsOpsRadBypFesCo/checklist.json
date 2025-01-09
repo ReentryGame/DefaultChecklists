@@ -1,0 +1,213 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "eclsOpsRadBypFesCo",
+  "Group": "ECLS",
+  "Name": "RAD BYPASS/FES C/O",
+  "Side": 1,
+  "SortPriority": 219,
+  "AutoGenerate": true,
+  "checklistText": "<b>RAD BYPASS/FES C/O</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " √DAP: A/AUTO/ALT(PRI)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8018,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R11_CrossoverValve to Up (1/8018)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3032,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerPRI_A to Middle (1/3032)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3033,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerPRI_B to Middle (1/3033)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3034,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerSEC_WaterSupply to Up (1/3034)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3035,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerSEC to Down (1/3035)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 3002,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set L1_HiLoadEvapHeaterDuct to position 3 (3/3002)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3036,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_FlashEvapHiLoadEvap to Up (1/3036)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3028,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_RadControllerMode_Loop1 to Down (1/3028)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3029,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_RadControllerMode_Loop2 to Down (1/3029)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3026,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_RadFlowLoop1 to Down (1/3026)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3027,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_RadFlowLoop2 to Down (1/3027)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(RAD FLOW VLV tb - BYP ~3 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3024,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L1_RadControllerLoop1 to Middle (1/3024)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3025,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L1_RadControllerLoop2 to Middle (1/3025)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 2.5 min √FREON EVAP OUT TEMP ind: 62 ± 2 degF ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3036,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_FlashEvapHiLoadEvap to Down (1/3036)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 2.5 min √FREON EVAP OUT TEMP ind: 62 ± 2 degF ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3036,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_FlashEvapHiLoadEvap to Up (1/3036)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3034,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerSEC_WaterSupply to Up (1/3034)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3035,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerSEC to Middle (1/3035)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3033,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerPRI_B to Down (1/3033)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 2.5 min, √FREON EVAP OUT TEMP ind: 39 ± 1 degF",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√FLOW PROP VLV LOOP 1,2 (two) tb – ICH ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3023,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L1_RadOutTemp to Down (1/3023)"
+    }
+  ],
+  "Images": []
+}

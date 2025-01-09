@@ -1,0 +1,62 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item6",
+  "Group": "INSERTION",
+  "Name": "CM RCS CHECK [6]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 60,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n6) CM RCS MONITORING CHECK\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS PRPLNT tb (2) - bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 0 (3/6)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS IND sel - CM 1, 2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He TEMP - 60-90°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He PRESS - 4100-4200 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MANIF PRESS - 80-105 psia",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,301 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "commInstKuBandAct",
+  "Group": "COMM/INST",
+  "Name": "KU-BD ACTIVATION",
+  "Side": 1,
+  "SortPriority": 110,
+  "AutoGenerate": true,
+  "checklistText": "<b>KU-BD ACTIVATION</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 8327,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R14_KuElec to Closed (2/8327)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 8328,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R14_KuAntHtr to Closed (2/8328)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 8329,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set R14_KuCableHtr to Open (2/8329)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 8330,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R14_KuSigProc to Closed (2/8330)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11000,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set A1_SignalStrength to Middle (1/11000)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11003,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_SlewRate to Down (1/11003)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√KU BD SCAN WARN tb – bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √TRACK tb – bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √SEARCH tb – bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 11008,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set A1_KuBandSelector to position 3 (3/11008)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11008,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A1_KuBandRadarOutput to Up (1/11008)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 11000,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_KuSigProcHighDataRateSelector to position 5 (3/11000)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    √LDR sel – MMU 1 ??",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11007,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set A1_KuBandMode to Middle (1/11007)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11006,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A1_KuBandPower to Up (1/11006)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11004,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_RadioCommandMode to Down (1/11004)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT:  I/O RESET KU – ITEM 8 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NOTE\\nSystem warmup takes ~4 min",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT:  SM 76 COMMUNICATIONS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When KU-BAND PWR OUT > 15 (watts), proceed",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "A2: DIGI DIS SEL - EL/AZ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√R/EL ind: +000.0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√RR/AZM ind: +000.0 ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DIGI DIS SEL – R/R",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT:  SM ANTENNA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT:  SELF TEST – ITEM 7 EXEC (*) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When SELF TEST complete (~3 min):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√KU BD SCAN WARN tb – gray ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    √TRACK tb – gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    √SEARCH tb – gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "A2: √R/EL ind: +888.8",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT:    SELF TEST – ITEM 7 EXEC (no *) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11007,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_KuBandMode to Down (1/11007)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 11008,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set A1_KuBandSelector to position 1 (3/11008)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11004,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A1_RadioCommandMode to Up (1/11004)"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,277 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrep",
+  "Group": "DEORBIT PREP",
+  "Name": "TIMELINE",
+  "Side": 0,
+  "SortPriority": 500,
+  "AutoGenerate": true,
+  "checklistText": "This section contains all the checklists related to deorbit prep and its timeline.\n\nThe procedures has been designed to be executed by multiple persons, so timing might seem quite tight. Just follow the sequence, one checklist at a time. The procedures starts 4 hours before deborbit burn ignition, with plenty of time to complete the required steps in time. However, do not execute steps before their dedicated time, use timescale to reach the indicated time instead.\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:59 - CRT TIMER SETUP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:56 - COLDSOAK INITIATE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:55 - Verify DAP: A5/AUTO/VERN(ALT) (RT 0.2, DB 1.0)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:48 - KU-BD ANT STOW, if deployed (ORB OPS, COMM/INST) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:45 - RAD STOW, if reqd (ORB OPS, ECLS) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:42 - N2 QTY COMPUTE (S66: Add N2 QTY 1 + 2) check",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:40 - DETERMINE H2 DEPLETED TANKS (S68: Note all H2 tanks with Qty < 3%)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:35 - SPECIALIST SEAT INSTALLATION (Crew Ops -> Cabin -> Toggle Seats)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:28 - ENSURE BFS GPC CAN COMMAND AN IDP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:25 - HYD/MPS CONFIG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-03:15 - DED DISP ENT CONFIG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:57 - DAP: A/AUTO/ALT (RT 0.2, DB 5.0)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:55 - RAD BYPASS/FES C/O (ORB OPS, ECLS)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:54 - CONFIG FOR PLBD CLOSING",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:40 - DETAILED PLBD CLOSING PROCEDURES",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:25 - POST CLOSING CONFIG (in AUTO PLBD CLOSING cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:20 - √DAP: A/AUTO/ALT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:15 - DPS ENTRY CONFIG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-02:04 - √MCC for TGTS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    LOAD – ITEM 22 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    TIMER – ITEM 23 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-01:58 - DEACT STAR TRKRS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-01:56 - ENT FWD FLT DECK CONFIG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-01:55 - ENT AFT FLT DECK CONFIG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-01:06 - IMU/IMU ALIGNMENT (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:43 - OMS TVC GIMBAL CHECK (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:41 - APU PRESTART (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:31 - OMS BURN PREP (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:24 - VENT DOOR CLOSE (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:24 - OPS 302 PRO (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:20 - MNVR TO D/O BURN ATT (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:05 - SINGLE APU START (no cl)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:00 - DEORBIT BURN (no cl)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

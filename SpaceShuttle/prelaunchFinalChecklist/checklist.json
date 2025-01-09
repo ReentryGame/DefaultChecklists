@@ -1,0 +1,1246 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "prelaunchFinalChecklist",
+  "Group": "PRE-LAUNCH",
+  "Name": "Pre-Launch Checklist",
+  "CustomName": null,
+  "Side": 0,
+  "SortPriority": 100,
+  "AutoGenerate": true,
+  "checklistText": "This is the ascent checklist",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -32:00 (-1:22:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>PASS/BFS TRANSFER PREP</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9510,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_GPC1Mode to Up (1/9510)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9511,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_GPC2Mode to Up (1/9511)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9512,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_GPC3Mode to Up (1/9512)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9513,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_GPC4Mode to Up (1/9513)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9514,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_GPC5Mode to Middle (1/9514)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5209,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C3_BFS_CRT_Select to Down (1/5209)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5208,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set C3_BFS_CRT_Display to Up (1/5208)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT3: GNC BFS MEMORY",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "KEY>CRT3: PASS/BFS XFER ENA - ITEM 25 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ITEM 25 (*) blanks when transfer is complete (~10 min)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -30:00 (-1:20:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>OMS GN2 PRESS</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5200,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_LeftOMSEngControl to Middle (1/5200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5201,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_RightOMSEngControl to Middle (1/5201)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>WSB GN2 SUPPLY ACTIVATION</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7132,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply1 to Up (1/7132)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7133,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply2 to Up (1/7133)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7134,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply3 to Up (1/7134)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -25:00 (-1:15:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>A/G VOICE CHECK</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SIMO VOICE CHECK (LAUNCH CONFIG)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Voice check with MCC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -22:00 (-1:12:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>REPORT CABIN PRESS</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT3: BFS, SM SYS SUMM 1 (SPEC 78)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT3,O1: Record cabin pressure (two)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT3: BFS, GNC BFS MEMORY",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>CLOSE VENT VLVS</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3116,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L2_CabinVentIsol to Down (1/3116)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3117,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L2_CabinVent to Down (1/3117)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NOTE\nAt T-20 there will be a planned 10-min hold",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1: GNC GPC MEMORY, 2: GNC GPC MEMORY, 3: BFS, GNC BFS MEMORY",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -20:00 (-1:00:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>OPS 1 LOAD</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "KEY 1: OPS 101 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1 GNC, SPEC 99 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -18:30 (-58:30)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>BFS TO OPS 1</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9514,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_GPC5Mode to Up (1/9514)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "KEY 3: OPS 101 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT3 GNC, SPEC 99 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -17:00 (-57:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>HORIZ SIT CONFIG</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT3: BFS, GNC 50 HORIZ SIT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ALTM – ITEM 9 + XX.XX",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>CONFIG CONT ABORT YAW STEER</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1 √ITEM 5 - ENA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -16:00 (-56:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>MPS He RECONFIG</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7147,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_LeftA to Up (1/7147)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_CenterA to Up (1/7145)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7149,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_RightA to Up (1/7149)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7148,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_LeftB to Up (1/7148)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7146,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_CenterB to Up (1/7146)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7150,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_RightB to Up (1/7150)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√He REG A Press ~800 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7151,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HeIsolValve_Pneumatic to Up (1/7151)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√He REG Press ~800 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -17:00, set EVENT TIMER to 09:00 minutes.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>CLEAR HARDWARE C/W MEMORY</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "C3 C/W MEM - CLEAR ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7000,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_PayloadAux to Up (1/7000)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -9:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>'GO FOR LAUNCH'</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5109,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set C2_EventTimer_Control to Up (1/5109)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F7     √TIME ind - counting down",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -8:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>CONNECT ESS BUSES TO FC</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7026,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_EssBusSource_1BC_FC1 to Up (1/7026)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7027,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_EssBusSource_2CA_FC2 to Up (1/7027)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7028,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_EssBusSource_3AB_FC3 to Up (1/7028)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -6:15",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>APU PRE START</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7132,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply1 to Up (1/7132)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7133,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply2 to Up (1/7133)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7134,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply3 to Up (1/7134)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7129,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower1 to Up (1/7129)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7130,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower2 to Up (1/7130)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7131,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower3 to Up (1/7131)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7126,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr1 to Up (1/7126)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7127,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr2 to Up (1/7127)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7128,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr3 to Up (1/7128)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7135,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HydCircPump1 to Middle (1/7135)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7136,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HydCircPump2 to Middle (1/7136)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7137,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HydCircPump3 to Middle (1/7137)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7100,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv1A to Closed (2/7100)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7101,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv1B to Closed (2/7101)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7102,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv2A to Closed (2/7102)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7103,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv2B to Closed (2/7103)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7104,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv3A to Closed (2/7104)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7105,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv3B to Closed (2/7105)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve1 to Up (1/7114)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve2 to Up (1/7115)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7116,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve3 to Up (1/7116)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7123,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUAutoShutdown1 to Up (1/7123)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUAutoShutdown2 to Up (1/7124)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7125,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUAutoShutdown3 to Up (1/7125)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7120,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUSpeedSelect1 to Down (1/7120)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7121,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUSpeedSelect2 to Down (1/7121)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7122,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUSpeedSelect3 to Down (1/7122)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUStartRun1 to Middle (1/7117)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7118,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUStartRun2 to Middle (1/7118)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUStartRun3 to Middle (1/7119)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7103,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress1 to Down (1/7103)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7104,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress2 to Down (1/7104)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7105,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress3 to Down (1/7105)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7100,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUControllerPower1 to Up (1/7100)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7101,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUControllerPower2 to Up (1/7101)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7102,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUControllerPower3 to Up (1/7102)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "APU/HYD RDY tb (three) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -5:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>APU START</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7117,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUStartRun1 to Up (1/7117)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7118,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUStartRun2 to Up (1/7118)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7119,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUStartRun3 to Up (1/7119)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MEDS HYD/APU> HYD PRESS ind (three) - LO green",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "R2\tAPU/HYD RDY tb (three) - bp ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7103,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress1 to Up (1/7103)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7104,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress2 to Up (1/7104)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7105,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress3 to Up (1/7105)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MEDS HYD/APU> HYD PRESS ind (three) - HI green",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7135,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump1 to Down (1/7135)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7136,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump2 to Down (1/7136)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7137,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump3 to Down (1/7137)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F7\tPRESS lt - off",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>HTR RECONFIG</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3121,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L2_FlashEvapFeedlineAHtr to Middle (1/3121)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3122,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L2_FlashEvapFeedlineBHtr to Middle (1/3122)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -2:30",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>CLEAR C/W MEMORY</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "C3\tC/W MEM - CLEAR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG: -2:30",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Prepare for launch",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

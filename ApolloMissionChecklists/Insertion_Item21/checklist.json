@@ -1,0 +1,102 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item21",
+  "Group": "INSERTION",
+  "Name": "SEC GLYCOL LOOP CHECK [21]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 210,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n21) SECONDARY GLYCOL LOOP CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECSIndicatorSelector to position 1 (3/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SecCoolPumpAC to Up (1/180)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  GLY DISCH SEC PRESS - 39-51 psig",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ACCUM SEC QTY IND - 30-55%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SecCoolLoopEvap to Up (1/179)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "After 5 min:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SEC EVAP TEMP OUT - 38-50.5°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SecCoolLoopEvap to Down (1/179)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Keep in RESET for 1 min",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SecCoolLoopEvap to Middle (1/179)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECSIndicatorSelector to position 0 (3/18)"
+    }
+  ],
+  "Images": []
+}

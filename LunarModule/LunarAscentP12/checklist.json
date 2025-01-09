@@ -3,8 +3,10 @@
   "ProjectName": "LunarAscentP12",
   "Group": "LUNAR ASCENT",
   "Name": "P12 LUNAR ASCENT",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 300,
+  "AutoGenerate": false,
   "checklistText": "POWERED ASCENT\r\n\r\nMPS Basic (Staged)\r\nECS Basic (Staged)\r\nECS Periodic Monitoring (staged)\r\nEPS Prestaging Check\r\n\r\n\t\tCAUTION\r\n\tEPS Prestaging Check must be\r\n\tinitiated 30 min before APS burn.\r\n\r\nASCENT POWER\nBAT 5 / LMP FEED ON\nBAT 6 / CDR FEED ON\n\nAPS Pressurization & Checkout\r\nAPS/RCS Propellant Interconnect (desired)\r\n\r\nLGC Power-Up\r\nIMU Power-Up (LGC Operating)\r\n\r\nDAP Data Load Routine (R03)\r\n\nLunar Ascent Requested (req)\n\r\n1.\tEstablish attitude control:\r\n\tGUID CONT sw - PGNS\r\n\tS/C:\r\n\t\tPGNS sw - AUTO\r\n\t\tAGC sw - AUTO\r\n\t\tROLL, PITCH, YAW sw - MODE CONT\r\n\r\n2.\tEstablish PGNCS total attitude &\r\n\tattitude error display:\r\n\tATTITUDE MON sw (1) - PGNS\r\n\tATTITUDE MON sw (1) - AGS\r\n\tRATE/ERR MON sw (2) - LDG RDR/CMPTR\r\n\tKey V61E for mode I attitude error\r\n\tdisplay\r\n\tor\r\n\tKey 62E for mode II attitude error\r\n\tdisplay\r\n\r\n3.\tEstablish velocity & altitude dis-\r\n\tplays:\r\n\tRNG/ALT MON sw - ALT/ALT RT\r\n\tMODE SEL sw - PGNS\r\n\r\n4.\tEnable ACA/TTCA:\r\n\tACA/4 JET sw (2) - ENABLE\r\n\tTTCA/TRANSL sw (2) - ENABLE\r\n\tTROTTLE/JETS cont (2) - JETS\r\n\tACA PROP sw (2) - ENABLE\r\n\tENG THR CONT: ATT/TRANSL sw - 4 JETS\r\n\r\n5.\tPrepare controls for APS burn:\r\n\tENG THR CONT: ENG ARM sw - OFF\r\n\tEng START pb/lt - off\r\n\tEng STOP pb/lt (2) - off\r\n\tENG THR CONT: BAL CPL sw - ON\r\n\tS/C: DEAD BAND sw - MIN\r\n\r\n\r\n6.\t[COMM] REQUEST ASCENT (required)\r\n\tKey V37E 12E\r\n\r\n7.\tFL V06 N33 - TIG (AS)\r\n\t\tR1 00XXX hr\r\n\t\tR2 000XX min\r\n\t\tR3 0XX.XX sec\r\n\t\tAccept: Record value.\r\n\t\tKey PRO\r\n\tReject: Key V25E - Load desired\r\n\tTIG (AS)\r\n\r\n8.\tFL V06 N76\r\n\t\tR1 VHF\t\t+XXXX.X fps\r\n\t\tR2 H rate F\t+XXXX.X fps\r\n\t\tR3 ΔR\t\t+XXXX.X nm\r\n\r\n\t\tAccept: Key PRO\r\n\t\tReject: Load desired values\r\n\r\n9.\tPoss FL V50 N25 - Checklist\r\n\t\tR1 00203 - Switch to PGNCS auto-\r\n\t\t\tmatic mode\r\n\t\tR2 -----\r\n\t\tR3 -----\r\n\t\tProper request and to accept:\r\n\t\tGUID CONT sw - PGNS\r\n\t\tS/C: PGNS sw - AUTO\r\n\t\tKey PRO\r\n\r\n10.\tV06 N74\r\n\t\tR1 TFI\t\tXXBXX min-sec\r\n\t\tR2 Yaw\t\tXXX.XX°\r\n\t\tR3 Pitch\tXXX.XX°\r\n\r\n\tED: MASTER ARM sw - ON\r\n\tCB (11) S/C: AELD - close\r\n\tCB (16) S/C: AELD - close\r\n\r\n11.\tAt TFI = -00B35:\r\n\t\tVERB ind, NOUN in, R1, R2, & R3\r\n\t\tblank for 5 sec\r\n\r\n12.\tAt TFI = -00B29\r\n\t\tV06 N74\r\n\t\tR1 TFI\t\tXXBXX min-sec\r\n\t\tR2 Yaw\t\tXXX.XX°\r\n\t\tR3 Pitch\tXXX.XX°\r\n\r\n13.\tAt TFI = -00B05\r\n\tFL V99 N74 - Perform eng-on enable\r\n\t\tR1 TFI\t\tXXBXX min-sec\r\n\t\tR2 Yaw\t\tXXX.XX°\r\n\t\tR3 Pitch\tXXX.XX°\r\n\t\tTo terminate: V34E\r\n\t\tTo enable eng on:\r\n\t\tENG THR CONT: ENG ARM sw - ASC\r\n\t\tKey PRO\r\n\r\n14.\tIf TFI is negative and nonzero:\r\n\tV06 N74\r\n\t\tR1 TFI\t\tXXBXX min-sec\r\n\t\tR2 Yaw\t\tXXX.XX°\r\n\t\tR3 Pitch\tXXX.XX°\r\n\r\n15.\tABORT STAGE pb - push\r\n\r\n16.\tWhen TFI = 00B00:\r\n\tMonitor APS thrust\r\n\r\n\tWhen thrust is detected:\r\n\tEng START pb/lt - push\r\n\r\n17.\tDPS/APS Thrust Fail Routine (R40)\r\n\r\n\tIf LGC detects thrust fail:\r\n\tFL V97 NXX - Perfomr engine fail\r\n\tprocedure\r\n\r\n18.\tV06 N94\r\n\t\tR1 VHX (LM)\t\tXXXX.X fps\r\n\t\tR2 H rate\t\tXXXX.X fps\r\n\t\tR3 H\t\t\tXXXXX ft\r\n\r\n\t\tMonitor FDAU & N94 displays.\r\n\r\n\t\tObserve LM X-axis comes to local \r\n\t\tvertical.\r\n\r\n\t\tObserve LM yaw maneuver to re-\r\n\t\tcorded yaw angle.\r\n\r\n\t\tWhen H rate >= +40:\r\n\t\t\tObserve LM pitch maneuver to\r\n\t\t\trecorded pitch angle.\r\n\r\n19.\tContinue monitoring N94 displays &\r\n\tFDAI:\r\n\r\n\tVI should be increasing.\r\n\tH rate should increase to approxi-\r\n\tmately 200 fps & then decrease to\r\n\t32/19.5 fps.\r\n\r\n20.\tWhen TG <=00B25 min-sec, perform\r\n\tAPS/RCS Propellant Interconnect,\r\n\tsteps 4 & 5.\r\n\r\n21.\tENG THR CONT: ENG ARM sw - OFF\r\n\r\n22.\tMonitor N94 or N77 for automatic\r\n\tshutdown\r\n\tShutdown should occur when\r\n\tTG <= 1 sec\r\n\tIf shutdown does not occur:\r\n\tABORT STAGE pb - reset\r\n\r\n23.\tAfter automatic shutdown:\r\n\tEng STOP pb/lt - push\r\n\r\n24.\tDisarm eng & remove ED power:\r\n\tCB ED: LOGIC PWR A - open\r\n\tCB ED: LOGIC PWR B - open\r\n\r\n25.\tFL V16 N94\r\n\t\tR1 VGX (LM)\tXXXX.X fps\r\n\t\tR2 H rate\tXXXX.X fps\r\n\t\tR3 H\t\tXXXXX ft\r\n\t\tRecord values.\r\n\t\tKey PRO\r\n\r\n26.\tFL V16 N85 - VG (LM)\r\n\t\tR1 X XXXX.X fps\r\n\t\tR2 Y XXXX.X fps\r\n\t\tR3 Z XXXX.X fps\r\n\r\n\tIf nulling of VG is desired:\r\n\tS/C: PGNS sw - ATT HOLD\r\n\tACA & TTCA - null VGX, VGY, VGZ\r\n\r\n27.\tTerminate P12\r\n\tKey PRO\r\n\tV37E00\r\n\r\n28.\tDeleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
   "Steps": [
     {
@@ -12,399 +14,456 @@
       "Type": 1,
       "SetID": 12,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P14_AscentBat5NormalLMPFeed to Up (1/12)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 14,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P14_AscentBat6NormalCDRFeed to Up (1/14)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 11,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P14_DesBayDeadface to Down (1/11)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 67,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 69,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Up (1/69)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 71,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 72,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_ModeSel to Middle (1/72)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 74,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_RateErrMon to Down (1/74)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 75,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 17,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC6 (4/17)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC1 (4/12)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 73,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_RngAltMon to Down (1/73)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 124,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_CDR_ACA to Up (1/124)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 125,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_CDR_TTCA to Up (1/125)"
     },
     {
       "Program": 1,
       "Type": 3,
       "SetID": 38,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 1 (3/38)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 77,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_ACAProp to Up (1/77)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 37,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Up (1/37)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 2,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push P05_StartEngine (4/2)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 4,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 61,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_BalCpl to Up (1/61)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 62,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_DeadBand to Down (1/62)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Request ascent (if not yet done)"
+      "Text": "Request ascent (if not yet done)",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 7,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCVerb (4/7)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 14,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC3 (4/14)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 18,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC7 (4/18)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 12,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC1 (4/12)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 13,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGC2 (4/13)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push LGCEntr (4/24)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Key PRO to accept N33"
+      "Text": "Key PRO to accept N33",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Key PRO to accept N76"
+      "Text": "Key PRO to accept N76",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 71,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "If N25: Key PRO to accept N25"
+      "Text": "If N25: Key PRO to accept N25",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait for countdown and T -1 minute"
+      "Text": "Wait for countdown and T -1 minute",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Up (1/60)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 41,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P08_MasterArm to Up (1/41)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 47,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P08_HePRESS_Ascent to Up (1/47)"
     },
     {
       "Program": 1,
       "Type": 2,
       "SetID": 131,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P11_StabCont_AELD to Closed (2/131)"
     },
     {
       "Program": 1,
       "Type": 2,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P16_StabCont_AELD to Closed (2/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg1 to Up (1/52)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "T -5 seconds: PRO to accept V99"
+      "Text": "T -5 seconds: PRO to accept V99",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 28,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push P01_AbortStage (4/28)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "T -00:00: ignition and liftoff"
+      "Text": "T -00:00: ignition and liftoff",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 2,
       "ToPosID": 0,
-      "Text": null
-    },
-    {
-      "Program": 1,
-      "Type": 1,
-      "SetID": 56,
-      "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "push P05_StartEngine (4/2)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "25 seconds left to insertion: APS/RCS Propellant Interconnect"
+      "Text": "25 seconds left to insertion: APS/RCS Propellant Interconnect",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Cutoff"
+      "Text": "Cutoff",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
     },
     {
       "Program": 1,
       "Type": 4,
       "SetID": 4,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 41,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Terminate P12"
+      "Text": "Terminate P12",
+      "Description": "Manual step"
     }
   ],
   "Images": [
@@ -412,7 +471,7 @@
       "Name": "cueCard.png",
       "Position": {
         "x": 0.0,
-        "y": 5900.0
+        "y": 6000.0
       },
       "Size": {
         "x": 537.0,

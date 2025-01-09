@@ -1,0 +1,189 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "eclsOpsRadStow",
+  "Group": "ECLS",
+  "Name": "RAD STOW",
+  "Side": 1,
+  "SortPriority": 221,
+  "AutoGenerate": true,
+  "checklistText": "<b>RAD STOW</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "STOW PANELS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8205,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayLatchControl_SysA to Middle (1/8205)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8206,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayLatchControl_SysB to Middle (1/8206)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8207,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayRadiatorControl_SysA to Middle (1/8207)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8208,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayRadiatorControl_SysB to Middle (1/8208)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√RAD,LAT PORT,STBD tb (four) match current RAD \r\nconfig ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8203,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower1 to Up (1/8203)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8204,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower2 to Up (1/8204)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8207,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayRadiatorControl_SysA to Down (1/8207)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8208,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayRadiatorControl_SysB to Down (1/8208)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√Stowing RAD tb-bp, ~50 sec STO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8207,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayRadiatorControl_SysA to Middle (1/8207)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8208,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayRadiatorControl_SysB to Middle (1/8208)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LATCH PANELS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8205,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayLatchControl_SysA to Down (1/8205)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8206,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayLatchControl_SysB to Down (1/8206)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√Stowing RAD LAT tb-bp, ~30 sec, LAT ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8205,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayLatchControl_SysA to Middle (1/8205)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8206,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayLatchControl_SysB to Middle (1/8206)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8204,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower2 to Down (1/8204)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8203,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower1 to Down (1/8203)"
+    }
+  ],
+  "Images": []
+}

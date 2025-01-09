@@ -1,0 +1,757 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "insertionPostFinal",
+  "Group": "POST INSERTION",
+  "Name": "POST INSERTION FINALIZE",
+  "Side": 0,
+  "SortPriority": 340,
+  "AutoGenerate": true,
+  "checklistText": "<b>POST INSERTION FINALIZE</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "skip AIRLOCK SETUP FOR INGRESS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "W/B STEAM VENT HTR ACT:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7126,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr1 to Up (1/7126)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7127,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr2 to Up (1/7127)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7128,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr3 to Up (1/7128)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7129,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower1 to Up (1/7129)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7130,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower2 to Up (1/7130)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7131,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower3 to Up (1/7131)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CONFIG VERNIER CONTROL",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10508,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJD_MANF_Driver_L5F5R5 to Up (1/10508)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 5 seconds",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DAP: A/AUTO/VERN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CONFIG CONTROLS FOR ON-ORBIT",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7050,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_Cabin to Up (1/7050)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7053,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_PriMNC to Up (1/7053)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7000,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_PayloadAux to Up (1/7000)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7054,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_AftMNB to Up (1/7054)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7055,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_AftMNC to Up (1/7055)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7017,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_O2_T3_HeaterA to Up (1/7017)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7018,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_O2_T3_HeaterB to Up (1/7018)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7024,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_H2_T3_HeaterA to Up (1/7024)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7025,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_H2_T3_HeaterB to Up (1/7025)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 3000,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set L1_CabinTemperature to position 7 (3/3000)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set as desired",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3005,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_CabinTempSelection to Up (1/3005)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3008,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_H2OPumpLoop1Mode to Up (1/3008)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 3002,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set L1_HiLoadEvapHeaterDuct to position 0 (3/3002)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3101,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L2_NoseWheelSteering to Down (1/3101)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9540,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_StarTracker_PowerY to Up (1/9540)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9541,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_StarTracker_PowerZ to Up (1/9541)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 9507,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O6_UHFMode to position 1 (3/9507)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 9600,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set O7_TacanMode1 to position 0 (3/9600)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 9601,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set O7_TacanMode2 to position 0 (3/9601)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 9602,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set O7_TacanMode3 to position 0 (3/9602)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9727,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_RadarAltimeter1 to Down (1/9727)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9728,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_RadarAltimeter2 to Down (1/9728)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10310,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O14_BrakesMNA to Down (1/10310)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10312,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O14_RGA1 to Down (1/10312)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10333,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O14_ADTA1 to Open (2/10333)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10301,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O14_Accel1 to Open (2/10301)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10302,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O14_DDU_Left_MNA to Open (2/10302)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10309,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O14_ASA1 to Down (1/10309)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10408,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O15_BrakesMNB to Down (1/10408)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10410,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O15_RGA2 to Down (1/10410)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10411,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O15_RGA4 to Down (1/10411)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10425,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O15_UtilityPwrF1MO13Q to Closed (2/10425)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10435,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O15_ADTA2 to Open (2/10435)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10401,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O15_Accel2 to Open (2/10401)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10402,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O15_DDU_Left_MNB to Open (2/10402)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10403,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O15_DDU_Right_MNB to Open (2/10403)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10407,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O15_ASA2 to Down (1/10407)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10402,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O15_Accel4 to Down (1/10402)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10512,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O16_BrakesMNC to Down (1/10512)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10514,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O16_RCA3 to Down (1/10514)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10523,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O16_ADTA3 to Open (2/10523)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10524,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O16_ADTA4 to Open (2/10524)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10503,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O16_DDU_Right_MNC to Open (2/10503)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10510,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O16_ASA3 to Down (1/10510)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10511,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O16_ASA4 to Down (1/10511)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10501,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O16_Accel3 to Down (1/10501)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12000,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A11_O2_TK4_HeaterA to Up (1/12000)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12001,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A11_O2_TK4_HeaterB to Up (1/12001)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12003,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A11_H2_TK4_HeaterA to Up (1/12003)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12004,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A11_H2_TK4_HeaterB to Up (1/12004)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "HYD THERMAL CONDITIONING-ENABLE",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7135,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HydCircPump1 to Middle (1/7135)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7136,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HydCircPump2 to Middle (1/7136)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7137,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_HydCircPump3 to Middle (1/7137)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUPPLY WATER CONFIG",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3032,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerPRI_A to Middle (1/3032)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8021,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R11_DumpIsolValve to Up (1/8021)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8018,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R11_CrossoverValve to Down (1/8018)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8014,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R11_TankBInlet to Down (1/8014)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8013,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R11_TankAOutlet to Up (1/8013)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ML86B:A cb MNB SPLY H2O TKB INLET – op ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ML86B:A cb MNC SPLY H2O XOVR VLV – op",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT: SM SYS SUMM 2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If FREON EVAP OUT TEMP > 41 and  47 degF",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "|    L1: RAD CNTLR OUT TEMP – HI ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "|    When FREON EVAP OUT TEMP > 50 degF, ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "|      L1: RAD CNTLR OUT TEMP – NORM, then immediately: ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "|        L1: FLASH EVAP CNTLR PRI B – ON",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If FREON EVAP OUT TEMP  41 or > 47 degF: ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    FLASH EVAP CNTLR PRI B – ON",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RESET C/W",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "POST INSERTION COMPLETE",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

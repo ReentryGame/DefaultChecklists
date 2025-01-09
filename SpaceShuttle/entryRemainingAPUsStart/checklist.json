@@ -1,0 +1,173 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryRemainingAPUsStart",
+  "Group": "ENTRY",
+  "Name": "REMAINING APUs START",
+  "Side": 0,
+  "SortPriority": 660,
+  "AutoGenerate": true,
+  "checklistText": "<b>REMAINING APUs START</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve1 to Up (1/7114)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve2 to Up (1/7115)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7116,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve3 to Up (1/7116)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√APU/HYD RDY tb (two remaining) – gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7117,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUStartRun1 to Up (1/7117)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7118,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUStartRun2 to Up (1/7118)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7119,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUStartRun3 to Up (1/7119)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√HYD PRESS ind (two remaining) – LO green",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√APU/HYD RDY tb (two) – bp ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>SSME HYD REPRESS</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7103,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress1 to Up (1/7103)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7104,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress2 to Up (1/7104)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7105,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress3 to Up (1/7105)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7326,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R4_MPS_TVC_IsolValve2 to Up (1/7326)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7326,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R4_MPS_TVC_IsolValve2 to Down (1/7326)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7325,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R4_MPS_TVC_IsolValve1 to Up (1/7325)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7325,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R4_MPS_TVC_IsolValve1 to Down (1/7325)"
+    }
+  ],
+  "Images": []
+}

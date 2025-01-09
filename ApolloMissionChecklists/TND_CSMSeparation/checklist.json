@@ -1,0 +1,334 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_CSMSeparation",
+  "Group": "T&D",
+  "Name": "CSM SEPARATION [3]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 620,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n3) CSM SEPARATION",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V49E (V25 to EXTRACT ATT), do not PRO.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SeqLogic1 to Closed (2/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SeqLogic2 to Closed (2/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmA to Closed (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmB to Closed (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RCSCommand to Up (1/75)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When GO for Pyro Arm:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC ALIGN",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "59:30 Start DET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "59:58 Thrust +X and hold",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:00 CSM/LV SEP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push CSMLVSep (4/24)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "      LV TANK PRESS - full scale Low",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:03 THC - release (ΔV ~.5 fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS PRPLNT tb (8) - gray (verify)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS He tb (8) - gray (verify)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2A to Down (1/95)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2B to Down (1/96)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2C to Down (1/97)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2D to Down (1/98)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FCReacsValves to Up (1/22)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V62E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttManualPitch to Up (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:15 Pitch up at 2.0°/sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When lined up with target, stop pitch rate",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Thrust +X(4sec)(ΔV ~.7fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load RCS DAP 11102, 01111",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 210,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set HighGainTrack to Middle (1/210)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 212,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set HighGainServoPwr to Up (1/212)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set HighGainPitch to position 4 (3/19)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 20,
+      "ToPosID": 10,
+      "Text": null,
+      "Description": "set HighGainYaw to position 10 (3/20)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 225,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SBandAntennaOmniDHiG to Down (1/225)"
+    }
+  ],
+  "Images": []
+}

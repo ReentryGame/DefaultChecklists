@@ -1,0 +1,93 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "insertionRadAct",
+  "Group": "POST INSERTION",
+  "Name": "Radiator Activation",
+  "Side": 0,
+  "SortPriority": 310,
+  "AutoGenerate": true,
+  "checklistText": "<b>RADIATOR ACTIVATION</b>\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3028,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_RadControllerMode_Loop1 to Up (1/3028)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3029,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_RadControllerMode_Loop2 to Up (1/3029)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3024,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_RadControllerLoop1 to Up (1/3024)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3025,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_RadControllerLoop2 to Up (1/3025)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 90 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3026,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_RadFlowLoop1 to Up (1/3026)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3027,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_RadFlowLoop2 to Up (1/3027)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3118,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L2_FreonIsolMode to Up (1/3118)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>COMPLETE CHECKLIST: OPEN PLBDs</b>",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

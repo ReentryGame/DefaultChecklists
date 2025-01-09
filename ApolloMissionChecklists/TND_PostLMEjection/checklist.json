@@ -1,0 +1,118 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_PostLMEjection",
+  "Group": "T&D",
+  "Name": "POST LM EJECTION [13]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 710,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n13) POST LM EJECTION",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SeqLogic1 to Down (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SeqLogic2 to Down (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroArmA to Open (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroArmB to Open (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 46,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set LVSPSIncSIISIV_GP1 to Down (1/46)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCServo1 to Middle (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCServo2 to Middle (1/125)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 232,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqB_PlayMode to Middle (1/232)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Down (1/236)"
+    }
+  ],
+  "Images": []
+}

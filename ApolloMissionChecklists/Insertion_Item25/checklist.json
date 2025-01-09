@@ -1,0 +1,13 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item25",
+  "Group": "INSERTION",
+  "Name": "IMU REFSMMAT (P52) [25]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 250,
+  "AutoGenerate": true,
+  "checklistText": "P52 REFSMMAT Realign Check (P52)\n\nP52 - (PAD REFSMMAT)\n\nN71: __ __, __ __\nN05: __ __ __ . __ __\nN93:\n X __ __ . __ __ __\n Y __ __ . __ __ __\n Z __ __ . __ __ __\nGET: __ __ : __ __ : __ __\n\nYou can fill out this form in the CREW MEMBERS > REQUEST PADS > OPEN P52 REALIGN FORM form.\n\nIf IMU is realigned,\nRealign GDC (CDR).\n\nTo execute a P52 REFSMMAT Realign Check, RUN the P52 AID: REFSMMAT checklist or follow the P52 checklist manually.",
+  "Steps": [],
+  "Images": []
+}

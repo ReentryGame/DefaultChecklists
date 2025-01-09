@@ -1,0 +1,173 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryMnvrToDeorbitAtt",
+  "Group": "ENTRY",
+  "Name": "MNVR TO DEORBIT BURN ATT",
+  "Side": 0,
+  "SortPriority": 630,
+  "AutoGenerate": true,
+  "checklistText": "<b>MNVR TO DEORBIT BURN ATT</b>\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5207,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C3_DAPSetup_Control_Auto (4/5207)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1500,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_AttitudeSelect to Up (1/1500)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1700,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_AttitudeSelect to Up (1/1700)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1501,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F6_ADIErrorScale to Middle (1/1501)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1502,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F6_ADIRateScale to Middle (1/1502)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1701,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F8_ADIErrorScale to Middle (1/1701)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1702,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F8_ADIRateScale to Middle (1/1702)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1 MNVR – ITEM 27 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(√ADI ATT with CRT BURN ATT) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS/OMS HTR",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12300,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set A14_ForwardRCSHeaters to Middle (1/12300)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12301,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A14_LeftPodRCSHeaterA to Down (1/12301)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12302,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A14_LeftPodRCSHeaterB to Down (1/12302)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12303,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A14_RightPodRCSHeaterA to Down (1/12303)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12304,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A14_RightPodRCSHeaterB to Down (1/12304)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12315,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A14_OMSCrossfeedHeaterA to Up (1/12315)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12316,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A14_OMSCrossfeedHeaterB to Up (1/12316)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12309,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A14_FwdRCSJetHeater5 to Down (1/12309)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 12314,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A14_AftRCSJetHeater5 to Down (1/12314)"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,341 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrepAutoPlbdClosing",
+  "Group": "DEORBIT PREP",
+  "Name": "AUTO PLBD CLOSING",
+  "Side": 0,
+  "SortPriority": 521,
+  "AutoGenerate": true,
+  "checklistText": "<b>AUTO PLBD CLOSING</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CONFIGURE FOR AUTO MODE",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "IDP/CRT4: SM, OPS 202 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "4: SM PL BAY DOORS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8202,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayMode to Middle (1/8202)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √PBD SW – STOP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √MAN SEL (ten) – (no *)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √PBD SW BYPASS – (no*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: AC POWER ON – ITEM 1 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: AUTO MODE SEL – ITEM 3 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8200,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R13_PayloadBayDoorSys1Power to Up (1/8200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8201,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R13_PayloadBayDoorSys2Power to Up (1/8201)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √OP/CL STATUS (ten) – OP ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CLOSE PLBDs USING AUTO MODE",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8202,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayMode to Down (1/8202)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √PORT DOOR – blank,RDY,CL (~63 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √PORT FWD, AFT LATCHES – blank, CL (~30 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √STBD DOOR – blank ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √STBD DOOR – CL (~63 sec) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √FWD,AFT LATCHES (two) – blank,CL (~30 sec) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √CENTER LATCHES 1-4,13-16 (two) – blank,CL (~20 sec) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √5-8, 9-12 (two) – blank,CL (~20 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8202,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_PayloadBayMode to Middle (1/8202)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "POST-PLBD CLOSING CLEANUP",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8200,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayDoorSys1Power to Down (1/8200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8201,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayDoorSys2Power to Down (1/8201)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: √OP/CL STATUS (ten) – CL ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT4: AC POWER OFF – ITEM 2 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GPC/CRT 54 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>POST CLOSING CONFIG</b>",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CONFIG STBD RMS/OBSS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11714,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterStbdA to Down (1/11714)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11715,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A8_HeaterStbdB to Down (1/11715)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11601,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_AftStbd to Down (1/11601)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11602,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_AftPort to Down (1/11602)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11603,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_MidStbd to Down (1/11603)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11604,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_MidPort to Down (1/11604)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11605,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_FwdStbd to Down (1/11605)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11606,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_PayloadBayFloods_FwdPort to Down (1/11606)"
+    }
+  ],
+  "Images": []
+}

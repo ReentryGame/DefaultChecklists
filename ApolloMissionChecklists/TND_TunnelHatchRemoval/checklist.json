@@ -1,0 +1,30 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_TunnelHatchRemoval",
+  "Group": "T&D",
+  "Name": "TUNNEL HATCH REMOVAL [7]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 670,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n7) TUNNEL HATCH REMOVAL",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set CM_LM_DoorHatch to position 1 (3/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Remove hatch, stow. [C] -> OPEN HATCH function bubble.",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

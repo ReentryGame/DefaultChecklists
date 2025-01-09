@@ -1,0 +1,109 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "commInstKuBandAntDepl",
+  "Group": "COMM/INST",
+  "Name": "KU-BD ANT DEPLOY",
+  "Side": 1,
+  "SortPriority": 100,
+  "AutoGenerate": true,
+  "checklistText": "<b>KU-BD ANT DEPLOY</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11006,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_KuBandPower to Down (1/11006)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11004,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_RadioCommandMode to Down (1/11004)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8209,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_KuAntennaDirectStow to Down (1/8209)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8203,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower1 to Up (1/8203)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8204,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower2 to Up (1/8204)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8210,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R13_KuAntennaDeploy to Up (1/8210)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When KU ANT tb – DPY (~23 to 46 sec):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8210,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R13_KuAntennaDeploy to Middle (1/8210)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8203,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower1 to Down (1/8203)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 8204,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R13_PayloadBayMechPower2 to Down (1/8204)"
+    }
+  ],
+  "Images": []
+}

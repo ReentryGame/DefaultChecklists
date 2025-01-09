@@ -1,0 +1,46 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_HatchInstallation",
+  "Group": "T&D",
+  "Name": "HATCH INSTALLATION [10]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 680,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n10) HATCH INSTALLATION",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Close hatch. [C] -> CLOSE HATCH function bubble.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set CM_LM_DoorHatch to position 0 (3/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set LM_CM_PSI_DiffSelector to position 2 (3/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 242,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TunnelLights to Down (1/242)"
+    }
+  ],
+  "Images": []
+}

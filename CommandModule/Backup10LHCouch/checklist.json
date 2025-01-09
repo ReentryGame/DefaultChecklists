@@ -3,1550 +3,1771 @@
   "ProjectName": "Backup10LHCouch",
   "Group": "BACKUP CREW PRELAUNCH",
   "Name": "LH COUCH CHECKS",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 50,
   "AutoGenerate": false,
-  "checklistText": "LH COUCH CHECKS\r\n\r\nTHC & RHC – LOCKED\r\n\r\nLH ECS Vlv STAT\r\n\r\nPanel 375:\r\n\tSRG TK RELF vlv – open (CW)\r\nPanel 376:\r\n\tPLVC sw – NORM\r\nPanel 380:\r\n\tDEMAND REG sel – BOTH\r\n\tSUIT TEST vlv – OFF\r\n\tSUIT RETURN vlv – close (push)\r\nPanel 325:\r\n\tPRIM GLY TO RAD – NORM\r\n\tCAB PRESS RELF vlv (2) – BOOST/ENTR\r\n\t\t(safety latch off)\r\nPanel 326:\r\n\tGLY RSVR IN vlv – OPEN\r\n\tGLY RSVR OUT vlv – OPEN\r\n\tGLY RSVR BYP vlv – CLOSE\r\n\tSM O2 SUP vlv – ON\r\n\tSRG TK O2 vlv – ON\r\n\tREPRESS PKG vlv – ON\r\n\r\n\tLH Side Pnls\r\nPanel 15:\r\n    COAS PWR – OFF\r\n    UTIL PWR – OFF\r\n    PL BCN LT – off (ctr)\r\n    DYE MARKER – off (down)\r\n    PL VENT – OFF\r\nPanel 8:\r\n    AUTO RCS (16) – OFF\r\n    FLOOD DIM – 1\r\n    FLOOD FIXED – OFF\r\n    NUMERICS LTS – as desired\r\n    FLOOD LTS – as desired\r\n    INTGL LTS – as desired\r\n    SECS LOGIC (both) – OFF\r\n    SECS PYRO ARM (2) – SAFE\r\n    cb pnl 8 – all closed except\r\n    cb CM RCS HTRS (both) – open\r\n    cb FLOAT BAG (all) – open\r\n    cb SECS LOGIC (2) – open\r\n    cb SECS ARM (2) – open\r\nPanel 7:\r\n\tEDS PWR – OFF\r\n\r\n\t\t\tCAUTION\r\n\r\n        More than 1 hr of contin on-time\r\n        for TVC SERVO PWR 1 or 2 sw may be\r\n        detrimental to sps gmbl actuators.\r\n\r\n    TVC SERVO PWR (both) – OFF\r\n    FDAI/GPI PWR – BOTH\r\n    LOGIC 2/3 PWR – on (up)\r\n    ELEC PWR – GDC/ECA\r\n    SIG CONDR/DR BIAS PWR (both) – AC1 or AC2\r\n    BMAG PWR (both) – WARMUP\r\n        \r\n        \r\n    LH MDC & Pnls 600, 602, 603, & 604\r\nPanel 1:\r\n    Set ALT index – 3300\r\n    CMC ATT – IMU\r\n\r\n    ACCEL – check (+1 G)\r\n\tFDAI SCALE – 5/1\r\n\tFDAI SEL – ½\r\n\tFDAI SOURCE – CMC\r\n\tATT SET – GDC\r\n\tMAN ATT ROLL – RATE CMD\r\n\tMAN ATT PITCH – ACCEL CMD\r\n\tMAN ATT YAW – RATE CMD\r\n\tLIM CYCLE – OFF\r\n\tATT DBD – MIN\r\n\tRATE – HI\r\n\tTHC PWR – on (up)\r\n\tRHC PWR NORM (both) – AC/DC\r\n\tRHC PWR DIR (both) – OFF\r\n\r\n\tSC CONT – SCS\r\n\tCMC MODE – FREE\r\n\tBMAG MODE (3) – RATE 2\r\n\tSPS THRUST – NORM\r\n\tΔV THRUST (2) – OFF\r\n\tSPS GMBL tw (2) – 0\r\n\tATT SET tw (3) – R 162°, P 90°, Y 0°\r\n\tSCS TVC (2) – RATE CMD\r\n\tGMBL MOT (4) – OFF\r\n\tΔV CG – LM/CSM\r\n\tELS LOGIC – OFF\r\n\tELS AUTO – AUTO\r\n\tCM RCS LOGIC – OFF\r\n\tCM PRPLNT DUMP – OFF\r\n\tCM PRPLNT PURG – off (down)\r\n\tIMU CAGE – off (down)\r\n\tEMS ROLL – OFF\r\n\t.05 G sw – OFF\r\n\r\n\tα/Pc IND sw – α\r\n\tα/Pc ind – zero\r\n\tLV IND/GPI sw – GPI\r\n\tTVC GMBL DR (2) – AUTO\r\n\tEVNT TMR START – ctr\r\n\r\n\tEVNT TMR RSET – up (ctr)\r\nPanel 2:\r\n\tSUIT CAB ΔP ind - >+2.0 in. H2O\r\n\tO2 FLOW ind – 0.4±0.1 lb/hr (not pegged)\r\n\tPROBE EXTD/REL tb (2) – gray\r\n\tPROBE (3) – OFF\r\n\tEXT RUN/EVA LTS – OFF\r\n\tEXT RNDZ LTS – off (ctr)\r\n\tTUNL LTS – OFF\r\n\tLM PWR – OFF\r\n\tUP TLM CM – ACPT\r\n\tUP TLM IU – BLOCK\r\n\tCM RCS PRESS – off (down)\r\n\tSM RCS IND sw – PRPLNT QTY\r\n\t\r\n\tRCS Status Check\r\n\t\tSM RCS He 1 tb (4) – bp\r\n\t\tSM RCS He 2 tb (4) – bp\r\n\t\tSM RCS PRIM PRPLNT tb (4) – bp\r\n\t\tSM RCS SEC PRPLNT tb (4) – bp\r\n\t\tSM RCS SEC FUEL PRESS (4) – OPEN\r\n\t\tRCS IND sel – SM A, B, C, D\r\n\t\t\tSM RCS PKG TEMP ind – amb\r\n\r\n\t\tSM RCS He PRESS ind – 4000-4350 psia\r\n\t\tSM RCS SEC FUEL PRESS ind -\r\n\t\t\t192-207 psia\r\n\t\t\r\n\t\tSM RCS IND sw – He TK TEMP\r\n\t\t\tSM RCS He TK TEMP ind - 60°-80°\r\n\t\tSM RCS IND sw – PRPLNT QTY\r\n\t\t\tSM RCS PRPLNT QTY ind – 100%\r\n\t\tSM RCS HTRS (4) – OFF\r\n\tCM RCS PRPLNT (both) – on (up)\r\n\tCM RCS PRPLNT tb (both) – gray\r\n\tRCS IND sel – CM 1, CM 2\r\n\t\tCM RCS He TEMP ind - 60°-90°\r\n\t\tCM RCS He PRESS ind – 4000-4450 psia\r\n\t\tCM RCS MANF PRESS ind – 80-105 psia\r\n\r\n\r\n\r\n\r\n\tRCS CMD – ctr\r\n\r\n\tRCS TRNFR – SM\r\n\tEDS AUTO – OFF\r\n\tCSM/LM FNL SEP (both) – off (down)\r\n\tCM/SM SEP (2) – off (down)\r\n\tSIVB/LM SEP – off (down)\r\n\tPRPLNT DUMP – AUTO\r\n\t2 ENG OUT sw – AUTO\r\n\tLV RATES sw – AUTO\r\n\tTWR JETT (both) – AUTO\r\n\tLV GUID sw – IU\r\n\tLV STAGE – OFF\r\n\tXLUNAR INJECT – INJECT\r\n\tMN REL – off (down)\r\nPanel 600:\r\n\tEMER 02 – CLOSE\r\nPanel 602:\r\n\tREPRESS O2 RELF – open (CW)\r\n\tREPRESS o2 PRESS ind - >865 psig\r\nPanel 603:\r\n\tEVA STA O2 SUP – OFF\r\nPanel 604:\r\n\tSUIT PRESS ALARM – OFF\r\n\r\n\r\n",
+  "checklistText": "LH COUCH CHECKS\r\n\r\nTHC & RHC – LOCKED\r\n\r\nLH ECS Vlv STAT\r\n\r\nPanel 375:\r\n\tSRG TK RELF vlv – open (CW)\r\nPanel 376:\r\n\tPLVC sw – NORM\r\nPanel 380:\r\n\tDEMAND REG sel – BOTH\r\n\tSUIT TEST vlv – OFF\r\n\tSUIT RETURN vlv – close (push)\r\nPanel 325:\r\n\tPRIM GLY TO RAD – NORM\r\n\tCAB PRESS RELF vlv (2) – BOOST/ENTR\r\n\t\t(safety latch off)\r\nPanel 326:\r\n\tGLY RSVR IN vlv – OPEN\r\n\tGLY RSVR OUT vlv – OPEN\r\n\tGLY RSVR BYP vlv – CLOSE\r\n\tSM O2 SUP vlv – ON\r\n\tSRG TK O2 vlv – ON\r\n\tREPRESS PKG vlv – ON\r\n\r\n\tLH Side Pnls\r\nPanel 15:\r\n    COAS PWR – OFF\r\n    UTIL PWR – OFF\r\n    PL BCN LT – off (ctr)\r\n    DYE MARKER – off (down)\r\n    PL VENT – OFF\r\nPanel 8:\r\n    AUTO RCS (16) – OFF\r\n    FLOOD DIM – 1\r\n    FLOOD FIXED – OFF\r\n    NUMERICS LTS – as desired\r\n    FLOOD LTS – as desired\r\n    INTGL LTS – as desired\r\n    SECS LOGIC (both) – OFF\r\n    SECS PYRO ARM (2) – SAFE\r\n    cb pnl 8 – all closed except\r\n    cb CM RCS HTRS (both) – open\r\n    cb FLOAT BAG (all) – open\r\n    cb SECS LOGIC (2) – open\r\n    cb SECS ARM (2) – open\r\nPanel 7:\r\n\tEDS PWR – OFF\r\n\r\n\t\t\tCAUTION\r\n\r\n        More than 1 hr of contin on-time\r\n        for TVC SERVO PWR 1 or 2 sw may be\r\n        detrimental to sps gmbl actuators.\r\n\r\n    TVC SERVO PWR (both) – OFF\r\n    FDAI/GPI PWR – BOTH\r\n    LOGIC 2/3 PWR – on (up)\r\n    ELEC PWR – GDC/ECA\r\n    SIG CONDR/DR BIAS PWR (both) – AC1 or AC2\r\n    BMAG PWR (both) – WARMUP\r\n        \r\n        \r\n    LH MDC & Pnls 600, 602, 603, & 604\r\nPanel 1:\r\n    Set ALT index – 3300\r\n    CMC ATT – IMU\r\n\r\n    ACCEL – check (+1 G)\r\n\tFDAI SCALE – 5/1\r\n\tFDAI SEL – ½\r\n\tFDAI SOURCE – CMC\r\n\tATT SET – GDC\r\n\tMAN ATT ROLL – RATE CMD\r\n\tMAN ATT PITCH – ACCEL CMD\r\n\tMAN ATT YAW – RATE CMD\r\n\tLIM CYCLE – OFF\r\n\tATT DBD – MIN\r\n\tRATE – HI\r\n\tTHC PWR – on (up)\r\n\tRHC PWR NORM (both) – AC/DC\r\n\tRHC PWR DIR (both) – OFF\r\n\r\n\tSC CONT – SCS\r\n\tCMC MODE – FREE\r\n\tBMAG MODE (3) – RATE 2\r\n\tSPS THRUST – NORM\r\n\tΔV THRUST (2) – OFF\r\n\tSPS GMBL tw (2) – 0\r\n\tATT SET tw (3) – R 162°, P 90°, Y 0°\r\n\tSCS TVC (2) – RATE CMD\r\n\tGMBL MOT (4) – OFF\r\n\tΔV CG – LM/CSM\r\n\tELS LOGIC – OFF\r\n\tELS AUTO – AUTO\r\n\tCM RCS LOGIC – OFF\r\n\tCM PRPLNT DUMP – OFF\r\n\tCM PRPLNT PURG – off (down)\r\n\tIMU CAGE – off (down)\r\n\tEMS ROLL – OFF\r\n\t.05 G sw – OFF\r\n\r\n\tα/Pc IND sw – α\r\n\tα/Pc ind – zero\r\n\tLV IND/GPI sw – GPI\r\n\tTVC GMBL DR (2) – AUTO\r\n\tEVNT TMR START – ctr\r\n\r\n\tEVNT TMR RSET – up (ctr)\r\nPanel 2:\r\n\tSUIT CAB ΔP ind - >+2.0 in. H2O\r\n\tO2 FLOW ind – 0.4±0.1 lb/hr (not pegged)\r\n\tPROBE EXTD/REL tb (2) – gray\r\n\tPROBE (3) – OFF\r\n\tEXT RUN/EVA LTS – OFF\r\n\tEXT RNDZ LTS – off (ctr)\r\n\tTUNL LTS – OFF\r\n\tLM PWR – OFF\r\n\tUP TLM CM – ACPT\r\n\tUP TLM IU – BLOCK\r\n\tCM RCS PRESS – off (down)\r\n\tSM RCS IND sw – PRPLNT QTY\r\n\t\r\n\tRCS Status Check\r\n\t\tSM RCS He 1 tb (4) – bp\r\n\t\tSM RCS He 2 tb (4) – bp\r\n\t\tSM RCS PRIM PRPLNT tb (4) – bp\r\n\t\tSM RCS SEC PRPLNT tb (4) – bp\r\n\t\tSM RCS SEC FUEL PRESS (4) – OPEN\r\n\t\tRCS IND sel – SM A, B, C, D\r\n\t\t\tSM RCS PKG TEMP ind – amb\r\n\r\n\t\tSM RCS He PRESS ind – 0-4350 psia\r\n\t\tSM RCS SEC FUEL PRESS ind -\r\n\t\t\t192-207 psia\r\n\t\t\r\n\t\tSM RCS IND sw – He TK TEMP\r\n\t\t\tSM RCS He TK TEMP ind - 60°-80°\r\n\t\tSM RCS IND sw – PRPLNT QTY\r\n\t\t\tSM RCS PRPLNT QTY ind – 100%\r\n\t\tSM RCS HTRS (4) – OFF\r\n\tCM RCS PRPLNT (both) – on (up)\r\n\tCM RCS PRPLNT tb (both) – gray\r\n\tRCS IND sel – CM 1, CM 2\r\n\t\tCM RCS He TEMP ind - 0°-90°\r\n\t\tCM RCS He PRESS ind – 4000-4450 psia\r\n\t\tCM RCS MANF PRESS ind – 80-105 psia\r\n\r\n\r\n\r\n\r\n\tRCS CMD – ctr\r\n\r\n\tRCS TRNFR – SM\r\n\tEDS AUTO – OFF\r\n\tCSM/LM FNL SEP (both) – off (down)\r\n\tCM/SM SEP (2) – off (down)\r\n\tSIVB/LM SEP – off (down)\r\n\tPRPLNT DUMP – AUTO\r\n\t2 ENG OUT sw – AUTO\r\n\tLV RATES sw – AUTO\r\n\tTWR JETT (both) – AUTO\r\n\tLV GUID sw – IU\r\n\tLV STAGE – OFF\r\n\tXLUNAR INJECT – INJECT\r\n\tMN REL – off (down)\r\nPanel 600:\r\n\tEMER 02 – CLOSE\r\nPanel 602:\r\n\tREPRESS O2 RELF – open (CW)\r\n\tREPRESS o2 PRESS ind - >865 psig\r\nPanel 603:\r\n\tEVA STA O2 SUP – OFF\r\nPanel 604:\r\n\tSUIT PRESS ALARM – OFF\r\n\r\n\r\n",
   "Steps": [
     {
       "Program": 0,
       "Type": 3,
       "SetID": 57,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P375_OxygenSurgeVlv to position 1 (3/57)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 301,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P376_PLVC to Up (1/301)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 58,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P380_DemandReg to position 2 (3/58)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 59,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P380_O2DemandReg to position 0 (3/59)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 233,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P380_SuitCurcuitReturnValve to Closed (2/233)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 167,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PrimaryGlycolToRadiators to Closed (2/167)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 2 (3/60)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 61,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 2 (3/61)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 62,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Inlet to position 0 (3/62)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 64,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Outlet to position 0 (3/64)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 63,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Bypass to position 1 (3/63)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 66,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenSMSupply to position 1 (3/66)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 67,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenSurgeTank to position 1 (3/67)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 2 (3/65)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 296,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P15_CoasPower to Down (1/296)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 297,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P15_UtilityPower to Down (1/297)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 298,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P15_BeaconLight to Middle (1/298)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 299,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P15_DyeMarker to Down (1/299)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 300,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P15_Vent to Down (1/300)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 57,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA1 to Middle (1/57)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC1 to Middle (1/65)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 58,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA2 to Middle (1/58)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC2 to Middle (1/66)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 61,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB1 to Middle (1/61)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 69,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD1 to Middle (1/69)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 62,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB2 to Middle (1/62)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 70,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD2 to Middle (1/70)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 59,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA3 to Middle (1/59)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 67,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC3 to Middle (1/67)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSA4 to Middle (1/60)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSC4 to Middle (1/68)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 63,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB3 to Middle (1/63)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 71,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD3 to Middle (1/71)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 64,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSB4 to Middle (1/64)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 72,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AutoRCSD4 to Middle (1/72)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 309,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_FloodDim to Up (1/309)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 310,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_FloodFixed to Middle (1/310)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 160,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic1 to Down (1/160)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 161,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic2 to Down (1/161)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 162,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 163,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 68,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set CMHtr1 to Open (2/68)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 69,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set CMHtr2 to Open (2/69)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 74,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FloatBag1 to Open (2/74)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 75,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FloatBag2 to Open (2/75)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 76,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FloatBag3 to Open (2/76)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 70,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic1 to Open (2/70)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 71,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set SeqLogic2 to Open (2/71)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 72,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmA to Open (2/72)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 73,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PyroArmB to Open (2/73)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 66,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCAC1 to Closed (2/66)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 36,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSAC1 to Closed (2/36)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 37,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSAC2 to Closed (2/37)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 67,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCAC2 to Closed (2/67)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 64,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DirectUllageMNA to Closed (2/64)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DirectUllageMNB to Closed (2/65)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 38,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller1DirectMNA to Closed (2/38)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 65,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DirectUllageMNB to Closed (2/65)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 38,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller1DirectMNA to Closed (2/38)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 39,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller1DirectMNB to Closed (2/39)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 40,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller2DirectMNA to Closed (2/40)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 41,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Controller2DirectMNB to Closed (2/41)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 42,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ACRollMNA to Closed (2/42)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 43,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ACRollMNB to Closed (2/43)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 44,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set BDRollMNA to Closed (2/44)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 45,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set BDRollMNB to Closed (2/45)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 46,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PitchMNA to Closed (2/46)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 47,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PitchMNB to Closed (2/47)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 48,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set YawMNA to Closed (2/48)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 49,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set YawMNB to Closed (2/49)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 172,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ORDEALAC2 to Closed (2/172)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 173,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ORDEALMNB to Closed (2/173)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 54,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerAutoMNA to Closed (2/54)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 55,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ControllerAutoMNB to Closed (2/55)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 128,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic12MNA to Closed (2/128)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 130,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic34MNA to Closed (2/130)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 129,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic12MNB to Closed (2/129)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 131,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSLogic34MNB to Closed (2/131)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 126,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSSystemMNA to Closed (2/126)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 127,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSSystemMNB to Closed (2/127)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 56,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadAHeaters to Closed (2/56)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 58,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadCHeaters to Closed (2/58)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 57,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadBHeaters to Closed (2/57)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 59,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set QuadDHeaters to Closed (2/59)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 52,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PrplntIsolMNA to Closed (2/52)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 53,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PrplntIsolMNB to Closed (2/53)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 50,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogicMNA to Closed (2/50)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 51,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogicMNB to Closed (2/51)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 132,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSMNA to Closed (2/132)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 133,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSMNB to Closed (2/133)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 134,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DockProbeMNA to Closed (2/134)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 135,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DockProbeMNB to Closed (2/135)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 249,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNA to Closed (2/249)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 250,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNB to Closed (2/250)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 251,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC1 to Closed (2/251)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 252,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC2 to Closed (2/252)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSHeVlvMNA to Closed (2/60)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 61,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSHeVlvMNB to Closed (2/61)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 253,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_Pitch1BatA to Closed (2/253)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 254,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_Pitch2BatB to Closed (2/254)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 255,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_Yaw1BatA to Closed (2/255)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 256,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P8_SPS_Yaw2BatB to Closed (2/256)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 62,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSPilotVlvMNA to Closed (2/62)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 63,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSPilotVlvMNB to Closed (2/63)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 169,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EDSBatA to Closed (2/169)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 171,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EDSBatC to Closed (2/171)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 170,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set EDSBatB to Closed (2/170)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 77,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ELSBatA to Closed (2/77)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 78,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ELSBatB to Closed (2/78)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 168,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PLVentFLTPL to Closed (2/168)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 82,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EDSPower to Down (1/82)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 124,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCServo1 to Middle (1/124)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 125,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCServo2 to Middle (1/125)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set FDAIPowerSelector to position 3 (3/4)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 246,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LogicPower23 to Up (1/246)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SCSElectronicsPWR to position 2 (3/5)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 73,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SigCondDriverBiasPWR1 to Up (1/73)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 74,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SigCondDriverBiasPWR2 to Down (1/74)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 13,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGPWR1 to position 1 (3/13)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 14,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGPWR2 to position 1 (3/14)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 47,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CMCAtt to Up (1/47)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 53,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FDAIScale to Up (1/53)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 54,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FDAISelect to Up (1/54)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 55,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FDAISource to Up (1/55)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 56,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ATTSet to Down (1/56)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 109,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 110,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 111,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 108,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AttCycleLimiter to Down (1/108)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 107,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AttDeadband to Down (1/107)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 106,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set AttRate to Up (1/106)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 80,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set TransCntlPWR to Up (1/80)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 76,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Up (1/76)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 77,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Up (1/77)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 78,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Middle (1/78)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 79,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Middle (1/79)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 81,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 112,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 113,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 114,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 115,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 130,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSDirectOn to Down (1/130)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 131,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSdVThrustA to Down (1/131)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 132,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSdVThrustB to Down (1/132)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 24,
       "ToPosID": 8,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSGimbalTrimPitch to position 8 (3/24)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 25,
       "ToPosID": 8,
-      "Text": null
+      "Text": null,
+      "Description": "set SPSGimbalTrimYaw to position 8 (3/25)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ATT SET tw (3) - R 162, P 90, Y 0"
+      "Text": "ATT SET tw (3) - R 162, P 90, Y 0",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 116,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCPitch to Middle (1/116)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 117,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCYaw to Middle (1/117)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 118,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCGimbalMotorsPitch1 to Down (1/118)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 119,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCGimbalMotorsPitch2 to Down (1/119)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 120,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCGimbalMotorsYaw1 to Down (1/120)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 121,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCGimbalMotorsYaw2 to Down (1/121)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 311,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P1_dVCG to Up (1/311)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 158,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ELSLogic to Down (1/158)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 159,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set ELSAuto to Up (1/159)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 156,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSLogic to Down (1/156)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 167,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CMRCSPrplntDump to Down (1/167)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 168,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CMRCSPrplntPurge to Down (1/168)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 48,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set IMUCage to Down (1/48)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 248,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EMSRoll to Down (1/248)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 247,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set Dot05gAllowed to Down (1/247)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 45,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LVSPSIndaPc to Up (1/45)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 46,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set LVSPSIncSIISIV_GP1 to Down (1/46)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 122,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCGimbalDrivePitch to Middle (1/122)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 123,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set TVCGimbalDriveYaw to Middle (1/123)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 127,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EventTimerP1_StartStop to Down (1/127)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 126,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EventTimerP1_DirectionReset to Up (1/126)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 237,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DockingProbeExtend to Middle (1/237)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 238,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DockingProbeRetractPrim to Middle (1/238)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 239,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set DockingProbeRetractSec to Middle (1/239)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 240,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ExtLightRUNEVA to Down (1/240)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 241,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set ExtLightRNDZ to Middle (1/241)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 242,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TunnelLights to Down (1/242)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 243,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set LMPower to Middle (1/243)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 245,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set UpTlm_CM to Up (1/245)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 244,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set UpTlm_IU to Up (1/244)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 155,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_RCS_Press to Down (1/155)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 101,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Down (1/101)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SM RCS He 1 tb (4) - bp"
+      "Text": "SM RCS He 1 tb (4) - bp",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SM RCS He 2 tb (4) - bp"
+      "Text": "SM RCS He 2 tb (4) - bp",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SM RCS PRIM PRPLNT tb (4) - bp"
+      "Text": "SM RCS PRIM PRPLNT tb (4) - bp",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SM RCS SEC PRPLNT tb (4) - bp"
+      "Text": "SM RCS SEC PRPLNT tb (4) - bp",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 95,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SMRCSPrplnt2A to Up (1/95)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 96,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SMRCSPrplnt2B to Up (1/96)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 97,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SMRCSPrplnt2C to Up (1/97)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 98,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SMRCSPrplnt2D to Up (1/98)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 2 (3/6)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 3 (3/6)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 4 (3/6)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 5 (3/6)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 101,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Up (1/101)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 101,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Down (1/101)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 102,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SM_RCS_Heater_A to Middle (1/102)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 103,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SM_RCS_Heater_B to Middle (1/103)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 104,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SM_RCS_Heater_C to Middle (1/104)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 105,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SM_RCS_Heater_D to Middle (1/105)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 99,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CMPrplntT1 to Up (1/99)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 100,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set CMPrplntT2 to Up (1/100)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CM RCS PRPLNT tb (both) - gray"
+      "Text": "CM RCS PRPLNT tb (both) - gray",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 0 (3/6)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 1 (3/6)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 75,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSCommand to Down (1/75)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 154,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set RCSTransfer to Down (1/154)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EDS to Down (1/51)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 266,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CSMLMSep1 to Down (1/266)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 267,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CSMLMSep2 to Down (1/267)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 147,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_SM_Sep1 to Down (1/147)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 148,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set CM_SM_Sep2 to Down (1/148)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 144,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SIVB_LMSep to Down (1/144)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 40,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PrplntDumpAuto to Up (1/40)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 41,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set TwoEngOut to Up (1/41)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 42,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LVRates to Up (1/42)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 43,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TwrJett1 to Down (1/43)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 44,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set TwrJett2 to Down (1/44)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 49,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Guidance to Up (1/49)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 50,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SII_SIVBStage to Down (1/50)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 268,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set XLunarInject to Up (1/268)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 254,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set MainChuteRelease to Down (1/254)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Skip P600's"
+      "Text": "Skip P600's",
+      "Description": "Manual step"
     }
   ],
   "Images": []

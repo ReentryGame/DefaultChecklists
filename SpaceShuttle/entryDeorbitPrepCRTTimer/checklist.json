@@ -1,0 +1,53 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrepCRTTimer",
+  "Group": "DEORBIT PREP",
+  "Name": "CRT TIMER SETUP",
+  "Side": 0,
+  "SortPriority": 503,
+  "AutoGenerate": true,
+  "checklistText": "CRT TIMER",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT 1: SPEC 2 ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET CRT TIMER TO COUNT DOWN TO TIG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ENTRY DAY (HR:MIN:SEC – MET)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ITEM 17+[HR]+[MIN]+[SEC]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ITEM 12 START",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

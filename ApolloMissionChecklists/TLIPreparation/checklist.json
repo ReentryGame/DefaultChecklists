@@ -1,0 +1,870 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TLIPreparation",
+  "Group": "TLI",
+  "Name": "TLI PREPARATION",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 500,
+  "AutoGenerate": true,
+  "checklistText": "TLI PREPARATION\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 268,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set XLunarInject to Up (1/268)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EDSPower to Up (1/82)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform EMS ΔV TEST & NULL BIAS CHECK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSelector to position 2 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set ΔVC (from TLI PAD)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC ALIGN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V48E, 31102, 01111",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Up (1/260)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 261,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI2 to Up (1/261)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 265,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ORDEAL_Location to Up (1/265)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TransCntlPWR to Up (1/80)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Up (1/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Up (1/79)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Up (1/76)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Up (1/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 46,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set LVSPSIncSIISIV_GP1 to Up (1/46)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DirectUllageMNA to Closed (2/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DirectUllageMNB to Closed (2/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CryoH2Fan1 to Down (1/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CryoH2Fan2 to Down (1/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CryoO2Fan1 to Down (1/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CryoO2Fan2 to Down (1/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Fan1 to Middle (1/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Fan2 to Middle (1/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Fan1 to Middle (1/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Fan2 to Middle (1/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set DET - 51:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 15E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 33  GET of TB6 (hrs, min, sec)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "         LOAD GET of TB6",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 14  VC/O (dV, fps)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "         LOAD VC/O",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 95  TFI, VG, VI (min-sec, fps, fps)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 49,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set Guidance to Up (1/49)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TB6 - SII SEP lt on (TIG-9min, 38 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SII SEP lt out (38 sec later)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 127,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EventTimerP1_StartStop to Up (1/127)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MONITOR LV TANK PRESS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If ΔP > 36 psid (OXID > FUEL) *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If ΔP < 26 psid (FUEL > OXID) *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If LOX TK PRESS >50 psia      *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *  EMERGENCY CSM&LV SEP      *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 245,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set UpTlm_CM to Down (1/245)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 244,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set UpTlm_IU to Down (1/244)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Up (1/260)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 261,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI2 to Down (1/261)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 262,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_Mode to Down (1/262)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 58:15 - DSKY BLANKS (Ave G on)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 58:20 - TFI, VG, VI (min-sec, fps, fps) (-01:40)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCServo1 to Up (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCServo2 to Middle (1/125)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 58:36 - SII SEP lt - on (-01:24)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 58:38 - SIVB ULLAGE Begins",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 59:42 - SII SEP lt - out (TIG - 18 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 59:52 - SIVB FUEL LEAD",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 59:55 - SIVB ULLAGE discontinues",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 59:59 - LV ENG 1 lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 00:00 - SIVB IGNITION __:__:__ GETI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 00:02 - LV ENG 1 lt - out",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 00:10 - 06 95 TFC, VG, VI (min-sec, fps, fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MONITOR THRUST & ATTITUDE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MONITOR LV TANK PRESS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SIVB ECO (lt on) (SIVB will automatically cutoff)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If EMER SIVB CUTOFF: LV STAGE sv - SII/SIVB *",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key VERB (freeze display)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   Record TFC, VG, VI and ΔVC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LV ENG 1 lt - out (TB 7 + 10 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET 08:26 - SIVB MNVR TO ORB RT (HDS DN)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "KEY RLSE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCServo1 to Middle (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Down (1/236)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 260,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Down (1/260)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V66E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 212,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set HighGainServoPwr to Down (1/212)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 185,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P225_HighGainAnt_FltBus to Closed (2/185)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 184,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P225_HighGainAnt_Group2 to Closed (2/184)"
+    }
+  ],
+  "Images": []
+}

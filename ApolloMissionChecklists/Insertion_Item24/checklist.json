@@ -1,0 +1,62 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item24",
+  "Group": "INSERTION",
+  "Name": "OPTICS DUST COVER JETT [24]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 240,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n24) OPTICS DUST COVER JETT",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P122_Tracker to Middle (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Up (1/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 273,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P122_OpticsMode to Down (1/273)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 275,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_ControllerCoupling to Up (1/275)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 274,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_ControllerSpeed to Up (1/274)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Look through optics to jett covers (in dev)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

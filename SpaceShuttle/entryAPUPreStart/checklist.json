@@ -1,0 +1,381 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryAPUPreStart",
+  "Group": "ENTRY",
+  "Name": "APU PRE START",
+  "Side": 0,
+  "SortPriority": 610,
+  "AutoGenerate": true,
+  "checklistText": "<b>APU PRE START</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7328,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R4_BrakeIsolValve1 to Down (1/7328)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7329,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R4_BrakeIsolValve2 to Down (1/7329)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7330,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R4_BrakeIsolValve3 to Down (1/7330)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√HYD BK ISOL VLV (three) tb – CL",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√LG EXTD ISO VLV tb – CL",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7132,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply1 to Up (1/7132)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7133,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply2 to Up (1/7133)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7134,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerN2Supply3 to Up (1/7134)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7129,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower1 to Up (1/7129)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7130,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower2 to Up (1/7130)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7131,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower3 to Up (1/7131)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7126,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr1 to Down (1/7126)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7127,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr2 to Down (1/7127)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7128,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_WSBBoilerControllerHtr3 to Down (1/7128)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7100,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv1A to Closed (2/7100)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7101,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv1B to Closed (2/7101)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7102,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv2A to Closed (2/7102)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7103,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv2B to Closed (2/7103)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7104,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv3A to Closed (2/7104)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 7105,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUFuelTkVlv3B to Closed (2/7105)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7123,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUAutoShutdown1 to Up (1/7123)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUAutoShutdown2 to Up (1/7124)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7125,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUAutoShutdown3 to Up (1/7125)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7120,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUSpeedSelect1 to Down (1/7120)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7121,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUSpeedSelect2 to Down (1/7121)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7122,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUSpeedSelect3 to Down (1/7122)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUStartRun1 to Middle (1/7117)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7118,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUStartRun2 to Middle (1/7118)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set R2_APUStartRun3 to Middle (1/7119)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7103,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress1 to Down (1/7103)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7104,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress2 to Down (1/7104)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7105,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydMainPumpPress3 to Down (1/7105)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7100,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUControllerPower1 to Up (1/7100)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7101,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUControllerPower2 to Up (1/7101)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7102,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUControllerPower3 to Up (1/7102)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3: BFS, SM SYS SUMM 2 (DISP 79)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve1 to Up (1/7114)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve2 to Up (1/7115)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7116,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve3 to Up (1/7116)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√APU/HYD RDY tb (three) – gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7114,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve1 to Down (1/7114)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7115,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve2 to Down (1/7115)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7116,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_APUFuelTankValve3 to Down (1/7116)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2: GNC 50 HORIZ SIT (SPEC 50)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3: BFS, GNC 50 HORIZ SIT (SPEC 50)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√LAND SITE 1 PRI: KSC15",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

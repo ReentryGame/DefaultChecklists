@@ -3,296 +3,339 @@
   "ProjectName": "EntryPreRetro",
   "Group": "ENTRY",
   "Name": "PRE RETRO",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 41,
-  "checklistText": "<size=24>PRE-RETRO</size>\n\n<size=22>CP CHECKLIST</size>\n1. SEQ LIGHTS \t\t\t\t\t\t- BRIGHT\n2. SEQ LIGHTS TEST \t\t\t\t\t- AMBER/RED & GREEN\n3. LEFT PANEL C/B'S \t\t\t\t- CLOSED\n4. TR-256 C/B'S \t\t\t\t\t\t- CLOSED\n5. ATT IND \t\t\t\t\t\t\t- WITH FDI'S\n6. OAMS CNTL POWER \t\t\t\t- ON\n7. PLATFORM \t\t\t\t\t\t- BEF\n8. ATTITUDE CONTROL \t\t\t\t- PLAT\n9. EVENT TIMER \t\t\t\t\t\t- STBY\n10. SET EVENT TIMER TO 20:00\n11. LEFT SEC O2 BOTTLE \t\t\t- OPEN \n\n<size=22>PILOT CHECKLIST</size>\n1. OVERHEAD PANEL C/B'S (ALL) \t\t- CLOSED, EXCEPT:\n\tOAMS HTR C/B \t\t\t\t\t- OPEN\n\tH2O HTR C/B \t\t\t\t\t- OPEN\n2. CTR LIGHT \t\t\t\t\t\t- AS NEEDED\n3. SUIT FAN \t\t\t\t\t\t- NO. 1 & NO. 2\n4. KEYING \t\t\t\t\t\t\t- CONT INTER - PTT\n5. C - RNTY \t\t\t\t\t\t\t- CONT\n6. T/M \t\t\t\t\t\t\t\t- R/T AND ACQ.\n7. ANT SEL \t\t\t\t\t\t\t- RNTY\n8. VOLTMETER \t\t\t\t\t\t- BT\n9. MAIN BATTERIES (4) \t\t\t\t- TEST/OFF\n10. VOLTMETER \t\t\t\t\t\t- C\n11. ATT IND \t\t\t\t\t\t\t- WITH FDI\n12. RIGHT PANEL C/B'S (ALL) \t\t-  CLOSED, EXCEPT:\n\tCALIB C/B \t\t\t\t\t\t- OPEN\n\tAGENA PWR C/B \t\t\t\t\t- OPEN\n\tAGENA CNTL C/B \t\t\t\t- OPEN\n13. EXT LTS \t\t\t\t\t\t- OFF\n14. ENGINE \t\t\t\t\t\t\t- STOP\n15. RT SEC O2 BOTTLE \t\t\t\t- OPEN\n\n<size=22>AT TR -20 MINS (CORE 19 01200):</size>\n1. START EVENT TIMER COUNTING DOWN\n2. COMPUTER \t\t\t\t\t\t- RNTY\n\n<size=22>ONCE COMPUTER LOADED:</size>\n1. START COMP \t\t\t\t\t\t- PUSH",
+  "AutoGenerate": false,
+  "checklistText": "<size=24>PRE-RETRO</size>\n\n<size=22>CP CHECKLIST</size>\n1. SEQ LIGHTS \t\t\t\t\t\t- BRIGHT\n2. SEQ LIGHTS TEST \t\t\t\t\t- AMBER/RED & GREEN\n3. LEFT PANEL C/B'S \t\t\t\t- CLOSED\n4. TR-256 C/B'S \t\t\t\t\t\t- CLOSED\n5. ATT IND \t\t\t\t\t\t\t- WITH FDI'S\n6. OAMS CNTL POWER \t\t\t\t- ON\n7. PLATFORM \t\t\t\t\t\t- BEF\n8. ATTITUDE CONTROL \t\t\t\t- PLAT\n9. EVENT TIMER \t\t\t\t\t\t- STBY\n10. SET EVENT TIMER TO 20:00\n11. LEFT SEC O2 BOTTLE \t\t\t- OPEN \n\n<size=22>PILOT CHECKLIST</size>\n1. OVERHEAD PANEL C/B'S (ALL) \t\t- CLOSED, EXCEPT:\n\tOAMS HTR C/B \t\t\t\t\t- OPEN\n\tH2O HTR C/B \t\t\t\t\t- OPEN\n2. CTR LIGHT \t\t\t\t\t\t- AS NEEDED\n3. SUIT FAN \t\t\t\t\t\t- NO. 1 & NO. 2\n4. KEYING \t\t\t\t\t\t\t- CONT INTER - PTT\n5. C - RNTY \t\t\t\t\t\t\t- CONT\n6. T/M \t\t\t\t\t\t\t\t- R/T AND ACQ.\n7. ANT SEL \t\t\t\t\t\t\t- RNTY\n8. VOLTMETER \t\t\t\t\t\t- BT\n9. MAIN BATTERIES (4) \t\t\t\t- TEST/OFF\n10. VOLTMETER \t\t\t\t\t\t- C\n11. ATT IND \t\t\t\t\t\t\t- WITH FDI\n12. RIGHT PANEL C/B'S (ALL) \t\t-  CLOSED, EXCEPT:\n\tCALIB C/B \t\t\t\t\t\t- OPEN\n\tAGENA PWR C/B \t\t\t\t\t- OPEN\n\tAGENA CNTL C/B \t\t\t\t- OPEN\n13. EXT LTS \t\t\t\t\t\t- OFF\n14. ENGINE \t\t\t\t\t\t\t- STOP\n15. RT SEC O2 BOTTLE \t\t\t\t- OPEN\n\n<size=22>AT TR -20:00 MINS (CORE 19 02000):</size>\n1. START EVENT TIMER COUNTING DOWN\n2. COMPUTER \t\t\t\t\t\t- RNTY\n\n<size=22>ONCE COMPUTER LOADED:</size>\n1. START COMP \t\t\t\t\t\t- PUSH",
   "Steps": [
     {
       "Program": 2,
       "Type": 1,
       "SetID": 17,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set LightsBrightness to Up (1/17)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SEQ LIGHTS TEST - AMBER/RED & GREEN"
+      "Text": "SEQ LIGHTS TEST - AMBER/RED & GREEN",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "LEFT PANEL C/B'S - CLOSED"
+      "Text": "LEFT PANEL C/B'S - CLOSED",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 81,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSETr256 to Up (1/81)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 79,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERetroAuto to Up (1/79)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 80,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSERetroMan to Up (1/80)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 95,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FDI1Controller to Up (1/95)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 3,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SquibRetroPWR to Up (1/3)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 5,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set IGSPlatform to position 4 (3/5)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set ACMEMode to position 6 (3/4)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SET EVENT TIMER TO 20:00"
+      "Text": "SET EVENT TIMER TO 20:00",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 24,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set SecondaryO2ShutoffL to position 0 (3/24)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "OVERHEAD PANEL C/B'S (ALL) - CLOSED, EXCEPT:"
+      "Text": "OVERHEAD PANEL C/B'S (ALL) - CLOSED, EXCEPT:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 112,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEH2OHtrs to Down (1/112)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 114,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSEOAMSHtrs to Down (1/114)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CTR LIGHT - AS NEEDED"
+      "Text": "CTR LIGHT - AS NEEDED",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 40,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set SuitFan to Down (1/40)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 192,
       "ToPosID": 3,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioKeying to Right (1/192)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 196,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set BeaconCBand to Up (1/196)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 199,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set TMTM to Up (1/199)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 201,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RadioAntSel to Up (1/201)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 1,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set VoltMeterSelector to position 6 (3/1)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 10,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery1 to Middle (1/10)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 11,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery2 to Middle (1/11)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 12,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery3 to Middle (1/12)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 13,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set MainBattery4 to Middle (1/13)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 1,
       "ToPosID": 10,
-      "Text": null
+      "Text": null,
+      "Description": "set VoltMeterSelector to position 10 (3/1)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 177,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set FDI2Switch to Up (1/177)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "RIGHT PANEL C/B'S (ALL) -  CLOSED, EXCEPT:"
+      "Text": "RIGHT PANEL C/B'S (ALL) -  CLOSED, EXCEPT:",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 157,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set FUSECalib to Down (1/157)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 162,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENAPWR to Down (1/162)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 165,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENACntl to Down (1/165)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 176,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENAExtrLts to Middle (1/176)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 182,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set AGENAEngineARM to Down (1/182)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 25,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set SecondaryO2ShutoffR to position 0 (3/25)"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 52,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set EventTimerDirection to Down (1/52)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "AT TR -20 MINS (CORE 19 01200):"
+      "Text": "AT TR -20 MINS (CORE 19 02000):",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set EventTimerStart to Up (1/51)"
     },
     {
       "Program": 2,
       "Type": 3,
       "SetID": 6,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ComputerMode to position 5 (3/6)"
     },
     {
       "Program": 2,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "WAIT FOR OBC TO LOAD MODULE"
+      "Text": "WAIT FOR OBC TO LOAD MODULE",
+      "Description": "Manual step"
     },
     {
       "Program": 2,
       "Type": 4,
       "SetID": 25,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "push ComputerStart (4/25)"
     }
   ],
   "Images": []

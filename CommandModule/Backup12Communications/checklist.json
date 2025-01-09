@@ -3,8 +3,10 @@
   "ProjectName": "Backup12Communications",
   "Group": "BACKUP CREW PRELAUNCH",
   "Name": "COMMUNICATIONS CHECK",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 52,
+  "AutoGenerate": false,
   "checklistText": "COMMUNICATIONS CHECK\r\n\r\n\t1 Comm Activation\r\n\t\tNOTE: Skip Panel 10 items.\nPanel 3:\r\n\tS BD XPNDR – PRIM\r\n\tS BD PWR AMPL HI – HI\r\n\tPWR AMPL tb – gray (after 90 sec)\r\n\r\n\tVHF AM B – DUPLEX\r\nPanel 2:\r\n\tS BD ANT ind - >1/3 scale\r\nPanel 9, 10, 6:\r\n\tMODE (3) – INTERCOM/PTT\r\n\tPAD COMM (3) – T/R\r\n\tPAD COMM VOL tw (3) – 5\r\n\tPWR (3) – AUDIO/TONE\r\n\tMASTER VOL tw (3) – 5\r\n\tSUIT PWR (3) – on (up)\r\n\tINTERCOM  (3) – T/R\r\n\tINTERCOM VOL tw (3) – 5\r\n\tVHF AM (3) – T/R\r\n\tVHF AM VOL tw (3) – 5\r\n\tS BD (3) – T/R\r\n\tS BD VOL tw (3) – 5\r\n\tAUDIO CONT (3) – NORM\r\n\r\nPanel 9:\r\n\tVHF RNG – NORM\r\n\r\n\t2 Comm Checks\r\n\t\tReplace facility headsets with CM\r\n\t\t\theadsets\r\n\r\n\t\tPerform comm checks (pad comm, S-band,\r\n\t\t\t& VHF AM)\r\n\t\tReturn to facility headset\r\n\t\tDon CMP headset & perform S-band & VHF\r\n\t\t\tAM comm checks\r\nPanel 3:\r\n\t\tUP TLM DATA – UP VOICE BU\r\n\t\t\tEstablish 2-way comm on S-band\r\n\t\tUP TLM DATA – DATA\r\n\t\tS BD AUX TAPE – DN VOICE BU\r\n\t\t\tEstablished 2-way comm on S-band\r\n\t\tS BD AUX TAPE – ctr\r\n\t\tReturn to facility headset\r\n\r\n\t3 At Completion of Comm Checks\r\nPanel 9, 10, 6:\r\n\tSUIT PWR (3) – OFF\r\n\tPWR (3) – OFF\r\nPanel 10:\r\n\tMASTER VOL tw – 6\r\n\tINTERCOM VOL tw – 6\r\n\tS BD VOL tw – 6\r\n\tVHF AM VOL tw – 7\r\n\tDisconnect CM headset & CWG adapter from\r\n\t\tcomm cont head\r\nPanel 2:\r\n\tC/W PWR – off (ctr)\r\nPanel 5:\r\n\tcb C/W (2) – open\r\n\tCDR & LMP egress CM\r\n\r\n\r\n\r\n",
   "Steps": [
     {
@@ -12,245 +14,264 @@
       "Type": 1,
       "SetID": 214,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SBandNormalXpndr to Up (1/214)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 216,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SBandNormalPwrAmplStr to Up (1/216)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 227,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set SqA_VHFAmB to Up (1/227)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 202,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2Mode to Up (1/202)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 203,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2PadComm to Up (1/203)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 205,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2Power to Up (1/205)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 209,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2Suit to Up (1/209)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 206,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2Intercom to Up (1/206)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 207,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2VHF to Up (1/207)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 204,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2SBand to Up (1/204)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 208,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2AudioControl to Up (1/208)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 193,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1Mode to Up (1/193)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 194,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1PadComm to Up (1/194)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 196,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1Power to Up (1/196)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 200,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1Suit to Up (1/200)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 197,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1Intercom to Up (1/197)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 198,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1VHF to Up (1/198)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 195,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1SBand to Up (1/195)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 199,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1AudioControl to Up (1/199)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 201,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1VHFRange to Down (1/201)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform RADIO CHECK: Pad Comm, S-band & VHF AM"
+      "Text": "Perform RADIO CHECK.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 222,
       "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Establish 2-way comm on S-band"
+      "Text": null,
+      "Description": "set UpTlmDataDNVoicedBU to Down (1/222)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 222,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set UpTlmDataDNVoicedBU to Up (1/222)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 220,
       "ToPosID": 5,
-      "Text": null
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Established 2-way comm on S-band"
+      "Text": null,
+      "Description": "set SBandAUXTapeDNVoiceBU to Down (1/220)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 220,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set SBandAUXTapeDNVoiceBU to Middle (1/220)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 209,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2Suit to Down (1/209)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 205,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio2Power to Middle (1/205)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 200,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1Suit to Down (1/200)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 196,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set Radio1Power to Middle (1/196)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 151,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set CW_PWR to Middle (1/151)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 108,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set CnWSDCMNB to Open (2/108)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 107,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set CnWSDCMNA to Open (2/107)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Backup CDR & LMP egress CM"
+      "Text": "Backup CDR & LMP egress CM",
+      "Description": "Manual step"
     }
   ],
   "Images": []

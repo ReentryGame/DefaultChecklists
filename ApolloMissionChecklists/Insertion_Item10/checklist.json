@@ -1,0 +1,102 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item10",
+  "Group": "INSERTION",
+  "Name": "MAIN REG CHECK [10]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 100,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n10) MAIN REG CHECK\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 42,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_MNRegulatorB to position 0 (3/42)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 3 (3/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 38,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P351_EmerCabinPressTest (4/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  O2 FLOW INC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 42,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P351_MNRegulatorB to position 1 (3/42)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_MNRegulatorA to position 0 (3/41)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 1 (3/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 38,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P351_EmerCabinPressTest (4/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  O2 FLOW INC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P351_MNRegulatorA to position 1 (3/41)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 0 (3/45)"
+    }
+  ],
+  "Images": []
+}

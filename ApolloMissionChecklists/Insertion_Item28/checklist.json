@@ -1,0 +1,70 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item28",
+  "Group": "INSERTION",
+  "Name": "EXTEND DOCKING PROBE [28]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 280,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n28) EXTEND DOCKING PROBE",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 134,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockProbeMNA to Closed (2/134)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 135,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockProbeMNB to Closed (2/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 237,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set DockingProbeExtend to Up (1/237)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Extend until full probe extension",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 238,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockingProbeRetractPrim to Middle (1/238)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 239,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DockingProbeRetractSec to Middle (1/239)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 237,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set DockingProbeExtend to Down (1/237)"
+    }
+  ],
+  "Images": []
+}

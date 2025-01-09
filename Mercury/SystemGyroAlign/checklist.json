@@ -5,7 +5,8 @@
   "Name": "GYRO ALIGN",
   "Side": 1,
   "SortPriority": 40,
-  "checklistText": "<size=24>GYRO ALIGN</size>\n\nUse ONLY if errors in GYRO\n\n1. Gyro \t\t\t\t- GYRO CAGE\n2. Attitude\t\t\t- 0, 0, 0\nManeuver the attitude to the 0,0,0 attitude, using window reference, eye sight, or periscope.\n3. Gyro \t\t\t\t- NORMAL or FREE\n\n<size=22>HORIZON CHECK</size>\n\n1. Attitude\t\t\t- RETROGRADE\nAlign the spacecraft with the retrograde horizon. You can also use the marks on the periscope\nThe readings should read about 0, 0, 0\nIf not, realign the gyros",
+  "AutoGenerate": false,
+  "checklistText": "<size=24>GYRO ALIGN</size>\nRemarks: \n1) Use ONLY if errors in GYRO or in Horizon Scanners\n2) Gyros to NORMAL will slave the platform to the Horizon Scanners.\n3) Use FBW if you are in FREE or GYRO CAGE mode\n\n1. Gyro \t\t\t\t- GYRO CAGE\n2. Attitude\t\t\t- 0, 0, 0\nManeuver the attitude to the 0,0,0 attitude, using window reference, eye sight, or periscope.\n3. Gyro \t\t\t\t- FREE\n\n\n<size=22>HORIZON CHECK</size>\n\n1. Attitude\t\t\t- RETROGRADE\nAlign the spacecraft with the retrograde horizon. You can also use the marks on the periscope\nThe readings should read about 0, 0, 0\nIf not, realign the gyros",
   "Steps": [],
   "Images": []
 }

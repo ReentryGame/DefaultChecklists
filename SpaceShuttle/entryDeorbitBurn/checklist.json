@@ -1,0 +1,605 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitBurn",
+  "Group": "ENTRY",
+  "Name": "DEORBIT BURN (2 ENG)",
+  "Side": 0,
+  "SortPriority": 640,
+  "AutoGenerate": true,
+  "checklistText": "<b>DEORBIT BURN (2 ENG) </b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√MM302   √OMS BOTH",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√TRIM per MNVR PAD or P +0.0, LY -5.7, RY +5.7 ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9709,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveA to Middle (1/9709)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9711,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveA to Middle (1/9711)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9710,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveB to Up (1/9710)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9712,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveB to Up (1/9712)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DAP – AUTO(PASS)/DISC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1500,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F6_AttitudeSelect to Middle (1/1500)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1501,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_ADIErrorScale to Up (1/1501)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1502,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F6_ADIRateScale to Middle (1/1502)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1700,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F8_AttitudeSelect to Middle (1/1700)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1701,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_ADIErrorScale to Up (1/1701)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1702,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F8_ADIRateScale to Middle (1/1702)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1703,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_FlightControllerPower to Up (1/1703)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1503,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_FlightControllerPower to Up (1/1503)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG -2 minutes:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5200,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_LeftOMSEngControl to Middle (1/5200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5201,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_RightOMSEngControl to Middle (1/5201)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG -00:15: EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG 00:00: Start watch (Pc, VTOT, ENG VLVs)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "* If no OMS ignition: APUs – SHUT DN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When burn complete:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1 GNC, OPS 303 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1: GNC DEORB MNVR COAST",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2: GNC DEORB MNVR COAST ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3: BFS, GNC SYS SUMM 2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Uplinked INRTL EI-5 MM303 ATT with DEL PAD",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Mnvr to EI-5 ATT – ITEM 27 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "OMS/RCS POST BURN RECONFIG",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "OMS GMBL PWRDN (PASS ONLY) - GMBL OFF:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " – ITEM 32 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " – ITEM 33 EXEC ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7000,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_PayloadAux to Up (1/7000)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1703,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set F8_FlightControllerPower to Down (1/1703)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1503,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set F6_FlightControllerPower to Down (1/1503)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5207,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C3_DAPSetup_Control_Auto (4/5207)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AFT L,R RCS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9600,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O7_RCS_Left_HePressA to Up (1/9600)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9601,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O7_RCS_Left_HePressB to Up (1/9601)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9610,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O7_RCS_Right_HePressA to Up (1/9610)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9611,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O7_RCS_Right_HePressB to Up (1/9611)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√He PRESS (four) – OP (tb-OP)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9602,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O7_RCS_Left_TankIsolationManifold12 to Middle (1/9602)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9603,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O7_RCS_Left_TankIsolationManifold345A to Middle (1/9603)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9604,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O7_RCS_Left_TankIsolationManifold345B to Middle (1/9604)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9612,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O7_RCS_Right_TankIsolationManifold12 to Middle (1/9612)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9613,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O7_RCS_Right_TankIsolationManifold345A to Middle (1/9613)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9614,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O7_RCS_Right_TankIsolationManifold345B to Middle (1/9614)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√TK ISOL (six) – GPC (tb-OP) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9620,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O7_RCS_LeftCrossfeed12 to Down (1/9620)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9621,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O7_RCS_LeftCrossfeed345 to Down (1/9621)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9622,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O7_RCS_RightCrossfeed12 to Down (1/9622)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9623,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O7_RCS_RightCrossfeed345 to Down (1/9623)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√XFEED (four) – GPC (tb-CL) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "L,R OMS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9709,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveA to Down (1/9709)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9710,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveB to Down (1/9710)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9711,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveA to Down (1/9711)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9712,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveB to Down (1/9712)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9713,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveA to Up (1/9713)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9714,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveB to Up (1/9714)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9715,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveA to Up (1/9715)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9716,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveB to Up (1/9716)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√TK ISOL (four) – OP (tb-OP)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9717,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedA to Down (1/9717)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9718,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedB to Down (1/9718)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9719,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedA to Down (1/9719)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9720,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedB to Down (1/9720)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√XFEED (four) – CL (tb-CL) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 9200,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O3_RCS_OMS_Pressure_Display to position 1 (3/9200)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 9201,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O3_RCS_OMS_Qty_Display to position 1 (3/9201)"
+    }
+  ],
+  "Images": []
+}

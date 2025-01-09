@@ -1,0 +1,77 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrepGPC2IDPcmd",
+  "Group": "DEORBIT PREP",
+  "Name": "BFS TO IDP CMD",
+  "Side": 0,
+  "SortPriority": 509,
+  "AutoGenerate": true,
+  "checklistText": "<b>ENSURE BFS GPC CAN COMMAND AN IDP</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9504,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_GPC5Power to Up (1/9504)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9514,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_GPC5Mode to Middle (1/9514)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√GPC 5 tb - RUN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5208,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set C3_BFS_CRT_Display to Up (1/5208)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5209,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_BFS_CRT_Select to Middle (1/5209)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√BFS visible on CRT2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5208,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C3_BFS_CRT_Display to Down (1/5208)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5209,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C3_BFS_CRT_Select to Down (1/5209)"
+    }
+  ],
+  "Images": []
+}

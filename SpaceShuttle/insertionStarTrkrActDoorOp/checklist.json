@@ -1,0 +1,117 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "insertionStarTrkrActDoorOp",
+  "Group": "POST INSERTION",
+  "Name": "STAR TRKR ACTIVATION/DOOR OPEN",
+  "Side": 0,
+  "SortPriority": 335,
+  "AutoGenerate": true,
+  "checklistText": "<b>STAR TRKR ACTIVATION/DOOR OPEN</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9540,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_StarTracker_PowerY to Up (1/9540)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9541,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_StarTracker_PowerZ to Up (1/9541)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GNC I/O RESET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9538,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_DoorControlSys1 to Up (1/9538)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9539,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O6_DoorControlSys2 to Up (1/9539)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√POS tb (two) – bp ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When both tb – OP (8-24 sec):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9538,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_DoorControlSys1 to Middle (1/9538)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9539,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_DoorControlSys2 to Middle (1/9539)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1: GNC 22 S TRK/COAS CNTL ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "STAR TRK – ITEM 3,4 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1: GNC 21 IMU ALIGN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RESUME",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

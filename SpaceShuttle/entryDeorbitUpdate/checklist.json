@@ -1,0 +1,61 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitUpdate",
+  "Group": "ENTRY",
+  "Name": "DEORBIT UPDATE",
+  "Side": 0,
+  "SortPriority": 605,
+  "AutoGenerate": true,
+  "checklistText": "<b>DEORBIT UPDATE</b>\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Deorbit Burn data:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   Time to burn",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   TGT HA / HP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Execute a Gimbal Check:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   ITEM 34 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   Check is complete when * dissappers.",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,502 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item15",
+  "Group": "INSERTION",
+  "Name": "EPS MON CHECK [15]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 140,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n15) EPS MONITORING CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O2PressInd to Up (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cryogenic Pressure - Quantity Check:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "H2 PRESS (2) - 225-260 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 PRESS (2) - 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O2PressInd to Down (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SURGE TK PRESS - 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "H2 QTY (2) - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 QTY (2) - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Fan1 to Middle (1/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoH2Fan2 to Middle (1/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Fan1 to Middle (1/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CryoO2Fan2 to Middle (1/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRYO FANS - OFF; ON as req'd",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC Power Plant Check:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC1Htr to Up (1/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC2Htr to Up (1/17)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC3Htr to Up (1/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC REACT tb (3) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FCTestSelector to position 0 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC IND sel - 1, 2, 3 (for each line below, check FC ind 1,2,3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  H2 FLOW - 0.03-0.15 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  O2 FLOW - 0.25-1.2 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MOD SKIN TEMP - 390-450° F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MOD COND EXH TEMP - 150-175° F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC pH HI tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC RAD TEMP LO tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FCTestSelector to position 0 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FC1Reacs to Open (2/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 2,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FC2Reacs to Open (2/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FC3Reacs to Open (2/3)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FC1Radiator to Open (2/22)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FC2Radiator to Open (2/23)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FC3Radiator to Open (2/24)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC REACS & RAD cb (6) - out, all others in(verify)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "D-C Voltage-Amperage Check:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieAC to Down (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieBC to Down (1/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC1MNA to Up (1/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC2MNA to Up (1/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FC3MNA to Down (1/3)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC MNA tb - 1 & 2 gray, 3 bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 4,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FC1MNB to Down (1/4)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 5,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FC2MNB to Down (1/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC3MNB to Up (1/6)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC MNB tb - 1 & 2 bp, 3 gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 0 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC 1, 2, & 3 (RECORD AMPS)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 3 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MAIN BUS A, B, (26.5-31 vdc - Record)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 5 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BAT BUS A, B, & BAT C (31.5-38 vdc < 3 amp)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 9 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PYRO BAT A, B (36.5 - 37.5 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 4 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 4 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 1 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST 4B (BAT RLY BUS - 3.4-4.1 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ACIndicatorSelector to position 0 (3/3)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "A-C VOLTS - 113 to 117 all phases",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

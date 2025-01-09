@@ -1,0 +1,173 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrepHydMpsConfig",
+  "Group": "DEORBIT PREP",
+  "Name": "HYD/MPS CONFIG",
+  "Side": 0,
+  "SortPriority": 512,
+  "AutoGenerate": true,
+  "checklistText": "<b>HYD/MPS CONFIG</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "W/B STEAM VENT HTR ACT",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7129,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower1 to Up (1/7129)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7130,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower2 to Up (1/7130)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7131,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R2_WSBBoilerPower3 to Up (1/7131)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NOTE: HTR reqd to be on 2 hr prior to APU act",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "HYD CIRC PUMP TERM",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7135,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump1 to Down (1/7135)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7136,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump2 to Down (1/7136)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7137,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R2_HydCircPump3 to Down (1/7137)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SSME HYD REPRESS PREP",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5204,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_FCSChannel1 to Middle (1/5204)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5205,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_FCSChannel2 to Middle (1/5205)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5206,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_FCSChannel3 to Middle (1/5206)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5207,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_FCSChannel4 to Middle (1/5207)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10603,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O17_ATVC1 to Up (1/10603)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10604,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O17_ATVC2 to Up (1/10604)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10605,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O17_ATVC3 to Up (1/10605)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10606,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O17_ATVC4 to Up (1/10606)"
+    }
+  ],
+  "Images": []
+}

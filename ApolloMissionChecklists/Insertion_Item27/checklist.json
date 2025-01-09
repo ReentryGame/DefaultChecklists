@@ -1,0 +1,102 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item27",
+  "Group": "INSERTION",
+  "Name": "SCS ATT REF COMP CHECK [27]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 270,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n27) SCS ATT Ref Comp Check",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V16 N20E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FDAISelect to Down (1/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FDAISource to Middle (1/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ATTSet to Down (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ATT SET dials - null FDAI 1 err needles",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key VERB when nulled (freeze display)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCVerb (4/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record from DSKY: R ___, P ___, Y___",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record from ATT SET dials: R ___, P ___, Y___",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FDAISelect to Up (1/54)"
+    }
+  ],
+  "Images": []
+}

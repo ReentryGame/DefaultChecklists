@@ -1,0 +1,285 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitEntFwdFltDeckConf",
+  "Group": "DEORBIT PREP",
+  "Name": "ENT FWD FLT DECK CONFIG",
+  "Side": 0,
+  "SortPriority": 533,
+  "AutoGenerate": true,
+  "checklistText": "<b>ENT FWD FLT DECK CONFIG</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BRAKE/ANTISKID/NWS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3101,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L2_NoseWheelSteering to Up (1/3101)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3100,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L2_Antiskid to Up (1/3100)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10310,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O14_BrakesMNA to Up (1/10310)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10408,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O15_BrakesMNB to Up (1/10408)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10512,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_BrakesMNC to Up (1/10512)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "HYD HTR/RJD CONFIG",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7322,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R4_BrakeHeaterA to Up (1/7322)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7323,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R4_BrakeHeaterB to Up (1/7323)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7324,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R4_BrakeHeaterC to Up (1/7324)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10508,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJD_MANF_Driver_L5F5R5 to Up (1/10508)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FES/RAD CONFIG",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3033,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L1_FlashEvapControllerPRI_B to Up (1/3033)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3118,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set L2_FreonIsolMode to Middle (1/3118)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PCS/ARS CONFIG",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3111,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set L2_O2N2ControllerValveSys1 to Up (1/3111)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 3112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set L2_O2N2ControllerValveSys2 to Down (1/3112)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3377,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_SigCond_HumSep to Open (2/3377)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 3378,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set L4_SigCond_IMUFan to Open (2/3378)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ENTRY COMM",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9402,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O5_AG1 to Up (1/9402)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9403,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O5_AG2 to Up (1/9403)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9404,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O5_AA to Up (1/9404)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9405,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O5_ICOM_A to Up (1/9405)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9406,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O5_ICOM_B to Up (1/9406)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9802,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O9_AG1 to Up (1/9802)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9803,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O9_AG2 to Up (1/9803)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9804,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O9_AA to Up (1/9804)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9805,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O9_ICOM_A to Up (1/9805)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9806,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O9_ICOM_B to Up (1/9806)"
+    }
+  ],
+  "Images": []
+}

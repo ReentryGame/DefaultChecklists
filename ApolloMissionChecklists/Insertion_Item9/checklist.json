@@ -1,0 +1,38 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item9",
+  "Group": "INSERTION",
+  "Name": "POST INSERTION [9]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 90,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n9) ",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Confirm normal suit pressure, cabin pressure ~5.5 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 0 (3/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 233,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P380_SuitCurcuitReturnValve to Open (2/233)"
+    }
+  ],
+  "Images": []
+}

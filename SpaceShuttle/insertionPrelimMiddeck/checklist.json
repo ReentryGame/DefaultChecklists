@@ -1,0 +1,21 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "insertionPrelimMiddeck",
+  "Group": "POST INSERTION",
+  "Name": "Prelim Middeck Config",
+  "Side": 0,
+  "SortPriority": 306,
+  "AutoGenerate": true,
+  "checklistText": "<b>PRELIM MIDDECK CONFIG</b>\nSkip\n\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "COMPLETE CHECKLIST: AFT STATION CONFIG [3]",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

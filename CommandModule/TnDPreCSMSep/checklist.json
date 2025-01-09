@@ -3,10 +3,11 @@
   "ProjectName": "TnDPreCSMSep",
   "Group": "T&D",
   "Name": "PRE CSM SEPARATION",
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 601,
   "AutoGenerate": false,
-  "checklistText": "<size=21>PRE CSM SEPARATION checklist</size>\r\nNote: The T&D Checklists can be queued by hitting run in each list.\ncb DOCK PROBE (2) - close (verify)\nCOAS - on\nALIGN GDC",
+  "checklistText": "<size=21>PRE CSM SEPARATION checklist</size>\r\nNote: The T&D Checklists can be queued by hitting run in each list.\ncb DOCK PROBE (2) - close (verify)\nCOAS - on\n\nALIGN GDC:\n  ATT SET - IMU\n  GDC ALIGN pb - press and hold\n\nConfigure lighting:\n  RUN/EVA - as desired\n  SPOT - as desired\n",
   "Steps": [
     {
       "Program": 0,
@@ -34,11 +35,67 @@
     },
     {
       "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC Align (simplified):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ATTSet to Up (1/56)"
+    },
+    {
+      "Program": 0,
       "Type": 4,
       "SetID": 29,
       "ToPosID": 0,
       "Text": null,
       "Description": "push GDCAlign (4/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC ALIGN pb - press & hold until GDC is equal to IMU (FDAI 1 = FDAI 2)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ATTSet to Down (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Configure lighting:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  RUN/EVA - as desired",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPOT - as desired",
+      "Description": "Manual step"
     }
   ],
   "Images": []

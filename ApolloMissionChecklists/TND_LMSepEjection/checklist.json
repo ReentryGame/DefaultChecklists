@@ -1,0 +1,46 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "TND_LMSepEjection",
+  "Group": "T&D",
+  "Name": "LM SEP & EJECTION [12]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 700,
+  "AutoGenerate": true,
+  "checklistText": "NORMAL SC/BOOSTER SEPARATIONS\n\n12) LM SEP & EJECTION",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 144,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SIVB_LMSep to Up (1/144)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:00 Start DET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:05 Thrust -X (3 sec)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

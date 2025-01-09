@@ -1,0 +1,469 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "insertionOps201simplified",
+  "Group": "POST INSERTION",
+  "Name": "OPS 2 SIMPLIFIED",
+  "Side": 0,
+  "SortPriority": 303,
+  "AutoGenerate": true,
+  "checklistText": "This is the simplified procedures for loading OPS 201.\nThis will bypass freeze drying GPC2 with G2, and directly load OPS 201 as the NBATs table data has been I-loaded.\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>TURN OFF GPC3</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9512,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_GPC3Mode to Middle (1/9512)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 5 seconds",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9512,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O6_GPC3Mode to Down (1/9512)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>TRANSITION TO GNC OPS 2</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5106,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set C2_IDPLeftCRTSel to Left (1/5106)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5109,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Spec (4/5109)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5131,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_0 (4/5131)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5112,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Pro (4/5112)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5106,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Item (4/5106)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5122,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_1 (4/5122)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5115,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Pluss (4/5115)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5123,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_2 (4/5123)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5107,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Exec (4/5107)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify 2 GPC is 1 2 0 0 0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5110,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Resume (4/5110)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5108,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Ops (4/5108)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5123,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_2 (4/5123)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5131,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_0 (4/5131)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5122,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_1 (4/5122)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5112,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_Pro (4/5112)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify GNC OPS 201 - UNIV PTG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>TURN OFF BFC LT</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5106,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set C2_IDPLeftCRTSel to Right (1/5106)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 5105,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push C2_Keyboard1_IOReset (4/5105)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 1604,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set F7_MDU_CRT3_Power to position 0 (3/1604)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>TRANSITION TO SM OPS 201</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 8100,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set R12_MDU_CRT4_Power to position 1 (3/8100)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 8101,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set R12_MDU_CRT4_Brightness to position 5 (3/8101)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8009,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_Spec (4/8009)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8031,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_0 (4/8031)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8012,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_Pro (4/8012)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8006,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_Item (4/8006)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8022,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_1 (4/8022)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8015,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_Pluss (4/8015)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8025,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_4 (4/8025)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8007,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_Exec (4/8007)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify 2 GPC = 0 0 0 4 0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8008,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_Ops (4/8008)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8023,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_2 (4/8023)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8031,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_0 (4/8031)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8022,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_1 (4/8022)"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 8012,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push R11_Keyboard3_Pro (4/8012)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify SM 201 - ANTENNA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9514,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_GPC5Mode to Middle (1/9514)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9514,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O6_GPC5Mode to Down (1/9514)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5102,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set C2_IDP3Power to Down (1/5102)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "<b>PL BUS ACTIVATION</b>",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7050,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_Cabin to Up (1/7050)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7053,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_PriMNC to Up (1/7053)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7000,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_PayloadAux to Up (1/7000)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7054,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_AftMNB to Up (1/7054)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 7055,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set R1_Payload_AftMNC to Up (1/7055)"
+    }
+  ],
+  "Images": []
+}

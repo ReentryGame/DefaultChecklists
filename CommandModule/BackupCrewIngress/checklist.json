@@ -3907,14 +3907,6 @@
     {
       "Program": 0,
       "Type": 1,
-      "SetID": 273,
-      "ToPosID": 2,
-      "Text": null,
-      "Description": "set P122_OpticsMode to Middle (1/273)"
-    },
-    {
-      "Program": 0,
-      "Type": 1,
       "SetID": 274,
       "ToPosID": 5,
       "Text": null,
@@ -3940,9 +3932,9 @@
       "Program": 0,
       "Type": 1,
       "SetID": 276,
-      "ToPosID": 5,
+      "ToPosID": 2,
       "Text": null,
-      "Description": "set P122_Tracker to Down (1/276)"
+      "Description": "set P122_Tracker to Middle (1/276)"
     },
     {
       "Program": 0,

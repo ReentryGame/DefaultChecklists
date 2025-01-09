@@ -1,0 +1,93 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "entryDeorbitPrepDeactStrTrks",
+  "Group": "DEORBIT PREP",
+  "Name": "DEACT STAR TRKRS",
+  "Side": 0,
+  "SortPriority": 530,
+  "AutoGenerate": true,
+  "checklistText": "<b>DEACT STAR TRKRS & CLOSE DOORS</b>\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9540,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O6_StarTracker_PowerY to Down (1/9540)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9541,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O6_StarTracker_PowerZ to Down (1/9541)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10334,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O14_StarTrkrZ to Open (2/10334)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10436,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set O15_StarTrkrY to Open (2/10436)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9538,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O6_STDoorControlSys1 to Down (1/9538)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9539,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O6_STDoorControlSys2 to Down (1/9539)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√STAR TRKR DR POS tb (two) – bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When both tb – cl (~8-24 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9538,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_STDoorControlSys1 to Middle (1/9538)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9539,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O6_STDoorControlSys2 to Middle (1/9539)"
+    }
+  ],
+  "Images": []
+}

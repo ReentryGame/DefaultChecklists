@@ -1,0 +1,94 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Insertion_Item7",
+  "Group": "INSERTION",
+  "Name": "C/W OPERATIONAL CHECK [7]",
+  "CustomName": "Apollo13",
+  "Side": 0,
+  "SortPriority": 70,
+  "AutoGenerate": true,
+  "checklistText": "INSERTION AND SYSTEM CHECKS\n\n7) C/W OPERATIONAL CHECK\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CW_LampTest to Up (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Verify LH MA & 16 lts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CW_LampTest to Down (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Verify RH MA & 20 lts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CW_LampTest to Middle (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 150,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CW_CSM_SM to Down (1/150)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  CM RCS lts (2) - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 150,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CW_CSM_SM to Up (1/150)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  CM RCS lts (2) - out",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}
