@@ -3,6 +3,11 @@
   "ProjectName": "AscentAscent",
   "Group": "ASCENT",
   "Name": "ASCENT",
+  "NameTranslations": {
+    "es-es": "ASCENSO",
+    "de-de": "AUFSTIEG"
+  },
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 50,
   "AutoGenerate": false,

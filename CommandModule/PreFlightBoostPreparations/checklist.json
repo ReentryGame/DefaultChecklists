@@ -3,6 +3,8 @@
   "ProjectName": "PreFlightBoostPreparations",
   "Group": "PRE-LAUNCH",
   "Name": "LAUNCH PREPARATIONS",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 102,
   "AutoGenerate": false,
@@ -191,6 +193,14 @@
       "ToPosID": 4,
       "Text": null,
       "Description": "set AutoRCSD4 to Up (1/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -15:00:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
@@ -418,6 +428,14 @@
     },
     {
       "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -10:00:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
       "Type": 1,
       "SetID": 22,
       "ToPosID": 5,
@@ -426,11 +444,35 @@
     },
     {
       "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -08:30:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
       "Type": 1,
       "SetID": 180,
       "ToPosID": 2,
       "Text": null,
       "Description": "set SecCoolPumpAC to Middle (1/180)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -04:10: L/V ENGINE lts (5) - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -04:00:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
@@ -466,11 +508,27 @@
     },
     {
       "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -02:15:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
       "Type": 2,
       "SetID": 167,
       "ToPosID": 1,
       "Text": null,
       "Description": "set PrimaryGlycolToRadiators to Open (2/167)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -01:15:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
@@ -490,6 +548,14 @@
     },
     {
       "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -01:00:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
       "Type": 1,
       "SetID": 194,
       "ToPosID": 2,
@@ -503,6 +569,14 @@
       "ToPosID": 2,
       "Text": null,
       "Description": "set Radio2PadComm to Middle (1/203)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T -00:45:",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
