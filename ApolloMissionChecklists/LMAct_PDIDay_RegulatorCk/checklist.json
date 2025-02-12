@@ -1,0 +1,271 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_RegulatorCk",
+  "Group": "LM ACTIVATION",
+  "Name": "REGULATOR CHECK",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 174,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>REGULATOR CHECK</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[CSM] Verify CSM Hatch Closed",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[CSM] Close CSM Pressure Eq Valve",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[CSM] Close Tunnel Vent Valves (LM/CM PSI DIFF)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_CabinRepress to position 2 (3/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify flow and ECS: Cabin Press INCR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_CabinRepress to position 1 (3/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 40,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set OverheadHatch_CabinReliefVentValve to position 1 (3/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Open (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 3 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 3 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Open (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 0 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ForwardHatch_CabinReliefVentValve to position 2 (3/39)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Keep OPEN then AUTO at 4.5 psia (cabin psi)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ForwardHatch_CabinReliefVentValve to position 1 (3/39)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 2 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Suit Press 4.5 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 1 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 2 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VERIFY SUIT PRESSURE Rises to 4.6-5.0 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 3 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 2 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT PRESS 4.5 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 0 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 2 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VERIFY SUIT PRESSURE Rises to 4.6-5.0 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 1 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 1 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 2 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Closed (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Closed (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(CABIN PRESS WILL RISE TO 4.6-5.0 psia IN APPROXIMATELY 5 MIN.)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

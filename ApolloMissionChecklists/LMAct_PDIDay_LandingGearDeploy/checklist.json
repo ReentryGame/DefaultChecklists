@@ -1,0 +1,95 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_LandingGearDeploy",
+  "Group": "LM ACTIVATION",
+  "Name": "LANDING GEAR DEPLOY",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 164,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>LANDING GEAR DEPLOY</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 136,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ED_LdgGearFlag to Closed (2/136)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 137,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ED_LogicPWRA to Open (2/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_MasterArm to Up (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[8] ED: SYS B Lt - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 44,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_LandingGearDeploy to Up (1/44)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LDG GEAR DEPLOY - tb-gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 137,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ED_LogicPWRA to Closed (2/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 49,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_StageRelay to Up (1/49)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 136,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ED_LdgGearFlag to Open (2/136)"
+    }
+  ],
+  "Images": []
+}

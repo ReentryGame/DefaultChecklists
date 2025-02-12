@@ -1,0 +1,103 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_LRCk",
+  "Group": "LM TIMELINE",
+  "Name": "LANDING RADAR CK",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 213,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>LANDING RADAR CHECKOUT</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 144,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_LdgRdr to Closed (2/144)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_TempMonitor to position 1 (3/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Temp: 50°-95°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 137,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_XPointerScale to Up (1/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_XPointerScale to Up (1/92)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ModeSel to Up (1/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_LandingAnt to Up (1/81)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_RadarTest to Down (1/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check test (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_RadarTest to Middle (1/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 144,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_LdgRdr to Open (2/144)"
+    }
+  ],
+  "Images": []
+}

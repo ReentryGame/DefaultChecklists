@@ -1,0 +1,95 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_Undock_IVTToCSM",
+  "Group": "LM TIMELINE",
+  "Name": "IVT TO CSM",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 315,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>IVT TO CSM</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 91,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_Lighting_Exterior to Down (1/91)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat5BackupCDRFeed to Up (1/13)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat6BackupLMPFeed to Up (1/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 90,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_Lighting_Flood_OvhdFwd to Middle (1/90)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 40,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set OverheadHatch_CabinReliefVentValve to position 1 (3/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Transfer to CSM (F4 to enter CSM, then Crew Members -> Manage Crew)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[CSM] Close Hatch",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[CSM] Close Vent Valve",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LM JETTISON (from CSM), GET: ____:___:___",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[CSM, P12] LM/CM PRESSURE DIFF - OFF",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

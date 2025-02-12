@@ -1,0 +1,511 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_EPSAct",
+  "Group": "LM ACTIVATION",
+  "Name": "EPS ACTIVATION",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 152,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>EPS ACTIVATION</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 13,
+      "ToPosID": 10,
+      "Text": null,
+      "Description": "set P05_AnunNum to position 10 (3/13)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1 Caution, 9 Power Failure Lt - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 127,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Inst_SigCondr1 to Closed (2/127)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_DesECACont to Closed (2/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_DCBusVolt to Closed (2/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 66,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inst_SigSensor to Closed (2/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inst_PCMTE to Closed (2/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inst_SigCondr2 to Closed (2/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 12,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Disp to Closed (2/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_DesECACont to Closed (2/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 102,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_SBand to Up (1/102)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 103,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_ICS to Up (1/103)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 149,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_COMM_SecSBand_PWRAmpl to Closed (2/149)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 87,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Comm_Disp to Closed (2/87)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 86,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Comm_LMP_Audio to Closed (2/86)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 82,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Comm_PrimSBand_XMTR_RCVR to Closed (2/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 81,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Comm_SBandAnt to Closed (2/81)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 80,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Comm_PMP to Closed (2/80)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Modulate to Up (1/109)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_XmitRcvr to Up (1/110)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_PwrAmpl to Down (1/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_FuncVoice to Up (1/112)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_FuncPCM to Up (1/113)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Range to Up (1/114)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryBiomed to Middle (1/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryPCM to Down (1/120)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 17,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P12_SBand to position 1 (3/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify DES POWER: BAT 1,4 tb-LO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify DES POWER: BAT 2,3 tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify DES POWER: DES BAT tb-gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BATS 5&6 NORMAL & BACKUP (4) - tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check BAT and BUS Voltages",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_CrossTieBus to Closed (2/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 4,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_CrossTieBus to Closed (2/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_CrossTieBalLoad to Closed (2/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBat1LMPHiV to Down (1/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat1LMPHiV to Up (1/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBat4CDRHiV to Down (1/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat4CDRHiV to Up (1/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_CrossTieBus to Open (2/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_CrossTieBalLoad to Open (2/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 1 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 5,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat2LMP to Up (1/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat3CDR to Up (1/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 14,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusBBusTieInv2 to Closed (2/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 13,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusBBusTieInv1 to Closed (2/13)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 16,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusABusTieInv2 to Closed (2/16)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusABusTieInv1 to Closed (2/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 17,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusAACBusVolt to Closed (2/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Inv1 to Closed (2/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inv2 to Closed (2/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 10,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 10 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P14_Inverter to Middle (1/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_Inverter to Up (1/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Voltage >24 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Inv1 to Open (2/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    }
+  ],
+  "Images": []
+}

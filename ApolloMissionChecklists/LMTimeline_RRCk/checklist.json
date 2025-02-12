@@ -1,0 +1,95 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_RRCk",
+  "Group": "LM TIMELINE",
+  "Name": "RENDEZVOUS RADAR CK",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 204,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>RENDEZVOUS RADAR CHECKOUT</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MNVR TO CENTER CSM IN WINDOW",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Closed (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Closed (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Up (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RR SLEW, MANUAL LOCK-ON (Use Crew Members)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 0 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check RR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Open (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Open (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 1 (3/6)"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,39 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_MissionTimer",
+  "Group": "LM ACTIVATION",
+  "Name": "MISSION TIMER ACT",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 153,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>MISSION TIMER ACTIVATION</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 94,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusB_NumLtg to Closed (2/94)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_MissionTimer to Closed (2/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Sync Mission Timer ( [C] -> SYNC MET TIMERS ) or set it manually",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

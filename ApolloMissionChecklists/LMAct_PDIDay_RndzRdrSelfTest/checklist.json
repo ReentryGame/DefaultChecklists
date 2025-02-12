@@ -1,0 +1,295 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_RndzRdrSelfTest",
+  "Group": "LM ACTIVATION",
+  "Name": "RNDZ RDR SELF TEST",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 172,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>RNDZ RDR SELF TEST</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Closed (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Closed (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NO TRACK Lt-On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 137,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_XPointerScale to Up (1/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_XPointerScale to Up (1/92)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_RateErrMon to Up (1/79)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Up (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_AttitudeMon to Up (1/80)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ModeSel to Up (1/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 73,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RngAltMon to Up (1/73)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ShfTrun to Up (1/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 1 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_TempMonitor to position 0 (3/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TEMP MONITOR: RNDZ: +10° to 50°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 104,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_RngRtAltRt to Closed (2/104)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_RngRtAltRt to Closed (2/109)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 83,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_SlewRate to Up (1/83)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Test Slewing Rendezvous Radar (CTRL + Arrow Keys)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor FDAI Needle motion",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 83,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_SlewRate to Down (1/83)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_ShfTrun to Down (1/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Test Slewing Rendezvous Radar (CTRL + Arrow Keys)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor FDAI Needle motion",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 0 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RadarTest to Up (1/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 0 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 5 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_RadarTest to Middle (1/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ShfTrun to Up (1/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V16 N72",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 1 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Slew Radar to R1 ~00000 and R2 ~00000",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Open (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Open (2/143)"
+    }
+  ],
+  "Images": []
+}

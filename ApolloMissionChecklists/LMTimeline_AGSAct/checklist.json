@@ -1,0 +1,47 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_AGSAct",
+  "Group": "LM TIMELINE",
+  "Name": "AGS ACTIVATION",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 210,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>AGS ACTIVATION</b>\nThe AGS has limited functionality in Reentry. Feel free to set up the AGS by following this checklist to use the AGS capabilities as seen in the Apollo 13 campaign.\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 123,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P06_AGS_Status to Middle (1/123)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 57,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_StabCont_AEA to Closed (2/57)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 92,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusB_AGS to Closed (2/92)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 123,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P06_AGS_Status to Up (1/123)"
+    }
+  ],
+  "Images": []
+}

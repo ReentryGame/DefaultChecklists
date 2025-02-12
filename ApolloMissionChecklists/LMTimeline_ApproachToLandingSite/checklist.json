@@ -1,0 +1,87 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_ApproachToLandingSite",
+  "Group": "LM TIMELINE",
+  "Name": "APPROACH TO LANDING SITE",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 203,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>APPROACH TO LANDING SITE</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SELECT LANDING SITE",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "You should already be in the descent orbit: 60 nmi x 50.000 ft alt, Pe over Landing Site",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "The below steps can be used to observe LS (Landing Site) at any revolution provided you know where to land.",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Only press REQUEST PDI when you are on the revolution you wish to execute PDI and land.",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ORDEAL, FDAI 1/2 to INRTL",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "On the Revolution you wish to perform PDI: [C] REQUEST PDI, wait 60 seconds.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Mission Pad -> Moon Map -> Tweak Landing Side",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ORDEAL, FDAI 1 to ORB RATE (LVLH)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PITCH TO OBSERVE LANDING SITE",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

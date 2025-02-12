@@ -1,0 +1,463 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_AscLunBatCk",
+  "Group": "LM ACTIVATION",
+  "Name": "ASCENT/LUNAR BAT CK",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 168,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>ASCENT/LUNAR BAT CHECKOUT</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_AscECACont to Closed (2/8)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 5 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarLMP to Down (1/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP LUNAR BAT tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarLMP to Up (1/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP LUNAR BAT tb-LMP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check LMP Lunar Bat Volts/Amps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarLMP to Down (1/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP LUNAR BAT tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 6,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 6 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat5NormalLMPFeed to Up (1/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BAT 5 NORMAL LMP FEED - tb-gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check Bat 5 Volts/Amps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBat1LMPHiV to Down (1/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 9,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarCDR to Down (1/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR LUNAR BAT tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 9,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarCDR to Up (1/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR LUNAR BAT tb-CDR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 5 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check CMP Lunar Bat Volts/Amps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 9,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarCDR to Down (1/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR LUNAR BAT tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 7 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat6NormalCDRFeed to Up (1/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BAT 6 NORMAL CMP FEED - tb-gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check Bat 6 Volts/Amps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBat4CDRHiV to Down (1/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check CDR Bus Voltage",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 9 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check LMP Bus Voltage",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat5BackupCDRFeed to Up (1/13)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat6BackupLMPFeed to Up (1/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_AscentBat5NormalLMPFeed to Down (1/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_AscentBat6NormalCDRFeed to Down (1/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check CDR Bus Voltage",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 9 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check LMP Bus Voltage",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 3,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat1LMPHiV to Up (1/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 5,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat2LMP to Up (1/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat3CDR to Up (1/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat4CDRHiV to Up (1/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 13,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_AscentBat5BackupCDRFeed to Down (1/13)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 15,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_AscentBat6BackupLMPFeed to Down (1/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BAT 5 BACKUP CDR FEED tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BAT 6 BACKUP LMP FEED tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_AscECACont to Open (2/8)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 0 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_EDVolts to Up (1/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check ED BAT A Voltage _____ vdc (~37 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_EDVolts to Down (1/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check ED BAT B Voltage _____ vdc (~37 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P14_EDVolts to Middle (1/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    }
+  ],
+  "Images": []
+}

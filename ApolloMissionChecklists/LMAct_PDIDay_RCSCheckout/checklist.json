@@ -1,0 +1,519 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_RCSCheckout",
+  "Group": "LM ACTIVATION",
+  "Name": "RCS CHECKOUT",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 170,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>RCS CHECKOUT</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Up (1/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Middle (1/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Middle (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Middle (1/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Middle (1/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P04_CDR_ACA to Down (1/124)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_CDR_TTCA to Up (1/125)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 1 (3/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS TCA WARN Lt - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TTCA (Cold Fire) Check",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V76E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V11N10E, 5E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Move TTCA:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " [I] UP (+X) - R1 00252",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " [K] DN (-X) - R2 00125",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key E, 6E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " [L] RIGHT (+Y) - R1 00220",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " [J] RIGHT (-Y) - R1 00140",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " [H] FWD (+Z) - R1 00011",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " [N] AFT (-Z) - R1 00006",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PGNS RATE CMD (Cold Fire)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_StabCont_AttDirCont to Closed (2/133)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V77E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V15 N01E, 42E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR ACA:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ROLL RIGHT R3 00045-00057",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ROLL LEFT R3 77720-77732",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PITCH UP R1 00045-00057",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PITCH DN R1 77720-77732",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  YAW RIGHT R2 77720-77732",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  YAW LEFT R2 00045-00057",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PGNS MIN IMP (Hot Fire) Check",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V76E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q4TCA to Closed (2/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 118,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q3TCA to Closed (2/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q2TCA to Closed (2/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 116,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q1TCA to Closed (2/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q1 to Closed (2/46)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q2 to Closed (2/45)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q3 to Closed (2/44)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q4 to Closed (2/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V11 N10E, 31E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "R1 67777",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR ACA:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ROLL RIGHT - R1 27757",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ROLL LEFT - R1 27737",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  YAW RIGHT - R1 27767",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  YAW LEFT - R1 27773",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V48E, V21E, +31022E, PRO, V34E, V37E00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V11N10E, 31E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR ACA:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PITCH UP - R1 27776",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PITCH DN - R1 27775",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS Check Complete",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

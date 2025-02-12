@@ -164,14 +164,6 @@
     },
     {
       "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Verify both FDAIs indicate same total attitude",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 0,
       "Type": 1,
       "SetID": 55,
       "ToPosID": 4,

@@ -1,0 +1,503 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_PDI",
+  "Group": "LM TIMELINE",
+  "Name": "PDI",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 230,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>POWERED DESCENT INITIATION</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-10:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V49E (0, +110, 0)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Up (1/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 138,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Down (1/138)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 139,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI2 to Down (1/139)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 143,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ORDEAL_Location to Middle (1/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait to get into PDI attitude",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 63E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 50,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Up (1/50)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-05:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 73,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_RngAltMon to Down (1/73)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 144,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_LdgRdr to Closed (2/144)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V06N61: PRO to Accept",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V50N18: PRO, PRO to Accept",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V06N62: VI, TFI, dVM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-01:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Down (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_MasterArm to Up (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_ModeSel to Middle (1/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:30",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Down (1/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-00:05 (PRO on V99)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+00:00 PDI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+00:02: No Ignition? Engine Start - push",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+00:05",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_DesEngCmdOvrd to Up (1/56)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+00:26: Throttle Up",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "+04:00 V57E TO PERMIT LR DATA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P64",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V77E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Upon transition to Lunar Landing:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P66",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rate Cmd/Att Hold to level attitude using attituide control stick.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 137,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_XPointerScale to Down (1/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set MULT as desired",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Use [T]/[G] to adjust ROD (Rate of Descent)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TOUCHDOWN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_DesEngCmdOvrd to Down (1/56)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Up (1/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Up (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 3 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ASC He MON - CYCLE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Middle (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 144,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_LdgRdr to Open (2/144)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "T1 STAY/NO STAY",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "STAY:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 68E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

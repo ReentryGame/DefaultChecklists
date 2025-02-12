@@ -1,0 +1,231 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_ECSAct",
+  "Group": "LM ACTIVATION",
+  "Name": "ECS ACTIVATION",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 157,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>ECS ACTIVATION & CHECKOUT</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check O2 and H2O quantities:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_O2_H2O_Qty_Mon to position 4 (3/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P02_O2_H2O_Qty_Mon to position 3 (3/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P02_O2_H2O_Qty_Mon to position 2 (3/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_O2_H2O_Qty_Mon to position 1 (3/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_LMP to position 1 (3/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_CDR to position 1 (3/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_LMP to position 0 (3/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_CDR to position 0 (3/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Closed (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_SuitFan2 to Closed (2/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_DivertVlv to Closed (2/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P02_SuitFan to position 2 (3/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 31,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_PriEvapFlowNo1 to position 1 (3/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM EVAP FLOW NO 1 Open GET ____ : ____ : ____",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR CONNECT TO LM ECS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_CDR to position 1 (3/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP CONNECT TO LM ECS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_LMP to position 1 (3/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 3 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Open (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 0 (3/36)"
+    }
+  ],
+  "Images": []
+}

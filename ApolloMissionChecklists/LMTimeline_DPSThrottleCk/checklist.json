@@ -1,0 +1,135 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_DPSThrottleCk",
+  "Group": "LM TIMELINE",
+  "Name": "DPS THROTTLE CHECK",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 202,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>DPS THROTTLE CHECK</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_StabCont_EngArm to Closed (2/58)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ThrCont_ThrCont to Down (1/58)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ManThrot to Up (1/59)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 0 (3/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DPS THRUST: [K] decrease to set throttle to MIN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Down (1/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TTCA MIN (6.6% - 13.4%) (Press [I] to increase throttle)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  THEN SOFT STOP (46.2% - 59.2%)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  THEN MAX (93.6% - 100+%)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  THEN MIN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ThrCont_ThrCont to Up (1/58)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 1 (3/38)"
+    }
+  ],
+  "Images": []
+}

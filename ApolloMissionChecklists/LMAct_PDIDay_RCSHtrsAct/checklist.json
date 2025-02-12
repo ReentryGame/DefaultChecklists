@@ -1,0 +1,47 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_RCSHtrsAct",
+  "Group": "LM ACTIVATION",
+  "Name": "ACTIVATE RCS HTRS",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 159,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>ACTIVATE RCS HEATERS</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q1 to Up (1/33)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q2 to Up (1/34)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q3 to Up (1/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q4 to Up (1/36)"
+    }
+  ],
+  "Images": []
+}

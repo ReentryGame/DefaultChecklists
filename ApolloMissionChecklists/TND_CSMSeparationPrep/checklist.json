@@ -278,7 +278,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "ATT SET tw - R=0°, P=180°, Y=0°",
+      "Text": "ATT SET tw - R=0°, P=0°, Y=180°",
       "Description": "Manual step"
     },
     {

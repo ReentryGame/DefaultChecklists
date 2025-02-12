@@ -1,0 +1,103 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_PrimGlycolLoopAct",
+  "Group": "LM ACTIVATION",
+  "Name": "PRIM GLYCOL LOOP ACT",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 154,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>PRIMARY GLYCOL LOOP ACTIVATION</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 76,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_Disp to Closed (2/76)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_Glycol to position 1 (3/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GLYCOL - PUMP 1 ____ psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GLYCOL - INST(SEC) ____ psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P02_Glycol to position 2 (3/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ECS_GlycolPump_AutoTrnsfr to Closed (2/152)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 153,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ECS_GlycolPump_1 to Closed (2/153)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ECS_GlycolPump_AutoTrnsfr to Open (2/152)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_Glycol to position 1 (3/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait and Verify Press ____ psia (in Green band)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 154,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ECS_GlycolPump_2 to Closed (2/154)"
+    }
+  ],
+  "Images": []
+}

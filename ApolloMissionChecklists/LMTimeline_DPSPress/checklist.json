@@ -1,0 +1,207 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_DPSPress",
+  "Group": "LM TIMELINE",
+  "Name": "DPS PRESS",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 212,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>DPS PRESS</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RESET DET TO COUNT DN TO PDI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Middle (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FUEL 50°-75°F 50-130 PSI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  OXID 50°-75°F 30-80 PSI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Down (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FUEL 50°-75°F 50-130 PSI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  OXID 50°-75°F 30-80 PSI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 2 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SUPERCRIT PRESS 1070-1570",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 1 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  AMB PRESS 1495-1750",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_DescentHeReg1 to Up (1/54)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_DescentHeReg2 to Down (1/55)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_MasterArm to Up (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 40,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_DesPrplnt_IsolVlv to Up (1/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 46,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_HePRESS_DesStart to Up (1/46)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 49,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_StageRelay to Up (1/49)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Middle (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FUEL & OXID 50°-90°F 200-250 PSI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 2 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "HELIUM MON: SUPERCRIT PRESS 1070-1570",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 1 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "HELIUM MON: AMB PRESS 200-1110",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

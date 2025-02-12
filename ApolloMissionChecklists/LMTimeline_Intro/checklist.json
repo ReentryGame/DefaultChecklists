@@ -1,0 +1,14 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_Intro",
+  "Group": "LM TIMELINE",
+  "Name": "INTRO",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 200,
+  "AutoGenerate": false,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>INTRO</b>\n\nThe LM TIMELINE section contains a sequential checklist used for the rest of the Lunar Module phases of the Mission.\n\nThis is a set of checklists that you will need to execute in sequence, based on need.\n\nIf this is a Free Play/Open World mission, complete the sections needed based on your mission plan. Campaigns and Historic Missions / Flight Plan missions will let you know what checks to complete.\n",
+  "Steps": [],
+  "Images": []
+}

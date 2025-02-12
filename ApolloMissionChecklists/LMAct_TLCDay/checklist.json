@@ -1,0 +1,14 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_TLCDay",
+  "Group": "LM ACTIVATION",
+  "Name": "1. TLC DAY",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 99,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION</b>\n<b>1. TLC DAY</b>\n- IVT TO LM\n- ENTRY STATUS CHECK\n- COMM ACTIVATION (COMM CHECKS)\n- S-BAND/VHF SIMPLEX VOICE TEST (COMM CHECKS)\n- COMM DEACTIVATION (COMM CHECKS)\n- IVT TO CSM\n\nGlossary:\n  IVT: Intra-vehicular Transfer Moving between the CM and the LM\n  LM: Lunar Module\n  CSM: Command/Service Module\n",
+  "Steps": [],
+  "Images": []
+}

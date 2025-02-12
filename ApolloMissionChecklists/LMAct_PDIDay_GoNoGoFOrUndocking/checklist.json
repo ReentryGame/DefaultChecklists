@@ -1,0 +1,71 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_GoNoGoFOrUndocking",
+  "Group": "LM ACTIVATION",
+  "Name": "NO/NO GO FOR UNDOCKING",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 173,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>NO/NO GO FOR UNDOCKING</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 1 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 17,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P12_SBand to position 1 (3/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P12_Pitch to position 1 (3/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 16,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Yaw to position 2 (3/16)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 117,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Xmtr to Down (1/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryBiomed to Middle (1/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryPCM to Down (1/120)"
+    }
+  ],
+  "Images": []
+}

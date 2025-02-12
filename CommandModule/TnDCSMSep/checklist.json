@@ -3,11 +3,12 @@
   "ProjectName": "TnDCSMSep",
   "Group": "T&D",
   "Name": "CSM SEPARATION",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 0,
   "SortPriority": 603,
   "AutoGenerate": false,
-  "checklistText": "<size=21>CSM SEPARATION checklist</size>\r\nIf auto maneuver desired:\n\tV49E\tF 06 22 (EXTRACT ATT)\n\tCompute Docking Attitude (R-130, P +180, Y - as is)\n\tV25E: Load Docking Attitude\n\tPRO to accept: F V50 N18\ncb SECS LOGIC (2) - closed (verify)\ncb SECS ARM (2) - closed (verify)\nSECS LOGIC (2) - on (up)(verify)\nRCS CMD - ON\nSECS PYRO ARM (2) - ARM\nGDC ALIGN\nEMS FUNC - ΔV (verify)\nEMS MODE - NORMAL\n59:30\tStart DET\n59:50\tCMC MODE - AUTO\n59:58\tThrust +X and hold\n00:00\tCSM/LV SEP pb - push, hold, and release\n\tLV TANK PRESS - full scale low\n00:03\tTHC - release (ΔV .5 fps)\n\tSM RCS PRPLNT tb (8) - gray(verify)\n\tSM RCS He tb (8) - gray (verify)\n\tSM RCS SEC PRPLNT FUEL PRESS (4) - CLOSE\n\tFC REAC vlv - NORM",
+  "checklistText": "<size=21>CSM SEPARATION checklist</size>\r\nIf auto maneuver desired:\n\tV49E\tF 06 22 (EXTRACT ATT)\n\tCompute Docking Attitude (R= -130, P= +180, Y= - as is)\n\tV25E: Load Docking Attitude\n\tPRO to accept: F V50 N18\ncb SECS LOGIC (2) - closed (verify)\ncb SECS ARM (2) - closed (verify)\nSECS LOGIC (2) - on (up)(verify)\nRCS CMD - ON\nSECS PYRO ARM (2) - ARM\nGDC ALIGN\nEMS FUNC - ΔV (verify)\nEMS MODE - NORMAL\n59:30\tStart DET\n59:50\tCMC MODE - AUTO\n59:58\tThrust +X and hold\n00:00\tCSM/LV SEP pb - push, hold, and release\n\tLV TANK PRESS - full scale low\n00:03\tTHC - release (ΔV .5 fps)\n\tSM RCS PRPLNT tb (8) - gray(verify)\n\tSM RCS He tb (8) - gray (verify)\n\tSM RCS SEC PRPLNT FUEL PRESS (4) - CLOSE\n\tFC REAC vlv - NORM",
   "Steps": [
     {
       "Program": 0,
@@ -22,7 +23,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Compute Docking Attitude (R-130, P +180, Y - as is)",
+      "Text": "Compute Docking Attitude if not provided (R -130, P +180, Y - as is)",
       "Description": "Manual step"
     },
     {

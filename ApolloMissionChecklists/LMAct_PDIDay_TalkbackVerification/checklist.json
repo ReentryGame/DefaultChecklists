@@ -1,0 +1,295 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_TalkbackVerification",
+  "Group": "LM ACTIVATION",
+  "Name": "TB VERIFICATION",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 160,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>TALKBACK VERIFICATION</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Open (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Closed (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P02_MasterAlarm (4/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WARN: RCS A REG, RCS B REG, (DES REG, RCS TCA) lts - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[8] DES PROPULSION FUEL/OXID VENT (2) - tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[8] LDG GEAR DEPLOY - tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg1 to Up (1/52)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg2 to Up (1/53)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_DescentHeReg1 to Up (1/54)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_DescentHeReg2 to Down (1/55)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ASCENT He REG 1&2 - tb-gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DESCENT He REG 1 - tb-gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DESCENT He REG 2 - tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed1 to Down (1/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed2 to Down (1/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed1 to Down (1/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed2 to Down (1/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS A&B ASC FUEL & OXID (4) - tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 19,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_Q1 to Up (1/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 20,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_Q2 to Up (1/20)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 21,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_Q3 to Up (1/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_Q4 to Up (1/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 25,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_Q1 to Up (1/25)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 26,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_Q2 to Up (1/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 27,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_Q3 to Up (1/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 28,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_Q4 to Up (1/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS A&B QUADS (8) - tb-gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_Crossfeed to Down (1/29)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRSFD tb-bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysA to Up (1/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysB to Up (1/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS A&B MAIN SOV - tb-gray",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

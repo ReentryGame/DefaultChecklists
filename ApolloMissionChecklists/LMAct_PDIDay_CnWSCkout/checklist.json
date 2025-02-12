@@ -1,0 +1,103 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_CnWSCkout",
+  "Group": "LM ACTIVATION",
+  "Name": "CAUT/WARN CKOUT",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 155,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>CAUTION/WARNING CHECKOUT</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_LTG_MasterAlarm to Closed (2/55)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Closed (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P02_MasterAlarm (4/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WARN: DES REG, CES AC, CES DC, LGC, RCS A REG, RCS B REG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 54,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_LTG_AnunDockCompnt to Closed (2/54)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_StabCont_ATCA to Closed (2/61)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_StabCont_EngCont to Closed (2/132)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P01_MasterAlarm (4/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_LampToneTest to position 0 (3/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LAMP/TONE TEST - Check All Positions",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 7,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set P03_LampToneTest to position 7 (3/7)"
+    }
+  ],
+  "Images": []
+}

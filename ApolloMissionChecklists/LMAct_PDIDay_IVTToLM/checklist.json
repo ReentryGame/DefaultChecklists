@@ -1,0 +1,151 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_IVTToLM",
+  "Group": "LM ACTIVATION",
+  "Name": "IVT TO LM",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 151,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>IVT TO LM</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP IVT TO LM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Activate CABIN DUMP VALVE & Open Hatch",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Window Shades (3) - Open",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[CSM] Transfer to LM PWR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_XLunarBusTie to Closed (2/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_XLunarBusTie to Closed (2/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 90,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_Lighting_Flood_OvhdFwd to Down (1/90)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 138,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_LTG_Util to Closed (2/138)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_DesH2O to position 1 (3/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_O2_Des to position 1 (3/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_CabinRepress to position 1 (3/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Closed (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR IVT TO LM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 146,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_COMM_CDRAudio to Closed (2/146)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_SBand to Up (1/95)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_ICS to Up (1/96)"
+    }
+  ],
+  "Images": []
+}

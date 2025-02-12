@@ -1,0 +1,223 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMTimeline_PrePDI",
+  "Group": "LM TIMELINE",
+  "Name": "PRE-PDI",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 220,
+  "AutoGenerate": true,
+  "checklistText": "<b>LM TIMELINE</b>\n<b>PRE-PDI</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRE-PDI ECS CHECKOUT (-55:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Closed (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Open (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 0 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 3 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 3 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RESET DET TO COUNT DN TO PDI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRE-PDI SWITCH SETTING CHECK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P12_VHF to position 1 (3/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Inv1 to Closed (2/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P14_Inverter to Middle (1/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 131,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_StabCont_AELD to Closed (2/131)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 129,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_StabCont_AbortStage to Closed (2/129)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_StabCont_AELD to Closed (2/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 62,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_StabCont_AbortStage to Closed (2/62)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Open (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Closed (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat5NormalLMPFeed to Up (1/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat6NormalCDRFeed to Up (1/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ThrCont_ThrCont to Up (1/58)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ManThrot to Up (1/59)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RateScale to Up (1/76)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Up (1/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CHECK DPS, APS, RCS, ECS, EPS",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

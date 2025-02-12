@@ -1,0 +1,119 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_PressureCk",
+  "Group": "LM ACTIVATION",
+  "Name": "PGA PRESSURE INTEGRITY CHECK",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 175,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>PGA PRESSURE INTEGRITY CHECK</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Open (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 0 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 0 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 3 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 1 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 3 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_CO2CanisterSelect to position 2 (3/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CO2CanisterSelect to position 0 (3/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 1 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 2 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 2 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 1 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Closed (2/161)"
+    }
+  ],
+  "Images": []
+}

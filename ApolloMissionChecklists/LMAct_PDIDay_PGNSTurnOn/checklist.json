@@ -1,0 +1,143 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_PGNSTurnOn",
+  "Group": "LM ACTIVATION",
+  "Name": "PGNS TURN-ON",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 161,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>PGNS TURN-ON & SELF TEST</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check Bus Voltages:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  >24 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 9 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  >24 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 25,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCRset (4/25)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V96E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V35E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 88 88 - Verify lights test",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 140,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_IMU_OPR to Closed (2/140)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NO ATT Lt - On (Off In 90 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LGC/CMC CLOCK SYNC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V06 N65 ENTR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[C] SYNC MET TIMERS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify LGC TIMER matches Mission Timer in CSM and LM",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

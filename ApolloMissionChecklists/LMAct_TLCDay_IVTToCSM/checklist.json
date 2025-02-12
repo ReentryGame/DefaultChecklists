@@ -1,0 +1,111 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_TLCDay_IVTToCSM",
+  "Group": "LM ACTIVATION",
+  "Name": "IVT TO CSM",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 103,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: TLC DAY</b>\n<b>IVT TO CSM</b>",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 23,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_O2_Des to position 0 (3/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_DesH2O to position 0 (3/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinRepress to position 0 (3/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 28,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_DCBusVolt to Open (2/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Open (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Window Shades (3) - Close",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 90,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_Lighting_Flood_OvhdFwd to Middle (1/90)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 40,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set OverheadHatch_CabinReliefVentValve to position 2 (3/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[IVT TO CSM (Press F4)]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[Close Hatch from CSM]",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

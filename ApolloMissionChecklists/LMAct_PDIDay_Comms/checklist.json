@@ -1,0 +1,375 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_Comms",
+  "Group": "LM ACTIVATION",
+  "Name": "VHF / S-BD",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 162,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n\nNote: Communications is not simulated properly. Configure the switches but skip checks, instrument readouts and checkouts.\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VHF B CHECKOUT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CSM Configure for VHF Simplex B (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 117,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Xmtr to Up (1/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Rcvr to Up (1/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P12_VHF to position 1 (3/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_VHFB to Up (1/107)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 122,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Recorder to Up (1/122)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform Voice Check (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VHF A CHECKOUT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CSM Configure for VHF Simplex A (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Xmtr to Down (1/115)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 116,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Rcvr to Up (1/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Xmtr to Middle (1/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Audio_VHFB to Down (1/107)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_VHFA to Up (1/106)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform Voice Check (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM S-BD T/R & SEC PWR AMPL CK",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(Skip) Notify MSFN of PRIM S-BD CK",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(Skip) Perform PRIM S-BD VOICE CK With MSFN",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC S-BD T/R & PRIM PWR AMPL CK",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(Skip) Notify MSFN of SEC S-BD CK",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_XmitRcvr to Down (1/110)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_PwrAmpl to Up (1/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip unless MOCR) Report PRIM EVAP FLOW TIME (GET)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip unless MOCR) Copy DAP DATA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "S-BAND STEERABLE ANTENNA ACTIVATION",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Modulate to Up (1/109)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 6,
+      "Text": null,
+      "Description": "set P03_TempMonitor to position 6 (3/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_XmitRcvr to Down (1/110)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_PwrAmpl to Up (1/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_FuncVoice to Up (1/112)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_FuncPCM to Up (1/113)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Range to Up (1/114)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryBiomed to Middle (1/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryPCM to Up (1/120)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 10,
+      "Text": null,
+      "Description": "set P12_Pitch to position 10 (3/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Yaw to position 4 (3/16)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 1 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 17,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_SBand to position 2 (3/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_TrackMode to Up (1/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryBiomed to Down (1/119)"
+    }
+  ],
+  "Images": []
+}

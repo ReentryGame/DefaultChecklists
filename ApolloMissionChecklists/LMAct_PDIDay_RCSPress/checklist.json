@@ -1,0 +1,367 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMAct_PDIDay_RCSPress",
+  "Group": "LM ACTIVATION",
+  "Name": "RCS PRESSURIZATION",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 169,
+  "AutoGenerate": true,
+  "checklistText": "<b>LUNAR MODULE ACTIVATION: PDI DAY</b>\n<b>RCS PRESSURIZATION</b>\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RECYCLE:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed2 to Down (1/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed2 to Down (1/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed1 to Up (1/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed1 to Up (1/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_Crossfeed to Down (1/29)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysA to Up (1/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysB to Up (1/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_TempMonitor to position 2 (3/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "HTR CONT TEMP MON - Check RCS QUADS 1, 2, 3, 4 - >120°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 0 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "He: 2820-3280 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 1 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRPLNT: 40°-100° / 10-50 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 2 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FUEL MANF: 25-90 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 3 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "OXID MANF: 25-90 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS QUANTITY A&B - 100%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 56,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ED_LogicPwrB to Open (2/56)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_MasterArm to Up (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ED SYS A Lt - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 45,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_HePRESS_RCS to Up (1/45)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait until RCS A/B REG WARN Lts - Off",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 49,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_StageRelay to Up (1/49)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Recycle:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed2 to Down (1/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed2 to Down (1/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed1 to Up (1/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed1 to Up (1/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_Crossfeed to Down (1/29)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysA to Up (1/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysB to Up (1/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 3 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "OXID MANF: 175-188 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 2 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FUEL MANF: 175-188 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 1 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRPLNT: 40°-100° / 178-188 psi",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 0 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "He: 2820-3280 psia",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}
