@@ -3,9 +3,221 @@
   "ProjectName": "SystemsEPSDC",
   "Group": "SYSTEMS: EPS",
   "Name": "D-C Check",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 40503030,
+  "AutoGenerate": false,
   "checklistText": "\t\tD-C Voltage-Amperage Check\r\n\r\nPanel 5:\r\n\tMN BUS TIE (2) - OFF (verify)\r\n\r\nPanel 3:\r\n\tFC 1 & 2 MNA tb (2) - gray\r\n\tFC 3 MNA tb - bp\r\n\r\n\tFC 1 & 2 MNB tb - bp\r\n\tFC 3 MNB tb (2) - gray\r\n\tDC IND sel - FC 1, 2, 3\r\n\t\tDC AMPS ind - record amps\r\n\tDC IND sel - MNA, B\r\n\t\tDC VOLTS ind - 26.5-31 vdc (record)\r\n\tDC IND sel - BAT BUS A, B, & BAT C\r\n\t\tDC VOLTS ind - 31.5-38.0 vdc\r\n\t\tDC AMPS ind - <3.0 amps\r\n\r\nPanel 101:\r\n\tSYS TEST (2) - 5B\r\n\t\tSYS TEST ind - 3.4-4.1 vdc\r\n\r\nPanel 2:\r\n\tIf LM PWR - CSM\r\n\t\tSYS TEST (2) - 7D\r\n\t\t\tSYS TEST ind - 0.5-3.2 vdc\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tDo not leave DC IND sel at PYRO\r\n\t\tBAT A (B) position any longer\r\n\t\tthan req to read DC VOLTS ind,\r\n\t\tor pyro bat chg will be depleted.\r\n\r\nPanel 3:\r\n\tDC IND sel - PYRO BAT A, B\r\n\t\tDC VOLTS ind - 36.5-37.5 vdc\r\n\tDC IND sel - MNA\r\n\r\n\r\n\r\n\r\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieAC to Down (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieBC to Down (1/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC 1 & 2 MNA tb (2) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC 3 MNA tb - bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC 1 & 2 MNB tb - bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC 3 MNB tb (2) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 0 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC1, FC2, FC3: DC AMPS ind - record amps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 3 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MNA, MNB: DC VOLTS ind - 26.5-31 vdc (record)\r\n",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 5 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DC IND sel - BAT BUS A, B, & BAT C:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  DC VOLTS ind - 31.5-38.0 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  DC AMPS ind - <3.0 amps\r\n",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 5 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 1 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST (5-B) ind - 3.4-4.1 vdc (Battery Relay Bus Voltage)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "* If LM PWR - CSM:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*  SYS TEST (2) - 7D\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "*    SYS TEST ind - 0.5-3.2 vdc\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 0 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 0 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 9 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DC IND sel - PYRO BAT A, B:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  DC VOLTS ind - 36.5-37.5 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 3 (3/2)"
+    }
+  ],
   "Images": []
 }

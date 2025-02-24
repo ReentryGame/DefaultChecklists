@@ -3,9 +3,197 @@
   "ProjectName": "GnCRefModesEMSdvNullBiasTest",
   "Group": "G&C REFERENCE",
   "Name": "ΔV Test & Null Bias Check\r",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 40706010,
-  "checklistText": "ΔV Test & Null Bias Check\r\n\r\n\t1 Init EMS prep\r\n\r\nPanel 1:\r\n\tEMS FUNC - OFF (verify)\r\n\r\nPanel 8:\r\n\tcb EMS (2) - close\r\n\r\nPanel 1:\r\n\tEMS MODE - STBY\r\n\r\n\t\r\n\r\n\t2 EMS FUNC  - \tΔV SET\r\n\t\tAdj alphanumeric brightness (option)\r\n\t\tEMS MODE - NORM\r\n\t\tSet ΔV ind to +1586.8 fps\r\n\r\n\t3 EMS FUNC - ΔV TEST\r\n\t\tSPS THRUST lt - on\r\n\t\tΔV ind decr (10 sec)\r\n\t\tSPS THRUST lt - out ≈ -0.1 fps on ΔV ind\r\n\t\tΔV ind stops at -20.8±20.7 fps\r\n\r\n\t4 EMS MODE - STBY\r\n\r\n\t5 EMS FUNC - ΔV SET\r\n\t\tSlew ΔV ind to -100.0 fps\r\n\r\n\t6 EMS FUNC - ΔV (wait 5 sec)\r\n\r\n\t7 EMS MODE - NORM\r\n\r\nPanel 1:\r\n\t8 EMS MODE - STBY\r\n\t\tRcd ΔV ind\r\n\t\t\tIf ΔV drift ≤1 fps, do not bias\r\n\t\t\t\tcounter\r\n\t\t\tIf ΔV drift >1 fps but <10 fps bias\r\n\t\t\t\tif desired\r\n\t\t\tIf ΔV drift >10 fps, EMS is no-go for\r\n\t\t\t\tall functions\r\n\r\n\r\n\r\n\t\t\t\tCAUTION\r\n\r\n\t\t\tDo not turn EMS FUNC - OFF prior\r\n\t\t\tto ΔV, or null bias will be\r\n\t\t\tinvalid.\r\n\r\n\t\t\r\n\r\n",
-  "Steps": [],
+  "AutoGenerate": false,
+  "checklistText": "ΔV Test & Null Bias Check\r\n\r\n\t1 Init EMS prep\r\n\r\nPanel 1:\r\n\tEMS FUNC - OFF (verify)\r\n\r\nPanel 8:\r\n\tcb EMS (2) - close\r\n\r\nPanel 1:\r\n\tEMS MODE - STBY\r\n\r\n\t\r\n\r\n\t2 EMS FUNC  - \tΔV SET\r\n\t\tAdj alphanumeric brightness (option)\r\n\t\tEMS MODE - NORM\r\n\t\tSet ΔV ind to +1586.8 fps\r\n\r\n\t3 EMS FUNC - ΔV TEST\r\n\t\tSPS THRUST lt - on\r\n\t\tΔV ind decr (10 sec)\r\n\t\tSPS THRUST lt - out ≈ -0.1 fps on ΔV ind\r\n\t\tΔV ind stops at -20.8±20.7 fps\r\n\r\n\t4 EMS MODE - STBY\r\n\r\n\t5 EMS FUNC - ΔV SET\r\n\t\tSlew ΔV ind to -100.0 fps\r\n\r\n\t6 EMS FUNC - ΔV (wait 5 sec)\r\n\r\n\t7 EMS MODE - NORM\r\n\r\nPanel 1:\r\n\t8 EMS MODE - STBY\r\n\t\tRcd ΔV ind\r\n\t\t\tIf ΔV drift ≤1 fps, do not bias\r\n\t\t\t\tcounter\r\n\t\t\tIf ΔV drift >1 fps but <10 fps bias\r\n\t\t\t\tif desired\r\n\t\t\tIf ΔV drift >10 fps, EMS is no-go for\r\n\t\t\t\tall functions\r\n\r\n\rNote: Bias is perfect in Reentry and you can't bias it.\n\r\n\t\t\t\tCAUTION\r\n\r\n\t\t\tDo not turn EMS FUNC - OFF prior\r\n\t\t\tto ΔV, or null bias will be\r\n\t\t\tinvalid.\r\n\r\n\t\t\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSMNA to Closed (2/132)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSMNB to Closed (2/133)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSelector to position 2 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set ΔV int to +1586.8 fps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set EMSSelector to position 3 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS THRUST lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ΔV ind decr (10 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS THRUST lt - out ≈ -0.1 fps on ΔV ind",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ΔV ind stops at -20.8±20.7 fps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSelector to position 2 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Slew ΔV ind to -100.0 fps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "EMS FUNC - ΔV (wait 5 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Rcd ΔV ind",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If ΔV drift ≤1 fps, do not bias counter",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    }
+  ],
   "Images": []
 }

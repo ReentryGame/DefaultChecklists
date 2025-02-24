@@ -3,9 +3,141 @@
   "ProjectName": "SystemsPropulsionSMRCSMon",
   "Group": "SYSTEMS: PROPULSION",
   "Name": "SM RCS Monitoring Check",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 40502020,
+  "AutoGenerate": false,
   "checklistText": "\t\tSM RCS Monitoring Check\r\n\r\nPanel 2:\r\n\tSM RCS He tb (8) - gray\r\n\r\n\tSM RCS PRIM PRPLNT tb (4) - gray\r\n\tSM RCS SEC PRPLNT tb (4) - gray\r\n\tRCS IND sel - SM A, B, C, D\r\n\r\nPanel 2:\r\n\tCheck Quads A, B, C, D\r\n\t\tSM RCS PKG TEMP ind - 115°-175°F\r\n\r\n\t\tSM RCS He PRESS ind - record\r\n\t\tSM RCS IND sw - He TK TEMP\r\n\t\tSM RCS He TK TEMP ind - record\r\n\t\tSM RCS IND sw - PRPLNT QTY\r\n\t\tSM RCS PRPLNT QTY ind - record\r\n\t\tSM RCS SEC FUEL PRESS ind - 178-192 psia\r\n\t\t\t(192-207 psia until jets fired after\r\n\t\t\torb insertion)\r\n\r\n\t\tWhen SM RCS SEC FUEL PRESS ind - <150 psia\r\n\t\tSM RCS A (B,C,D) SEC FUEL PRESS - OPEN\r\n\r\n\t\t\t\r\n\r\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS He tb (8) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS PRIM PRPLNT tb (4) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS SEC PRPLNT tb (4) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 2 (3/6)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "For each data point below, check A, B, C, D",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SM RCS PKG TEMP ind - 115°-175°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SM RCS He PRESS ind - record\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 101,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Up (1/101)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SM RCS He TK TEMP ind - record\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 101,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Down (1/101)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SM RCS PRPLNT QTY ind - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SM RCS SEC FUEL PRESS ind - 178-207 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2A to Up (1/95)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2B to Up (1/96)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2C to Up (1/97)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2D to Up (1/98)"
+    }
+  ],
   "Images": []
 }

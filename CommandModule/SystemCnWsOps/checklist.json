@@ -1,11 +1,79 @@
 {
-    "Group": "SYSTEM CHECKS",
-    "Images": [],
-    "Name": "CnWs OPS TEST",
-    "ProjectName": "SystemCnWsOps",
-    "Side": 1,
-    "SortPriority": 1002,
-    "Spacecraft": 0,
-    "Steps": [],
-    "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nCnWS operational check</size>\r\nC/W LAMP TEST - 1 (LH MA & LH lts)\r\nC/W LAMP TEST - 2 (RH MA & RH lts)\r\nC/W CSM - CM (CM RCS lt (2) - on)\r\nC/W CSM - CSM (CM RCS lt (2) - out)"
+  "Spacecraft": 0,
+  "ProjectName": "SystemCnWsOps",
+  "Group": "SYSTEM CHECKS",
+  "Name": "CnWs OPS TEST",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 1002,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>SYSTEMS & MONITORING CHECKS\nCnWS operational check</size>\r\nC/W LAMP TEST - 1 (LH MA & LH lts)\r\nC/W LAMP TEST - 2 (RH MA & RH lts)\r\nC/W CSM - CM (CM RCS lt (2) - on)\r\nC/W CSM - CSM (CM RCS lt (2) - out)",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CW_LampTest to Up (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "16 LH lts and LH MA - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CW_LampTest to Down (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "20 RH lts and RH MA - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CW_LampTest to Middle (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2 CM lts and MA - On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MasterCaution (4/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 150,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CW_CSM_SM to Up (1/150)"
+    }
+  ],
+  "Images": []
 }

@@ -3,9 +3,37 @@
   "ProjectName": "SystemsEPSAC",
   "Group": "SYSTEMS: EPS",
   "Name": "A-C CHECK",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 40503040,
+  "AutoGenerate": false,
   "checklistText": "\t\tA-C Voltage Check\r\n\r\n\tAC IND sel - BUS 1, 2, øA, B, C\r\n\t\tAC VOLTS ind - 113-117 vac\r\n\r\n\r\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ACIndicatorSelector to position 0 (3/3)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AC IND sel - BUS 1, 2, øA, B, C\r:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  AC VOLTS ind - 113-117 vac\r",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

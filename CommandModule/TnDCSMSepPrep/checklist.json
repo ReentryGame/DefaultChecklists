@@ -3,6 +3,7 @@
   "ProjectName": "TnDCSMSepPrep",
   "Group": "T&D",
   "Name": "CSM SEPARATION PREP",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 0,
   "SortPriority": 602,
@@ -334,7 +335,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Set ASCP: R=0°, P=180°, Y=0°",
+      "Text": "Set ASCP: R=0°, P=0°, Y=180°",
       "Description": "Manual step"
     },
     {

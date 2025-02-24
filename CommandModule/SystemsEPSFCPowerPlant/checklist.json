@@ -3,9 +3,117 @@
   "ProjectName": "SystemsEPSFCPowerPlant",
   "Group": "SYSTEMS: EPS",
   "Name": "FC Power Plant",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 40503020,
+  "AutoGenerate": false,
   "checklistText": "\t\tFC Power Plant Check\r\n\r\nPanel 3:\r\n\t\tFC HTRS (all) - on (up)\r\n\r\n\t\tFC REACS tb (all) - gray\r\n\t\tFC IND sel - 1, 2, 3\r\n\t\t\tFC H2 FLOW ind - 0.03-0.15 lb/hr\r\n\t\t\tFC O2 FLOW ind - 0.25-1.2 lb/hr\r\n\t\t\tFC SKIN TEMP ind - 390°-450°F\r\n\r\n\t\t\tFC COND EXH TEMP ind - 150°-175°F\r\n\t\t\tFC pH HI tb - gray\r\n\r\n\t\tFC RAD TEMP LO tb - gray\r\n\r\n\t\t\r\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC1Htr to Up (1/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC2Htr to Up (1/17)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC3Htr to Up (1/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC REACS tb (all) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Manual step",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FCTestSelector to position 0 (3/1)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cycle FC IND sel between 1, 2, 3 for each below:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC H2 FLOW ind - 0.03-0.15 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC O2 FLOW ind - 0.25-1.2 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC SKIN TEMP ind - 390°-450°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC COND EXH TEMP ind - 150°-175°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC pH HI tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC RAD TEMP LO tb - gray",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

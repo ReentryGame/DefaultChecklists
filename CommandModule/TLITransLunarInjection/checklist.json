@@ -3,6 +3,8 @@
   "ProjectName": "TLITransLunarInjection",
   "Group": "TRANS-LUNAR INJECTION",
   "Name": "TLI (Concatenated)",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 401,
   "AutoGenerate": false,
@@ -29,7 +31,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "EMS ΔV TEST",
+      "Text": "G&C REFERENCE -> ΔV TEST (EMS, optional)",
       "Description": "Manual step"
     },
     {

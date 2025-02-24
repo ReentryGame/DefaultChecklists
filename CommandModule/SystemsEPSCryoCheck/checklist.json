@@ -2,10 +2,102 @@
   "Spacecraft": 0,
   "ProjectName": "SystemsEPSCryoCheck",
   "Group": "SYSTEMS: EPS",
-  "Name": "CRYO CHECK",
+  "Name": "CRYO PSI-QTY CHECK",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 40503010,
-  "checklistText": "\t\tCryogenic Pressure-Quantity Check\r\n\r\n\r\nPanel 2:\t\t\r\n\t\tCRYO H2 PRESS ind (both) - 225-260 psia\r\n\t\tO2 PRESS IND sw - SURGE TK\r\n\t\t\tCRYO 02 PRESS 1 ind - 865-935 psia\r\n\t\tO2 PRESS IND sw - TK 1\r\n\t\t\tCRYO O2 PRESS ind (both) - 865-935 psia\r\n\r\n\t\tCRYO H2 QTY ind (both) - record\r\n\r\n\t\tCRYO O2 QTY ind (both) - record\r\n\r\nPanel 101:\r\n\t\tSYS TEST (2) - 4B\r\n\t\t\tSYS TEST ind - 4.1-4.4 vdc\r\n\t\tSYS TEST (2) - 4D\r\n\t\t\tSYS TEST ind - 3.2-3.8 vdc\r\n\t\tSYS TEST (2) - 4A\r\n\t\t\tSYS TEST ind - record\r\n\t\tSYS TEST (2) - 4C\r\n\t\t\tSYS TEST IND - record\r\n\r\n\t\t\r\n",
-  "Steps": [],
+  "AutoGenerate": false,
+  "checklistText": "\t\tCryogenic Pressure-Quantity Check\r\n\r\n\r\nPanel 2:\t\t\r\n\t\tCRYO H2 PRESS ind (both) - 225-260 psia\r\n\t\tO2 PRESS IND sw - SURGE TK\r\n\t\t\tCRYO 02 PRESS 1 ind - 865-935 psia\r\n\t\tO2 PRESS IND sw - TK 1\r\n\t\t\tCRYO O2 PRESS ind (both) - 865-935 psia\r\n\r\n\t\tCRYO H2 QTY ind (both) - record\r\n\r\n\t\tCRYO O2 QTY ind (both) - record\r\n\r\nPanel 101:\r\n\t\tSYS TEST (2) - 4A (Battery Compartment PSI)\r\n\t\t\tSYS TEST ind - record vdc\r\n\n\t\tSYS TEST (2) - 4B\r (Battery Relay Bus Voltage)\n\t\t\tSYS TEST ind - 3.7-4.0 vdc\r\n\r\n\t\t\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRYO H2 PRESS ind (both) - 225-260 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O2PressInd to Down (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  CRYO 02 PRESS 1 ind - 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O2PressInd to Up (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  CRYO O2 PRESS ind (both) - 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRYO H2 QTY ind (both) - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRYO O2 QTY ind (both) - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 4 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 0 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record SYS TEST 4A (Btry Compartment PSI)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record SYS TEST 4B (Battery Relay Bus Voltage)",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

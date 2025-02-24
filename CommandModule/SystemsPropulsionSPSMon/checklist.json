@@ -3,9 +3,205 @@
   "ProjectName": "SystemsPropulsionSPSMon",
   "Group": "SYSTEMS: PROPULSION",
   "Name": "SPS Monitoring Check",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 40502010,
+  "AutoGenerate": false,
   "checklistText": "\t\tSPS Monitoring Check\r\n\r\nPanel 3:\r\n\tSPS PRPLNT TEMP ind - +45° to +75°\r\n\t\tIf <45°F, SPS LINE HTRS - A\r\n\t\tIf >75°F, SPS LINE HTRS - off (ctr)\r\n\tSPS PRESS IND sw - He, N2A, & N2B\r\n\t\tSPS He/N2 PRESS ind\r\n\t\t\tSPS He PRESS - 3900 psia max\r\n\t\t\tSPS N2 A PRESS - 2900 psia max\r\n\t\t\tSPA N2 B PRESS - 2900 psia max\r\n\tSPS PRESS IND sw - He\r\n\tSPS FUEL PRESS ind - 170-195 psia\r\n\tSPS OXID PRESS ind - 170-195 psia\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tIf ∆P between fuel & oxid is\r\n\t\t>20 psi prior to critical SPS\r\n\t\tburn, repressurize prplnt tks\r\n\t\tmanually by placing SPS He VLV\r\n\t\t(both) - ON. ∆P between tks\r\n\t\t>20 psi during a burn may result\r\n\t\tin degraded performance, rough\r\n\t\tcombustion, &/or eng failure.\r\n\t\tRefer to SPS malfunction symptom.\r\n\r\nPanel 3:\r\n\tSPS INJ VLV ind (4) - CLOSE\r\n\r\n\tSPS OXID QTY ind - record\r\n\tSPS FUEL QTY ind - record\r\n\tSPS OXID UNBAL ind - record\r\n\tOXID FLOW VLV PRIM - PRIM\r\n\r\n\t\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tDo not sw to sec oxid flow vlv\r\n\t\twith prim vlv functioning properly.\r\n\t\tFailure of sec vlv could result in\r\n\t\tloss of prplnt management capabil-\r\n\t\tity. If OXID FLOW VLV PRIM sw\r\n\t\tinadvertently set to SEC when no\r\n\t\tfailure exists, return to PRIM\r\n\t\tbefore repositioning OXID FLOW VLV\r\n\t\tINCR sw.\r\n\r\n\tSPS He VLV (both) - AUTO\r\n\tSPS He VLV tb (both) - bp\r\n\r\n\n\n\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS PRPLNT TEMP ind - +45° to +75°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 136,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSLineHtrs to Up (1/136)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 136,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSLineHtrs to Middle (1/136)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If <45°F, SPS LINE HTRS - A",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If >75°F, SPS LINE HTRS - off (ctr)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSPSIInd to Middle (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSPSIInd to Up (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS PRESS IND sw - He, N2A, & N2B:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS He/N2 PRESS ind:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SPS He PRESS - 3900 psia max\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SPS N2 A PRESS - 2900 psia max",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SPA N2 B PRESS - 2900 psia max",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSPSIInd to Up (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS FUEL PRESS ind - 170-195 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS OXID PRESS ind - 170-195 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS INJ VLV ind (4) - CLOSE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS OXID QTY ind - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS FUEL QTY ind - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS OXID UNBAL ind - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 139,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSOxidPrimAux to Up (1/139)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 140,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSPUGMode to Up (1/140)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 133,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSHeVlv1 to Up (1/133)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 134,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSHeVlv2 to Up (1/134)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SPS He VLV tb (both) - bp",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

@@ -3,8 +3,11 @@
   "ProjectName": "InsertionSystemChecks",
   "Group": "INSERTION",
   "Name": "SYSTEMS CHECK",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 303,
+  "AutoGenerate": false,
   "checklistText": "\t\tSystems Verification and Monitoring\r\n\r\nPanel 13:\r\n\t1 Mount ORDEAL BOX \r\n\t\tThis is automatically mounted as a panel in Reentry.\r\n\r\n\t2 Perform Propulsion System: C&WS Oper Check\r\n\r\n\t3 Perform Propulsion System: SM RCS Mon Check\r\n\r\n\t4 Perform Propulsion System: CM RCS Mon Check\r\n\r\n\t5 Perform EPS Checks\r:\n\t\tCryo PSI-Qty check\r\n\t\tFC Power Plant check\r\n\t\tD-C Voltage-Amperage check\r\n\t\tA-C Voltage check\n\r\n\t6 Perform ECS Mon Check\r\n\r\n\t7 Perform SPS Mon Check\r\n\r\nPanel 226:\r\n\t8 cb FC REACS (3) - open (verify)\r\n\t\tcb COAS/TUNL LTG MNB - close\r\n\r\n\r\n\r\n\r\n\r\n",
   "Steps": [
     {
@@ -12,91 +15,104 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform the systems checklists (use CLEAR ALL between each)"
+      "Text": "Perform the systems checklists (use the \"Queue on Top\" RUN feature as requested)",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform C&WS Operational check"
+      "Text": "Perform C&WS Operational check",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform SM RCS Mon check"
+      "Text": "Perform SM RCS Mon check",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform CM RCS Mon check"
+      "Text": "Perform CM RCS Mon check",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform EPS: Cryo PSI-Qty check\r"
+      "Text": "Perform EPS: Cryo PSI-Qty check\r",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform EPS: FC Power Plant check\r"
+      "Text": "Perform EPS: FC Power Plant check\r",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform EPS: D-C Voltage-Amperage check\r"
+      "Text": "Perform EPS: D-C Voltage-Amperage check\r",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform EPS: A-C Voltage check"
+      "Text": "Perform EPS: A-C Voltage check",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform SPS Monitoring check"
+      "Text": "Perform SPS Monitoring check",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 1,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FC1Reacs to Open (2/1)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 2,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FC2Reacs to Open (2/2)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 3,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set FC3Reacs to Open (2/3)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 204,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P226_LightningCoasTunnelRndzSpotMNB to Closed (2/204)"
     }
   ],
   "Images": []
