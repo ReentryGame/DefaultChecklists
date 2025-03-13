@@ -1,0 +1,167 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_General_Presleep",
+  "Group": "SYS 1: GENERAL",
+  "Name": "Presleep",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1262,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\nGENERAL\n\nPRESLEEP C/L\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CREW STATUS REPORT",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ONBOARD READOUTS",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CYCLE H2 FANS (3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VERIFY:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 68,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P251_WasteMngtOvdbDump to position 0 (3/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 70,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P252_WasteStowageVent to position 0 (3/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_Tracker to Up (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Down (1/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 0 (3/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 67,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_OxygenSurgeTank to position 1 (3/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 1 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 1 (3/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 1 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set CM_LM_DoorHatch to position 0 (3/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set LM_CM_PSI_DiffSelector to position 2 (3/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "* If LM off: LM TUNNEL VENT vlv - OFF",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DIRECT O2 vlv - open (CCW)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "At 5.7 psia cabin press - CLOSE DIRECT O2 vlv - CLOSE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Configure Communications (COMM MODES: Asleep Conf)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

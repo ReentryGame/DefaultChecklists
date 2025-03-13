@@ -1,0 +1,135 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_EPS_DCVoltAmpCk",
+  "Group": "SYS 1: EPS",
+  "Name": "D-C VOLT/AMP CK [3]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1106,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n3  D-C Voltage-Amperage Check\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieAC to Down (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieBC to Down (1/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC MNA tb - 1 & 2 gray, 3 bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC MNB tb - 1 bp, 2 bp, & 3 gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DC INDICATORS:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC 1, 2, & 3 (RECORD AMPS)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MAIN BUS A, B (26.5-31 vdc - Record)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BAT BUS A, B, & BAT C (31.5-38 vdc < 3 amp)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PYRO BAT A, B (36.5-37.5 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 4 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST 5B (BAT RLY BUS - 3.4-4.1 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST 7A (BAT COMPT PRESS - <1.5 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If >1.5: BAT VENT vlv - VENT (to ~0), then CLOSED*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If LM PWR - CSM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SYS TEST 7D (LM PWR - 0.5-3.2 vdc)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

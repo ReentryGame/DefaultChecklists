@@ -1,0 +1,55 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_Propulsion_CMRCSMon",
+  "Group": "SYS 1: PROPULSION",
+  "Name": "CM RCS MONITORING CHECK [3]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1103,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nPROPULSION\r\n\r\n3  CM RCS MONITORING CHECK\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS PRPLNT tb (2) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS IND sw - CM 1, 2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He TEMP - 60-90°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He PRESS - 4100-4200 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MANF PRESS - 80-105 psia",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

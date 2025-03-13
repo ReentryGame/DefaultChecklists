@@ -1,0 +1,47 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_General_Postsleep",
+  "Group": "SYS 1: GENERAL",
+  "Name": "Postsleep",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1263,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nGENERAL\r\n\r\nPOSTSLEEP C/L\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CREW STATUS REPORT",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CONSUMABLES UPDATE",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CYCLE H2 FANS (3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Configure Communications (COMM MODES: Awake Conf)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

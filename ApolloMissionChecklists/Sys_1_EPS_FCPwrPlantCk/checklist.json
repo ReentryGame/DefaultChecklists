@@ -1,0 +1,111 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_EPS_FCPwrPlantCk",
+  "Group": "SYS 1: EPS",
+  "Name": "FC PWR PLANT CK [2]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1105,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n2  FC Power Plant Check\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC1Htr to Up (1/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC2Htr to Up (1/17)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FC3Htr to Up (1/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC RAD tb (3) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC REACT tb (3) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FC IND sel - 1, 2, 3",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  H2 FLOW - 0.03-0.15 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  O2 FLOW - 0.25-1.2 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MOD SKIN TEMP - 390-440°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MOD COND EXH TEMP - 150-175°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC pH HI tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC RAD TEMP LO tb - gray",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

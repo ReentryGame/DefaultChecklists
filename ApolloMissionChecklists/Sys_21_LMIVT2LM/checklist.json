@@ -5,7 +5,7 @@
   "Name": "IVT TO LM (CHECKOUT, TLC)",
   "CustomName": "Apollo13",
   "Side": 0,
-  "SortPriority": 1000,
+  "SortPriority": 2000,
   "AutoGenerate": true,
   "checklistText": "CSM SYSTEMS\n\n2 - LM INTERFACE\n\n1 - IVT TO LM (CHECKOUT, TLC)",
   "Steps": [

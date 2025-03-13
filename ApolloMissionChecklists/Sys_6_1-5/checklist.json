@@ -5,7 +5,7 @@
   "Name": "EMER PWR DN",
   "CustomName": "Apollo13",
   "Side": 0,
-  "SortPriority": 2000,
+  "SortPriority": 6000,
   "AutoGenerate": true,
   "checklistText": "EMER 1 - 5\n\nEMERGENCY POWER DOWN",
   "Steps": [

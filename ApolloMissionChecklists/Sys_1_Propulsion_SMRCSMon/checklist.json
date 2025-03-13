@@ -1,0 +1,103 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_Propulsion_SMRCSMon",
+  "Group": "SYS 1: PROPULSION",
+  "Name": "SM RCS MONITORING CHECK [2]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1102,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nPROPULSION\r\n\r\n2  SM RCS MONITORING CHECK\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS PRPLNT tb (8) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS He 1 & 2 tb (8) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 101,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SM_RCSIndSel to Up (1/101)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS IND sel - SM A, B, C, D",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PKG TEMP - 115°-175°F (C/W 75°-205°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He PRESS - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MANF PRESS - 178-192 psia (C/W 145-215 psia)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He TK TEMP - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PRPLNT QTY - record",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When MANF PRESS <150 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  RCS SEC FUEL PRESS A (B, C, D) - OPEN",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}
