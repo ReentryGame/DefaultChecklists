@@ -1,0 +1,63 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_OpticsPwrUp",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "OPTICS: POWER UP",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7107,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nOPTICS POWER UP PROCEDURE\nVerify optics manual drive disengaged\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Up (1/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P122_Tracker to Middle (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_Tracker to Up (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "OPT ZERO - ZERO (15 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P122_Tracker to Middle (1/276)"
+    }
+  ],
+  "Images": []
+}

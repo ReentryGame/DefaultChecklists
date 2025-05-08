@@ -1,0 +1,23 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_EPS_ACVoltsCk",
+  "Group": "SYS 1: EPS",
+  "Name": "A-C VOLTS CK [4]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1124,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n4  A-C VOLTS CK\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "A-C VOLTS - 110 to 120 three phase avg.",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

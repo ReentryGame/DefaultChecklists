@@ -1,0 +1,1727 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_Thrusting_P40",
+  "Group": "G&C 5: THRUSTING",
+  "Name": "P40 SPS THRUSTING",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7401,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n5. PRETHRUST\r\n\nP40 SPS THRUSTING\n\n\t\t\t\t\tPrethrust Program Complete\n\t\t\t\t\tCMC & ISS - on\n\t\t\t\t\tCycle CRYO FANS\n\t\t\t\t\tSCS - operating\n\t\t\t\t\tTEST C/W LAMPS\n\t\t\t\t\tPerform EMS ΔV TEST & NULL BIAS CHECK\n\t\t\t\t\tSet ΔVC\n\t\t\t\t\tEMS FUNC - ΔV\n\t\t\t\t\tSPS GAUGING - AC1\n\t\t\t\t\tPUG MODE - NORMAL\n\t\t\t\t\tOXID FLOW vlv - PRI\n\t\t\t\t\tBMAG MODE (3) - RATE 2\n\t\t\t\t\tCMC MODE - FREE\n\t\t\t\t\tAUTO RCS SELECT(16) - as req'd\n\t\t\t\t\tLOAD DAP (check roll jets)\n\t\t\t\t\tROT CONTR PWR NORM (2) - AC/DC\n\t\t\t\t\tSet DET\n\t\t\t\tV37E 00E\n\t\t\t\t\tSC CONT - CMC/AUTO\n\n1\t\t\t\tMNVR TO PAD BURN ATT\n\t\t\t\tV49E\n\n2\t\t\t\tPERFORM BORESIGHT & SXT STAR CHECK\n\t\t\t\t(skip) V41 N91E\n\n3\t\t\t\tV37E 40E\n\n4\tF 50 18\t\tREQUEST MNVR TO FDAI RPY ANGLES\t\t\t\t(.01°)\n\t\t  (AUTO)\t\tBMAG MODE (3) - RATE 2\n\t\t\t\t\tSC CONT - CMC/AUTO\n\t\t\t\tPRO\n\n5\t  06 18\t\tAUTO MNVR TO FDAI RPY ANGLES\t\t\t\t\t(.01°)\n\n6\tF 50 18\t\tREQUEST TRIM MNVR TO FDAI RPY ANGLES\t\t(.01°)\n\t\t\t\t\tALIGN S/C ROLL\n\t\t\t\t\tGDC ALIGN\n\n\t\t\t\tTVC CHECK & PREP\n\t\t\t\t\tcb STAB CONT SYS (all) - close (Pnl 8)\n\t\t\t\t\tcb SPS (12) - close\n\t\t\t\t\tSET ΔVC (verify)\n\t\t\t\t\tEMS FUNC - ΔV (verify)\n\t\t\t\t\tMAN ATT (3) - RATE CMD\n\n\t\t\t\t\tATT DB - MIN\n\t\t\t\t\tRATE - LOW\n\t\t\t\t\tTRANS CONT PWR - ON\n\t\t\t\t\tSCS TVC (2) - RATE CMD\n\t\t\t\t\tΔVCG - LM/CSM or CSM\n\t\t\t\t\tTVC GMBL DRIVE P&Y - AUTO\n\n+54:00m\t\t\t\tMN BUS TIE (2) - ON\n(-06:00)\t\t\t\tTVC SERVO PWR #1 - AC1/MNA\n\t\t\t\t\tTVC SERVO PWR #2 - AC2/MNB\n\t\t\t\t\tROT CONT PWR NORMAL (2) - AC\n\t\t\t\t\tROT CONT PWR DIRECT (2) - OFF\n\t\t\t\t\tBMAG MODE (3) - ATT1/RATE 2\n\t\t\t\t\tSC CONT - SCS\n\t\t\t\t\tRHC #2 - ARMED (skip)\n\n 55:00m\t\t\tPRIMARY TVC CHECK\n(-05:00)\t\t\t\tGMBL MOT P1-Y1-START/ON\n\t\t\t\t\tVerify TRIM CONTROL & SET\n\t\t\t\t\tVerify MTVC\n\t\t\t\t\t\t*IF SCS: SCS TVC (2) - AUTO*\n\t\t\t\t\tSC CONT - CMC (SCS)\n\t\t\t\t\tTHC - CW\n\t\t\t\t\tVerify NO MTVC\n\n\t\t\t\tSEC TVC CHECK\n\t\t\t\t\tGMBL MOT P2-Y2-START/ON\n\t\t\t\t\tSET GPI TRIM\n\t\t\t\t\tVerify MTVC\n\t\t\t\t\tTHC NEUTRAL\n\t\t\t\t\tVerify NO MTVC\n\t\t\t\t\tVerify GPI returns to 0,0(CMC) or trim (SCS)\n\t\t\t\t\tROT CONT PWR NORM (2) - AC/DC\n\t\t\t\t\tROT CONT PWR DIRECT (2) - MNA/MNB\n\t\t(TRIM)\t\tBMAG MODE (3) - RATE 2\n\t\t\t\t\tPRO\n\t\t\t\t\tBMAG MODE (3) - ATT1/RATE 2\n\t\t\t\t\tENTR\n\n7\tF 50 25\t00204\tGMBL TEST OPTION\n\t\t(ACCEPT)\t\tSC CONT - CMC (verify)\n\t\t\t\t\tPRO\n\n\t\t\t\t\tMonitor GPI Response:\n\t\t\t\t\t00,02,-02,00,02,-02,00, Trim\n\n\t\t\t\t\t\t*TEST FAIL:\t\t\t*\n\t\t\t\t\t\t*SC CONT - SCS\t\t*\n\t\t\t\t\t\t*SCS TVS(2) - AUTO\t*\n\t\t(REJECT)\t\tENTR\n\n8\t  06 40\t\tTFI, VG, ΔVM\t\t\t\t\t\t\t(min-sec,.1fps)\n\n\t\t\t\t\tFDAI SCALE - 5/5\n\n\t\t\t\t\tRATE - HIGH\n\t\t\t\t\tUPDATE DET\n\t\t\t\t\tSPS He vlv (2) - AUTO (verify)\n\t\t\t\t\tCheck N2 A and N2 B\n\n 58:00\n(-02:00)\t\t\t\tΔV THRUST A(B) - NORMAL\n\t\t\t\t\tTHC - ARMED\n\t\t\t\t\tRHC (2) - ARMED\n\t\t\t\t\tTAPE RCDR - HBR/RCD/FWD/CMD RESET\n\n 59:25\n(-00:35)\t\t\tDSKY BLANKS\n\n 59:30\t\t\t(AVE G ON)\n(-00:35)\t\t\t\tEMS MODE - NORMAL\n\t  04 60\t\tTFI,VG,ΔV\t\t\t\t\t\t\t\t(min-sec,.1fps)\n\t\t\t\tCHECK PIPA BIAS <2fps for 5 sec\n\n 59:XX\t\t\tULLAGE\n(-00:XX)\n\t\t\t\t\t*If no ULLAGE:\t\t\t\t*\n\t\t\t\t\t* DIR ULLAGE pb - PUSH\t\t*\n\t\t\t\t\t* Control Att with RHC\t\t*\n\n\t\t\t\tMONITOR ΔVM (R3) COUNTING UP\n\n 59:55\n(-00:05)\n\tF 99 40\t\tENG ON ENABLE REQUEST\n\t\t(AUTO IGN)\t\tPRO AT TFI > 0 sec\n\t\t(BYPASS IGN)\t\tENTR to 11 (Perform switching in 10)\n\t\t\t\t\t\tEXIT - V37E 00E\n\n9\t00:00\t\tIGN\t\t*IF SCS: THRUST PB - PUSH*\n\t  06 40\t\tTFC, VG, ΔVM\t\t\t\t\t(min-sec,.1fps,.1fps)\n\t\t\t\t\tSPS THRUST Lt - ON\n\t\t\t\t\tΔV THRUST B(A) - NORMAL\n\t\t\t\t\t\t*IF SCS: +X & THRUST PB - PUSH*\n\t\t\t\tMONITOR THRUSTING\n\t\t\t\t Pc 95-105 psia\n\t\t\t\t EMS COUNTING DOWN\n\t\t\t\t\tSPS INJ VLV (2/4) - OPEN\n\t\t\t\t\tSPS He vlvs tb - gray\n\t\t\t\t\tSPS FUEL/OXID PRESS - 170-195 psia\n\t\t\t\t\tPUGS - BALANCED\n\n\tXX:XX\t\tECO\n\n10\tF 16 40\t\tTFC (STATIC), VG, ΔVM\t\t\t\t\t(min-sec,.1fps)\n\t\t\t\t\tΔV THRUST A&B - OFF\n\t\t\t\tVERIFY THRUST OFF\n\t\t\t\t\tSPS INJ VLV (2/4) - CLOSED\n\t\t\t\t\tSPS He vlvs tb - bp\n\t\t\t\t\tGMBL MTRS (4) - OFF\n\t\t\t\t\tTVC SERVO PWR 1&2 - OFF\n\t\t\t\t\tMN BUS TIE (2) - OFF\n\t\t\t\tPRO\n\n11\tF 16 85\t\tVG XYZ (CM)\t\t\t\t\t\t\t\t\t(.1fps)\n\t\t\t\t\tNULL RESIDUALS (use map view)\n\t\t\t\t\t\tEMS FUNC - OFF\n\t\t\t\t\t\tEMS MODE - STBY\n\t\t\t\t\t\tRHC & THC - LOCKED\n\t\t\t\t\t\tATT DB - MAX\n\t\t\t\t\t\tTRANS CONT PWR - OFF\n\t\t\t\t\t\tROT CONT PWR DIRECT (2) - OFF\n\t\t\t\t\t\tBMAG MODE (3) - RATE 2\n\t\t\t\t\t\tcb DIRECT ULLAGE (2) - open\n\t\t\t\t\t\tcb SPS P1 & Y1 - open\n\t\t\t\t\t\tPCM BIT RATE - LOW\n\t\t\t\tPRO\n\t\t\t\tV37E 00E\n\n12\tF 37\t\tV82E\n\n13\tF 16 44\t\tHA, HP, TFF\t\t\t\t\t\t\t(.1nm,min-sec)\n\n\t\t\t\tPRO\n\n14\t\t\t\tV37E 00E\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Prethrust Program Complete",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CMC & ISS - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cycle CRYO FANS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SCS - operating",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TEST C/W LAMPS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform EMS ΔV TEST & NULL BIAS CHECK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set ΔVC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 249,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSGauging to Up (1/249)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 140,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSPUGMode to Up (1/140)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 139,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSOxidPrimAux to Up (1/139)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SELECT(16) - as req'd\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LOAD DAP (check roll jets)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Up (1/76)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Up (1/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set DET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMCMode to Up (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V49E, MNVR TO PAD BURN ATT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip) PERFORM BORESIGHT & SXT STAR CHECK, V41 N91E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 40E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18  REQUEST MNVR TO FDAI RPY ANGLES  (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMCMode to Up (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 18  AUTO MNVR TO FDAI RPY ANGLES  (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for maneuver to complete",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18  REQUEST TRIM MNVR TO FDAI RPY ANGLES  (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ALIGN S/C ROLL",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC ALIGN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TVC CHECK & PREP:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCAC2 to Closed (2/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DirectUllageMNA to Closed (2/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set DirectUllageMNB to Closed (2/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 38,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller1DirectMNA to Closed (2/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 39,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller1DirectMNB to Closed (2/39)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 40,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller2DirectMNA to Closed (2/40)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 41,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller2DirectMNB to Closed (2/41)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 42,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ACRollMNA to Closed (2/42)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ACRollMNB to Closed (2/43)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BDRollMNA to Closed (2/44)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BDRollMNB to Closed (2/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PitchMNA to Closed (2/46)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 47,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PitchMNB to Closed (2/47)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 48,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set YawMNA to Closed (2/48)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 49,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set YawMNB to Closed (2/49)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 54,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ControllerAutoMNA to Closed (2/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ControllerAutoMNB to Closed (2/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 128,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic12MNA to Closed (2/128)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 130,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic34MNA to Closed (2/130)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 129,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic12MNB to Closed (2/129)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 131,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic34MNB to Closed (2/131)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 126,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSSystemMNA to Closed (2/126)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 127,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSSystemMNB to Closed (2/127)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 249,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNA to Closed (2/249)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 250,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNB to Closed (2/250)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 251,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC1 to Closed (2/251)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 252,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC2 to Closed (2/252)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSHeVlvMNA to Closed (2/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSHeVlvMNB to Closed (2/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 253,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch1BatA to Closed (2/253)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 254,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch2BatB to Closed (2/254)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 255,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw1BatA to Closed (2/255)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 256,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw2BatB to Closed (2/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 62,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSPilotVlvMNA to Closed (2/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 63,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSPilotVlvMNB to Closed (2/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET ΔVC (verify)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttDeadband to Down (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttRate to Down (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TransCntlPWR to Up (1/80)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 116,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCPitch to Middle (1/116)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCYaw to Middle (1/117)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 311,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P1_dVCG to Up (1/311)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If CSM only, ΔVCG - CSM*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 122,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCGimbalDrivePitch to Middle (1/122)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 123,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCGimbalDriveYaw to Middle (1/123)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for +54:00m (-06:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set MainBusTieAC to Up (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set MainBusTieBC to Up (1/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCServo1 to Up (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TVCServo2 to Down (1/125)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Down (1/76)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Down (1/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Middle (1/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Middle (1/79)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGRoll to Middle (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPitch to Middle (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGYaw to Middle (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RHC #2 - ARMED (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for 55:00m (-05:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIMARY TVC CHECK:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsPitch1 to Up (1/118)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsYaw1 to Up (1/120)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 46,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set LVSPSIncSIISIV_GP1 to Down (1/46)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify TRIM CONTROL & SET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "THC - CW ([C] CW function bubble on THC)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify NO MTVC (pitch, yaw, roll)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC TVC CHECK:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsPitch2 to Up (1/119)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsYaw2 to Up (1/121)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET GPI TRIM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify MTVC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "THC - NEUT ([C] NEUT function bubble on THC)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify NO MTVC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify GPI returns to 0,0(CMC) or trim (SCS)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Up (1/76)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Up (1/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Up (1/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Up (1/79)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(TRIM):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGRoll to Middle (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPitch to Middle (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGYaw to Middle (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ENTR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 25  00204  GMBL TEST OPTION",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor GPI Response:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    00,02,-02,00,02,-02,00, Trim",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 40  TFI, VG, ΔVM  (min-sec,.1fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FDAIScale to Middle (1/53)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttRate to Up (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "UPDATE DET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 133,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSHeVlv1 to Up (1/133)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 134,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSHeVlv2 to Up (1/134)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSPSIInd to Middle (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check N2 A",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SPSPSIInd to Down (1/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check N2 B",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for 58:00 (-02:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 131,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSdVThrustA to Up (1/131)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 132,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SPSdVThrustB to Up (1/132)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "THC - ARMED (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RHC (2) - ARMED (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Up (1/236)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 232,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SqB_PlayMode to Up (1/232)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 233,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SqB_TapeSpool to Up (1/233)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 223,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set UpTlmCmd to Up (1/223)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for 59:25 (-00:35)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DSKY BLANKS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for 59:30 (-00:35)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "04 60  TFI,VG,ΔV  (min-sec,.1fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CHECK PIPA BIAS <2fps for 5 sec (EMS readout should remain as you configured it +/- 2)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "59:XX (-00:XX) ULLAGE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "59:55 (-00:05) F 99 40  ENG ON ENABLE REQUEST",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO AT TFI > 0 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:00 (-00:00) IGN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  06 40  TFC, VG, ΔVM  (min-sec,.1fps,.1fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS THRUST Lt - ON",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MONITOR THRUSTING",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Pc 95-105 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  EMS COUNTING DOWN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS INJ VLV (2/4) - OPEN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS He vlvs tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS FUEL/OXID PRESS - 170-195 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  PUGS - BALANCED",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for ECO (Engine Cutoff)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 16 40  TFC (STATIC), VG, ΔVM  (min-sec,.1fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 131,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SPSdVThrustA to Down (1/131)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 132,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SPSdVThrustB to Down (1/132)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "VERIFY THRUST OFF:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS INJ VLV (2/4) - CLOSED",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS He vlvs tb - bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsYaw2 to Down (1/121)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsPitch2 to Down (1/119)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsYaw1 to Down (1/120)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TVCGimbalMotorsPitch1 to Down (1/118)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCServo1 to Middle (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCServo2 to Middle (1/125)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieAC to Down (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set MainBusTieBC to Down (1/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 16 85  VG XYZ (CM)  (.1fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NULL RESIDUALS (use map view and correct Ap/Pe if needed)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RHC & THC - LOCKED (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttDeadband to Up (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set TransCntlPWR to Down (1/80)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Middle (1/79)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Middle (1/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 64,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DirectUllageMNA to Open (2/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DirectUllageMNB to Open (2/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 253,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch1BatA to Open (2/253)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 255,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw1BatA to Open (2/255)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 236,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqB_PCMBitRate to Down (1/236)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO, complete P40",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V82E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 16 44  HA, HP, TFF  (.1nm,min-sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

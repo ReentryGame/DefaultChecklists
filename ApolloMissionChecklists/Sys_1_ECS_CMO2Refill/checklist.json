@@ -1,0 +1,71 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_ECS_CMO2Refill",
+  "Group": "SYS 1: ECS",
+  "Name": "CM O2 SUPPLY REFILL [5]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1155,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nECS\r\n\r\n5  CM O2 SUPPLY REFILL\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O2PressInd to Down (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SURGE TANK PRESS >400 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 315,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P601_RepressO2Valve to Up (1/315)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 0 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SURGE TANK PRESS - 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O2PressInd to Up (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 1 (3/65)"
+    }
+  ],
+  "Images": []
+}

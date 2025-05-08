@@ -1,0 +1,167 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_EPS_BatChrg",
+  "Group": "SYS 1: EPS",
+  "Name": "BATTERY CHARGING [5]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1125,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n5  Battery Charging BAT A(B,C)\r\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[5] MAIN BUS TIE A/C (B/C) - OFF",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 149,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroA_BatBusAToPyroBusTie to Open (2/149)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 151,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroB_BatBusBToPyroBusTie to Open (2/151)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 156,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BatCToBatBusA to Open (2/156)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 157,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BatCToBatBusB to Open (2/157)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[5] cb BAT RLY BUS BAT A(B) - OPEN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 7 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[3] BAT CHARGE - A(B,C)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  DC VOLTS - 37.5-39.5 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When DC VOLTS at 39.5 vdc or 100% recharge:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 17,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ChargeBatterySelector to position 0 (3/17)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[5] cb BAT RLY BUS BAT A(B) - CLOSE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 7 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 0 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST - 7A (BAT COMPT PRESS - <1.5)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If >1.5: BAT VENT vlv - VENT (to ~0) then CLOSED*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 55,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P101_SysTest1 to position 5 (3/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 56,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P101_SysTest2 to position 1 (3/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST - 5B (BAT RLY BUS voltage)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

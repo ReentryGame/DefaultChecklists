@@ -1,0 +1,191 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_ECS_ECSMon",
+  "Group": "SYS 1: ECS",
+  "Name": "ECS MONITORING CHECK [1]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1150,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nECS PERIODIC VERIFICATION\r\n\r\n1  ECS MONITORING CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CABIN ΔP - -1 to -3.5 in. H2O",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 FLOW - 0.2-0.45 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O2PressInd to Down (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O2 SURGE TANK PRESS - 865-935 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "REPRESS O2 >865 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM RAD tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If PRIM RAD tb - 2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *ECS RAD FLOW AUTO CONT - 1 until tb gray, then AUTO*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS RAD TEMP PRIM IN - 67-97°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS RAD TEMP PRIM OUT - -20° to +63°F (-20° to 97°F for lunar orb)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY EVAP TEMP OUT - 38-50.5°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY DISCH PRESS - 40-52 psig",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT TEMP - 45-70°F w/o evap; 45-55°F with evap",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CABIN TEMP - 70-80°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT PRESS/CABIN PRESS - 4.7-5.3 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PART PRESS CO2 < 7.6 mm Hg",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUIT COMP ΔP - 0.3-0.4 psid",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRIM GLY ACCUM QTY 30-65%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If <30% - PRIM ACCUM FILL vlv - ON (Until 40-55%)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "POT H2O QTY - 10-100%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "WASTE H2O QTY - 15-85%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If >85% - Dump*",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

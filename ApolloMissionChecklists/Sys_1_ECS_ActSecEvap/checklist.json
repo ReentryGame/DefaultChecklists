@@ -1,0 +1,39 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_ECS_ActSecEvap",
+  "Group": "SYS 1: ECS",
+  "Name": "ACTIVATE SEC EVAP [16]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1172,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nECS\r\n\r\n16  ACTIVATE SEC EVAP",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P382_EvapWaterControlSecondary to position 1 (3/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SecCoolLoopEvap to Up (1/179)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SecCoolPumpAC to Up (1/180)"
+    }
+  ],
+  "Images": []
+}

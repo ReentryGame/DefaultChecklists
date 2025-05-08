@@ -1,0 +1,247 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_Navigation_P20",
+  "Group": "G&C 3: NAVIGATION",
+  "Name": "P20 UNIVERSAL TRACKING",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7201,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n3. NAVIGATION\r\n\r\nP20 - OPTIONS\n\n\t0 - Rndz, VECPOINT (not implemented)\n\t1 - Celestial body, VECPOINT\n\t2 - Rotate, p. G/8-1\n\t4 - Rendz, 3-axis (not implemented)\n\t5 - Celestial body, 3-axis\n\nP20 - UNIVERSAL TRACKING\n\t\t\tOptions 1 & 5 - Celestial Body\n\t\t\t(1:VECPOINT; 5:3-axis)\n\t\t\t\t\tCMC - on (req)\n\t\t\t\t\tISS - on and aligned (req)\n\t\t\t\t\tBMAG MODE (3) - RATE 2\n\n1\t\t\t\tV37E 20E\n\n\tF 04 06\t\tR1 00024 TRACKING OPTION\n\t\t\t\tR2 00000\n\t\t\t\tLoad 1 or 5 in R2\n\t\t\t\tPRO\n\n2\tF 06 78*\tAXIS YAW, AXIS PITCH, OMICRON\t\t\t(.01°)\n\t\t\t\tLoad values (OMICRON ignored for opt 1)\n\t\t\t\tPRO\n\n3\tF 06 79\t\tR2 DEADBAND\n\t\t\t\tLoad d.b\n\t\t\t\tPRO\n\n4\tF 01 70\t\tR1 000DE STARCODE\n\t\t\t\tLoad code\n\t\t\t\tPRO (DE ≠00 to 6, DE = 00 to 5 (not implemented)\n\n5\tF 06 88\t\tCELESTIAL BODY VECTOR (DE = 00)\n\t(in dev)\t\tLoad vector\n\t\t\t\tPRO\n\n6\tF 50 18\t\tMNVR request\n\t\t\t(AUTO)\tSC CONT - CMC\n\t\t\t\t\tCMC MODE - AUTO\n\t\t\t\t\tPRO\n\n\t06 18\t\tRPY (.01°) to 6 when MNVR complete\n\t\t\t(MAN)\tRHC - MNVR to N18 angles\n\n\tWhen att. acceptable\n\t\tSC CONT - CMC\n\t\tCMC MODE - AUTO\n\n\t\tENTR\n\n7\tCMC continues tracking center of celestial body\n\tTo terminate P20 - V56E\t\n\n\n\n\n\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P20 - UNIVERSAL TRACKING",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Note: This will enqueue the steps to manuever to star ID",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CMC - on (req)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ISS - on and aligned (req)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 20E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 04 06  R1 00024 TRACKING OPTION, R2 00000",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V22E, load 1 or 5 in R2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 78  AXIS YAW, AXIS PITCH, OMICRON (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load values (OMICRON ignored for opt 1)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 79  R2 DEADBAND",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V22E, Load deadband",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 01 70  R1 000DE STARCODE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V21E, Load starcode (DE)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18 MNVR request",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMCMode to Up (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 18 RPY (.01°), F 50 18 when MNVR complete:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  When att. acceptable:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    ENTR to terminate AUTO MNVR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CMC continues tracking center of celestial body",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "To terminate P20 - V56E",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

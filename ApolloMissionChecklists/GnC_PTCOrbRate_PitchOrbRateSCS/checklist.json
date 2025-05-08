@@ -1,0 +1,231 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_PTCOrbRate_PitchOrbRateSCS",
+  "Group": "G&C 8: PTC/ORB RATE",
+  "Name": "PITCH ORB RATE (SCS)",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7807,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\nPTC/ORB RATE\r\n\r\nPITCH ORBIT RATE MANEUVER (SCS)",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    ORDEAL - initiated and in Orb Rate mode",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SCS - operating",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FDAIScale to Up (1/53)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Maneuver to desired LVL Vert",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Att (Roll = 7.25° or 187.25°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGRoll to Middle (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPitch to Middle (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGYaw to Middle (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttDeadband to Up (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttRate to Down (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualPitch to Down (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "4",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Establish desired Pitch Rate using MIN IMP & ORDEAL FDAI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "5",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "To terminate:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Null additinal rates as needed",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

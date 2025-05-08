@@ -1,0 +1,143 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_Init_GDCAlignToIMU",
+  "Group": "G&C 7: INITIALIZATION",
+  "Name": "GDC ALIGN TO IMU",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7703,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\n7. INITIALIZATION PROCEDURES\r\n\r\nGDC ALIGNMENT TO IMU GIMBAL ANGLES",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    IMU - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SCS - operating",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    ORDEAL - inertial",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Damp vehicle rates",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ATT SET dials - set to IMU angles on FDAI 1 (or V06 N20)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FDAISelect to Down (1/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FDAISource to Middle (1/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ATTSet to Up (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ATT SET dials - null FDAI 1 err needles",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ATTSet to Down (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GDC ALIGN PB - push until needles nulled",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FDAISelect to Up (1/54)"
+    }
+  ],
+  "Images": []
+}

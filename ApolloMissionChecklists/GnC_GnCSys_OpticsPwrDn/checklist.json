@@ -1,0 +1,23 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_OpticsPwrDn",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "OPTICS: POWER DOWN",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7108,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nOPTICS POWER DOWN\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Down (1/38)"
+    }
+  ],
+  "Images": []
+}

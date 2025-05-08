@@ -1,0 +1,1615 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "LunarEntry_SuperCircEntry",
+  "Group": "LUNAR RETURN",
+  "Name": "SUPERCIRCULAR ENTRY",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 8020,
+  "AutoGenerate": true,
+  "checklistText": "LUNAR RETURN\r\nSUPERCIRCULAR ENTRY\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1 Set DET (to EI)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2 EMS INITIALIZATION:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  * Scroll not on 37K: EMS FUNC - TEST 5, Slew scroll to 37K *",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 6,
+      "Text": null,
+      "Description": "set EMSSelector to position 6 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET RNG TO PAD DATA RNG",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set EMSSelector to position 5 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Slew Scroll to Pad Data VI0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3 RSI ALIGNMENT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Align GDC to IMU",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "4 CM RCS CHECK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 57,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA1 to Middle (1/57)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC1 to Middle (1/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA2 to Middle (1/58)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC2 to Middle (1/66)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSLogicMNA to Closed (2/50)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSLogicMNB to Closed (2/51)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualRoll to Down (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualPitch to Down (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualYaw to Down (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 154,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RCSTransfer to Up (1/154)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SEL (RING 1) - OFF:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB1 to Middle (1/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB2 to Middle (1/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC3 to Middle (1/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA4 to Middle (1/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB3 to Middle (1/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD4 to Middle (1/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SEL (RING 2) - MNB:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD1 to Down (1/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD2 to Down (1/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSA3 to Down (1/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC4 to Down (1/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD3 to Down (1/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSB4 to Down (1/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TEST RING 2 THRUSTERS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SEL (RING 2) - OFF:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD1 to Middle (1/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD2 to Middle (1/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA3 to Middle (1/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC4 to Middle (1/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD3 to Middle (1/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB4 to Middle (1/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SEL (RING 1) - MNA:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB1 to Up (1/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB2 to Up (1/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSC3 to Up (1/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSA4 to Up (1/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB3 to Up (1/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSD4 to Up (1/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TEST RING 1 THRUSTERS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SEL (RING 2) - MNB:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD1 to Down (1/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD2 to Down (1/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSA3 to Down (1/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC4 to Down (1/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD3 to Down (1/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSB4 to Down (1/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "5 30:00m (-30:00):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set MainBusTieAC to Up (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set MainBusTieBC to Up (1/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 233,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqB_TapeSpool to Down (1/233)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "6 35:00m (-25:00) SEPARATION CK LIST:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatA to Closed (2/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatB to Closed (2/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 167,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PrimaryGlycolToRadiators to Open (2/167)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 0 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FILL to 865-935, then ON:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 2 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 66,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P326_OxygenSMSupply to position 0 (3/66)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 67,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_OxygenSurgeTank to position 1 (3/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 1 (3/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 1 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 40,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PrplntDumpAuto to Down (1/40)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2A to Up (1/95)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2B to Up (1/96)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2C to Up (1/97)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2D to Up (1/98)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 226,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqA_VHFAmA to Middle (1/226)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 227,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SqA_VHFAmB to Middle (1/227)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 212,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set HighGainServoPwr to Down (1/212)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 184,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FuelCellPumpA to Middle (1/184)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 185,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FuelCellPumpB to Middle (1/185)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 186,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FuelCellPumpC to Middle (1/186)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FC2MNA to Down (1/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Loads Balanced",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 122,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RadiatorControllerHtrMNA to Open (2/122)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 123,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RadiatorControllerHtrMNB to Open (2/123)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 124,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RadiatorHtrsOvldBatA to Open (2/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 125,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RadiatorHtrsOvldBatB to Open (2/125)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 87,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set WasteH2OUrineDumpMNA to Open (2/87)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 88,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set WasteH2OUrineHtrMNB to Open (2/88)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 176,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PotH2OHtr to Middle (1/176)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 169,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set GlycolEvapTempInAuto to Down (1/169)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "7 VERIFY HORIZON CHECK ATT: R___ (0°), P___ (265°), Y___ (0°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "8 41:30 (-18:30) P61 - ENTRY PREP:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 61E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "9 F 06 61  IMPACT LAT, LONG, HDS UP/DN (+/-) (0.01°, .01°, ±00001)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "10 F 06 60  GMAX, V400K, GAMMA EI (.01G, fps, .01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "11 F 16 63 RTOGO (.1nm), VIO (fps), TFE (min-sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "12 P62 - CM/SM SEP & PRE-ENTRY MNVR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 25  00041 REQUEST CM/SM SEP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "43:00m (-17:00) COMPARE HORIZON with 31.7° line (265°P)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttDeadband to Down (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttRate to Up (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "YAW 45° OUT-OF-PLANE (LEFT)(315°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGRoll to Middle (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPitch to Middle (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGYaw to Middle (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 256,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set MainBusTieAC to Up (1/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 257,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set MainBusTieBC to Up (1/257)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 167,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PrimaryGlycolToRadiators to Open (2/167)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RCSLogic to Up (1/156)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "45:00m (-15:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 147,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CM_SM_Sep1 to Up (1/147)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 148,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CM_SM_Sep2 to Up (1/148)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If docking ring still on:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 266,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CSMLMSep1 to Up (1/266)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 267,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CSMLMSep2 to Up (1/267)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualRoll to Down (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualPitch to Down (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualYaw to Down (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 150,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CW_CSM_SM to Down (1/150)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If M/A: Push, RSET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 154,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RCSTransfer to Up (1/154)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS MANF PRESS - 287-302 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set RCSLogic to Down (1/156)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor V MNA/B: 28.0 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  * IF >25 vdc, go to EMERG POWER DOWN*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "YAW back to 0°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PITCH TO ENTRY ATT, R (0°), P (152°), Y (0°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "EMS DATA - Verify",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSelector to position 4 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO (Act ENTRY DAP Att Hold)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "13 F 06 61  IMPACT LAT, LONG, HDS UP/DN (+/-) (0.01°, .01°, ±00001)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO (CMC Guidance)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "14 POSS 06 22 FINAL ATT DISP, RPY (.01°) (Only if X-axis beying 45° of Vel vector)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "15 P63 - ENTRY INIT:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 64 G,VI,RTGO (.01G, fps, .1nm)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FDAIScale to Middle (1/53)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Up (1/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Up (1/79)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 231,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SqB_TapeRec_ANLG_LM to Up (1/231)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 232,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SqB_PlayMode to Up (1/232)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 233,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SqB_TapeSpool to Up (1/233)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 223,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set UpTlmCmd to Up (1/223)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "58:00m (-02:00) Wait for 0.05G (V16E to Monitor)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P64 - ENTRY POST .05G",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "16 06 74 BETA, VI, G (.01°, fps, .01G)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "HORIZ CHECK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": ".05G lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "** Use CMC FREE or SCS while entry guidance is in development **",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 247,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set Dot05gAllowed to Up (1/247)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 248,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSRoll to Up (1/248)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "20 P67 - ENTRY - FINAL PHASE (AUTO AT .2G)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 66 BETA, CRSRNG ERR, DNRNG ERR (.01°, .1nm, .1nm)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor lift vector on RSI, maneuver through atmosphere",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "21 F 16 67 RTOGO, LAT, LONG (Vrel=1000fps) (.1nm, .01°, .01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,479 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_PTCOrbRate_PTCSCS",
+  "Group": "G&C 8: PTC/ORB RATE",
+  "Name": "PASSIVE THERMAL CONTROL (SCS)",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7805,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\nPTC/ORB RATE\r\n\r\nPASSIVE THERMAL CONTROL (SCS)",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    SCS - operating",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SCCont to Down (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Up (1/76)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Up (1/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 108,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttCycleLimiter to Up (1/108)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttDeadband to Down (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttRate to Down (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGRoll to Middle (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPitch to Middle (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGYaw to Middle (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SEL - Configure for single jet operation",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Damp rates",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FDAIScale to Up (1/53)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttManualRoll to Down (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(Optionally set MAN ATT (ROLL) - ACCEL CMD)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttDeadband to Up (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AttRate to Up (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "4",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Enable jet couple in roll (AUTO RCS SEL)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Initiate Desired Roll Rate",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "5",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 57,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA1 to Middle (1/57)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC1 to Middle (1/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA2 to Middle (1/58)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC2 to Middle (1/66)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB1 to Middle (1/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD1 to Middle (1/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB2 to Middle (1/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD2 to Middle (1/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA3 to Middle (1/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC3 to Middle (1/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA4 to Middle (1/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC4 to Middle (1/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB3 to Middle (1/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD3 to Middle (1/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB4 to Middle (1/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD4 to Middle (1/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Middle (1/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Middle (1/79)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TERMINATE PTC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "AUTO RCS SEL (12) - MNA/B",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Null Rates",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

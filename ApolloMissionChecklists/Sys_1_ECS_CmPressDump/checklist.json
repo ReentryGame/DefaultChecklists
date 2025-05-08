@@ -1,0 +1,127 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_ECS_CmPressDump",
+  "Group": "SYS 1: ECS",
+  "Name": "CM PRESSURE DUMP [12]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1167,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nECS\r\n\r\n12 CM PRESSURE DUMP",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P351_EmerCabinPSI to position 2 (3/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 46,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_CabinRepress to position 0 (3/46)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 233,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P380_SuitCurcuitReturnValve to Closed (2/233)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 171,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CabinFan1 to Down (1/171)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 172,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CabinFan2 to Down (1/172)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P7_DirectO2 to position 0 (3/30)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 3 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When CABIN PRESS - 3.0-3.25 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 2 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  O2 FLOW - 0.24 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SUIT PRESS - 3.5-3.25 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 3 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When CABIN PRESS - 0.0 psia:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 1 (3/61)"
+    }
+  ],
+  "Images": []
+}

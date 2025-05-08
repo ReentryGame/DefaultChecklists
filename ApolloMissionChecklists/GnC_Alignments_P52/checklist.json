@@ -1,0 +1,14 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_Alignments_P52",
+  "Group": "G&C 6: ALIGNMENTS",
+  "Name": "P52 IMU REALIGN",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7602,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n6. ALIGNMENTS\r\n\r\nP52 IMU Realign\n\t\t\t\tCMC - on\n\t\t\t\tISS - on\n\t\t\t\tSCS - operating\n\t\t\t\tBMAG MODE (3) - RATE 2\n\t\t\t\tG/N PWR OPTICS - on\n\t\t\t\tOPT ZERO - off then ZERO (15 sec)\n\t\t\t\tOPT MODE - CMC\n\n\n1\t\t\tV37E 52E\n\tF 04 06\tR1 00001\tIMU ALIGN OPTION\n\t\t\tR2 00001\tPREF\t\tPRO to 4\n\t\t\t       2\tNOM\t\t\tPRO to 2\n\t\t\t       3\tREFSMMAT\tPRO to 7\n\t\t\t       4\tLDG SITE\tPRO to 2\n\n2\tF 06 34\tGET ALIGN (0,0,0 initially) (hrs, min, ,.01sec)\n\t\t\tLoad desired GET\n\t\t\tTO SPECIFY PRESENT TIME - PRO on (0,0,0)\n\t\t\tPRO (NOM go to 4)\n\n3\tF 06 89\tLAT, LONG/2, ALT\t\t\t(.001°,.001°,.01nm)\n\t\t\tLoad ldg site coords\n\t\t\tPRO\n\n4\tF 06 22\tNEW ICDU ANGLES OG, IG, MG\t\t\t(.01°)\n\t\t\tPRO\n\n5\tF 50 25\t00013 GYRO TORQUE\n\t\t(COARSE) PRO - NO ATT lt - on then off - to 7\n\t\t(TORQUE) CMC MODE - FREE\n\t\t\t\t ENTR\n\n6\t  16 20\tICDU ANGLES\t\t\t\t\t\t(.01°)\n\t\t\tWhen torque complete - go to 17\n\n7\tF 50 25\t00015 STAR SELECT\n\t\t(MNVR If Necessary)\n\t\t(PICAPAR) PRO\n\n8\tF 01 70\t000DE STAR CODE\n\t\t\tLoad desired code\n\t\t\t\tOPT MODE - CMC (verify)\n\t\t\t\tOPT ZERO - OFF\n\t\t\tPRO to 10 (to 9 if DE=00)\n\n9\tF 06 88\tCELESTIAL BODY VECTOR\n\t\t\tLoad desired vector\n\t\t\tPRO\n\n10\t  06 92\tSHAFT, TRUN\t\t\t\t\t\t(.01°,.001°)\n\t\t(MARK ROUTINE) OPTICS MODE - MAN\n\n11\tF 51\tPLEASE MARK\n\t\t\tMARK\n\n12\tF 50 25\t00016 TERMINATE MARKS\n\t\t\tPRO\n\n13\tF 01 71\t000DE STAR CODE\n\t\t\tLoad code (if necessary)\n\t\t\tPRO to 8 after 1st MARK (to 14 if DE=00)\n\t\t\t    to 15 after 2nd MARK (to 14 if DE=00)\n\n14\tF 06 88\tCELESTIAL BODY VECTOR\n\t\t\tVerify vector\n\t\t\tPRO to 8 after 1st MARK\n\t\t\t    to 15 after 2nd MARK\n\n15\tF 06 05\tSTAR ANGLE DIFFERENCE\t\t\t(.01°)\n\t\t\t\t\t\tN 05 LIMITS\n\t\t\t2 stars:\t\tSXT ≤ + 00003\n\t\t\t\t\t\tSCT ≤ + 00011\n\n\t\t\tStar/planet:\t\tSXT ≤ + 00018\n\t\t\t\t\t\t\tSCT ≤ + 00021\n\n\t\t(REJECT)\t V32E to 17\n\t\t(ACCEPT)\t PRO\n\n16\tF 06 93\tTORQUING ANGLES OG, IG, MG \t\t(.001°)\n\t\t(TORQUE)\tCMC MODE - FREE\n\t\t\t\tPRO\n\t\t(BYPASS)\tV32E\n\n17\tF 50 25\t00014 ALIGNMENT CHECK\n\t\t (RECHECK)\tPRO to 7\n\t\t (BYPASS)\tENTR\n\n18 \t\tV37E 00E\n\t\tOPT ZERO - ZERO\n\t\tG/N PWR OPTICS - OFF\n\n",
+  "Steps": [],
+  "Images": []
+}

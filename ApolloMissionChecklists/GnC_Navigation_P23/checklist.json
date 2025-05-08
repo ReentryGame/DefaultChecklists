@@ -1,0 +1,671 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_Navigation_P23",
+  "Group": "G&C 3: NAVIGATION",
+  "Name": "P23 CISLUNAR NAV MEAS",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7205,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n3. NAVIGATION\r\n\r\nP23 - CISLUNAR MIDCOURSE NAVIGATION MEASUREMENT\n\t\t\t\tCMC - on\n\t\t\t\tSCS - on\n\t\t\t\tISS - on & aligned\n\t\t\t\tG/N PWR OPTICS - on (30 min prior)\n\t\t\t\tOPT ZERO - OFF then ZERO (15 sec)\n\t\t\t\tOPT MODE - CMC\n\n1\t\t\t\tV37E 23E\n\n2\tF 50 25\t\tR1 00015\tACQ CALIBRATION STAR\n\t\t(MAN MNVR)\t\tMnvr veh. to point LLOS at body\n\t\t\t\t\t\tENTR to 7\n\t\t(AUTO MNVR)\t\tPRO\n\n3\tF 01 70\t\tR1 000DE\tSTAR CODE\n\t\t\t\tLoad desired code\n\t\t\t\tPRO (to 5 if DE≠00)\n\tNOTE: Only HORIZ/STAR is supported, ensure DE≠00\n\n4\tF 06 88\t\tCELESTIAL BODY VECTOR\n\t\t\t\tLoad desired vector\n\t\t\t\tPRO\n\tNOTE: Not supported\n\n5\tF 50 18\t\tREQUEST MNVR TO FDAI R,P,Y\t\t\t\t\t(.01°)\n\t\t\t\t(AUTO)\t\tSC CONT - CMC\n\t\t\t\t\t\t\tCMC MODE - AUTO\n\t\t\t\t\t\t\tBMAG MODE (3) - RATE 2\n\t\t\t\t\t\t\tPRO to 6\n\t\t\t\t(MAN)\t\tV62E\n\t\t\t\t\t\t\tMNVR to 5\n\n\t\t\t\t(BYPASS)\t\tENTR to 7\n\n6\t  06 18\t\tAUTO MNVR FDAI R, P, Y\t\t\t\t\t\t\t(.01°)\n\t\t\t\tAUTO MNVR COMPLETE RETURN TO 5\n\n\n7\tF 59\t\tREQUEST OPTICS CALIB\n\t\t\t\t(BYPASS)\t\tENTR to 9\n\t\t\t\t(CALIB)\t\tOPT MODE - MAN\n\t\t\t\t\t\t\tOPT COUPLING - DIR\n\t\t\t\t\t\t\tSPEED - LOW\n\t\t\t\t\t\t\tOPT ZERO - OFF\n\t\t\t\t\t\t\tSUPERIMPOSE LLOS ON SLOS\n\t\t\t\t\t\t\tMARK\n\n8\tF 06 87\t\tR2 TRUN BIAS\t\t\t\t\t\t\t\t\t(.001°)\n\t\t\t\t(Repeat until 2 measurements\n\t\t\t\tagree withing .003°)\n\t\t\t\t(RECALIB)\tMARK to 8\n\t\t\t\t(INCORP\n\t\t\t\tCALIB)\t\tPRO\n\n9\tF 06 70\t\t\tR1 000DE\tSTAR ID\n\t\t\t\t\tR2 00C00\tLMK ID (not supported)\n\t\t\t\t\tR3 00CD0\tHOR ID\n\n\t\t\t\t\tSTAR/ENH\tSTAR/LNH\tSTAR/EL\n\t\t\t\t\t000DE\t\t000DE\t\t000DE\n\t\t\t\t\t00000\t\t00000\t\t00100\n\t\t\t\t\t00110\t\t00210\t\t00000\n\n\t\t\t\t\tSTAR/EFH\tSTAR/LFH\tSTAR/LL\n\t\t\t\t\t000DE\t\t000DE\t\t000DE\n\t\t\t\t\t00000\t\t00000\t\t00200\n\t\t\t\t\t00120\t\t00220\t\t00000\n\n\t\t\t\tPRO to 12\n\n10\tF 06 89\t\tLAT, LONG/2, ALT (LMK)(.001° +N/E,.01nm)\n\t\t\t\tPRO (DE≠00 to 12)\n\tNOTE:\tNot supported\n\n11\tF 06 88\t\tCELESTIAL BODY VECTOR\n\t\t\t\tLOAD DESIRED VECTOR\n\t\t\t\tPRO\n\tNOTE: Not supported\n\n12\tF 50 25\t\t00202 3-AXIS MNVR REQUEST\n\t\t\t\t(ACCEPT)\t\tPRO\n\t\t\t\t(BYPASS)\t\tENTR\n\n13\tF 50 18\t\tREQUEST MNVR TO FDAY R,P,Y\t\t\t\t\t(.01°)\n\t\t\t\t(AUTO)\t\tSC CONT - CMC\n\t\t\t\t\t\t\tCMC MODE - AUTO\n\t\t\t\t\t\t\tBMAG MODE (3) - RATE 2\n\t\t\t\t\t\t\tPRO to 14\n\t\t\t\t(MAN)\t\tV62E\n\t\t\t\t\t\t\tMNVR to 13\n\t\t\t\t(BYPASS)\t\tOPT MODE - CMC\n\t\t\t\t\t\t\tOPT ZERO - OFF\n\t\t\t\t\t\tENTR to 15\n\n14\t  06 18\t\tAUTO MNVR FDAI R, P, Y\t\t\t\t\t\t\t(.01°)\n\t\t\t\tAUTO MNVR COMPLETE RETURN TO 13\n\n15\t  06 92\t\tAUTO OPT SHFT/TRUN\t\t\t\t\t   (.01°, .001°)\n\t\t\t\tMNVR SC TO POSITION LMK/HOR IN FOV\n\t\t\t\tOPT MODE - MAN\n\n16\tF 51\t\tMARK REQUEST\n\t\t\t\t(MARK)\tSUPERIMPOSE STAR ON LMK/HOR\n\t\t\t\t\t\tMARK\n\n17\tF 50 25\t\t00016\tTERM MARKS\n\t\t\t\t(REJECT)\t\tMARK REJECT to 16\n\t\t\t\t(TERM)\t\tPRO\n\n18\tF 06 71\t\tR1 000DE\tSTAR ID\n\t\t\t\tR2 00C00\tLMK ID\n\t\t\t\tR3 00CD0\tHOR ID\n\t\t\t\t\n\t\t\t\tPRO\n\n19\tF 06 89\t\tLAT, LONG/2, ALT (LMK)(.001° +N/E,.01nm)\n\t\t\t\tPRO (DE≠00 to 21)\n\tNOTE:\tNot supported\n\n20\tF 06 88\t\tCELESTIAL BODY VECTOR\n\t\t\t\tVerify vector\n\t\t\t\tPRO\n\tNOTE: Not supported\n\n21\tF 06 49\t\tΔR, ΔV (SC PARA)\t\t\t\t\t   (.01 nm, .1 fps)\n\t\t\t\t(REJECT)\t\tV32E, V37E 23E\n\t\t\t\t(UPDATE)\t\tPRO\n\n22\tP00\n\n\n\t\t",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CMC - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SCS - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ISS - on & aligned\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Up (1/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P122_Tracker to Middle (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_Tracker to Up (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "OPT ZERO - OFF then ZERO (15 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 273,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_OpticsMode to Up (1/273)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 23E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 25  R1 00015  ACQ CALIBRATION STAR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO (AUTO MNVR)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 01 70  R1 000DE  STAR CODE",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V21E to load desired code",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18  REQUEST MNVR TO FDAI R,P,Y  (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMCMode to Up (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO to 06 18  AUTO MNVR FDAI R, P, Y (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for MNVR to complete or press PRO when satisfied",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18 REQUEST MNVR TO FDAI R,P,Y",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ENTR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 59  REQUEST OPTICS CALIB",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 273,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P122_OpticsMode to Down (1/273)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 275,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_ControllerCoupling to Up (1/275)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 274,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P122_ControllerSpeed to Down (1/274)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P122_Tracker to Middle (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUPERIMPOSE LLOS ON SLOS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MARK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 87  R2 TRUN BIAS  (.001°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   Press MARK again to take another calibration",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   Repeat until 2 measurements agree withing .003°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 70  R1 000DE, R2 00C00, R3 00CD0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Note: R2 (LMK) not supported, do not use.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  V21E to set STAR ID (000DE)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  V23E to set HOR ID (00CD0)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    To measure Star/Earth Near Horizon: HOR ID = 00110",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    To measure Star/Earth Far Horizon: HOR ID = 00120",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    To measure Star/Lunar Near Horizon: HOR ID = 00210",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    To measure Star/Lunar Far Horizon: HOR ID = 00220",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 25  00202 3-AXIS MNVR REQUEST",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO (ACCEPT)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18  REQUEST MNVR TO FDAY R,P,Y (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMCMode to Up (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 18  AUTO MNVR FDAI R, P, Y  (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Wait for F 50 18 or PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18  REQUEST MNVR TO FDAY R,P,Y  (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 276,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P122_Tracker to Middle (1/276)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 273,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P122_OpticsMode to Up (1/273)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ENTR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 92  AUTO OPT SHFT/TRUN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MNVR SC TO POSITION LMK/HOR IN FOV",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 273,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P122_OpticsMode to Down (1/273)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 51  MARK REQUEST",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SUPERIMPOSE STAR ON LMK/HOR",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Tips:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Ensure the horizon is visible in the LLOS SXT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    OPTICS TEL TRUN - 25°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    OPTICS MODE - MAN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    ENTER SCT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Rotate SCT SHAFT to align axis with selected STAR, horizon is at 0 degrees.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    ENTER SXT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Move SLOS SXT to star, superimpose star with horizon point",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MARK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 25  00016  TERM MARKS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  (REJECT)  MARK REJECT to 16",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  (TERM)  PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 71  R1 000DE, R2 00C00, R3 00CD0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 49  ΔR, ΔV (SC PARA)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  (REJECT)  V32E, V37E 23E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  (UPDATE)  PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P00",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

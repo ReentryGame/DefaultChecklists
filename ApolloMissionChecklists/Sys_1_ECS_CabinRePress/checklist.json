@@ -1,0 +1,127 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_ECS_CabinRePress",
+  "Group": "SYS 1: ECS",
+  "Name": "CABIN PRESSURIZATION [10]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1165,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nECS\r\n\r\n10 CABIN PRESSURIZATION",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 1 (3/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 1 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 0 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 170,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O2PressInd to Down (1/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 315,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P601_RepressO2Valve to Down (1/315)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If SURGE TANK PRESS decreases to 150 psia:*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *  REPRESS O2 vlv - CLOSE*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CABIN PRESS ind - ~3.0 psia (1 min)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 1 (3/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Adjust to maintain >150 psia in SURGE TANK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "REPRESS O2 PRESS ind - ~0 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 315,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P601_RepressO2Valve to Up (1/315)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CAB PRESS = 4.7-5.3 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 46,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P351_CabinRepress to position 0 (3/46)"
+    }
+  ],
+  "Images": []
+}

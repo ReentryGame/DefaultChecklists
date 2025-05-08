@@ -1,0 +1,95 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "PreThrustingP30",
+  "Group": "PRETHRUSTING",
+  "Name": "(P30) EXTERNAL ΔV",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 41201010,
+  "AutoGenerate": false,
+  "checklistText": "(P30) External Delta V Prethrusting\n\n\tCMC - on (req)\n\tISS - on & orient known (desired)\n\n1\tKey V37E 30E\n\n2\tFL V06 N33\n\t\tGETI, stored\t\t\t\t00XXX. HRS\n\t\t\t\t\t\t\t\t000XX. MIN\n\t\t\t\t\t\t\t\t0XX.XX SEC\n\n\t\tAccept\tRcd GETI\n\t\t\t\tPRO\n\n\t\tReject\tV25E, load desired GETI\n\n3\tFL V06 N81 (ΔV compnts)\n\t\tΔVX, Y, Z (lcl vert\t\tXXXX.X FPS\n\t\t\tat GETI)\n\n\t\tAccept\tPRO\n\t\tReject\tV25E, load desired data\n\n4\tFL V06 N42 (calculated thrust parameters)\n\t\tHa\t\t\t\t\t\tXXXX.X NM\n\t\tHp\t\t\t\t\t\tXXXX.X NM\n\t\tΔV (req)\t\t\t\t\tXXXX.X FPS\n\n\t\tAccept\tPRO\n\t\tReject\tReselect P30\t\n\t\t\t\tLoad new parameters\n\n5\tFL V16 N45\n\t\tMrks (VHF/opt)\t\t\tXXBXX MKS\n\t\tTF GETI (next burn)\t\tXXBXX MIN-SEC\n\t\tMGA (next burn)\t\t\tXXX.XX DEG\n\n\tConstraint: R2 cannot be >59B59, it larger -59:59 will display until\n\t\t\t\tCountown to burn is < 59:59\n\n\t\tPRO\n\n6\tP00\n\nGo to\t(P52) IMU Realign\nor\t\t(P40) G&N/SPS Thrusting\nor\t\tSCS Thrusting\n\n\t\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Key V37E 30E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL V06 N33, Load desired GETI",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V25E to change, PRO to Accept",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL V06 N81 (ΔV compnts) (ΔVX, Y, Z lvl vert at GETI)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V25E to change, PRO to Accept",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL V06 N42 (Ha, Hp, ΔV)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO to Accept",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FL V16 N45 (Mrks, TF GETI, MGA)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO to end P30",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Go to P52 (OPTION 1), P40 or SCS Thrusting",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

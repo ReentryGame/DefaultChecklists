@@ -1,0 +1,591 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "LunarEntry_EarthLanding",
+  "Group": "LUNAR RETURN",
+  "Name": "EARTH/POST LANDING",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 8030,
+  "AutoGenerate": true,
+  "checklistText": "LUNAR RETURN\r\nEARTH/POST LANDING\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "50K':",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 2 (3/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 2 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatA to Closed (2/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatB to Closed (2/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check Altimeter",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "30K':",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 158,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ELSLogic to Up (1/158)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 159,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ELSAuto to Up (1/159)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "24K':",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS disable (auto)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *RCS CMD - OFF*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Apex cover jett (auto)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *APEX COVER JETT PB - PUSH*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(WAIT 2 SECS)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Drogue parachutes deployed (auto)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 26,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push DrogueDeploy (4/26)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If Both Drogues Fail:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *ELS - MAN*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *5K' MAIN DPLY PB - PUSH*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *ELS - AUTO*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "23.5K'  Cabin Pressure increasing",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *If not increasing by 17K': CABIN PRESS REL vlv (RH) - DUMP*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "10K': Main parachutes deployed",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push MainDeploy (4/27)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DIRECT O2 vlv - OPEN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 198,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set Radio1VHF to Down (1/198)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 207,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set Radio2VHF to Down (1/207)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 226,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SqA_VHFAmA to Down (1/226)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 229,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SqA_VHFBcn to Up (1/229)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 0 (3/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 0 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RCSLogic to Up (1/156)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 167,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMRCSPrplntDump to Up (1/167)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When dump complete:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 168,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMRCSPrplntPurge to Up (1/168)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push CMRCSHeDump (4/28)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 140,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FlgtPstLndBatBusA to Closed (2/140)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 141,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FlgtPstLndBatBusB to Closed (2/141)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 142,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FlgtPstLndBatC to Closed (2/142)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FlgtPstLndMainA to Open (2/143)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 144,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FlgtPstLndMainB to Open (2/144)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 113,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BatteryRelayBus_BatA to Open (2/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 114,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set BatteryRelayBus_BatB to Open (2/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 124,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RadiatorHtrsOvldBatA to Open (2/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 125,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RadiatorHtrsOvldBatB to Open (2/125)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 253,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch1BatA to Open (2/253)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 254,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch2BatB to Open (2/254)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 255,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw1BatA to Open (2/255)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 256,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw2BatB to Open (2/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3K':",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 99,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMPrplntT1 to Down (1/99)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 100,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMPrplntT2 to Down (1/100)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 3 (3/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 3 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 159,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ELSAuto to Up (1/159)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 158,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ELSLogic to Up (1/158)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 310,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P8_FloodFixed to Down (1/310)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "800':",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 60,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 0 (3/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 61,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 0 (3/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for landing",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

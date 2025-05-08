@@ -1,0 +1,151 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_PTCOrbRate_P20Opt2",
+  "Group": "G&C 8: PTC/ORB RATE",
+  "Name": "P20 PTC/ORB RATE",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7802,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\nPTC/ORB RATE\r\n\r\nP20 - Opt 2 (PTC/Orb rate)\n\n1\t\t\t\tV37E 20E\n\tF 04 06\t\tR1 00024 TRACKING OPTION\n\t\t\t\tR2 00000\n\t\t\t\tLoad 2 in R2\n\t\t\t\tPRO\n\n2\tF 96 78\t\tAXIS YAW, AXIS PITCH, OMICRON\t\t\t\t(.01°)\n\t\t\t\tLoad values (OMICRON ignored)\n\t\t\t\tPRO\n\n3\tF 06 79\t\tRATE, DEADBAND, Blank (.0001°/sec, .01°)\n\t\t\t\tLoad desired values\n\t\t\t\tPRO\n\n4\tF 06 34\t\tSTART TIME\t\t\t\t\t\t(hrs, min, .01 sec)\n\t\t\t\tLoad desired GET\n\t\t\t\t\t(all 0's for present time)\n\t\t\t\tPRO\n\n5\t\t\t\tManeuver starts at requested GET\n\n6\t\t\t\tTo terminate P20 - V56E\n\n\n\n\n\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "P20 - Opt 2 (PTC/Orb rate)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 20E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 04 06  R1 00024 TRACKING OPTION, R2 00000",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  V22E, Load 2 in R2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 96 78  AXIS YAW, AXIS PITCH, OMICRON  (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Load values (OMICRON ignored)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Load 0,0,0 for PTC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Load 0,+90,0 for ORB Rate",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 79  RATE, DEADBAND, Blank (.0001°/sec, .01°)\r\n",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Load desired values",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 34  START TIME  (hrs, min, .01 sec)\r\n",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Load desired GET (all 0's for present time)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Maneuver starts at requested GET\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "To terminate P20 - V56E",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

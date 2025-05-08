@@ -1,0 +1,47 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_ECS_DeActPrimEvap",
+  "Group": "SYS 1: ECS",
+  "Name": "DEACTIVATE PRIMARY EVAP [15]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1171,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nECS\r\n\r\n15  DEACTIVATE PRIMARY EVAP",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 177,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set GlycolEvapH2OFlow to Middle (1/177)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 181,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set GycolEvapSteamPressAuto to Down (1/181)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 182,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GycolEvapSteamPressMod to Up (1/182)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "INCR for 1 min",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,183 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_CMCGeneral_V49",
+  "Group": "G&C 1: CMC GENERAL",
+  "Name": "V49 CREW DEFINED MANEUVER",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7022,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n1. CMC GENERAL\r\n\r\nV49 CREW DEFINED MANEUVER\n\t\t\t\tCMC - on\n\t\t\t\tISS - on\n\t\t\t\tSCS - operating\n\n1\t\t\tV37E 00E\n\t\t\tV62E\n\n2\t\t\tV49E\n\tF 06 22\tNEW ICDU ANGLES RPY\t\t\t(.01°)\n\t\t\tLoad desired angles\n\t\t\tPRO\n\n3\tF 05 18\tREQ MNVR TO FDAI RPY ANGLES\t(.01°)\n\t(AUTO)\t\tBMAG MODE (3) - RATE 2\n\t\t\t\tSC CONT - CMC\n\t\t\t\tCMC MODE - AUTO\n\t\t\tPRO\n\t(MAN)\tMNVR - To 5\n\n4\t  06 18\tAUTO MNVR TO FDAI RPY ANGLES\t(.01°)\n\n5\tF 50 18\tREQ TRIM MNVR TO FDAI RPY ANGLES\n\t(TRIM)\tPRO To 4\n\t(BYPAS)\tENTR\n\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V62E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V49E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 22 NEW ICDU ANGLES RPY (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V25E to load desired angles",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 05 18 REQ MNVR TO FDAI RPY ANGLES (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMCMode to Up (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 18 AUTO MNVR TO FDAI RPY ANGLES (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for Maneuver to complete",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18 REQ TRIM MNVR TO FDAI RPY ANGLES (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "06 18 AUTO MNVR TO FDAI RPY ANGLES (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait for Trim Maneuver to complete",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 18 REQ TRIM MNVR TO FDAI RPY ANGLES (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ENTR",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

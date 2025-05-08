@@ -1,0 +1,23 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_CnW_MAAckReset",
+  "Group": "SYS 1: C&W",
+  "Name": "MA ACK/RESET",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1202,
+  "AutoGenerate": false,
+  "checklistText": "SYSTEMS 1\r\nC/W OPERATIONAL CHECKS\r\n\r\n2. ACKNOWLEDGE/RESET MASTER ALARM INDICATION\nA\tNormal mode\n\t\tMA tone/lt (3) - on\n\t\tMA pb/lt (1) - push\n\t\tMA tone/lt (3) - out\n\t\tapplicable C/W lt remains on\nB\tAcknowledge mode (C/W NORM in ACK)\n\t\tMA tone/lt (3) - on\n\t\tMA pb/lt (1) - push & hold\n\t\tMA tone/lt (3) - out\n\t\tapplicable C/W lt remains on for\n\t\t\tmalfunction indication\n\t\tMA pb/lt - release\n\t\tapplicable C/W lt - out\n\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Any Master Alarm (MA) pb/lt  - push to reset",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

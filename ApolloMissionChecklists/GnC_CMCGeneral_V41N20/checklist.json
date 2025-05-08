@@ -1,29 +1,21 @@
 {
   "Spacecraft": 0,
-  "ProjectName": "Sys_1_EPS_CryoPressQtyCk",
-  "Group": "SYS 1: EPS",
-  "Name": "CRYO PRESS - QTY CK [1]",
+  "ProjectName": "GnC_CMCGeneral_V41N20",
+  "Group": "G&C 1: CMC GENERAL",
+  "Name": "V41 N20 COARSE ALIGN",
   "NameTranslations": {},
   "CustomName": "ApolloMissionChecklists",
   "Side": 0,
-  "SortPriority": 1121,
-  "AutoGenerate": true,
-  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n1  Cryogenic Pressure - Quantity Check\n",
+  "SortPriority": 7019,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n1. CMC GENERAL\r\n\r\nV41 N20 COARSE ALIGN ICDU's\r\n\t\t\t\tCMC - on\n\t\t\t\tISS - on\n\n1\t\t\tV41N 20E\n\n2\tF 21 22\tNEW ICDU ANGLES RPY\t\t\t\t(.01°)\n\t\t\tLoad desired ICDU angles\n\n3\t  41\tNO ATT lt - on\n\n4\t\t\tV40E\n\t\t\tNO ATT lt - off\n\t\t\tWait 10 sec\n\n5\t\t\tV37E 00E",
   "Steps": [
     {
       "Program": 0,
-      "Type": 1,
-      "SetID": 170,
-      "ToPosID": 4,
-      "Text": null,
-      "Description": "set O2PressInd to Up (1/170)"
-    },
-    {
-      "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CRYO PRESS IND - 1/2",
+      "Text": "V41N 20E",
       "Description": "Manual step"
     },
     {
@@ -31,7 +23,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  CRYO H2 PRESS ind (2) - 225-260 psia",
+      "Text": "F 21 22 NEW ICDU ANGLES RPY (.01°)",
       "Description": "Manual step"
     },
     {
@@ -39,23 +31,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  CRYO O2 PRESS ind (2) - 865-935 psia",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 170,
-      "ToPosID": 5,
-      "Text": null,
-      "Description": "set O2PressInd to Down (1/170)"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "CRYO PRESS IND - SRG",
+      "Text": "Load desired ICDU angles",
       "Description": "Manual step"
     },
     {
@@ -63,7 +39,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  CRYO O2 PRESS ind - 865-935 psia",
+      "Text": "41 NO ATT lt - on",
       "Description": "Manual step"
     },
     {
@@ -71,7 +47,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CRYO QTY IND",
+      "Text": "V40E",
       "Description": "Manual step"
     },
     {
@@ -79,7 +55,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  CRYO H2 QTY ind (2) - record",
+      "Text": "NO ATT lt - off",
       "Description": "Manual step"
     },
     {
@@ -87,7 +63,15 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  CRYO O2 QTY ind (2) - record",
+      "Text": "Wait 10 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
       "Description": "Manual step"
     }
   ],

@@ -1,37 +1,21 @@
 {
   "Spacecraft": 0,
-  "ProjectName": "Sys_1_EPS_DCVoltAmpCk",
-  "Group": "SYS 1: EPS",
-  "Name": "D-C VOLT/AMP CK [3]",
+  "ProjectName": "GnC_Prethrust_P30",
+  "Group": "G&C 4: PRETHRUST",
+  "Name": "P30 EXTERNAL ΔV",
   "NameTranslations": {},
   "CustomName": "ApolloMissionChecklists",
   "Side": 0,
-  "SortPriority": 1123,
-  "AutoGenerate": true,
-  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n3  D-C Voltage-Amperage Check\r\n",
+  "SortPriority": 7301,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n4. PRETHRUST\r\n\r\nP30 EXTERNAL ΔV\r\nIf uplinked REFSMMAT, do P52 (OPT 1) before P30\n\n1\t\t\t\tV37E 00E\n\tF 06 33\t\tTIG\t\t\t\t\t(hrs,min,.01sec)\n\t\t\t\tLoad desired TIG\n\t\t\t\tPRO\n\n2\tF 06 81\t\tΔV XYZ (LV)\t\t\t\t\t(.1fps)\n\t\t\t\tLoad desired ΔV's\n\t\t\t\tPRO\n\n3\tF 06 42\t\tHA, HP, ΔV (REQ)\t\t(.1nm,.1nm,.1fps)\n\t\t\t\tSet ΔV Counter\n\t\t\t\tPRO\n\n4\tF 16 45\t\tMARKS, TFI, MGA\t(marks,min-sec,.01°)\n\t\t\t\t (MGA Set to -00002 IF\n\t\t\t\t  REFSMMAT FLAG NOT SET)\n\t\t\t\tSet DET\n\t\t\t\tPRO\n\n5\tV37E 00E\n\n",
   "Steps": [
     {
       "Program": 0,
-      "Type": 1,
-      "SetID": 256,
-      "ToPosID": 5,
-      "Text": null,
-      "Description": "set MainBusTieAC to Down (1/256)"
-    },
-    {
-      "Program": 0,
-      "Type": 1,
-      "SetID": 257,
-      "ToPosID": 5,
-      "Text": null,
-      "Description": "set MainBusTieBC to Down (1/257)"
-    },
-    {
-      "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FC MNA tb - 1 & 2 gray, 3 bp",
+      "Text": "If uplinked REFSMMAT, do P52 (OPT 1) before P30",
       "Description": "Manual step"
     },
     {
@@ -39,7 +23,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FC MNB tb - 1 bp, 2 bp, & 3 gray",
+      "Text": "V37E 00E",
       "Description": "Manual step"
     },
     {
@@ -47,7 +31,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DC INDICATORS:",
+      "Text": "F 06 33  TIG  (hrs,min,.01sec)",
       "Description": "Manual step"
     },
     {
@@ -55,7 +39,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FC 1, 2, & 3 (RECORD AMPS)",
+      "Text": "Load desired TIG",
       "Description": "Manual step"
     },
     {
@@ -63,7 +47,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "MAIN BUS A, B (26.5-31 vdc - Record)",
+      "Text": "PRO",
       "Description": "Manual step"
     },
     {
@@ -71,7 +55,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "BAT BUS A, B, & BAT C (31.5-38 vdc < 3 amp)",
+      "Text": "F 06 81  ΔV XYZ (LV)  (.1fps)",
       "Description": "Manual step"
     },
     {
@@ -79,23 +63,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "PYRO BAT A, B (36.5-37.5 vdc)",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 3,
-      "SetID": 2,
-      "ToPosID": 4,
-      "Text": null,
-      "Description": "set DCIndicatorSelector to position 4 (3/2)"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "SYS TEST 5B (BAT RLY BUS - 3.4-4.1 vdc)",
+      "Text": "Load desired ΔV's",
       "Description": "Manual step"
     },
     {
@@ -103,7 +71,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "SYS TEST 7A (BAT COMPT PRESS - <1.5 vdc)",
+      "Text": "PRO",
       "Description": "Manual step"
     },
     {
@@ -111,7 +79,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  *If >1.5: BAT VENT vlv - VENT (to ~0), then CLOSED*",
+      "Text": "F 06 42  HA, HP, ΔV (REQ)  (.1nm,.1nm,.1fps)",
       "Description": "Manual step"
     },
     {
@@ -119,7 +87,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "If LM PWR - CSM",
+      "Text": "Set ΔV Counter (EMS)",
       "Description": "Manual step"
     },
     {
@@ -127,7 +95,31 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  SYS TEST 7D (LM PWR - 0.5-3.2 vdc)",
+      "Text": "F 16 45  MARKS, TFI, MGA  (marks,min-sec,.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set DET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
       "Description": "Manual step"
     }
   ],

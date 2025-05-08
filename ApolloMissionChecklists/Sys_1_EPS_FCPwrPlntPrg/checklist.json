@@ -1,0 +1,63 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_EPS_FCPwrPlntPrg",
+  "Group": "SYS 1: EPS",
+  "Name": "FUEL CELL O2 PURGE [6A]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1126,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n6  Fuel Cell Power Plant Purging",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "A  O2 PURGING",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC IND sw - 1(2,3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC PURGE 1(2,3) - O2 (2min)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC FLOW - O2 Flow incr 0.6 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  M/A FC 1(2,3) - On/RSET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC PURGE 1(2,3) - OFF",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

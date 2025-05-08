@@ -1,0 +1,63 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_SCSAttRefComp",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "SCS ATT REF COMP",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7112,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nSCS ATTITUDE REFERENCE COMPARISON\r\n\t\tCMC - on\n\t\tIMU - on\n\t\tSCS - operating\n\t\tIf SOVB SEPARATED: Damp vehicle rates\n\n1\t\tKey V16 N20E (present IMU angs)\n\n2\t\tFDAI SELECT - 1\n\t\tFDAI SOURCE - ATT SET\n\t\tATT SET - GDC\n\t\tATT SET dials - Set to N20 values, null FDAI 1 error needles\n\t\tKey VERB when nulled (freeze display)\n\t\tRecord from DSKY:\n\t\t  R_____°,  P_____°,  Y_____°  \n\t\tRecord from ATT SET dials:\n\t\t  R_____°,  P_____°,  Y_____°  \n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V16 N20E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FDAISelect to Down (1/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set FDAISource to Middle (1/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ATTSet to Down (1/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ATT SET dials - Set to N20 values, null FDAI 1 error needles",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Compare DSKY and ATT SET dials",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

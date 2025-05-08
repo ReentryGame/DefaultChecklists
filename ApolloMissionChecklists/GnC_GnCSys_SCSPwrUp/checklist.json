@@ -1,0 +1,415 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_SCSPwrUp",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "SCS: POWER UP",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7110,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nSCS POWER UP",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 57,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA1 to Middle (1/57)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC1 to Middle (1/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA2 to Middle (1/58)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC2 to Middle (1/66)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB1 to Middle (1/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD1 to Middle (1/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB2 to Middle (1/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD2 to Middle (1/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA3 to Middle (1/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC3 to Middle (1/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSA4 to Middle (1/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSC4 to Middle (1/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB3 to Middle (1/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD3 to Middle (1/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSB4 to Middle (1/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AutoRCSD4 to Middle (1/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 128,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic12MNA to Closed (2/128)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 130,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic34MNA to Closed (2/130)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 129,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic12MNB to Closed (2/129)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 131,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic34MNB to Closed (2/131)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ΔV CG - as required",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 246,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set LogicPower23 to Up (1/246)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 73,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SigCondDriverBiasPWR1 to Up (1/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SigCondDriverBiasPWR2 to Up (1/74)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSElectronicsPWR to position 2 (3/5)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FDAIPowerSelector to position 0 (3/4)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 13,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPWR1 to position 2 (3/13)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 14,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BMAGPWR2 to position 2 (3/14)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set FDAIPowerSelector to position 3 (3/4)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 57,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSA1 to Up (1/57)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC1 to Down (1/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSA2 to Up (1/58)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC2 to Down (1/66)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB1 to Up (1/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD1 to Down (1/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB2 to Up (1/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD2 to Down (1/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSA3 to Down (1/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSC3 to Up (1/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSA4 to Up (1/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC4 to Down (1/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB3 to Up (1/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD3 to Down (1/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSB4 to Down (1/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSD4 to Up (1/72)"
+    }
+  ],
+  "Images": []
+}

@@ -1,29 +1,37 @@
 {
   "Spacecraft": 0,
-  "ProjectName": "Sys_1_EPS_CryoPressQtyCk",
+  "ProjectName": "Sys_1_EPS_FCPwrPlntPrgB",
   "Group": "SYS 1: EPS",
-  "Name": "CRYO PRESS - QTY CK [1]",
+  "Name": "FUEL CELL H2 PURGE [6B]",
   "NameTranslations": {},
   "CustomName": "ApolloMissionChecklists",
   "Side": 0,
-  "SortPriority": 1121,
+  "SortPriority": 1127,
   "AutoGenerate": true,
-  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n1  Cryogenic Pressure - Quantity Check\n",
+  "checklistText": "SYSTEMS 1\r\nEPS\r\n\r\n6  Fuel Cell Power Plant Purging\r",
   "Steps": [
     {
       "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "B  H2 PURGING",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
       "Type": 1,
-      "SetID": 170,
+      "SetID": 37,
       "ToPosID": 4,
       "Text": null,
-      "Description": "set O2PressInd to Up (1/170)"
+      "Description": "set H2PurgeLineHtr to Up (1/37)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "CRYO PRESS IND - 1/2",
+      "Text": "  On 20 min prior to purge",
       "Description": "Manual step"
     },
     {
@@ -31,7 +39,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  CRYO H2 PRESS ind (2) - 225-260 psia",
+      "Text": "  FC IND sw - 1(2,3)",
       "Description": "Manual step"
     },
     {
@@ -39,56 +47,56 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "  CRYO O2 PRESS ind (2) - 865-935 psia",
+      "Text": "  FC PURGE 1(2,3) - H2) (1 min, 20 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC H2 FLOW - Flow incr 0.67 lb/hr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    (will exceed C/W limit(",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  M/A FC 1(2,3) - On/RSET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  FC PURGE 1(2,3) - OFF",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  After 10 minutes:",
       "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
-      "SetID": 170,
+      "SetID": 37,
       "ToPosID": 5,
       "Text": null,
-      "Description": "set O2PressInd to Down (1/170)"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "CRYO PRESS IND - SRG",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "  CRYO O2 PRESS ind - 865-935 psia",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "CRYO QTY IND",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "  CRYO H2 QTY ind (2) - record",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "  CRYO O2 QTY ind (2) - record",
-      "Description": "Manual step"
+      "Description": "set H2PurgeLineHtr to Down (1/37)"
     }
   ],
   "Images": []

@@ -1,0 +1,107 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_CMCGeneral_V48",
+  "Group": "G&C 1: CMC GENERAL",
+  "Name": "V48 DAP DATA LOAD",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7021,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n1. CMC GENERAL\r\n\r\nV48 DAP DATA LOAD\n1\t\t\tV48E\n\tF 04 46\tR1 ABCDE*\n\t\t\tR2 ABCDE\n\n\n\n\n\n\n\n\n\n\t\t\tPRO\n\n2\tF 06 47\tCSM WT, LM WT\t\t\t\t\t\t(lbs, lbs)\n\t\t\tLoad correct values*\n\t\t\tPRO\n\n3\tF 06 48\tTRIM ENGINE GMBL\t\t\t\t\t(.01°)\n\t\t\tLoad correct values\n\t\t\tPRO\n\n4\t\t\tIf activation req'd (Changing to or from\n\t\t\t   NO DAP or CSM & SIVB DAP):\n\t\t\t   CMC MODE - FREE\n\t\t\t   V46E\n\n* For SPS burn w/Ascent Stage, A=1, & load total mass\n\tin R1 of N47\n\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V48E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 04 46: ABCDE (R1/R2)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load desired parameters into R1 and R2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 47 CSM WT, LM WT (lbs, lbs)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load correct values*",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 06 48 TRIM ENGINE GMBL (.01°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load correct values",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": [
+    {
+      "Name": "table_v48.png",
+      "Position": {
+        "x": 0.0,
+        "y": 210.0
+      },
+      "Size": {
+        "x": 658.0,
+        "y": 245.0
+      }
+    }
+  ]
+}

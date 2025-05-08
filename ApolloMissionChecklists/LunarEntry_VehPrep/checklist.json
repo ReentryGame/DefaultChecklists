@@ -1,0 +1,2263 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "LunarEntry_VehPrep",
+  "Group": "LUNAR RETURN",
+  "Name": "VEHICLE PREPARATION",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 8010,
+  "AutoGenerate": true,
+  "checklistText": "LUNAR RETURN\r\nVEHICLE PREPARATION\r\n\r",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1 Request Entry PAD",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2 CMC & IMU POWER UP (pg G/2-1 & 2)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3 SCS POWER UP (pg G/2-4)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "4 (skip) P51 - IMU ORIENTATION ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "5 LOAD DAP: V48E 11102, 01111, PRO, PRO, PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "6 -06:00h: LAST MCC DECISION (EI flight path angle: -6.5°)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "7 -05:35h: (skip) NO COMM - P52 & NAV SIGHTINGS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "8 (skip) DON MAE WESTS & FOOT RESTRAINTS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "9 (skip) ACTIVATE VHF FOR COMM CHECKS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "10 VERIFY DSE POWERED",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 183,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P225_SBandFMXMTR_DataStorageEquipFltBus to Closed (2/183)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 182,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P225_SBandFMXMTR_DataStorageEquipGroup1 to Closed (2/182)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "11 (skip) PERFORM UV PHOTOGRAPHY",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "12 -04:30h: Request Entry PAD (update)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "13 -04:15h: P52 - IMU REALIGN (OPTION 3, then OPTION 2, RRT/Time of EI)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "14 (skip) P37 (NO COMM ONLY)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "15 ECS CKS:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM O2 SUPPLY REFILL (pg S/1-7)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS Monitor Ck (pg S/1-5)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 37,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P382_EvapWaterControlPrimary to position 1 (3/37)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P382_EvapWaterControlSecondary to position 1 (3/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P382_SuitHtExchSecondaryGlycol to position 0 (3/36)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "16 EPS CKS #1, 3, 4 (5 if req'd) (pg S/1-2)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "17 SPS CK (If req'd) (pg S/1-1)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "18 RCS CKS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM RCS Monit Ck (pg S/1-1)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS Monit Ck (pg S/1-1)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "19 C&W SYS CK (pg S/1-17)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "20 (skip) CMC SELF CK (pg G/2-3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "21 (skip) DSKY COND LT TEST (pg G/1-23)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "22 -03:45h MIDCOUSE MANEUVER (if req'd):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  * P30 - EXT ΔV",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  * (-03:15) P40 - SPS THRUSTING or manual RCS burn",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  * (-03:00) MIDCOURSE BURN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  * Request new Entry PAD, update IMU/GDC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "23 -02:55h (skip) NO COMM NAV SIGHTINGS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "24 LOGIC SEQUENCE CK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SeqLogic1 to Closed (2/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SeqLogic2 to Closed (2/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmA to Closed (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmB to Closed (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatA to Closed (2/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatB to Closed (2/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 158,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ELSLogic to Up (1/158)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 159,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set ELSAuto to Up (1/159)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SECS OK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SeqLogic2 to Down (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SeqLogic1 to Down (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroArmB to Open (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroArmA to Open (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 158,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ELSLogic to Down (1/158)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 159,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ELSAuto to Down (1/159)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ELSBatA to Open (2/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ELSBatB to Open (2/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "25 -01:35h P52 - IMU REALIGN (OPTION 3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "26 GDC ALIGN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "27 MNVR TO 0°, 265°, 0°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  (Horizon Check at EI-17:00)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  V49E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 224,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SBandAntennaOmniABC to Down (1/224)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "28 (skip) PERFORM BORESIGHT & SXT STAR CHECK",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set GnNOpticsPWR to Down (1/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "29 -01:15h EMS ENTRY CHECK:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSMNA to Closed (2/132)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSMNB to Closed (2/133)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 11,
+      "Text": null,
+      "Description": "set EMSSelector to position 11 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 5 seconds in EMS TEST 1",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 1",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    lights - off",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RANGE ind - 0.0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 10,
+      "Text": null,
+      "Description": "set EMSSelector to position 10 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on (all others out)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set EMSSelector to position 9 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 3",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RSI lower lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Use the EMS SET to set RANGE to 58 NM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set EMSSelector to position 8 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 4",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on (all others out)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    G-V trace within pattern",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RANGE ind counts down to 0 +/-0.2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 7,
+      "Text": null,
+      "Description": "set EMSSelector to position 7 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 10 seconds in EMS TEST 5",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    .05G lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RSI upper lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    RANGE ind - 0.0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "    Scribe traces vertical line 9g to 0.28 +/-0.1",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ALIGN SCROLL TO ENTRY PATTERN (on 37K ft/sec line, start of pattern)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 6,
+      "Text": null,
+      "Description": "set EMSSelector to position 6 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "G-V scroll traces vertical line 0.28g to 0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "30 PRIMARY WATER EVAP ACTIVATION:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 177,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GlycolEvapH2OFlow to Up (1/177)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 181,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GycolEvapSteamPressAuto to Up (1/181)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 16,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PrimaryRCSGlycolPumps to position 1 (3/16)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "31 SEC WATER EVAP ACTIVATION:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECSIndicatorSelector to position 1 (3/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 180,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SecCoolPumpAC to Down (1/180)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GLY DISCH SEC PRESS - 39-51 psig",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 179,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SecCoolLoopEvap to Up (1/179)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SEC GLY EVAP OUT TEMP - 38-50.5°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 173,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set SuitCircHeatExch to Down (1/173)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Bypass for 20 sec.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 173,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SuitCircHeatExch to Middle (1/173)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECSIndicatorSelector to position 0 (3/18)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "32 (skip) SET UP CAMERA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "33 (-01:10h) CM RCS PREHEAT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Note: If sys test mtr 5c,d,6a,b,c,d all read 3.9 vdc (28°F) or more, omit preheat.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSLogicMNA to Closed (2/50)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSLogicMNB to Closed (2/51)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RCSLogic to Up (1/156)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CMHtr1 to Closed (2/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CMHtr2 to Closed (2/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 157,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CM_RCS_Heaters to Up (1/157)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  (20 min or til lowest rd is 3.9 vdc, continue with checklist while waiting)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "34 FINAL STOWAGE:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Stow Optics/COAS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P377_GlyToRadSec to position 0 (3/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 68,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P251_WasteMngtOvdbDump to position 0 (3/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "35 (-00:50m) TERM. CM RCS PREHEAT:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 157,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CM_RCS_Heaters to Down (1/157)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 156,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set RCSLogic to Down (1/156)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 69,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set CMHtr2 to Open (2/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set CMHtr1 to Open (2/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "36 SYSTEM TEST PANEL CONFIGURATION:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SYS TEST METER - 5B (BAT RLY BUS 3.4-4.1 vdc)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 157,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CM_RCS_Heaters to Down (1/157)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 269,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set WasteH2ODumpHtr to Middle (1/269)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 270,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set UrineDumpHtr to Middle (1/270)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set FloodInside to position 0 (3/11)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 8,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set IntegralCenter to position 0 (3/8)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "37 PYRO BATT CK:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 150,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroA_SeqA to Closed (2/150)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroB_SeqB to Closed (2/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 9 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DC IND - PYRO BAT A(B):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  > 35 vdc",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  * If PYRO BAT A(B) < 35 vdc: *",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *   cb PYRO A(B) seq A(B) - open *",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  *   cb PYRO A(B) BAT BUS A(B) TO PYRO BUS TIE - close *",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 137,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set MainABatC to Closed (2/137)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 138,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set MainBBatC to Closed (2/138)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set DCIndicatorSelector to position 4 (3/2)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "38 CONFIGURE PNL 8",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 67,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set TVCAC2 to Closed (2/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 64,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DirectUllageMNA to Open (2/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DirectUllageMNB to Open (2/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 38,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller1DirectMNA to Closed (2/38)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 39,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller1DirectMNB to Closed (2/39)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 40,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller2DirectMNA to Closed (2/40)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 41,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set Controller2DirectMNB to Closed (2/41)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 42,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ACRollMNA to Closed (2/42)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ACRollMNB to Closed (2/43)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BDRollMNA to Closed (2/44)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set BDRollMNB to Closed (2/45)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PitchMNA to Closed (2/46)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 47,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PitchMNB to Closed (2/47)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 48,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set YawMNA to Closed (2/48)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 49,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set YawMNB to Closed (2/49)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 172,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ORDEALAC2 to Closed (2/172)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 173,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ORDEALMNB to Closed (2/173)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 54,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ControllerAutoMNA to Closed (2/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 55,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ControllerAutoMNB to Closed (2/55)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 128,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic12MNA to Closed (2/128)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 130,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic34MNA to Closed (2/130)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 129,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic12MNB to Closed (2/129)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 131,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSLogic34MNB to Closed (2/131)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 126,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSSystemMNA to Closed (2/126)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 127,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SCSSystemMNB to Closed (2/127)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set CMHtr1 to Open (2/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 69,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set CMHtr2 to Open (2/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 56,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set QuadAHeaters to Closed (2/56)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 58,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set QuadCHeaters to Closed (2/58)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 57,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set QuadBHeaters to Closed (2/57)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 59,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set QuadDHeaters to Closed (2/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 52,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PrplntIsolMNA to Closed (2/52)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 53,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PrplntIsolMNB to Closed (2/53)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSLogicMNA to Closed (2/50)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set RCSLogicMNB to Closed (2/51)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSMNA to Closed (2/132)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSMNB to Closed (2/133)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 134,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DockProbeMNA to Open (2/134)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 135,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set DockProbeMNB to Open (2/135)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 249,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNA to Closed (2/249)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 250,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingMNB to Closed (2/250)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 251,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC1 to Closed (2/251)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 252,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P8_SPS_GaugingAC2 to Closed (2/252)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSHeVlvMNA to Closed (2/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 61,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SPSHeVlvMNB to Closed (2/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 253,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch1BatA to Open (2/253)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 254,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Pitch2BatB to Open (2/254)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 255,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw1BatA to Open (2/255)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 256,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P8_SPS_Yaw2BatB to Open (2/256)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 169,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EDSBatA to Open (2/169)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 171,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EDSBatC to Open (2/171)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 170,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EDSBatB to Open (2/170)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ELSBatA to Open (2/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ELSBatB to Open (2/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 168,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PLVentFLTPL to Open (2/168)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FloatBag1 to Open (2/74)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FloatBag2 to Open (2/75)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 76,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set FloatBag3 to Open (2/76)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 70,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SeqLogic1 to Closed (2/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 71,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set SeqLogic2 to Closed (2/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroArmA to Open (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set PyroArmB to Open (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 62,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set SPSPilotVlvMNA to Open (2/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 63,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set SPSPilotVlvMNB to Open (2/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "39 (skip) FINAL GDC DRIFT CK (if req'd)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "40 CM RCS ACTIVATION:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatA to Closed (2/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ELSBatB to Closed (2/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmA to Closed (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmB to Closed (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MSFN confirm GO for PYRO ARM: GO!",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 99,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMPrplntT1 to Up (1/99)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 100,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CMPrplntT2 to Up (1/100)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[2] CM RCS PRPLNT 1&2 tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set RCSIndicatorSelector to position 0 (3/6)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 155,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CM_RCS_Press to Up (1/155)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RCS IND sw - CM1, then 2:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  He PRESS - 3300-3500 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  MANF PRESS 287-302 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmA to Down (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set PyroArmB to Down (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "41 -00:45m ENTRY PAD UPDATE (Request Entry PAD)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

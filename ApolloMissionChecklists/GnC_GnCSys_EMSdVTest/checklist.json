@@ -1,0 +1,183 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_EMSdVTest",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "EMS ΔV TEST & NULL BIAS",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7113,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nEMS ΔV TEST & NULL BIAS CHECK",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSelector to position 2 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET ΔV ind to 1586.8 fps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set EMSSelector to position 3 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SPS THRUST Lt - on/off (10 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  ΔV ind. stops at -0.1 to -41.5",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSelector to position 2 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SET ΔV ind to -100.0 fps",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 5 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Start DET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:00:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "01:40:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If ΔV <1 fps, do not bias (delta from -100.0)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If ΔV >1 fps, bias (will never happen in this game)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    }
+  ],
+  "Images": []
+}

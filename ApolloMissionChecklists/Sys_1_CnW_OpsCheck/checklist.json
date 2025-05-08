@@ -1,0 +1,87 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_CnW_OpsCheck",
+  "Group": "SYS 1: C&W",
+  "Name": "C/W SYS OPS CK",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1201,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nC/W OPERATIONAL CHECKS\r\n\r\n1. C/W SYSTEM OPERATIONAL CHECKS\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CW_LampTest to Up (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LH MA & 16 lts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CW_LampTest to Down (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RH MA & 20 lts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 152,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set CW_LampTest to Middle (1/152)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 150,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CW_CSM_SM to Down (1/150)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS lt (2) - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 150,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set CW_CSM_SM to Up (1/150)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM RCS lt (2) - out",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

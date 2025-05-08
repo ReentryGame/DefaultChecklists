@@ -1,0 +1,71 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_CMCPwrDn",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "CMC: POWER DOWN",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7105,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nP06 - CMC POWER DOWN PROGRAM\n1\t\t\t\tV48E\n\tF 04 46\t\tLoad 0 (NO DAP) in left digit of R1\n\t\t\t\tPRO, PRO, PRO\n\t\t\t\tV46E\n\n\t\t\tV37E 06E\n\tF 50 25\t\t00062 CMC PWR DN\n\n\t\t\tPRO, hold (~5 sec) until STBY lt - on\n\t\t\t\t (repeat, if necessary)\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V48E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load 0 (NO DAP) in left digit of R1",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO, PRO, PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V46E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 06E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "F 50 25 00062 CMC PWR DN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO, hold (~5 sec) until STBY lt - on",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

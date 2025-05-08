@@ -1,0 +1,31 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_CMCPwrUp",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "CMC: POWER UP",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7104,
+  "AutoGenerate": false,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nCMC POWER UP PROCEDURE\n1\tPRO, hold (~5 sec) until STBY lt - out\n\t\t(repeat if necessary)\n\t\t*CMC warning, RESTART, PROG ALARM*\n\t\t*RSET and continue            *\n\n2\tV37E 00E",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO, hold (~5 sec) until STBY lt - out",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

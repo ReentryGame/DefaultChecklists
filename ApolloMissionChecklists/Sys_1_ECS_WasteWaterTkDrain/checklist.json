@@ -1,0 +1,63 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "Sys_1_ECS_WasteWaterTkDrain",
+  "Group": "SYS 1: ECS",
+  "Name": "WASTE WATER TK DRAIN [18]",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 1176,
+  "AutoGenerate": true,
+  "checklistText": "SYSTEMS 1\r\nECS\r\n\r\n18  WASTE WATER TANK DRAIN",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 69,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P252_BatteryVent to position 0 (3/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 178,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set H2OWaterQtyInd to Down (1/178)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 50,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P352_PressureRelief to position 2 (3/50)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor WASTE H2O QTY ind - decreasing",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When WASTE H2O QTY ind - 15%",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 50,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P352_PressureRelief to position 3 (3/50)"
+    }
+  ],
+  "Images": []
+}

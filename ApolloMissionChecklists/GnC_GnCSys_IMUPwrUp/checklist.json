@@ -1,0 +1,95 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "GnC_GnCSys_IMUPwrUp",
+  "Group": "G&C 2: SYSTEM MGMT",
+  "Name": "IMU: POWER UP",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 0,
+  "SortPriority": 7101,
+  "AutoGenerate": true,
+  "checklistText": "G&C\r\n2. G&C SYSTEM MANAGEMENT\r\n\r\nIMU POWER UP PROCEDURE",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 246,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set LogicPower23 to Up (1/246)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set FDAIPowerSelector to position 3 (3/4)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FDAISelect to Up (1/54)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 39,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set GnNIMUPWR to Up (1/39)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " NO ATT lt - on (90 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": " NO ATT lt - out",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 15 sec (To allow PIPA inhibit reset)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}
