@@ -2151,7 +2151,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "While automatic entry and RSI is in development, set CMC mode to FREE for manual control.",
+      "Text": "** Use CMC FREE or SCS while entry guidance is in development **",
       "Description": "Manual step"
     },
     {

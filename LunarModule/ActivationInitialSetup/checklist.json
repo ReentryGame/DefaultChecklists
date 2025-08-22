@@ -1,1146 +1,1327 @@
 {
-    "Group": "ACTIVATION",
-    "Images": [],
-    "Name": "Initial Setup",
-    "ProjectName": "ActivationInitialSetup",
-    "Side": 0,
-    "SortPriority": 111,
-    "Spacecraft": 1,
-    "Steps": [
-        {
-            "Program": 1,
-            "SetID": 0,
-            "Text": "Verify Panel 11",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 1,
-            "SetID": 88,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 89,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 90,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 91,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 92,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 95,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 93,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 94,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 13,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 14,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 15,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 16,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 17,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 96,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 97,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 98,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 99,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 100,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 101,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 120,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 119,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 118,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 117,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 116,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 115,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 113,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 114,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 112,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 111,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 110,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 109,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 108,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 107,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 106,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 105,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 104,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 103,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 102,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 121,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 122,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 123,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 124,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 125,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 126,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 127,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 128,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 129,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 130,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 131,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 132,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 133,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 134,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 135,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 136,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 137,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 138,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 139,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 160,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 159,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 158,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 157,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 156,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 155,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 154,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 153,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 152,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 151,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 150,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 149,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 148,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 147,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 146,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 145,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 144,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 143,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 142,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 141,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 140,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 18,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 19,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 20,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 21,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 22,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 23,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 24,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 25,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 26,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 27,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 28,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 0,
-            "Text": "Verify Panel 16",
-            "ToPosID": 0,
-            "Type": 0
-        },
-        {
-            "Program": 1,
-            "SetID": 36,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 37,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 36,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 39,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 40,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 41,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 42,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 43,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 44,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 45,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 46,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 47,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 48,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 49,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 50,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 51,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 69,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 68,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 67,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 66,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 65,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 64,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 63,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 62,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 61,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 60,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 59,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 58,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 57,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 56,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 55,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 54,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 53,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 52,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 70,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 71,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 77,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 78,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 72,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 73,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 74,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 75,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 76,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 79,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 80,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 81,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 82,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 83,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 84,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 85,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 86,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 87,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 1,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 2,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 3,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 4,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 5,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 6,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 7,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 8,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 9,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 10,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 11,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 12,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 33,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 34,
-            "Text": null,
-            "ToPosID": 2,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 35,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 32,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 31,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 30,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        },
-        {
-            "Program": 1,
-            "SetID": 29,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 2
-        }
-    ],
-    "checklistText": "<size=21>INITIAL SETUP</size>\r\n\r\n1.\r\nPANEL 11:\r\nAll cb's - open, except:\r\n\tCB HTR:\r\n\t\tRNDZ RDR STBY - close\r\n\t\tLDG RDR - close\r\n\tCB LTG: ANUN/DOCK/COMPNT - close\r\n\tCB PGNS: IMU STBY - close\r\n\tCB EPS:\r\n\t\tBAT FEED TIE (2) - close\r\n\t\tCROSS TIE BAL LOADS - close\r\n\t\tDES ECA - close\r\n\t\tDC BUS VOLT - close\r\n\r\n\r\n2.\r\nPANEL 16:\r\n\tAll cb's - open, except:\r\n\tCB LTG: FLOOD - close\r\n\tCB S/C: ASA - close\r\n\tCB HTR:\r\n\t\tS BD ANT - close\r\n\tCB EPS:\r\n\t\tDC BUS VOLT - close\r\n\t\tDES ECA - close\r\n\t\tCROSS TIE BAL LOADS - close\r\n\t\tBAT FEED TIE (2) - close\r\n\r\n3.\r\nRequest CMP to initiate power transfer to LM via docking tunnel electrical umbilicals.\r\n\r\n4.\r\nECS PANEL:\r\n\tDES H2O vlv - OPEN\r\n\r\n"
+  "Spacecraft": 1,
+  "ProjectName": "ActivationInitialSetup",
+  "Group": "ACTIVATION",
+  "Name": "Initial Setup",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 0,
+  "SortPriority": 111,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>INITIAL SETUP</size>\r\n\r\n1.\r\nPANEL 11:\r\nAll cb's - open, except:\r\n\tCB HTR:\r\n\t\tRNDZ RDR STBY - close\r\n\t\tLDG RDR - close\r\n\tCB LTG: ANUN/DOCK/COMPNT - close\r\n\tCB PGNS: IMU STBY - close\r\n\tCB EPS:\r\n\t\tBAT FEED TIE (2) - close\r\n\t\tCROSS TIE BAL LOADS - close\r\n\t\tDES ECA - close\r\n\t\tDC BUS VOLT - close\r\n\r\n\r\n2.\r\nPANEL 16:\r\n\tAll cb's - open, except:\r\n\tCB LTG: FLOOD - close\r\n\tCB S/C: ASA - close\r\n\tCB HTR:\r\n\t\tS BD ANT - close\r\n\tCB EPS:\r\n\t\tDC BUS VOLT - close\r\n\t\tDES ECA - close\r\n\t\tCROSS TIE BAL LOADS - close\r\n\t\tBAT FEED TIE (2) - close\r\n\r\n3.\r\nRequest CMP to initiate power transfer to LM via docking tunnel electrical umbilicals.\r\n\r\n4.\r\nECS PANEL:\r\n\tDES H2O vlv - OPEN\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Panel 11",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 88,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_LMPWindHtr to Open (2/88)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 89,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_HePQGS_PropDisp to Open (2/89)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 90,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_SBandAnt to Open (2/90)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 91,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_Ordeal to Open (2/91)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 92,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_AGS to Open (2/92)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 95,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_AOTLMP to Open (2/95)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 93,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_LMPFDAI to Open (2/93)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 94,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_NumLtg to Open (2/94)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 13,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusBBusTieInv1 to Open (2/13)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 14,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusBBusTieInv2 to Open (2/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusABusTieInv1 to Open (2/15)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 16,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusABusTieInv2 to Open (2/16)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 17,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusAACBusVolt to Open (2/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 96,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_CDRWindHtr to Open (2/96)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 97,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_TapeRcdr to Open (2/97)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 98,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_AOTLAMP to Open (2/98)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Open (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 100,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_DecaGmbl to Open (2/100)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 101,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_IntglLtg to Open (2/101)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 120,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_MainSov to Open (2/120)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 119,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q4TCA to Open (2/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 118,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q3TCA to Open (2/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 117,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q2TCA to Open (2/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 116,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q1TCA to Open (2/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 115,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_ISOLVlv to Open (2/115)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 113,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_ASCFeed1 to Open (2/113)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 114,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_ASCFeed2 to Open (2/114)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 112,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_Thrust to Open (2/112)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 111,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_MissionTimer to Open (2/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 110,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_CNDRXPntr to Open (2/110)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 109,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_RngRtAltRt to Open (2/109)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 108,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_GASTA to Open (2/108)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 107,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_CDRFDAI to Open (2/107)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 106,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_COAS to Open (2/106)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 105,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_Ordeal to Open (2/105)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 104,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_RngRtAltRt to Open (2/104)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 103,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_GASTA to Open (2/103)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 102,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_CDRFDAI to Open (2/102)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 121,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Prop_DESHeRegVent to Open (2/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 122,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Heaters_RndzRdr_STB to Closed (2/122)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 123,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Heaters_RndzRdrOpr to Open (2/123)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 124,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Heaters_LdgRdr to Closed (2/124)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 125,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Heaters_DockWindow to Open (2/125)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 126,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Heaters_AOT to Open (2/126)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 127,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Inst_SigCondr1 to Open (2/127)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 128,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_AEA to Open (2/128)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 129,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_AbortStage to Open (2/129)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 130,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_ATCA_PGNS to Open (2/130)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 131,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_AELD to Open (2/131)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 132,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_EngCont to Open (2/132)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 133,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_AttDirCont to Open (2/133)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 134,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_EngStartOvrd to Open (2/134)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 135,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_StabCont_DecaPWR to Open (2/135)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 136,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ED_LdgGearFlag to Open (2/136)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 137,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ED_LogicPWRA to Open (2/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 138,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_LTG_Util to Open (2/138)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 139,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_LTG_AnunDockCompnt to Closed (2/139)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 160,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Heaters_Q4 to Open (2/160)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 159,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Heaters_Q3 to Open (2/159)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 158,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Heaters_Q2 to Open (2/158)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 157,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Heaters_Q1 to Open (2/157)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 156,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ECS_SuitFan1 to Open (2/156)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 155,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ECS_CabinFan1 to Open (2/155)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 154,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ECS_GlycolPump_2 to Open (2/154)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 153,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ECS_GlycolPump_1 to Open (2/153)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 152,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ECS_GlycolPump_AutoTrnsfr to Open (2/152)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 151,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_COMM_UpDataLink to Open (2/151)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 150,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_COMM_SecSBand_XMTR_RCVR to Open (2/150)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 149,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_COMM_SecSBand_PWRAmpl to Open (2/149)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 148,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_COMM_VHFBXMTR to Open (2/148)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 147,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_COMM_VHFARcvr to Open (2/147)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 146,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_COMM_CDRAudio to Open (2/146)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 145,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_SigStrDisp to Open (2/145)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 144,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_LdgRdr to Open (2/144)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Open (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 142,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_LGC_DSKY to Open (2/142)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 141,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_IMU_STBY to Closed (2/141)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 140,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_IMU_OPR to Open (2/140)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 18,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_BatFeedTieA to Closed (2/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 19,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_BatFeedTieB to Closed (2/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 20,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_CrossTieBalLoad to Closed (2/20)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 21,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_CrossTieBus to Open (2/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 22,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_XLunarBusTie to Open (2/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_DesECACont to Open (2/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_DesECA to Closed (2/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_AscECACont to Open (2/25)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 26,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_AscECA to Open (2/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Inv1 to Open (2/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 28,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_DCBusVolt to Closed (2/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Panel 16",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 36,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Propul_ASCHe_Reg to Open (2/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 37,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Propul_PQGS to Open (2/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 36,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Propul_ASCHe_Reg to Open (2/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 39,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_MainSov to Open (2/39)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 40,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_PQGSDisp to Open (2/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 41,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_TempPressDispFlags to Open (2/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 42,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Crossfeed to Open (2/42)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q4 to Open (2/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q3 to Open (2/44)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q2 to Open (2/45)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q1 to Open (2/46)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 47,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_IsolVlv to Open (2/47)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 48,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_ASCFeed2 to Open (2/48)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 49,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_ASCFeed1 to Open (2/49)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_FltDisp_LMP_XPntr to Open (2/50)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_FltDisp_LMPFDAIAndEventTimer to Open (2/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 69,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_SuitFlowCont to Open (2/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 68,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inst_SigCondr2 to Open (2/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 67,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inst_PCMTE to Open (2/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 66,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inst_SigSensor to Open (2/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Open (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 64,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_DesEngOvrd to Open (2/64)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 63,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_ATCA_AGS to Open (2/63)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 62,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_AbortStage to Open (2/62)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 61,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_ATCA to Open (2/61)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 60,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_AELD to Open (2/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 59,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_ASA to Open (2/59)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 58,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_EngArm to Open (2/58)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 57,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_StabCont_AEA to Open (2/57)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 56,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ED_LogicPwrB to Open (2/56)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 55,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_LTG_MasterAlarm to Open (2/55)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 54,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_LTG_AnunDockCompnt to Open (2/54)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 53,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_LTG_Track to Open (2/53)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 52,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_LTG_Flood to Closed (2/52)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 70,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_CO2_Sensor to Open (2/70)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 71,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_DivertVlv to Open (2/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_SuitFan_dP to Open (2/77)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_SuitFan2 to Open (2/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Open (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_CabinFanCont to Open (2/73)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_LCGPump to Open (2/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 75,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_GlycolPumpSec to Open (2/75)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 76,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_Disp to Open (2/76)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 79,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_TV to Open (2/79)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 80,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_PMP to Open (2/80)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 81,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_SBandAnt to Open (2/81)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 82,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_PrimSBand_XMTR_RCVR to Open (2/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 83,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_PrimSBand_PWPAmppl to Open (2/83)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 84,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_VHFB_RCVR to Open (2/84)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 85,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_VHFA_XMTR to Open (2/85)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 86,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_LMP_Audio to Open (2/86)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 87,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_Disp to Open (2/87)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_BatFeedTieA to Closed (2/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 2,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_BatFeedTieB to Closed (2/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 3,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_CrossTieBalLoad to Closed (2/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 4,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_CrossTieBus to Open (2/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 5,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_XLunarBusTie to Open (2/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_DesECACont to Open (2/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 7,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_DesECA to Closed (2/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_AscECACont to Open (2/8)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_AscECA to Open (2/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 10,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inv2 to Open (2/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_DCBusVolt to Closed (2/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 12,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Disp to Open (2/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 33,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Camr_Seq to Open (2/33)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 34,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Heaters_SBandAnt to Closed (2/34)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Heaters_Disp to Open (2/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 32,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Heaters_RCSAB2_Q4 to Open (2/32)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 31,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Heaters_RCSAB2_Q3 to Open (2/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 30,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Heaters_RCSAB2_Q2 to Open (2/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 29,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Heaters_RCSAB2_Q1 to Open (2/29)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3. Initiate power transfer to LM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_DesH2O to position 1 (3/30)"
+    }
+  ],
+  "Images": []
 }

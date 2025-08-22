@@ -2191,6 +2191,22 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
+      "Text": "** Use CMC FREE or SCS while entry guidance is in development **",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
       "Text": "HORIZ CK - MNVR as needed (V16 to mon G load)",
       "Description": "Manual step"
     },
@@ -2321,14 +2337,6 @@
       "ToPosID": 0,
       "Text": "Go to LANDING CHECKLIST",
       "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 7,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "Text Only",
-      "Description": "Text only"
     }
   ],
   "Images": []
