@@ -44,11 +44,11 @@
     },
     {
       "Program": 0,
-      "Type": 4,
-      "SetID": 29,
+      "Type": 0,
+      "SetID": 0,
       "ToPosID": 0,
-      "Text": null,
-      "Description": "push GDCAlign (4/29)"
+      "Text": "G&C GENERAL -> GDC ALIGN TO IMU [Simplified]",
+      "Description": "Manual step"
     },
     {
       "Program": 0,

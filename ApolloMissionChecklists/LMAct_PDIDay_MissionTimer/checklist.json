@@ -31,7 +31,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Sync Mission Timer ( [C] -> SYNC MET TIMERS ) or set it manually",
+      "Text": "Sync Mission Timer ( [C] -> SYNC MET TIMERS ) or set it manually, and START the timer.",
       "Description": "Manual step"
     }
   ],

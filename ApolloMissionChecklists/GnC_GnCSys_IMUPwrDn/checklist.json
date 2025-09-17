@@ -2,7 +2,7 @@
   "Spacecraft": 0,
   "ProjectName": "GnC_GnCSys_IMUPwrDn",
   "Group": "G&C 2: SYSTEM MGMT",
-  "Name": "IMU: POWER UP",
+  "Name": "IMU: POWER DOWN",
   "NameTranslations": {},
   "CustomName": "ApolloMissionChecklists",
   "Side": 0,
