@@ -3,6 +3,7 @@
   "ProjectName": "thrustingP40",
   "Group": "THRUSTING",
   "Name": "(P40) G&N SPS THRUSTING",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 1,
   "SortPriority": 41302010,
@@ -1158,7 +1159,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Rdc dV ind",
+      "Text": "Rdc dV info",
       "Description": "Manual step"
     },
     {

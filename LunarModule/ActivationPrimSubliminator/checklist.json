@@ -1,19 +1,39 @@
 {
-    "Group": "ACTIVATION",
-    "Images": [],
-    "Name": "PRIMARY SUBLIMATOR",
-    "ProjectName": "ActivationPrimSubliminator",
-    "Side": 0,
-    "SortPriority": 115,
-    "Spacecraft": 1,
-    "Steps": [
-        {
-            "Program": 1,
-            "SetID": 31,
-            "Text": null,
-            "ToPosID": 1,
-            "Type": 3
-        }
-    ],
-    "checklistText": "<size=21>PRIMARY SUBLIMATOR ACTIVATION</size>\r\n\r\n1.\r\nPANEL ECS:\r\n\tPRI EVAP FLOW #1 vlv - OPEN\r\n\r\n2.\r\nPANEL 2:\r\n\tECS: GLYCOL temp ind - monitor\r\n\t\t* GLYCOL caut lt off when ECS: GLYCOL temp ind decreased below 50 F,\r\n\r\n"
+  "Spacecraft": 1,
+  "ProjectName": "ActivationPrimSubliminator",
+  "Group": "ACTIVATION",
+  "Name": "PRIMARY SUBLIMATOR",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 0,
+  "SortPriority": 115,
+  "AutoGenerate": false,
+  "checklistText": "<size=21>PRIMARY SUBLIMATOR ACTIVATION</size>\r\n\r\n1.\r\nPANEL ECS:\r\n\tPRI EVAP FLOW #1 vlv - OPEN\r\n\r\n2.\r\nPANEL 2:\r\n\tECS: GLYCOL temp ind - monitor\r\n\t\t* GLYCOL caut lt off when ECS: GLYCOL temp ind decreased below 50 F,\r\n\r\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 31,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_PriEvapFlowNo1 to position 1 (3/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ECS: GLYCOL temp ind - monitor",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  GLYCOL caut lt off when temp < 50 F",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
 }

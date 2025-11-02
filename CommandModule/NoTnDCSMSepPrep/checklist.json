@@ -1,0 +1,679 @@
+{
+  "Spacecraft": 0,
+  "ProjectName": "NoTnDCSMSepPrep",
+  "Group": "CSM/LV SEP (NO T&D)",
+  "Name": "CSM/LV SEPARATION (NO T&D)",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 0,
+  "SortPriority": 751,
+  "AutoGenerate": true,
+  "checklistText": "<size=21>CSM SEPARATION (NO T&D) checklist</size>\nThis checklist is used to separate from the S-IVB Launch Vehicle (LV) when no LM exists, or no T&DE manuever is to be performed.\n\n",
+  "Steps": [
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 91,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1A to Up (1/91)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1B to Up (1/92)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 93,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1C to Up (1/93)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 94,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1D to Up (1/94)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2A to Up (1/95)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2B to Up (1/96)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2C to Up (1/97)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2D to Up (1/98)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 57,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSA1 to Up (1/57)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC1 to Down (1/65)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSA2 to Up (1/58)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC2 to Down (1/66)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB1 to Up (1/61)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD1 to Down (1/69)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB2 to Up (1/62)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 70,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD2 to Down (1/70)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSA3 to Down (1/59)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSC3 to Up (1/67)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSA4 to Up (1/60)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSC4 to Down (1/68)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSB3 to Up (1/63)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSD3 to Down (1/71)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AutoRCSB4 to Down (1/64)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set AutoRCSD4 to Up (1/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSelector to position 2 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set ΔV to -100.0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FDAIScale to Up (1/53)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualRoll to Middle (1/109)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualPitch to Middle (1/110)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set AttManualYaw to Middle (1/111)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 108,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttCycleLimiter to Down (1/108)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttDeadband to Down (1/107)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set AttRate to Down (1/106)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TransCntlPWR to Up (1/80)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal1 to Up (1/76)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Normal2 to Up (1/77)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct1 to Up (1/78)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RotCntlPWR_Direct2 to Up (1/79)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set CMCMode to Down (1/112)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SCCont to Up (1/81)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGRoll to Up (1/113)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGPitch to Up (1/114)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set BMAGYaw to Up (1/115)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 50,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RCSLogicMNA to Open (2/50)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 51,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set RCSLogicMNB to Open (2/51)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCServo1 to Up (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set TVCServo1 to Up (1/124)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set DET: 59:30",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set FCReacsValves to Down (1/22)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V62E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmA to Closed (2/72)"
+    },
+    {
+      "Program": 0,
+      "Type": 2,
+      "SetID": 73,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set PyroArmB to Closed (2/73)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 160,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic1 to Up (1/160)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 161,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SeqLogic2 to Up (1/161)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set RCSCommand to Up (1/75)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 162,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmA to Up (1/162)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 163,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set PyroArmB to Up (1/163)"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push GDCAlign (4/29)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set EMSSelector to position 1 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set EMSSetting to Up (1/145)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "59:30: Start DET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "00:00: CSM/LV SEP pb - push",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "THC - release(ΔV .5 fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 91,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1A to Up (1/91)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1B to Up (1/92)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 93,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1C to Up (1/93)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 94,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt1D to Up (1/94)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2A to Up (1/95)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2B to Up (1/96)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2C to Up (1/97)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSPrplnt2D to Up (1/98)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 83,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe1A to Up (1/83)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 84,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe1B to Up (1/84)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 85,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe1C to Up (1/85)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 86,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe1D to Up (1/86)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 87,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe2A to Up (1/87)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 88,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe2B to Up (1/88)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 89,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe2C to Up (1/89)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 90,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set SMRCSHe2D to Up (1/90)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 22,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set FCReacsValves to Up (1/22)"
+    },
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 15,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set EMSSelector to position 0 (3/15)"
+    },
+    {
+      "Program": 0,
+      "Type": 1,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set EMSSetting to Middle (1/145)"
+    }
+  ],
+  "Images": []
+}

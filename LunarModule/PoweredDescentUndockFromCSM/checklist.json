@@ -3,6 +3,8 @@
   "ProjectName": "PoweredDescentUndockFromCSM",
   "Group": "LUNAR DESCENT",
   "Name": "LM UNDOCKING FROM CSM",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 201,
   "AutoGenerate": false,
@@ -10,227 +12,267 @@
   "Steps": [
     {
       "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Set DAP: 22012",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
       "Type": 1,
       "SetID": 71,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 65,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 66,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 67,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Down (1/68)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 69,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Down (1/69)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 62,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_DeadBand to Down (1/62)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 124,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_CDR_ACA to Up (1/124)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 126,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_LMP_ACA to Up (1/126)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 125,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_CDR_TTCA to Up (1/125)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 127,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P04_LMP_TTCA to Up (1/127)"
     },
     {
       "Program": 1,
       "Type": 3,
       "SetID": 38,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 1 (3/38)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 61,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_BalCpl to Up (1/61)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 37,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Down (1/37)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 77,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_ACAProp to Up (1/77)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 32,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P02_ACAProp to Up (1/32)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 138,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Down (1/138)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 139,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set ORDEAL_FDAI2 to Down (1/139)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 75,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 80,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P02_AttitudeMon to Up (1/80)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 243,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set 243 to Middle (1/243)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Perform checklist: ECS Basic"
+      "Text": "Perform checklist: ECS Basic",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 91,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_Lighting_Exterior to Up (1/91)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Key V37E 47E\r"
+      "Text": "Key V37E 47E\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FL V16 N83 - ΔV (LM)\r"
+      "Text": "FL V16 N83 - ΔV (LM)\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Key KEY REL & RSET"
+      "Text": "Key KEY REL & RSET",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Key V37E 00E\r"
+      "Text": "Key V37E 00E\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Key V76E (min impulse)\r"
+      "Text": "Key V76E (min impulse)\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Key V77 (do not enter)\r"
+      "Text": "Key V77 (do not enter)\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When separated desired number of\r feet:\r Key PRO"
+      "Text": "When separated desired number of\r feet:\r Key PRO",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Pitch and yaw to face CSM"
+      "Text": "Pitch and yaw to face CSM",
+      "Description": "Manual step"
     }
   ],
   "Images": []
