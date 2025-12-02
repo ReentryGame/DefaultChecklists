@@ -39,7 +39,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "V06N29 COPY LM AND CSM ANGLES",
+      "Text": "V06N20 COPY LM AND CSM ANGLES (do this in both LM and CM)",
       "Description": "Manual step"
     },
     {

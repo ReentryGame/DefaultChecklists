@@ -87,7 +87,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait and Verify Press ____ psia (in Green band)",
+      "Text": "Wait and Verify Press ____ psia (~23 psia nominal / in Green band)",
       "Description": "Manual step"
     },
     {

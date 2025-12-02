@@ -3,6 +3,7 @@
   "ProjectName": "PrepAbbreviatedPreFlight",
   "Group": "PRE-FLIGHT",
   "Name": "Abbr. Interior Check (T-20)",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 0,
   "SortPriority": 20,
@@ -504,14 +505,6 @@
       "ToPosID": 1,
       "Text": null,
       "Description": "set RetroMan to One (2/4)"
-    },
-    {
-      "Program": 3,
-      "Type": 2,
-      "SetID": 6,
-      "ToPosID": 1,
-      "Text": null,
-      "Description": "set BloodPress to One (2/6)"
     },
     {
       "Program": 3,

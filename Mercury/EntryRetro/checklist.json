@@ -3,8 +3,11 @@
   "ProjectName": "EntryRetro",
   "Group": "ENTRY",
   "Name": "RETRO",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 70,
+  "AutoGenerate": false,
   "checklistText": "<size=24>RETRO</size>\n\n<size=22>At Tr -5 Mins:</size>\n\"5 Min To Retrograde\" light \t- ILLUMINATED\n\n<size=22>At Tr +0 Secs:</size>\n1. \"Retro Seq\" telelight \t\t- GREEN\n2. \"Retro Att\" telelight \t\t- GREEN\n\n<size=22>At Tr +20 Secs:</size>\n1. \"Retro Warn\" telelight \t\t- AMBER & Audible Tone\n4. Crosscheck attitude indicator, periscope and window\n5. \"Fire Retro\" telelight \t\t- AMBER while firing\n6. \"Fire Retro\" telelight \t\t- GREEN once completed\n\nStart RE-ENTRY Checklist",
   "Steps": [
     {
@@ -12,70 +15,80 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At Tr -5 Mins"
+      "Text": "At Tr -5 Mins",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "\"5 Min To Retrograde\" light \t- ILLUMINATED"
+      "Text": "\"5 Min To Retrograde\" light \t- ILLUMINATED",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At Tr +0 Secs"
+      "Text": "At Tr +0 Secs",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "\"Retro Seq\" telelight - GREEN"
+      "Text": "\"Retro Seq\" telelight - GREEN",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "\"Retro Att\" telelight - GREEN"
+      "Text": "\"Retro Att\" telelight - GREEN",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "At Tr +20 Secs"
+      "Text": "At Tr +20 Secs",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "\"Retro Warn\" telelight - AMBER & Audible Tone"
+      "Text": "\"Retro Warn\" telelight - AMBER & Audible Tone",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "\"Fire Retro\" telelight - AMBER while firing"
+      "Text": "\"Fire Retro\" telelight - AMBER while firing",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "\"Retro Fire\" telelight - GREEN once completed"
+      "Text": "\"Fire Retro\" telelight - GREEN once completed",
+      "Description": "Manual step"
     },
     {
       "Program": 3,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Start RE-ENTRY Checklist"
+      "Text": "Start RE-ENTRY Checklist",
+      "Description": "Manual step"
     }
   ],
   "Images": []

@@ -3,10 +3,12 @@
   "ProjectName": "Backup3GlycolLoops",
   "Group": "BACKUP CREW PRELAUNCH",
   "Name": "GLYCOL LOOP CHECKS\r",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 43,
   "AutoGenerate": false,
-  "checklistText": "GLYCOL LOOP CHECKS\r\n\tSec Gly Loop Check\r\nPanel 377:\r\n\t\tGLY TO RAD SEC vlv – NORM\r\nPanel 2:\r\n\t\tECS IND sel – SEC\r\n\t\tSEC COOL PUMP – AC1\r\n\t\t\tRAD SEC IN TEMP ind - 60°-97°F\r\n\t\t\tRAD SEC OUT TEMP ind - 60°-70°F (pegged)\r\n\t\t\tSEC GLY EVAP OUT TEMP ind - 60°-75°F\r\n\t\t\t\t(pegged)\r\n\t\t\tSEC GLY EVAP STM PRESS ind – 0.25 psia\r\n\t\t\t\t(pegged)\r\n\t\t\tSEC GLY DISCH PRESS ind – 39-51 psig\r\n\t\t\tSEC ACCUM QTY ind – 30-50%\r\n\t\t\tSEC COOL PUMP – AC2\r\n\t\t\t\tSEC GLY DISCH PRESS ind – 39-51 psig\r\n\t\t\tSEC COOL PUMP – off (ctr)\r\n\t\t\tECS IND sel – PRIM\r\n\r\nPanel 377:\r\n\t\t\tGLY TO RAD SEC vlv – BYP\r\n\r\n\tPrim Gly Loop Activation\r\n\r\nPanel 4:\r\n\t\tGLY PUMPS -  2 AC1\r\nPanel 2:\r\n\t\t\tPRIM GLY DISCH PRESS ind – 37-50 psig\r\n\t\t\tPRIM ACCUM QTY ind – 25-50%\r\nPanel 4:\r\n\t\tGLY PUMPS – 1 AC1\r\nPanel 2:\r\n\t\t\tPRIM GLY DISCH PRESS ind – 37-50 psig\r\n\t\tRAD FLOW CONT PWR – PWR\r\n\t\tRAD FLOW CONT AUTO – 2\r\n\t\t\tECS RAD tb – 2\r\n\t\tRAD FLOW CONT AUTO – AUTO\r\n\t\t\tECS RAD tb – gray\r\n\t\tRAD FLOW CONT PWR – off (ctr)\r\nPanel 7:\r\n\tDIRECT 02 vlv – OPEN (CCW), adj for\r\nPanel 2:\r\n\t\tO2 FLOW ind – 0.4±0.1 lb/hr\r\n\r\n",
+  "checklistText": "GLYCOL LOOP CHECKS\r\n\tSec Gly Loop Check\r\nPanel 377:\r\n\t\tGLY TO RAD SEC vlv – NORM\r\nPanel 2:\r\n\t\tECS IND sel – SEC\r\n\t\tSEC COOL PUMP – AC1\r\n\t\t\tRAD SEC IN TEMP ind - 60°-97°F\r\n\t\t\tRAD SEC OUT TEMP ind - 60°-70°F (pegged)\r\n\t\t\tSEC GLY EVAP OUT TEMP ind - 60°-75°F\r\n\t\t\t\t(pegged)\r\n\t\t\tSEC GLY EVAP STM PRESS ind – 0.15-0.25 psia\r\n\t\t\t\t(pegged)\r\n\t\t\tSEC GLY DISCH PRESS ind – 39-51 psig\r\n\t\t\tSEC ACCUM QTY ind – 30-50%\r\n\t\t\tSEC COOL PUMP – AC2\r\n\t\t\t\tSEC GLY DISCH PRESS ind – 39-51 psig\r\n\t\t\tSEC COOL PUMP – off (ctr)\r\n\t\t\tECS IND sel – PRIM\r\n\r\nPanel 377:\r\n\t\t\tGLY TO RAD SEC vlv – BYP\r\n\r\n\tPrim Gly Loop Activation\r\n\r\nPanel 4:\r\n\t\tGLY PUMPS -  2 AC1\r\nPanel 2:\r\n\t\t\tPRIM GLY DISCH PRESS ind – 37-50 psig\r\n\t\t\tPRIM ACCUM QTY ind – 25-50%\r\nPanel 4:\r\n\t\tGLY PUMPS – 1 AC1\r\nPanel 2:\r\n\t\t\tPRIM GLY DISCH PRESS ind – 37-50 psig\r\n\t\tRAD FLOW CONT PWR – PWR\r\n\t\tRAD FLOW CONT AUTO – 2\r\n\t\t\tECS RAD tb – 2\r\n\t\tRAD FLOW CONT AUTO – AUTO\r\n\t\t\tECS RAD tb – gray\r\n\t\tRAD FLOW CONT PWR – off (ctr)\r\nPanel 7:\r\n\tDIRECT 02 vlv – OPEN (CCW), adj for\r\nPanel 2:\r\n\t\tO2 FLOW ind – 0.4±0.1 lb/hr\r\n\r\n",
   "Steps": [
     {
       "Program": 0,
@@ -37,7 +39,55 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify instruments",
+      "Text": "Verify instruments:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   ECS RADIATOR TEMP: PRIM/SEC INLET ind - 60°-97°F",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   ECS RADIATOR TEMP: SEC OUTLET TEMP ind - 60°-70°F (pegged)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   GLY EVAP PRIM/SEC - GLY DISCH: TEMP OUTLET ind - 60°-75°F (pegged)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   GLY EVAP PRIM/SEC - GLY DISCH: STEAM PRESS ind – 0.15-0.25 psia (pegged)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   GLY EVAP PRIM/SEC - GLY DISCH: PRESS ind – 39-51 psig",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   ACCUM PRIM/SEC H2O: SEC QTY ind – 30-50%",
       "Description": "Manual step"
     },
     {
@@ -53,7 +103,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify SEC GLY DISCH PRESS in - 39-51 psig",
+      "Text": "Verify GLY EVAP PRIM/SEC - GLY DISCH: PRESS ind - 39-51 psig",
       "Description": "Manual step"
     },
     {
@@ -93,7 +143,23 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify instruments",
+      "Text": "Verify instruments:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   GLY EVAP PRIM/SEC - GLY DISCH: PRESS ind – 37-50 psig",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   ACCUM PRIM/SEC H2O: PRIM QTY ind – 25-50%",
       "Description": "Manual step"
     },
     {
@@ -109,7 +175,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify instruments",
+      "Text": "Verify GLY EVAP PRIM/SEC - GLY DISCH: PRESS ind - 39-51 psig",
       "Description": "Manual step"
     },
     {

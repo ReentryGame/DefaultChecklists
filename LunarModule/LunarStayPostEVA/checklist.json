@@ -3,8 +3,11 @@
   "ProjectName": "LunarStayPostEVA",
   "Group": "LUNAR STAY",
   "Name": "Post-EVA check",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 540,
+  "AutoGenerate": false,
   "checklistText": "Post-EVA Final Subsystems Configuration\r\n\r\nPurpose of Post-EVA Subsystems Configuration procedure \r\nis to verify/set LM controls after crewmen have \r\nreturned LM to nominal in-flight status.\r\n\r\n1.\tVerify ECS Basic (Unstaged)\r\n\tCritical control positions are as follows:\r\n\r\nECS:\r\n\tSUIT GAS DIVERTER vlv - PUSH CABIN\r\n\tCABIN REPRESS vlv - AUTO \r\n\tPRESS REG A vlv - CABIN \r\n\tPRESS REG B vlv - CABIN \r\n\tCABIN GAS RETURN vlv - AUTO \r\n\tSUIT CIRCUIT RELIEF vlv - AUTO \r\n\tCabin relief & dump vlv (ovhd) - AUTO \r\n\tCabin relief & dump vlv (fwd) - AUTO\r\n\r\nPanel 11:\r\n\tCB ECS: \r\n\t\tCABIN FAN - open \r\n\t\tSUIT FAN 1 - close\r\n\r\nPanel 16:\r\n\tCB ECS: \r\n\t\tCABIN REPRESS - close \r\n\t\tSUIT FAN 2 - close \r\n\t\tSUIT FAN ΔP - close \r\n\t\tDIVERT VLV - close\r\n2.\tVerify EPS Basic (Unstaged)\r\n3.\tVerify Communicatuins Basic (not available in Reentry)\r\n\r\nPanel 11:\r\n4.\tCB S/C: ATT DIR CONT - open\r\n\r\nPanel 8:\r\n5.\tED:\r\n\t\tMASTER ARM sw - OFF\r\n\t\tSTAGE sw - SAFE\r\n\r\nPanel 1:\r\n6.\tENG THR CONT: ENG ARM sw - OFF\r\n\r\nPanel 3:\r\n7.\tS/C: PGNS sw - OFF\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
   "Steps": [
     {
@@ -12,35 +15,40 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify ECS Basic (UNSTAGED): CLEAR ALL and run ECS BASIC (UNSTAGED)"
+      "Text": "Verify ECS Basic (UNSTAGED): Append ECS BASIC (UNSTAGED) steps",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify EPS Basic (UNSTAGED): CLEAR ALL and run ECS BASIC (UNSTAGED)"
+      "Text": "Verify EPS Basic (UNSTAGED): Append EPS BASIC (UNSTAGED) steps",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 2,
       "SetID": 133,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P11_StabCont_AttDirCont to Open (2/133)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 60,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 68,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Down (1/68)"
     }
   ],
   "Images": []

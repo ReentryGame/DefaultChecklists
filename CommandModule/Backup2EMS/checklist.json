@@ -3,6 +3,7 @@
   "ProjectName": "Backup2EMS",
   "Group": "BACKUP CREW PRELAUNCH",
   "Name": "EMS PRELAUNCH TESTS\r",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 0,
   "SortPriority": 42,
@@ -94,7 +95,39 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify dV TEST results (see cl)",
+      "Text": "Verify dV TEST results:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   SPS THRUST lt - on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   ΔV ind - decr",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   ΔV ind – stops at -20.8±20.7 fps\r",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   SPS THRUST lt - out",
       "Description": "Manual step"
     },
     {
@@ -126,7 +159,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify Test 1 results.",
+      "Text": "Wait 10 seconds. Verify Test 1 results (in checklist).",
       "Description": "Manual step"
     },
     {
@@ -150,7 +183,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify test 2 results.",
+      "Text": "Wait 10 seconds. Verify Test 2 results (in checklist).",
       "Description": "Manual step"
     },
     {
@@ -166,7 +199,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify test 3 results.",
+      "Text": "Wait 10 seconds. Verify Test 3 results (in checklist).",
       "Description": "Manual step"
     },
     {
@@ -190,7 +223,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify test 4 results.",
+      "Text": "Wait 10 seconds. Verify Test 4 results (in checklist).",
       "Description": "Manual step"
     },
     {
@@ -206,7 +239,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify test 5 results.",
+      "Text": "Wait 10 seconds. Verify Test 5 results (in checklist).",
       "Description": "Manual step"
     },
     {

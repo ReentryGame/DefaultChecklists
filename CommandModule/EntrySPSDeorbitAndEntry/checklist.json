@@ -415,7 +415,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Load desired DAP",
+      "Text": "Load desired DAP (R1=11102, R2=11111)",
       "Description": "Manual step"
     },
     {

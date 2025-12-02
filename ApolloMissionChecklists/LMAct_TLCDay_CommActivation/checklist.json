@@ -175,7 +175,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[P14] BAT 1 Volts - ~27 vdc",
+      "Text": "[P14] BAT 1 Volts - ~27-32 vdc",
       "Description": "Manual step"
     },
     {
@@ -183,7 +183,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[P14] BAT 4 Volts - ~27 vdc",
+      "Text": "[P14] BAT 4 Volts - ~27-32 vdc",
       "Description": "Manual step"
     },
     {
@@ -199,7 +199,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[P14] CDR BUS Volts - ~27-30 vdc",
+      "Text": "[P14] CDR BUS Volts - ~27-32 vdc",
       "Description": "Manual step"
     },
     {
@@ -215,7 +215,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[P14] LMP BUS Volts - ~27-30 vdc",
+      "Text": "[P14] LMP BUS Volts - ~27-32 vdc",
       "Description": "Manual step"
     },
     {

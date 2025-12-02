@@ -3,6 +3,8 @@
   "ProjectName": "BackupCrewIngress",
   "Group": "ACTIVATION",
   "Name": "Backup Crew Ingress",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 15,
   "AutoGenerate": true,
@@ -355,14 +357,6 @@
     {
       "Program": 0,
       "Type": 1,
-      "SetID": 45,
-      "ToPosID": 4,
-      "Text": null,
-      "Description": "set LVSPSIndaPc to Up (1/45)"
-    },
-    {
-      "Program": 0,
-      "Type": 1,
       "SetID": 46,
       "ToPosID": 4,
       "Text": null,
@@ -426,11 +420,11 @@
     },
     {
       "Program": 0,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "[2] PL VENT VLV - push",
-      "Description": "Manual step"
+      "Type": 2,
+      "SetID": 263,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P2_PostLdgVentValve to Closed (2/263)"
     },
     {
       "Program": 0,

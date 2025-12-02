@@ -3,157 +3,180 @@
   "ProjectName": "ActivationAPSDPSPrepressurization",
   "Group": "ACTIVATION",
   "Name": "APS & DPS Prepressurization",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 123,
   "AutoGenerate": false,
-  "checklistText": "<size=21>APS TEMP/PRESS PREPRESSURIZATION CHECK</size>\r\n\r\n1.\r\nPANEL 1:\tHELIUM MON sel - PRESS 1\r\n\tMPS: HELIUM ind - 2800 to 3500 psia\r\n\r\n2.\r\n\tHELIUM MON sel - PRESS 2\r\n\tMPS: HELIUM ind - 2800 to 3500 psia\r\n\r\n3.\r\n\tPRPLNT TEMP/PRESS MON sw - ASC\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50 to 90 F\r\n\t\tOXID TEMP ind - 50 to 90 F\r\n\t\tFUEL PRESS ind - 108 to 172 psia\r\n\t\tOXID PRESS ind - 71 to 143 psia\r\n\r\n\r\n<size=21>DPS TEMP/PRESS PREPRESSURIZATION CHECK</size>\r\n\r\n1.\r\nPANEL 1:\tHELIUM MON sel - AMB PRESS\r\n\tMPS: HELIUM ind - 1490 to 1750 psia\r\n\r\n2.\tHELIUM MON sel - SUPCRIT PRESS\r\n\tMPS: HELIUM ind - 750 to 1320 psia\r\n\r\n3.\tHELIUM MON sel - AMB PRESS\r\n\r\n4.\tPRPLNT TEMP/PRESS MON sw - DES 2\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78 psia\r\n\r\n5.\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78 psia\r\n\r\n6.\tPRPLNT QTY MON sw - DES 1\r\n\tMPS:\r\n\t\tFUEL QUANTITY ind - 95% or less\r\n\t\tOXID QUANTITY ind - 95% or less\r\n\r\n7.\tPRPLNT QTY MON sw - DES 2\r\n\tRepeat as step 6\r\n\r\n8.\tPRPLNT QTY MON sw - OFF\r\n\r\n9.\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\r\n10.\tDES He REG 1 tb - gray\r\n\tDES He REG 2 tb - gray\r\n\r\n",
+  "checklistText": "<size=21>APS TEMP/PRESS PREPRESSURIZATION CHECK</size>\r\n\r\n1.\r\nPANEL 1:\tHELIUM MON sel - PRESS 1\r\n\tMPS: HELIUM ind - 2800 to 3500 psia\r\n\r\n2.\r\n\tHELIUM MON sel - PRESS 2\r\n\tMPS: HELIUM ind - 2800 to 3500 psia\r\n\r\n3.\r\n\tPRPLNT TEMP/PRESS MON sw - ASC\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50 to 90 F\r\n\t\tOXID TEMP ind - 50 to 90 F\r\n\t\tFUEL PRESS ind - 108 to 172 psia\r\n\t\tOXID PRESS ind - 71 to 143 psia\r\n\r\n\r\n<size=21>DPS TEMP/PRESS PREPRESSURIZATION CHECK</size>\r\n\r\n1.\r\nPANEL 1:\tHELIUM MON sel - AMB PRESS\r\n\tMPS: HELIUM ind - 1490 to 1750 psia\r\n\r\n2.\tHELIUM MON sel - SUPCRIT PRESS\r\n\tMPS: HELIUM ind - 750 to 1320 psia\r\n\r\n3.\tHELIUM MON sel - AMB PRESS\r\n\r\n4.\tPRPLNT TEMP/PRESS MON sw - DES 2\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78 psia\r\n\r\n5.\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\tMPS:\r\n\t\tFUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78 psia\r\n\r\n6.\tPRPLNT QTY MON sw - DES 1\r\n\tMPS:\r\n\t\tFUEL QUANTITY ind - 99% or less\r\n\t\tOXID QUANTITY ind - 99% or less\r\n\r\n7.\tPRPLNT QTY MON sw - DES 2\r\n\tRepeat as step 6\r\n\r\n8.\tPRPLNT QTY MON sw - OFF\r\n\r\n9.\tPRPLNT TEMP/PRESS MON sw - DES 1\r\n\r\n10.\tDES He REG 1 tb - gray\r\n\tDES He REG 2 tb - gray\r\n\r\n",
   "Steps": [
     {
       "Program": 1,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 5 (3/4)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "HELIUM ind - 2800 to 3500 psia\r"
+      "Text": "HELIUM ind - 2800 to 3500 psia\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 6,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 6 (3/4)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "HELIUM ind - 2800 to 3500 psia\r"
+      "Text": "HELIUM ind - 2800 to 3500 psia\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Up (1/51)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FUEL TEMP ind - 50 to 90 F\r\n\t\tOXID TEMP ind - 50 to 90 F\r\n\t\tFUEL PRESS ind - 108 to 172 psia\r\n\t\tOXID PRESS ind - 71 to 143 psia\r"
+      "Text": "FUEL TEMP ind - 50 to 90 F\r\n\t\tOXID TEMP ind - 50 to 90 F\r\n\t\tFUEL PRESS ind - 108 to 172 psia\r\n\t\tOXID PRESS ind - 71 to 143 psia\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 1 (3/4)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "HELIUM ind - 1490 to 1750 psia\r"
+      "Text": "HELIUM ind - 1490 to 1750 psia\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 2 (3/4)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "HELIUM ind - 750 to 1320 psia\r"
+      "Text": "HELIUM ind - 750 to 1320 psia\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 3,
       "SetID": 4,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 1 (3/4)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Down (1/51)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78"
+      "Text": "FUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Middle (1/51)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78 psia\r"
+      "Text": "FUEL TEMP ind - 50 to 75 F\r\n\t\tOXID TEMP ind - 50 to 75 F\r\n\t\tFUEL PRESS ind - 70 to 122 psia\r\n\t\tOXID PRESS ind - 41 to 78 psia\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 50,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Up (1/50)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FUEL QUANTITY ind - 95% or less\r\n\t\tOXID QUANTITY ind - 95% or less"
+      "Text": "FUEL QUANTITY ind - 99% or less\r\nOXID QUANTITY ind - 99% or less",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 50,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Middle (1/50)"
     },
     {
       "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "FUEL QUANTITY ind - 95% or less\r\n\t\tOXID QUANTITY ind - 95% or less\r"
+      "Text": "FUEL QUANTITY ind - 99% or less\r\nOXID QUANTITY ind - 99% or less\r",
+      "Description": "Manual step"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 50,
       "ToPosID": 5,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Down (1/50)"
     },
     {
       "Program": 1,
       "Type": 1,
       "SetID": 51,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Middle (1/51)"
     }
   ],
   "Images": []

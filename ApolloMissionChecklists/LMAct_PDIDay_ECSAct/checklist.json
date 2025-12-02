@@ -151,7 +151,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "PRIM EVAP FLOW NO 1 Open GET ____ : ____ : ____",
+      "Text": "PRIM EVAP FLOW NO 1 Open GET ____ : ____ : ____ (record)",
       "Description": "Manual step"
     },
     {

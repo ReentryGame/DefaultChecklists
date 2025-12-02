@@ -39,7 +39,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[CSM] Transfer to LM PWR",
+      "Text": "[CSM] LM PWR - CSM",
       "Description": "Manual step"
     },
     {

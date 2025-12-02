@@ -31,7 +31,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Set R1: +32022",
+      "Text": "Set R1: +32022E",
       "Description": "Manual step"
     },
     {
@@ -39,7 +39,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Set R2: +00011",
+      "Text": "Set R2: +00011E",
       "Description": "Manual step"
     },
     {

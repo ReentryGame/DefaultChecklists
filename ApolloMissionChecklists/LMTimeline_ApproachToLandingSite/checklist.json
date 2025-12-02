@@ -12,6 +12,14 @@
   "Steps": [
     {
       "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Before Landing revolution: Optionally pitch and observe landing site. Once passed, proceed.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
       "Type": 7,
       "SetID": 0,
       "ToPosID": 0,
@@ -64,22 +72,6 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Mission Pad -> Moon Map -> Tweak Landing Side",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 1,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "ORDEAL, FDAI 1 to ORB RATE (LVLH)",
-      "Description": "Manual step"
-    },
-    {
-      "Program": 1,
-      "Type": 0,
-      "SetID": 0,
-      "ToPosID": 0,
-      "Text": "PITCH TO OBSERVE LANDING SITE",
       "Description": "Manual step"
     }
   ],

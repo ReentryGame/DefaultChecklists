@@ -8,7 +8,7 @@
   "Side": 1,
   "SortPriority": 41401023,
   "AutoGenerate": false,
-  "checklistText": "This is a helper checklist, and contains the RUN feature to perform the IMU realignment of the REFSMMAT using P52, option 3.\n\nYou will still use the (P52) IMU REALIGN checklist, but the RUN feature of this checklist to guide you through the correct path of the complex checklist.\n\nWhen running P52, you will enter code +00003 (REFSMMAT option).\nThen you will MARK two sightings.\n\nTo enter the SCT or the SXT, press the respective scope. You can change in scope view too using the small arrow next to the current scope title.\n\nV51 means that the AGC is waiting for a mark. Enter the scope, use CTRL+Arrow keys to move the scope. Center a target in the SXT (use SCT for searching, then SXT to perform the mark) and press MARK.\n\nYou can choose a different star to mark even if the AGC/N70 shows another star ID. Simply change the star ID when N71 is displayed by entering V21+000XX where 'XX' is the star ID you marked.\r\n\r\nWhen two marks are completed, the marked angle and the known angle between the two stars will be displayed.  The difference between these angles should be less than 0.03 degrees (00003).   If this difference is greater, repeat the procedure.\n\n\n\n\n\n",
+  "checklistText": "This is a helper checklist, and contains the RUN feature to perform the IMU realignment of the REFSMMAT using P52, option 3.\n\nYou will still use the (P52) IMU REALIGN checklist, but the RUN feature of this checklist to guide you through the correct path of the complex checklist.\n\nWhen running P52, you will enter code +00003 (REFSMMAT option).\nThen you will MARK two sightings.\nNOTE: You can only MARK using the SXT scope.\n\nTo enter the SCT or the SXT, press the respective scope. You can change in scope view too using the small arrow next to the current scope title.\n\nV51 means that the AGC is waiting for a mark. Enter the scope, use CTRL+Arrow keys to move the scope. Center a target in the SXT (use SCT for searching, then SXT to perform the mark) and press MARK.\n\nYou can choose a different star to mark even if the AGC/N70 shows another star ID. Simply change the star ID when N71 is displayed by entering V21+000XX where 'XX' is the star ID you marked.\r\n\r\nWhen two marks are completed, the marked angle and the known angle between the two stars will be displayed.  The difference between these angles should be less than 0.03 degrees (00003).   If this difference is greater, repeat the procedure.\n\n\n\n\n\n",
   "Steps": [
     {
       "Program": 0,
@@ -303,7 +303,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "V51 flashing. Enter SCT, center the star and MARK.",
+      "Text": "V51 flashing. Center the star in the scopes, and MARK using the SXT.",
       "Description": "Manual step"
     },
     {
@@ -359,7 +359,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "V51 flashing. Perform next MARK.",
+      "Text": "V51 flashing. Perform next MARK from the SXT.",
       "Description": "Manual step"
     },
     {
