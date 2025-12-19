@@ -271,7 +271,23 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "+04:00 V57E TO PERMIT LR DATA",
+      "Text": "+04:00",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V57E TO PERMIT LR DATA",
       "Description": "Manual step"
     },
     {
@@ -308,19 +324,19 @@
     },
     {
       "Program": 1,
-      "Type": 1,
-      "SetID": 68,
-      "ToPosID": 2,
-      "Text": null,
-      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
-    },
-    {
-      "Program": 1,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Rate Cmd/Att Hold to level attitude using attituide control stick.",
       "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ModeSel to Up (1/72)"
     },
     {
       "Program": 1,
@@ -496,6 +512,22 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Go to LUNAR SURFACE TIMELINE checks.",
       "Description": "Manual step"
     }
   ],

@@ -3,6 +3,7 @@
   "ProjectName": "AscentBoost",
   "Group": "ASCENT",
   "Name": "BOOST",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 0,
   "SortPriority": 201,
@@ -94,7 +95,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "+02:16 Inboard Cutoff (lt 5 out)",
+      "Text": "+02:16 Inboard Cutoff (lt 5 on)",
       "Description": "Manual step"
     },
     {
@@ -259,11 +260,35 @@
     },
     {
       "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record VI (R1), H DOT (R2), H PAD (R3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
       "Type": 4,
       "SetID": 17,
       "ToPosID": 0,
       "Text": null,
       "Description": "push AGCKeyRel (4/17)"
+    },
+    {
+      "Program": 0,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Record HA (R1), HP (R2), TFF (R3)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 0,
+      "Type": 4,
+      "SetID": 16,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,

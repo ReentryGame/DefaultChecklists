@@ -1,0 +1,463 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMLunarSurface_EVA",
+  "Group": "LUNAR SURFACE",
+  "Name": "EVA",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 551,
+  "AutoGenerate": true,
+  "checklistText": "EVA\n\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "EVA PREP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 102,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_SBand to Up (1/102)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 103,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_ICS to Up (1/103)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 101,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_Replay to Up (1/101)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 105,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_CommMode to Up (1/105)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_VHFA to Up (1/106)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Audio_VHFB to Down (1/107)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Xmtr to Down (1/115)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 116,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Rcvr to Up (1/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Xmtr to Middle (1/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Rcvr to Up (1/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryBiomed to Middle (1/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryPCM to Down (1/120)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 122,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Recorder to Up (1/122)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_VHF to position 2 (3/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_UplinkSquelch to Up (1/16)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_SBand to Up (1/95)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_ICS to Up (1/96)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 93,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_Audio_Replay to Down (1/93)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 99,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_CommMode to Up (1/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_VHFA to Up (1/97)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_Audio_VHFB to Middle (1/98)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 86,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Comm_LMP_Audio to Open (2/86)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LMP Connect To PLSS Comm (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 86,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Comm_LMP_Audio to Closed (2/86)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 146,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_COMM_CDRAudio to Open (2/146)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR Connect To PLSS Comm (skip)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 146,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_COMM_CDRAudio to Closed (2/146)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_Audio_VHFA to Middle (1/97)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_Audio_VHFB to Middle (1/98)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "FINAL SYSTEMS PREP",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_LCGPump to Closed (2/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Closed (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 77,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_SuitFan_dP to Open (2/77)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 78,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_SuitFan2 to Open (2/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Open (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 0 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 1 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_LMP to position 0 (3/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_CDR to position 0 (3/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_DesH2O to position 0 (3/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 74,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_LCGPump to Open (2/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify EVA CB Configuration (Append steps if required, follow EVA marks)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 3 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 3 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 72,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_ECS_CabinRepress to Open (2/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinRepress to position 0 (3/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 40,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set OverheadHatch_CabinReliefVentValve to position 2 (3/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Monitor CABIN PRESS until 3.5 psia, then:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 40,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set OverheadHatch_CabinReliefVentValve to position 1 (3/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify Cabin PSI at 3.5 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ForwardHatch_CabinReliefVentValve to position 2 (3/39)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When Cabin PSI at ~0 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[C] TOGGLE HATCH function bubble to open hatch",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[C] EXIT LUNAR MODULE function bubble to perform EVA",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

@@ -1,0 +1,2519 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMLunarSurface_LaunchPrep",
+  "Group": "LUNAR SURFACE",
+  "Name": "LAUNCH PREP",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 601,
+  "AutoGenerate": true,
+  "checklistText": "LAUNCH PREP\n\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Lift Off (LO) -2:55 (If no LO, start 1 REV before CM overhead passing)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 22,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCPro (4/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 25,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push LGCRset (4/25)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V96E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 94,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusB_NumLtg to Closed (2/94)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 140,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_IMU_OPR to Closed (2/140)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NO ATT Lt-Off In 90 sec",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_MissionTimer to Closed (2/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 108,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_GASTA to Closed (2/108)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 103,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_GASTA to Closed (2/103)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 102,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_CDRFDAI to Closed (2/102)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 107,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_CDRFDAI to Closed (2/107)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 151,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_COMM_UpDataLink to Closed (2/151)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V16 N65E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MISSION TIMER - Set ([C] SYNC MET TIMERS)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryPCM to Up (1/120)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V74E (42 sec)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_PwrAmpl to Up (1/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 0 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_EDVolts to Up (1/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check ED VOLTS A ______ (TO MSFN)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_EDVolts to Down (1/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check ED VOLTS B ______ (TO MSFN)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 1,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P14_EDVolts to Middle (1/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 4 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 8,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat4CDRLoV to Up (1/8)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 7,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat4CDRHiV to Up (1/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR BAT 4 tb - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 3 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 10,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarLMP to Down (1/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 9,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBatLunarCDR to Down (1/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "BAT L tb - bp",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_DescentBat3CDR to Up (1/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check BUS Volts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 9,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 9 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Check BUS Volts",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryBiomed to Up (1/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip) Copy: P22 Acq Time _____:____:____",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip) Copy: LO TIME (P57)_____:____:____",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 108,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Audio_UpdataLink to Down (1/108)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 95,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusB_AOTLMP to Closed (2/95)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Window Shades - Close",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip) P57 IMU alignment",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 95,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusB_AOTLMP to Open (2/95)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Window Shades - Open",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Acq-8:00 or 8 minutes before CSM is overhead of the LM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Closed (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Closed (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 104,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_RngRtAltRt to Closed (2/104)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 109,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_RngRtAltRt to Closed (2/109)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 110,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_FlightDisplays_CNDRXPntr to Closed (2/110)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 145,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_SigStrDisp to Closed (2/145)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 2 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Up (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V95E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip) V37E 22E (not yet implemented)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 00E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Open (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Open (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait until CSM has passed landing location, or in final REV before LO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[C] REQUEST ASCENT",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Copy Ascent Pads and take note of LO (liftoff) time.",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-1:15 (or less)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Middle (1/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Configure CB's Per PWR UP checklsit (append steps if needed)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Closed (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Closed (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NO TRACK Lt-On",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 137,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_XPointerScale to Up (1/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Up (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_RateErrMon to Up (1/79)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_AttitudeMon to Down (1/80)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 73,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RngAltMon to Up (1/73)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ShfTrun to Up (1/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_TempMonitor to position 0 (3/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 0 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RadarTest to Up (1/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 2 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 3 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 4 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 5 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 2 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 2 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Open (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 65,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_Inst_CWEA to Closed (2/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P02_MasterAlarm (4/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 123,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P06_AGS_Status to Up (1/123)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Open (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 143,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_PGNS_RndzRdr to Open (2/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:55",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GYRO TEST",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ROLL TEST:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_GyroTest_Rate to Middle (1/64)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 63,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_GyroTest_Attitude to Up (1/63)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_GyroTest_Rate to Up (1/64)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RATE +5°/SEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 64,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_GyroTest_Rate to Down (1/64)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RATE -5°/SEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Repeat test for PITCH and YAW",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:50",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V48E, V21E, 12102E, PRO, V21E, +10873E, PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V77E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V15N01E, 42E (Rate Cmd Hit Fire Check)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q4TCA to Closed (2/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 118,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q3TCA to Closed (2/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q2TCA to Closed (2/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 116,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q1TCA to Closed (2/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q1 to Closed (2/46)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q2 to Closed (2/45)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q3 to Closed (2/44)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q4 to Closed (2/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR ACA (Out-Of-Detent, Pasue 2 sec At null)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Roll Rt R3 000XX",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Roll Lt R3 777XX",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Pitch Up R1 000XX",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Pitch Dn R1 777XX",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Yaw Rt R2 000XX",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Yaw Lt R2 777XX",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 119,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q4TCA to Open (2/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 118,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q3TCA to Open (2/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 117,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q2TCA to Open (2/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 116,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q1TCA to Open (2/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 5,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P01_MasterAlarm (4/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q1 to Open (2/46)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q2 to Open (2/45)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q3 to Open (2/44)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q4 to Open (2/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V96E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V76E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(Min Imp Check for CDR ACA To AGC, ACA Cold Fire)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V11 N10E, 31E R1 67777",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_GuidCont to Down (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CDR ACA (Defelct slowly, Pause 2 sec at null)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Roll Rt R1 27757",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Roll Lt R1 27737",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Pitch Up R1 27776",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Pitch Dn R1 27775",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Yaw Rt R1 27767",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Yaw Lt R1 27773",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V96E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Up (1/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:45",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "(skip) IMU Align",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:35",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V48E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "N46   12102 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "N47 (+10873) LM Wt",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V37E 12E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "N33 ____:____:____ TIG (Verify with PAD)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "N76 VH Final (+55406)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "N76 HDot Final (+00320)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "N76 Xrng (+00000)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "N74 TFI, YAW, PITCH",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "DET - Set/DN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "V77E",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:30",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 119,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q4TCA to Closed (2/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 118,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q3TCA to Closed (2/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q2TCA to Closed (2/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 116,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_RCSSysA_Q1TCA to Closed (2/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 121,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Prop_DESHeRegVent to Closed (2/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 131,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_StabCont_AELD to Closed (2/131)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 27,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_Inv1 to Closed (2/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 46,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q1 to Closed (2/46)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 45,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q2 to Closed (2/45)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 44,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q3 to Closed (2/44)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_RCSSysB_Q4 to Closed (2/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P16_StabCont_AELD to Closed (2/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 48,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_Stage to Down (1/48)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "STAGE - SAFE/Guarded",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 137,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_XPointerScale to Down (1/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Down (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_ModeSel to Down (1/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 73,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_RngAltMon to Down (1/73)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RateScale to Up (1/76)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ACAProp to Up (1/77)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Up (1/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_BalCpl to Up (1/61)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P01_Abort (4/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P01_AbortStage (4/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Up (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 5 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed1 to Down (1/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed2 to Down (1/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed1 to Down (1/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed2 to Down (1/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 29,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_Crossfeed to Down (1/29)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 3 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 32,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_ACAProp to Up (1/32)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_Glycol to position 1 (3/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_SuitFan to position 1 (3/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P02_O2_H2O_Qty_Mon to position 3 (3/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_RateErrMon to Down (1/79)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_AttitudeMon to Down (1/80)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_RadarTest to Middle (1/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 2 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 83,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_SlewRate to Down (1/83)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 1 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_DeadBand to Down (1/62)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Up (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Up (1/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_TempMonitor to position 0 (3/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q1 to Up (1/33)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q2 to Up (1/34)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q3 to Up (1/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q4 to Up (1/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_XPointerScale to Down (1/92)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_CDR_ACA to Up (1/124)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 126,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_LMP_ACA to Up (1/126)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_CDR_TTCA to Up (1/125)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 127,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_LMP_TTCA to Up (1/127)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 1 (3/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P06_StopEngine (4/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_DesH2O to position 0 (3/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 33,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_ASC_H2O to position 1 (3/33)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 37,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_WaterTankSelector to position 1 (3/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinRepress to position 0 (3/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 23,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_O2_Des to position 0 (3/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_O2_Asc1 to position 1 (3/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 3 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 3 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Open (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 1 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 1 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_DesPropulsion_FuelVent to Up (1/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 39,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_DesPropulsion_OxidVent to Up (1/39)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_DescentHeReg1 to Up (1/54)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_DescentHeReg2 to Up (1/55)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 121,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Prop_DESHeRegVent to Open (2/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 52,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg1 to Up (1/52)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 53,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AscentHeReg2 to Up (1/53)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "ASC He REG 1&2 tb(2) - gray",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:17",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Xmtr to Up (1/115)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 116,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Rcvr to Down (1/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Xmtr to Middle (1/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Rcvr to Up (1/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_VHFA to Up (1/106)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Audio_VHFB to Down (1/107)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 105,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Audio_CommMode to Middle (1/105)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_VHFA to Up (1/97)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_Audio_VHFB to Down (1/98)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 99,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_Audio_CommMode to Middle (1/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P12_VHF to position 0 (3/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 122,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Recorder to Up (1/122)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:15",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 5,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBat2LMP to Down (1/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 6,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DescentBat3CDR to Down (1/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 12,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat5NormalLMPFeed to Up (1/12)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 14,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_AscentBat6NormalCDRFeed to Up (1/14)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 11,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_DesBayDeadface to Down (1/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 7,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_DesECA to Open (2/7)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_DesECACont to Open (2/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 24,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_DesECA to Open (2/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_DesECACont to Open (2/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_AscECACont to Open (2/25)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 8,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P16_AscECACont to Open (2/8)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify CB's Per LAUNCH Configuration (append using RUN if needed)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:10",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_MasterArm to Up (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 43,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_ASCHeSel to Up (1/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 47,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_HePRESS_Ascent to Up (1/47)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 43,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_ASCHeSel to Down (1/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 47,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_HePRESS_Ascent to Up (1/47)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_ASCHeSel to Middle (1/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 47,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_HePRESS_Ascent to Up (1/47)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 17,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed1 to Up (1/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 18,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysA_ASCFeed2 to Up (1/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 6,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P02_MasterAlarm (4/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 23,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed1 to Up (1/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 24,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_SysB_ASCFeed2 to Up (1/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 30,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysA to Up (1/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 31,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_MainSOV_SysB to Up (1/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "LO-:5",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 99,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_ACBusA_RNDZRdr to Closed (2/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GO To LM TIMELINE BOOK: ASCENT",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

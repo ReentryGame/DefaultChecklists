@@ -1,0 +1,1031 @@
+{
+  "Spacecraft": 1,
+  "ProjectName": "LMLunarSurface_PwrDnSwitchConfig",
+  "Group": "LUNAR SURFACE",
+  "Name": "PWR DN SWITCH CONFIG",
+  "NameTranslations": {},
+  "CustomName": "ApolloMissionChecklists",
+  "Side": 1,
+  "SortPriority": 508,
+  "AutoGenerate": true,
+  "checklistText": "POWERDOWN SWITCH CONFIG\n\n",
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 138,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI1 to Down (1/138)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 139,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_FDAI2 to Down (1/139)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 143,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ORDEAL_Location to Middle (1/143)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 141,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ORDEAL_Lighting to Middle (1/141)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 140,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set ORDEAL_Mode to Down (1/140)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_DesPropulsion_FuelVent to Down (1/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 39,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_DesPropulsion_OxidVent to Down (1/39)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 41,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_MasterArm to Down (1/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 43,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_ASCHeSel to Middle (1/43)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 48,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_Stage to Down (1/48)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "STAGE - SAFE (guarded)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 95,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_SBand to Up (1/95)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 96,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_ICS to Up (1/96)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 93,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_Audio_Replay to Down (1/93)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 99,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_Audio_CommMode to Middle (1/99)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 100,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_Audio_AudioCont to Up (1/100)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 97,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P08_Audio_VHFA to Down (1/97)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 98,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P08_Audio_VHFB to Middle (1/98)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 38,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set TTCAThrottleJets to position 1 (3/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 4,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StopEngine (4/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 2,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P05_StartEngine (4/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 128,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P05_MissionTimer_TimerCont to Up (1/128)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 135,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P05_Lighting_Anun to Down (1/135)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 134,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P05_Lighting_Num to Down (1/134)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 133,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P05_Lighting_Integral to Down (1/133)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 137,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_XPointerScale to Up (1/137)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 74,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_RateErrMon to Down (1/74)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 75,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttitudeMon to Up (1/75)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 71,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_GuidCont to Up (1/71)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 72,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_ModeSel to Middle (1/72)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 73,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RngAltMon to Up (1/73)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 78,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ShfTrun to Up (1/78)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 76,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_RateScale to Up (1/76)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 77,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_ACAProp to Up (1/77)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 58,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ThrCont_ThrCont to Up (1/58)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 59,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_ManThrot to Up (1/59)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 60,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_EngArm to Middle (1/60)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 37,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_AttTransFourTwoJetMode to Up (1/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 61,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_EngineThrustCont_BalCpl to Up (1/61)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 27,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P01_Abort (4/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P01_AbortStage (4/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 50,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_PrplntQtyMon to Down (1/50)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Up (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 5 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 2,
+      "ToPosID": 3,
+      "Text": null,
+      "Description": "set P02_TempPressMon to position 3 (3/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 32,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_ACAProp to Up (1/32)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 9,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_Glycol to position 1 (3/9)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 10,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P02_SuitFan to position 1 (3/10)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 11,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P02_O2_H2O_Qty_Mon to position 2 (3/11)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 79,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P02_RateErrMon to Up (1/79)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 80,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P02_AttitudeMon to Down (1/80)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 57,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_EngGmbl to Up (1/57)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 56,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_DesEngCmdOvrd to Down (1/56)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 81,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_LandingAnt to Up (1/81)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 82,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_RadarTest to Middle (1/82)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 5,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_TestMonitor to position 2 (3/5)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 83,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_SlewRate to Down (1/83)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 6,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P03_RndzRadar_Tracker to position 1 (3/6)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 62,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P03_DeadBand to Down (1/62)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 65,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Roll to Up (1/65)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 66,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Pitch to Up (1/66)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 67,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_AttitudeControl_Yaw to Up (1/67)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 68,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_PGNS to Middle (1/68)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 69,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_ModeControl_AGS to Middle (1/69)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P03_TempMonitor to position 0 (3/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 33,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q1 to Up (1/33)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 34,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q2 to Up (1/34)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 35,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q3 to Up (1/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 36,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_RCS_Heaters_Q4 to Up (1/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 92,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P03_XPointerScale to Up (1/92)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 91,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_Lighting_Exterior to Middle (1/91)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 90,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P03_Lighting_Flood_OvhdFwd to Middle (1/90)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 124,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_CDR_ACA to Up (1/124)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 126,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_LMP_ACA to Up (1/126)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 125,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_CDR_TTCA to Up (1/125)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 127,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P04_LMP_TTCA to Up (1/127)"
+    },
+    {
+      "Program": 1,
+      "Type": 4,
+      "SetID": 3,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push P06_StopEngine (4/3)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 123,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P06_AGS_Status to Middle (1/123)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 1,
+      "ToPosID": 8,
+      "Text": null,
+      "Description": "set P14_EPSPowerTempMon to position 8 (3/1)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 2,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P14_Inverter to Up (1/2)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 16,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P14_UplinkSquelch to Down (1/16)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 108,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Audio_UpdataLink to Middle (1/108)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 104,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_AudioCont to Up (1/104)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 102,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_SBand to Up (1/102)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 103,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Audio_ICS to Up (1/103)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 101,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Audio_Replay to Down (1/101)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 105,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Audio_CommMode to Middle (1/105)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 106,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Audio_VHFA to Down (1/106)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 107,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Audio_VHFB to Middle (1/107)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 109,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Modulate to Up (1/109)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 110,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_XmitRcvr to Down (1/110)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 111,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_PwrAmpl to Middle (1/111)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 112,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_FuncVoice to Up (1/112)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 113,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_FuncPCM to Up (1/113)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 114,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_Range to Up (1/114)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 115,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Xmtr to Middle (1/115)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 116,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_A_Rcvr to Up (1/116)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 117,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Xmtr to Middle (1/117)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 118,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_VHF_B_Rcvr to Down (1/118)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 119,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryBiomed to Up (1/119)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 120,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P12_Comm_TelemetryPCM to Up (1/120)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 122,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_Recorder to Down (1/122)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 18,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P12_VHF to position 0 (3/18)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 121,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set P12_Comm_TrackMode to Down (1/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 17,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P12_SBand to position 2 (3/17)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 21,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_PressRegA to position 2 (3/21)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 22,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_PressRegB to position 2 (3/22)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 19,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_CabinRepress to position 1 (3/19)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 20,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_PLSS_Fill to position 0 (3/20)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 23,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_O2_Des to position 1 (3/23)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 24,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_O2_Asc1 to position 0 (3/24)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 25,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_O2_Asc2 to position 1 (3/25)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 27,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_LMP to position 1 (3/27)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 26,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitIsol_CDR to position 1 (3/26)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 35,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitCircuitRelief to position 1 (3/35)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 36,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CabinGasReturn to position 0 (3/36)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 161,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_SuitGasDiverter to Open (2/161)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 41,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_CO2CanisterSelect to position 0 (3/41)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 162,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set ECS_WaterSepSel to Closed (2/162)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 33,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_ASC_H2O to position 0 (3/33)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 28,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_SecEvapFlow to position 0 (3/28)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_PriEvapFlowNo2 to position 0 (3/29)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 30,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_DesH2O to position 1 (3/30)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 31,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ECS_PriEvapFlowNo1 to position 1 (3/31)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 37,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set ECS_WaterTankSelector to position 0 (3/37)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 40,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set OverheadHatch_CabinReliefVentValve to position 1 (3/40)"
+    },
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 39,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set ForwardHatch_CabinReliefVentValve to position 1 (3/39)"
+    }
+  ],
+  "Images": []
+}

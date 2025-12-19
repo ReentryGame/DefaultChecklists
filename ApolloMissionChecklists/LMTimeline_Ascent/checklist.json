@@ -15,7 +15,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[C] REQUEST ASCENT",
+      "Text": "IF COMPLETED: SURFACE CHECKs, skip to -02:00, ELSE: [C] REQUEST ASCENT",
       "Description": "Manual step"
     },
     {
@@ -271,7 +271,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "500 PFS left:",
+      "Text": "500 FPS left:",
       "Description": "Manual step"
     },
     {
