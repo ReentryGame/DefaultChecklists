@@ -3,12 +3,21 @@
   "ProjectName": "SystemECSWasteWaterTankDrain",
   "Group": "SYSTEMS: ECS",
   "Name": "WASTE WATER TANK DRAIN",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 1,
   "SortPriority": 405040160,
   "AutoGenerate": false,
-  "checklistText": "\t\t\tWaste Water Tank Drain\r\n\r\n\r\nPanel 2:\r\n\t\tH2O QTY IND sw - WASTE\r\n\r\nPanel 352:\r\n\t\tPRESS RELF sel - DUMP A\r\n\r\nPanel 2:\r\n\t\tMon WASTE H2O QTY ind - decr\r\n\t\t\tWASTE H2O QTY ind - ≈25%\r\n\r\n\r\n\t\t\tCAUTION\r\n\r\n\t\tDepletion of all waste water may\r\n\t\tdamage suit heat exchanger water\r\n\t\tseperator.\r\n\r\nPanel 352:\r\n\t\tPRESS RELF sel - 2\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "checklistText": "\t\t\tWaste Water Tank Drain\r\n\r\nPanel 252:\n\t\tBAT VENT vlv - CLOSED (verify)\n\r\nPanel 2:\r\n\t\tH2O QTY IND sw - WASTE\r\n\r\nPanel 352:\r\n\t\tWATER CONT PRESS REL vlv - DUMP A\r\n\r\nPanel 2:\r\n\t\tMonitor WASTE H2O QTY ind - decr\reasing\n\n\t\tIf reqd to dump to 0%\n\t\t\tPOT TK IN vlv - open (verify)\n\t\t\tWASTE TK IN vlv - AUTO (verify)\n\t\t\n\t\tWhen WASTE H2O QTY ind - 15%\r\r\nPanel 352:\r\n\t\tPRESS RELF sel - 2\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
   "Steps": [
+    {
+      "Program": 0,
+      "Type": 3,
+      "SetID": 69,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P252_BatteryVent to position 0 (3/69)"
+    },
     {
       "Program": 0,
       "Type": 1,
@@ -22,7 +31,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Note WASTE H2O QTY ind %",
+      "Text": "Record WASTE H2O QTY ind - %",
       "Description": "Manual step"
     },
     {
@@ -38,7 +47,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Mon WASTE H2O QTY ind - decr",
+      "Text": "Monitor WASTE H2O QTY ind - decreasing",
       "Description": "Manual step"
     },
     {
@@ -46,7 +55,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "When WASTE H2O QTY ind ~25%:",
+      "Text": "When WASTE H2O QTY ind ~15%:",
       "Description": "Manual step"
     },
     {

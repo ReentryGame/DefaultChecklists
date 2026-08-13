@@ -3,6 +3,7 @@
   "ProjectName": "TnDPostDocking",
   "Group": "T&D",
   "Name": "POST DOCKING",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 0,
   "SortPriority": 606,
@@ -12,10 +13,10 @@
     {
       "Program": 0,
       "Type": 1,
-      "SetID": 236,
+      "SetID": 106,
       "ToPosID": 4,
       "Text": null,
-      "Description": "set SqB_PCMBitRate to Up (1/236)"
+      "Description": "set AttRate to Up (1/106)"
     },
     {
       "Program": 0,

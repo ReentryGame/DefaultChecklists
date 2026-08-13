@@ -1,0 +1,263 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "rndzDockingMechPwrDn",
+  "Group": "RENDEZVOUS",
+  "Name": "DOCK MECH POWERDOWN",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 903,
+  "AutoGenerate": true,
+  "checklistText": "DOCKING MECHANISM POWERDOWN\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM 167 DOCKING STATUS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√STATUS lt (eighteen) – lt off",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11635,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_APDSPower_CDS to Down (1/11635)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11634,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_APDSPower_BDS to Down (1/11634)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11633,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_APDSPower_ADS to Down (1/11633)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√APDS POWER ADS,BDS,CDS lt (three) – lt off",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: APDS PWR (three) – blank",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11600,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_ControlPanelPowerA to Down (1/11600)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11628,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_ControlPanelPowerB to Down (1/11628)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11629,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_ControlPanelPowerC to Down (1/11629)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: CNTL PNL PWR A,B,C (three) – blank",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11630,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_HeatersDCUPower_H1 to Down (1/11630)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11631,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_HeatersDCUPower_H2DCU to Down (1/11631)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11632,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A7_HeatersDCUPower_H3DCU to Down (1/11632)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: HTR/DCU PWR (three) – blank",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11527,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_PSUPwr_MNA to Down (1/11527)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11528,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_PSUPwr_MNB to Down (1/11528)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If post-undocking (else skip rest):",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11524,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_Sys1Vent to Down (1/11524)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11526,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_Sys2Vent to Down (1/11526)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11523,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_Sys1VentIsol to Down (1/11523)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11525,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_Sys2VentIsol to Down (1/11525)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 11503,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set A6_DockingSystem_DepressSys1Vent to Open (2/11503)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 11507,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set A6_DockingSystem_DepressSys2Vent to Open (2/11507)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 11502,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set A6_DockingSystem_DepressSys1VentIsol to Open (2/11502)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 11506,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set A6_DockingSystem_DepressSys2VentIsol to Open (2/11506)"
+    }
+  ],
+  "Images": []
+}

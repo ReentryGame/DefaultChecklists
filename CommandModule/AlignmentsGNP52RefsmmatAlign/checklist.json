@@ -157,14 +157,6 @@
     {
       "Program": 0,
       "Type": 4,
-      "SetID": 3,
-      "ToPosID": 0,
-      "Text": null,
-      "Description": "push AGCPluss (4/3)"
-    },
-    {
-      "Program": 0,
-      "Type": 4,
       "SetID": 5,
       "ToPosID": 0,
       "Text": null,
@@ -343,16 +335,8 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "N70 shows next star to mark. Accept: PRO, change: V21E PRO",
+      "Text": "N70 shows next star to mark. Press PRO to Accept, or change: V21E+000XXE PRO",
       "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 4,
-      "SetID": 16,
-      "ToPosID": 0,
-      "Text": null,
-      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,
@@ -388,27 +372,11 @@
     },
     {
       "Program": 0,
-      "Type": 4,
-      "SetID": 16,
-      "ToPosID": 0,
-      "Text": null,
-      "Description": "push AGCPro (4/16)"
-    },
-    {
-      "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
       "Text": "N05, angle diff. Accept: PRO",
       "Description": "Manual step"
-    },
-    {
-      "Program": 0,
-      "Type": 4,
-      "SetID": 16,
-      "ToPosID": 0,
-      "Text": null,
-      "Description": "push AGCPro (4/16)"
     },
     {
       "Program": 0,

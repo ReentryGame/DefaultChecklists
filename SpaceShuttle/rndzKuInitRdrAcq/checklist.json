@@ -1,0 +1,231 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "rndzKuInitRdrAcq",
+  "Group": "RENDEZVOUS",
+  "Name": "INITIAL RDR ACQ",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 930,
+  "AutoGenerate": true,
+  "checklistText": "INITIAL RADAR ACQ\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GNC 33 REL NAV",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√INH RNG - ITEM 18 - (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√INH RDOT - ITEM 21 - (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√INH Angles - ITEM 24 - (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "KU ANT ENA - ITEM 2 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GNC I/O RESET",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√SV SEL, ITEM 4 - (FLTR)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RADAR - ITEM 13 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM ANTENNA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "RDR RNG MIN - ITEM 17 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11100,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A2_DigiDis to Up (1/11100)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11006,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set A1_KuBandPower to Middle (1/11006)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11007,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set A1_KuBandMode to Middle (1/11007)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11008,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_KuBandRadarOutput to Down (1/11008)"
+    },
+    {
+      "Program": 4,
+      "Type": 3,
+      "SetID": 11008,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set A1_KuBandSelector to position 0 (3/11008)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11004,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set A1_RadioCommandMode to Down (1/11004)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11006,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A1_KuBandPower to Up (1/11006)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When lock occurs:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "GNC 33 REL NAV:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  AUTO RDOT, ITEM 20 EXEC - (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  AUTO RNG, ITEM 17 EXEC - (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  Angles, ITEM 23 EXEC - (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If RATIO > 1.0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   Force aff mark until RATIO < 1.0",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "When RESIDs small and stable",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  SM ANTENNA",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "  RDR RNG AUTO - ITEM 16 EXEC (*)",
+      "Description": "Manual step"
+    }
+  ],
+  "Images": []
+}

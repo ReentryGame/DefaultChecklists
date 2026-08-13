@@ -1,0 +1,1323 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "orbOmsBurn",
+  "Group": "OMS",
+  "Name": "OMS BURN",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 280,
+  "AutoGenerate": true,
+  "checklistText": "ON-ORBIT OMS BURN\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "1. OMS BURN PREP",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If OPS 2:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   CRT1: [GNC 20 DAP CONFIG]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √DAP Config A1, B1",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   CRT1: [GNC UNIV PTG]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   CNCL – ITEM 21 EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   GNC, OPS 202 PRO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   CRT1: [GNC ORBIT MNVR EXEC]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   CRT2: [GNC SYS SUMM 2]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If OPS 3:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   GNC, OPS 302 PRO ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   CRT1: [GNC DEORB MNVR EXEC]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   CRT3: [BFS, GNC SYS SUMM 2]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[OMS/MPS]:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √OMS PRESS He TK L,R > 1500 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √OMS PRESS N2 TK L(R) > 564 psia",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10302,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O14_RJDA_1A_Logic_L2R2 to Up (1/10302)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10303,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O14_RJDA_1A_Driver_L2R2 to Up (1/10303)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10304,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O14_RJDA_2A_Logic_L4R4 to Up (1/10304)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10305,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O14_RJDA_2A_Driver_L4R4 to Up (1/10305)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10306,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O14_RJDF_1B_Logic_F1 to Up (1/10306)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10307,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O14_RJDF_1B_Driver_F1 to Up (1/10307)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10403,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O15_RJDA_1B_Logic_L1L5R1 to Up (1/10403)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10404,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O15_RJDA_1B_Driver_L1R1 to Up (1/10404)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10405,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O15_RJDA_1A_Logic_F2 to Up (1/10405)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10406,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O15_RJDA_1A_Driver_F2 to Up (1/10406)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10502,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJDA_2B_Logic_L3R3R5 to Up (1/10502)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10503,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJDA_2B_Driver_L3R3 to Up (1/10503)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10504,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJDA_2A_Logic_F3 to Up (1/10504)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10505,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJDA_2A_Driver_F3 to Up (1/10505)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10506,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJDA_2B_Logic_F4F5 to Up (1/10506)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 10507,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O16_RJDA_2B_Driver_F4 to Up (1/10507)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10302,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O14_DDU_Left_MNA to Closed (2/10302)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10303,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O14_DDU_Aft_MNA to Closed (2/10303)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10402,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O15_DDU_Left_MNB to Closed (2/10402)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10403,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O15_DDU_Right_MNB to Closed (2/10403)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10503,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O16_DDU_Right_MNC to Closed (2/10503)"
+    },
+    {
+      "Program": 4,
+      "Type": 2,
+      "SetID": 10504,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O16_DDU_Aft_MNC to Closed (2/10504)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "2. LOAD TGT DATA",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Request burn and receive Burn Pad",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Load TGT DATA per Burn Pad",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1: LOAD – ITEM 22 EXEC ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1: TIMER – ITEM 23 EXEC ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√BURN DATA per Burn Pad ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "[C3] Configure DAP:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   If OPS 2, B/AUTO/VERN",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   If OPS 3, AUTO",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "MNVR – ITEM 27 EXEC (*)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "3. PERFORM OMS BURN",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If xfeed Burn:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √L(R) OMS TK ISOL (two) – OP (tb-OP) ",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √R(L) OMS TK ISOL (two) – CL (tb-CL) ",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √L,R OMS XFEED B (two) – OP (tb-OP) ",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If straight feed:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9713,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveA to Up (1/9713)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9714,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveB to Up (1/9714)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9715,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveA to Up (1/9715)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9716,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveB to Up (1/9716)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√L,R OMS TK ISOL (four) – OP (tb-OP)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1502,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F6_ADIRateScale to Middle (1/1502)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1702,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set F8_ADIRateScale to Middle (1/1702)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1503,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_FlightControllerPower to Up (1/1503)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1703,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_FlightControllerPower to Up (1/1703)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Perform OMS-2/ORBIT OMS BURNS (Cue Card, in checklist)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Cue Card RUN steps:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√MM105/202(302)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Enter TGO +5 sec (2 eng) or TGO +10 sec (1 eng) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√BURN ATT (INRTL) then REF, pb – push",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√ENG SEL",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√DAP TRANS – NORM (MM202) ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1503,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F6_FlightControllerPower to Up (1/1503)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1703,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set F8_FlightControllerPower to Up (1/1703)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√DAP – AUTO(PASS)/DISC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√GMBL TRIM",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   2 engine: P = +0.4 LY =  -5.7 RY = +5.7",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   1 engine: P = +0.4 LY = +5.2 RY =  -5.2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9709,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveA to Up (1/9709)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9711,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveA to Up (1/9711)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": ". . . Wait 2 sec . . . ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9710,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveB to Middle (1/9710)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9712,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveB to Middle (1/9712)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If SE burn: L,R OMS He PRESS/VAP ISOL B (two) - OP instead of GPC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "TIG-2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5200,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_LeftOMSEngControl to Middle (1/5200)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 5201,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set C3_RightOMSEngControl to Middle (1/5201)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "-:15  EXEC",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": ":00  TIG; start watch  (√Pc, √VTOT, ENG VLVs)  ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CUTOFF",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Trim Residuals (All axes < 0.2 fps)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "4. OMS POST BURN RECONFIGURATION",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CRT1: Perform OMS TVC GMBL CK, as reqd",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1703,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set F8_FlightControllerPower to Down (1/1703)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 1503,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set F6_FlightControllerPower to Down (1/1503)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "O14/15/16:E: cb DDU (six) – as reqd",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9709,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveA to Down (1/9709)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9710,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_HeValveB to Down (1/9710)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9711,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveA to Down (1/9711)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9712,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_HeValveB to Down (1/9712)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If feeding ICNCT:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √L(R) OMS XFEED A - CL (tb-CL)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √L(R) OMS XFEED B - OP (tb-OP)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √R(L) OMS XFEED (two) – CL (tb-CL)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   √L,R OMS TK ISOL (four) – OP (tb-OP) ",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Otherwise:",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9717,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedA to Down (1/9717)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9718,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Left_CrossfeedB to Down (1/9718)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9719,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedA to Down (1/9719)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9720,
+      "ToPosID": 5,
+      "Text": null,
+      "Description": "set O8_OMS_Right_CrossfeedB to Down (1/9720)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9713,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveA to Up (1/9713)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9714,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Left_TankIsolationValveB to Up (1/9714)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9715,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveA to Up (1/9715)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 9716,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set O8_OMS_Right_TankIsolationValveB to Up (1/9716)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "IF OPS 2:",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   DAP:  B/INRTL/VERN ",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   GNC, OPS 201 PRO (√DAP)",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "5. RECONFIG FOR GROUP B(C)",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "If Group B(C) PWRDN: ",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   O14/15/16:F: Pri RJD LOGIC,DRIVER (sixteen) – OFF",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "   O14/15/16:F: RJDA 1A L2/R2 MANF DRIVER – ON",
+      "Description": "Text only"
+    }
+  ],
+  "Images": [
+    {
+      "Name": "CureCard_Oms2OrbitOmsBurns.png",
+      "Position": {
+        "x": 10.0,
+        "y": 2050.0,
+        "normalized": {
+          "x": 0.00487799058,
+          "y": 0.9999881,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 2050.02441,
+        "sqrMagnitude": 4202600.0
+      },
+      "Size": {
+        "x": 512.0,
+        "y": 1022.0,
+        "normalized": {
+          "x": 0.447913349,
+          "y": 0.894077,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 1143.07825,
+        "sqrMagnitude": 1306628.0
+      }
+    }
+  ]
+}

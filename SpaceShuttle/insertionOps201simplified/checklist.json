@@ -3,6 +3,8 @@
   "ProjectName": "insertionOps201simplified",
   "Group": "POST INSERTION",
   "Name": "OPS 2 SIMPLIFIED",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 303,
   "AutoGenerate": true,
@@ -391,6 +393,14 @@
       "ToPosID": 2,
       "Text": null,
       "Description": "set O6_GPC5Mode to Middle (1/9514)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Wait 5 seconds",
+      "Description": "Manual step"
     },
     {
       "Program": 4,

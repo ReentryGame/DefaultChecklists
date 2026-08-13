@@ -1,0 +1,255 @@
+{
+  "Spacecraft": 4,
+  "ProjectName": "rndzDockingMechPwrUp",
+  "Group": "RENDEZVOUS",
+  "Name": "DOCK MECH POWERUP",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 902,
+  "AutoGenerate": true,
+  "checklistText": "DOCKING MECHANISM POWERUP\n",
+  "Steps": [
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "SM 167 DOCKING STATUS",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11519,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_MNA to Up (1/11519)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11520,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_MNB to Up (1/11520)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11527,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_PSUPwr_MNA to Up (1/11527)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11528,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A6_DockingSystemPower_PSUPwr_MNB to Up (1/11528)"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11630,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_HeatersDCUPower_H1 to Up (1/11630)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11631,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_HeatersDCUPower_H2DCU to Up (1/11631)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11632,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_HeatersDCUPower_H3DCU to Up (1/11632)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√HTR/DCU PWR – A/B/C",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: RNG DR BUS – 1/2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: HKS DR BUS – 1/2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: DAMPER BUS – 1/2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: FIXER BUS – 1/2",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11600,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_ControlPanelPowerA to Up (1/11600)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11628,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_ControlPanelPowerB to Up (1/11628)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11629,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_ControlPanelPowerC to Up (1/11629)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: CNTL PNL PWR – A/B/C",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11633,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_APDSPower_ADS to Up (1/11633)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11634,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_APDSPower_BDS to Up (1/11634)"
+    },
+    {
+      "Program": 4,
+      "Type": 1,
+      "SetID": 11635,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set A7_APDSPower_CDS to Up (1/11635)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√APDS POWER ADS,BDS,CDS lt (three) – lt on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√CRT: APDS PWR – A/B/C",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 7,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "",
+      "Description": "Text only"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 11608,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push A7_APDS_LampTest (4/11608)"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√STATUS lt (eighteen) – lt on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "√PYRO CIRCUIT PROTECT OFF lt – lt on",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 4,
+      "Type": 4,
+      "SetID": 11608,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "push A7_APDS_LampTest (4/11608)"
+    }
+  ],
+  "Images": []
+}

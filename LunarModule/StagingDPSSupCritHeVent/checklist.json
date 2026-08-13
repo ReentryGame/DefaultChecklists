@@ -9,6 +9,71 @@
   "SortPriority": 1510,
   "AutoGenerate": false,
   "checklistText": "DPS SUPERCRITICAL He VENTING (LUNAR SURFACE ONLY)\r\n\r\n\tDPS Propellant Tank Venting is\r\n\tprerequisite to this procedure \r\n\r\n1.\tVent supercritical helium:\r\n\r\nPANEL 1:\r\n\t\tHELIUM MON sel - SUPERCRIT PRESS\r\n\t\tPRPLNT TEMP/PRESS MON sw - DES 1\r\nPANEL 8:\r\n\t\tDES PROPUL:\r\n\t\t\tFUEL VENT sw - OPEN: tb - gray\r\n\t\t\tOXID VENT sw - OPEN: tb - gray\r\nPANEL 1:\r\n\t\tDES He REG 1 sw - OPEN: tb - gray\r\n\t\tDES He REG 2 sw - OPEN: tb - gray\r\nPANEL 11:\r\n\t\tCB PROPUL: DES He REG/VENT - open\r\n\r\nRemarks:\r\nFUEL VENT latching valve is open when tb - gray\r\nOXID VENT latching valve is open when tb - gray\r\nREG 1 & 2 SOV's and vent velves will be left open to\r\ninsure that descent supercritical helium, fuel and\r\noxidizer tanks will be at minimum pressure when ascent\r\nengine FITH occurs.\r\n\t\t\r\n2.\tVerify supercritical helium pressure decreasing\n\n\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 3,
+      "SetID": 4,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_HeliumMon to position 2 (3/4)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 51,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P01_PrplntTempMon to Middle (1/51)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 38,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_DesPropulsion_FuelVent to Up (1/38)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 39,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P08_DesPropulsion_OxidVent to Up (1/39)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 54,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_DescentHeReg1 to Up (1/54)"
+    },
+    {
+      "Program": 1,
+      "Type": 1,
+      "SetID": 55,
+      "ToPosID": 4,
+      "Text": null,
+      "Description": "set P01_DescentHeReg2 to Up (1/55)"
+    },
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 121,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P11_Prop_DESHeRegVent to Open (2/121)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Verify supercritical helium pressure decreasing",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

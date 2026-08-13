@@ -15,6 +15,22 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
+      "Text": "Switch to the CM [F4]",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "CM: Maneuver so Roll ~0.0°, Pitch ~105.0°,  Yaw ~0.0°",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
       "Text": "[C] -> CREW MEMBERS -> REQUEST PADS & CHARTS -> OPEN LM DOCKED IMU COARSE ALIGN form",
       "Description": "Manual step"
     },
@@ -48,6 +64,14 @@
       "SetID": 0,
       "ToPosID": 0,
       "Text": "Calculate LM angles",
+      "Description": "Manual step"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "Switch to the LM [F4]",
       "Description": "Manual step"
     },
     {

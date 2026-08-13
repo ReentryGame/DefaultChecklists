@@ -3,8 +3,11 @@
   "ProjectName": "InsertionECS",
   "Group": "INSERTION",
   "Name": "ECS POST INSERTION",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 302,
+  "AutoGenerate": false,
   "checklistText": "\t\tECS Postinsertion Configuration\r\n\r\n\tSec rad leak check\r\n\r\nPanel 2:\r\n\tMon SEC ACCUM QTY ind\r\n\r\nPanel 377:\r\n\tGLY TO RAD SEC vlv - NORM\r\n\t\tfor 30 sec, then BYP\r\n\r\nPanel 8:\r\n\tcb PL VENT FLT/PL - open\r\n\r\nPanel 325:\r\n\tCAB PRESS RELF vlv (2) - NORM\r\n\t\t(safety latch on)\r\n\r\nPanel 2:\r\n\tPRIM GLY EVAP STM PRESS ind -\r\n\t\t0.09-0.14 psia\r\n\tPRIM GLY EVAP OUT TEMP ind - 38-43°F\r\n\n\tInit rad flow\r\n\r\nPanel 326:\r\n\tGLY RSVR BYP vlv - OPEN\r\n\tGLY RSVR OUT vlv - CLOSE\r\n\tGLY RSVR IN vlv - CLOSE\r\n\r\nPanel 2:\r\n\tPRIM ACCUM QTY ind - 25-50%\r\n\r\nPanel 379, 2:\r\n\t\tPRIM ACCUM FILL vlv - ON, until\r\n\t\t\t50% is reached\r\n\r\nPanel 2:\r\n\tRAD FLOW CONT PWR - PWR\r\n\r\nPanel 325:\r\n\tPRIM GLY TO RAD - NORM\r\n\r\nPanel 2:\r\n\tRAD PRIM HTR - 1\r\n\t\tRAD PRIM OUT TEMP ind - below\r\n\t\t\tRAD PRIM IN TEMP ind\r\n\r\n\tRemarks: ECS primary loop radiators again isolated.\n\t\tIn 10 minutes, flow through radiators in attemted once\n\t\tmore by repeating proecdure:\n\t\rXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\tX\tOutlet temp > than inlet after 5 min\r\tX\nPanel 325:\r\n\t\t\tPRIM GLY TO RAD - BYP (pull),\r\n\tX\t\t\trecheck in 10 min\r\t\t\t\tX\n\tXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\r\nPanel 304:\r\n\tDRINK H2O SUP vlv - ON (CCW)\r\n\r\nPanel 2:\r\n\tECS RAD tb - gray\r\n\r\n\tPOT H2O HTR - MNA\r\n\tGLY EVAP IN TEMP - AUTO\r\n\r\nPanel 5:\r\n\tcb WASTE DUMP HTRS (2) - close\r\n\r\nPanel 326:\r\n\tREPRESS PKG vlv - FILL for 10 sec,\r\n\t\tthen OFF\r\n\r\nPanel 602:\r\n\tREPRESS O2 PRESS ind  - >865 psia\r\n\r\n\r\n\r\n\r\n",
   "Steps": [
     {
@@ -12,203 +15,232 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[MDC-2] Mon SEC ACCUM QTY ind"
+      "Text": "[MDC-2] Mon SEC ACCUM QTY ind",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
-      "Type": 2,
-      "SetID": 167,
-      "ToPosID": 2,
-      "Text": null
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 1,
+      "Text": null,
+      "Description": "set P377_GlyToRadSec to position 1 (3/29)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Wait 30 seconds, then pull to BYPASS"
+      "Text": "Wait 30 seconds.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
-      "Type": 2,
-      "SetID": 167,
-      "ToPosID": 1,
-      "Text": null
+      "Type": 3,
+      "SetID": 29,
+      "ToPosID": 0,
+      "Text": null,
+      "Description": "set P377_GlyToRadSec to position 0 (3/29)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 168,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set PLVentFLTPL to Open (2/168)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 60,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief1 to position 1 (3/60)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 61,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P325_CabinPressureRelief2 to position 1 (3/61)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "PRIM GLY EVAP OUT TEMP ind - 38-43F"
+      "Text": "PRIM GLY EVAP OUT TEMP ind - 38-43F",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 63,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Bypass to position 0 (3/63)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 64,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Outlet to position 1 (3/64)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 62,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_GlycolReservoir_Inlet to position 1 (3/62)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "PRIM ACCUM QTY ind - 25-50%"
+      "Text": "PRIM ACCUM QTY ind - 25-50%",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 32,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P379_PrimAccumFill to position 0 (3/32)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Monitor on MDC-2: Fill until 50% reached."
+      "Text": "Monitor on MDC-2: Fill until 50% reached.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 188,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorFlowContPower to Up (1/188)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 167,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set PrimaryGlycolToRadiators to Closed (2/167)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 191,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set RadiatorHeaterPrimary to Up (1/191)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Monitor GLY PRIM OUT and IN TEMP for 5 min."
+      "Text": "Monitor GLY PRIM OUT and IN TEMP for 5 min.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Outlet temp > than inlet temp after 5 min then PRIM GLY TO RAD bypass, retry in 10 minutes."
+      "Text": "Outlet temp > than inlet temp after 5 min then PRIM GLY TO RAD bypass, retry in 10 minutes.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 53,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P304_DrinkingWaterSupply to position 0 (3/53)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "[MDC-2] ECS RAD tb - gray"
+      "Text": "[MDC-2] ECS RAD tb - gray",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 176,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set PotH2OHtr to Up (1/176)"
     },
     {
       "Program": 0,
       "Type": 1,
       "SetID": 169,
       "ToPosID": 4,
-      "Text": null
+      "Text": null,
+      "Description": "set GlycolEvapTempInAuto to Up (1/169)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 87,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set WasteH2OUrineDumpMNA to Closed (2/87)"
     },
     {
       "Program": 0,
       "Type": 2,
       "SetID": 88,
       "ToPosID": 2,
-      "Text": null
+      "Text": null,
+      "Description": "set WasteH2OUrineHtrMNB to Closed (2/88)"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 65,
       "ToPosID": 0,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 0 (3/65)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Fill for 10 seconds, then OFF."
+      "Text": "Fill for 10 seconds, then OFF.",
+      "Description": "Manual step"
     },
     {
       "Program": 0,
       "Type": 3,
       "SetID": 65,
       "ToPosID": 1,
-      "Text": null
+      "Text": null,
+      "Description": "set P326_OxygenRepressPkg to position 1 (3/65)"
     },
     {
       "Program": 0,
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "P-602: REPRESS O2 PRESS ind > 865 psia"
+      "Text": "P-602: REPRESS O2 PRESS ind > 865 psia",
+      "Description": "Manual step"
     }
   ],
   "Images": []

@@ -3,10 +3,12 @@
   "ProjectName": "InsertionInsertion",
   "Group": "INSERTION",
   "Name": "INSERTION",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 0,
   "SortPriority": 31,
   "AutoGenerate": false,
-  "checklistText": "<size=24>INSERTION</size>\n\n1. BOOSTER-INSERT \t\t\t\t\t- SAFE\n2. RETROROCKET SQUIBS (4) \t\t\t- SAFE\n3. SEQ LIGHTS TEST \t\t\t\t\t- RED & GREEN/AMBER\n4. LEFT SEC O2 BOTTLE SHUTOFF \t- CLOSED\n5. ATT IND LIGHTS C/B \t\t\t\t- CLOSED\n6. CTR LIGHTS \t\t\t\t\t\t- AS REQUIRED\n7. OAMS HTRS C/B \t\t\t\t\t- CLOSED\n8. H2O HTRS C/B'S \t\t\t\t\t- CLOSED\n9. ACME BIAS PWR \t\t\t\t\t- PRI\n10. ROLL JETS \t\t\t\t\t\t- YAW\n11. ATTITUDE DRIVERS \t\t\t\t- PRI\n12. SUIT FAN \t\t\t\t\t\t- NO. 1 & 2\n13. PRIMARY PUMP A \t\t\t\t- ON\n14. SECONDARY PUMP A \t\t\t\t- ON\n15. ANT SEL \t\t\t\t\t\t- ADPT\n16. CRY QTY \t\t\t\t\t\t- OFF\n17. RECORD \t\t\t\t\t\t\t- OFF\n18. MAIN BATTERIES (4) \t\t\t\t- OFF\n19. SQUIB BATTERIES (4) \t\t\t\t- ON\n20. AC POWER \t\t\t\t\t\t- IGS\n21. RIGHT SEC O2 BOTTLE SHUTOFF \t- CLOSED\n22. VOLTMETER \t\t\t\t\t\t- C\n23. OAMS CNTL PWR \t\t\t\t\t- OFF\n24. OAMS PROP MOTOR VALVES \t\t- CLOSED\n25. RCS PROP MOTOR VALVES \t\t\t- CLOSED\n26. RADIATOR \t\t\t\t\t\t- BYPASS\n27. COMPUTER \t\t\t\t\t\t- CTCH UP\n\n<size=22>AT T+30 MINS:</size>\nREQUEST RADIATOR TEMP CHECK\nFOLLOW INSTRUCTIONS FOR RADIATOR BY-PASS OR FLOW",
+  "checklistText": "<size=24>INSERTION</size>\n\n1. BOOSTER-INSERT \t\t\t\t\t- SAFE\n2. RETROROCKET SQUIBS (4) \t\t\t- SAFE\n3. SEQ LIGHTS TEST \t\t\t\t\t- RED & GREEN/AMBER\n4. LEFT SEC O2 BOTTLE SHUTOFF \t- CLOSED\n5. ATT IND LIGHTS C/B \t\t\t\t- CLOSED\n6. CTR LIGHTS \t\t\t\t\t\t- AS REQUIRED\n7. OAMS HTRS C/B \t\t\t\t\t- CLOSED\n8. H2O HTRS C/B'S \t\t\t\t\t- CLOSED\n9. ACME BIAS PWR \t\t\t\t\t- PRI\n10. ROLL JETS \t\t\t\t\t\t- YAW\n11. ATTITUDE DRIVERS \t\t\t\t- PRI\n12. SUIT FAN \t\t\t\t\t\t- NO. 1 & 2\n13. PRIMARY PUMP A \t\t\t\t- ON\n14. SECONDARY PUMP A \t\t\t\t- ON\n15. ANT SEL \t\t\t\t\t\t- ADPT\n16. CRY QTY \t\t\t\t\t\t- OFF\n17. RECORD \t\t\t\t\t\t\t- OFF\n18. MAIN BATTERIES (4) \t\t\t\t- OFF\n19. SQUIB BATTERIES (3) \t\t\t\t- ON\n20. AC POWER \t\t\t\t\t\t- IGS\n21. RIGHT SEC O2 BOTTLE SHUTOFF \t- CLOSED\n22. VOLTMETER \t\t\t\t\t\t- C\n23. OAMS CNTL PWR \t\t\t\t\t- OFF\n24. OAMS PROP MOTOR VALVES \t\t- CLOSED\n25. RCS PROP MOTOR VALVES \t\t\t- CLOSED\n26. RADIATOR \t\t\t\t\t\t- BYPASS\n27. COMPUTER \t\t\t\t\t\t- CTCH UP\n\n<size=22>AT T+30 MINS:</size>\nREQUEST RADIATOR TEMP CHECK\nFOLLOW INSTRUCTIONS FOR RADIATOR BY-PASS OR FLOW",
   "Steps": [
     {
       "Program": 2,
@@ -206,7 +208,7 @@
       "SetID": 14,
       "ToPosID": 4,
       "Text": null,
-      "Description": "set SquibBattery1 to Middle (1/14)"
+      "Description": "set SquibBattery1 to Up (1/14)"
     },
     {
       "Program": 2,
@@ -214,7 +216,7 @@
       "SetID": 15,
       "ToPosID": 4,
       "Text": null,
-      "Description": "set SquibBattery2 to Middle (1/15)"
+      "Description": "set SquibBattery2 to Up (1/15)"
     },
     {
       "Program": 2,
@@ -222,7 +224,7 @@
       "SetID": 16,
       "ToPosID": 4,
       "Text": null,
-      "Description": "set SquibBattery3 to Middle (1/16)"
+      "Description": "set SquibBattery3 to Up (1/16)"
     },
     {
       "Program": 2,
