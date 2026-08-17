@@ -207,7 +207,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√SYS PWR MN A,MN B (two) – ctr",
+      "Text": "√SYS PWR MN A,MN B (two) – ctr",
       "Description": "Manual step"
     },
     {
@@ -215,7 +215,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√SYS 1,SYS 2 tb (two) – OFF",
+      "Text": "√SYS 1,SYS 2 tb (two) – OFF",
       "Description": "Manual step"
     },
     {
@@ -239,7 +239,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√PMA 2/3 HOOKS SYS A,SYS B (two) – ctr",
+      "Text": "√PMA 2/3 HOOKS SYS A,SYS B (two) – ctr",
       "Description": "Manual step"
     },
     {
@@ -247,7 +247,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√GRP 1,2 tb (two) – bp",
+      "Text": "√GRP 1,2 tb (two) – bp",
       "Description": "Manual step"
     },
     {
@@ -383,7 +383,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√APDS POWER ADS,BDS,CDS lt (three) – lt off",
+      "Text": "√APDS POWER ADS,BDS,CDS lt (three) – lt off",
       "Description": "Manual step"
     },
     {
@@ -391,7 +391,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√STATUS lt (eighteen) – lt off",
+      "Text": "√STATUS lt (eighteen) – lt off",
       "Description": "Manual step"
     },
     {
@@ -423,7 +423,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√PYROS AP,BP,CP lt (three) – lt off",
+      "Text": "√PYROS AP,BP,CP lt (three) – lt off",
       "Description": "Manual step"
     },
     {
@@ -431,7 +431,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√PYRO CIRCUIT PROTECT OFF lt – lt off",
+      "Text": "√PYRO CIRCUIT PROTECT OFF lt – lt off",
       "Description": "Manual step"
     },
     {

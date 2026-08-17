@@ -6,7 +6,7 @@
   "Side": 0,
   "SortPriority": 220,
   "AutoGenerate": true,
-  "checklistText": "<b>ET PHOTO MANEUVER/MPS DUMP</b>\n*\r  If OMS 1 Burn performed, go to \r  *\n*  POST BURN STATUS                    *\n√MCC\n\tADI – REF\n\n<b>MPS DUMP start</b> (MECO + 2:03)\nC3\tDAP – INRTL: R (DISC), P (PULSE), Y (DISC), \n\nPitch up, control pitch rate 2°/sec to 3°/sec.\nWhen ET in O/H window (P ~90):\n\tP – DISC\n\tAdjust pitch photo att as reqd for MS\n\n<b>MPS DUMP complete</b>\n√BDY FLP pb – lt off (MECO + 4 min)",
+  "checklistText": "<b>ET PHOTO MANEUVER/MPS DUMP</b>\n*\r  If OMS 1 Burn performed, go to \r  *\n*  POST BURN STATUS                    *\n√MCC\n\tADI – REF\n\n<b>MPS DUMP start</b> (MECO + 2:03)\nC3\tDAP – INRTL: R (DISC), P (PULSE), Y (DISC), \n\nPitch up, control pitch rate 2°/sec to 3°/sec.\nWhen ET in O/H window (P ~90):\n\tP – DISC\n\tAdjust pitch photo att as reqd for MS\n\n<b>MPS DUMP complete</b>\n√BDY FLP pb – lt off (MECO + 4 min)",
   "Steps": [
     {
       "Program": 4,

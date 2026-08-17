@@ -69,7 +69,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√MAN SEL (ten) – (no *)",
+      "Text": "√MAN SEL (ten) – (no *)",
       "Description": "Manual step"
     },
     {
@@ -77,7 +77,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√PBD SW BYPASS – (no *) ",
+      "Text": "√PBD SW BYPASS – (no *) ",
       "Description": "Manual step"
     },
     {
@@ -117,7 +117,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√OP/CL STATUS (ten) – CL ",
+      "Text": "√OP/CL STATUS (ten) – CL ",
       "Description": "Manual step"
     },
     {
@@ -133,7 +133,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√CENTER LATCHES 5-8,9-12 (two) – blank,OP (~20 sec)",
+      "Text": "√CENTER LATCHES 5-8,9-12 (two) – blank,OP (~20 sec)",
       "Description": "Manual step"
     },
     {
@@ -141,7 +141,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√CENTER LATCHES 1-4,13-16 (two) – blank,OP (~20 sec) ",
+      "Text": "√CENTER LATCHES 1-4,13-16 (two) – blank,OP (~20 sec) ",
       "Description": "Manual step"
     },
     {
@@ -149,7 +149,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√STBD FWD,AFT LATCHES (two) – blank,OP (~30 sec) ",
+      "Text": "√STBD FWD,AFT LATCHES (two) – blank,OP (~30 sec) ",
       "Description": "Manual step"
     },
     {
@@ -157,7 +157,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√STBD DOOR – RDY,blank,OP (~63 sec) ",
+      "Text": "√STBD DOOR – RDY,blank,OP (~63 sec) ",
       "Description": "Manual step"
     },
     {
@@ -165,7 +165,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√PORT FWD,AFT LATCHES (two) – blank,OP (~30 sec)",
+      "Text": "√PORT FWD,AFT LATCHES (two) – blank,OP (~30 sec)",
       "Description": "Manual step"
     },
     {
@@ -173,7 +173,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√PORT DOOR – RDY,blank,OP (~63 sec) ",
+      "Text": "√PORT DOOR – RDY,blank,OP (~63 sec) ",
       "Description": "Manual step"
     },
     {
@@ -221,7 +221,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√OP/CL STATUS (ten) – OP ",
+      "Text": "√OP/CL STATUS (ten) – OP ",
       "Description": "Manual step"
     },
     {

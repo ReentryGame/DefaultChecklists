@@ -309,7 +309,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "After 6 sec, √CTRLINE LAT tb – STO",
+      "Text": "√After 6 sec, √CTRLINE LAT tb – STO",
       "Description": "Manual step"
     },
     {
@@ -341,7 +341,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "After 24 sec, √L,R DR tb (two) – CL",
+      "Text": "√After 24 sec, √L,R DR tb (two) – CL",
       "Description": "Manual step"
     },
     {
@@ -365,7 +365,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "After 6 sec, √L,R LAT tb (two) – LAT",
+      "Text": "√After 6 sec, √L,R LAT tb (two) – LAT",
       "Description": "Manual step"
     },
     {

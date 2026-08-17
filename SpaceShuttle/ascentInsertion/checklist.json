@@ -381,7 +381,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "F2,F4:    √BFC lt – off",
+      "Text": "F2,F4:    √BFC lt – off",
       "Description": "Manual step"
     },
     {
@@ -621,7 +621,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√All IDPs deassigned from BFS",
+      "Text": "√All IDPs deassigned from BFS",
       "Description": "Manual step"
     },
     {

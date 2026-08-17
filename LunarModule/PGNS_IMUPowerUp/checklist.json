@@ -3,9 +3,29 @@
   "ProjectName": "PGNS_IMUPowerUp",
   "Group": "G&C GENERAL",
   "Name": "IMU Power Up",
+  "NameTranslations": {},
+  "CustomName": null,
   "Side": 1,
   "SortPriority": 1103,
+  "AutoGenerate": false,
   "checklistText": "<size=21>IMU POWER-UP</size>\r\n\nCHECKLIST: LGC Power-Up (required)\n\n1.\n\tPANEL 11:\tCB PGNS:\tIMU OPR - close\n\tPANEL 4:\tNO ATT Lt - on for 90 sec, then off\n\n",
-  "Steps": [],
+  "Steps": [
+    {
+      "Program": 1,
+      "Type": 2,
+      "SetID": 140,
+      "ToPosID": 2,
+      "Text": null,
+      "Description": "set P11_PGNS_IMU_OPR to Closed (2/140)"
+    },
+    {
+      "Program": 1,
+      "Type": 0,
+      "SetID": 0,
+      "ToPosID": 0,
+      "Text": "NO ATT Lt - on for 90 sec, then off",
+      "Description": "Manual step"
+    }
+  ],
   "Images": []
 }

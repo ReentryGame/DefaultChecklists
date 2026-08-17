@@ -61,7 +61,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "DAP – AUTO(PASS)/DISC",
+      "Text": "√DAP – AUTO(PASS)/DISC",
       "Description": "Manual step"
     },
     {
@@ -165,7 +165,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "TIG 00:00: Start watch (Pc, VTOT, ENG VLVs)",
+      "Text": "TIG 00:00: Start watch (√Pc, VTOT, ENG VLVs)",
       "Description": "Manual step"
     },
     {
@@ -221,7 +221,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Uplinked INRTL EI-5 MM303 ATT with DEL PAD",
+      "Text": "√Uplinked INRTL EI-5 MM303 ATT with DEL PAD",
       "Description": "Manual step"
     },
     {
@@ -413,7 +413,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√TK ISOL (six) – GPC (tb-OP) ",
+      "Text": "√TK ISOL (six) – GPC (tb-OP) ",
       "Description": "Manual step"
     },
     {
@@ -453,7 +453,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√XFEED (four) – GPC (tb-CL) ",
+      "Text": "√XFEED (four) – GPC (tb-CL) ",
       "Description": "Manual step"
     },
     {
@@ -541,7 +541,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√TK ISOL (four) – OP (tb-OP)",
+      "Text": "√TK ISOL (four) – OP (tb-OP)",
       "Description": "Manual step"
     },
     {

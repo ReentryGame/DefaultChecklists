@@ -29,7 +29,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√TGT ID +2",
+      "Text": "√TGT ID +2",
       "Description": "Manual step"
     },
     {
@@ -45,7 +45,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√P    +90",
+      "Text": "√P    +90",
       "Description": "Manual step"
     },
     {
@@ -53,7 +53,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√Y    +0.0",
+      "Text": "√Y    +0.0",
       "Description": "Manual step"
     },
     {

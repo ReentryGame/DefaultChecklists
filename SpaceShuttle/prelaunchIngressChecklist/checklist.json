@@ -989,7 +989,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify √CAB VENT ISOL tb-OP, √CAB VENT tb-CL",
+      "Text": "Verify √CAB VENT ISOL tb-OP, √CAB VENT tb-CL",
       "Description": "Manual step"
     },
     {
@@ -1005,7 +1005,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√CAB PRESS – incr to 16.7 (MA)",
+      "Text": "√CAB PRESS – incr to 16.7 (MA)",
       "Description": "Manual step"
     },
     {
@@ -1061,7 +1061,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Verify √CAB VENT ISOL tb-CL, √CAB VENT tb-OP",
+      "Text": "Verify √CAB VENT ISOL tb-CL, √CAB VENT tb-OP",
       "Description": "Manual step"
     },
     {
@@ -1101,7 +1101,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√CAB PRESS – decr to 14.7",
+      "Text": "√CAB PRESS – decr to 14.7",
       "Description": "Manual step"
     }
   ],

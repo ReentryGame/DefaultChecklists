@@ -1031,7 +1031,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "APU/HYD RDY tb (three) - gray",
+      "Text": "APU/HYD RDY tb (three) - gray",
       "Description": "Manual step"
     },
     {
@@ -1087,7 +1087,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "MEDS HYD/APU> HYD PRESS ind (three) - LO green",
+      "Text": "MEDS HYD/APU> HYD PRESS ind (three) - LO green",
       "Description": "Manual step"
     },
     {
@@ -1095,7 +1095,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "R2\tAPU/HYD RDY tb (three) - bp ",
+      "Text": "R2\tAPU/HYD RDY tb (three) - bp ",
       "Description": "Manual step"
     },
     {
@@ -1127,7 +1127,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "MEDS HYD/APU> HYD PRESS ind (three) - HI green",
+      "Text": "MEDS HYD/APU> HYD PRESS ind (three) - HI green",
       "Description": "Manual step"
     },
     {

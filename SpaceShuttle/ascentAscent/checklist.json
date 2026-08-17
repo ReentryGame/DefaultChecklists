@@ -37,7 +37,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "Pc < 50+5 s  √SRB SEP (Backup AUTO SEP 2:21)",
+      "Text": "Pc < 50+5 s  √SRB SEP (Backup AUTO SEP 2:21)",
       "Description": "Manual step"
     },
     {
@@ -69,7 +69,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "3:00  √EVAP OUT (T < 60)",
+      "Text": "√3:00  √EVAP OUT (T < 60)",
       "Description": "Manual step"
     },
     {
@@ -181,7 +181,7 @@
       "Type": 7,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "*        OPS 104 – PRO (√BFS 104)",
+      "Text": "*        OPS 104 – PRO (√BFS 104)",
       "Description": "Text only"
     },
     {

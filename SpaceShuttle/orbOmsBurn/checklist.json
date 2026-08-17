@@ -839,7 +839,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√MM105/202(302)",
+      "Text": "√MM105/202(302)",
       "Description": "Manual step"
     },
     {
@@ -855,7 +855,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√BURN ATT (INRTL) then REF, pb – push",
+      "Text": "√BURN ATT (INRTL) then REF, pb – push",
       "Description": "Manual step"
     },
     {
@@ -863,7 +863,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√ENG SEL",
+      "Text": "√ENG SEL",
       "Description": "Manual step"
     },
     {
@@ -871,7 +871,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√DAP TRANS – NORM (MM202) ",
+      "Text": "√DAP TRANS – NORM (MM202) ",
       "Description": "Manual step"
     },
     {
@@ -895,7 +895,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√DAP – AUTO(PASS)/DISC",
+      "Text": "√DAP – AUTO(PASS)/DISC",
       "Description": "Manual step"
     },
     {
@@ -903,7 +903,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "√GMBL TRIM",
+      "Text": "√GMBL TRIM",
       "Description": "Manual step"
     },
     {
