@@ -16,11 +16,13 @@ main_key_fields = [
     'SortPriority',
     'Spacecraft',
     'Steps',
-    'AutoGenerate'
+    'AutoGenerate',
+    'NameTranslations'
 ]
 
 main_key_fields_ignorable = [
-    'AutoGenerate'
+    'AutoGenerate',
+    'NameTranslations'
 ]
 
 main_key_types = {
