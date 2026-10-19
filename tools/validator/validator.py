@@ -35,7 +35,8 @@ main_key_types = {
     'SortPriority': int,
     'Spacecraft': int,
     'Steps': list,
-    'AutoGenerate': bool
+    'AutoGenerate': bool,
+    'NameTranslations': dict
 }
 
 step_key_fields = ['Program', 'Type', 'SetID', 'ToPosID', 'Text', 'Description']
