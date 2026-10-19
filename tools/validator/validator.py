@@ -76,8 +76,8 @@ for checklist in glob.glob('*/*/checklist.json'):
             print(checklist, 'MAIN', main_key, 'Invalid (unknown) key')
             file_ok = False
             all_valid = False
-        if main_key is not None and type(j[main_key]) != main_key_types[main_key]:
-            print(checklist, 'MAIN', main_key, 'Key has wrong type')
+        if j[main_key] is not None and type(j[main_key]) != main_key_types[main_key]:
+            print(checklist, 'MAIN', main_key, 'Key has wrong type', type(j[main_key]), 'expected', main_key_types[main_key])
             file_ok = False
             all_valid = False
     for step in j['Steps']:
