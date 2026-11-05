@@ -55,7 +55,7 @@
       "Type": 0,
       "SetID": 0,
       "ToPosID": 0,
-      "Text": "N42 - HA, HP, ΔV (.1nm, .1nm, .1fps) (ACCPET: PRO, V37E00E REJECT)",
+      "Text": "N42 - HA, HP, ΔV (.1nm, .1nm, .1fps) (ACCEPT: PRO, V37E00E REJECT)",
       "Description": "Manual step"
     },
     {
