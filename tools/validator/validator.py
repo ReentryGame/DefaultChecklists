@@ -16,11 +16,15 @@ main_key_fields = [
     'SortPriority',
     'Spacecraft',
     'Steps',
-    'AutoGenerate'
+    'AutoGenerate',
+    'NameTranslations',
+    'CustomName'
 ]
 
 main_key_fields_ignorable = [
-    'AutoGenerate'
+    'AutoGenerate',
+    'NameTranslations',
+    'CustomName'
 ]
 
 main_key_types = {
@@ -33,7 +37,9 @@ main_key_types = {
     'SortPriority': int,
     'Spacecraft': int,
     'Steps': list,
-    'AutoGenerate': bool
+    'AutoGenerate': bool,
+    'NameTranslations': dict,
+    'CustomName': str
 }
 
 step_key_fields = ['Program', 'Type', 'SetID', 'ToPosID', 'Text', 'Description']
@@ -70,8 +76,8 @@ for checklist in glob.glob('*/*/checklist.json'):
             print(checklist, 'MAIN', main_key, 'Invalid (unknown) key')
             file_ok = False
             all_valid = False
-        if type(j[main_key]) != main_key_types[main_key]:
-            print(checklist, 'MAIN', main_key, 'Key has wrong type')
+        if j[main_key] is not None and type(j[main_key]) != main_key_types[main_key]:
+            print(checklist, 'MAIN', main_key, 'Key has wrong type', type(j[main_key]), 'expected', main_key_types[main_key])
             file_ok = False
             all_valid = False
     for step in j['Steps']:
