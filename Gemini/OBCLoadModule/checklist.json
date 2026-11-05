@@ -1,0 +1,14 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "OBCLoadModule",
+  "Group": "OBC",
+  "Name": "LOAD MODULE",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 75,
+  "AutoGenerate": false,
+  "checklistText": "<size=22>LOAD OBC MODULE</size>\n\nSIMPLE OBC MODE:\nRotate the COMPUTER MODE selector while the AUX TAPE is in AUTO to trigger loads. The memory will be overwritten with a new MODULE only when the load completes.\n\nADVANCED OBC MODE:\nProgram Modules:\nMODULE I: \tPRE-LAUNCH\nMODULE II: \tASCENT\nMODULE III:\tCATCH-UP / RENDEZVOUS\nMODULE IV:\tTD PRED / RE-ENTRY\n\nAll modules are stored as words (Tape Position Word, TPW) on a tape.\nID\t\tFIRST\tLAST\nIII.\t\t090\t\t130\nIV.\t\t133\t\t159\nV.\t\t176\t\t207\n\nThe different program flows required by the COMPUTER selector must be loaded in memory to function.\n\nThe COMPUTER selector must be in PRE LN to allow loading of modules.\n\nTo load a module, use CORE 62: WWWMM. The 3-digit First Tape Position Word of the module to load followed by a 2-digit mode.\nMODE 01: REPROGRAM\nMODE 02: VERIFY\nMODE 03: REPROGRAM & VERIFY\n\nTo load MODULE III:\n62|09001 ENTER\n\nTo load MODULE IV:\n62|13301 ENTER\n\nPROCEDURE:\n1.  AC POWER SW\t\t\t- IGS\r\n2.  COMPUTER MODE\t\t- PRE-LN\r\n3.  COMPUTER POWER\t\t- ON\r\nA.  MDU P0WER\t\t\t- ON\r\n5.  ATM POWER SWITCH\t- OFF\r\n6.  ATM MODE SWITCH\t\t- STBY\n7.  Insert desired ATM command via MDU address 62, First Tape Position Word and\r then Operation Code.\n8.  ATM Power Switch\t- ON\r\n9.  ATM Mode Switch\t\t- AUTO\r\n10. MONITOR IVI's and TAPE LIGHT\r\nll. At end of commanded function, the L/R IVI will read one less than the\r TPW after EOP value, and the tape light will go out.\r\n12. ATM Mode Switch\t\t- STBY\r\n13. ATM Power Switch\t- OFF\r\n14. Select desired computer mode\n",
+  "Steps": [],
+  "Images": []
+}

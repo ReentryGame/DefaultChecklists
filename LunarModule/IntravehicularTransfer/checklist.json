@@ -3,11 +3,12 @@
   "ProjectName": "IntravehicularTransfer",
   "Group": "ACTIVATION",
   "Name": "Intravehicular Transfer",
+  "NameTranslations": {},
   "CustomName": null,
   "Side": 0,
   "SortPriority": 110,
   "AutoGenerate": false,
-  "checklistText": "<size=21>INITIAL INTRAVEHICULAR TRANSFER TO LM/CSM</size>\r\n\n1.\tCM/LM are docked\n2.\tEqualize the pressure using LM tunnel hatch\n3.\tOpen hatch using the Tools menu\n4.\tPress F4 to switch between the active spacecrafts.\n",
+  "checklistText": "<size=21>INITIAL INTRAVEHICULAR TRANSFER TO LM/CSM</size>\r\n\n1.\tCM/LM are docked\n2.\tEqualize the pressure using LM tunnel hatch\n3.\tOpen hatch using the Tools menu\n4.\tPress F4 to switch between the active spacecrafts.\n\nMove the LMP and CDR into the craft:\nCREW MEMBERS -> MANAGE CREW\n",
   "Steps": [],
   "Images": []
 }

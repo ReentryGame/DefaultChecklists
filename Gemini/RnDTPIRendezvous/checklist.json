@@ -1,0 +1,42 @@
+{
+  "Spacecraft": 2,
+  "ProjectName": "RnDTPIRendezvous",
+  "Group": "R&D",
+  "Name": "TPI Rendezvous",
+  "NameTranslations": {},
+  "CustomName": null,
+  "Side": 1,
+  "SortPriority": 37,
+  "AutoGenerate": false,
+  "checklistText": "TERMINAL PHASE INITIATION & RENDEZVOUS\nNote:\nRequires Computer Fidelity: Advanced.\nThis checklist is for the advanced TPI and Trigger Angle Rendezvous and is under development.\n\nNOMINAL (TERMINAL PHASE INITIATION)\r\n\r\n\tINITIATION CUE - ANGLE/MDU OUTPUT\r\n\r\n\tREQUEST TPI PLAN\r\n\r\n0:00\tAPPLY CIRCULARIZAIONT TRANS (IF REQ)\r\n\tSTART GET\r\n\tAT 0,0,0 ATT, APPLY THRUST TO\r\n\tZERO READOUTS FROM ADD 80,81,82\r\n\tGO TO RDR ACQ ATT, ACQUIRE LOCK-ON\r\n\tFDR - RDR\r\n\tFDM - ATT\r\n\r\n\tATT CNTL - PULSE\r\n\tMAN CONT - OFF\r\n\r\n\tSET E.T. TO 4:00\r\n\tBORESIGHT ON AGENA BY\r\n\tNULLING FDI'S\r\n\r\n4:00\tON MARK (START RNDZ - 5 MINUTES) START E.T UP\r\n\tCOMPUTER - RNDZ\r\n\r\n\t\tNOTE\r\n\tREAD θ(96) AND R(69)\r\n\t(EACH 100 SEC PT)\r\n\r\n\tINPUT WT = 83:13000\r\n\tΔWT = 93:04820\r\n\r\n\tNOTE θ WHICH EXCEEDS 20.1° AND\r\n\tCIRCLE IT. IF CIRCLED θ IS\r\n\tNEARER 20.1° THAN 21.4°, LABEL IT\r\n\tPT A. IF NOT, LABEL IT PT B AND\r\n\tTHE PREVIOUS ONE PT A. ADD 3:20\r\n\tTO PT A TIME TO OBTAIN TIME OF \r\n\tPT C. CIRCULATE GET RESET TIME\r\n\tBY ADDING 4:30 TO PT C TIME.\r\n\r\n\t3:20 AFTER PT A (PT C), READ θ(96)\r\n\tAND R(69)\r\n\tAFTER PT C, START COMP - PUSH\r\n\tCALCULATE ΔR AND Δθ CORR\r\n\r\n\tATT CNTL - RATE CMD\r\n\tMAN CONT - ON\r\n\r\n\tCOMP LITE ON NOMINALLY 03:50\r\n\tAFTER PT C, THEN\r\n\tSTART THRUST\r\n\tTO ZERO IVI\r\n\t(S/C BORESIGHT ON AGENA)\r\n\r\n\r\nNOMINAL (82° CORRECTION)\r\n0:00\t\n\tRESTART DET AT CALC TIME\r\n\tAFTER THRUST\r\n\tMAN CONT - OFF\r\n\tATT CONT - PULSE\r\n\tGET E.T TO 02:00 & STBY\r\n\r\n2:00\t\n\tON MARK (P) START E.T U\r\n\r\n3:00\t\n\tREAD R(69)\r\n\r\n4:00\r\n\r\n5:00\r\t\n\tZERO ADD 25, 26, 27\r\n\tENCDR - ON\r\n\tSEND CMD 270 (SPIRAL ANT SEL)\r\n\tENCDR - OFF\r\n\r\n7:00\t\n\tREAD θ (96)\r\n\r\n10:00\n\tREAD θ (96)\r\n\r\n10:20\t\r\n\tATT CNTL - RATE CMD\r\n\tMAN CONT - ON\r\n\r\n\tBORESIGHT ON AGENA\r\n\r\n11:40\t\n\t82° CORR APPLY THRUST\r\n\tWHEN IVI STOP COUNT\r\n\tREAD R(69)\r\n\r\n\tMAN CONT - OFF\r\n\tATT CNTL - PULSE\r\n\r\n\r\nNOMINAL (34° CORRECTION)\r\n13:00\r\n\r\n15:00\n\tREAD R(69)\r\n\r\n\r\n17:00\t\r\n\tZERO ADD 25,26,27\r\n\r\n19:00\n\tREAD θ (96)\r\n\r\n22:00\n\tREAD θ (96)\r\n\r\n22:20\r\n\tATT CNTL - RATE CMD\r\n\tMAN CONT -ON\r\n\r\n\tBORESIGHT ON AGENA\r\n\n23:40\n\t34° CORR APPLY THRUST\r\n\r\n\tWHEN IVI STOP COUNTING\r\n\tRAD R(69)\r\n\tCOMP - CATCH-UP\r\n\tZERO ADD 25,26,27\r\n\tSTAR COMP - PUSH\r\n\r\n\tBORESIGHT ON AGENA\r\n\r\n\tIF REQ CAGE & FREE PLAT\r\n\tNULL LOS MOTIONS\r\n\r\n\t40>R dot>25 AT R = 15,000FT\r\n\tAT 3,000 FT, REDUCE R dot TO\r\n\t4 FT/S\r\n\tAT 500 FT, DOCKING LT - ON\r\n\tAT 100 FT, REDUCE R TO\r\n\t1/2 FT/S\r\n\r\n\tAT 50 FEED, RDR - OFF\r\n\tENCDR - ON\r\n\tCMD 250 (ACQ LTG - OFF) WHEN \r\n\tREQ\r\n\n\n\n\nHOW TO FILL OUT TERMINAL PHASE INITIATION FORM\n\r\n\n\n\n\n\n\n\n<image>\n\n\n\n\n\n\n\n\nTERMINAL PHASE INITIATION - NOMINAL\r\n\r\nPREPARE FOR RENDEZVOUS\r\n    ACQUIRE RADAR LOCK-ON\r\n\r\n    BORESIGHT TARGET\r\n        Maintain target near center of sight.\r\n\r\n    COMPUTER - RNDZ\r\n    START - PRESS\r\n        Starts RNDZ program.\r\n\r\n    CORE 83 (W_TPR) - 130.00°\r\n    CORE 93 (ΔW_T)  - 48.20°\r\n\r\n\r\nMONITOR RADAR DATA\r\n    At each 100-second radar data point:\r\n\r\n        READ AND RECORD:\r\n            θ       CORE 96     Target elevation\r\n            R       CORE 69     Range\r\n            R DOT   CORE 35     Range rate\r\n\r\n        Retain the previous data point.\r\n\r\nIDENTIFY POINT B\r\n    MONITOR θ (96) UNTIL θ EXCEEDS 21.4°\r\n\r\n    When θ first exceeds 21.4°:\r\n        IF θ < 22.2°:\r\n            LABEL CURRENT DATA POINT - B\r\n\r\n        IF θ >= 22.2°:\r\n            LABEL PREVIOUS DATA POINT - B\r\n            LABEL CURRENT DATA POINT  - C\r\n\r\n    RECORD POINT B:\r\n        DET TIME\r\n        θ (96)\r\n        R (69)\r\n        R DOT (35)\r\n\r\nPOINT C\r\n    POINT C - 01:40 AFTER POINT B\r\n\r\n    RECORD:\r\n        DET TIME\r\n        θ (96)\r\n        R (69)\r\n        R DOT (35)\r\n\r\n    AFTER POINT C:\r\n        START COMP - PRESS\r\n\r\n        Closed-loop TPI solution is selected.\r\n        TPI ΔV and maneuver guidance will be displayed.\r\n\r\nPOINT D\r\n    POINT D - 01:40 AFTER POINT C\r\n\r\n    RECORD:\r\n        DET TIME\r\n        θ (96)\r\n        R (69)\r\n        R DOT (35)\r\n\r\n    Point D completes the data required\r\n    for the backup TPI solution.\r\n\r\nCALCULATE TPI TIME\r\n    TPI (\"I\") = POINT D TIME + 02:10\r\n    RECORD \"I\" TIME\r\n\r\nCALCULATE DET RESET TIME\r\n    SET = TPI TIME + 00:40\r\n    RECORD \"SET\" TIME\r\n\r\nBACKUP TPI SOLUTION\r\n    Using recorded B, C and D data:\n        ENTER TERMINAL PHASE INITIATION CHART\r\n\r\n        DETERMINE:\r\n            Range-rate correction\r\n            Normal ΔV correction\r\n            TPI timing correction\r\n\r\n        COMPARE BACKUP SOLUTION WITH:\r\n            OBC solution\r\n            Ground solution\r\n\r\nTERMINAL PHASE INITIATION\r\n    AT TPI (\"I\"):\r\n\r\n        BORESIGHT TARGET\r\n        VERIFY COMP LIGHT - ON\r\n        APPLY THRUST\r\n\r\n        THRUST TO ZERO:\r\n            IVI X\r\n            IVI Y\r\n            IVI Z\r\n\r\nPOST-TPI TIMING\r\n    AT CALCULATED \"SET\" TIME:\r\n        RESTART DET TIMING REFERENCE\r\n\r\n    AFTER TPI THRUST:\r\n        MAN CONT - OFF\r\n        ATT CNTL - PULSE\r\n\r\n        DET - SET 02:00\r\n        DET - STBY\r\n\r\n    AT MARK (P):\r\n        DET - START UP\r\n\r\n    PROCEED TO 82° CORRECTION\n\n\n\nAPPENDIX\nRNDZ PROGRAM FLOW (CLOSED-LOOP RENDEZVOUS)\nAcquire and maintain radar lock.\nComputer collects radar observations at 100-sec intervals for 700 sec.\n\nINITIAL SOLUTION\nΔVT displayed 50 sec.\nIVIs zero for 50 sec.\nAt nominal T_M (C POINT), press START to accept solution.\nIf not accepted, computer obtains another radar observation and updates solution. Record POINT\n\nTPI / ΔVi\nAt START COMP illumination, thrust to drive IVIs to zero.\n\nT_M +150\nTarget-pointing attitude available.\n\nT_M +200 to +320\nMaintain radar lock.\nSeven radar observations at 20-sec intervals.\n\nT_M +320\nFDI guidance zero. Perform platform alignment.\n\nVERNIER −80 SEC\nTerminate platform alignment.\nRealign and maintain target in boresight.\n\nVERNIER\nComputer takes final radar observation and calculates correction.\nWhen correction appears on IVIs, thrust to zero.\nRepeat vernier procedure as required.\n\nFINAL VERNIER +150 SEC\nClosed-loop rendezvous complete.\n\nProceed with terminal rendezvous.\n3000 FT\nInitiate braking.\n1500 FT\nTarget approximately 4 ft/sec closing rate.\nContinue final approach and null relative motion for station keeping.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "Steps": [],
+  "Images": [
+    {
+      "Name": "GeminiComputerProgram.png",
+      "Position": {
+        "x": 0.0,
+        "y": 4540.0,
+        "normalized": {
+          "x": 0.0,
+          "y": 1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 4540.0,
+        "sqrMagnitude": 2.06116E+07
+      },
+      "Size": {
+        "x": 700.0,
+        "y": 700.0,
+        "normalized": {
+          "x": 0.707106769,
+          "y": 0.707106769,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 989.9495,
+        "sqrMagnitude": 980000.0
+      }
+    }
+  ]
+}
